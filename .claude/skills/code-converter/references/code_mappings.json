@@ -1,0 +1,42 @@
+{
+  "S00022": {},
+  "S00026": {},
+  "S00027": {},
+  "S00028": {},
+  "_defaults": {
+    "ISRN_TERM_DVSN_CODE": [
+      "N",
+      "X",
+      "A",
+      "Z",
+      "V",
+      "W",
+      "D",
+      "M"
+    ],
+    "PAYM_TERM_DVSN_CODE": [
+      "N",
+      "X",
+      "A",
+      "Z",
+      "V",
+      "W",
+      "D",
+      "M"
+    ],
+    "PAYM_CYCL_DVSN_CODE": [
+      "M"
+    ],
+    "MINU_GNDR_CODE": [
+      "1",
+      "2"
+    ],
+    "SALE_CHNL_CODE": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "7"
+    ]
+  }
+}

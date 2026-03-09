@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import pdfplumber; print\\(''pdfplumber OK''\\)\")",
+      "Bash(python -c \"import pypdf; print\\(''pypdf OK''\\)\")",
+      "Bash(python -c \":*)",
+      "Bash(python scripts/batch_run.py --no-skip)"
+    ]
+  }
+}

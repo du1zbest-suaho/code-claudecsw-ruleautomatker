@@ -1,0 +1,18 @@
+{
+  "_comment": "상품별 예외 룰. UPPER_OBJECT_CODE를 키로 사용. rule-optimizer가 관리.",
+  "_example": {
+    "2258A01": {
+      "extract_age_table": {
+        "pattern_override": {
+          "regex": "(\\d+)세만기\\s+(\\d+년납)\\s+(\\d+)세[~～](\\d+)세",
+          "groups": {
+            "insurance_period": 1,
+            "payment_period": 2,
+            "min_age": 3,
+            "max_age": 4
+          }
+        }
+      }
+    }
+  }
+}

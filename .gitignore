@@ -1,0 +1,32 @@
+# 데이터 파일 (대용량 / 민감 데이터)
+data/pdf/
+data/existing/
+
+# 생성 결과물
+output/
+
+# Python 캐시
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# 가상환경
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
