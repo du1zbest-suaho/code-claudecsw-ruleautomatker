@@ -1,0 +1,44 @@
+{
+  "table_type": "S00026",
+  "product_code": "1796A01",
+  "run_id": "Wealth단체저축보험_무배당",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "기본형",
+      "insurance_period": "3년만기",
+      "payment_period": "전기납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 68
+    }
+  ],
+  "discrepancies": [],
+  "row_count": 1,
+  "coded_rows": [
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 3,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N3",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 15,
+      "MAX_AG": 68,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "3년만기",
+        "payment_period": "전기납",
+        "gender": "남녀공통",
+        "min_age": 15,
+        "max_age": 68
+      }
+    }
+  ],
+  "convert_errors": [],
+  "convert_error_count": 0
+}

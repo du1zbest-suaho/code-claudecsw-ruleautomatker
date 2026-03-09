@@ -1,0 +1,262 @@
+{
+  "2246A01": [
+    {
+      "MINU_GNDR": "1",
+      "MIN_AG": "15",
+      "MAX_AG": "69",
+      "MIN_PAYM": "20",
+      "PAYM_DVD": "N",
+      "MIN_ISRN": "90",
+      "ISRN_DVD": "X"
+    },
+    {
+      "MINU_GNDR": "2",
+      "MIN_AG": "15",
+      "MAX_AG": "80",
+      "MIN_PAYM": "10",
+      "PAYM_DVD": "N",
+      "MIN_ISRN": "100",
+      "ISRN_DVD": "X"
+    },
+    {
+      "MINU_GNDR": "1",
+      "MIN_AG": "15",
+      "MAX_AG": "80",
+      "MIN_PAYM": "15",
+      "PAYM_DVD": "N",
+      "MIN_ISRN": "110",
+      "ISRN_DVD": "X"
+    },
+    {
+      "MINU_GNDR": "2",
+      "MIN_AG": "15",
+      "MAX_AG": "69",
+      "MIN_PAYM": "20",
+      "PAYM_DVD": "N",
+      "MIN_ISRN": "90",
+      "ISRN_DVD": "X"
+    },
+    {
+      "MINU_GNDR": "2",
+      "MIN_AG": "15",
+      "MAX_AG": "79",
+      "MIN_PAYM": "10",
+      "PAYM_DVD": "N",
+      "MIN_ISRN": "90",
+      "ISRN_DVD": "X"
+    },
+    {
+      "MINU_GNDR": "2",
+      "MIN_AG": "15",
+      "MAX_AG": "79",
+      "MIN_PAYM": "20",
+      "PAYM_DVD": "N",
+      "MIN_ISRN": "100",
+      "ISRN_DVD": "X"
+    },
+    {
+      "MINU_GNDR": "1",
+      "MIN_AG": "15",
+      "MAX_AG": "79",
+      "MIN_PAYM": "10",
+      "PAYM_DVD": "N",
+      "MIN_ISRN": "90",
+      "ISRN_DVD": "X"
+    },
+    {
+      "MINU_GNDR": "2",
+      "MIN_AG": "15",
+      "MAX_AG": "74",
+      "MIN_PAYM": "15",
+      "PAYM_DVD": "N",
+      "MIN_ISRN": "90",
+      "ISRN_DVD": "X"
+    },
+    {
+      "MINU_GNDR": "2",
+      "MIN_AG": "15",
+      "MAX_AG": "80",
+      "MIN_PAYM": "15",
+      "PAYM_DVD": "N",
+      "MIN_ISRN": "110",
+      "ISRN_DVD": "X"
+    },
+    {
+      "MINU_GNDR": "2",
+      "MIN_AG": "15",
+      "MAX_AG": "80",
+      "MIN_PAYM": "20",
+      "PAYM_DVD": "N",
+      "MIN_ISRN": "110",
+      "ISRN_DVD": "X"
+    }
+  ],
+  "2242A01": [
+    {
+      "MINU_GNDR": "2",
+      "MIN_AG": "45",
+      "MAX_AG": "75",
+      "MIN_PAYM": "90",
+      "PAYM_DVD": "X",
+      "MIN_ISRN": "90",
+      "ISRN_DVD": "X"
+    },
+    {
+      "MINU_GNDR": "1",
+      "MIN_AG": "27",
+      "MAX_AG": "75",
+      "MIN_PAYM": "90",
+      "PAYM_DVD": "X",
+      "MIN_ISRN": "90",
+      "ISRN_DVD": "X"
+    }
+  ],
+  "2130A01": [
+    {
+      "MINU_GNDR": "2",
+      "MIN_AG": "15",
+      "MAX_AG": "71",
+      "MIN_PAYM": "15",
+      "PAYM_DVD": "N",
+      "MIN_ISRN": "",
+      "ISRN_DVD": ""
+    },
+    {
+      "MINU_GNDR": "2",
+      "MIN_AG": "15",
+      "MAX_AG": "71",
+      "MIN_PAYM": "20",
+      "PAYM_DVD": "N",
+      "MIN_ISRN": "",
+      "ISRN_DVD": ""
+    },
+    {
+      "MINU_GNDR": "1",
+      "MIN_AG": "15",
+      "MAX_AG": "65",
+      "MIN_PAYM": "15",
+      "PAYM_DVD": "N",
+      "MIN_ISRN": "",
+      "ISRN_DVD": ""
+    },
+    {
+      "MINU_GNDR": "1",
+      "MIN_AG": "15",
+      "MAX_AG": "65",
+      "MIN_PAYM": "20",
+      "PAYM_DVD": "N",
+      "MIN_ISRN": "",
+      "ISRN_DVD": ""
+    },
+    {
+      "MINU_GNDR": "1",
+      "MIN_AG": "15",
+      "MAX_AG": "75",
+      "MIN_PAYM": "10",
+      "PAYM_DVD": "N",
+      "MIN_ISRN": "",
+      "ISRN_DVD": ""
+    },
+    {
+      "MINU_GNDR": "2",
+      "MIN_AG": "15",
+      "MAX_AG": "79",
+      "MIN_PAYM": "10",
+      "PAYM_DVD": "N",
+      "MIN_ISRN": "",
+      "ISRN_DVD": ""
+    }
+  ],
+  "2244A01": [
+    {
+      "MINU_GNDR": "2",
+      "MIN_AG": "15",
+      "MAX_AG": "999",
+      "MIN_PAYM": "",
+      "PAYM_DVD": "",
+      "MIN_ISRN": "",
+      "ISRN_DVD": ""
+    },
+    {
+      "MINU_GNDR": "1",
+      "MIN_AG": "15",
+      "MAX_AG": "999",
+      "MIN_PAYM": "",
+      "PAYM_DVD": "",
+      "MIN_ISRN": "",
+      "ISRN_DVD": ""
+    },
+    {
+      "MINU_GNDR": "1",
+      "MIN_AG": "15",
+      "MAX_AG": "999",
+      "MIN_PAYM": "",
+      "PAYM_DVD": "",
+      "MIN_ISRN": "",
+      "ISRN_DVD": ""
+    },
+    {
+      "MINU_GNDR": "2",
+      "MIN_AG": "15",
+      "MAX_AG": "999",
+      "MIN_PAYM": "",
+      "PAYM_DVD": "",
+      "MIN_ISRN": "",
+      "ISRN_DVD": ""
+    },
+    {
+      "MINU_GNDR": "1",
+      "MIN_AG": "15",
+      "MAX_AG": "79",
+      "MIN_PAYM": "20",
+      "PAYM_DVD": "N",
+      "MIN_ISRN": "100",
+      "ISRN_DVD": "X"
+    },
+    {
+      "MINU_GNDR": "2",
+      "MIN_AG": "15",
+      "MAX_AG": "80",
+      "MIN_PAYM": "15",
+      "PAYM_DVD": "N",
+      "MIN_ISRN": "100",
+      "ISRN_DVD": "X"
+    },
+    {
+      "MINU_GNDR": "1",
+      "MIN_AG": "15",
+      "MAX_AG": "80",
+      "MIN_PAYM": "10",
+      "PAYM_DVD": "N",
+      "MIN_ISRN": "100",
+      "ISRN_DVD": "X"
+    },
+    {
+      "MINU_GNDR": "2",
+      "MIN_AG": "15",
+      "MAX_AG": "80",
+      "MIN_PAYM": "10",
+      "PAYM_DVD": "N",
+      "MIN_ISRN": "100",
+      "ISRN_DVD": "X"
+    },
+    {
+      "MINU_GNDR": "2",
+      "MIN_AG": "15",
+      "MAX_AG": "79",
+      "MIN_PAYM": "20",
+      "PAYM_DVD": "N",
+      "MIN_ISRN": "100",
+      "ISRN_DVD": "X"
+    },
+    {
+      "MINU_GNDR": "1",
+      "MIN_AG": "15",
+      "MAX_AG": "80",
+      "MIN_PAYM": "15",
+      "PAYM_DVD": "N",
+      "MIN_ISRN": "100",
+      "ISRN_DVD": "X"
+    }
+  ]
+}

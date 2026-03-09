@@ -1,0 +1,19 @@
+{
+  "table_type": "S00026",
+  "product_code": "2243A03",
+  "run_id": "batch_rerun",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "1종(5%체증형, 해약환급금 일부지급형)",
+      "insurance_period": "90세만기",
+      "payment_period": "일시납",
+      "gender": "남녀공통",
+      "min_age": 0,
+      "max_age": 31
+    }
+  ],
+  "row_count": 1
+}

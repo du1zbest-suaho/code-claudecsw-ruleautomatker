@@ -1,0 +1,36 @@
+{
+  "table_type": "S00026",
+  "product_code": "1808A01",
+  "run_id": "노후실손의료비보장보험_갱신형_무배당",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "기본형",
+      "insurance_period": "1년만기",
+      "payment_period": "전기납",
+      "gender": "남녀공통",
+      "min_age": 50,
+      "max_age": 90
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "1년만기",
+      "payment_period": "전기납",
+      "gender": "남녀공통",
+      "min_age": 51,
+      "max_age": 92
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "1년만기",
+      "payment_period": "전기납",
+      "gender": "남녀공통",
+      "min_age": 53,
+      "max_age": 109
+    }
+  ],
+  "discrepancies": [],
+  "row_count": 3
+}

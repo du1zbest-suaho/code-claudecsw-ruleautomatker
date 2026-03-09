@@ -1,0 +1,162 @@
+{
+  "table_type": "S00027",
+  "product_code": "2170A01",
+  "run_id": "H보장보험Ⅰ_무배당",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "간편가입형(2년)",
+      "insurance_period": "90세만기",
+      "payment_period": "5년납"
+    },
+    {
+      "sub_type": "간편가입형(2년)",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "간편가입형(2년)",
+      "insurance_period": "90세만기",
+      "payment_period": "15년납"
+    },
+    {
+      "sub_type": "간편가입형(2년)",
+      "insurance_period": "90세만기",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "간편가입형(2년)",
+      "insurance_period": "90세만기",
+      "payment_period": "30년납"
+    },
+    {
+      "sub_type": "간편가입형(2년)",
+      "insurance_period": "100세만기",
+      "payment_period": "5년납"
+    },
+    {
+      "sub_type": "간편가입형(2년)",
+      "insurance_period": "100세만기",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "간편가입형(2년)",
+      "insurance_period": "100세만기",
+      "payment_period": "15년납"
+    },
+    {
+      "sub_type": "간편가입형(2년)",
+      "insurance_period": "100세만기",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "간편가입형(2년)",
+      "insurance_period": "100세만기",
+      "payment_period": "30년납"
+    },
+    {
+      "sub_type": "간편가입형",
+      "insurance_period": "90세만기",
+      "payment_period": "5년납"
+    },
+    {
+      "sub_type": "간편가입형",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "간편가입형",
+      "insurance_period": "90세만기",
+      "payment_period": "15년납"
+    },
+    {
+      "sub_type": "간편가입형",
+      "insurance_period": "90세만기",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "간편가입형",
+      "insurance_period": "90세만기",
+      "payment_period": "30년납"
+    },
+    {
+      "sub_type": "간편가입형",
+      "insurance_period": "100세만기",
+      "payment_period": "5년납"
+    },
+    {
+      "sub_type": "간편가입형",
+      "insurance_period": "100세만기",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "간편가입형",
+      "insurance_period": "100세만기",
+      "payment_period": "15년납"
+    },
+    {
+      "sub_type": "간편가입형",
+      "insurance_period": "100세만기",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "간편가입형",
+      "insurance_period": "100세만기",
+      "payment_period": "30년납"
+    },
+    {
+      "sub_type": "일반가입형",
+      "insurance_period": "90세만기",
+      "payment_period": "5년납"
+    },
+    {
+      "sub_type": "일반가입형",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "일반가입형",
+      "insurance_period": "90세만기",
+      "payment_period": "15년납"
+    },
+    {
+      "sub_type": "일반가입형",
+      "insurance_period": "90세만기",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "일반가입형",
+      "insurance_period": "90세만기",
+      "payment_period": "30년납"
+    },
+    {
+      "sub_type": "일반가입형",
+      "insurance_period": "100세만기",
+      "payment_period": "5년납"
+    },
+    {
+      "sub_type": "일반가입형",
+      "insurance_period": "100세만기",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "일반가입형",
+      "insurance_period": "100세만기",
+      "payment_period": "15년납"
+    },
+    {
+      "sub_type": "일반가입형",
+      "insurance_period": "100세만기",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "일반가입형",
+      "insurance_period": "100세만기",
+      "payment_period": "30년납"
+    }
+  ],
+  "discrepancies": [],
+  "row_count": 30
+}

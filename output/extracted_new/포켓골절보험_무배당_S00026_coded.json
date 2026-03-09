@@ -1,0 +1,30 @@
+{
+  "table_type": "S00026",
+  "product_code": "포켓골절보험_무배당",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "raw_data": [
+    {
+      "sub_type": "기본형",
+      "insurance_period": "1년만기",
+      "payment_period": "일시납",
+      "gender": "남녀공통",
+      "min_age": 19,
+      "max_age": 65
+    }
+  ],
+  "row_count": 1,
+  "coded_data": [
+    {
+      "error": "convert_s00026() takes 1 positional argument but 2 were given",
+      "raw": {
+        "sub_type": "기본형",
+        "insurance_period": "1년만기",
+        "payment_period": "일시납",
+        "gender": "남녀공통",
+        "min_age": 19,
+        "max_age": 65
+      }
+    }
+  ]
+}

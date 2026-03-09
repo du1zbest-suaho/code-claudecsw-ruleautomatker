@@ -1,0 +1,34 @@
+포켓골절보험_무배당: 1행
+  {'sub_type': '기본형', 'insurance_period': '1년만기', 'payment_period': '일시납', 'gender': '남녀공통', 'min_age': 19, 'max_age': 65}
+
+H_기업재해보장보험_무배당: 2행
+  {'sub_type': '1종(순수형)', 'insurance_period': '3년만기', 'payment_period': '전기납', 'gender': '남녀공통', 'min_age': 15, 'max_age': 70}
+  {'sub_type': '1종(순수형)', 'insurance_period': '3년만기', 'payment_period': '전기납', 'gender': '남녀공통', 'min_age': 15, 'max_age': 70}
+
+튼튼이_치아보험_갱신형_무배당: 4행
+  {'sub_type': '기본형', 'insurance_period': '5년만기', 'payment_period': '전기납', 'gender': '남녀공통', 'min_age': 6, 'max_age': 70}
+  {'sub_type': '기본형', 'insurance_period': '5년만기', 'payment_period': '전기납', 'gender': '남녀공통', 'min_age': 0, 'max_age': 70}
+  {'sub_type': '기본형', 'insurance_period': '5년만기', 'payment_period': '전기납', 'gender': '남녀공통', 'min_age': 20, 'max_age': 70}
+
+간편가입_H종신보험_무배당: 6행
+  {'sub_type': '1종(기본납입면제형)', 'insurance_period': '종신', 'payment_period': '5년납', 'gender': '남자', 'min_age': 15, 'max_age': 64}
+  {'sub_type': '1종(기본납입면제형)', 'insurance_period': '종신', 'payment_period': '5년납', 'gender': '여자', 'min_age': 15, 'max_age': 64}
+  {'sub_type': '1종(기본납입면제형)', 'insurance_period': '종신', 'payment_period': '7년납', 'gender': '남자', 'min_age': 15, 'max_age': 62}
+
+제로백H종신보험_무배당: 4행
+  {'sub_type': '1종(해약환급금 일부지급형Ⅰ)', 'insurance_period': '종신', 'payment_period': '10년납', 'gender': '남자', 'min_age': 15, 'max_age': 66}
+  {'sub_type': '1종(해약환급금 일부지급형Ⅰ)', 'insurance_period': '종신', 'payment_period': '10년납', 'gender': '여자', 'min_age': 15, 'max_age': 69}
+  {'sub_type': '1종(해약환급금 일부지급형Ⅰ)', 'insurance_period': '종신', 'payment_period': '20년납', 'gender': '남자', 'min_age': 15, 'max_age': 66}
+
+하나로H종신보험_무배당: 6행
+  {'sub_type': '1종(해약환급금 일부지급형Ⅰ)', 'insurance_period': '종신', 'payment_period': '10년납', 'gender': '남자', 'min_age': 15, 'max_age': 60}
+  {'sub_type': '1종(해약환급금 일부지급형Ⅰ)', 'insurance_period': '종신', 'payment_period': '10년납', 'gender': '여자', 'min_age': 15, 'max_age': 60}
+  {'sub_type': '1종(해약환급금 일부지급형Ⅰ)', 'insurance_period': '종신', 'payment_period': '15년납', 'gender': '남자', 'min_age': 15, 'max_age': 60}
+
+Wealth단체저축보험_무배당: 16행
+  {'sub_type': '기본형', 'insurance_period': '80세만기', 'payment_period': '5년납', 'gender': '남녀공통', 'min_age': 15, 'max_age': 75}
+  {'sub_type': '기본형', 'insurance_period': '3년만기', 'payment_period': '10년납', 'gender': '남녀공통', 'min_age': 15, 'max_age': 75}
+  {'sub_type': '기본형', 'insurance_period': '3년만기', 'payment_period': '전기납', 'gender': '남녀공통', 'min_age': 15, 'max_age': 68}
+
+기업복지라이프플랜보험_무배당: 1행
+  {'sub_type': '기본형', 'insurance_period': '1년만기', 'payment_period': '전기납', 'gender': '남녀공통', 'min_age': 15, 'max_age': 80}

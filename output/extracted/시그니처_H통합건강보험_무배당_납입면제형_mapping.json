@@ -1,0 +1,69 @@
+{
+  "product_mappings": [
+    {
+      "sub_type": "간편가입형(0년)",
+      "upper_object_code": "2257A07",
+      "lower_object_code": "2257007"
+    },
+    {
+      "sub_type": "간편가입형(10년)",
+      "upper_object_code": "2257A06",
+      "lower_object_code": "2257006"
+    },
+    {
+      "sub_type": "간편가입형(1년)",
+      "upper_object_code": "2257A02",
+      "lower_object_code": "2257002"
+    },
+    {
+      "sub_type": "간편가입형(2년)",
+      "upper_object_code": "2257A03",
+      "lower_object_code": "2257003"
+    },
+    {
+      "sub_type": "간편가입형(3년)",
+      "upper_object_code": "2257A04",
+      "lower_object_code": "2257004"
+    },
+    {
+      "sub_type": "간편가입형(4년)",
+      "upper_object_code": "2257A05",
+      "lower_object_code": "2257005"
+    },
+    {
+      "sub_type": "간편가입형(5년)",
+      "upper_object_code": "2257A01",
+      "lower_object_code": "2257001"
+    },
+    {
+      "sub_type": "건강가입형(10년)",
+      "upper_object_code": "2257A13",
+      "lower_object_code": "2257013"
+    },
+    {
+      "sub_type": "건강가입형(6년)",
+      "upper_object_code": "2257A09",
+      "lower_object_code": "2257009"
+    },
+    {
+      "sub_type": "건강가입형(7년)",
+      "upper_object_code": "2257A10",
+      "lower_object_code": "2257010"
+    },
+    {
+      "sub_type": "건강가입형(8년)",
+      "upper_object_code": "2257A11",
+      "lower_object_code": "2257011"
+    },
+    {
+      "sub_type": "건강가입형(9년)",
+      "upper_object_code": "2257A12",
+      "lower_object_code": "2257012"
+    },
+    {
+      "sub_type": "납입면제형",
+      "upper_object_code": "2257A08",
+      "lower_object_code": "2257008"
+    }
+  ]
+}

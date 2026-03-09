@@ -1,0 +1,301 @@
+{
+  "table_type": "S00027",
+  "product_code": "1726A01",
+  "run_id": "e정기보험_무배당",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "기본형",
+      "insurance_period": "65세만기",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "65세만기",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "65세만기",
+      "payment_period": "전기납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "70세만기",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "70세만기",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "70세만기",
+      "payment_period": "전기납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "80세만기",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "80세만기",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "80세만기",
+      "payment_period": "전기납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "90세만기",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "90세만기",
+      "payment_period": "전기납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "100세만기",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "100세만기",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "100세만기",
+      "payment_period": "전기납"
+    }
+  ],
+  "discrepancies": [],
+  "row_count": 15,
+  "coded_rows": [
+    {
+      "ISRN_TERM": 65,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X65",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "65세만기",
+        "payment_period": "10년납"
+      }
+    },
+    {
+      "ISRN_TERM": 65,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X65",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "65세만기",
+        "payment_period": "20년납"
+      }
+    },
+    {
+      "ISRN_TERM": 65,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X65",
+      "PAYM_TERM": 65,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X65",
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "65세만기",
+        "payment_period": "전기납"
+      }
+    },
+    {
+      "ISRN_TERM": 70,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X70",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "70세만기",
+        "payment_period": "10년납"
+      }
+    },
+    {
+      "ISRN_TERM": 70,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X70",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "70세만기",
+        "payment_period": "20년납"
+      }
+    },
+    {
+      "ISRN_TERM": 70,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X70",
+      "PAYM_TERM": 70,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X70",
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "70세만기",
+        "payment_period": "전기납"
+      }
+    },
+    {
+      "ISRN_TERM": 80,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X80",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "80세만기",
+        "payment_period": "10년납"
+      }
+    },
+    {
+      "ISRN_TERM": 80,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X80",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "80세만기",
+        "payment_period": "20년납"
+      }
+    },
+    {
+      "ISRN_TERM": 80,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X80",
+      "PAYM_TERM": 80,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X80",
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "80세만기",
+        "payment_period": "전기납"
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "90세만기",
+        "payment_period": "10년납"
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "90세만기",
+        "payment_period": "20년납"
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 90,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X90",
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "90세만기",
+        "payment_period": "전기납"
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "100세만기",
+        "payment_period": "10년납"
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "100세만기",
+        "payment_period": "20년납"
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 100,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X100",
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "100세만기",
+        "payment_period": "전기납"
+      }
+    }
+  ],
+  "convert_errors": [],
+  "convert_error_count": 0
+}

@@ -1,0 +1,41 @@
+{
+  "table_type": "S00026",
+  "product_code": "튼튼이_치아보험_갱신형_무배당",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "raw_data": [
+    {
+      "sub_type": "기본형",
+      "insurance_period": "5년만기",
+      "payment_period": "전기납",
+      "gender": "남녀공통",
+      "min_age": 6,
+      "max_age": 70
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "10년만기",
+      "payment_period": "전기납",
+      "gender": "남녀공통",
+      "min_age": 0,
+      "max_age": 70
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "5년만기",
+      "payment_period": "전기납",
+      "gender": "남녀공통",
+      "min_age": 20,
+      "max_age": 70
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "5년만기",
+      "payment_period": "전기납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 70
+    }
+  ],
+  "row_count": 4
+}

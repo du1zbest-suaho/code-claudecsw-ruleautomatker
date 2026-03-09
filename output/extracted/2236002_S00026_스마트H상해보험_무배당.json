@@ -1,0 +1,211 @@
+{
+  "table_type": "S00026",
+  "product_code": "2236002",
+  "run_id": "batch_rerun",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 76
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 65
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 65
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 65
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 65
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 65
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 76
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 80
+    }
+  ],
+  "row_count": 25
+}

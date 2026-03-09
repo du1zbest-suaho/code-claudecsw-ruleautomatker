@@ -1,0 +1,27 @@
+{
+  "table_type": "S00022",
+  "product_code": "2042A01",
+  "run_id": "스마트하이브리드연금보험_무배당",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "1종(연금강화형)",
+      "min_age": 45,
+      "max_age": 90
+    },
+    {
+      "sub_type": "2종(기본형)",
+      "min_age": 45,
+      "max_age": 90
+    },
+    {
+      "sub_type": "3종(가족사랑형)",
+      "min_age": 45,
+      "max_age": 90
+    }
+  ],
+  "discrepancies": [],
+  "row_count": 3
+}

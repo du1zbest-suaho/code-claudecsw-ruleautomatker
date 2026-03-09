@@ -1,0 +1,36 @@
+{
+  "table_type": "S00026",
+  "product_code": "2130A01",
+  "run_id": "상속H종신보험_무배당",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "1종(기납입플러스형)",
+      "insurance_period": "종신",
+      "payment_period": "10년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "1종(기납입플러스형)",
+      "insurance_period": "종신",
+      "payment_period": "15년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 68
+    },
+    {
+      "sub_type": "1종(기납입플러스형)",
+      "insurance_period": "종신",
+      "payment_period": "20년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 68
+    }
+  ],
+  "discrepancies": [],
+  "row_count": 3
+}

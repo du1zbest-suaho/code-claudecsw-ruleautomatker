@@ -1,0 +1,10 @@
+{
+  "table_type": "S00022",
+  "product_code": "2130A02",
+  "run_id": "batch_rerun",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [],
+  "row_count": 0
+}

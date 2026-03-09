@@ -1,0 +1,39 @@
+{
+  "run_id": "바로연금보험_무배당",
+  "pdf_name": "한화생명 바로연금보험 무배당_사업방법서_20260101~.pdf",
+  "total_pages": 8,
+  "pages": {
+    "1": {
+      "text_path": "output/extracted\\바로연금보험_무배당_page_1.txt",
+      "image_path": null
+    },
+    "2": {
+      "text_path": "output/extracted\\바로연금보험_무배당_page_2.txt",
+      "image_path": null
+    },
+    "3": {
+      "text_path": "output/extracted\\바로연금보험_무배당_page_3.txt",
+      "image_path": null
+    },
+    "4": {
+      "text_path": "output/extracted\\바로연금보험_무배당_page_4.txt",
+      "image_path": null
+    },
+    "5": {
+      "text_path": "output/extracted\\바로연금보험_무배당_page_5.txt",
+      "image_path": null
+    },
+    "6": {
+      "text_path": "output/extracted\\바로연금보험_무배당_page_6.txt",
+      "image_path": null
+    },
+    "7": {
+      "text_path": "output/extracted\\바로연금보험_무배당_page_7.txt",
+      "image_path": null
+    },
+    "8": {
+      "text_path": "output/extracted\\바로연금보험_무배당_page_8.txt",
+      "image_path": null
+    }
+  }
+}

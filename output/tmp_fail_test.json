@@ -1,0 +1,65 @@
+{
+  "2205A01": {
+    "our": 24,
+    "gt": 10,
+    "match": 10,
+    "missing": 0,
+    "pass": true
+  },
+  "2204A01": {
+    "our": 24,
+    "gt": 10,
+    "match": 10,
+    "missing": 0,
+    "pass": true
+  },
+  "2246A01": {
+    "our": 27,
+    "gt": 10,
+    "match": 0,
+    "missing": 10,
+    "pass": false
+  },
+  "2236A01": {
+    "our": 25,
+    "gt": 0,
+    "match": 0,
+    "missing": 0,
+    "pass": true
+  },
+  "2242A01": {
+    "our": 6,
+    "gt": 2,
+    "match": 1,
+    "missing": 1,
+    "pass": false
+  },
+  "2130A01": {
+    "our": 3,
+    "gt": 4,
+    "match": 0,
+    "missing": 4,
+    "pass": false
+  },
+  "2244A01": {
+    "our": 60,
+    "gt": 18,
+    "match": 0,
+    "missing": 18,
+    "pass": false
+  },
+  "2259A01": {
+    "our": 4,
+    "gt": 0,
+    "match": 0,
+    "missing": 0,
+    "pass": true
+  },
+  "2061001": {
+    "our": 15,
+    "gt": 11,
+    "match": 6,
+    "missing": 5,
+    "pass": false
+  }
+}

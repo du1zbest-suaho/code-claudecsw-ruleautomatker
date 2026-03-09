@@ -1,0 +1,60 @@
+{
+  "table_type": "S00026",
+  "product_code": "2242A01",
+  "run_id": "경영인H정기보험_무배당",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "1종(5%체증형)",
+      "insurance_period": "90세만기",
+      "payment_period": "전기납",
+      "gender": "여자",
+      "min_age": 27,
+      "max_age": 75
+    },
+    {
+      "sub_type": "1종(5%체증형)",
+      "insurance_period": "종신",
+      "payment_period": "전기납",
+      "gender": "여자",
+      "min_age": 45,
+      "max_age": 75
+    },
+    {
+      "sub_type": "1종(5%체증형)",
+      "insurance_period": "90세만기",
+      "payment_period": "전기납",
+      "gender": "여자",
+      "min_age": 24,
+      "max_age": 75
+    },
+    {
+      "sub_type": "1종(5%체증형)",
+      "insurance_period": "종신",
+      "payment_period": "전기납",
+      "gender": "여자",
+      "min_age": 36,
+      "max_age": 75
+    },
+    {
+      "sub_type": "1종(5%체증형)",
+      "insurance_period": "90세만기",
+      "payment_period": "일시납",
+      "gender": "여자",
+      "min_age": 24,
+      "max_age": 75
+    },
+    {
+      "sub_type": "1종(5%체증형)",
+      "insurance_period": "종신",
+      "payment_period": "일시납",
+      "gender": "여자",
+      "min_age": 36,
+      "max_age": 75
+    }
+  ],
+  "discrepancies": [],
+  "row_count": 6
+}

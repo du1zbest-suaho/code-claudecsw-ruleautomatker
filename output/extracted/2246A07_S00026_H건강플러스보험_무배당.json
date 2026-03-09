@@ -1,0 +1,227 @@
+{
+  "table_type": "S00026",
+  "product_code": "2246A07",
+  "run_id": "batch_rerun",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "간편가입형(0년)",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형(0년)",
+      "insurance_period": "90세만기",
+      "payment_period": "15년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 74
+    },
+    {
+      "sub_type": "간편가입형(0년)",
+      "insurance_period": "90세만기",
+      "payment_period": "20년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 69
+    },
+    {
+      "sub_type": "간편가입형(0년)",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형(0년)",
+      "insurance_period": "90세만기",
+      "payment_period": "15년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 74
+    },
+    {
+      "sub_type": "간편가입형(0년)",
+      "insurance_period": "90세만기",
+      "payment_period": "20년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 69
+    },
+    {
+      "sub_type": "간편가입형(0년)",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형(0년)",
+      "insurance_period": "90세만기",
+      "payment_period": "15년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 74
+    },
+    {
+      "sub_type": "간편가입형(0년)",
+      "insurance_period": "90세만기",
+      "payment_period": "20년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 69
+    },
+    {
+      "sub_type": "간편가입형(0년)",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형(0년)",
+      "insurance_period": "90세만기",
+      "payment_period": "15년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 74
+    },
+    {
+      "sub_type": "간편가입형(0년)",
+      "insurance_period": "90세만기",
+      "payment_period": "20년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 69
+    },
+    {
+      "sub_type": "간편가입형(0년)",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형(0년)",
+      "insurance_period": "90세만기",
+      "payment_period": "15년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 74
+    },
+    {
+      "sub_type": "간편가입형(0년)",
+      "insurance_period": "90세만기",
+      "payment_period": "20년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 69
+    },
+    {
+      "sub_type": "간편가입형(0년)",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형(0년)",
+      "insurance_period": "90세만기",
+      "payment_period": "15년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 74
+    },
+    {
+      "sub_type": "간편가입형(0년)",
+      "insurance_period": "90세만기",
+      "payment_period": "20년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 69
+    },
+    {
+      "sub_type": "간편가입형(0년)",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형(0년)",
+      "insurance_period": "90세만기",
+      "payment_period": "15년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 74
+    },
+    {
+      "sub_type": "간편가입형(0년)",
+      "insurance_period": "90세만기",
+      "payment_period": "20년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 69
+    },
+    {
+      "sub_type": "간편가입형(0년)",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형(0년)",
+      "insurance_period": "90세만기",
+      "payment_period": "15년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 74
+    },
+    {
+      "sub_type": "간편가입형(0년)",
+      "insurance_period": "90세만기",
+      "payment_period": "20년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 69
+    },
+    {
+      "sub_type": "간편가입형(0년)",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형(0년)",
+      "insurance_period": "90세만기",
+      "payment_period": "15년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 74
+    },
+    {
+      "sub_type": "간편가입형(0년)",
+      "insurance_period": "90세만기",
+      "payment_period": "20년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 69
+    }
+  ],
+  "row_count": 27
+}

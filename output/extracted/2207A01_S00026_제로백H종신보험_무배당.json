@@ -1,0 +1,44 @@
+{
+  "table_type": "S00026",
+  "product_code": "2207A01",
+  "run_id": "제로백H종신보험_무배당",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
+      "insurance_period": "종신",
+      "payment_period": "10년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 66
+    },
+    {
+      "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
+      "insurance_period": "종신",
+      "payment_period": "10년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 69
+    },
+    {
+      "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
+      "insurance_period": "종신",
+      "payment_period": "20년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 66
+    },
+    {
+      "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
+      "insurance_period": "종신",
+      "payment_period": "20년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 69
+    }
+  ],
+  "discrepancies": [],
+  "row_count": 4
+}

@@ -1,0 +1,39 @@
+{
+  "product_mappings": [
+    {
+      "sub_type": "1종(기본납입면제형) 해약환급금 일부지급형Ⅰ",
+      "upper_object_code": "2209A01",
+      "lower_object_code": "2209001"
+    },
+    {
+      "sub_type": "1종(기본납입면제형) 해약환급금 일부지급형Ⅱ",
+      "upper_object_code": "2209A03",
+      "lower_object_code": "2209003"
+    },
+    {
+      "sub_type": "2종(3대질병납입면제형) 해약환급금 일부지급형Ⅰ",
+      "upper_object_code": "2209A05",
+      "lower_object_code": "2209005"
+    },
+    {
+      "sub_type": "2종(3대질병납입면제형) 해약환급금 일부지급형Ⅱ",
+      "upper_object_code": "2209A07",
+      "lower_object_code": "2209007"
+    },
+    {
+      "sub_type": "적립형 계약 보장형 계약 피보험자",
+      "upper_object_code": "2209A09",
+      "lower_object_code": "2209009"
+    },
+    {
+      "sub_type": "스마트전환형 계약 해약환급금 보증 보장형 계약 피보험자",
+      "upper_object_code": "2209A10",
+      "lower_object_code": "2209010"
+    },
+    {
+      "sub_type": "스마트전환형 계약 해약환급금 미보증 보장형 계약 피보험자",
+      "upper_object_code": "2209A14",
+      "lower_object_code": "2209014"
+    }
+  ]
+}

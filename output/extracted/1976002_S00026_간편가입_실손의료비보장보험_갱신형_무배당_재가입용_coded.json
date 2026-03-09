@@ -1,0 +1,70 @@
+{
+  "table_type": "S00026",
+  "product_code": "1976002",
+  "run_id": "batch_rerun",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "기본형",
+      "insurance_period": "1년만기",
+      "payment_period": "전기납",
+      "gender": "남녀공통",
+      "min_age": 8,
+      "max_age": 109
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "1년만기",
+      "payment_period": "전기납",
+      "gender": "남녀공통",
+      "min_age": 9,
+      "max_age": 109
+    }
+  ],
+  "row_count": 2,
+  "coded_rows": [
+    {
+      "ISRN_TERM": 1,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N1",
+      "PAYM_TERM": 1,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N1",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 8,
+      "MAX_AG": 109,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "1년만기",
+        "payment_period": "전기납",
+        "gender": "남녀공통",
+        "min_age": 8,
+        "max_age": 109
+      }
+    },
+    {
+      "ISRN_TERM": 1,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N1",
+      "PAYM_TERM": 1,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N1",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 9,
+      "MAX_AG": 109,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "1년만기",
+        "payment_period": "전기납",
+        "gender": "남녀공통",
+        "min_age": 9,
+        "max_age": 109
+      }
+    }
+  ],
+  "convert_error_count": 0
+}

@@ -1,0 +1,107 @@
+{
+  "table_type": "S00026",
+  "product_code": "2259804",
+  "run_id": "batch_rerun",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "종신연금형(개인형)",
+      "insurance_period": "종신",
+      "payment_period": "일시납",
+      "gender": "남녀공통",
+      "min_age": 45,
+      "max_age": 85
+    },
+    {
+      "sub_type": "종신연금형(신부부형)",
+      "insurance_period": "종신",
+      "payment_period": "일시납",
+      "gender": "남녀공통",
+      "min_age": 48,
+      "max_age": 85
+    },
+    {
+      "sub_type": "확정기간연금형(5년형)",
+      "insurance_period": "종신",
+      "payment_period": "일시납",
+      "gender": "남녀공통",
+      "min_age": 45,
+      "max_age": 85
+    },
+    {
+      "sub_type": "확정기간연금형(10년형)",
+      "insurance_period": "종신",
+      "payment_period": "일시납",
+      "gender": "남녀공통",
+      "min_age": 45,
+      "max_age": 85
+    },
+    {
+      "sub_type": "확정기간연금형(15년형)",
+      "insurance_period": "종신",
+      "payment_period": "일시납",
+      "gender": "남녀공통",
+      "min_age": 45,
+      "max_age": 85
+    },
+    {
+      "sub_type": "확정기간연금형(20년형)",
+      "insurance_period": "종신",
+      "payment_period": "일시납",
+      "gender": "남녀공통",
+      "min_age": 45,
+      "max_age": 85
+    },
+    {
+      "sub_type": "종신연금형(개인형)",
+      "insurance_period": "종신",
+      "payment_period": "일시납",
+      "gender": "남녀공통",
+      "min_age": 45,
+      "max_age": 85
+    },
+    {
+      "sub_type": "종신연금형(신부부형)",
+      "insurance_period": "종신",
+      "payment_period": "일시납",
+      "gender": "남녀공통",
+      "min_age": 48,
+      "max_age": 85
+    },
+    {
+      "sub_type": "확정기간연금형(5년형)",
+      "insurance_period": "종신",
+      "payment_period": "일시납",
+      "gender": "남녀공통",
+      "min_age": 45,
+      "max_age": 85
+    },
+    {
+      "sub_type": "확정기간연금형(10년형)",
+      "insurance_period": "종신",
+      "payment_period": "일시납",
+      "gender": "남녀공통",
+      "min_age": 45,
+      "max_age": 85
+    },
+    {
+      "sub_type": "확정기간연금형(15년형)",
+      "insurance_period": "종신",
+      "payment_period": "일시납",
+      "gender": "남녀공통",
+      "min_age": 45,
+      "max_age": 85
+    },
+    {
+      "sub_type": "확정기간연금형(20년형)",
+      "insurance_period": "종신",
+      "payment_period": "일시납",
+      "gender": "남녀공통",
+      "min_age": 45,
+      "max_age": 85
+    }
+  ],
+  "row_count": 12
+}

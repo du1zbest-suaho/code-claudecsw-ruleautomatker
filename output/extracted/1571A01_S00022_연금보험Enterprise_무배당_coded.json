@@ -1,0 +1,31 @@
+{
+  "table_type": "S00022",
+  "product_code": "1571A01",
+  "run_id": "연금보험Enterprise_무배당",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "기본형",
+      "min_age": 45,
+      "max_age": 80
+    }
+  ],
+  "discrepancies": [],
+  "row_count": 1,
+  "coded_rows": [
+    {
+      "MIN_AG": 45,
+      "MAX_AG": 80,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "min_age": 45,
+        "max_age": 80
+      }
+    }
+  ],
+  "convert_errors": [],
+  "convert_error_count": 0
+}

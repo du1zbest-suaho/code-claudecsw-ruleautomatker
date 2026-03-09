@@ -1,0 +1,72 @@
+{
+  "table_type": "S00027",
+  "product_code": "2205A01",
+  "run_id": "간편가입_시그니처H암보험_무배당",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "기본형",
+      "insurance_period": "90세만기",
+      "payment_period": "5년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "90세만기",
+      "payment_period": "7년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "90세만기",
+      "payment_period": "15년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "90세만기",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "90세만기",
+      "payment_period": "30년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "100세만기",
+      "payment_period": "5년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "100세만기",
+      "payment_period": "7년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "100세만기",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "100세만기",
+      "payment_period": "15년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "100세만기",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "100세만기",
+      "payment_period": "30년납"
+    }
+  ],
+  "discrepancies": [],
+  "row_count": 12
+}

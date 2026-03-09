@@ -1,0 +1,22 @@
+{
+  "run_id": "20260306_235639",
+  "product": "한화생명 H종신보험 무배당",
+  "isrn_kind_dtcd": "2209",
+  "table_type": "S00026",
+  "summary": {
+    "total_db_rows": 34,
+    "match": 6,
+    "mismatch_expected": 8,
+    "mismatch_analysis": "비교형(짝수 A코드) MIN_AG=20 vs PDF=15세 → 시스템 생성 비교형, PDF 미기재",
+    "not_compared": 18,
+    "not_compared_reason": "스마트전환형/적립형 – 납입기간 키 없음, 별도 비교 필요"
+  },
+  "pass": false,
+  "findings": [
+    "1종/2종 표준형(A01,A05,A07) 가입나이 완전 일치",
+    "비교형(A02,A04,A06,A08) MIN_AG 차이 – DB=20세, PDF=15세 (비교형은 PDF에 별도 기재 없음, 시스템 관리 항목으로 판단)",
+    "A03 비교 충돌 – 1종/2종이 동일 납입기간(N7) 공유하여 비교 키 중복",
+    "적립형(A09)/스마트전환형(A10-A17) 비교 미수행 – 납입기간 없음(일시납/종신납으로 별도 처리 필요)"
+  ],
+  "recommendation": "비교형 MIN_AG=20 규칙을 extraction_rules에 추가하거나 별도 예외 처리 대상으로 등록"
+}

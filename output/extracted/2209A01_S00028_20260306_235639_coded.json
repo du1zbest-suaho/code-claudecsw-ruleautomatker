@@ -1,0 +1,99 @@
+{
+  "table_type": "S00028",
+  "product_code": "2209",
+  "run_id": "20260306_235639",
+  "source": "llm_extraction",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "1종(기본납입면제형) 해약환급금 일부지급형Ⅰ",
+      "payment_cycle": "월납"
+    },
+    {
+      "sub_type": "1종(기본납입면제형) 해약환급금 일부지급형Ⅱ",
+      "payment_cycle": "월납"
+    },
+    {
+      "sub_type": "2종(3대질병납입면제형) 해약환급금 일부지급형Ⅰ",
+      "payment_cycle": "월납"
+    },
+    {
+      "sub_type": "2종(3대질병납입면제형) 해약환급금 일부지급형Ⅱ",
+      "payment_cycle": "월납"
+    },
+    {
+      "sub_type": "적립형 계약",
+      "payment_cycle": "월납"
+    },
+    {
+      "sub_type": "스마트전환형 계약",
+      "payment_cycle": "일시납"
+    }
+  ],
+  "discrepancies": [],
+  "coded_rows": [
+    {
+      "PAYM_CYCL_VAL": 1,
+      "PAYM_CYCL_DVSN_CODE": "M",
+      "PAYM_CYCL_INQY_CODE": "M1",
+      "sub_type": "1종(기본납입면제형) 해약환급금 일부지급형Ⅰ",
+      "_raw": {
+        "sub_type": "1종(기본납입면제형) 해약환급금 일부지급형Ⅰ",
+        "payment_cycle": "월납"
+      }
+    },
+    {
+      "PAYM_CYCL_VAL": 1,
+      "PAYM_CYCL_DVSN_CODE": "M",
+      "PAYM_CYCL_INQY_CODE": "M1",
+      "sub_type": "1종(기본납입면제형) 해약환급금 일부지급형Ⅱ",
+      "_raw": {
+        "sub_type": "1종(기본납입면제형) 해약환급금 일부지급형Ⅱ",
+        "payment_cycle": "월납"
+      }
+    },
+    {
+      "PAYM_CYCL_VAL": 1,
+      "PAYM_CYCL_DVSN_CODE": "M",
+      "PAYM_CYCL_INQY_CODE": "M1",
+      "sub_type": "2종(3대질병납입면제형) 해약환급금 일부지급형Ⅰ",
+      "_raw": {
+        "sub_type": "2종(3대질병납입면제형) 해약환급금 일부지급형Ⅰ",
+        "payment_cycle": "월납"
+      }
+    },
+    {
+      "PAYM_CYCL_VAL": 1,
+      "PAYM_CYCL_DVSN_CODE": "M",
+      "PAYM_CYCL_INQY_CODE": "M1",
+      "sub_type": "2종(3대질병납입면제형) 해약환급금 일부지급형Ⅱ",
+      "_raw": {
+        "sub_type": "2종(3대질병납입면제형) 해약환급금 일부지급형Ⅱ",
+        "payment_cycle": "월납"
+      }
+    },
+    {
+      "PAYM_CYCL_VAL": 1,
+      "PAYM_CYCL_DVSN_CODE": "M",
+      "PAYM_CYCL_INQY_CODE": "M1",
+      "sub_type": "적립형 계약",
+      "_raw": {
+        "sub_type": "적립형 계약",
+        "payment_cycle": "월납"
+      }
+    },
+    {
+      "PAYM_CYCL_VAL": 0,
+      "PAYM_CYCL_DVSN_CODE": "M",
+      "PAYM_CYCL_INQY_CODE": "M0",
+      "sub_type": "스마트전환형 계약",
+      "_raw": {
+        "sub_type": "스마트전환형 계약",
+        "payment_cycle": "일시납"
+      }
+    }
+  ],
+  "convert_errors": [],
+  "convert_error_count": 0
+}

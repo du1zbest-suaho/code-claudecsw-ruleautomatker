@@ -1,0 +1,12 @@
+간편가입_제로백H종신보험_무배당: 4행
+  {'sub_type': '1종(해약환급금 일부지급형Ⅰ)', 'insurance_period': '종신', 'payment_period': '10년납', 'gender': '남자', 'min_age': 15, 'max_age': 63}
+  {'sub_type': '1종(해약환급금 일부지급형Ⅰ)', 'insurance_period': '종신', 'payment_period': '10년납', 'gender': '여자', 'min_age': 15, 'max_age': 68}
+  {'sub_type': '1종(해약환급금 일부지급형Ⅰ)', 'insurance_period': '종신', 'payment_period': '20년납', 'gender': '남자', 'min_age': 15, 'max_age': 63}
+
+간편가입_하나로H종신보험_무배당: 6행
+  {'sub_type': '1종(해약환급금 일부지급형Ⅰ)', 'insurance_period': '종신', 'payment_period': '10년납', 'gender': '남자', 'min_age': 15, 'max_age': 60}
+  {'sub_type': '1종(해약환급금 일부지급형Ⅰ)', 'insurance_period': '종신', 'payment_period': '10년납', 'gender': '여자', 'min_age': 15, 'max_age': 60}
+  {'sub_type': '1종(해약환급금 일부지급형Ⅰ)', 'insurance_period': '종신', 'payment_period': '15년납', 'gender': '남자', 'min_age': 15, 'max_age': 60}
+
+간편가입_포켓골절보험_무배당: 1행
+  {'sub_type': '기본형', 'insurance_period': '1년만기', 'payment_period': '일시납', 'gender': '남녀공통', 'min_age': 19, 'max_age': 65}

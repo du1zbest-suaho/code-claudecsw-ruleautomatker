@@ -1,0 +1,45 @@
+{
+  "2170095": {
+    "our_rows": 40,
+    "our_unique": 10,
+    "gt_unique": 0,
+    "match": 0,
+    "missing": 0,
+    "pass": true
+  },
+  "2170A01": {
+    "our_rows": 40,
+    "our_unique": 10,
+    "gt_unique": 10,
+    "match": 10,
+    "missing": 0,
+    "pass": true
+  },
+  "1808016": {
+    "error": "PDF not found"
+  },
+  "2249A01": {
+    "our_rows": 6,
+    "our_unique": 4,
+    "gt_unique": 4,
+    "match": 4,
+    "missing": 0,
+    "pass": true
+  },
+  "2253A01": {
+    "our_rows": 24,
+    "our_unique": 8,
+    "gt_unique": 8,
+    "match": 8,
+    "missing": 0,
+    "pass": true
+  },
+  "1726041": {
+    "our_rows": 30,
+    "our_unique": 21,
+    "gt_unique": 21,
+    "match": 21,
+    "missing": 0,
+    "pass": true
+  }
+}

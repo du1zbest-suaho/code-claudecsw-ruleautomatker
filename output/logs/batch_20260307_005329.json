@@ -1,0 +1,27 @@
+{
+  "batch_run": "20260307_005329",
+  "total": 3,
+  "success": 0,
+  "skipped": 0,
+  "elapsed_sec": 3,
+  "results": [
+    {
+      "pdf": "한화생명 e암보험(비갱신형) 무배당_사업방법서_20260101~.pdf",
+      "errors": [
+        "'cp949' codec can't encode character '\\ufffd' in position 2: illegal multibyte sequence"
+      ]
+    },
+    {
+      "pdf": "한화생명 e연금저축보험 무배당_사업방법서_20260101~.pdf",
+      "errors": [
+        "'cp949' codec can't encode character '\\ufffd' in position 2: illegal multibyte sequence"
+      ]
+    },
+    {
+      "pdf": "한화생명 e정기보험 무배당_사업방법서_20260101~.pdf",
+      "errors": [
+        "'cp949' codec can't encode character '\\ufffd' in position 2: illegal multibyte sequence"
+      ]
+    }
+  ]
+}

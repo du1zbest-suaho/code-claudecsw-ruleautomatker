@@ -1,0 +1,398 @@
+[
+  {
+    "file": "S00026_1230_장애인전용_곰두리보장보험_무배당.xlsx",
+    "status": "FAIL",
+    "upper": "1230040",
+    "our": 8,
+    "gt": 32,
+    "match": 5,
+    "missing": 3,
+    "new": 0
+  },
+  {
+    "file": "S00026_1571_연금보험Enterprise_무배당.xlsx",
+    "status": "FAIL",
+    "upper": "1571618",
+    "our": 2,
+    "gt": 360,
+    "match": 0,
+    "missing": 84,
+    "new": 1
+  },
+  {
+    "file": "S00026_1726_e정기보험_무배당.xlsx",
+    "status": "FAIL",
+    "upper": "1726041",
+    "our": 30,
+    "gt": 30,
+    "match": 0,
+    "missing": 21,
+    "new": 12
+  },
+  {
+    "file": "S00026_1808_노후실손의료비보장보험_갱신형_무배당.xlsx",
+    "status": "PASS",
+    "upper": "1808016",
+    "our": 3,
+    "gt": 1,
+    "match": 1,
+    "missing": 0,
+    "new": 2
+  },
+  {
+    "file": "S00026_1976_간편가입_실손의료비보장보험_갱신형_무배당_재가입용.xlsx",
+    "status": "PASS",
+    "upper": "1976002",
+    "our": 2,
+    "gt": 4,
+    "match": 1,
+    "missing": 0,
+    "new": 1
+  },
+  {
+    "file": "S00026_1982_기본형_급여_실손의료비보장보험_갱신형_무배당.xlsx",
+    "status": "FAIL",
+    "upper": "1982001",
+    "our": 4,
+    "gt": 5,
+    "match": 0,
+    "missing": 1,
+    "new": 4
+  },
+  {
+    "file": "S00026_1983_기본형_급여_e실손의료비보장보험_갱신형_무배당.xlsx",
+    "status": "FAIL",
+    "upper": "1983001",
+    "our": 4,
+    "gt": 5,
+    "match": 0,
+    "missing": 1,
+    "new": 4
+  },
+  {
+    "file": "S00026_1984_기본형_급여_실손의료비보장보험_계약전환_단체개인전환_개인중지재개용_갱신형_무배당.xlsx",
+    "status": "FAIL",
+    "upper": "1984002",
+    "our": 4,
+    "gt": 5,
+    "match": 0,
+    "missing": 1,
+    "new": 2
+  },
+  {
+    "file": "S00026_2061_e암보험_비갱신형_무배당.xlsx",
+    "status": "FAIL",
+    "upper": "2061001",
+    "our": 15,
+    "gt": 29,
+    "match": 6,
+    "missing": 5,
+    "new": 0
+  },
+  {
+    "file": "S00026_2126_상생친구_보장보험_무배당.xlsx",
+    "status": "FAIL",
+    "upper": "2126A01",
+    "our": 32,
+    "gt": 650,
+    "match": 1,
+    "missing": 25,
+    "new": 2
+  },
+  {
+    "file": "S00026_2126_진심가득H보장보험_무배당.xlsx",
+    "status": "FAIL",
+    "upper": "2126A01",
+    "our": 32,
+    "gt": 650,
+    "match": 1,
+    "missing": 25,
+    "new": 2
+  },
+  {
+    "file": "S00026_2130_간편가입_상속H종신보험_무배당.xlsx",
+    "status": "FAIL",
+    "upper": "2130A02",
+    "our": 3,
+    "gt": 6,
+    "match": 0,
+    "missing": 4,
+    "new": 2
+  },
+  {
+    "file": "S00026_2130_상속H종신보험_무배당.xlsx",
+    "status": "FAIL",
+    "upper": "2130A02",
+    "our": 3,
+    "gt": 6,
+    "match": 0,
+    "missing": 4,
+    "new": 2
+  },
+  {
+    "file": "S00026_2170_H간병보험_무배당.xlsx",
+    "status": "PASS",
+    "upper": "2170A01",
+    "our": 40,
+    "gt": 20,
+    "match": 10,
+    "missing": 0,
+    "new": 0
+  },
+  {
+    "file": "S00026_2170_H보장보험Ⅰ_무배당.xlsx",
+    "status": "PASS",
+    "upper": "2170A01",
+    "our": 40,
+    "gt": 20,
+    "match": 10,
+    "missing": 0,
+    "new": 0
+  },
+  {
+    "file": "S00026_2204_시그니처H암보험_무배당.xlsx",
+    "status": "FAIL",
+    "upper": "2204A01",
+    "our": 24,
+    "gt": 24,
+    "match": 0,
+    "missing": 10,
+    "new": 5
+  },
+  {
+    "file": "S00026_2205_간편가입_시그니처H보장보험_무배당.xlsx",
+    "status": "FAIL",
+    "upper": "2205A02",
+    "our": 24,
+    "gt": 24,
+    "match": 0,
+    "missing": 12,
+    "new": 5
+  },
+  {
+    "file": "S00026_2205_간편가입_시그니처H암보험_무배당.xlsx",
+    "status": "FAIL",
+    "upper": "2205A02",
+    "our": 24,
+    "gt": 24,
+    "match": 0,
+    "missing": 12,
+    "new": 5
+  },
+  {
+    "file": "S00026_2205_시그니처H보장보험_무배당.xlsx",
+    "status": "FAIL",
+    "upper": "2205A02",
+    "our": 24,
+    "gt": 24,
+    "match": 0,
+    "missing": 12,
+    "new": 5
+  },
+  {
+    "file": "S00026_2209_20260306_235639.xlsx",
+    "status": "PASS",
+    "upper": "2209A01",
+    "our": 14,
+    "gt": 2,
+    "match": 2,
+    "missing": 0,
+    "new": 8
+  },
+  {
+    "file": "S00026_2236_스마트H상해보험_무배당.xlsx",
+    "status": "FAIL",
+    "upper": "2236002",
+    "our": 25,
+    "gt": 10,
+    "match": 0,
+    "missing": 4,
+    "new": 4
+  },
+  {
+    "file": "S00026_2236_스마트V상해보험_무배당.xlsx",
+    "status": "FAIL",
+    "upper": "2236002",
+    "our": 25,
+    "gt": 10,
+    "match": 0,
+    "missing": 4,
+    "new": 4
+  },
+  {
+    "file": "S00026_2242_경영인H정기보험_무배당.xlsx",
+    "status": "FAIL",
+    "upper": "2242A05",
+    "our": 1,
+    "gt": 2,
+    "match": 0,
+    "missing": 2,
+    "new": 1
+  },
+  {
+    "file": "S00026_2243_간편가입_경영인H정기보험_무배당.xlsx",
+    "status": "FAIL",
+    "upper": "2243A03",
+    "our": 1,
+    "gt": 2,
+    "match": 0,
+    "missing": 2,
+    "new": 1
+  },
+  {
+    "file": "S00026_2244_케어백간병플러스보험_무배당.xlsx",
+    "status": "FAIL",
+    "upper": "2244A01",
+    "our": 60,
+    "gt": 32,
+    "match": 0,
+    "missing": 18,
+    "new": 20
+  },
+  {
+    "file": "S00026_2246_H건강플러스보험_무배당.xlsx",
+    "status": "FAIL",
+    "upper": "2246A07",
+    "our": 27,
+    "gt": 24,
+    "match": 0,
+    "missing": 10,
+    "new": 3
+  },
+  {
+    "file": "S00026_2249_Need_AI_암보험_무배당.xlsx",
+    "status": "PASS",
+    "upper": "2249A02",
+    "our": 6,
+    "gt": 6,
+    "match": 4,
+    "missing": 0,
+    "new": 0
+  },
+  {
+    "file": "S00026_2249_간편가입_Need_AI_암보험_무배당.xlsx",
+    "status": "PASS",
+    "upper": "2249A01",
+    "our": 12,
+    "gt": 6,
+    "match": 4,
+    "missing": 0,
+    "new": 0
+  },
+  {
+    "file": "S00026_2253_H당뇨보험_무배당.xlsx",
+    "status": "PASS",
+    "upper": "2253A01",
+    "our": 24,
+    "gt": 24,
+    "match": 8,
+    "missing": 0,
+    "new": 0
+  },
+  {
+    "file": "S00026_2254_간편가입_H당뇨보험_무배당.xlsx",
+    "status": "PASS",
+    "upper": "2254A01",
+    "our": 24,
+    "gt": 24,
+    "match": 8,
+    "missing": 0,
+    "new": 0
+  },
+  {
+    "file": "S00026_2257_시그니처_H통합건강보험_무배당.xlsx",
+    "status": "PASS",
+    "upper": "2257A07",
+    "our": 36,
+    "gt": 16,
+    "match": 10,
+    "missing": 0,
+    "new": 0
+  },
+  {
+    "file": "S00026_2257_시그니처_H통합건강보험_무배당_납입면제형.xlsx",
+    "status": "PASS",
+    "upper": "2257A07",
+    "our": 36,
+    "gt": 16,
+    "match": 10,
+    "missing": 0,
+    "new": 0
+  },
+  {
+    "file": "S00026_2259_바로연금보험_무배당.xlsx",
+    "status": "FAIL",
+    "upper": "2259804",
+    "our": 12,
+    "gt": 2,
+    "match": 0,
+    "missing": 1,
+    "new": 2
+  },
+  {
+    "file": "S00026_H_기업재해보장보험_무배당.xlsx",
+    "status": "EMPTY",
+    "our": 0,
+    "gt": 0
+  },
+  {
+    "file": "S00026_Wealth단체저축보험_무배당.xlsx",
+    "status": "EMPTY",
+    "our": 0,
+    "gt": 0
+  },
+  {
+    "file": "S00026_간편가입_H종신보험_무배당.xlsx",
+    "status": "EMPTY",
+    "our": 0,
+    "gt": 0
+  },
+  {
+    "file": "S00026_간편가입_제로백H종신보험_무배당.xlsx",
+    "status": "EMPTY",
+    "our": 0,
+    "gt": 0
+  },
+  {
+    "file": "S00026_간편가입_포켓골절보험_무배당.xlsx",
+    "status": "EMPTY",
+    "our": 0,
+    "gt": 0
+  },
+  {
+    "file": "S00026_간편가입_하나로H종신보험_무배당.xlsx",
+    "status": "EMPTY",
+    "our": 0,
+    "gt": 0
+  },
+  {
+    "file": "S00026_기업복지라이프플랜보험_무배당.xlsx",
+    "status": "EMPTY",
+    "our": 0,
+    "gt": 0
+  },
+  {
+    "file": "S00026_제로백H종신보험_무배당.xlsx",
+    "status": "EMPTY",
+    "our": 0,
+    "gt": 0
+  },
+  {
+    "file": "S00026_튼튼이_치아보험_갱신형_무배당.xlsx",
+    "status": "EMPTY",
+    "our": 0,
+    "gt": 0
+  },
+  {
+    "file": "S00026_포켓골절보험_무배당.xlsx",
+    "status": "EMPTY",
+    "our": 0,
+    "gt": 0
+  },
+  {
+    "file": "S00026_하나로H종신보험_무배당.xlsx",
+    "status": "EMPTY",
+    "our": 0,
+    "gt": 0
+  }
+]

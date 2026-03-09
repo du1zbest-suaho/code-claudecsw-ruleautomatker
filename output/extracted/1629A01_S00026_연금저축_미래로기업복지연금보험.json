@@ -1,0 +1,28 @@
+{
+  "table_type": "S00026",
+  "product_code": "1629A01",
+  "run_id": "연금저축_미래로기업복지연금보험",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "기본형",
+      "insurance_period": "종신",
+      "payment_period": "전기납",
+      "gender": "남녀공통",
+      "min_age": 55,
+      "max_age": 80
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "종신",
+      "payment_period": "전기납",
+      "gender": "남녀공통",
+      "min_age": 55,
+      "max_age": 110
+    }
+  ],
+  "discrepancies": [],
+  "row_count": 2
+}

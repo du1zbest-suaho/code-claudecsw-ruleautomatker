@@ -1,0 +1,172 @@
+{
+  "table_type": "S00026",
+  "product_code": "2170A01",
+  "run_id": "H보장보험Ⅰ_무배당",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "간편가입형(2년)",
+      "insurance_period": "90세만기",
+      "payment_period": "5년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형(2년)",
+      "insurance_period": "90세만기",
+      "payment_period": "5년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형(2년)",
+      "insurance_period": "100세만기",
+      "payment_period": "5년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형(2년)",
+      "insurance_period": "100세만기",
+      "payment_period": "5년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형(2년)",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형(2년)",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형(2년)",
+      "insurance_period": "100세만기",
+      "payment_period": "10년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형(2년)",
+      "insurance_period": "100세만기",
+      "payment_period": "10년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형(2년)",
+      "insurance_period": "90세만기",
+      "payment_period": "15년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 74
+    },
+    {
+      "sub_type": "간편가입형(2년)",
+      "insurance_period": "90세만기",
+      "payment_period": "15년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 74
+    },
+    {
+      "sub_type": "간편가입형(2년)",
+      "insurance_period": "100세만기",
+      "payment_period": "15년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형(2년)",
+      "insurance_period": "100세만기",
+      "payment_period": "15년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형(2년)",
+      "insurance_period": "90세만기",
+      "payment_period": "20년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 69
+    },
+    {
+      "sub_type": "간편가입형(2년)",
+      "insurance_period": "90세만기",
+      "payment_period": "20년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 69
+    },
+    {
+      "sub_type": "간편가입형(2년)",
+      "insurance_period": "100세만기",
+      "payment_period": "20년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형(2년)",
+      "insurance_period": "100세만기",
+      "payment_period": "20년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형(2년)",
+      "insurance_period": "90세만기",
+      "payment_period": "30년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 59
+    },
+    {
+      "sub_type": "간편가입형(2년)",
+      "insurance_period": "90세만기",
+      "payment_period": "30년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 59
+    },
+    {
+      "sub_type": "간편가입형(2년)",
+      "insurance_period": "100세만기",
+      "payment_period": "30년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 69
+    },
+    {
+      "sub_type": "간편가입형(2년)",
+      "insurance_period": "100세만기",
+      "payment_period": "30년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 69
+    }
+  ],
+  "discrepancies": [],
+  "row_count": 20
+}

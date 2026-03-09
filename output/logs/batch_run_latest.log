@@ -1,0 +1,979 @@
+============================================================
+전체 상품 일괄 처리 시작
+============================================================
+DB 로드 중...
+  901개 상품 레코드 로드 완료
+
+처리 대상: 51개 사업방법서 PDF
+
+[1/51] 한화생명 e암보험(비갱신형) 무배당_사업방법서_20260101~.pdf
+  run_id: e암보험_비갱신형_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 4, 5, 6, 7], '납입주기': [3, 6], '보기개시나이': []}
+  Sub types: ['비흡연체형', '표준체형', '흡연체형']
+  상품코드: 2061
+  추출 완료: 15행 → output/extracted/2061A01_S00026_e암보험_비갱신형_무배당.json
+  코드 변환 완료: 15행 → output/extracted/2061A01_S00026_e암보험_비갱신형_무배당_coded.json
+  업로드 양식 생성 완료: 15행 → output/upload/S00026_2061_e암보험_비갱신형_무배당.xlsx
+  추출 완료: 60행 → output/extracted/2061A01_S00027_e암보험_비갱신형_무배당.json
+  코드 변환 완료: 60행 → output/extracted/2061A01_S00027_e암보험_비갱신형_무배당_coded.json
+  업로드 양식 생성 완료: 60행 → output/upload/S00027_2061_e암보험_비갱신형_무배당.xlsx
+  추출 완료: 1행 → output/extracted/2061A01_S00028_e암보험_비갱신형_무배당.json
+  코드 변환 완료: 1행 → output/extracted/2061A01_S00028_e암보험_비갱신형_무배당_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00028_2061_e암보험_비갱신형_무배당.xlsx
+  추출 완료: 0행 → output/extracted/2061A01_S00022_e암보험_비갱신형_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 2061 → S00026: ok(15행) | S00027: ok(60행) | S00028: ok(1행) | S00022: no_data(0행)
+
+[2/51] 한화생명 e연금저축보험 무배당_사업방법서_20260101~.pdf
+  run_id: e연금저축보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 4, 8, 9, 12], '납입주기': [3, 8, 12], '보기개시나이': [3, 4, 5, 8, 9, 10, 12]}
+  Sub types: ['기본형']
+  상품코드: 1772
+  추출 완료: 0행 → output/extracted/1772A01_S00026_e연금저축보험_무배당.json
+  [S00026] 추출 데이터 없음 (규칙 미매칭)
+  추출 완료: 6행 → output/extracted/1772A01_S00027_e연금저축보험_무배당.json
+  코드 변환 완료: 6행 → output/extracted/1772A01_S00027_e연금저축보험_무배당_coded.json
+  업로드 양식 생성 완료: 6행 → output/upload/S00027_1772_e연금저축보험_무배당.xlsx
+  추출 완료: 2행 → output/extracted/1772A01_S00028_e연금저축보험_무배당.json
+  코드 변환 완료: 2행 → output/extracted/1772A01_S00028_e연금저축보험_무배당_coded.json
+  업로드 양식 생성 완료: 2행 → output/upload/S00028_1772_e연금저축보험_무배당.xlsx
+  추출 완료: 1행 → output/extracted/1772A01_S00022_e연금저축보험_무배당.json
+  코드 변환 완료: 1행 → output/extracted/1772A01_S00022_e연금저축보험_무배당_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00022_1772_e연금저축보험_무배당.xlsx
+  [OK] 1772 → S00026: no_data(0행) | S00027: ok(6행) | S00028: ok(2행) | S00022: ok(1행)
+
+[3/51] 한화생명 e정기보험 무배당_사업방법서_20260101~.pdf
+  run_id: e정기보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 5, 6, 7], '납입주기': [3, 4, 6], '보기개시나이': []}
+  Sub types: ['기본형']
+  상품코드: 1726
+  추출 완료: 30행 → output/extracted/1726A01_S00026_e정기보험_무배당.json
+  코드 변환 완료: 30행 → output/extracted/1726A01_S00026_e정기보험_무배당_coded.json
+  업로드 양식 생성 완료: 30행 → output/upload/S00026_1726_e정기보험_무배당.xlsx
+  추출 완료: 15행 → output/extracted/1726A01_S00027_e정기보험_무배당.json
+  코드 변환 완료: 15행 → output/extracted/1726A01_S00027_e정기보험_무배당_coded.json
+  업로드 양식 생성 완료: 15행 → output/upload/S00027_1726_e정기보험_무배당.xlsx
+  추출 완료: 2행 → output/extracted/1726A01_S00028_e정기보험_무배당.json
+  코드 변환 완료: 2행 → output/extracted/1726A01_S00028_e정기보험_무배당_coded.json
+  업로드 양식 생성 완료: 2행 → output/upload/S00028_1726_e정기보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/1726A01_S00022_e정기보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 1726 → S00026: ok(30행) | S00027: ok(15행) | S00028: ok(2행) | S00022: no_data(0행)
+
+[4/51] 한화생명 H 기업재해보장보험 무배당_사업방법서_20260101~.pdf
+  run_id: H_기업재해보장보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 4, 8, 9], '납입주기': [3, 4], '보기개시나이': []}
+  Sub types: ['기본형']
+  상품코드: 1764
+  추출 완료: 2행 → output/extracted/1764A01_S00026_H_기업재해보장보험_무배당.json
+  코드 변환 완료: 2행 → output/extracted/1764A01_S00026_H_기업재해보장보험_무배당_coded.json
+  업로드 양식 생성 완료: 2행 → output/upload/S00026_1764_H_기업재해보장보험_무배당.xlsx
+  추출 완료: 24행 → output/extracted/1764A01_S00027_H_기업재해보장보험_무배당.json
+  코드 변환 완료: 24행 → output/extracted/1764A01_S00027_H_기업재해보장보험_무배당_coded.json
+  업로드 양식 생성 완료: 24행 → output/upload/S00027_1764_H_기업재해보장보험_무배당.xlsx
+  추출 완료: 2행 → output/extracted/1764A01_S00028_H_기업재해보장보험_무배당.json
+  코드 변환 완료: 2행 → output/extracted/1764A01_S00028_H_기업재해보장보험_무배당_coded.json
+  업로드 양식 생성 완료: 2행 → output/upload/S00028_1764_H_기업재해보장보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/1764A01_S00022_H_기업재해보장보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 1764 → S00026: ok(2행) | S00027: ok(24행) | S00028: ok(2행) | S00022: no_data(0행)
+
+[5/51] 한화생명 H간병보험 무배당_사업방법서_20260201~.pdf
+  run_id: H간병보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 5, 8, 9, 10], '납입주기': [3, 8, 10], '보기개시나이': []}
+  Sub types: ['간편가입형', '간편가입형(2년)', '일반가입형']
+  상품코드: 2170
+  추출 완료: 40행 → output/extracted/2170A01_S00026_H간병보험_무배당.json
+  코드 변환 완료: 40행 → output/extracted/2170A01_S00026_H간병보험_무배당_coded.json
+  업로드 양식 생성 완료: 40행 → output/upload/S00026_2170_H간병보험_무배당.xlsx
+  추출 완료: 30행 → output/extracted/2170A01_S00027_H간병보험_무배당.json
+  코드 변환 완료: 30행 → output/extracted/2170A01_S00027_H간병보험_무배당_coded.json
+  업로드 양식 생성 완료: 30행 → output/upload/S00027_2170_H간병보험_무배당.xlsx
+  추출 완료: 1행 → output/extracted/2170A01_S00028_H간병보험_무배당.json
+  코드 변환 완료: 1행 → output/extracted/2170A01_S00028_H간병보험_무배당_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00028_2170_H간병보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/2170A01_S00022_H간병보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 2170 → S00026: ok(40행) | S00027: ok(30행) | S00028: ok(1행) | S00022: no_data(0행)
+
+[6/51] 한화생명 H건강플러스보험 무배당_사업방법서_20260201~.pdf
+  run_id: H건강플러스보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 4, 6, 7, 11, 12, 13, 14, 16, 18, 19, 20, 22], '납입주기': [3, 5, 19, 20], '보기개시나이': [16]}
+  Sub types: ['간편가입형(0년)', '간편가입형(10년)', '간편가입형(1년)', '간편가입형(2년)', '간편가입형(3년)', '간편가입형(4년)', '간편가입형(5년)', '일반가입형']
+  상품코드: 2246
+  추출 완료: 162행 → output/extracted/2246A01_S00026_H건강플러스보험_무배당.json
+  코드 변환 완료: 162행 → output/extracted/2246A01_S00026_H건강플러스보험_무배당_coded.json
+  업로드 양식 생성 완료: 162행 → output/upload/S00026_2246_H건강플러스보험_무배당.xlsx
+  추출 완료: 192행 → output/extracted/2246A01_S00027_H건강플러스보험_무배당.json
+  코드 변환 완료: 192행 → output/extracted/2246A01_S00027_H건강플러스보험_무배당_coded.json
+  업로드 양식 생성 완료: 192행 → output/upload/S00027_2246_H건강플러스보험_무배당.xlsx
+  추출 완료: 3행 → output/extracted/2246A01_S00028_H건강플러스보험_무배당.json
+  코드 변환 완료: 3행 → output/extracted/2246A01_S00028_H건강플러스보험_무배당_coded.json
+  업로드 양식 생성 완료: 3행 → output/upload/S00028_2246_H건강플러스보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/2246A01_S00022_H건강플러스보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 2246 → S00026: ok(162행) | S00027: ok(192행) | S00028: ok(3행) | S00022: no_data(0행)
+
+[7/51] 한화생명 H당뇨보험 무배당_사업방법서_20260101~.pdf
+  run_id: H당뇨보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 4, 5, 6, 7, 8, 9, 10], '납입주기': [3, 4, 7], '보기개시나이': []}
+  Sub types: ['기본형']
+  상품코드: 2253
+  추출 완료: 24행 → output/extracted/2253A01_S00026_H당뇨보험_무배당.json
+  코드 변환 완료: 24행 → output/extracted/2253A01_S00026_H당뇨보험_무배당_coded.json
+  업로드 양식 생성 완료: 24행 → output/upload/S00026_2253_H당뇨보험_무배당.xlsx
+  추출 완료: 6행 → output/extracted/2253A01_S00027_H당뇨보험_무배당.json
+  코드 변환 완료: 6행 → output/extracted/2253A01_S00027_H당뇨보험_무배당_coded.json
+  업로드 양식 생성 완료: 6행 → output/upload/S00027_2253_H당뇨보험_무배당.xlsx
+  추출 완료: 1행 → output/extracted/2253A01_S00028_H당뇨보험_무배당.json
+  코드 변환 완료: 1행 → output/extracted/2253A01_S00028_H당뇨보험_무배당_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00028_2253_H당뇨보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/2253A01_S00022_H당뇨보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 2253 → S00026: ok(24행) | S00027: ok(6행) | S00028: ok(1행) | S00022: no_data(0행)
+
+[8/51] 한화생명 H보장보험Ⅰ 무배당_사업방법서_20260201~.pdf
+  run_id: H보장보험Ⅰ_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 5, 8, 9, 10], '납입주기': [3, 8, 10], '보기개시나이': []}
+  Sub types: ['간편가입형', '간편가입형(2년)', '일반가입형']
+  상품코드: 2170
+  추출 완료: 40행 → output/extracted/2170A01_S00026_H보장보험Ⅰ_무배당.json
+  코드 변환 완료: 40행 → output/extracted/2170A01_S00026_H보장보험Ⅰ_무배당_coded.json
+  업로드 양식 생성 완료: 40행 → output/upload/S00026_2170_H보장보험Ⅰ_무배당.xlsx
+  추출 완료: 30행 → output/extracted/2170A01_S00027_H보장보험Ⅰ_무배당.json
+  코드 변환 완료: 30행 → output/extracted/2170A01_S00027_H보장보험Ⅰ_무배당_coded.json
+  업로드 양식 생성 완료: 30행 → output/upload/S00027_2170_H보장보험Ⅰ_무배당.xlsx
+  추출 완료: 1행 → output/extracted/2170A01_S00028_H보장보험Ⅰ_무배당.json
+  코드 변환 완료: 1행 → output/extracted/2170A01_S00028_H보장보험Ⅰ_무배당_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00028_2170_H보장보험Ⅰ_무배당.xlsx
+  추출 완료: 0행 → output/extracted/2170A01_S00022_H보장보험Ⅰ_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 2170 → S00026: ok(40행) | S00027: ok(30행) | S00028: ok(1행) | S00022: no_data(0행)
+
+[9/51] 한화생명 H종신보험 무배당_사업방법서_20260101~.pdf
+  run_id: H종신보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 4, 6, 7, 8, 10, 11, 15, 16, 17, 18, 21, 23, 25, 27, 31, 32, 33, 35, 36], '납입주기': [3, 5, 31], '보기개시나이': [27, 29]}
+  Sub types: ['납입면제형']
+  상품코드: 2130
+  추출 완료: 8행 → output/extracted/2130A01_S00026_H종신보험_무배당.json
+  코드 변환 완료: 8행 → output/extracted/2130A01_S00026_H종신보험_무배당_coded.json
+  업로드 양식 생성 완료: 8행 → output/upload/S00026_2130_H종신보험_무배당.xlsx
+  추출 완료: 21행 → output/extracted/2130A01_S00027_H종신보험_무배당.json
+  코드 변환 완료: 21행 → output/extracted/2130A01_S00027_H종신보험_무배당_coded.json
+  업로드 양식 생성 완료: 21행 → output/upload/S00027_2130_H종신보험_무배당.xlsx
+  추출 완료: 3행 → output/extracted/2130A01_S00028_H종신보험_무배당.json
+  코드 변환 완료: 3행 → output/extracted/2130A01_S00028_H종신보험_무배당_coded.json
+  업로드 양식 생성 완료: 3행 → output/upload/S00028_2130_H종신보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/2130A01_S00022_H종신보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 2130 → S00026: ok(8행) | S00027: ok(21행) | S00028: ok(3행) | S00022: no_data(0행)
+
+[10/51] 한화생명 Need AI 암보험 무배당_사업방법서_20260101~.pdf
+  run_id: Need_AI_암보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 5, 6, 7], '납입주기': [3, 6], '보기개시나이': []}
+  Sub types: ['기본형']
+  상품코드: 2249
+  추출 완료: 6행 → output/extracted/2249A01_S00026_Need_AI_암보험_무배당.json
+  코드 변환 완료: 6행 → output/extracted/2249A01_S00026_Need_AI_암보험_무배당_coded.json
+  업로드 양식 생성 완료: 6행 → output/upload/S00026_2249_Need_AI_암보험_무배당.xlsx
+  추출 완료: 3행 → output/extracted/2249A01_S00027_Need_AI_암보험_무배당.json
+  코드 변환 완료: 3행 → output/extracted/2249A01_S00027_Need_AI_암보험_무배당_coded.json
+  업로드 양식 생성 완료: 3행 → output/upload/S00027_2249_Need_AI_암보험_무배당.xlsx
+  추출 완료: 1행 → output/extracted/2249A01_S00028_Need_AI_암보험_무배당.json
+  코드 변환 완료: 1행 → output/extracted/2249A01_S00028_Need_AI_암보험_무배당_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00028_2249_Need_AI_암보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/2249A01_S00022_Need_AI_암보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 2249 → S00026: ok(6행) | S00027: ok(3행) | S00028: ok(1행) | S00022: no_data(0행)
+
+[11/51] 한화생명 Wealth단체저축보험 무배당_사업방법서_20260101~.pdf
+  run_id: Wealth단체저축보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 4, 5, 8, 9, 11, 12], '납입주기': [3, 4, 8, 9, 12], '보기개시나이': [11]}
+  Sub types: ['기본형']
+  상품코드: 1796
+  추출 완료: 16행 → output/extracted/1796A01_S00026_Wealth단체저축보험_무배당.json
+  코드 변환 완료: 16행 → output/extracted/1796A01_S00026_Wealth단체저축보험_무배당_coded.json
+  업로드 양식 생성 완료: 16행 → output/upload/S00026_1796_Wealth단체저축보험_무배당.xlsx
+  추출 완료: 36행 → output/extracted/1796A01_S00027_Wealth단체저축보험_무배당.json
+  코드 변환 완료: 36행 → output/extracted/1796A01_S00027_Wealth단체저축보험_무배당_coded.json
+  업로드 양식 생성 완료: 36행 → output/upload/S00027_1796_Wealth단체저축보험_무배당.xlsx
+  추출 완료: 1행 → output/extracted/1796A01_S00028_Wealth단체저축보험_무배당.json
+  코드 변환 완료: 1행 → output/extracted/1796A01_S00028_Wealth단체저축보험_무배당_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00028_1796_Wealth단체저축보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/1796A01_S00022_Wealth단체저축보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 1796 → S00026: ok(16행) | S00027: ok(36행) | S00028: ok(1행) | S00022: no_data(0행)
+
+[12/51] 한화생명 Wealth직장인연금보험 무배당_사업방법서_20260130~.pdf
+  run_id: Wealth직장인연금보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 4, 5, 6, 7, 8, 10, 11, 12], '납입주기': [3, 4, 8, 12], '보기개시나이': [3, 4, 5, 6, 8, 10, 11, 12]}
+  Sub types: ['기본형']
+  상품코드: 1833
+  추출 완료: 0행 → output/extracted/1833A01_S00026_Wealth직장인연금보험_무배당.json
+  [S00026] 추출 데이터 없음 (규칙 미매칭)
+  추출 완료: 18행 → output/extracted/1833A01_S00027_Wealth직장인연금보험_무배당.json
+  코드 변환 완료: 18행 → output/extracted/1833A01_S00027_Wealth직장인연금보험_무배당_coded.json
+  업로드 양식 생성 완료: 18행 → output/upload/S00027_1833_Wealth직장인연금보험_무배당.xlsx
+  추출 완료: 2행 → output/extracted/1833A01_S00028_Wealth직장인연금보험_무배당.json
+  코드 변환 완료: 2행 → output/extracted/1833A01_S00028_Wealth직장인연금보험_무배당_coded.json
+  업로드 양식 생성 완료: 2행 → output/upload/S00028_1833_Wealth직장인연금보험_무배당.xlsx
+  추출 완료: 1행 → output/extracted/1833A01_S00022_Wealth직장인연금보험_무배당.json
+  코드 변환 완료: 1행 → output/extracted/1833A01_S00022_Wealth직장인연금보험_무배당_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00022_1833_Wealth직장인연금보험_무배당.xlsx
+  [OK] 1833 → S00026: no_data(0행) | S00027: ok(18행) | S00028: ok(2행) | S00022: ok(1행)
+
+[13/51] 한화생명 간편가입 H당뇨보험 무배당_사업방법서_20260101~.pdf
+  run_id: 간편가입_H당뇨보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 4, 5, 6, 7, 9, 10, 11, 13], '납입주기': [3, 4, 9, 13], '보기개시나이': []}
+  Sub types: ['기본형']
+  상품코드: 2254
+  추출 완료: 24행 → output/extracted/2254A01_S00026_간편가입_H당뇨보험_무배당.json
+  코드 변환 완료: 24행 → output/extracted/2254A01_S00026_간편가입_H당뇨보험_무배당_coded.json
+  업로드 양식 생성 완료: 24행 → output/upload/S00026_2254_간편가입_H당뇨보험_무배당.xlsx
+  추출 완료: 12행 → output/extracted/2254A01_S00027_간편가입_H당뇨보험_무배당.json
+  코드 변환 완료: 12행 → output/extracted/2254A01_S00027_간편가입_H당뇨보험_무배당_coded.json
+  업로드 양식 생성 완료: 12행 → output/upload/S00027_2254_간편가입_H당뇨보험_무배당.xlsx
+  추출 완료: 1행 → output/extracted/2254A01_S00028_간편가입_H당뇨보험_무배당.json
+  코드 변환 완료: 1행 → output/extracted/2254A01_S00028_간편가입_H당뇨보험_무배당_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00028_2254_간편가입_H당뇨보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/2254A01_S00022_간편가입_H당뇨보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 2254 → S00026: ok(24행) | S00027: ok(12행) | S00028: ok(1행) | S00022: no_data(0행)
+
+[14/51] 한화생명 간편가입 H종신보험 무배당_사업방법서_20260101~.pdf
+  run_id: 간편가입_H종신보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 4, 5, 6, 7, 8, 10, 11, 14, 15, 16, 17, 18, 21, 22, 23, 24, 25, 26, 29, 30, 31, 35, 36, 37, 38], '납입주기': [3, 5, 30, 31], '보기개시나이': [25, 29]}
+  Sub types: ['납입면제형']
+  상품코드: 2130
+  추출 완료: 6행 → output/extracted/2130A01_S00026_간편가입_H종신보험_무배당.json
+  코드 변환 완료: 6행 → output/extracted/2130A01_S00026_간편가입_H종신보험_무배당_coded.json
+  업로드 양식 생성 완료: 6행 → output/upload/S00026_2130_간편가입_H종신보험_무배당.xlsx
+  추출 완료: 15행 → output/extracted/2130A01_S00027_간편가입_H종신보험_무배당.json
+  코드 변환 완료: 15행 → output/extracted/2130A01_S00027_간편가입_H종신보험_무배당_coded.json
+  업로드 양식 생성 완료: 15행 → output/upload/S00027_2130_간편가입_H종신보험_무배당.xlsx
+  추출 완료: 3행 → output/extracted/2130A01_S00028_간편가입_H종신보험_무배당.json
+  코드 변환 완료: 3행 → output/extracted/2130A01_S00028_간편가입_H종신보험_무배당_coded.json
+  업로드 양식 생성 완료: 3행 → output/upload/S00028_2130_간편가입_H종신보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/2130A01_S00022_간편가입_H종신보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 2130 → S00026: ok(6행) | S00027: ok(15행) | S00028: ok(3행) | S00022: no_data(0행)
+
+[15/51] 한화생명 간편가입 Need AI 암보험 무배당_사업방법서_20260101~.pdf
+  run_id: 간편가입_Need_AI_암보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 5, 7, 9, 11], '납입주기': [3, 7], '보기개시나이': []}
+  Sub types: ['간편가입형(0년)', '간편가입형(5년)']
+  상품코드: 2249
+  추출 완료: 12행 → output/extracted/2249A01_S00026_간편가입_Need_AI_암보험_무배당.json
+  코드 변환 완료: 12행 → output/extracted/2249A01_S00026_간편가입_Need_AI_암보험_무배당_coded.json
+  업로드 양식 생성 완료: 12행 → output/upload/S00026_2249_간편가입_Need_AI_암보험_무배당.xlsx
+  추출 완료: 6행 → output/extracted/2249A01_S00027_간편가입_Need_AI_암보험_무배당.json
+  코드 변환 완료: 6행 → output/extracted/2249A01_S00027_간편가입_Need_AI_암보험_무배당_coded.json
+  업로드 양식 생성 완료: 6행 → output/upload/S00027_2249_간편가입_Need_AI_암보험_무배당.xlsx
+  추출 완료: 1행 → output/extracted/2249A01_S00028_간편가입_Need_AI_암보험_무배당.json
+  코드 변환 완료: 1행 → output/extracted/2249A01_S00028_간편가입_Need_AI_암보험_무배당_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00028_2249_간편가입_Need_AI_암보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/2249A01_S00022_간편가입_Need_AI_암보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 2249 → S00026: ok(12행) | S00027: ok(6행) | S00028: ok(1행) | S00022: no_data(0행)
+
+[16/51] 한화생명 간편가입 경영인H정기보험 무배당_사업방법서_20260101~.pdf
+  run_id: 간편가입_경영인H정기보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 4, 5, 7, 8, 12, 14, 16, 21, 22], '납입주기': [3, 4, 21, 22], '보기개시나이': [20]}
+  Sub types: ['기본형']
+  상품코드: 2243
+  추출 완료: 6행 → output/extracted/2243A01_S00026_간편가입_경영인H정기보험_무배당.json
+  코드 변환 완료: 6행 → output/extracted/2243A01_S00026_간편가입_경영인H정기보험_무배당_coded.json
+  업로드 양식 생성 완료: 6행 → output/upload/S00026_2243_간편가입_경영인H정기보험_무배당.xlsx
+  추출 완료: 44행 → output/extracted/2243A01_S00027_간편가입_경영인H정기보험_무배당.json
+  코드 변환 완료: 44행 → output/extracted/2243A01_S00027_간편가입_경영인H정기보험_무배당_coded.json
+  업로드 양식 생성 완료: 44행 → output/upload/S00027_2243_간편가입_경영인H정기보험_무배당.xlsx
+  추출 완료: 2행 → output/extracted/2243A01_S00028_간편가입_경영인H정기보험_무배당.json
+  코드 변환 완료: 2행 → output/extracted/2243A01_S00028_간편가입_경영인H정기보험_무배당_coded.json
+  업로드 양식 생성 완료: 2행 → output/upload/S00028_2243_간편가입_경영인H정기보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/2243A01_S00022_간편가입_경영인H정기보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 2243 → S00026: ok(6행) | S00027: ok(44행) | S00028: ok(2행) | S00022: no_data(0행)
+
+[17/51] 한화생명 간편가입 상속H종신보험 무배당_사업방법서_20260101~.pdf
+  run_id: 간편가입_상속H종신보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 4, 5, 6, 8, 10, 11], '납입주기': [3, 8, 11], '보기개시나이': [8]}
+  Sub types: ['기본형']
+  상품코드: 2130
+  추출 완료: 3행 → output/extracted/2130A01_S00026_간편가입_상속H종신보험_무배당.json
+  코드 변환 완료: 3행 → output/extracted/2130A01_S00026_간편가입_상속H종신보험_무배당_coded.json
+  업로드 양식 생성 완료: 3행 → output/upload/S00026_2130_간편가입_상속H종신보험_무배당.xlsx
+  추출 완료: 6행 → output/extracted/2130A01_S00027_간편가입_상속H종신보험_무배당.json
+  코드 변환 완료: 6행 → output/extracted/2130A01_S00027_간편가입_상속H종신보험_무배당_coded.json
+  업로드 양식 생성 완료: 6행 → output/upload/S00027_2130_간편가입_상속H종신보험_무배당.xlsx
+  추출 완료: 2행 → output/extracted/2130A01_S00028_간편가입_상속H종신보험_무배당.json
+  코드 변환 완료: 2행 → output/extracted/2130A01_S00028_간편가입_상속H종신보험_무배당_coded.json
+  업로드 양식 생성 완료: 2행 → output/upload/S00028_2130_간편가입_상속H종신보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/2130A01_S00022_간편가입_상속H종신보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 2130 → S00026: ok(3행) | S00027: ok(6행) | S00028: ok(2행) | S00022: no_data(0행)
+
+[18/51] 한화생명 간편가입 시그니처H보장보험 무배당_사업방법서_20260101~.pdf
+  run_id: 간편가입_시그니처H보장보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 5, 7, 8, 10], '납입주기': [3, 7], '보기개시나이': []}
+  Sub types: ['기본형']
+  상품코드: 2205
+  추출 완료: 24행 → output/extracted/2205A01_S00026_간편가입_시그니처H보장보험_무배당.json
+  코드 변환 완료: 24행 → output/extracted/2205A01_S00026_간편가입_시그니처H보장보험_무배당_coded.json
+  업로드 양식 생성 완료: 24행 → output/upload/S00026_2205_간편가입_시그니처H보장보험_무배당.xlsx
+  추출 완료: 12행 → output/extracted/2205A01_S00027_간편가입_시그니처H보장보험_무배당.json
+  코드 변환 완료: 12행 → output/extracted/2205A01_S00027_간편가입_시그니처H보장보험_무배당_coded.json
+  업로드 양식 생성 완료: 12행 → output/upload/S00027_2205_간편가입_시그니처H보장보험_무배당.xlsx
+  추출 완료: 1행 → output/extracted/2205A01_S00028_간편가입_시그니처H보장보험_무배당.json
+  코드 변환 완료: 1행 → output/extracted/2205A01_S00028_간편가입_시그니처H보장보험_무배당_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00028_2205_간편가입_시그니처H보장보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/2205A01_S00022_간편가입_시그니처H보장보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 2205 → S00026: ok(24행) | S00027: ok(12행) | S00028: ok(1행) | S00022: no_data(0행)
+
+[19/51] 한화생명 간편가입 시그니처H암보험 무배당_사업방법서_20260101~.pdf
+  run_id: 간편가입_시그니처H암보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 5, 7, 8, 10], '납입주기': [3, 7], '보기개시나이': []}
+  Sub types: ['기본형']
+  상품코드: 2205
+  추출 완료: 24행 → output/extracted/2205A01_S00026_간편가입_시그니처H암보험_무배당.json
+  코드 변환 완료: 24행 → output/extracted/2205A01_S00026_간편가입_시그니처H암보험_무배당_coded.json
+  업로드 양식 생성 완료: 24행 → output/upload/S00026_2205_간편가입_시그니처H암보험_무배당.xlsx
+  추출 완료: 12행 → output/extracted/2205A01_S00027_간편가입_시그니처H암보험_무배당.json
+  코드 변환 완료: 12행 → output/extracted/2205A01_S00027_간편가입_시그니처H암보험_무배당_coded.json
+  업로드 양식 생성 완료: 12행 → output/upload/S00027_2205_간편가입_시그니처H암보험_무배당.xlsx
+  추출 완료: 1행 → output/extracted/2205A01_S00028_간편가입_시그니처H암보험_무배당.json
+  코드 변환 완료: 1행 → output/extracted/2205A01_S00028_간편가입_시그니처H암보험_무배당_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00028_2205_간편가입_시그니처H암보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/2205A01_S00022_간편가입_시그니처H암보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 2205 → S00026: ok(24행) | S00027: ok(12행) | S00028: ok(1행) | S00022: no_data(0행)
+
+[20/51] 한화생명 간편가입 실손의료비보장보험(갱신형) 무배당(재가입용)_사업방법서_20260101~.pdf
+  run_id: 간편가입_실손의료비보장보험_갱신형_무배당_재가입용
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 4, 5, 7, 9, 10], '납입주기': [3, 9], '보기개시나이': []}
+  Sub types: ['기본형']
+  상품코드: 1976
+  추출 완료: 2행 → output/extracted/1976A01_S00026_간편가입_실손의료비보장보험_갱신형_무배당_재가입용.json
+  코드 변환 완료: 2행 → output/extracted/1976A01_S00026_간편가입_실손의료비보장보험_갱신형_무배당_재가입용_coded.json
+  업로드 양식 생성 완료: 2행 → output/upload/S00026_1976_간편가입_실손의료비보장보험_갱신형_무배당_재가입용.xlsx
+  추출 완료: 0행 → output/extracted/1976A01_S00027_간편가입_실손의료비보장보험_갱신형_무배당_재가입용.json
+  [S00027] 추출 데이터 없음 (규칙 미매칭)
+  추출 완료: 2행 → output/extracted/1976A01_S00028_간편가입_실손의료비보장보험_갱신형_무배당_재가입용.json
+  코드 변환 완료: 2행 → output/extracted/1976A01_S00028_간편가입_실손의료비보장보험_갱신형_무배당_재가입용_coded.json
+  업로드 양식 생성 완료: 2행 → output/upload/S00028_1976_간편가입_실손의료비보장보험_갱신형_무배당_재가입용.xlsx
+  추출 완료: 0행 → output/extracted/1976A01_S00022_간편가입_실손의료비보장보험_갱신형_무배당_재가입용.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 1976 → S00026: ok(2행) | S00027: no_data(0행) | S00028: ok(2행) | S00022: no_data(0행)
+
+[21/51] 한화생명 간편가입 제로백H종신보험 무배당_사업방법서_20260201~.pdf
+  run_id: 간편가입_제로백H종신보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 4, 5, 6, 8, 11, 13, 14, 16, 17, 19, 20, 24, 29], '납입주기': [3, 4, 24, 29], '보기개시나이': [19, 23]}
+  Sub types: ['기본형']
+  상품코드: 2208
+  추출 완료: 4행 → output/extracted/2208A01_S00026_간편가입_제로백H종신보험_무배당.json
+  코드 변환 완료: 4행 → output/extracted/2208A01_S00026_간편가입_제로백H종신보험_무배당_coded.json
+  업로드 양식 생성 완료: 4행 → output/upload/S00026_2208_간편가입_제로백H종신보험_무배당.xlsx
+  추출 완료: 6행 → output/extracted/2208A01_S00027_간편가입_제로백H종신보험_무배당.json
+  코드 변환 완료: 6행 → output/extracted/2208A01_S00027_간편가입_제로백H종신보험_무배당_coded.json
+  업로드 양식 생성 완료: 6행 → output/upload/S00027_2208_간편가입_제로백H종신보험_무배당.xlsx
+  추출 완료: 3행 → output/extracted/2208A01_S00028_간편가입_제로백H종신보험_무배당.json
+  코드 변환 완료: 3행 → output/extracted/2208A01_S00028_간편가입_제로백H종신보험_무배당_coded.json
+  업로드 양식 생성 완료: 3행 → output/upload/S00028_2208_간편가입_제로백H종신보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/2208A01_S00022_간편가입_제로백H종신보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 2208 → S00026: ok(4행) | S00027: ok(6행) | S00028: ok(3행) | S00022: no_data(0행)
+
+[22/51] 한화생명 간편가입 포켓골절보험 무배당_사업방법서_20260101~.pdf
+  run_id: 간편가입_포켓골절보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 5, 6], '납입주기': [3, 5, 6], '보기개시나이': []}
+  Sub types: ['기본형']
+  상품코드: 2256
+  추출 완료: 1행 → output/extracted/2256A01_S00026_간편가입_포켓골절보험_무배당.json
+  코드 변환 완료: 1행 → output/extracted/2256A01_S00026_간편가입_포켓골절보험_무배당_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00026_2256_간편가입_포켓골절보험_무배당.xlsx
+  추출 완료: 1행 → output/extracted/2256A01_S00027_간편가입_포켓골절보험_무배당.json
+  코드 변환 완료: 1행 → output/extracted/2256A01_S00027_간편가입_포켓골절보험_무배당_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00027_2256_간편가입_포켓골절보험_무배당.xlsx
+  추출 완료: 1행 → output/extracted/2256A01_S00028_간편가입_포켓골절보험_무배당.json
+  코드 변환 완료: 1행 → output/extracted/2256A01_S00028_간편가입_포켓골절보험_무배당_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00028_2256_간편가입_포켓골절보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/2256A01_S00022_간편가입_포켓골절보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 2256 → S00026: ok(1행) | S00027: ok(1행) | S00028: ok(1행) | S00022: no_data(0행)
+
+[23/51] 한화생명 간편가입 하나로H종신보험 무배당_사업방법서_20260101~.pdf
+  run_id: 간편가입_하나로H종신보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 4, 5, 6, 8, 9, 11, 14, 15, 16, 17, 18, 21, 22, 23, 24, 25, 26, 29, 31, 32, 37, 39, 41], '납입주기': [3, 4, 31, 32], '보기개시나이': [25, 28, 29]}
+  Sub types: ['기본형']
+  상품코드: 2251
+  추출 완료: 6행 → output/extracted/2251A01_S00026_간편가입_하나로H종신보험_무배당.json
+  코드 변환 완료: 6행 → output/extracted/2251A01_S00026_간편가입_하나로H종신보험_무배당_coded.json
+  업로드 양식 생성 완료: 6행 → output/upload/S00026_2251_간편가입_하나로H종신보험_무배당.xlsx
+  추출 완료: 24행 → output/extracted/2251A01_S00027_간편가입_하나로H종신보험_무배당.json
+  코드 변환 완료: 24행 → output/extracted/2251A01_S00027_간편가입_하나로H종신보험_무배당_coded.json
+  업로드 양식 생성 완료: 24행 → output/upload/S00027_2251_간편가입_하나로H종신보험_무배당.xlsx
+  추출 완료: 3행 → output/extracted/2251A01_S00028_간편가입_하나로H종신보험_무배당.json
+  코드 변환 완료: 3행 → output/extracted/2251A01_S00028_간편가입_하나로H종신보험_무배당_coded.json
+  업로드 양식 생성 완료: 3행 → output/upload/S00028_2251_간편가입_하나로H종신보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/2251A01_S00022_간편가입_하나로H종신보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 2251 → S00026: ok(6행) | S00027: ok(24행) | S00028: ok(3행) | S00022: no_data(0행)
+
+[24/51] 한화생명 경영인H정기보험 무배당_사업방법서_20260101~.pdf
+  run_id: 경영인H정기보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 4, 5, 6, 7, 8, 13, 14, 17, 20], '납입주기': [3, 4, 20], '보기개시나이': [20]}
+  Sub types: ['기본형']
+  상품코드: 2242
+  추출 완료: 6행 → output/extracted/2242A01_S00026_경영인H정기보험_무배당.json
+  코드 변환 완료: 6행 → output/extracted/2242A01_S00026_경영인H정기보험_무배당_coded.json
+  업로드 양식 생성 완료: 6행 → output/upload/S00026_2242_경영인H정기보험_무배당.xlsx
+  추출 완료: 40행 → output/extracted/2242A01_S00027_경영인H정기보험_무배당.json
+  코드 변환 완료: 40행 → output/extracted/2242A01_S00027_경영인H정기보험_무배당_coded.json
+  업로드 양식 생성 완료: 40행 → output/upload/S00027_2242_경영인H정기보험_무배당.xlsx
+  추출 완료: 2행 → output/extracted/2242A01_S00028_경영인H정기보험_무배당.json
+  코드 변환 완료: 2행 → output/extracted/2242A01_S00028_경영인H정기보험_무배당_coded.json
+  업로드 양식 생성 완료: 2행 → output/upload/S00028_2242_경영인H정기보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/2242A01_S00022_경영인H정기보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 2242 → S00026: ok(6행) | S00027: ok(40행) | S00028: ok(2행) | S00022: no_data(0행)
+
+[25/51] 한화생명 기본형 급여 e실손의료비보장보험(갱신형) 무배당_사업방법서_20260101~.pdf
+  run_id: 기본형_급여_e실손의료비보장보험_갱신형_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [4, 5, 7, 8, 10, 11, 13], '납입주기': [4, 5, 11], '보기개시나이': []}
+  Sub types: ['기본형']
+  상품코드: 1983
+  추출 완료: 4행 → output/extracted/1983A01_S00026_기본형_급여_e실손의료비보장보험_갱신형_무배당.json
+  코드 변환 완료: 4행 → output/extracted/1983A01_S00026_기본형_급여_e실손의료비보장보험_갱신형_무배당_coded.json
+  업로드 양식 생성 완료: 4행 → output/upload/S00026_1983_기본형_급여_e실손의료비보장보험_갱신형_무배당.xlsx
+  추출 완료: 0행 → output/extracted/1983A01_S00027_기본형_급여_e실손의료비보장보험_갱신형_무배당.json
+  [S00027] 추출 데이터 없음 (규칙 미매칭)
+  추출 완료: 2행 → output/extracted/1983A01_S00028_기본형_급여_e실손의료비보장보험_갱신형_무배당.json
+  코드 변환 완료: 2행 → output/extracted/1983A01_S00028_기본형_급여_e실손의료비보장보험_갱신형_무배당_coded.json
+  업로드 양식 생성 완료: 2행 → output/upload/S00028_1983_기본형_급여_e실손의료비보장보험_갱신형_무배당.xlsx
+  추출 완료: 0행 → output/extracted/1983A01_S00022_기본형_급여_e실손의료비보장보험_갱신형_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 1983 → S00026: ok(4행) | S00027: no_data(0행) | S00028: ok(2행) | S00022: no_data(0행)
+
+[26/51] 한화생명 기본형 급여 실손의료비보장보험(갱신형) 무배당_사업방법서_20260101~.pdf
+  run_id: 기본형_급여_실손의료비보장보험_갱신형_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [4, 5, 7, 8, 10, 11, 13], '납입주기': [4, 5, 11], '보기개시나이': []}
+  Sub types: ['기본형']
+  상품코드: 1982
+  추출 완료: 4행 → output/extracted/1982A01_S00026_기본형_급여_실손의료비보장보험_갱신형_무배당.json
+  코드 변환 완료: 4행 → output/extracted/1982A01_S00026_기본형_급여_실손의료비보장보험_갱신형_무배당_coded.json
+  업로드 양식 생성 완료: 4행 → output/upload/S00026_1982_기본형_급여_실손의료비보장보험_갱신형_무배당.xlsx
+  추출 완료: 0행 → output/extracted/1982A01_S00027_기본형_급여_실손의료비보장보험_갱신형_무배당.json
+  [S00027] 추출 데이터 없음 (규칙 미매칭)
+  추출 완료: 2행 → output/extracted/1982A01_S00028_기본형_급여_실손의료비보장보험_갱신형_무배당.json
+  코드 변환 완료: 2행 → output/extracted/1982A01_S00028_기본형_급여_실손의료비보장보험_갱신형_무배당_coded.json
+  업로드 양식 생성 완료: 2행 → output/upload/S00028_1982_기본형_급여_실손의료비보장보험_갱신형_무배당.xlsx
+  추출 완료: 0행 → output/extracted/1982A01_S00022_기본형_급여_실손의료비보장보험_갱신형_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 1982 → S00026: ok(4행) | S00027: no_data(0행) | S00028: ok(2행) | S00022: no_data(0행)
+
+[27/51] 한화생명 기본형 급여 실손의료비보장보험(계약전환 단체개인전환 개인중지재개용)(갱신형) 무배당_사업방법서_20260101~.pdf
+  run_id: 기본형_급여_실손의료비보장보험_계약전환_단체개인전환_개인중지재개용_갱신형_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [4, 5, 6, 8, 9, 12, 13, 14], '납입주기': [4, 5, 6, 13], '보기개시나이': []}
+  Sub types: ['기본형']
+  상품코드: 1984
+  추출 완료: 6행 → output/extracted/1984A01_S00026_기본형_급여_실손의료비보장보험_계약전환_단체개인전환_개인중지재개용_갱신형_무배당.json
+  코드 변환 완료: 6행 → output/extracted/1984A01_S00026_기본형_급여_실손의료비보장보험_계약전환_단체개인전환_개인중지재개용_갱신형_무배당_coded.json
+  업로드 양식 생성 완료: 6행 → output/upload/S00026_1984_기본형_급여_실손의료비보장보험_계약전환_단체개인전환_개인중지재개용_갱신형_무배당.xlsx
+  추출 완료: 1행 → output/extracted/1984A01_S00027_기본형_급여_실손의료비보장보험_계약전환_단체개인전환_개인중지재개용_갱신형_무배당.json
+  코드 변환 완료: 1행 → output/extracted/1984A01_S00027_기본형_급여_실손의료비보장보험_계약전환_단체개인전환_개인중지재개용_갱신형_무배당_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00027_1984_기본형_급여_실손의료비보장보험_계약전환_단체개인전환_개인중지재개용_갱신형_무배당.xlsx
+  추출 완료: 2행 → output/extracted/1984A01_S00028_기본형_급여_실손의료비보장보험_계약전환_단체개인전환_개인중지재개용_갱신형_무배당.json
+  코드 변환 완료: 2행 → output/extracted/1984A01_S00028_기본형_급여_실손의료비보장보험_계약전환_단체개인전환_개인중지재개용_갱신형_무배당_coded.json
+  업로드 양식 생성 완료: 2행 → output/upload/S00028_1984_기본형_급여_실손의료비보장보험_계약전환_단체개인전환_개인중지재개용_갱신형_무배당.xlsx
+  추출 완료: 0행 → output/extracted/1984A01_S00022_기본형_급여_실손의료비보장보험_계약전환_단체개인전환_개인중지재개용_갱신형_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 1984 → S00026: ok(6행) | S00027: ok(1행) | S00028: ok(2행) | S00022: no_data(0행)
+
+[28/51] 한화생명 기업복지라이프플랜보험 무배당_사업방법서_20260101~.pdf
+  run_id: 기업복지라이프플랜보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 7], '납입주기': [3, 7], '보기개시나이': []}
+  Sub types: ['기본형']
+  상품코드: 1224
+  추출 완료: 1행 → output/extracted/1224A01_S00026_기업복지라이프플랜보험_무배당.json
+  코드 변환 완료: 1행 → output/extracted/1224A01_S00026_기업복지라이프플랜보험_무배당_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00026_1224_기업복지라이프플랜보험_무배당.xlsx
+  추출 완료: 1행 → output/extracted/1224A01_S00027_기업복지라이프플랜보험_무배당.json
+  코드 변환 완료: 1행 → output/extracted/1224A01_S00027_기업복지라이프플랜보험_무배당_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00027_1224_기업복지라이프플랜보험_무배당.xlsx
+  추출 완료: 2행 → output/extracted/1224A01_S00028_기업복지라이프플랜보험_무배당.json
+  코드 변환 완료: 2행 → output/extracted/1224A01_S00028_기업복지라이프플랜보험_무배당_coded.json
+  업로드 양식 생성 완료: 2행 → output/upload/S00028_1224_기업복지라이프플랜보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/1224A01_S00022_기업복지라이프플랜보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 1224 → S00026: ok(1행) | S00027: ok(1행) | S00028: ok(2행) | S00022: no_data(0행)
+
+[29/51] 한화생명 노후실손의료비보장보험(갱신형) 무배당_사업방법서_20260101~.pdf
+  run_id: 노후실손의료비보장보험_갱신형_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 4, 5, 7, 8], '납입주기': [3, 8], '보기개시나이': []}
+  Sub types: ['기본형']
+  상품코드: 1808
+  추출 완료: 3행 → output/extracted/1808A01_S00026_노후실손의료비보장보험_갱신형_무배당.json
+  코드 변환 완료: 3행 → output/extracted/1808A01_S00026_노후실손의료비보장보험_갱신형_무배당_coded.json
+  업로드 양식 생성 완료: 3행 → output/upload/S00026_1808_노후실손의료비보장보험_갱신형_무배당.xlsx
+  추출 완료: 1행 → output/extracted/1808A01_S00027_노후실손의료비보장보험_갱신형_무배당.json
+  코드 변환 완료: 1행 → output/extracted/1808A01_S00027_노후실손의료비보장보험_갱신형_무배당_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00027_1808_노후실손의료비보장보험_갱신형_무배당.xlsx
+  추출 완료: 2행 → output/extracted/1808A01_S00028_노후실손의료비보장보험_갱신형_무배당.json
+  코드 변환 완료: 2행 → output/extracted/1808A01_S00028_노후실손의료비보장보험_갱신형_무배당_coded.json
+  업로드 양식 생성 완료: 2행 → output/upload/S00028_1808_노후실손의료비보장보험_갱신형_무배당.xlsx
+  추출 완료: 0행 → output/extracted/1808A01_S00022_노후실손의료비보장보험_갱신형_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 1808 → S00026: ok(3행) | S00027: ok(1행) | S00028: ok(2행) | S00022: no_data(0행)
+
+[30/51] 한화생명 바로연금보험 무배당_사업방법서_20260101~.pdf
+  run_id: 바로연금보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 4, 8], '납입주기': [3, 4], '보기개시나이': [3, 4, 5]}
+  Sub types: ['기본형']
+  상품코드: 2259
+  추출 완료: 5행 → output/extracted/2259A01_S00026_바로연금보험_무배당.json
+  코드 변환 완료: 5행 → output/extracted/2259A01_S00026_바로연금보험_무배당_coded.json
+  업로드 양식 생성 완료: 5행 → output/upload/S00026_2259_바로연금보험_무배당.xlsx
+  추출 완료: 1행 → output/extracted/2259A01_S00027_바로연금보험_무배당.json
+  코드 변환 완료: 1행 → output/extracted/2259A01_S00027_바로연금보험_무배당_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00027_2259_바로연금보험_무배당.xlsx
+  추출 완료: 1행 → output/extracted/2259A01_S00028_바로연금보험_무배당.json
+  코드 변환 완료: 1행 → output/extracted/2259A01_S00028_바로연금보험_무배당_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00028_2259_바로연금보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/2259A01_S00022_바로연금보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 2259 → S00026: ok(5행) | S00027: ok(1행) | S00028: ok(1행) | S00022: no_data(0행)
+
+[31/51] 한화생명 상생친구 보장보험 무배당_사업방법서_20260201~.pdf
+  run_id: 상생친구_보장보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 32, 34, 35, 36, 38, 39, 42, 43, 45], '납입주기': [9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 42], '보기개시나이': []}
+  Sub types: ['기본형']
+  상품코드: 2126
+  추출 완료: 32행 → output/extracted/2126A01_S00026_상생친구_보장보험_무배당.json
+  코드 변환 완료: 32행 → output/extracted/2126A01_S00026_상생친구_보장보험_무배당_coded.json
+  업로드 양식 생성 완료: 32행 → output/upload/S00026_2126_상생친구_보장보험_무배당.xlsx
+  추출 완료: 30행 → output/extracted/2126A01_S00027_상생친구_보장보험_무배당.json
+  코드 변환 완료: 30행 → output/extracted/2126A01_S00027_상생친구_보장보험_무배당_coded.json
+  업로드 양식 생성 완료: 30행 → output/upload/S00027_2126_상생친구_보장보험_무배당.xlsx
+  추출 완료: 1행 → output/extracted/2126A01_S00028_상생친구_보장보험_무배당.json
+  코드 변환 완료: 1행 → output/extracted/2126A01_S00028_상생친구_보장보험_무배당_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00028_2126_상생친구_보장보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/2126A01_S00022_상생친구_보장보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 2126 → S00026: ok(32행) | S00027: ok(30행) | S00028: ok(1행) | S00022: no_data(0행)
+
+[32/51] 한화생명 상속H종신보험 무배당_사업방법서_20260101~.pdf
+  run_id: 상속H종신보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 4, 5, 6, 7, 8], '납입주기': [3, 7], '보기개시나이': [6, 7]}
+  Sub types: ['기본형']
+  상품코드: 2130
+  추출 완료: 3행 → output/extracted/2130A01_S00026_상속H종신보험_무배당.json
+  코드 변환 완료: 3행 → output/extracted/2130A01_S00026_상속H종신보험_무배당_coded.json
+  업로드 양식 생성 완료: 3행 → output/upload/S00026_2130_상속H종신보험_무배당.xlsx
+  추출 완료: 6행 → output/extracted/2130A01_S00027_상속H종신보험_무배당.json
+  코드 변환 완료: 6행 → output/extracted/2130A01_S00027_상속H종신보험_무배당_coded.json
+  업로드 양식 생성 완료: 6행 → output/upload/S00027_2130_상속H종신보험_무배당.xlsx
+  추출 완료: 2행 → output/extracted/2130A01_S00028_상속H종신보험_무배당.json
+  코드 변환 완료: 2행 → output/extracted/2130A01_S00028_상속H종신보험_무배당_coded.json
+  업로드 양식 생성 완료: 2행 → output/upload/S00028_2130_상속H종신보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/2130A01_S00022_상속H종신보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 2130 → S00026: ok(3행) | S00027: ok(6행) | S00028: ok(2행) | S00022: no_data(0행)
+
+[33/51] 한화생명 스마트H상해보험 무배당_사업방법서_20260201~.pdf
+  run_id: 스마트H상해보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 4, 6], '납입주기': [3, 5, 6], '보기개시나이': []}
+  Sub types: ['기본형']
+  상품코드: 2236
+  추출 완료: 50행 → output/extracted/2236A01_S00026_스마트H상해보험_무배당.json
+  코드 변환 완료: 50행 → output/extracted/2236A01_S00026_스마트H상해보험_무배당_coded.json
+  업로드 양식 생성 완료: 50행 → output/upload/S00026_2236_스마트H상해보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/2236A01_S00027_스마트H상해보험_무배당.json
+  [S00027] 추출 데이터 없음 (규칙 미매칭)
+  추출 완료: 3행 → output/extracted/2236A01_S00028_스마트H상해보험_무배당.json
+  코드 변환 완료: 3행 → output/extracted/2236A01_S00028_스마트H상해보험_무배당_coded.json
+  업로드 양식 생성 완료: 3행 → output/upload/S00028_2236_스마트H상해보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/2236A01_S00022_스마트H상해보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 2236 → S00026: ok(50행) | S00027: no_data(0행) | S00028: ok(3행) | S00022: no_data(0행)
+
+[34/51] 한화생명 스마트V상해보험 무배당_사업방법서_20260201~.pdf
+  run_id: 스마트V상해보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 4, 6], '납입주기': [3, 5, 6], '보기개시나이': []}
+  Sub types: ['기본형']
+  상품코드: 2236
+  추출 완료: 50행 → output/extracted/2236A01_S00026_스마트V상해보험_무배당.json
+  코드 변환 완료: 50행 → output/extracted/2236A01_S00026_스마트V상해보험_무배당_coded.json
+  업로드 양식 생성 완료: 50행 → output/upload/S00026_2236_스마트V상해보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/2236A01_S00027_스마트V상해보험_무배당.json
+  [S00027] 추출 데이터 없음 (규칙 미매칭)
+  추출 완료: 3행 → output/extracted/2236A01_S00028_스마트V상해보험_무배당.json
+  코드 변환 완료: 3행 → output/extracted/2236A01_S00028_스마트V상해보험_무배당_coded.json
+  업로드 양식 생성 완료: 3행 → output/upload/S00028_2236_스마트V상해보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/2236A01_S00022_스마트V상해보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 2236 → S00026: ok(50행) | S00027: no_data(0행) | S00028: ok(3행) | S00022: no_data(0행)
+
+[35/51] 한화생명 스마트V연금보험 무배당_사업방법서_20260101~.pdf
+  run_id: 스마트V연금보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 16, 17, 19, 20], '납입주기': [3, 4, 10, 16, 19, 20], '보기개시나이': [3, 4, 5, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]}
+  Sub types: ['기본형']
+  상품코드: 1758
+  추출 완료: 0행 → output/extracted/1758A01_S00026_스마트V연금보험_무배당.json
+  [S00026] 추출 데이터 없음 (규칙 미매칭)
+  추출 완료: 63행 → output/extracted/1758A01_S00027_스마트V연금보험_무배당.json
+  코드 변환 완료: 63행 → output/extracted/1758A01_S00027_스마트V연금보험_무배당_coded.json
+  업로드 양식 생성 완료: 63행 → output/upload/S00027_1758_스마트V연금보험_무배당.xlsx
+  추출 완료: 3행 → output/extracted/1758A01_S00028_스마트V연금보험_무배당.json
+  코드 변환 완료: 3행 → output/extracted/1758A01_S00028_스마트V연금보험_무배당_coded.json
+  업로드 양식 생성 완료: 3행 → output/upload/S00028_1758_스마트V연금보험_무배당.xlsx
+  추출 완료: 1행 → output/extracted/1758A01_S00022_스마트V연금보험_무배당.json
+  코드 변환 완료: 1행 → output/extracted/1758A01_S00022_스마트V연금보험_무배당_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00022_1758_스마트V연금보험_무배당.xlsx
+  [OK] 1758 → S00026: no_data(0행) | S00027: ok(63행) | S00028: ok(3행) | S00022: ok(1행)
+
+[36/51] 한화생명 스마트하이브리드연금보험 무배당_사업방법서_20260201~.pdf
+  run_id: 스마트하이브리드연금보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 4, 5, 6, 7, 10, 11, 12, 13, 14, 15, 17, 18], '납입주기': [3, 4, 10, 15, 17, 18], '보기개시나이': [3, 4, 5, 7, 11, 12, 13, 14, 15, 17, 18]}
+  Sub types: ['기본형']
+  상품코드: 2042
+  추출 완료: 0행 → output/extracted/2042A01_S00026_스마트하이브리드연금보험_무배당.json
+  [S00026] 추출 데이터 없음 (규칙 미매칭)
+  추출 완료: 21행 → output/extracted/2042A01_S00027_스마트하이브리드연금보험_무배당.json
+  코드 변환 완료: 21행 → output/extracted/2042A01_S00027_스마트하이브리드연금보험_무배당_coded.json
+  업로드 양식 생성 완료: 21행 → output/upload/S00027_2042_스마트하이브리드연금보험_무배당.xlsx
+  추출 완료: 3행 → output/extracted/2042A01_S00028_스마트하이브리드연금보험_무배당.json
+  코드 변환 완료: 3행 → output/extracted/2042A01_S00028_스마트하이브리드연금보험_무배당_coded.json
+  업로드 양식 생성 완료: 3행 → output/upload/S00028_2042_스마트하이브리드연금보험_무배당.xlsx
+  추출 완료: 3행 → output/extracted/2042A01_S00022_스마트하이브리드연금보험_무배당.json
+  코드 변환 완료: 3행 → output/extracted/2042A01_S00022_스마트하이브리드연금보험_무배당_coded.json
+  업로드 양식 생성 완료: 3행 → output/upload/S00022_2042_스마트하이브리드연금보험_무배당.xlsx
+  [OK] 2042 → S00026: no_data(0행) | S00027: ok(21행) | S00028: ok(3행) | S00022: ok(3행)
+
+[37/51] 한화생명 시그니처 H통합건강보험 무배당(납입면제형)_사업방법서_20260201~.pdf
+  run_id: 시그니처_H통합건강보험_무배당_납입면제형
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 6, 10, 11, 12], '납입주기': [3, 5, 10, 12], '보기개시나이': []}
+  Sub types: ['간편가입형(0년)', '간편가입형(10년)', '간편가입형(1년)', '간편가입형(2년)', '간편가입형(3년)', '간편가입형(4년)', '간편가입형(5년)', '건강가입형(10년)', '건강가입형(6년)', '건강가입형(7년)', '건강가입형(8년)', '건강가입형(9년)', '납입면제형', '일반가입형']
+  상품코드: 2257
+  추출 완료: 9행 → output/extracted/2257A01_S00026_시그니처_H통합건강보험_무배당_납입면제형.json
+  코드 변환 완료: 9행 → output/extracted/2257A01_S00026_시그니처_H통합건강보험_무배당_납입면제형_coded.json
+  업로드 양식 생성 완료: 9행 → output/upload/S00026_2257_시그니처_H통합건강보험_무배당_납입면제형.xlsx
+  추출 완료: 72행 → output/extracted/2257A01_S00027_시그니처_H통합건강보험_무배당_납입면제형.json
+  코드 변환 완료: 72행 → output/extracted/2257A01_S00027_시그니처_H통합건강보험_무배당_납입면제형_coded.json
+  업로드 양식 생성 완료: 72행 → output/upload/S00027_2257_시그니처_H통합건강보험_무배당_납입면제형.xlsx
+  추출 완료: 1행 → output/extracted/2257A01_S00028_시그니처_H통합건강보험_무배당_납입면제형.json
+  코드 변환 완료: 1행 → output/extracted/2257A01_S00028_시그니처_H통합건강보험_무배당_납입면제형_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00028_2257_시그니처_H통합건강보험_무배당_납입면제형.xlsx
+  추출 완료: 0행 → output/extracted/2257A01_S00022_시그니처_H통합건강보험_무배당_납입면제형.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 2257 → S00026: ok(9행) | S00027: ok(72행) | S00028: ok(1행) | S00022: no_data(0행)
+
+[38/51] 한화생명 시그니처 H통합건강보험 무배당_사업방법서_20260201~.pdf
+  run_id: 시그니처_H통합건강보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 6, 7, 10, 11, 12], '납입주기': [3, 5, 10, 12], '보기개시나이': []}
+  Sub types: ['간편가입형(0년)', '간편가입형(10년)', '간편가입형(1년)', '간편가입형(2년)', '간편가입형(3년)', '간편가입형(4년)', '간편가입형(5년)', '건강가입형(10년)', '건강가입형(6년)', '건강가입형(7년)', '건강가입형(8년)', '건강가입형(9년)', '일반가입형']
+  상품코드: 2257
+  추출 완료: 9행 → output/extracted/2257A01_S00026_시그니처_H통합건강보험_무배당.json
+  코드 변환 완료: 9행 → output/extracted/2257A01_S00026_시그니처_H통합건강보험_무배당_coded.json
+  업로드 양식 생성 완료: 9행 → output/upload/S00026_2257_시그니처_H통합건강보험_무배당.xlsx
+  추출 완료: 96행 → output/extracted/2257A01_S00027_시그니처_H통합건강보험_무배당.json
+  코드 변환 완료: 96행 → output/extracted/2257A01_S00027_시그니처_H통합건강보험_무배당_coded.json
+  업로드 양식 생성 완료: 96행 → output/upload/S00027_2257_시그니처_H통합건강보험_무배당.xlsx
+  추출 완료: 1행 → output/extracted/2257A01_S00028_시그니처_H통합건강보험_무배당.json
+  코드 변환 완료: 1행 → output/extracted/2257A01_S00028_시그니처_H통합건강보험_무배당_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00028_2257_시그니처_H통합건강보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/2257A01_S00022_시그니처_H통합건강보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 2257 → S00026: ok(9행) | S00027: ok(96행) | S00028: ok(1행) | S00022: no_data(0행)
+
+[39/51] 한화생명 시그니처H보장보험 무배당_사업방법서_20260101~.pdf
+  run_id: 시그니처H보장보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 5, 6, 7], '납입주기': [3, 6], '보기개시나이': []}
+  Sub types: ['기본형']
+  상품코드: 2205
+  추출 완료: 24행 → output/extracted/2205A01_S00026_시그니처H보장보험_무배당.json
+  코드 변환 완료: 24행 → output/extracted/2205A01_S00026_시그니처H보장보험_무배당_coded.json
+  업로드 양식 생성 완료: 24행 → output/upload/S00026_2205_시그니처H보장보험_무배당.xlsx
+  추출 완료: 12행 → output/extracted/2205A01_S00027_시그니처H보장보험_무배당.json
+  코드 변환 완료: 12행 → output/extracted/2205A01_S00027_시그니처H보장보험_무배당_coded.json
+  업로드 양식 생성 완료: 12행 → output/upload/S00027_2205_시그니처H보장보험_무배당.xlsx
+  추출 완료: 1행 → output/extracted/2205A01_S00028_시그니처H보장보험_무배당.json
+  코드 변환 완료: 1행 → output/extracted/2205A01_S00028_시그니처H보장보험_무배당_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00028_2205_시그니처H보장보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/2205A01_S00022_시그니처H보장보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 2205 → S00026: ok(24행) | S00027: ok(12행) | S00028: ok(1행) | S00022: no_data(0행)
+
+[40/51] 한화생명 시그니처H암보험 무배당_사업방법서_20260101~.pdf
+  run_id: 시그니처H암보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 5, 6, 7], '납입주기': [3, 6], '보기개시나이': []}
+  Sub types: ['기본형']
+  상품코드: 2204
+  추출 완료: 24행 → output/extracted/2204A01_S00026_시그니처H암보험_무배당.json
+  코드 변환 완료: 24행 → output/extracted/2204A01_S00026_시그니처H암보험_무배당_coded.json
+  업로드 양식 생성 완료: 24행 → output/upload/S00026_2204_시그니처H암보험_무배당.xlsx
+  추출 완료: 12행 → output/extracted/2204A01_S00027_시그니처H암보험_무배당.json
+  코드 변환 완료: 12행 → output/extracted/2204A01_S00027_시그니처H암보험_무배당_coded.json
+  업로드 양식 생성 완료: 12행 → output/upload/S00027_2204_시그니처H암보험_무배당.xlsx
+  추출 완료: 1행 → output/extracted/2204A01_S00028_시그니처H암보험_무배당.json
+  코드 변환 완료: 1행 → output/extracted/2204A01_S00028_시그니처H암보험_무배당_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00028_2204_시그니처H암보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/2204A01_S00022_시그니처H암보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 2204 → S00026: ok(24행) | S00027: ok(12행) | S00028: ok(1행) | S00022: no_data(0행)
+
+[41/51] 한화생명 연금보험Enterprise 무배당_사업방법서_20260101~.pdf
+  run_id: 연금보험Enterprise_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 6, 7, 8, 11, 12, 13], '납입주기': [3, 6, 8, 12], '보기개시나이': [3, 4, 5, 6, 7, 8, 11, 12, 13]}
+  Sub types: ['기본형']
+  상품코드: 1571
+  추출 완료: 2행 → output/extracted/1571A01_S00026_연금보험Enterprise_무배당.json
+  코드 변환 완료: 2행 → output/extracted/1571A01_S00026_연금보험Enterprise_무배당_coded.json
+  업로드 양식 생성 완료: 2행 → output/upload/S00026_1571_연금보험Enterprise_무배당.xlsx
+  추출 완료: 7행 → output/extracted/1571A01_S00027_연금보험Enterprise_무배당.json
+  코드 변환 완료: 7행 → output/extracted/1571A01_S00027_연금보험Enterprise_무배당_coded.json
+  업로드 양식 생성 완료: 7행 → output/upload/S00027_1571_연금보험Enterprise_무배당.xlsx
+  추출 완료: 3행 → output/extracted/1571A01_S00028_연금보험Enterprise_무배당.json
+  코드 변환 완료: 3행 → output/extracted/1571A01_S00028_연금보험Enterprise_무배당_coded.json
+  업로드 양식 생성 완료: 3행 → output/upload/S00028_1571_연금보험Enterprise_무배당.xlsx
+  추출 완료: 1행 → output/extracted/1571A01_S00022_연금보험Enterprise_무배당.json
+  코드 변환 완료: 1행 → output/extracted/1571A01_S00022_연금보험Enterprise_무배당_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00022_1571_연금보험Enterprise_무배당.xlsx
+  [OK] 1571 → S00026: ok(2행) | S00027: ok(7행) | S00028: ok(3행) | S00022: ok(1행)
+
+[42/51] 한화생명 연금저축 미래로기업복지연금보험_사업방법서_20260101~.pdf
+  run_id: 연금저축_미래로기업복지연금보험
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 4, 5, 6, 8, 9, 14], '납입주기': [3, 5, 14], '보기개시나이': [3, 4, 5, 6, 7, 8, 9, 13, 14]}
+  Sub types: ['기본형']
+  상품코드: 1629
+  추출 완료: 2행 → output/extracted/1629A01_S00026_연금저축_미래로기업복지연금보험.json
+  코드 변환 완료: 2행 → output/extracted/1629A01_S00026_연금저축_미래로기업복지연금보험_coded.json
+  업로드 양식 생성 완료: 2행 → output/upload/S00026_1629_연금저축_미래로기업복지연금보험.xlsx
+  추출 완료: 21행 → output/extracted/1629A01_S00027_연금저축_미래로기업복지연금보험.json
+  코드 변환 완료: 21행 → output/extracted/1629A01_S00027_연금저축_미래로기업복지연금보험_coded.json
+  업로드 양식 생성 완료: 21행 → output/upload/S00027_1629_연금저축_미래로기업복지연금보험.xlsx
+  추출 완료: 3행 → output/extracted/1629A01_S00028_연금저축_미래로기업복지연금보험.json
+  코드 변환 완료: 3행 → output/extracted/1629A01_S00028_연금저축_미래로기업복지연금보험_coded.json
+  업로드 양식 생성 완료: 3행 → output/upload/S00028_1629_연금저축_미래로기업복지연금보험.xlsx
+  추출 완료: 2행 → output/extracted/1629A01_S00022_연금저축_미래로기업복지연금보험.json
+  코드 변환 완료: 2행 → output/extracted/1629A01_S00022_연금저축_미래로기업복지연금보험_coded.json
+  업로드 양식 생성 완료: 2행 → output/upload/S00022_1629_연금저축_미래로기업복지연금보험.xlsx
+  [OK] 1629 → S00026: ok(2행) | S00027: ok(21행) | S00028: ok(3행) | S00022: ok(2행)
+
+[43/51] 한화생명 연금저축 스마트하이드림연금보험_사업방법서_20260101~.pdf
+  run_id: 연금저축_스마트하이드림연금보험
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 4, 5, 12], '납입주기': [3, 12], '보기개시나이': [3, 4, 5, 6, 11, 12]}
+  Sub types: ['기본형']
+  상품코드: 1228
+  추출 완료: 0행 → output/extracted/1228A01_S00026_연금저축_스마트하이드림연금보험.json
+  [S00026] 추출 데이터 없음 (규칙 미매칭)
+  추출 완료: 6행 → output/extracted/1228A01_S00027_연금저축_스마트하이드림연금보험.json
+  코드 변환 완료: 6행 → output/extracted/1228A01_S00027_연금저축_스마트하이드림연금보험_coded.json
+  업로드 양식 생성 완료: 6행 → output/upload/S00027_1228_연금저축_스마트하이드림연금보험.xlsx
+  추출 완료: 2행 → output/extracted/1228A01_S00028_연금저축_스마트하이드림연금보험.json
+  코드 변환 완료: 2행 → output/extracted/1228A01_S00028_연금저축_스마트하이드림연금보험_coded.json
+  업로드 양식 생성 완료: 2행 → output/upload/S00028_1228_연금저축_스마트하이드림연금보험.xlsx
+  추출 완료: 1행 → output/extracted/1228A01_S00022_연금저축_스마트하이드림연금보험.json
+  코드 변환 완료: 1행 → output/extracted/1228A01_S00022_연금저축_스마트하이드림연금보험_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00022_1228_연금저축_스마트하이드림연금보험.xlsx
+  [OK] 1228 → S00026: no_data(0행) | S00027: ok(6행) | S00028: ok(2행) | S00022: ok(1행)
+
+[44/51] 한화생명 연금저축 하이드림연금보험_사업방법서_20260101~.pdf
+  run_id: 연금저축_하이드림연금보험
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 5, 6, 7, 8, 11, 12, 17], '납입주기': [3, 7, 17], '보기개시나이': [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 17]}
+  Sub types: ['기본형']
+  상품코드: 1745
+  추출 완료: 2행 → output/extracted/1745A01_S00026_연금저축_하이드림연금보험.json
+  코드 변환 완료: 2행 → output/extracted/1745A01_S00026_연금저축_하이드림연금보험_coded.json
+  업로드 양식 생성 완료: 2행 → output/upload/S00026_1745_연금저축_하이드림연금보험.xlsx
+  추출 완료: 42행 → output/extracted/1745A01_S00027_연금저축_하이드림연금보험.json
+  코드 변환 완료: 42행 → output/extracted/1745A01_S00027_연금저축_하이드림연금보험_coded.json
+  업로드 양식 생성 완료: 42행 → output/upload/S00027_1745_연금저축_하이드림연금보험.xlsx
+  추출 완료: 3행 → output/extracted/1745A01_S00028_연금저축_하이드림연금보험.json
+  코드 변환 완료: 3행 → output/extracted/1745A01_S00028_연금저축_하이드림연금보험_coded.json
+  업로드 양식 생성 완료: 3행 → output/upload/S00028_1745_연금저축_하이드림연금보험.xlsx
+  추출 완료: 2행 → output/extracted/1745A01_S00022_연금저축_하이드림연금보험.json
+  코드 변환 완료: 2행 → output/extracted/1745A01_S00022_연금저축_하이드림연금보험_coded.json
+  업로드 양식 생성 완료: 2행 → output/upload/S00022_1745_연금저축_하이드림연금보험.xlsx
+  [OK] 1745 → S00026: ok(2행) | S00027: ok(42행) | S00028: ok(3행) | S00022: ok(2행)
+
+[45/51] 한화생명 장애인전용 곰두리보장보험 무배당_사업방법서_20260101~.pdf
+  run_id: 장애인전용_곰두리보장보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 4], '납입주기': [3, 4], '보기개시나이': []}
+  Sub types: ['기본형']
+  상품코드: 1230
+  추출 완료: 8행 → output/extracted/1230A01_S00026_장애인전용_곰두리보장보험_무배당.json
+  코드 변환 완료: 8행 → output/extracted/1230A01_S00026_장애인전용_곰두리보장보험_무배당_coded.json
+  업로드 양식 생성 완료: 8행 → output/upload/S00026_1230_장애인전용_곰두리보장보험_무배당.xlsx
+  추출 완료: 20행 → output/extracted/1230A01_S00027_장애인전용_곰두리보장보험_무배당.json
+  코드 변환 완료: 20행 → output/extracted/1230A01_S00027_장애인전용_곰두리보장보험_무배당_coded.json
+  업로드 양식 생성 완료: 20행 → output/upload/S00027_1230_장애인전용_곰두리보장보험_무배당.xlsx
+  추출 완료: 3행 → output/extracted/1230A01_S00028_장애인전용_곰두리보장보험_무배당.json
+  코드 변환 완료: 3행 → output/extracted/1230A01_S00028_장애인전용_곰두리보장보험_무배당_coded.json
+  업로드 양식 생성 완료: 3행 → output/upload/S00028_1230_장애인전용_곰두리보장보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/1230A01_S00022_장애인전용_곰두리보장보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 1230 → S00026: ok(8행) | S00027: ok(20행) | S00028: ok(3행) | S00022: no_data(0행)
+
+[46/51] 한화생명 제로백H종신보험 무배당_사업방법서_20260201~.pdf
+  run_id: 제로백H종신보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 4, 5, 6, 8, 11, 13, 14, 16, 17, 20, 21, 24], '납입주기': [3, 4, 24], '보기개시나이': [20, 23]}
+  Sub types: ['기본형']
+  상품코드: 2207
+  추출 완료: 4행 → output/extracted/2207A01_S00026_제로백H종신보험_무배당.json
+  코드 변환 완료: 4행 → output/extracted/2207A01_S00026_제로백H종신보험_무배당_coded.json
+  업로드 양식 생성 완료: 4행 → output/upload/S00026_2207_제로백H종신보험_무배당.xlsx
+  추출 완료: 9행 → output/extracted/2207A01_S00027_제로백H종신보험_무배당.json
+  코드 변환 완료: 9행 → output/extracted/2207A01_S00027_제로백H종신보험_무배당_coded.json
+  업로드 양식 생성 완료: 9행 → output/upload/S00027_2207_제로백H종신보험_무배당.xlsx
+  추출 완료: 3행 → output/extracted/2207A01_S00028_제로백H종신보험_무배당.json
+  코드 변환 완료: 3행 → output/extracted/2207A01_S00028_제로백H종신보험_무배당_coded.json
+  업로드 양식 생성 완료: 3행 → output/upload/S00028_2207_제로백H종신보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/2207A01_S00022_제로백H종신보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 2207 → S00026: ok(4행) | S00027: ok(9행) | S00028: ok(3행) | S00022: no_data(0행)
+
+[47/51] 한화생명 진심가득H보장보험 무배당_사업방법서_20260201~.pdf
+  run_id: 진심가득H보장보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 32, 34, 35, 36, 38, 39, 42, 43, 45], '납입주기': [9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 42], '보기개시나이': []}
+  Sub types: ['기본형']
+  상품코드: 2126
+  추출 완료: 32행 → output/extracted/2126A01_S00026_진심가득H보장보험_무배당.json
+  코드 변환 완료: 32행 → output/extracted/2126A01_S00026_진심가득H보장보험_무배당_coded.json
+  업로드 양식 생성 완료: 32행 → output/upload/S00026_2126_진심가득H보장보험_무배당.xlsx
+  추출 완료: 30행 → output/extracted/2126A01_S00027_진심가득H보장보험_무배당.json
+  코드 변환 완료: 30행 → output/extracted/2126A01_S00027_진심가득H보장보험_무배당_coded.json
+  업로드 양식 생성 완료: 30행 → output/upload/S00027_2126_진심가득H보장보험_무배당.xlsx
+  추출 완료: 1행 → output/extracted/2126A01_S00028_진심가득H보장보험_무배당.json
+  코드 변환 완료: 1행 → output/extracted/2126A01_S00028_진심가득H보장보험_무배당_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00028_2126_진심가득H보장보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/2126A01_S00022_진심가득H보장보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 2126 → S00026: ok(32행) | S00027: ok(30행) | S00028: ok(1행) | S00022: no_data(0행)
+
+[48/51] 한화생명 케어백간병플러스보험 무배당_사업방법서_20260101~.pdf
+  run_id: 케어백간병플러스보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 4, 5, 6, 7, 8, 9, 12, 13, 14, 15, 16, 17, 19, 21, 22, 23, 24, 25, 26], '납입주기': [4, 5, 6, 7, 23, 26], '보기개시나이': [22]}
+  Sub types: ['간편가입형(0년)', '간편가입형(10년)', '간편가입형(2년)', '간편가입형(5년)', '일반가입형']
+  상품코드: 2244
+  추출 완료: 120행 → output/extracted/2244A01_S00026_케어백간병플러스보험_무배당.json
+  코드 변환 완료: 120행 → output/extracted/2244A01_S00026_케어백간병플러스보험_무배당_coded.json
+  업로드 양식 생성 완료: 120행 → output/upload/S00026_2244_케어백간병플러스보험_무배당.xlsx
+  추출 완료: 60행 → output/extracted/2244A01_S00027_케어백간병플러스보험_무배당.json
+  코드 변환 완료: 60행 → output/extracted/2244A01_S00027_케어백간병플러스보험_무배당_coded.json
+  업로드 양식 생성 완료: 60행 → output/upload/S00027_2244_케어백간병플러스보험_무배당.xlsx
+  추출 완료: 3행 → output/extracted/2244A01_S00028_케어백간병플러스보험_무배당.json
+  코드 변환 완료: 3행 → output/extracted/2244A01_S00028_케어백간병플러스보험_무배당_coded.json
+  업로드 양식 생성 완료: 3행 → output/upload/S00028_2244_케어백간병플러스보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/2244A01_S00022_케어백간병플러스보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 2244 → S00026: ok(120행) | S00027: ok(60행) | S00028: ok(3행) | S00022: no_data(0행)
+
+[49/51] 한화생명 튼튼이 치아보험(갱신형) 무배당_사업방법서_20260101~.pdf
+  run_id: 튼튼이_치아보험_갱신형_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], '납입주기': [3, 4, 5, 8, 15], '보기개시나이': []}
+  Sub types: ['기본형']
+  상품코드: 1950
+  추출 완료: 4행 → output/extracted/1950A01_S00026_튼튼이_치아보험_갱신형_무배당.json
+  코드 변환 완료: 4행 → output/extracted/1950A01_S00026_튼튼이_치아보험_갱신형_무배당_coded.json
+  업로드 양식 생성 완료: 4행 → output/upload/S00026_1950_튼튼이_치아보험_갱신형_무배당.xlsx
+  추출 완료: 2행 → output/extracted/1950A01_S00027_튼튼이_치아보험_갱신형_무배당.json
+  코드 변환 완료: 2행 → output/extracted/1950A01_S00027_튼튼이_치아보험_갱신형_무배당_coded.json
+  업로드 양식 생성 완료: 2행 → output/upload/S00027_1950_튼튼이_치아보험_갱신형_무배당.xlsx
+  추출 완료: 1행 → output/extracted/1950A01_S00028_튼튼이_치아보험_갱신형_무배당.json
+  코드 변환 완료: 1행 → output/extracted/1950A01_S00028_튼튼이_치아보험_갱신형_무배당_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00028_1950_튼튼이_치아보험_갱신형_무배당.xlsx
+  추출 완료: 0행 → output/extracted/1950A01_S00022_튼튼이_치아보험_갱신형_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 1950 → S00026: ok(4행) | S00027: ok(2행) | S00028: ok(1행) | S00022: no_data(0행)
+
+[50/51] 한화생명 포켓골절보험 무배당_사업방법서_20260101~.pdf
+  run_id: 포켓골절보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 4], '납입주기': [3, 4], '보기개시나이': []}
+  Sub types: ['기본형']
+  상품코드: 2256
+  추출 완료: 1행 → output/extracted/2256A01_S00026_포켓골절보험_무배당.json
+  코드 변환 완료: 1행 → output/extracted/2256A01_S00026_포켓골절보험_무배당_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00026_2256_포켓골절보험_무배당.xlsx
+  추출 완료: 1행 → output/extracted/2256A01_S00027_포켓골절보험_무배당.json
+  코드 변환 완료: 1행 → output/extracted/2256A01_S00027_포켓골절보험_무배당_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00027_2256_포켓골절보험_무배당.xlsx
+  추출 완료: 1행 → output/extracted/2256A01_S00028_포켓골절보험_무배당.json
+  코드 변환 완료: 1행 → output/extracted/2256A01_S00028_포켓골절보험_무배당_coded.json
+  업로드 양식 생성 완료: 1행 → output/upload/S00028_2256_포켓골절보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/2256A01_S00022_포켓골절보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 2256 → S00026: ok(1행) | S00027: ok(1행) | S00028: ok(1행) | S00022: no_data(0행)
+
+[51/51] 한화생명 하나로H종신보험 무배당_사업방법서_20260101~.pdf
+  run_id: 하나로H종신보험_무배당
+  [CACHED] PDF 페이지 이미 존재
+  Found relevant pages: {'가입나이_보기납기': [3, 4, 5, 6, 8, 9, 11, 15, 16, 17, 18, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37], '납입주기': [3, 5, 31], '보기개시나이': [27, 29]}
+  Sub types: ['기본형']
+  상품코드: 2250
+  추출 완료: 6행 → output/extracted/2250A01_S00026_하나로H종신보험_무배당.json
+  코드 변환 완료: 6행 → output/extracted/2250A01_S00026_하나로H종신보험_무배당_coded.json
+  업로드 양식 생성 완료: 6행 → output/upload/S00026_2250_하나로H종신보험_무배당.xlsx
+  추출 완료: 24행 → output/extracted/2250A01_S00027_하나로H종신보험_무배당.json
+  코드 변환 완료: 24행 → output/extracted/2250A01_S00027_하나로H종신보험_무배당_coded.json
+  업로드 양식 생성 완료: 24행 → output/upload/S00027_2250_하나로H종신보험_무배당.xlsx
+  추출 완료: 3행 → output/extracted/2250A01_S00028_하나로H종신보험_무배당.json
+  코드 변환 완료: 3행 → output/extracted/2250A01_S00028_하나로H종신보험_무배당_coded.json
+  업로드 양식 생성 완료: 3행 → output/upload/S00028_2250_하나로H종신보험_무배당.xlsx
+  추출 완료: 0행 → output/extracted/2250A01_S00022_하나로H종신보험_무배당.json
+  [S00022] 추출 데이터 없음 (규칙 미매칭)
+  [OK] 2250 → S00026: ok(6행) | S00027: ok(24행) | S00028: ok(3행) | S00022: no_data(0행)
+
+============================================================
+처리 완료: 51개 처리 (성공 51, 실패 0, 스킵 0)
+소요 시간: 98초 (1.6분)
+로그: output/logs/batch_20260308_075157.json

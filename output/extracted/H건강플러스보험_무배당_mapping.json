@@ -1,0 +1,44 @@
+{
+  "product_mappings": [
+    {
+      "sub_type": "간편가입형(0년)",
+      "upper_object_code": "2246A07",
+      "lower_object_code": "2246007"
+    },
+    {
+      "sub_type": "간편가입형(10년)",
+      "upper_object_code": "2246A04",
+      "lower_object_code": "2246022"
+    },
+    {
+      "sub_type": "간편가입형(1년)",
+      "upper_object_code": "2246A02",
+      "lower_object_code": "2246002"
+    },
+    {
+      "sub_type": "간편가입형(2년)",
+      "upper_object_code": "2246A03",
+      "lower_object_code": "2246003"
+    },
+    {
+      "sub_type": "간편가입형(3년)",
+      "upper_object_code": "2246A05",
+      "lower_object_code": "2246023"
+    },
+    {
+      "sub_type": "간편가입형(4년)",
+      "upper_object_code": "2246A06",
+      "lower_object_code": "2246006"
+    },
+    {
+      "sub_type": "간편가입형(5년)",
+      "upper_object_code": "2246A01",
+      "lower_object_code": "2246001"
+    },
+    {
+      "sub_type": "일반가입형",
+      "upper_object_code": "2246A09",
+      "lower_object_code": "2246009"
+    }
+  ]
+}

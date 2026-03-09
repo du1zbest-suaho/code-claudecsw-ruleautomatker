@@ -1,0 +1,24 @@
+{
+  "table_type": "S00028",
+  "product_code": "2244A01",
+  "run_id": "케어백간병플러스보험_무배당",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "간편가입형(0년)",
+      "payment_cycle": "월납"
+    },
+    {
+      "sub_type": "간편가입형(0년)",
+      "payment_cycle": "년납"
+    },
+    {
+      "sub_type": "간편가입형(0년)",
+      "payment_cycle": "일시납"
+    }
+  ],
+  "discrepancies": [],
+  "row_count": 3
+}

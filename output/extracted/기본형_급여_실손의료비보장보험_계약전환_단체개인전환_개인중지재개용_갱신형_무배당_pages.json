@@ -1,0 +1,67 @@
+{
+  "run_id": "기본형_급여_실손의료비보장보험_계약전환_단체개인전환_개인중지재개용_갱신형_무배당",
+  "pdf_name": "한화생명 기본형 급여 실손의료비보장보험(계약전환 단체개인전환 개인중지재개용)(갱신형) 무배당_사업방법서_20260101~.pdf",
+  "total_pages": 15,
+  "pages": {
+    "1": {
+      "text_path": "output/extracted\\기본형_급여_실손의료비보장보험_계약전환_단체개인전환_개인중지재개용_갱신형_무배당_page_1.txt",
+      "image_path": null
+    },
+    "2": {
+      "text_path": "output/extracted\\기본형_급여_실손의료비보장보험_계약전환_단체개인전환_개인중지재개용_갱신형_무배당_page_2.txt",
+      "image_path": null
+    },
+    "3": {
+      "text_path": "output/extracted\\기본형_급여_실손의료비보장보험_계약전환_단체개인전환_개인중지재개용_갱신형_무배당_page_3.txt",
+      "image_path": null
+    },
+    "4": {
+      "text_path": "output/extracted\\기본형_급여_실손의료비보장보험_계약전환_단체개인전환_개인중지재개용_갱신형_무배당_page_4.txt",
+      "image_path": null
+    },
+    "5": {
+      "text_path": "output/extracted\\기본형_급여_실손의료비보장보험_계약전환_단체개인전환_개인중지재개용_갱신형_무배당_page_5.txt",
+      "image_path": null
+    },
+    "6": {
+      "text_path": "output/extracted\\기본형_급여_실손의료비보장보험_계약전환_단체개인전환_개인중지재개용_갱신형_무배당_page_6.txt",
+      "image_path": null
+    },
+    "7": {
+      "text_path": "output/extracted\\기본형_급여_실손의료비보장보험_계약전환_단체개인전환_개인중지재개용_갱신형_무배당_page_7.txt",
+      "image_path": null
+    },
+    "8": {
+      "text_path": "output/extracted\\기본형_급여_실손의료비보장보험_계약전환_단체개인전환_개인중지재개용_갱신형_무배당_page_8.txt",
+      "image_path": null
+    },
+    "9": {
+      "text_path": "output/extracted\\기본형_급여_실손의료비보장보험_계약전환_단체개인전환_개인중지재개용_갱신형_무배당_page_9.txt",
+      "image_path": null
+    },
+    "10": {
+      "text_path": "output/extracted\\기본형_급여_실손의료비보장보험_계약전환_단체개인전환_개인중지재개용_갱신형_무배당_page_10.txt",
+      "image_path": null
+    },
+    "11": {
+      "text_path": "output/extracted\\기본형_급여_실손의료비보장보험_계약전환_단체개인전환_개인중지재개용_갱신형_무배당_page_11.txt",
+      "image_path": null
+    },
+    "12": {
+      "text_path": "output/extracted\\기본형_급여_실손의료비보장보험_계약전환_단체개인전환_개인중지재개용_갱신형_무배당_page_12.txt",
+      "image_path": null
+    },
+    "13": {
+      "text_path": "output/extracted\\기본형_급여_실손의료비보장보험_계약전환_단체개인전환_개인중지재개용_갱신형_무배당_page_13.txt",
+      "image_path": null
+    },
+    "14": {
+      "text_path": "output/extracted\\기본형_급여_실손의료비보장보험_계약전환_단체개인전환_개인중지재개용_갱신형_무배당_page_14.txt",
+      "image_path": null
+    },
+    "15": {
+      "text_path": "output/extracted\\기본형_급여_실손의료비보장보험_계약전환_단체개인전환_개인중지재개용_갱신형_무배당_page_15.txt",
+      "image_path": null
+    }
+  }
+}

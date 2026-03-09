@@ -1,0 +1,16 @@
+{
+  "table_type": "S00022",
+  "product_code": "1571618",
+  "run_id": "batch_rerun",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "기본형",
+      "min_age": 45,
+      "max_age": 80
+    }
+  ],
+  "row_count": 1
+}

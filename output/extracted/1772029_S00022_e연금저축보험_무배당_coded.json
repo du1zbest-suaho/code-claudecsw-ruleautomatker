@@ -1,0 +1,29 @@
+{
+  "table_type": "S00022",
+  "product_code": "1772029",
+  "run_id": "batch_rerun",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "기본형",
+      "min_age": 55,
+      "max_age": 80
+    }
+  ],
+  "row_count": 1,
+  "coded_rows": [
+    {
+      "MIN_AG": 55,
+      "MAX_AG": 80,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "min_age": 55,
+        "max_age": 80
+      }
+    }
+  ],
+  "convert_error_count": 0
+}

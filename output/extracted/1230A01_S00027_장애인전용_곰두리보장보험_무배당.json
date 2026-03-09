@@ -1,0 +1,112 @@
+{
+  "table_type": "S00027",
+  "product_code": "1230A01",
+  "run_id": "장애인전용_곰두리보장보험_무배당",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "기본형",
+      "insurance_period": "60세만기",
+      "payment_period": "5년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "60세만기",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "60세만기",
+      "payment_period": "15년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "60세만기",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "60세만기",
+      "payment_period": "전기납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "70세만기",
+      "payment_period": "5년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "70세만기",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "70세만기",
+      "payment_period": "15년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "70세만기",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "70세만기",
+      "payment_period": "전기납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "10년만기",
+      "payment_period": "5년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "10년만기",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "10년만기",
+      "payment_period": "15년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "10년만기",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "10년만기",
+      "payment_period": "전기납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "20년만기",
+      "payment_period": "5년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "20년만기",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "20년만기",
+      "payment_period": "15년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "20년만기",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "20년만기",
+      "payment_period": "전기납"
+    }
+  ],
+  "discrepancies": [],
+  "row_count": 20
+}

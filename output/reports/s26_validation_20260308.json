@@ -1,0 +1,269 @@
+{
+  "run_date": "2026-03-08 (session 2 updated)",
+  "description": "S00026 가입가능나이 추출 검증 (all-ITCD 비교, umbrella rows 제외)",
+  "pass_count": 10,
+  "fail_count": 26,
+  "results": {
+    "2061": {
+      "status": "PASS",
+      "match": 29,
+      "gt_total": 29,
+      "note": "e암보험 비갱신형 - sparse table fix로 20/30/60세납/전기납 행 추가 추출 성공"
+    },
+    "2170": {
+      "status": "PASS",
+      "match": 20,
+      "gt_total": 20
+    },
+    "2204": {
+      "status": "PASS",
+      "match": 24,
+      "gt_total": 24
+    },
+    "2244": {
+      "status": "PASS",
+      "match": 58,
+      "gt_total": 58,
+      "note": "umbrella rows 제외 후 정확 일치"
+    },
+    "2246": {
+      "status": "PASS",
+      "match": 19,
+      "gt_total": 19,
+      "note": "umbrella rows 제외 후 정확 일치"
+    },
+    "2249": {
+      "status": "PASS",
+      "match": 6,
+      "gt_total": 6
+    },
+    "2253": {
+      "status": "PASS",
+      "match": 12,
+      "gt_total": 12
+    },
+    "2254": {
+      "status": "PASS",
+      "match": 12,
+      "gt_total": 12
+    },
+    "2205": {
+      "status": "FAIL",
+      "match": 24,
+      "gt_total": 26,
+      "miss": 2,
+      "note": "2개 행 누락 - A02 ITCD 전용 행(max=71,76)으로 추정, A01만 비교시 PASS"
+    },
+    "2236": {
+      "status": "FAIL",
+      "match": 12,
+      "gt_total": 12,
+      "extra": 10,
+      "note": "간편가입형 max=65 행 10개 추가 추출 - 다른 ITCD 소속 추정"
+    },
+    "1230": {
+      "status": "PASS",
+      "match": 16,
+      "gt_total": 16,
+      "note": "희소 테이블 sparse 지원 추가 (_parse_age_table_separate_minmax) - 10/15/20년납 행 추가 추출"
+    },
+    "1726": {
+      "status": "FAIL",
+      "match": 30,
+      "gt_total": 92,
+      "miss": 62,
+      "note": "e정기보험 - IP 65세만기/70세만기/10년만기 추출되나 GT는 60/80/90/100세만기만 보유 (ITCD=039-042)"
+    },
+    "2126": {
+      "status": "FAIL",
+      "match": 30,
+      "gt_total": 73,
+      "miss": 43,
+      "note": "종속특약 sub-column gender 파싱 개선 (10→30 match). 나머지 43개는 다른 종속특약 테이블에서 추출 필요 (pages 12-23+)"
+    },
+    "2130": {
+      "status": "FAIL",
+      "match": 0,
+      "gt_total": 8,
+      "note": "H종신보험 - 상품 버전 변경 (GT: 10/15/20년납, PDF: 5/7년납)",
+      "extra": 6,
+      "miss": 8
+    },
+    "2207": {
+      "status": "FAIL",
+      "match": 0,
+      "gt_total": 14,
+      "note": "GT ISRN_TERM=NaN/PAYM_TERM=NaN, A01 없음 - 특수 상품 구조",
+      "extra": 4,
+      "miss": 14
+    },
+    "2208": {
+      "status": "FAIL",
+      "match": 0,
+      "gt_total": 8,
+      "note": "GT ISRN_TERM=NaN, A01 없음 - 특수 상품 구조",
+      "extra": 4,
+      "miss": 8
+    },
+    "2209": {
+      "status": "FAIL",
+      "match": 0,
+      "gt_total": 18,
+      "note": "미조사",
+      "extra": 10,
+      "miss": 18
+    },
+    "2242": {
+      "status": "FAIL",
+      "match": 0,
+      "gt_total": 10,
+      "note": "GT ip/pp 코드 공란 - 특수 상품 구조",
+      "extra": 6,
+      "miss": 10
+    },
+    "2243": {
+      "status": "FAIL",
+      "match": 0,
+      "gt_total": 10,
+      "note": "GT ip/pp 코드 공란",
+      "extra": 6,
+      "miss": 10
+    },
+    "2250": {
+      "status": "FAIL",
+      "match": 0,
+      "gt_total": 10,
+      "note": "GT ip/pp 코드 공란",
+      "extra": 6,
+      "miss": 10
+    },
+    "2251": {
+      "status": "FAIL",
+      "match": 0,
+      "gt_total": 7,
+      "note": "GT ip/pp 코드 공란",
+      "extra": 6,
+      "miss": 7
+    },
+    "2256": {
+      "status": "FAIL",
+      "match": 0,
+      "gt_total": 1,
+      "note": "미조사",
+      "extra": 1,
+      "miss": 1
+    },
+    "2257": {
+      "status": "PASS",
+      "match": 16,
+      "gt_total": 16,
+      "note": "종신 false-positive filter 수정 (proximity-based check) - X90+A999 정확 추출"
+    },
+    "1224": {
+      "status": "FAIL",
+      "match": 0,
+      "gt_total": 1,
+      "extra": 1,
+      "miss": 1
+    },
+    "1571": {
+      "status": "FAIL",
+      "match": 0,
+      "gt_total": 416,
+      "extra": 1,
+      "miss": 416
+    },
+    "1629": {
+      "status": "FAIL",
+      "match": 0,
+      "gt_total": 156,
+      "extra": 2,
+      "miss": 156
+    },
+    "1745": {
+      "status": "FAIL",
+      "match": 0,
+      "gt_total": 562,
+      "extra": 2,
+      "miss": 562
+    },
+    "1764": {
+      "status": "FAIL",
+      "match": 0,
+      "gt_total": 3,
+      "extra": 1,
+      "miss": 3
+    },
+    "1796": {
+      "status": "FAIL",
+      "match": 0,
+      "gt_total": 16,
+      "extra": 1,
+      "miss": 16
+    },
+    "1808": {
+      "status": "FAIL",
+      "match": 0,
+      "gt_total": 1,
+      "extra": 3,
+      "miss": 1
+    },
+    "1950": {
+      "status": "FAIL",
+      "match": 0,
+      "gt_total": 4,
+      "extra": 4,
+      "miss": 4
+    },
+    "1976": {
+      "status": "FAIL",
+      "match": 0,
+      "gt_total": 1,
+      "extra": 2,
+      "miss": 1
+    },
+    "1982": {
+      "status": "FAIL",
+      "match": 0,
+      "gt_total": 2,
+      "extra": 4,
+      "miss": 2
+    },
+    "1983": {
+      "status": "FAIL",
+      "match": 0,
+      "gt_total": 1,
+      "extra": 4,
+      "miss": 1
+    },
+    "1984": {
+      "status": "FAIL",
+      "match": 0,
+      "gt_total": 4,
+      "extra": 6,
+      "miss": 4
+    },
+    "2259": {
+      "status": "FAIL",
+      "match": 0,
+      "gt_total": 4,
+      "extra": 5,
+      "miss": 4
+    }
+  },
+  "rule_changes_this_session": [
+    "_find_insurance_periods_in_header: 패턴별 정렬 → 텍스트 출현순 스캔으로 변경 (컬럼 순서 정확도 향상)",
+    "_parse_age_table_inline_range: N세납(60세납 등) 패턴 추가",
+    "_parse_age_table_sparse_multiline: 신규 메서드 - '-' 셀이 포함된 희소 테이블 파싱",
+    "convert_codes.py: N세납 → X코드 변환 추가 (예: 60세납 → X60)",
+    "convert_codes.py: GENDER_MAP에 '남녀공통' → None 추가",
+    "_parse_age_table_separate_minmax: 종신 false-positive 제거 로직 수정 (N세만기 존재시 종신 제거 → 근접도 기반 조건부 제거 200자 threshold)",
+    "_parse_age_table_separate_minmax: 희소 테이블 보완 추가 (일부 셀이 '-'인 행, 예: 1230 곰두리보장보험)",
+    "_parse_age_table_gender_sections: 세납 payment 지원, sub-column gender fallback 추가 (첫 n_ip×2 gender 마커 이후 범위 파싱)"
+  ],
+  "known_structural_issues": [
+    "batch가 {dtcd}A01 코드를 사용하지만 GT는 숫자 ITCD(001,002,039,040) 사용 상품 다수 (1726, 1230, 2061 등)",
+    "GT에 ISRN_TERM_DVSN_CODE=NaN 인 특수 상품 (2207, 2208, 2242, 2243, 2250, 2251) - 보험기간/납입기간 없는 구조",
+    "여러 ITCD의 데이터를 A01 파일에 혼합 추출하는 문제 (2236, 1726 등)"
+  ]
+}
