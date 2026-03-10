@@ -191,6 +191,39 @@ python .claude/skills/xlsx-generator/scripts/generate_upload.py \
 
 ---
 
+## 작업현황 리포트
+
+전체 PDF × 테이블별 추출 결과를 한눈에 확인하는 엑셀 리포트를 생성한다.
+
+```bash
+python scripts/generate_report.py
+# 또는 출력 경로 지정
+python scripts/generate_report.py --output output/reports/작업현황.xlsx
+```
+
+### 참조 파일
+- 매핑 기준: `data/existing/판매중_상품구성_사업방법서_매핑.xlsx`
+- GT 데이터: `data/existing/판매중_가입나이정보.xlsx` (S00026), `판매중_보기납기정보.xlsx` (S00027), `판매중_납입주기정보.xlsx` (S00028), `판매중_보기개시나이정보.xlsx` (S00022)
+- 추출 결과: `output/extracted/*_coded.json`
+
+### 출력 형식
+- 파일: `output/reports/작업현황_{YYYYMMDD_HHMMSS}.xlsx`
+- 행: 사업방법서 파일명 × ISRN_KIND_DTCD (1행 = 1 PDF-DTCD 조합)
+- 컬럼 (테이블별 6개씩): `{테이블명}_추출건수`, `_GT건수`, `_일치건수`, `_미일치건수`, `_추가건수`, `_결과`
+
+### 결과 코드
+| 코드 | 색상 | 의미 |
+|------|------|------|
+| PASS | 연두 | S00026 키셋 완전 일치 (miss=0) |
+| FAIL | 연빨강 | S00026 키셋 불일치 (miss>0) |
+| 일치 | 연두 | S00027/28/22 행 수 일치 |
+| 불일치 | 연빨강 | S00027/28/22 행 수 불일치 |
+| 미추출 | 노랑 | GT 있으나 추출 결과 없음 |
+| 신규 | 연파랑 | GT 없고 추출 결과 있음 (신규 상품) |
+| - | 회색 | GT·추출 모두 없음 |
+
+---
+
 ## 서브에이전트 호출 규칙
 
 ### table-extractor
