@@ -5,7 +5,33 @@
   "source": "extraction_rules",
   "confidence": "high",
   "image_used": false,
-  "raw_data": [],
+  "raw_data": [
+    {
+      "sub_type": "기본형",
+      "insurance_period": "110세만기",
+      "payment_period": "5년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "110세만기",
+      "payment_period": "7년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "110세만기",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "110세만기",
+      "payment_period": "15년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "110세만기",
+      "payment_period": "20년납"
+    }
+  ],
   "discrepancies": [],
-  "row_count": 0
+  "row_count": 5
 }

@@ -12,6 +12,14 @@
     },
     {
       "sub_type": "기본형",
+      "payment_cycle": "3개월납"
+    },
+    {
+      "sub_type": "기본형",
+      "payment_cycle": "6개월납"
+    },
+    {
+      "sub_type": "기본형",
       "payment_cycle": "년납"
     },
     {
@@ -20,5 +28,5 @@
     }
   ],
   "discrepancies": [],
-  "row_count": 3
+  "row_count": 5
 }

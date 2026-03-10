@@ -24,6 +24,11 @@
     {
       "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
       "insurance_period": "종신",
+      "payment_period": "종신납"
+    },
+    {
+      "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
+      "insurance_period": "종신",
       "payment_period": "일시납"
     },
     {
@@ -44,6 +49,11 @@
     {
       "sub_type": "2종(해약환급금 일부지급형Ⅱ)",
       "insurance_period": "종신",
+      "payment_period": "종신납"
+    },
+    {
+      "sub_type": "2종(해약환급금 일부지급형Ⅱ)",
+      "insurance_period": "종신",
       "payment_period": "일시납"
     },
     {
@@ -64,6 +74,11 @@
     {
       "sub_type": "3종(해약환급금 일부지급형Ⅲ)",
       "insurance_period": "종신",
+      "payment_period": "종신납"
+    },
+    {
+      "sub_type": "3종(해약환급금 일부지급형Ⅲ)",
+      "insurance_period": "종신",
       "payment_period": "일시납"
     },
     {
@@ -80,6 +95,11 @@
       "sub_type": "1종(체증형)",
       "insurance_period": "종신",
       "payment_period": "20년납"
+    },
+    {
+      "sub_type": "1종(체증형)",
+      "insurance_period": "종신",
+      "payment_period": "종신납"
     },
     {
       "sub_type": "1종(체증형)",
@@ -100,6 +120,11 @@
       "sub_type": "2종(기본형)",
       "insurance_period": "종신",
       "payment_period": "20년납"
+    },
+    {
+      "sub_type": "2종(기본형)",
+      "insurance_period": "종신",
+      "payment_period": "종신납"
     },
     {
       "sub_type": "2종(기본형)",
@@ -120,6 +145,11 @@
       "sub_type": "3종(해약환급\n금 일부지급형Ⅲ)",
       "insurance_period": "종신",
       "payment_period": "20년납"
+    },
+    {
+      "sub_type": "3종(해약환급\n금 일부지급형Ⅲ)",
+      "insurance_period": "종신",
+      "payment_period": "종신납"
     },
     {
       "sub_type": "3종(해약환급\n금 일부지급형Ⅲ)",
@@ -128,5 +158,5 @@
     }
   ],
   "discrepancies": [],
-  "row_count": 24
+  "row_count": 30
 }

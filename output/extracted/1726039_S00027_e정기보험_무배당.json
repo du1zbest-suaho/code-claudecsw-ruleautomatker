@@ -8,6 +8,21 @@
   "raw_data": [
     {
       "sub_type": "기본형",
+      "insurance_period": "60세만기",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "60세만기",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "60세만기",
+      "payment_period": "전기납"
+    },
+    {
+      "sub_type": "기본형",
       "insurance_period": "65세만기",
       "payment_period": "10년납"
     },
@@ -79,9 +94,24 @@
     {
       "sub_type": "기본형",
       "insurance_period": "100세만기",
+      "payment_period": "전기납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "10년만기",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "10년만기",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "10년만기",
       "payment_period": "전기납"
     }
   ],
   "discrepancies": [],
-  "row_count": 15
+  "row_count": 21
 }

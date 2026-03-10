@@ -503,6 +503,28 @@ def save_report(df: pd.DataFrame, output_path: str):
                  fill=title_fill, font=title_font, align=center)
         ws2.row_dimensions[1].height = 30
 
+        # ── 진행상태 요약 (행2) ──────────────────────────────────────────────
+        prog_counts  = df["진행상태"].value_counts() if "진행상태" in df.columns else pd.Series(dtype=int)
+        n_total_prog = len(df)
+        n_done = int(prog_counts.get("완료", 0))
+        n_wip  = int(prog_counts.get("진행중", 0))
+
+        def pct_str(n):
+            return f"{n / n_total_prog * 100:.1f}%" if n_total_prog else "-"
+
+        prog_label_fill = PatternFill(start_color="D6E4F0", end_color="D6E4F0", fill_type="solid")
+        done_fill = PatternFill(start_color="C6EFCE", end_color="C6EFCE", fill_type="solid")
+        wip_fill  = PatternFill(start_color="FFEB9C", end_color="FFEB9C", fill_type="solid")
+        wrap = Alignment(horizontal="center", vertical="center", wrap_text=True)
+
+        ws2.merge_cells("A2:B2")
+        set_cell(2, 1, "진행상태",                                      fill=prog_label_fill, font=label_font,  align=center, brd=border)
+        set_cell(2, 3, f"전체  {n_total_prog}건",                       fill=prog_label_fill, font=label_font,  align=center, brd=border)
+        set_cell(2, 4, f"완료  {n_done} ({pct_str(n_done)})",           fill=done_fill,       font=value_font,  align=center, brd=border)
+        set_cell(2, 5, f"진행중  {n_wip} ({pct_str(n_wip)})",           fill=wip_fill,        font=value_font,  align=center, brd=border)
+        set_cell(2, 6, "",                                               fill=prog_label_fill, font=value_font,  align=center, brd=border)
+        ws2.row_dimensions[2].height = 22
+
         # 헤더 행 (행3)
         col_headers = ["테이블", "대상건수", "PASS/일치", "FAIL/불일치", "미추출", "신규/기타"]
         for ci, h in enumerate(col_headers, 1):
@@ -537,16 +559,15 @@ def save_report(df: pd.DataFrame, output_path: str):
 
             def fmt(n):
                 pct = f"{n / n_total * 100:.1f}%" if n_total else "-"
-                return f"{n}\n({pct})"
+                return f"{n} ({pct})"
 
-            wrap = Alignment(horizontal="center", vertical="center", wrap_text=True)
             set_cell(r, 1, lbl,          fill=label_fill, font=label_font,  align=center, brd=border)
             set_cell(r, 2, n_total,      fill=label_fill, font=label_font,  align=center, brd=border)
-            set_cell(r, 3, fmt(n_pass),  fill=pass_fill,  font=value_font,  align=wrap,   brd=border)
-            set_cell(r, 4, fmt(n_fail),  fill=fail_fill,  font=value_font,  align=wrap,   brd=border)
-            set_cell(r, 5, fmt(n_miss),  fill=miss_fill,  font=value_font,  align=wrap,   brd=border)
-            set_cell(r, 6, fmt(n_other), fill=new_fill,   font=value_font,  align=wrap,   brd=border)
-            ws2.row_dimensions[r].height = 32
+            set_cell(r, 3, fmt(n_pass),  fill=pass_fill,  font=value_font,  align=center, brd=border)
+            set_cell(r, 4, fmt(n_fail),  fill=fail_fill,  font=value_font,  align=center, brd=border)
+            set_cell(r, 5, fmt(n_miss),  fill=miss_fill,  font=value_font,  align=center, brd=border)
+            set_cell(r, 6, fmt(n_other), fill=new_fill,   font=value_font,  align=center, brd=border)
+            ws2.row_dimensions[r].height = 22
             r += 1
 
     print(f"리포트 저장 완료: {output_path} ({len(df)}행)")

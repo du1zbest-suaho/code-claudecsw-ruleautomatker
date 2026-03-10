@@ -12,11 +12,19 @@
     },
     {
       "sub_type": "기본형",
+      "payment_cycle": "3개월납"
+    },
+    {
+      "sub_type": "기본형",
+      "payment_cycle": "6개월납"
+    },
+    {
+      "sub_type": "기본형",
       "payment_cycle": "연납"
     }
   ],
   "discrepancies": [],
-  "row_count": 2,
+  "row_count": 4,
   "coded_rows": [
     {
       "PAYM_CYCL_VAL": 1,
@@ -26,6 +34,26 @@
       "_raw": {
         "sub_type": "기본형",
         "payment_cycle": "월납"
+      }
+    },
+    {
+      "PAYM_CYCL_VAL": 3,
+      "PAYM_CYCL_DVSN_CODE": "M",
+      "PAYM_CYCL_INQY_CODE": "M3",
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "payment_cycle": "3개월납"
+      }
+    },
+    {
+      "PAYM_CYCL_VAL": 6,
+      "PAYM_CYCL_DVSN_CODE": "M",
+      "PAYM_CYCL_INQY_CODE": "M6",
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "payment_cycle": "6개월납"
       }
     },
     {

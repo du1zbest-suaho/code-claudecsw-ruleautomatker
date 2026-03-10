@@ -5,7 +5,13 @@
   "source": "extraction_rules",
   "confidence": "high",
   "image_used": false,
-  "raw_data": [],
+  "raw_data": [
+    {
+      "sub_type": "기본형",
+      "insurance_period": "1년만기",
+      "payment_period": "전기납"
+    }
+  ],
   "discrepancies": [],
-  "row_count": 0
+  "row_count": 1
 }

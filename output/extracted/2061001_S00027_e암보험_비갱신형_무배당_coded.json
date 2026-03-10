@@ -34,6 +34,11 @@
     {
       "sub_type": "표준체형",
       "insurance_period": "60세만기",
+      "payment_period": "60세납"
+    },
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "60세만기",
       "payment_period": "전기납"
     },
     {
@@ -64,6 +69,11 @@
     {
       "sub_type": "표준체형",
       "insurance_period": "70세만기",
+      "payment_period": "60세납"
+    },
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "70세만기",
       "payment_period": "전기납"
     },
     {
@@ -94,6 +104,11 @@
     {
       "sub_type": "표준체형",
       "insurance_period": "80세만기",
+      "payment_period": "60세납"
+    },
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "80세만기",
       "payment_period": "전기납"
     },
     {
@@ -124,6 +139,11 @@
     {
       "sub_type": "표준체형",
       "insurance_period": "100세만기",
+      "payment_period": "60세납"
+    },
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "100세만기",
       "payment_period": "전기납"
     },
     {
@@ -150,6 +170,11 @@
       "sub_type": "표준체형",
       "insurance_period": "20년만기",
       "payment_period": "30년납"
+    },
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "20년만기",
+      "payment_period": "60세납"
     },
     {
       "sub_type": "표준체형",
@@ -184,6 +209,11 @@
     {
       "sub_type": "비흡연체형",
       "insurance_period": "60세만기",
+      "payment_period": "60세납"
+    },
+    {
+      "sub_type": "비흡연체형",
+      "insurance_period": "60세만기",
       "payment_period": "전기납"
     },
     {
@@ -214,6 +244,11 @@
     {
       "sub_type": "비흡연체형",
       "insurance_period": "70세만기",
+      "payment_period": "60세납"
+    },
+    {
+      "sub_type": "비흡연체형",
+      "insurance_period": "70세만기",
       "payment_period": "전기납"
     },
     {
@@ -244,6 +279,11 @@
     {
       "sub_type": "비흡연체형",
       "insurance_period": "80세만기",
+      "payment_period": "60세납"
+    },
+    {
+      "sub_type": "비흡연체형",
+      "insurance_period": "80세만기",
       "payment_period": "전기납"
     },
     {
@@ -274,6 +314,11 @@
     {
       "sub_type": "비흡연체형",
       "insurance_period": "100세만기",
+      "payment_period": "60세납"
+    },
+    {
+      "sub_type": "비흡연체형",
+      "insurance_period": "100세만기",
       "payment_period": "전기납"
     },
     {
@@ -300,6 +345,11 @@
       "sub_type": "비흡연체형",
       "insurance_period": "20년만기",
       "payment_period": "30년납"
+    },
+    {
+      "sub_type": "비흡연체형",
+      "insurance_period": "20년만기",
+      "payment_period": "60세납"
     },
     {
       "sub_type": "비흡연체형",
@@ -308,7 +358,7 @@
     }
   ],
   "discrepancies": [],
-  "row_count": 60,
+  "row_count": 70,
   "coded_rows": [
     {
       "ISRN_TERM": 60,
@@ -391,6 +441,20 @@
       "_raw": {
         "sub_type": "표준체형",
         "insurance_period": "60세만기",
+        "payment_period": "60세납"
+      }
+    },
+    {
+      "ISRN_TERM": 60,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X60",
+      "PAYM_TERM": 60,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X60",
+      "sub_type": "표준체형",
+      "_raw": {
+        "sub_type": "표준체형",
+        "insurance_period": "60세만기",
         "payment_period": "전기납"
       }
     },
@@ -462,6 +526,20 @@
         "sub_type": "표준체형",
         "insurance_period": "70세만기",
         "payment_period": "30년납"
+      }
+    },
+    {
+      "ISRN_TERM": 70,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X70",
+      "PAYM_TERM": 60,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X60",
+      "sub_type": "표준체형",
+      "_raw": {
+        "sub_type": "표준체형",
+        "insurance_period": "70세만기",
+        "payment_period": "60세납"
       }
     },
     {
@@ -552,6 +630,20 @@
       "ISRN_TERM": 80,
       "ISRN_TERM_DVSN_CODE": "X",
       "ISRN_TERM_INQY_CODE": "X80",
+      "PAYM_TERM": 60,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X60",
+      "sub_type": "표준체형",
+      "_raw": {
+        "sub_type": "표준체형",
+        "insurance_period": "80세만기",
+        "payment_period": "60세납"
+      }
+    },
+    {
+      "ISRN_TERM": 80,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X80",
       "PAYM_TERM": 80,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X80",
@@ -636,6 +728,20 @@
       "ISRN_TERM": 100,
       "ISRN_TERM_DVSN_CODE": "X",
       "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 60,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X60",
+      "sub_type": "표준체형",
+      "_raw": {
+        "sub_type": "표준체형",
+        "insurance_period": "100세만기",
+        "payment_period": "60세납"
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
       "PAYM_TERM": 100,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X100",
@@ -714,6 +820,20 @@
         "sub_type": "표준체형",
         "insurance_period": "20년만기",
         "payment_period": "30년납"
+      }
+    },
+    {
+      "ISRN_TERM": 20,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N20",
+      "PAYM_TERM": 60,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X60",
+      "sub_type": "표준체형",
+      "_raw": {
+        "sub_type": "표준체형",
+        "insurance_period": "20년만기",
+        "payment_period": "60세납"
       }
     },
     {
@@ -811,6 +931,20 @@
       "_raw": {
         "sub_type": "비흡연체형",
         "insurance_period": "60세만기",
+        "payment_period": "60세납"
+      }
+    },
+    {
+      "ISRN_TERM": 60,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X60",
+      "PAYM_TERM": 60,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X60",
+      "sub_type": "비흡연체형",
+      "_raw": {
+        "sub_type": "비흡연체형",
+        "insurance_period": "60세만기",
         "payment_period": "전기납"
       }
     },
@@ -882,6 +1016,20 @@
         "sub_type": "비흡연체형",
         "insurance_period": "70세만기",
         "payment_period": "30년납"
+      }
+    },
+    {
+      "ISRN_TERM": 70,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X70",
+      "PAYM_TERM": 60,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X60",
+      "sub_type": "비흡연체형",
+      "_raw": {
+        "sub_type": "비흡연체형",
+        "insurance_period": "70세만기",
+        "payment_period": "60세납"
       }
     },
     {
@@ -972,6 +1120,20 @@
       "ISRN_TERM": 80,
       "ISRN_TERM_DVSN_CODE": "X",
       "ISRN_TERM_INQY_CODE": "X80",
+      "PAYM_TERM": 60,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X60",
+      "sub_type": "비흡연체형",
+      "_raw": {
+        "sub_type": "비흡연체형",
+        "insurance_period": "80세만기",
+        "payment_period": "60세납"
+      }
+    },
+    {
+      "ISRN_TERM": 80,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X80",
       "PAYM_TERM": 80,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X80",
@@ -1056,6 +1218,20 @@
       "ISRN_TERM": 100,
       "ISRN_TERM_DVSN_CODE": "X",
       "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 60,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X60",
+      "sub_type": "비흡연체형",
+      "_raw": {
+        "sub_type": "비흡연체형",
+        "insurance_period": "100세만기",
+        "payment_period": "60세납"
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
       "PAYM_TERM": 100,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X100",
@@ -1134,6 +1310,20 @@
         "sub_type": "비흡연체형",
         "insurance_period": "20년만기",
         "payment_period": "30년납"
+      }
+    },
+    {
+      "ISRN_TERM": 20,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N20",
+      "PAYM_TERM": 60,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X60",
+      "sub_type": "비흡연체형",
+      "_raw": {
+        "sub_type": "비흡연체형",
+        "insurance_period": "20년만기",
+        "payment_period": "60세납"
       }
     },
     {

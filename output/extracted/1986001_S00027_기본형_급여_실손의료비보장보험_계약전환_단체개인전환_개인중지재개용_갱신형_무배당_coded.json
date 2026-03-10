@@ -8,7 +8,7 @@
   "raw_data": [
     {
       "sub_type": "기본형",
-      "insurance_period": "종신",
+      "insurance_period": "1년만기",
       "payment_period": "전기납"
     }
   ],
@@ -16,16 +16,16 @@
   "row_count": 1,
   "coded_rows": [
     {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
+      "ISRN_TERM": 1,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N1",
+      "PAYM_TERM": 1,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N1",
       "sub_type": "기본형",
       "_raw": {
         "sub_type": "기본형",
-        "insurance_period": "종신",
+        "insurance_period": "1년만기",
         "payment_period": "전기납"
       }
     }
