@@ -1,0 +1,44 @@
+{
+  "table_type": "S00028",
+  "product_code": "1976001",
+  "run_id": "간편가입_실손의료비보장보험_갱신형_무배당_재가입용",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "기본형",
+      "payment_cycle": "월납"
+    },
+    {
+      "sub_type": "기본형",
+      "payment_cycle": "연납"
+    }
+  ],
+  "discrepancies": [],
+  "row_count": 2,
+  "coded_rows": [
+    {
+      "PAYM_CYCL_VAL": 1,
+      "PAYM_CYCL_DVSN_CODE": "M",
+      "PAYM_CYCL_INQY_CODE": "M1",
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "payment_cycle": "월납"
+      }
+    },
+    {
+      "PAYM_CYCL_VAL": 12,
+      "PAYM_CYCL_DVSN_CODE": "M",
+      "PAYM_CYCL_INQY_CODE": "M12",
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "payment_cycle": "연납"
+      }
+    }
+  ],
+  "convert_errors": [],
+  "convert_error_count": 0
+}

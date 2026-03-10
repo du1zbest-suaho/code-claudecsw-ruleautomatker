@@ -1,0 +1,46 @@
+{
+  "table_type": "S00022",
+  "product_code": "1228133",
+  "run_id": "연금저축_하이드림연금보험",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "1종(신계약체결용)",
+      "min_age": 55,
+      "max_age": 80
+    },
+    {
+      "sub_type": "2종(계좌이체용)",
+      "min_age": 55,
+      "max_age": 80
+    }
+  ],
+  "discrepancies": [],
+  "row_count": 2,
+  "coded_rows": [
+    {
+      "MIN_AG": 55,
+      "MAX_AG": 80,
+      "sub_type": "1종(신계약체결용)",
+      "_raw": {
+        "sub_type": "1종(신계약체결용)",
+        "min_age": 55,
+        "max_age": 80
+      }
+    },
+    {
+      "MIN_AG": 55,
+      "MAX_AG": 80,
+      "sub_type": "2종(계좌이체용)",
+      "_raw": {
+        "sub_type": "2종(계좌이체용)",
+        "min_age": 55,
+        "max_age": 80
+      }
+    }
+  ],
+  "convert_errors": [],
+  "convert_error_count": 0
+}

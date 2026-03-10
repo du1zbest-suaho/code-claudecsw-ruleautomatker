@@ -1,0 +1,24 @@
+{
+  "product_mappings": [
+    {
+      "sub_type": "한화생명 e연금저축보험 종신연금형 무배당",
+      "upper_object_code": "1772029",
+      "lower_object_code": "177229"
+    },
+    {
+      "sub_type": "한화생명 e연금저축보험 확정기간연금형(10년) 무배당",
+      "upper_object_code": "1772030",
+      "lower_object_code": "177230"
+    },
+    {
+      "sub_type": "한화생명 e연금저축보험 확정기간연금형(15년) 무배당",
+      "upper_object_code": "1772031",
+      "lower_object_code": "177231"
+    },
+    {
+      "sub_type": "한화생명 e연금저축보험 확정기간연금형(20년) 무배당",
+      "upper_object_code": "1772032",
+      "lower_object_code": "177232"
+    }
+  ]
+}

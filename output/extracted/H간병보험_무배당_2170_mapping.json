@@ -1,0 +1,19 @@
+{
+  "product_mappings": [
+    {
+      "sub_type": "한화생명 H간병보험 무배당 간편가입형(2년)(해약환급금 미지급형(납입기간중 0%, 납입기간후 50%))",
+      "upper_object_code": "2170A01",
+      "lower_object_code": "21701"
+    },
+    {
+      "sub_type": "한화생명 H간병보험 무배당 일반가입형(해약환급금 미지급형(납입기간중 0%, 납입기간후 50%))",
+      "upper_object_code": "2170A02",
+      "lower_object_code": "21702"
+    },
+    {
+      "sub_type": "한화생명 H간병보험 무배당 치매보장플랜형(해약환급금 미지급형(납입기간중 0%, 납입기간후 50%))",
+      "upper_object_code": "2170A03",
+      "lower_object_code": "21703"
+    }
+  ]
+}

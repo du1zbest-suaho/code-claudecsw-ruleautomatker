@@ -1,0 +1,28 @@
+{
+  "table_type": "S00026",
+  "product_code": "1976001",
+  "run_id": "간편가입_실손의료비보장보험_갱신형_무배당_재가입용",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "기본형",
+      "insurance_period": "1년만기",
+      "payment_period": "전기납",
+      "gender": "남녀공통",
+      "min_age": 8,
+      "max_age": 109
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "1년만기",
+      "payment_period": "전기납",
+      "gender": "남녀공통",
+      "min_age": 9,
+      "max_age": 109
+    }
+  ],
+  "discrepancies": [],
+  "row_count": 2
+}

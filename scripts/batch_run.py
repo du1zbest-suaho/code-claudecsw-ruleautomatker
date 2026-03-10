@@ -4,9 +4,8 @@ batch_run.py — data/pdf/ 폴더의 모든 사업방법서 일괄 처리
 각 PDF에 대해:
   1. PDF 텍스트/이미지 추출
   2. 관련 페이지 키워드 스캔
-  3. 상품명/세부종목 파싱
-  4. DB에서 상품코드(ISRN_KIND_DTCD) 검색
-  5. 4개 테이블(S00026/S00027/S00028/S00022) 추출 → 코드 변환 → xlsx 생성
+  3. 매핑 파일에서 DTCD+ITCD 직접 조회
+  4. 4개 테이블(S00026/S00027/S00028/S00022) 추출 → 코드 변환 → xlsx 생성
 
 Usage:
     python scripts/batch_run.py
@@ -40,7 +39,7 @@ PDF_DIR = "data/pdf"
 EXTRACT_DIR = "output/extracted"
 UPLOAD_DIR = "output/upload"
 LOG_DIR = "output/logs"
-DB_PATH = "data/existing/판매중_상품구성정보.xlsx"
+MAPPING_PATH = "data/existing/판매중_상품구성_사업방법서_매핑.xlsx"
 MODELS_DIR = "data/models"
 
 TEMPLATES = {
@@ -52,22 +51,54 @@ TEMPLATES = {
 TABLE_TYPES = ["S00026", "S00027", "S00028", "S00022"]
 
 
-# ─── DB 로드 ──────────────────────────────────────────────────────────────────
+# ─── 매핑 파일 로드 ───────────────────────────────────────────────────────────
 
-def load_product_db() -> list:
-    """판매중_상품구성정보.xlsx 로드"""
-    import openpyxl
-    wb = openpyxl.load_workbook(DB_PATH, read_only=True, data_only=True)
-    ws = wb.active
-    headers = []
-    rows = []
-    for i, row in enumerate(ws.iter_rows(values_only=True)):
-        if i == 0:
-            headers = [str(h).strip() if h else "" for h in row]
-        else:
-            rows.append(dict(zip(headers, row)))
-    wb.close()
-    return rows
+def load_mapping_db() -> dict:
+    """판매중_상품구성_사업방법서_매핑.xlsx 로드
+    반환: {pdf파일명: [{"dtcd": str, "itcd": str, "prod_dtcd": str, "prod_itcd": str, ...}, ...]}
+    """
+    import pandas as pd
+    df = pd.read_excel(MAPPING_PATH)
+    result = {}
+    for _, row in df.iterrows():
+        pdf = str(row.get("사업방법서 파일명", "") or "").strip()
+        if not pdf:
+            continue
+        entry = {
+            "dtcd": str(int(row["ISRN_KIND_DTCD"])) if not _is_na(row.get("ISRN_KIND_DTCD")) else "",
+            "itcd": str(row.get("ISRN_KIND_ITCD", "") or "").strip(),
+            "sale_nm": str(row.get("ISRN_KIND_SALE_NM", "") or "").strip(),
+            "prod_dtcd": str(int(row["PROD_DTCD"])) if not _is_na(row.get("PROD_DTCD")) else "",
+            "prod_itcd": str(int(row["PROD_ITCD"])) if not _is_na(row.get("PROD_ITCD")) else "",
+            "prod_sale_nm": str(row.get("PROD_SALE_NM", "") or "").strip(),
+        }
+        result.setdefault(pdf, []).append(entry)
+    return result
+
+
+def _is_na(val) -> bool:
+    try:
+        import math
+        return val is None or (isinstance(val, float) and math.isnan(val))
+    except Exception:
+        return False
+
+
+# ─── PDF → 매핑 조회 ──────────────────────────────────────────────────────────
+
+def get_pdf_entries(pdf_path: str, mapping_db: dict) -> list:
+    """PDF 파일명으로 매핑 항목 조회. 반환: 해당 PDF의 entry 리스트"""
+    filename = os.path.basename(pdf_path)
+    return mapping_db.get(filename, [])
+
+
+def get_dtcd_groups(entries: list) -> dict:
+    """entries를 DTCD별로 그룹화. 반환: {dtcd: [entry, ...]}"""
+    groups = {}
+    for e in entries:
+        dtcd = e["dtcd"]
+        groups.setdefault(dtcd, []).append(e)
+    return groups
 
 
 # ─── PDF 파일명 파싱 ──────────────────────────────────────────────────────────
@@ -95,82 +126,17 @@ def get_valid_start_date(pdf_path: str) -> str:
     return m.group(1) if m else datetime.now().strftime("%Y%m%d")
 
 
-# ─── 상품코드 검색 ────────────────────────────────────────────────────────────
+# ─── 상품 매핑 JSON 생성 ──────────────────────────────────────────────────────
 
-def find_product_dtcd(pdf_path: str, product_db: list) -> str | None:
-    """PDF 파일명 기반으로 DB에서 ISRN_KIND_DTCD 검색"""
-    base_name = get_pdf_base_name(pdf_path)
-    # 의미있는 키워드 추출 (단음절·불용어 제외)
-    stopwords = {"무배당", "사업방법서", "상품요약서", "납입면제형", "갱신형"}
-    keywords = [w for w in re.split(r"[\s_\-\(\)]", base_name) if len(w) >= 2 and w not in stopwords]
-
-    if not keywords:
-        return None
-
-    # ISRN_KIND_DTCD별 최고 점수 집계
-    dtcd_scores: dict[str, int] = {}
-    for row in product_db:
-        sale_name = str(row.get("ISRN_KIND_SALE_NM", "") or "")
-        dtcd = str(row.get("ISRN_KIND_DTCD", "") or "").strip()
-        if not dtcd:
-            continue
-        score = sum(1 for kw in keywords if kw in sale_name)
-        if score > dtcd_scores.get(dtcd, 0):
-            dtcd_scores[dtcd] = score
-
-    if not dtcd_scores:
-        return None
-
-    best_dtcd = max(dtcd_scores, key=lambda d: dtcd_scores[d])
-    # 절반 이상 매칭되어야 유효
-    if dtcd_scores[best_dtcd] >= max(1, len(keywords) // 2):
-        return best_dtcd
-    return None
-
-
-# ─── 상품 매핑 자동 생성 ──────────────────────────────────────────────────────
-
-def build_product_mapping(dtcd: str, product_db: list, sub_types: list) -> dict:
-    """sub_type → UPPER/LOWER object code 자동 매핑"""
-    product_rows = [
-        r for r in product_db
-        if str(r.get("ISRN_KIND_DTCD", "") or "").strip() == dtcd
-    ]
-    # 표준체(홀수 A코드) 우선, 건강체/비교형 제외
-    standard_rows = [
-        r for r in product_rows
-        if not any(x in str(r.get("ISRN_KIND_SALE_NM", "")) for x in ["건강체", "비교형"])
-    ] or product_rows
-
+def build_product_mapping(dtcd: str, entries: list) -> dict:
+    """매핑 파일 항목으로 product_mapping.json 생성"""
     mappings = []
-    used_codes: set[str] = set()
-
-    for sub_type in sub_types:
-        sub_words = [w for w in re.split(r"[\s\(\)]", sub_type) if len(w) >= 2]
-        best_row = None
-        best_score = -1
-
-        for row in standard_rows:
-            itcd = str(row.get("ISRN_KIND_ITCD", "") or "").strip()
-            if itcd in used_codes:
-                continue
-            sale_name = str(row.get("ISRN_KIND_SALE_NM", "") or "")
-            score = sum(1 for w in sub_words if w in sale_name)
-            if score > best_score:
-                best_score = score
-                best_row = row
-
-        if best_row:
-            itcd = str(best_row.get("ISRN_KIND_ITCD", "") or "").strip()
-            prod_dtcd = str(best_row.get("PROD_DTCD", "") or "").strip()
-            prod_itcd = str(best_row.get("PROD_ITCD", "") or "").strip()
-            used_codes.add(itcd)
-            mappings.append({
-                "sub_type": sub_type,
-                "upper_object_code": f"{dtcd}{itcd}",
-                "lower_object_code": f"{prod_dtcd}{prod_itcd}",
-            })
-
+    for e in entries:
+        mappings.append({
+            "sub_type": e["sale_nm"],
+            "upper_object_code": f"{e['dtcd']}{e['itcd']}",
+            "lower_object_code": f"{e['prod_dtcd']}{e['prod_itcd']}",
+        })
     return {"product_mappings": mappings}
 
 
@@ -194,7 +160,7 @@ def run_cmd(args_list: list, label: str = "") -> int:
 
 # ─── 단일 PDF 처리 ────────────────────────────────────────────────────────────
 
-def process_pdf(pdf_path: str, product_db: list, run_id: str) -> dict:
+def process_pdf(pdf_path: str, mapping_db: dict, run_id: str) -> dict:
     result = {
         "pdf": os.path.basename(pdf_path),
         "run_id": run_id,
@@ -207,7 +173,7 @@ def process_pdf(pdf_path: str, product_db: list, run_id: str) -> dict:
 
     pages_json = f"{EXTRACT_DIR}/{run_id}_pages.json"
 
-    # STEP 1: PDF 추출 (이미 처리됐으면 스킵)
+    # STEP 1: PDF 추출
     if not os.path.exists(pages_json):
         rc = run_cmd([
             PYTHON,
@@ -215,7 +181,7 @@ def process_pdf(pdf_path: str, product_db: list, run_id: str) -> dict:
             "--input", pdf_path,
             "--output", EXTRACT_DIR,
             "--run-id", run_id,
-            "--text-only",  # 배치 모드: 이미지 불필요
+            "--text-only",
         ], "PDF extract")
         if rc != 0 or not os.path.exists(pages_json):
             result["errors"].append("PDF extract failed")
@@ -232,32 +198,19 @@ def process_pdf(pdf_path: str, product_db: list, run_id: str) -> dict:
         "--output", keywords_json,
     ], "keyword scan")
 
-    # STEP 3: 서브타입 파싱
-    subtypes_json = f"{EXTRACT_DIR}/{run_id}_subtypes.json"
-    run_cmd([
-        PYTHON,
-        ".claude/skills/pdf-preprocessor/scripts/parse_sub_types.py",
-        "--input", pages_json,
-        "--output", subtypes_json,
-    ], "sub_type parse")
-
-    # STEP 4: 상품코드 검색
-    dtcd = find_product_dtcd(pdf_path, product_db)
-    if not dtcd:
-        result["errors"].append("상품코드 DB 매칭 실패")
-        print(f"  [SKIP] DB에서 상품코드를 찾지 못함")
+    # STEP 3: 매핑 파일에서 DTCD+ITCD 직접 조회
+    entries = get_pdf_entries(pdf_path, mapping_db)
+    if not entries:
+        result["errors"].append("매핑 파일에서 PDF를 찾지 못함")
+        print(f"  [SKIP] 매핑 파일에 해당 PDF 없음: {os.path.basename(pdf_path)}")
         return result
 
-    product_code = f"{dtcd}A01"
-    result["dtcd"] = dtcd
-    print(f"  상품코드: {dtcd}")
+    dtcd_groups = get_dtcd_groups(entries)
+    dtcd_list = sorted(dtcd_groups.keys())
+    print(f"  상품코드: {dtcd_list} (ITCD {len(entries)}개)")
+    result["dtcd"] = dtcd_list
 
-    # 서브타입 로드
-    with open(subtypes_json, encoding="utf-8") as f:
-        subtypes_data = json.load(f)
-    sub_types = subtypes_data.get("sub_types", ["기본형"])
-
-    # STEP 5: 관련 페이지 텍스트 연결
+    # 관련 페이지 텍스트 연결 (모든 DTCD 공통)
     with open(keywords_json, encoding="utf-8") as f:
         keywords_data = json.load(f)
     with open(pages_json, encoding="utf-8") as f:
@@ -277,82 +230,89 @@ def process_pdf(pdf_path: str, product_db: list, run_id: str) -> dict:
                     outf.write(f"\n--- 페이지 {page_id} ---\n")
                     outf.write(f.read())
 
-    # STEP 6: product_mapping.json 생성
-    mapping_data = build_product_mapping(dtcd, product_db, sub_types)
-    mapping_json = f"{EXTRACT_DIR}/{run_id}_mapping.json"
-    with open(mapping_json, "w", encoding="utf-8") as f:
-        json.dump(mapping_data, f, ensure_ascii=False, indent=2)
-
-    # STEP 7: valid_date.json 생성
+    # valid_date.json 생성 (공통)
     valid_start = get_valid_start_date(pdf_path)
     valid_date_json = f"{EXTRACT_DIR}/{run_id}_valid_date.json"
     with open(valid_date_json, "w", encoding="utf-8") as f:
         json.dump({"valid_start_date": valid_start, "valid_end_date": "99991231"}, f)
 
-    # STEP 8: 테이블별 추출 → 코드변환 → xlsx
-    for table_type in TABLE_TYPES:
-        raw_json = f"{EXTRACT_DIR}/{product_code}_{table_type}_{run_id}.json"
-        coded_json = f"{EXTRACT_DIR}/{product_code}_{table_type}_{run_id}_coded.json"
-        template_file = os.path.join(MODELS_DIR, TEMPLATES[table_type])
-        xlsx_out = f"{UPLOAD_DIR}/{table_type}_{dtcd}_{run_id}.xlsx"
+    # STEP 4: DTCD별 테이블 추출
+    for dtcd, grp_entries in dtcd_groups.items():
+        # 첫 번째 ITCD를 product_code 접미로 사용 (파일명 식별용)
+        first_itcd = grp_entries[0]["itcd"]
+        product_code = f"{dtcd}{first_itcd}"
 
-        # 추출 (규칙 기반)
-        rc = run_cmd([
-            PYTHON,
-            ".claude/agents/table-extractor/scripts/run_extraction_rules.py",
-            "--table-type", table_type,
-            "--product-code", product_code,
-            "--input", combined_text_path,
-            "--rules", "rules/extraction_rules.py",
-            "--output", raw_json,
-            "--run-id", run_id,
-        ], f"{table_type} extract")
-        if rc != 0:
-            result["tables"][table_type] = "extract_error"
-            continue
+        # product_mapping.json 생성
+        mapping_data = build_product_mapping(dtcd, grp_entries)
+        mapping_json = f"{EXTRACT_DIR}/{run_id}_{dtcd}_mapping.json"
+        with open(mapping_json, "w", encoding="utf-8") as f:
+            json.dump(mapping_data, f, ensure_ascii=False, indent=2)
 
-        with open(raw_json, encoding="utf-8") as f:
-            raw_data = json.load(f)
-        if not raw_data.get("raw_data"):
-            result["tables"][table_type] = "no_data(0행)"
-            print(f"  [{table_type}] 추출 데이터 없음 (규칙 미매칭)")
-            continue
+        for table_type in TABLE_TYPES:
+            raw_json = f"{EXTRACT_DIR}/{product_code}_{table_type}_{run_id}.json"
+            coded_json = f"{EXTRACT_DIR}/{product_code}_{table_type}_{run_id}_coded.json"
+            template_file = os.path.join(MODELS_DIR, TEMPLATES[table_type])
+            xlsx_out = f"{UPLOAD_DIR}/{table_type}_{dtcd}_{run_id}.xlsx"
 
-        # 코드 변환
-        rc = run_cmd([
-            PYTHON,
-            ".claude/skills/code-converter/scripts/convert_codes.py",
-            "--input", raw_json,
-            "--mappings", ".claude/skills/code-converter/references/code_mappings.json",
-            "--output", coded_json,
-        ], f"{table_type} convert")
-        if rc != 0:
-            result["tables"][table_type] = "convert_error"
-            continue
+            table_key = f"{dtcd}/{table_type}"
 
-        if not os.path.exists(template_file):
-            result["tables"][table_type] = "no_template"
-            print(f"  [{table_type}] 템플릿 없음: {template_file}")
-            continue
+            # 추출 (규칙 기반)
+            rc = run_cmd([
+                PYTHON,
+                ".claude/agents/table-extractor/scripts/run_extraction_rules.py",
+                "--table-type", table_type,
+                "--product-code", product_code,
+                "--input", combined_text_path,
+                "--rules", "rules/extraction_rules.py",
+                "--output", raw_json,
+                "--run-id", run_id,
+            ], f"{table_key} extract")
+            if rc != 0:
+                result["tables"][table_key] = "extract_error"
+                continue
 
-        # xlsx 생성
-        rc = run_cmd([
-            PYTHON,
-            ".claude/skills/xlsx-generator/scripts/generate_upload.py",
-            "--input", coded_json,
-            "--template", template_file,
-            "--valid-date", valid_date_json,
-            "--product-mapping", mapping_json,
-            "--output", xlsx_out,
-        ], f"{table_type} xlsx")
+            with open(raw_json, encoding="utf-8") as f:
+                raw_data = json.load(f)
+            if not raw_data.get("raw_data"):
+                result["tables"][table_key] = "no_data(0행)"
+                print(f"  [{table_key}] 추출 데이터 없음 (규칙 미매칭)")
+                continue
 
-        if rc == 0:
-            with open(coded_json, encoding="utf-8") as f:
-                coded_data = json.load(f)
-            row_count = len(coded_data.get("coded_rows", []))
-            result["tables"][table_type] = f"ok({row_count}행)"
-        else:
-            result["tables"][table_type] = "xlsx_error"
+            # 코드 변환
+            rc = run_cmd([
+                PYTHON,
+                ".claude/skills/code-converter/scripts/convert_codes.py",
+                "--input", raw_json,
+                "--mappings", ".claude/skills/code-converter/references/code_mappings.json",
+                "--output", coded_json,
+            ], f"{table_key} convert")
+            if rc != 0:
+                result["tables"][table_key] = "convert_error"
+                continue
+
+            if not os.path.exists(template_file):
+                result["tables"][table_key] = "no_template"
+                print(f"  [{table_key}] 템플릿 없음: {template_file}")
+                continue
+
+            # xlsx 생성
+            rc = run_cmd([
+                PYTHON,
+                ".claude/skills/xlsx-generator/scripts/generate_upload.py",
+                "--input", coded_json,
+                "--template", template_file,
+                "--valid-date", valid_date_json,
+                "--product-mapping", mapping_json,
+                "--output", xlsx_out,
+            ], f"{table_key} xlsx")
+
+            if rc == 0:
+                with open(coded_json, encoding="utf-8") as f:
+                    coded_data = json.load(f)
+                row_count = len(coded_data.get("coded_rows", []))
+                result["tables"][table_key] = f"ok({row_count}행)"
+            else:
+                result["tables"][table_key] = "xlsx_error"
 
     return result
 
@@ -371,19 +331,20 @@ def main():
     print("=" * 60)
     batch_start = datetime.now()
 
-    # DB 로드
-    print("DB 로드 중...")
+    # 매핑 DB 로드
+    print("매핑 파일 로드 중...")
     try:
-        product_db = load_product_db()
-        print(f"  {len(product_db)}개 상품 레코드 로드 완료\n")
+        mapping_db = load_mapping_db()
+        pdf_count = len(mapping_db)
+        entry_count = sum(len(v) for v in mapping_db.values())
+        print(f"  {pdf_count}개 사업방법서, {entry_count}개 상품 항목 로드 완료\n")
     except Exception as e:
-        print(f"ERROR: DB 로드 실패: {e}")
+        print(f"ERROR: 매핑 파일 로드 실패: {e}")
         return 1
 
     # PDF 목록
     pdf_dir = Path(args.pdf_dir)
     pdf_files = sorted(pdf_dir.glob("*.pdf"))
-    # 상품요약서 제외 (사업방법서만)
     pdf_files = [p for p in pdf_files if "사업방법서" in p.name]
 
     if not pdf_files:
@@ -403,6 +364,12 @@ def main():
         print(f"[{i}/{len(pdf_files)}] {pdf_path.name}")
         print(f"  run_id: {run_id}")
 
+        # 매핑 없으면 스킵
+        entries = get_pdf_entries(str(pdf_path), mapping_db)
+        if not entries:
+            print(f"  [SKIP] 매핑 파일에 없는 PDF\n")
+            continue
+
         # 이미 처리됐는지 확인
         if not args.no_skip:
             existing = list(Path(UPLOAD_DIR).glob(f"S00026_*_{run_id}.xlsx")) if os.path.exists(UPLOAD_DIR) else []
@@ -411,7 +378,7 @@ def main():
                 continue
 
         try:
-            result = process_pdf(str(pdf_path), product_db, run_id)
+            result = process_pdf(str(pdf_path), mapping_db, run_id)
             results.append(result)
 
             dtcd = result.get("dtcd", "?")
@@ -420,8 +387,10 @@ def main():
             if errors:
                 print(f"  [FAIL] {', '.join(errors)}")
             else:
-                table_summary = " | ".join(f"{k}: {v}" for k, v in tables.items())
-                print(f"  [OK] {dtcd} → {table_summary}")
+                # DTCD별로 S00026 결과만 요약 출력
+                s26 = {k: v for k, v in tables.items() if "S00026" in k}
+                summary = " | ".join(f"{k}: {v}" for k, v in s26.items()) if s26 else str(tables)
+                print(f"  [OK] {dtcd} → {summary}")
         except Exception as e:
             print(f"  [ERROR] {e}")
             results.append({"pdf": pdf_path.name, "errors": [str(e)]})

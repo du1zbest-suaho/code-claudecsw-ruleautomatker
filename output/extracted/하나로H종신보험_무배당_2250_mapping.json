@@ -1,0 +1,34 @@
+{
+  "product_mappings": [
+    {
+      "sub_type": "한화생명 하나로H종신보험 무배당 보장형 계약 1종(해약환급금 일부지급형Ⅰ) 표준체",
+      "upper_object_code": "2250A01",
+      "lower_object_code": "22501"
+    },
+    {
+      "sub_type": "한화생명 하나로H종신보험 무배당 보장형 계약 1종(해약환급금 일부지급형Ⅰ) 건강체",
+      "upper_object_code": "2250A02",
+      "lower_object_code": "22502"
+    },
+    {
+      "sub_type": "한화생명 하나로H종신보험 무배당 보장형 계약 2종(해약환급금 일부지급형Ⅱ) 표준체",
+      "upper_object_code": "2250A03",
+      "lower_object_code": "22503"
+    },
+    {
+      "sub_type": "한화생명 하나로H종신보험 무배당 보장형 계약 2종(해약환급금 일부지급형Ⅱ) 건강체",
+      "upper_object_code": "2250A04",
+      "lower_object_code": "22504"
+    },
+    {
+      "sub_type": "한화생명 하나로H종신보험 무배당 보장형 계약 3종(해약환급금 일부지급형Ⅲ) 표준체",
+      "upper_object_code": "2250A05",
+      "lower_object_code": "22505"
+    },
+    {
+      "sub_type": "한화생명 하나로H종신보험 무배당 보장형 계약 3종(해약환급금 일부지급형Ⅲ) 건강체",
+      "upper_object_code": "2250A06",
+      "lower_object_code": "22506"
+    }
+  ]
+}

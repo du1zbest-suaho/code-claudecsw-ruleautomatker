@@ -1,0 +1,117 @@
+{
+  "table_type": "S00027",
+  "product_code": "1809073",
+  "run_id": "연금저축_미래로기업복지연금보험",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "1종(신계약체결용)",
+      "insurance_period": "종신",
+      "payment_period": "5년납"
+    },
+    {
+      "sub_type": "1종(신계약체결용)",
+      "insurance_period": "종신",
+      "payment_period": "7년납"
+    },
+    {
+      "sub_type": "1종(신계약체결용)",
+      "insurance_period": "종신",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "1종(신계약체결용)",
+      "insurance_period": "종신",
+      "payment_period": "15년납"
+    },
+    {
+      "sub_type": "1종(신계약체결용)",
+      "insurance_period": "종신",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "1종(신계약체결용)",
+      "insurance_period": "종신",
+      "payment_period": "전기납"
+    },
+    {
+      "sub_type": "1종(신계약체결용)",
+      "insurance_period": "종신",
+      "payment_period": "일시납"
+    },
+    {
+      "sub_type": "2종(계좌이체용)",
+      "insurance_period": "종신",
+      "payment_period": "5년납"
+    },
+    {
+      "sub_type": "2종(계좌이체용)",
+      "insurance_period": "종신",
+      "payment_period": "7년납"
+    },
+    {
+      "sub_type": "2종(계좌이체용)",
+      "insurance_period": "종신",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "2종(계좌이체용)",
+      "insurance_period": "종신",
+      "payment_period": "15년납"
+    },
+    {
+      "sub_type": "2종(계좌이체용)",
+      "insurance_period": "종신",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "2종(계좌이체용)",
+      "insurance_period": "종신",
+      "payment_period": "전기납"
+    },
+    {
+      "sub_type": "2종(계좌이체용)",
+      "insurance_period": "종신",
+      "payment_period": "일시납"
+    },
+    {
+      "sub_type": "2종(적립형)",
+      "insurance_period": "종신",
+      "payment_period": "5년납"
+    },
+    {
+      "sub_type": "2종(적립형)",
+      "insurance_period": "종신",
+      "payment_period": "7년납"
+    },
+    {
+      "sub_type": "2종(적립형)",
+      "insurance_period": "종신",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "2종(적립형)",
+      "insurance_period": "종신",
+      "payment_period": "15년납"
+    },
+    {
+      "sub_type": "2종(적립형)",
+      "insurance_period": "종신",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "2종(적립형)",
+      "insurance_period": "종신",
+      "payment_period": "전기납"
+    },
+    {
+      "sub_type": "2종(적립형)",
+      "insurance_period": "종신",
+      "payment_period": "일시납"
+    }
+  ],
+  "discrepancies": [],
+  "row_count": 21
+}

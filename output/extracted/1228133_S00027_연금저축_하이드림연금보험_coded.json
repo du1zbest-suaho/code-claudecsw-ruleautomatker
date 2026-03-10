@@ -1,0 +1,814 @@
+{
+  "table_type": "S00027",
+  "product_code": "1228133",
+  "run_id": "연금저축_하이드림연금보험",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "1종(신계약체결용)",
+      "insurance_period": "종신",
+      "payment_period": "5년납"
+    },
+    {
+      "sub_type": "1종(신계약체결용)",
+      "insurance_period": "종신",
+      "payment_period": "7년납"
+    },
+    {
+      "sub_type": "1종(신계약체결용)",
+      "insurance_period": "종신",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "1종(신계약체결용)",
+      "insurance_period": "종신",
+      "payment_period": "15년납"
+    },
+    {
+      "sub_type": "1종(신계약체결용)",
+      "insurance_period": "종신",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "1종(신계약체결용)",
+      "insurance_period": "종신",
+      "payment_period": "전기납"
+    },
+    {
+      "sub_type": "1종(신계약체결용)",
+      "insurance_period": "종신",
+      "payment_period": "일시납"
+    },
+    {
+      "sub_type": "2종(계좌이체용)",
+      "insurance_period": "종신",
+      "payment_period": "5년납"
+    },
+    {
+      "sub_type": "2종(계좌이체용)",
+      "insurance_period": "종신",
+      "payment_period": "7년납"
+    },
+    {
+      "sub_type": "2종(계좌이체용)",
+      "insurance_period": "종신",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "2종(계좌이체용)",
+      "insurance_period": "종신",
+      "payment_period": "15년납"
+    },
+    {
+      "sub_type": "2종(계좌이체용)",
+      "insurance_period": "종신",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "2종(계좌이체용)",
+      "insurance_period": "종신",
+      "payment_period": "전기납"
+    },
+    {
+      "sub_type": "2종(계좌이체용)",
+      "insurance_period": "종신",
+      "payment_period": "일시납"
+    },
+    {
+      "sub_type": "2종(계좌이체\n용)",
+      "insurance_period": "종신",
+      "payment_period": "5년납"
+    },
+    {
+      "sub_type": "2종(계좌이체\n용)",
+      "insurance_period": "종신",
+      "payment_period": "7년납"
+    },
+    {
+      "sub_type": "2종(계좌이체\n용)",
+      "insurance_period": "종신",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "2종(계좌이체\n용)",
+      "insurance_period": "종신",
+      "payment_period": "15년납"
+    },
+    {
+      "sub_type": "2종(계좌이체\n용)",
+      "insurance_period": "종신",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "2종(계좌이체\n용)",
+      "insurance_period": "종신",
+      "payment_period": "전기납"
+    },
+    {
+      "sub_type": "2종(계좌이체\n용)",
+      "insurance_period": "종신",
+      "payment_period": "일시납"
+    },
+    {
+      "sub_type": "2종(적립형)",
+      "insurance_period": "종신",
+      "payment_period": "5년납"
+    },
+    {
+      "sub_type": "2종(적립형)",
+      "insurance_period": "종신",
+      "payment_period": "7년납"
+    },
+    {
+      "sub_type": "2종(적립형)",
+      "insurance_period": "종신",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "2종(적립형)",
+      "insurance_period": "종신",
+      "payment_period": "15년납"
+    },
+    {
+      "sub_type": "2종(적립형)",
+      "insurance_period": "종신",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "2종(적립형)",
+      "insurance_period": "종신",
+      "payment_period": "전기납"
+    },
+    {
+      "sub_type": "2종(적립형)",
+      "insurance_period": "종신",
+      "payment_period": "일시납"
+    },
+    {
+      "sub_type": "2종(적\n립형)",
+      "insurance_period": "종신",
+      "payment_period": "5년납"
+    },
+    {
+      "sub_type": "2종(적\n립형)",
+      "insurance_period": "종신",
+      "payment_period": "7년납"
+    },
+    {
+      "sub_type": "2종(적\n립형)",
+      "insurance_period": "종신",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "2종(적\n립형)",
+      "insurance_period": "종신",
+      "payment_period": "15년납"
+    },
+    {
+      "sub_type": "2종(적\n립형)",
+      "insurance_period": "종신",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "2종(적\n립형)",
+      "insurance_period": "종신",
+      "payment_period": "전기납"
+    },
+    {
+      "sub_type": "2종(적\n립형)",
+      "insurance_period": "종신",
+      "payment_period": "일시납"
+    },
+    {
+      "sub_type": "2종(거치형)",
+      "insurance_period": "종신",
+      "payment_period": "5년납"
+    },
+    {
+      "sub_type": "2종(거치형)",
+      "insurance_period": "종신",
+      "payment_period": "7년납"
+    },
+    {
+      "sub_type": "2종(거치형)",
+      "insurance_period": "종신",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "2종(거치형)",
+      "insurance_period": "종신",
+      "payment_period": "15년납"
+    },
+    {
+      "sub_type": "2종(거치형)",
+      "insurance_period": "종신",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "2종(거치형)",
+      "insurance_period": "종신",
+      "payment_period": "전기납"
+    },
+    {
+      "sub_type": "2종(거치형)",
+      "insurance_period": "종신",
+      "payment_period": "일시납"
+    }
+  ],
+  "discrepancies": [],
+  "row_count": 42,
+  "coded_rows": [
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "sub_type": "1종(신계약체결용)",
+      "_raw": {
+        "sub_type": "1종(신계약체결용)",
+        "insurance_period": "종신",
+        "payment_period": "5년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "sub_type": "1종(신계약체결용)",
+      "_raw": {
+        "sub_type": "1종(신계약체결용)",
+        "insurance_period": "종신",
+        "payment_period": "7년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "sub_type": "1종(신계약체결용)",
+      "_raw": {
+        "sub_type": "1종(신계약체결용)",
+        "insurance_period": "종신",
+        "payment_period": "10년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "sub_type": "1종(신계약체결용)",
+      "_raw": {
+        "sub_type": "1종(신계약체결용)",
+        "insurance_period": "종신",
+        "payment_period": "15년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "sub_type": "1종(신계약체결용)",
+      "_raw": {
+        "sub_type": "1종(신계약체결용)",
+        "insurance_period": "종신",
+        "payment_period": "20년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 999,
+      "PAYM_TERM_DVSN_CODE": "A",
+      "PAYM_TERM_INQY_CODE": "A999",
+      "sub_type": "1종(신계약체결용)",
+      "_raw": {
+        "sub_type": "1종(신계약체결용)",
+        "insurance_period": "종신",
+        "payment_period": "전기납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 0,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N0",
+      "sub_type": "1종(신계약체결용)",
+      "_raw": {
+        "sub_type": "1종(신계약체결용)",
+        "insurance_period": "종신",
+        "payment_period": "일시납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "sub_type": "2종(계좌이체용)",
+      "_raw": {
+        "sub_type": "2종(계좌이체용)",
+        "insurance_period": "종신",
+        "payment_period": "5년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "sub_type": "2종(계좌이체용)",
+      "_raw": {
+        "sub_type": "2종(계좌이체용)",
+        "insurance_period": "종신",
+        "payment_period": "7년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "sub_type": "2종(계좌이체용)",
+      "_raw": {
+        "sub_type": "2종(계좌이체용)",
+        "insurance_period": "종신",
+        "payment_period": "10년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "sub_type": "2종(계좌이체용)",
+      "_raw": {
+        "sub_type": "2종(계좌이체용)",
+        "insurance_period": "종신",
+        "payment_period": "15년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "sub_type": "2종(계좌이체용)",
+      "_raw": {
+        "sub_type": "2종(계좌이체용)",
+        "insurance_period": "종신",
+        "payment_period": "20년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 999,
+      "PAYM_TERM_DVSN_CODE": "A",
+      "PAYM_TERM_INQY_CODE": "A999",
+      "sub_type": "2종(계좌이체용)",
+      "_raw": {
+        "sub_type": "2종(계좌이체용)",
+        "insurance_period": "종신",
+        "payment_period": "전기납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 0,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N0",
+      "sub_type": "2종(계좌이체용)",
+      "_raw": {
+        "sub_type": "2종(계좌이체용)",
+        "insurance_period": "종신",
+        "payment_period": "일시납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "sub_type": "2종(계좌이체\n용)",
+      "_raw": {
+        "sub_type": "2종(계좌이체\n용)",
+        "insurance_period": "종신",
+        "payment_period": "5년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "sub_type": "2종(계좌이체\n용)",
+      "_raw": {
+        "sub_type": "2종(계좌이체\n용)",
+        "insurance_period": "종신",
+        "payment_period": "7년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "sub_type": "2종(계좌이체\n용)",
+      "_raw": {
+        "sub_type": "2종(계좌이체\n용)",
+        "insurance_period": "종신",
+        "payment_period": "10년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "sub_type": "2종(계좌이체\n용)",
+      "_raw": {
+        "sub_type": "2종(계좌이체\n용)",
+        "insurance_period": "종신",
+        "payment_period": "15년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "sub_type": "2종(계좌이체\n용)",
+      "_raw": {
+        "sub_type": "2종(계좌이체\n용)",
+        "insurance_period": "종신",
+        "payment_period": "20년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 999,
+      "PAYM_TERM_DVSN_CODE": "A",
+      "PAYM_TERM_INQY_CODE": "A999",
+      "sub_type": "2종(계좌이체\n용)",
+      "_raw": {
+        "sub_type": "2종(계좌이체\n용)",
+        "insurance_period": "종신",
+        "payment_period": "전기납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 0,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N0",
+      "sub_type": "2종(계좌이체\n용)",
+      "_raw": {
+        "sub_type": "2종(계좌이체\n용)",
+        "insurance_period": "종신",
+        "payment_period": "일시납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "sub_type": "2종(적립형)",
+      "_raw": {
+        "sub_type": "2종(적립형)",
+        "insurance_period": "종신",
+        "payment_period": "5년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "sub_type": "2종(적립형)",
+      "_raw": {
+        "sub_type": "2종(적립형)",
+        "insurance_period": "종신",
+        "payment_period": "7년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "sub_type": "2종(적립형)",
+      "_raw": {
+        "sub_type": "2종(적립형)",
+        "insurance_period": "종신",
+        "payment_period": "10년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "sub_type": "2종(적립형)",
+      "_raw": {
+        "sub_type": "2종(적립형)",
+        "insurance_period": "종신",
+        "payment_period": "15년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "sub_type": "2종(적립형)",
+      "_raw": {
+        "sub_type": "2종(적립형)",
+        "insurance_period": "종신",
+        "payment_period": "20년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 999,
+      "PAYM_TERM_DVSN_CODE": "A",
+      "PAYM_TERM_INQY_CODE": "A999",
+      "sub_type": "2종(적립형)",
+      "_raw": {
+        "sub_type": "2종(적립형)",
+        "insurance_period": "종신",
+        "payment_period": "전기납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 0,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N0",
+      "sub_type": "2종(적립형)",
+      "_raw": {
+        "sub_type": "2종(적립형)",
+        "insurance_period": "종신",
+        "payment_period": "일시납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "sub_type": "2종(적\n립형)",
+      "_raw": {
+        "sub_type": "2종(적\n립형)",
+        "insurance_period": "종신",
+        "payment_period": "5년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "sub_type": "2종(적\n립형)",
+      "_raw": {
+        "sub_type": "2종(적\n립형)",
+        "insurance_period": "종신",
+        "payment_period": "7년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "sub_type": "2종(적\n립형)",
+      "_raw": {
+        "sub_type": "2종(적\n립형)",
+        "insurance_period": "종신",
+        "payment_period": "10년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "sub_type": "2종(적\n립형)",
+      "_raw": {
+        "sub_type": "2종(적\n립형)",
+        "insurance_period": "종신",
+        "payment_period": "15년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "sub_type": "2종(적\n립형)",
+      "_raw": {
+        "sub_type": "2종(적\n립형)",
+        "insurance_period": "종신",
+        "payment_period": "20년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 999,
+      "PAYM_TERM_DVSN_CODE": "A",
+      "PAYM_TERM_INQY_CODE": "A999",
+      "sub_type": "2종(적\n립형)",
+      "_raw": {
+        "sub_type": "2종(적\n립형)",
+        "insurance_period": "종신",
+        "payment_period": "전기납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 0,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N0",
+      "sub_type": "2종(적\n립형)",
+      "_raw": {
+        "sub_type": "2종(적\n립형)",
+        "insurance_period": "종신",
+        "payment_period": "일시납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "sub_type": "2종(거치형)",
+      "_raw": {
+        "sub_type": "2종(거치형)",
+        "insurance_period": "종신",
+        "payment_period": "5년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "sub_type": "2종(거치형)",
+      "_raw": {
+        "sub_type": "2종(거치형)",
+        "insurance_period": "종신",
+        "payment_period": "7년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "sub_type": "2종(거치형)",
+      "_raw": {
+        "sub_type": "2종(거치형)",
+        "insurance_period": "종신",
+        "payment_period": "10년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "sub_type": "2종(거치형)",
+      "_raw": {
+        "sub_type": "2종(거치형)",
+        "insurance_period": "종신",
+        "payment_period": "15년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "sub_type": "2종(거치형)",
+      "_raw": {
+        "sub_type": "2종(거치형)",
+        "insurance_period": "종신",
+        "payment_period": "20년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 999,
+      "PAYM_TERM_DVSN_CODE": "A",
+      "PAYM_TERM_INQY_CODE": "A999",
+      "sub_type": "2종(거치형)",
+      "_raw": {
+        "sub_type": "2종(거치형)",
+        "insurance_period": "종신",
+        "payment_period": "전기납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 0,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N0",
+      "sub_type": "2종(거치형)",
+      "_raw": {
+        "sub_type": "2종(거치형)",
+        "insurance_period": "종신",
+        "payment_period": "일시납"
+      }
+    }
+  ],
+  "convert_errors": [],
+  "convert_error_count": 0
+}

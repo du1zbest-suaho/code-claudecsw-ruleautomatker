@@ -10,8 +10,9 @@
 - **교차검증 필수**: PDF 내 txt(텍스트)와 jpeg(이미지)를 모두 활용하여 교차검증한다.
 
 ### 입력 파일 위치
-- 사업방법서: `data/pdf/*.zip`
-- 기존 데이터: `data/existing/*.xlsx`
+- 사업방법서: `data/pdf/*.pdf`
+- **PDF→상품 매핑**: `data/existing/판매중_상품구성_사업방법서_매핑.xlsx` ← 핵심 참조 파일
+- 검증 Ground Truth: `data/existing/판매중_가입나이정보.xlsx` 등
 - 업로드 양식 템플릿: `data/templates/*.xlsx`
 - 모델상세: `data/models/*.xlsx`
 
@@ -61,29 +62,31 @@ python .claude/skills/pdf-preprocessor/scripts/parse_sub_types.py \
 
 ### STEP 2: 상품 매핑
 
-```bash
-# 2-1. 상품구성정보에서 후보군 검색
-python .claude/skills/product-mapper/scripts/search_products.py \
-  --subtypes output/extracted/{run_id}_subtypes.json \
-  --db data/existing/판매중_상품구성정보.xlsx \
-  --output output/extracted/{run_id}_candidates.json
+`data/existing/판매중_상품구성_사업방법서_매핑.xlsx`에서 PDF 파일명으로 직접 조회한다.
+키워드 추론·LLM 판단 불필요. 파일명이 정확히 일치해야 한다.
 
-# 2-2 (LLM 판단): 후보군 중 정확한 매핑 결정
-# LLM이 보험종목명 + 세부보험종목 → 상품구성정보 코드 매핑
+파일 구조:
+| 컬럼 | 설명 |
+|------|------|
+| `ISRN_KIND_DTCD` | 보종코드 (상품코드) |
+| `ISRN_KIND_ITCD` | 보종세부코드 |
+| `ISRN_KIND_SALE_NM` | 보험종목 판매명 |
+| `PROD_DTCD` / `PROD_ITCD` | 상품구성 코드 |
+| `사업방법서 파일명` | PDF 파일명 (매핑 키) |
 
-# 2-3. 주계약 코드 추출
-python .claude/skills/product-mapper/scripts/map_codes.py \
-  --candidates output/extracted/{run_id}_candidates.json \
-  --mapping {llm_result} --output output/extracted/{run_id}_mapping.json
+**주의사항**:
+- 하나의 PDF → 복수 DTCD 가능 (예: `노후실손의료비` → DTCD 1808+1946)
+- 하나의 DTCD → 복수 PDF 가능 (예: DTCD 2126 → 상생친구PDF(A04~A06) + 진심가득HPDF(A01~A03))
+- PDF 파일명이 매핑 파일에 없으면 처리 스킵
 
-# 2-4. 특약 수집
-python .claude/skills/product-mapper/scripts/collect_special_contracts.py \
-  --mapping output/extracted/{run_id}_mapping.json \
-  --db data/existing/판매중_상품구성정보.xlsx \
-  --output output/extracted/{run_id}_special_contracts.json
+```python
+# batch_run.py 내 구현 (직접 조회)
+mapping_db = load_mapping_db()   # 판매중_상품구성_사업방법서_매핑.xlsx 로드
+entries = get_pdf_entries(pdf_path, mapping_db)  # 파일명으로 바로 조회
+dtcd_groups = get_dtcd_groups(entries)           # DTCD별 그룹화
 ```
 
-매핑 불가 건: 유사 이름 후보를 제시하고 사용자에게 확인 요청.
+매핑 파일에 없는 PDF: 처리 스킵 후 로그 기록.
 
 ### STEP 3: 테이블 추출 (LLM 핵심 단계)
 

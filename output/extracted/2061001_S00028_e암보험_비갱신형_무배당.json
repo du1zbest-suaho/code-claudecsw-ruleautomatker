@@ -1,0 +1,16 @@
+{
+  "table_type": "S00028",
+  "product_code": "2061001",
+  "run_id": "e암보험_비갱신형_무배당",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "표준체형",
+      "payment_cycle": "월납"
+    }
+  ],
+  "discrepancies": [],
+  "row_count": 1
+}

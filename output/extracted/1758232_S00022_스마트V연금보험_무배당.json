@@ -1,0 +1,17 @@
+{
+  "table_type": "S00022",
+  "product_code": "1758232",
+  "run_id": "스마트V연금보험_무배당",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "3종(연금강화형)",
+      "min_age": 45,
+      "max_age": 90
+    }
+  ],
+  "discrepancies": [],
+  "row_count": 1
+}

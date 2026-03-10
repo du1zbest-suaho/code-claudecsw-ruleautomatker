@@ -1,0 +1,17 @@
+{
+  "table_type": "S00027",
+  "product_code": "1224069",
+  "run_id": "기업복지라이프플랜보험_무배당",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "기본형",
+      "insurance_period": "1년만기",
+      "payment_period": "전기납"
+    }
+  ],
+  "discrepancies": [],
+  "row_count": 1
+}

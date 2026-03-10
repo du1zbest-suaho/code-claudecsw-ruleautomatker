@@ -1,0 +1,20 @@
+{
+  "table_type": "S00028",
+  "product_code": "1228137",
+  "run_id": "연금저축_스마트하이드림연금보험",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "기본형",
+      "payment_cycle": "월납"
+    },
+    {
+      "sub_type": "기본형",
+      "payment_cycle": "년납"
+    }
+  ],
+  "discrepancies": [],
+  "row_count": 2
+}

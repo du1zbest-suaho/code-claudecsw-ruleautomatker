@@ -1,0 +1,244 @@
+{
+  "table_type": "S00026",
+  "product_code": "2061001",
+  "run_id": "e암보험_비갱신형_무배당",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "20년만기",
+      "payment_period": "5년납",
+      "gender": "남녀공통",
+      "min_age": 19,
+      "max_age": 60
+    },
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "60세만기",
+      "payment_period": "5년납",
+      "gender": "남녀공통",
+      "min_age": 19,
+      "max_age": 54
+    },
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "70세만기",
+      "payment_period": "5년납",
+      "gender": "남녀공통",
+      "min_age": 19,
+      "max_age": 60
+    },
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "80세만기",
+      "payment_period": "5년납",
+      "gender": "남녀공통",
+      "min_age": 19,
+      "max_age": 60
+    },
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "100세만기",
+      "payment_period": "5년납",
+      "gender": "남녀공통",
+      "min_age": 19,
+      "max_age": 60
+    },
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "20년만기",
+      "payment_period": "10년납",
+      "gender": "남녀공통",
+      "min_age": 19,
+      "max_age": 60
+    },
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "60세만기",
+      "payment_period": "10년납",
+      "gender": "남녀공통",
+      "min_age": 19,
+      "max_age": 48
+    },
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "70세만기",
+      "payment_period": "10년납",
+      "gender": "남녀공통",
+      "min_age": 19,
+      "max_age": 59
+    },
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "80세만기",
+      "payment_period": "10년납",
+      "gender": "남녀공통",
+      "min_age": 19,
+      "max_age": 60
+    },
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "100세만기",
+      "payment_period": "10년납",
+      "gender": "남녀공통",
+      "min_age": 19,
+      "max_age": 60
+    },
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "20년만기",
+      "payment_period": "15년납",
+      "gender": "남녀공통",
+      "min_age": 28,
+      "max_age": 60
+    },
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "60세만기",
+      "payment_period": "15년납",
+      "gender": "남녀공통",
+      "min_age": 19,
+      "max_age": 43
+    },
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "70세만기",
+      "payment_period": "15년납",
+      "gender": "남녀공통",
+      "min_age": 19,
+      "max_age": 54
+    },
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "80세만기",
+      "payment_period": "15년납",
+      "gender": "남녀공통",
+      "min_age": 19,
+      "max_age": 60
+    },
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "100세만기",
+      "payment_period": "15년납",
+      "gender": "남녀공통",
+      "min_age": 19,
+      "max_age": 60
+    },
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "60세만기",
+      "payment_period": "20년납",
+      "gender": "남녀공통",
+      "min_age": 19,
+      "max_age": 38
+    },
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "70세만기",
+      "payment_period": "20년납",
+      "gender": "남녀공통",
+      "min_age": 19,
+      "max_age": 49
+    },
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "80세만기",
+      "payment_period": "20년납",
+      "gender": "남녀공통",
+      "min_age": 19,
+      "max_age": 59
+    },
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "100세만기",
+      "payment_period": "20년납",
+      "gender": "남녀공통",
+      "min_age": 19,
+      "max_age": 60
+    },
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "70세만기",
+      "payment_period": "30년납",
+      "gender": "남녀공통",
+      "min_age": 19,
+      "max_age": 39
+    },
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "80세만기",
+      "payment_period": "30년납",
+      "gender": "남녀공통",
+      "min_age": 19,
+      "max_age": 49
+    },
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "100세만기",
+      "payment_period": "30년납",
+      "gender": "남녀공통",
+      "min_age": 19,
+      "max_age": 60
+    },
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "70세만기",
+      "payment_period": "60세납",
+      "gender": "남녀공통",
+      "min_age": 19,
+      "max_age": 54
+    },
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "80세만기",
+      "payment_period": "60세납",
+      "gender": "남녀공통",
+      "min_age": 19,
+      "max_age": 54
+    },
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "100세만기",
+      "payment_period": "60세납",
+      "gender": "남녀공통",
+      "min_age": 19,
+      "max_age": 54
+    },
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "60세만기",
+      "payment_period": "전기납",
+      "gender": "남녀공통",
+      "min_age": 19,
+      "max_age": 33
+    },
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "70세만기",
+      "payment_period": "전기납",
+      "gender": "남녀공통",
+      "min_age": 19,
+      "max_age": 37
+    },
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "80세만기",
+      "payment_period": "전기납",
+      "gender": "남녀공통",
+      "min_age": 19,
+      "max_age": 60
+    },
+    {
+      "sub_type": "표준체형",
+      "insurance_period": "100세만기",
+      "payment_period": "전기납",
+      "gender": "남녀공통",
+      "min_age": 19,
+      "max_age": 60
+    }
+  ],
+  "discrepancies": [],
+  "row_count": 29
+}

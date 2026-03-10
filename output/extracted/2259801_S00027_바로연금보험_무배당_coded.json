@@ -1,0 +1,35 @@
+{
+  "table_type": "S00027",
+  "product_code": "2259801",
+  "run_id": "바로연금보험_무배당",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "기본형",
+      "insurance_period": "종신",
+      "payment_period": "일시납"
+    }
+  ],
+  "discrepancies": [],
+  "row_count": 1,
+  "coded_rows": [
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 0,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N0",
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "종신",
+        "payment_period": "일시납"
+      }
+    }
+  ],
+  "convert_errors": [],
+  "convert_error_count": 0
+}

@@ -1,0 +1,24 @@
+{
+  "table_type": "S00028",
+  "product_code": "1809073",
+  "run_id": "연금저축_미래로기업복지연금보험",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "1종(신계약체결용)",
+      "payment_cycle": "월납"
+    },
+    {
+      "sub_type": "1종(신계약체결용)",
+      "payment_cycle": "년납"
+    },
+    {
+      "sub_type": "1종(신계약체결용)",
+      "payment_cycle": "일시납"
+    }
+  ],
+  "discrepancies": [],
+  "row_count": 3
+}

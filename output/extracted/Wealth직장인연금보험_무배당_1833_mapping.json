@@ -1,0 +1,14 @@
+{
+  "product_mappings": [
+    {
+      "sub_type": "한화생명 Wealth직장인연금보험 무배당 (종신연금형 개인형)",
+      "upper_object_code": "1833025",
+      "lower_object_code": "183325"
+    },
+    {
+      "sub_type": "한화생명 Wealth직장인연금보험 무배당 (종신연금형 신부부형)",
+      "upper_object_code": "1833026",
+      "lower_object_code": "183326"
+    }
+  ]
+}

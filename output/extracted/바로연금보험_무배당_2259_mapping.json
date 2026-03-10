@@ -1,0 +1,114 @@
+{
+  "product_mappings": [
+    {
+      "sub_type": "한화생명 바로연금보험 무배당(종신연금형 일반형 개인형)",
+      "upper_object_code": "2259801",
+      "lower_object_code": "2259801"
+    },
+    {
+      "sub_type": "한화생명 바로연금보험 무배당(종신연금형 일반형 개인형)",
+      "upper_object_code": "2259801",
+      "lower_object_code": "2259851"
+    },
+    {
+      "sub_type": "한화생명 바로연금보험 무배당(종신연금형 초기집중형 개인형)",
+      "upper_object_code": "2259802",
+      "lower_object_code": "2259802"
+    },
+    {
+      "sub_type": "한화생명 바로연금보험 무배당(종신연금형 초기집중형 개인형)",
+      "upper_object_code": "2259802",
+      "lower_object_code": "2259852"
+    },
+    {
+      "sub_type": "한화생명 바로연금보험 무배당(종신연금형 일반형 신부부형)",
+      "upper_object_code": "2259803",
+      "lower_object_code": "2259803"
+    },
+    {
+      "sub_type": "한화생명 바로연금보험 무배당(종신연금형 일반형 신부부형)",
+      "upper_object_code": "2259803",
+      "lower_object_code": "2259853"
+    },
+    {
+      "sub_type": "한화생명 바로연금보험 무배당(상속연금형 종신플랜)",
+      "upper_object_code": "2259804",
+      "lower_object_code": "2259804"
+    },
+    {
+      "sub_type": "한화생명 바로연금보험 무배당(상속연금형 종신플랜)",
+      "upper_object_code": "2259804",
+      "lower_object_code": "2259854"
+    },
+    {
+      "sub_type": "한화생명 바로연금보험 무배당(상속연금형 환급플랜5년형)",
+      "upper_object_code": "2259805",
+      "lower_object_code": "2259805"
+    },
+    {
+      "sub_type": "한화생명 바로연금보험 무배당(상속연금형 환급플랜5년형)",
+      "upper_object_code": "2259805",
+      "lower_object_code": "2259855"
+    },
+    {
+      "sub_type": "한화생명 바로연금보험 무배당(상속연금형 환급플랜10년형)",
+      "upper_object_code": "2259806",
+      "lower_object_code": "2259806"
+    },
+    {
+      "sub_type": "한화생명 바로연금보험 무배당(상속연금형 환급플랜10년형)",
+      "upper_object_code": "2259806",
+      "lower_object_code": "2259856"
+    },
+    {
+      "sub_type": "한화생명 바로연금보험 무배당(상속연금형 환급플랜20년형)",
+      "upper_object_code": "2259807",
+      "lower_object_code": "2259807"
+    },
+    {
+      "sub_type": "한화생명 바로연금보험 무배당(상속연금형 환급플랜20년형)",
+      "upper_object_code": "2259807",
+      "lower_object_code": "2259857"
+    },
+    {
+      "sub_type": "한화생명 바로연금보험 무배당(확정기간연금형 5년형)",
+      "upper_object_code": "2259808",
+      "lower_object_code": "2259808"
+    },
+    {
+      "sub_type": "한화생명 바로연금보험 무배당(확정기간연금형 5년형)",
+      "upper_object_code": "2259808",
+      "lower_object_code": "2259858"
+    },
+    {
+      "sub_type": "한화생명 바로연금보험 무배당(확정기간연금형 10년형)",
+      "upper_object_code": "2259809",
+      "lower_object_code": "2259809"
+    },
+    {
+      "sub_type": "한화생명 바로연금보험 무배당(확정기간연금형 10년형)",
+      "upper_object_code": "2259809",
+      "lower_object_code": "2259859"
+    },
+    {
+      "sub_type": "한화생명 바로연금보험 무배당(확정기간연금형 15년형)",
+      "upper_object_code": "2259810",
+      "lower_object_code": "2259810"
+    },
+    {
+      "sub_type": "한화생명 바로연금보험 무배당(확정기간연금형 15년형)",
+      "upper_object_code": "2259810",
+      "lower_object_code": "2259860"
+    },
+    {
+      "sub_type": "한화생명 바로연금보험 무배당(확정기간연금형 20년형)",
+      "upper_object_code": "2259811",
+      "lower_object_code": "2259811"
+    },
+    {
+      "sub_type": "한화생명 바로연금보험 무배당(확정기간연금형 20년형)",
+      "upper_object_code": "2259811",
+      "lower_object_code": "2259861"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "table_type": "S00027",
+  "product_code": "1950013",
+  "run_id": "튼튼이_치아보험_갱신형_무배당",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "기본형",
+      "insurance_period": "5년만기",
+      "payment_period": "전기납"
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "10년만기",
+      "payment_period": "전기납"
+    }
+  ],
+  "discrepancies": [],
+  "row_count": 2
+}

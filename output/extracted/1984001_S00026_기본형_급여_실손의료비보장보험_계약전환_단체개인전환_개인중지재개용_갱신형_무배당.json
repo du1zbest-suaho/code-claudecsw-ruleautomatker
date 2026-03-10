@@ -1,0 +1,60 @@
+{
+  "table_type": "S00026",
+  "product_code": "1984001",
+  "run_id": "기본형_급여_실손의료비보장보험_계약전환_단체개인전환_개인중지재개용_갱신형_무배당",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "기본형",
+      "insurance_period": "종신",
+      "payment_period": "전기납",
+      "gender": "남녀공통",
+      "min_age": 5,
+      "max_age": 99
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "종신",
+      "payment_period": "전기납",
+      "gender": "남녀공통",
+      "min_age": 0,
+      "max_age": 99
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "종신",
+      "payment_period": "전기납",
+      "gender": "남녀공통",
+      "min_age": 0,
+      "max_age": 79
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "종신",
+      "payment_period": "전기납",
+      "gender": "남녀공통",
+      "min_age": 0,
+      "max_age": 29
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "종신",
+      "payment_period": "전기납",
+      "gender": "남녀공통",
+      "min_age": 5,
+      "max_age": 79
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "종신",
+      "payment_period": "전기납",
+      "gender": "남녀공통",
+      "min_age": 5,
+      "max_age": 29
+    }
+  ],
+  "discrepancies": [],
+  "row_count": 6
+}

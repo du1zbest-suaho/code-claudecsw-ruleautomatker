@@ -1,0 +1,19 @@
+{
+  "product_mappings": [
+    {
+      "sub_type": "한화생명 상생친구 보장보험 무배당 보장형 계약 1종(출생아가입형)",
+      "upper_object_code": "2126A04",
+      "lower_object_code": "21264"
+    },
+    {
+      "sub_type": "한화생명 상생친구 보장보험 무배당 보장형 계약 2종(태아가입형 23주 이내)",
+      "upper_object_code": "2126A05",
+      "lower_object_code": "21265"
+    },
+    {
+      "sub_type": "한화생명 상생친구 보장보험 무배당 보장형 계약 3종(태아가입형 23주 초과)",
+      "upper_object_code": "2126A06",
+      "lower_object_code": "21266"
+    }
+  ]
+}

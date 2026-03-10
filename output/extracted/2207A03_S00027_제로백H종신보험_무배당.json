@@ -1,0 +1,57 @@
+{
+  "table_type": "S00027",
+  "product_code": "2207A03",
+  "run_id": "제로백H종신보험_무배당",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
+      "insurance_period": "종신",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
+      "insurance_period": "종신",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
+      "insurance_period": "종신",
+      "payment_period": "일시납"
+    },
+    {
+      "sub_type": "2종(해약환급금 일부지급형Ⅱ)",
+      "insurance_period": "종신",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "2종(해약환급금 일부지급형Ⅱ)",
+      "insurance_period": "종신",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "2종(해약환급금 일부지급형Ⅱ)",
+      "insurance_period": "종신",
+      "payment_period": "일시납"
+    },
+    {
+      "sub_type": "2종(해약환급금 일부지급\n형Ⅱ)",
+      "insurance_period": "종신",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "2종(해약환급금 일부지급\n형Ⅱ)",
+      "insurance_period": "종신",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "2종(해약환급금 일부지급\n형Ⅱ)",
+      "insurance_period": "종신",
+      "payment_period": "일시납"
+    }
+  ],
+  "discrepancies": [],
+  "row_count": 9
+}

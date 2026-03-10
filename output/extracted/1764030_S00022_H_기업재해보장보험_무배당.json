@@ -1,10 +1,11 @@
 {
   "table_type": "S00022",
   "product_code": "1764030",
-  "run_id": "batch_rerun",
+  "run_id": "H_기업재해보장보험_무배당",
   "source": "extraction_rules",
   "confidence": "high",
   "image_used": false,
   "raw_data": [],
+  "discrepancies": [],
   "row_count": 0
 }

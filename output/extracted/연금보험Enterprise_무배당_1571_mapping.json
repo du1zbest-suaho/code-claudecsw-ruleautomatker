@@ -1,0 +1,144 @@
+{
+  "product_mappings": [
+    {
+      "sub_type": "한화생명 연금보험Enterprise(적립형 종신연금플러스형 개인형)(개별) 무배당",
+      "upper_object_code": "1571601",
+      "lower_object_code": "1571601"
+    },
+    {
+      "sub_type": "한화생명 연금보험Enterprise(적립형 종신연금플러스형 신부부형)(개별) 무배당",
+      "upper_object_code": "1571602",
+      "lower_object_code": "1571602"
+    },
+    {
+      "sub_type": "한화생명 연금보험Enterprise(적립형 확정기간연금플러스형 5년형)(개별) 무배당",
+      "upper_object_code": "1571603",
+      "lower_object_code": "1571603"
+    },
+    {
+      "sub_type": "한화생명 연금보험Enterprise(적립형 확정기간연금플러스형 10년형)(개별) 무배당",
+      "upper_object_code": "1571604",
+      "lower_object_code": "1571604"
+    },
+    {
+      "sub_type": "한화생명 연금보험Enterprise(적립형 확정기간연금플러스형 15년형)(개별) 무배당",
+      "upper_object_code": "1571605",
+      "lower_object_code": "1571605"
+    },
+    {
+      "sub_type": "한화생명 연금보험Enterprise(적립형 확정기간연금플러스형 20년형)(개별) 무배당",
+      "upper_object_code": "1571606",
+      "lower_object_code": "1571606"
+    },
+    {
+      "sub_type": "한화생명 연금보험Enterprise(적립형 상속연금플러스형)(개별) 무배당",
+      "upper_object_code": "1571607",
+      "lower_object_code": "1571607"
+    },
+    {
+      "sub_type": "한화생명 연금보험Enterprise(거치형 종신연금플러스형 개인형)(개별) 무배당",
+      "upper_object_code": "1571608",
+      "lower_object_code": "1571608"
+    },
+    {
+      "sub_type": "한화생명 연금보험Enterprise(거치형 종신연금플러스형 신부부형)(개별) 무배당",
+      "upper_object_code": "1571609",
+      "lower_object_code": "1571609"
+    },
+    {
+      "sub_type": "한화생명 연금보험Enterprise(거치형 확정기간연금플러스형 5년형)(개별) 무배당",
+      "upper_object_code": "1571610",
+      "lower_object_code": "1571610"
+    },
+    {
+      "sub_type": "한화생명 연금보험Enterprise(거치형 확정기간연금플러스형 10년형)(개별) 무배당",
+      "upper_object_code": "1571611",
+      "lower_object_code": "1571611"
+    },
+    {
+      "sub_type": "한화생명 연금보험Enterprise(거치형 확정기간연금플러스형 15년형)(개별) 무배당",
+      "upper_object_code": "1571612",
+      "lower_object_code": "1571612"
+    },
+    {
+      "sub_type": "한화생명 연금보험Enterprise(거치형 확정기간연금플러스형 20년형)(개별) 무배당",
+      "upper_object_code": "1571613",
+      "lower_object_code": "1571613"
+    },
+    {
+      "sub_type": "한화생명 연금보험Enterprise(거치형 상속연금플러스형)(개별) 무배당",
+      "upper_object_code": "1571614",
+      "lower_object_code": "1571614"
+    },
+    {
+      "sub_type": "한화생명 연금보험Enterprise(적립형 종신연금플러스형 개인형)(일괄) 무배당",
+      "upper_object_code": "1571615",
+      "lower_object_code": "1571615"
+    },
+    {
+      "sub_type": "한화생명 연금보험Enterprise(적립형 종신연금플러스형 신부부형)(일괄) 무배당",
+      "upper_object_code": "1571616",
+      "lower_object_code": "1571616"
+    },
+    {
+      "sub_type": "한화생명 연금보험Enterprise(적립형 확정기간연금플러스형 5년형)(일괄) 무배당",
+      "upper_object_code": "1571617",
+      "lower_object_code": "1571617"
+    },
+    {
+      "sub_type": "한화생명 연금보험Enterprise(적립형 확정기간연금플러스형 10년형)(일괄) 무배당",
+      "upper_object_code": "1571618",
+      "lower_object_code": "1571618"
+    },
+    {
+      "sub_type": "한화생명 연금보험Enterprise(적립형 확정기간연금플러스형 15년형)(일괄) 무배당",
+      "upper_object_code": "1571619",
+      "lower_object_code": "1571619"
+    },
+    {
+      "sub_type": "한화생명 연금보험Enterprise(적립형 확정기간연금플러스형 20년형)(일괄) 무배당",
+      "upper_object_code": "1571620",
+      "lower_object_code": "1571620"
+    },
+    {
+      "sub_type": "한화생명 연금보험Enterprise(적립형 상속연금플러스형)(일괄) 무배당",
+      "upper_object_code": "1571621",
+      "lower_object_code": "1571621"
+    },
+    {
+      "sub_type": "한화생명 연금보험Enterprise(거치형 종신연금플러스형 개인형)(일괄) 무배당",
+      "upper_object_code": "1571622",
+      "lower_object_code": "1571622"
+    },
+    {
+      "sub_type": "한화생명 연금보험Enterprise(거치형 종신연금플러스형 신부부형)(일괄) 무배당",
+      "upper_object_code": "1571623",
+      "lower_object_code": "1571623"
+    },
+    {
+      "sub_type": "한화생명 연금보험Enterprise(거치형 확정기간연금플러스형 5년형)(일괄) 무배당",
+      "upper_object_code": "1571624",
+      "lower_object_code": "1571624"
+    },
+    {
+      "sub_type": "한화생명 연금보험Enterprise(거치형 확정기간연금플러스형 10년형)(일괄) 무배당",
+      "upper_object_code": "1571625",
+      "lower_object_code": "1571625"
+    },
+    {
+      "sub_type": "한화생명 연금보험Enterprise(거치형 확정기간연금플러스형 15년형)(일괄) 무배당",
+      "upper_object_code": "1571626",
+      "lower_object_code": "1571626"
+    },
+    {
+      "sub_type": "한화생명 연금보험Enterprise(거치형 확정기간연금플러스형 20년형)(일괄) 무배당",
+      "upper_object_code": "1571627",
+      "lower_object_code": "1571627"
+    },
+    {
+      "sub_type": "한화생명 연금보험Enterprise(거치형 상속연금플러스형)(일괄) 무배당",
+      "upper_object_code": "1571628",
+      "lower_object_code": "1571628"
+    }
+  ]
+}

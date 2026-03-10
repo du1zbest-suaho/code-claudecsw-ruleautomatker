@@ -1,0 +1,39 @@
+{
+  "product_mappings": [
+    {
+      "sub_type": "한화생명 연금저축 미래로기업복지연금보험(1종 신계약체결용)종신연금형",
+      "upper_object_code": "1629088",
+      "lower_object_code": "162988"
+    },
+    {
+      "sub_type": "한화생명 연금저축 미래로기업복지연금보험(1종 신계약체결용)확정기간연금형(5년)",
+      "upper_object_code": "1629089",
+      "lower_object_code": "162989"
+    },
+    {
+      "sub_type": "한화생명 연금저축 미래로기업복지연금보험(1종 신계약체결용)확정기간연금형(10년)",
+      "upper_object_code": "1629090",
+      "lower_object_code": "162990"
+    },
+    {
+      "sub_type": "한화생명 연금저축 미래로기업복지연금보험(1종 신계약체결용)확정기간연금형(15년)",
+      "upper_object_code": "1629091",
+      "lower_object_code": "162991"
+    },
+    {
+      "sub_type": "한화생명 연금저축 미래로기업복지연금보험(1종 신계약체결용)확정기간연금형(20년)",
+      "upper_object_code": "1629092",
+      "lower_object_code": "162992"
+    },
+    {
+      "sub_type": "한화생명 연금저축 미래로기업복지연금보험(1종 신계약체결용)확정기간연금형(25년)",
+      "upper_object_code": "1629093",
+      "lower_object_code": "162993"
+    },
+    {
+      "sub_type": "한화생명 연금저축 미래로기업복지연금보험(1종 신계약체결용)확정기간연금형(30년)",
+      "upper_object_code": "1629094",
+      "lower_object_code": "162994"
+    }
+  ]
+}

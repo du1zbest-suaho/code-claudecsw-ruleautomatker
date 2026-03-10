@@ -1,0 +1,16 @@
+{
+  "table_type": "S00028",
+  "product_code": "2258A01",
+  "run_id": "시그니처_H통합건강보험_무배당_납입면제형",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "간편가입형(0년)",
+      "payment_cycle": "월납"
+    }
+  ],
+  "discrepancies": [],
+  "row_count": 1
+}

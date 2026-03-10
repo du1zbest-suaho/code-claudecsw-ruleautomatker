@@ -1,7 +1,7 @@
 {
   "table_type": "S00026",
   "product_code": "2205A02",
-  "run_id": "batch_rerun",
+  "run_id": "간편가입_시그니처H보장보험_무배당",
   "source": "extraction_rules",
   "confidence": "high",
   "image_used": false,
@@ -10,7 +10,7 @@
       "sub_type": "기본형",
       "insurance_period": "90세만기",
       "payment_period": "5년납",
-      "gender": "남녀공통",
+      "gender": "남자",
       "min_age": 15,
       "max_age": 80
     },
@@ -18,7 +18,7 @@
       "sub_type": "기본형",
       "insurance_period": "100세만기",
       "payment_period": "5년납",
-      "gender": "남녀공통",
+      "gender": "남자",
       "min_age": 15,
       "max_age": 80
     },
@@ -26,7 +26,7 @@
       "sub_type": "기본형",
       "insurance_period": "90세만기",
       "payment_period": "7년납",
-      "gender": "남녀공통",
+      "gender": "남자",
       "min_age": 15,
       "max_age": 80
     },
@@ -34,7 +34,7 @@
       "sub_type": "기본형",
       "insurance_period": "100세만기",
       "payment_period": "7년납",
-      "gender": "남녀공통",
+      "gender": "남자",
       "min_age": 15,
       "max_age": 80
     },
@@ -42,7 +42,7 @@
       "sub_type": "기본형",
       "insurance_period": "90세만기",
       "payment_period": "10년납",
-      "gender": "남녀공통",
+      "gender": "남자",
       "min_age": 15,
       "max_age": 79
     },
@@ -50,7 +50,7 @@
       "sub_type": "기본형",
       "insurance_period": "100세만기",
       "payment_period": "10년납",
-      "gender": "남녀공통",
+      "gender": "남자",
       "min_age": 15,
       "max_age": 80
     },
@@ -58,7 +58,7 @@
       "sub_type": "기본형",
       "insurance_period": "90세만기",
       "payment_period": "15년납",
-      "gender": "남녀공통",
+      "gender": "남자",
       "min_age": 15,
       "max_age": 74
     },
@@ -66,7 +66,7 @@
       "sub_type": "기본형",
       "insurance_period": "100세만기",
       "payment_period": "15년납",
-      "gender": "남녀공통",
+      "gender": "남자",
       "min_age": 15,
       "max_age": 80
     },
@@ -74,7 +74,7 @@
       "sub_type": "기본형",
       "insurance_period": "90세만기",
       "payment_period": "20년납",
-      "gender": "남녀공통",
+      "gender": "남자",
       "min_age": 15,
       "max_age": 69
     },
@@ -82,7 +82,7 @@
       "sub_type": "기본형",
       "insurance_period": "100세만기",
       "payment_period": "20년납",
-      "gender": "남녀공통",
+      "gender": "남자",
       "min_age": 15,
       "max_age": 79
     },
@@ -90,7 +90,7 @@
       "sub_type": "기본형",
       "insurance_period": "90세만기",
       "payment_period": "30년납",
-      "gender": "남녀공통",
+      "gender": "남자",
       "min_age": 15,
       "max_age": 59
     },
@@ -98,7 +98,7 @@
       "sub_type": "기본형",
       "insurance_period": "100세만기",
       "payment_period": "30년납",
-      "gender": "남녀공통",
+      "gender": "남자",
       "min_age": 15,
       "max_age": 69
     },
@@ -106,7 +106,7 @@
       "sub_type": "기본형",
       "insurance_period": "90세만기",
       "payment_period": "5년납",
-      "gender": "남녀공통",
+      "gender": "여자",
       "min_age": 15,
       "max_age": 80
     },
@@ -114,7 +114,7 @@
       "sub_type": "기본형",
       "insurance_period": "100세만기",
       "payment_period": "5년납",
-      "gender": "남녀공통",
+      "gender": "여자",
       "min_age": 15,
       "max_age": 80
     },
@@ -122,7 +122,7 @@
       "sub_type": "기본형",
       "insurance_period": "90세만기",
       "payment_period": "7년납",
-      "gender": "남녀공통",
+      "gender": "여자",
       "min_age": 15,
       "max_age": 80
     },
@@ -130,7 +130,7 @@
       "sub_type": "기본형",
       "insurance_period": "100세만기",
       "payment_period": "7년납",
-      "gender": "남녀공통",
+      "gender": "여자",
       "min_age": 15,
       "max_age": 80
     },
@@ -138,7 +138,7 @@
       "sub_type": "기본형",
       "insurance_period": "90세만기",
       "payment_period": "10년납",
-      "gender": "남녀공통",
+      "gender": "여자",
       "min_age": 15,
       "max_age": 79
     },
@@ -146,7 +146,7 @@
       "sub_type": "기본형",
       "insurance_period": "100세만기",
       "payment_period": "10년납",
-      "gender": "남녀공통",
+      "gender": "여자",
       "min_age": 15,
       "max_age": 80
     },
@@ -154,7 +154,7 @@
       "sub_type": "기본형",
       "insurance_period": "90세만기",
       "payment_period": "15년납",
-      "gender": "남녀공통",
+      "gender": "여자",
       "min_age": 15,
       "max_age": 74
     },
@@ -162,7 +162,7 @@
       "sub_type": "기본형",
       "insurance_period": "100세만기",
       "payment_period": "15년납",
-      "gender": "남녀공통",
+      "gender": "여자",
       "min_age": 15,
       "max_age": 80
     },
@@ -170,7 +170,7 @@
       "sub_type": "기본형",
       "insurance_period": "90세만기",
       "payment_period": "20년납",
-      "gender": "남녀공통",
+      "gender": "여자",
       "min_age": 15,
       "max_age": 69
     },
@@ -178,7 +178,7 @@
       "sub_type": "기본형",
       "insurance_period": "100세만기",
       "payment_period": "20년납",
-      "gender": "남녀공통",
+      "gender": "여자",
       "min_age": 15,
       "max_age": 79
     },
@@ -186,7 +186,7 @@
       "sub_type": "기본형",
       "insurance_period": "90세만기",
       "payment_period": "30년납",
-      "gender": "남녀공통",
+      "gender": "여자",
       "min_age": 15,
       "max_age": 59
     },
@@ -194,10 +194,11 @@
       "sub_type": "기본형",
       "insurance_period": "100세만기",
       "payment_period": "30년납",
-      "gender": "남녀공통",
+      "gender": "여자",
       "min_age": 15,
       "max_age": 69
     }
   ],
+  "discrepancies": [],
   "row_count": 24
 }

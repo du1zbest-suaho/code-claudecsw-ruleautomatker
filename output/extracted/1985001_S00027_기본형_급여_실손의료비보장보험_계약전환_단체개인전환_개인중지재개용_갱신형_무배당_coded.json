@@ -1,0 +1,35 @@
+{
+  "table_type": "S00027",
+  "product_code": "1985001",
+  "run_id": "기본형_급여_실손의료비보장보험_계약전환_단체개인전환_개인중지재개용_갱신형_무배당",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "기본형",
+      "insurance_period": "종신",
+      "payment_period": "전기납"
+    }
+  ],
+  "discrepancies": [],
+  "row_count": 1,
+  "coded_rows": [
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 999,
+      "PAYM_TERM_DVSN_CODE": "A",
+      "PAYM_TERM_INQY_CODE": "A999",
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "종신",
+        "payment_period": "전기납"
+      }
+    }
+  ],
+  "convert_errors": [],
+  "convert_error_count": 0
+}

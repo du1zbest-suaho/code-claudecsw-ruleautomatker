@@ -1,0 +1,20 @@
+{
+  "table_type": "S00028",
+  "product_code": "1982001",
+  "run_id": "기본형_급여_실손의료비보장보험_갱신형_무배당",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "기본형",
+      "payment_cycle": "월납"
+    },
+    {
+      "sub_type": "기본형",
+      "payment_cycle": "연납"
+    }
+  ],
+  "discrepancies": [],
+  "row_count": 2
+}

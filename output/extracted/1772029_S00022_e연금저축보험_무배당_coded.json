@@ -1,7 +1,7 @@
 {
   "table_type": "S00022",
   "product_code": "1772029",
-  "run_id": "batch_rerun",
+  "run_id": "e연금저축보험_무배당",
   "source": "extraction_rules",
   "confidence": "high",
   "image_used": false,
@@ -12,6 +12,7 @@
       "max_age": 80
     }
   ],
+  "discrepancies": [],
   "row_count": 1,
   "coded_rows": [
     {
@@ -25,5 +26,6 @@
       }
     }
   ],
+  "convert_errors": [],
   "convert_error_count": 0
 }
