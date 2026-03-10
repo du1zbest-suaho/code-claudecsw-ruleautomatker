@@ -348,7 +348,8 @@ class ExtractionRules:
 
         # 희소 테이블 보완: 일부 셀이 '-'인 행(e암보험 등) 처리
         # 이미 추출된 납입기간 외 누락된 납입기간 행을 line-by-line으로 추출
-        if insurance_periods:
+        # 주의: 메인 스캔 결과가 없을 때는 sparse를 실행하지 않음 (오탐 방지)
+        if insurance_periods and results:
             captured_payments = {r["payment_period"] for r in results}
             sparse = self._parse_age_table_sparse_multiline(section, insurance_periods, sub_types)
             for row in sparse:
@@ -614,6 +615,18 @@ class ExtractionRules:
         else:
             section = self._extract_age_section(text) or text
 
+        # "나. 보험료 납입기간 - IP: pp1, pp2,..." 형식에서 IP→첫번째 납입기간 매핑 추출
+        # Wealth단체 등 납입기간별 가입나이가 동일한 경우 활용
+        ip_pp_map: Dict[str, str] = {}
+        pp_sec_m = re.search(r"보험료\s*납입기간[^\n]*\n((?:[ \t]*-[^\n]+\n?)+)", text)
+        if pp_sec_m:
+            for line in pp_sec_m.group(1).splitlines():
+                lm = re.match(r"\s*-\s*(\d+년만기|\d+세만기):\s*(.+)", line)
+                if lm:
+                    ip_key = self._normalize_period(lm.group(1))
+                    pps = [p.strip() for p in lm.group(2).split(",")]
+                    ip_pp_map[ip_key] = pps[0] if pps else "전기납"
+
         # 나이범위 패턴 (첫 숫자 뒤 세 생략 허용, 공백 허용)
         age_range_pat = r"만?\s*(\d+)\s*세?\s*[~～]\s*(\d+)\s*세"
 
@@ -637,13 +650,32 @@ class ExtractionRules:
             after_periods = list(re.finditer(period_pat, wide_after))
             period_m = before_periods[-1] if before_periods else (after_periods[0] if after_periods else None)
 
+            period = self._normalize_period(period_m.group(0)) if period_m else ""
+
             # 납입기간: tight_before LAST → tight_after FIRST 순서로 탐색
             before_payments = list(re.finditer(payment_pat, tight_before))
-            after_payments = list(re.finditer(payment_pat, tight_after))
-            payment_m = before_payments[-1] if before_payments else (after_payments[0] if after_payments else None)
+            if not before_payments:
+                after_payments = list(re.finditer(payment_pat, tight_after))
+                # tight_after에서 현재 IP와 다른 IP가 납입기간보다 먼저 나오면
+                # 그 납입기간은 다른 IP 행의 것 → ip_pp_map 로 대체
+                if after_payments:
+                    first_pay_pos = after_payments[0].start()
+                    after_ips = list(re.finditer(period_pat, tight_after[:first_pay_pos]))
+                    if after_ips:
+                        first_after_ip = self._normalize_period(after_ips[0].group(0))
+                        if first_after_ip != period:
+                            after_payments = []  # 다른 IP 행의 납입기간 → 무시
+                payment_m = after_payments[0] if after_payments else None
+            else:
+                payment_m = before_payments[-1]
 
-            period = self._normalize_period(period_m.group(0)) if period_m else ""
-            payment = payment_m.group(0) if payment_m else "전기납"
+            # 납입기간 최종 결정: tight_before/after → ip_pp_map → 전기납
+            if payment_m:
+                payment = payment_m.group(0)
+            elif period and period in ip_pp_map:
+                payment = ip_pp_map[period]
+            else:
+                payment = "전기납"
 
             # 기간 정보 없는 단순 나이범위는 스킵 (다른 메서드에서 처리)
             if not period:
@@ -808,11 +840,14 @@ class ExtractionRules:
                 return self._apply_exception(exc["extract_payment_cycle"], text)
 
         results = []
-        cycles_ordered = ["월납", "3월납", "6월납", "년납", "연납", "일시납"]
+        cycles_ordered = ["월납", "3개월납", "6개월납", "3월납", "6월납", "년납", "연납", "일시납"]
         sub_types = self._find_sub_types_in_section(text) or ["기본형"]
 
-        # "납입주기: 월납, 3월납" 패턴
-        pattern = r"납입(?:주기|방법)[:\s]+((?:월납|3월납|6월납|년납|연납|일시납)(?:[,、\s]+(?:월납|3월납|6월납|년납|연납|일시납))*)"
+        # PDF 줄바꿈 아티팩트 수정: "3\n개월납" → "3개월납"
+        text = re.sub(r'(\d)\n(개월납)', r'\1\2', text)
+
+        # "납입주기: 월납, 3개월납" 패턴
+        pattern = r"납입(?:주기|방법)[:\s]+((?:월납|3개월납|6개월납|3월납|6월납|년납|연납|일시납)(?:[,、\s]+(?:월납|3개월납|6개월납|3월납|6월납|년납|연납|일시납))*)"
         m = re.search(pattern, text)
         found_cycles = []
         if m:
@@ -970,18 +1005,38 @@ class ExtractionRules:
     def _extract_all_insurance_periods(self, text: str) -> List[str]:
         """텍스트에서 보험기간 목록 추출"""
         periods = []
-        patterns = [r"\d+세만기", r"\d+년만기", r"종신"]
-        for pattern in patterns:
+        # 순서: 구체적 패턴 우선
+        for pattern in [r"\d+세\s*만기", r"\d+년\s*만기"]:
             for m in re.finditer(pattern, text):
                 val = self._normalize_period(m.group(0))
                 if val not in periods:
                     periods.append(val)
+
+        # 종신: 갱신형 종료나이/종료일 컨텍스트에서 나온 건 제외
+        for m in re.finditer(r"종신(?!갱신)", text):
+            pos = m.start()
+            context_before = text[max(0, pos - 200):pos]
+            # "재가입 종료 나이" 또는 "종료일은" 근처의 종신은 보험기간이 아님
+            if re.search(r"재가입\s*종료\s*나이|종료일은", context_before):
+                continue
+            if "종신" not in periods:
+                periods.append("종신")
+
+        # 보험기간 테이블 내 'N년' 단순 기재 형식 (갱신형 실손)
+        # "N년\n숫자세~" 패턴: 갱신형 테이블에서 보험기간 셀이 단독 N년으로 기재
+        if not periods:
+            for m in re.finditer(r"(\d+)년\s*\n\d+세\s*~", text):
+                n = int(m.group(1))
+                val = f"{n}년만기"
+                if val not in periods:
+                    periods.append(val)
+
         return periods
 
     def _extract_all_payment_periods(self, text: str) -> List[str]:
         """텍스트에서 납입기간 목록 추출"""
         periods = []
-        patterns = [r"\d+년납", r"전기납", r"일시납"]
+        patterns = [r"\d+년납", r"\d+세납", r"전기납", r"종신납", r"일시납"]
         for pattern in patterns:
             for m in re.finditer(pattern, text):
                 val = m.group(0)

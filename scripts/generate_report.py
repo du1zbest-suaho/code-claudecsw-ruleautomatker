@@ -26,7 +26,8 @@ if hasattr(sys.stdout, "reconfigure"):
 import pandas as pd
 
 MAPPING_PATH = "data/existing/판매중_상품구성_사업방법서_매핑.xlsx"
-EXTRACT_DIR = "output/extracted"
+EXTRACT_DIR  = "output/extracted"
+STRUCT_PATH  = "data/structural_issues.xlsx"
 
 GT_FILES = {
     "S00026": "data/existing/판매중_가입나이정보.xlsx",
@@ -41,6 +42,33 @@ TABLE_LABELS = {
     "S00028": "납입주기",
     "S00022": "보기개시나이",
 }
+
+
+# ─── 구조적 문제 로드 ─────────────────────────────────────────────────────────
+
+_struct_cache: dict | None = None
+
+def load_structural_issues() -> dict[int, list[dict]]:
+    """DTCD → [{문제유형, 상태, 문제설명, 답변}] 매핑 반환"""
+    global _struct_cache
+    if _struct_cache is not None:
+        return _struct_cache
+    _struct_cache = {}
+    if not os.path.exists(STRUCT_PATH):
+        return _struct_cache
+    df = pd.read_excel(STRUCT_PATH)
+    for _, row in df.iterrows():
+        dtcd = row.get("ISRN_KIND_DTCD")
+        if pd.isna(dtcd):
+            continue
+        dtcd = int(dtcd)
+        _struct_cache.setdefault(dtcd, []).append({
+            "문제유형":     str(row.get("문제유형", "") or ""),
+            "상태":        str(row.get("상태", "") or ""),
+            "문제설명":    str(row.get("문제설명", "") or ""),
+            "답변/해결방법": str(row.get("답변/해결방법", "") or ""),
+        })
+    return _struct_cache
 
 
 # ─── GT 로드 ──────────────────────────────────────────────────────────────────
@@ -127,6 +155,70 @@ def get_ex_row_count(coded_files: list) -> int:
     return total
 
 
+# ─── S00027 키 비교 (ISRN_TERM_INQY_CODE × PAYM_TERM_INQY_CODE) ─────────────
+
+def _gt_keys_s27(dtcd: int) -> set:
+    df = load_gt("S00027")
+    if df.empty:
+        return set()
+    gf = df[df["ISRN_KIND_DTCD"] == dtcd]
+    return set(zip(gf["ISRN_TERM_INQY_CODE"].fillna(""), gf["PAYM_TERM_INQY_CODE"].fillna("")))
+
+
+def _ex_keys_s27(coded_files: list) -> set:
+    keys = set()
+    for fname in coded_files:
+        with open(fname, encoding="utf-8") as f:
+            coded = json.load(f)
+        for r in coded.get("coded_rows", []):
+            keys.add((r.get("ISRN_TERM_INQY_CODE") or "", r.get("PAYM_TERM_INQY_CODE") or ""))
+    return keys
+
+
+# ─── S00028 키 비교 (PAYM_CYCL_VAL × PAYM_CYCL_DVSN_CODE) ──────────────────
+
+def _safe_cycl_val(v):
+    return int(v) if v is not None else -999
+
+
+def _gt_keys_s28(dtcd: int) -> set:
+    df = load_gt("S00028")
+    if df.empty:
+        return set()
+    gf = df[df["ISRN_KIND_DTCD"] == dtcd]
+    return set(zip(gf["PAYM_CYCL_VAL"].fillna(-999).astype(int), gf["PAYM_CYCL_DVSN_CODE"].fillna("")))
+
+
+def _ex_keys_s28(coded_files: list) -> set:
+    keys = set()
+    for fname in coded_files:
+        with open(fname, encoding="utf-8") as f:
+            coded = json.load(f)
+        for r in coded.get("coded_rows", []):
+            keys.add((_safe_cycl_val(r.get("PAYM_CYCL_VAL")), r.get("PAYM_CYCL_DVSN_CODE") or ""))
+    return keys
+
+
+# ─── S00022 키 비교 (FPIN_STRT_AG_INQY_CODE × SPIN_STRT_AG_INQY_CODE) ──────
+
+def _gt_keys_s22(dtcd: int) -> set:
+    df = load_gt("S00022")
+    if df.empty:
+        return set()
+    gf = df[df["ISRN_KIND_DTCD"] == dtcd]
+    return set(zip(gf["FPIN_STRT_AG_INQY_CODE"].fillna(""), gf["SPIN_STRT_AG_INQY_CODE"].fillna("")))
+
+
+def _ex_keys_s22(coded_files: list) -> set:
+    keys = set()
+    for fname in coded_files:
+        with open(fname, encoding="utf-8") as f:
+            coded = json.load(f)
+        for r in coded.get("coded_rows", []):
+            keys.add((r.get("FPIN_STRT_AG_INQY_CODE") or "", r.get("SPIN_STRT_AG_INQY_CODE") or ""))
+    return keys
+
+
 # ─── 메인 리포트 생성 ─────────────────────────────────────────────────────────
 
 def build_report() -> pd.DataFrame:
@@ -192,23 +284,32 @@ def build_report() -> pd.DataFrame:
                 if table_type == "S00026":
                     gt_keys = _gt_keys_s26(dtcd)
                     ex_keys = _ex_keys_s26(coded_files) if coded_files else set()
-                    match_cnt = len(gt_keys & ex_keys)
-                    miss_cnt = len(gt_keys - ex_keys)
-                    extra_cnt = len(ex_keys - gt_keys)
+                elif table_type == "S00027":
+                    gt_keys = _gt_keys_s27(dtcd)
+                    ex_keys = _ex_keys_s27(coded_files) if coded_files else set()
+                elif table_type == "S00028":
+                    gt_keys = _gt_keys_s28(dtcd)
+                    ex_keys = _ex_keys_s28(coded_files) if coded_files else set()
+                else:  # S00022
+                    gt_keys = _gt_keys_s22(dtcd)
+                    ex_keys = _ex_keys_s22(coded_files) if coded_files else set()
+
+                match_cnt = len(gt_keys & ex_keys)
+                miss_cnt = len(gt_keys - ex_keys)
+                extra_cnt = len(ex_keys - gt_keys)
+
+                if table_type == "S00026":
                     if gt_keys:
                         pass_fail = "PASS" if miss_cnt == 0 else "FAIL"
                     else:
-                        pass_fail = "-" if ex_cnt == 0 else "신규"
+                        pass_fail = "-" if not ex_keys else "신규"
                 else:
-                    # S00027/S00028/S00022: 행 수 비교
-                    match_cnt = min(gt_cnt, ex_cnt)
-                    miss_cnt = max(0, gt_cnt - ex_cnt)
-                    extra_cnt = max(0, ex_cnt - gt_cnt)
-                    if gt_cnt == 0 and ex_cnt == 0:
+                    # S00027/S00028/S00022: 키 기반
+                    if not gt_keys and not ex_keys:
                         pass_fail = "-"
-                    elif gt_cnt == 0:
+                    elif not gt_keys:
                         pass_fail = "신규"
-                    elif ex_cnt == 0:
+                    elif not ex_keys:
                         pass_fail = "미추출"
                     elif miss_cnt == 0:
                         pass_fail = "일치"
@@ -216,12 +317,37 @@ def build_report() -> pd.DataFrame:
                         pass_fail = "불일치"
 
                 lbl = TABLE_LABELS[table_type]
-                row_data[f"{lbl}_추출건수"] = ex_cnt
-                row_data[f"{lbl}_GT건수"] = gt_cnt
-                row_data[f"{lbl}_일치건수"] = match_cnt
-                row_data[f"{lbl}_미일치건수"] = miss_cnt
-                row_data[f"{lbl}_추가건수"] = extra_cnt
+                row_data[f"{lbl}_추출키수"] = len(ex_keys)
+                row_data[f"{lbl}_GT키수"] = len(gt_keys)
+                row_data[f"{lbl}_일치키수"] = match_cnt
+                row_data[f"{lbl}_미일치키수"] = miss_cnt
+                row_data[f"{lbl}_추가키수"] = extra_cnt
                 row_data[f"{lbl}_결과"] = pass_fail
+
+            # ── 구조적 문제 컬럼 추가 ─────────────────────────────────────────
+            struct_map = load_structural_issues()
+            issues = struct_map.get(dtcd, [])
+            if issues:
+                types    = ", ".join(dict.fromkeys(i["문제유형"] for i in issues))  # 중복 제거
+                any_open = any(i["상태"] != "해결됨" for i in issues)
+                status   = "미해결" if any_open else "해결됨"
+                # 미해결 문제 설명 (줄바꿈으로 연결)
+                descs = [f"[{i['문제유형']}] {i['문제설명']}"
+                         for i in issues if i["상태"] != "해결됨"]
+                desc_text = "\n".join(descs)
+            else:
+                types, status, desc_text = "", "", ""
+
+            row_data["구조적_문제유형"] = types
+            row_data["구조적_상태"]    = status
+            row_data["구조적_문제설명"] = desc_text
+
+            # ── 진행상태: 4개 테이블 모두 완료 기준 ──────────────────────────
+            ok_s26 = row_data.get("가입가능나이_결과") == "PASS"
+            ok_s27 = row_data.get("보기납기_결과")     in ("일치", "-")
+            ok_s28 = row_data.get("납입주기_결과")     in ("일치", "-")
+            ok_s22 = row_data.get("보기개시나이_결과") in ("일치", "-")
+            row_data["진행상태"] = "완료" if (ok_s26 and ok_s27 and ok_s28 and ok_s22) else "진행중"
 
             rows.append(row_data)
 
@@ -245,6 +371,10 @@ def save_report(df: pd.DataFrame, output_path: str):
             "ISRN_KIND_DTCD": 14,
             "ISRN_KIND_ITCD_목록": 20,
             "보험종목명": 50,
+            "구조적_문제유형": 16,
+            "구조적_상태":    12,
+            "구조적_문제설명": 55,
+            "진행상태":       12,
         }
         default_w = 12
 
@@ -272,22 +402,52 @@ def save_report(df: pd.DataFrame, output_path: str):
             "신규": "BDD7EE",   # 연파랑
             "-": "F2F2F2",      # 회색
         }
-        result_cols = [i + 1 for i, c in enumerate(df.columns) if c.endswith("_결과")]
+        result_cols   = [i + 1 for i, c in enumerate(df.columns) if c.endswith("_결과")]
+        status_col    = next((i + 1 for i, c in enumerate(df.columns) if c == "진행상태"), None)
+        color_map["완료"]   = "C6EFCE"   # 연두
+        color_map["진행중"] = "FFEB9C"   # 노랑
+        struct_cols   = {
+            "구조적_문제유형": [i + 1 for i, c in enumerate(df.columns) if c == "구조적_문제유형"],
+            "구조적_상태":    [i + 1 for i, c in enumerate(df.columns) if c == "구조적_상태"],
+            "구조적_문제설명": [i + 1 for i, c in enumerate(df.columns) if c == "구조적_문제설명"],
+        }
+        struct_type_col  = struct_cols["구조적_문제유형"][0]  if struct_cols["구조적_문제유형"]  else None
+        struct_stat_col  = struct_cols["구조적_상태"][0]     if struct_cols["구조적_상태"]     else None
+        struct_desc_col  = struct_cols["구조적_문제설명"][0] if struct_cols["구조적_문제설명"] else None
+        struct_col_idxs  = {c for lst in struct_cols.values() for c in lst}
+
+        # 구조적 문제 색상
+        struct_unresolved_fill = PatternFill(start_color="FFC7CE", end_color="FFC7CE", fill_type="solid")
+        struct_resolved_fill   = PatternFill(start_color="C6EFCE", end_color="C6EFCE", fill_type="solid")
 
         thin = Side(style="thin", color="CCCCCC")
         border = Border(left=thin, right=thin, top=thin, bottom=thin)
 
         for row_idx in range(2, len(df) + 2):
+            # 구조적 상태값 미리 확인
+            struct_status = ""
+            if struct_stat_col:
+                struct_status = str(ws.cell(row=row_idx, column=struct_stat_col).value or "")
+
             for col_idx in range(1, len(df.columns) + 1):
                 cell = ws.cell(row=row_idx, column=col_idx)
-                cell.alignment = Alignment(horizontal="center", vertical="center")
+                is_struct = col_idx in struct_col_idxs
+                cell.alignment = Alignment(
+                    horizontal="center" if not is_struct else ("center" if col_idx != struct_desc_col else "left"),
+                    vertical="center",
+                    wrap_text=is_struct,
+                )
                 cell.border = border
 
-                if col_idx in result_cols:
+                if col_idx in result_cols or col_idx == status_col:
                     val = str(cell.value or "")
                     color = color_map.get(val, "FFFFFF")
                     cell.fill = PatternFill(start_color=color, end_color=color, fill_type="solid")
                     cell.font = Font(bold=True, size=10)
+                elif is_struct and struct_status:
+                    cell.fill = struct_resolved_fill if struct_status == "해결됨" else struct_unresolved_fill
+                    if col_idx == struct_stat_col:
+                        cell.font = Font(bold=True, size=10)
 
         # 행 번갈아 배경
         alt_fill = PatternFill(start_color="F5F5F5", end_color="F5F5F5", fill_type="solid")
@@ -301,6 +461,93 @@ def save_report(df: pd.DataFrame, output_path: str):
 
         # 틀 고정 (헤더)
         ws.freeze_panes = "A2"
+
+        # ─── 요약 시트 ───────────────────────────────────────────────────────
+        ws2 = writer.book.create_sheet("요약")
+
+        title_fill = PatternFill(start_color="1F4E79", end_color="1F4E79", fill_type="solid")
+        title_font = Font(color="FFFFFF", bold=True, size=12)
+        header_fill = PatternFill(start_color="2E75B6", end_color="2E75B6", fill_type="solid")
+        header_font = Font(color="FFFFFF", bold=True, size=10)
+        label_fill = PatternFill(start_color="D6E4F0", end_color="D6E4F0", fill_type="solid")
+        label_font = Font(bold=True, size=10)
+        value_font = Font(size=10)
+        center = Alignment(horizontal="center", vertical="center")
+
+        thin = Side(style="thin", color="CCCCCC")
+        border = Border(left=thin, right=thin, top=thin, bottom=thin)
+
+        # 컬럼 너비
+        ws2.column_dimensions["A"].width = 20   # 테이블
+        ws2.column_dimensions["B"].width = 12   # 대상건수
+        ws2.column_dimensions["C"].width = 14   # PASS/일치
+        ws2.column_dimensions["D"].width = 14   # FAIL/불일치
+        ws2.column_dimensions["E"].width = 12   # 미추출
+        ws2.column_dimensions["F"].width = 12   # 신규/기타
+
+        def set_cell(row, col, value, fill=None, font=None, align=None, brd=None):
+            c = ws2.cell(row=row, column=col, value=value)
+            if fill:
+                c.fill = fill
+            if font:
+                c.font = font
+            if align:
+                c.alignment = align
+            if brd:
+                c.border = brd
+            return c
+
+        # 타이틀 (A1:F1)
+        ws2.merge_cells("A1:F1")
+        set_cell(1, 1, f"작업현황 요약  ({datetime.now().strftime('%Y-%m-%d %H:%M')})",
+                 fill=title_fill, font=title_font, align=center)
+        ws2.row_dimensions[1].height = 30
+
+        # 헤더 행 (행3)
+        col_headers = ["테이블", "대상건수", "PASS/일치", "FAIL/불일치", "미추출", "신규/기타"]
+        for ci, h in enumerate(col_headers, 1):
+            set_cell(3, ci, h, fill=header_fill, font=header_font, align=center, brd=border)
+        ws2.row_dimensions[3].height = 22
+
+        # 테이블별 데이터 (행4~7)
+        # (table_code, display_label, pass/일치 statuses, fail/불일치 statuses, 미추출 statuses, 기타 statuses)
+        table_meta = [
+            ("S00026", "S00026 가입가능나이", ["PASS"],        ["FAIL"],    [],         []),
+            ("S00027", "S00027 보기납기",     ["일치"],        ["불일치"], ["미추출"], ["신규", "-"]),
+            ("S00028", "S00028 납입주기",     ["일치"],        ["불일치"], ["미추출"], ["신규", "-"]),
+            ("S00022", "S00022 보기개시나이", ["일치", "-"],   ["불일치"], ["미추출"], ["신규"]),
+        ]
+
+        pass_fill  = PatternFill(start_color="C6EFCE", end_color="C6EFCE", fill_type="solid")
+        fail_fill  = PatternFill(start_color="FFC7CE", end_color="FFC7CE", fill_type="solid")
+        miss_fill  = PatternFill(start_color="FFEB9C", end_color="FFEB9C", fill_type="solid")
+        new_fill   = PatternFill(start_color="BDD7EE", end_color="BDD7EE", fill_type="solid")
+
+        total = len(df)
+        r = 4
+        for table_code, lbl, pass_st, fail_st, miss_st, other_st in table_meta:
+            col_name = f"{lbl.split()[1]}_결과"  # e.g. "가입가능나이_결과"
+            counts = df[col_name].value_counts() if col_name in df.columns else pd.Series(dtype=int)
+
+            n_pass  = sum(int(counts.get(s, 0)) for s in pass_st)
+            n_fail  = sum(int(counts.get(s, 0)) for s in fail_st)
+            n_miss  = sum(int(counts.get(s, 0)) for s in miss_st)
+            n_other = sum(int(counts.get(s, 0)) for s in other_st)
+            n_total = n_pass + n_fail + n_miss + n_other
+
+            def fmt(n):
+                pct = f"{n / n_total * 100:.1f}%" if n_total else "-"
+                return f"{n}\n({pct})"
+
+            wrap = Alignment(horizontal="center", vertical="center", wrap_text=True)
+            set_cell(r, 1, lbl,          fill=label_fill, font=label_font,  align=center, brd=border)
+            set_cell(r, 2, n_total,      fill=label_fill, font=label_font,  align=center, brd=border)
+            set_cell(r, 3, fmt(n_pass),  fill=pass_fill,  font=value_font,  align=wrap,   brd=border)
+            set_cell(r, 4, fmt(n_fail),  fill=fail_fill,  font=value_font,  align=wrap,   brd=border)
+            set_cell(r, 5, fmt(n_miss),  fill=miss_fill,  font=value_font,  align=wrap,   brd=border)
+            set_cell(r, 6, fmt(n_other), fill=new_fill,   font=value_font,  align=wrap,   brd=border)
+            ws2.row_dimensions[r].height = 32
+            r += 1
 
     print(f"리포트 저장 완료: {output_path} ({len(df)}행)")
 

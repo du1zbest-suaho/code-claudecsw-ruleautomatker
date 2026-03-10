@@ -116,7 +116,9 @@ def convert_payment_period(raw: str, insurance_period_code: dict = None) -> dict
 PAYMENT_CYCLE_MAP = {
     "월납": {"PAYM_CYCL_VAL": 1, "PAYM_CYCL_DVSN_CODE": "M", "PAYM_CYCL_INQY_CODE": "M1"},
     "3월납": {"PAYM_CYCL_VAL": 3, "PAYM_CYCL_DVSN_CODE": "M", "PAYM_CYCL_INQY_CODE": "M3"},
+    "3개월납": {"PAYM_CYCL_VAL": 3, "PAYM_CYCL_DVSN_CODE": "M", "PAYM_CYCL_INQY_CODE": "M3"},
     "6월납": {"PAYM_CYCL_VAL": 6, "PAYM_CYCL_DVSN_CODE": "M", "PAYM_CYCL_INQY_CODE": "M6"},
+    "6개월납": {"PAYM_CYCL_VAL": 6, "PAYM_CYCL_DVSN_CODE": "M", "PAYM_CYCL_INQY_CODE": "M6"},
     "년납": {"PAYM_CYCL_VAL": 12, "PAYM_CYCL_DVSN_CODE": "M", "PAYM_CYCL_INQY_CODE": "M12"},
     "연납": {"PAYM_CYCL_VAL": 12, "PAYM_CYCL_DVSN_CODE": "M", "PAYM_CYCL_INQY_CODE": "M12"},
     "일시납": {"PAYM_CYCL_VAL": 0, "PAYM_CYCL_DVSN_CODE": "M", "PAYM_CYCL_INQY_CODE": "M0"},
