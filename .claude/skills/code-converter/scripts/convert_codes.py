@@ -259,16 +259,62 @@ def convert_s00028(raw_rows: list) -> list:
 
 
 def convert_s00022(raw_rows: list) -> list:
-    """S00022 (보기개시나이) 코드 변환"""
+    """S00022 (보기개시나이) 코드 변환
+    X-type: min_age~max_age 범위를 연도별 개별 행으로 확장 (SPIN_STRT_DVSN_CODE='X')
+    N-type: n_years 필드 존재 시 단일 행 생성 (SPIN_STRT_DVSN_CODE='N')
+    """
     coded = []
+    seen_spin = set()
     for row in raw_rows:
-        coded_row = {
-            "MIN_AG": row.get("min_age"),
-            "MAX_AG": row.get("max_age"),
-            "sub_type": row.get("sub_type"),
-            "_raw": row
-        }
-        coded.append(coded_row)
+        sub_type = row.get("sub_type")
+        n_years = row.get("n_years")
+
+        if n_years is not None:
+            # N-type: 년 기반 보기개시 (스마트연금전환특약 등)
+            try:
+                n_years = int(n_years)
+            except (ValueError, TypeError):
+                continue
+            spin_code = f"N{n_years}"
+            if spin_code in seen_spin:
+                continue
+            seen_spin.add(spin_code)
+            coded.append({
+                "FPIN_STRT_AG_INQY_CODE": "0",
+                "FPIN_STRT_DVSN_CODE": "0",
+                "FPIN_STRT_DVSN_VAL": 0,
+                "SPIN_STRT_AG_INQY_CODE": spin_code,
+                "SPIN_STRT_DVSN_CODE": "N",
+                "SPIN_STRT_DVSN_VAL": n_years,
+                "sub_type": sub_type,
+                "_raw": row
+            })
+        else:
+            # X-type: 나이 범위 확장
+            min_age = row.get("min_age")
+            max_age = row.get("max_age")
+            if min_age is None or max_age is None:
+                continue
+            try:
+                min_age = int(min_age)
+                max_age = int(max_age)
+            except (ValueError, TypeError):
+                continue
+            for age in range(min_age, max_age + 1):
+                spin_code = f"X{age}"
+                if spin_code in seen_spin:
+                    continue
+                seen_spin.add(spin_code)
+                coded.append({
+                    "FPIN_STRT_AG_INQY_CODE": "0",
+                    "FPIN_STRT_DVSN_CODE": "0",
+                    "FPIN_STRT_DVSN_VAL": 0,
+                    "SPIN_STRT_AG_INQY_CODE": spin_code,
+                    "SPIN_STRT_DVSN_CODE": "X",
+                    "SPIN_STRT_DVSN_VAL": age,
+                    "sub_type": sub_type,
+                    "_raw": row
+                })
     return coded
 
 

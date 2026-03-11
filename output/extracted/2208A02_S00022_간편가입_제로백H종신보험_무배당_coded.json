@@ -1,0 +1,67 @@
+{
+  "table_type": "S00022",
+  "product_code": "2208A02",
+  "run_id": "간편가입_제로백H종신보험_무배당",
+  "source": "extraction_rules",
+  "confidence": "high",
+  "image_used": false,
+  "raw_data": [
+    {
+      "sub_type": "기본형",
+      "n_years": 3
+    },
+    {
+      "sub_type": "기본형",
+      "n_years": 6
+    },
+    {
+      "sub_type": "기본형",
+      "n_years": 8
+    }
+  ],
+  "discrepancies": [],
+  "row_count": 3,
+  "coded_rows": [
+    {
+      "FPIN_STRT_AG_INQY_CODE": "0",
+      "FPIN_STRT_DVSN_CODE": "0",
+      "FPIN_STRT_DVSN_VAL": 0,
+      "SPIN_STRT_AG_INQY_CODE": "N3",
+      "SPIN_STRT_DVSN_CODE": "N",
+      "SPIN_STRT_DVSN_VAL": 3,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "n_years": 3
+      }
+    },
+    {
+      "FPIN_STRT_AG_INQY_CODE": "0",
+      "FPIN_STRT_DVSN_CODE": "0",
+      "FPIN_STRT_DVSN_VAL": 0,
+      "SPIN_STRT_AG_INQY_CODE": "N6",
+      "SPIN_STRT_DVSN_CODE": "N",
+      "SPIN_STRT_DVSN_VAL": 6,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "n_years": 6
+      }
+    },
+    {
+      "FPIN_STRT_AG_INQY_CODE": "0",
+      "FPIN_STRT_DVSN_CODE": "0",
+      "FPIN_STRT_DVSN_VAL": 0,
+      "SPIN_STRT_AG_INQY_CODE": "N8",
+      "SPIN_STRT_DVSN_CODE": "N",
+      "SPIN_STRT_DVSN_VAL": 8,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "n_years": 8
+      }
+    }
+  ],
+  "convert_errors": [],
+  "convert_error_count": 0
+}

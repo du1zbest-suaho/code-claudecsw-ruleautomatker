@@ -5,7 +5,12 @@
   "source": "extraction_rules",
   "confidence": "high",
   "image_used": false,
-  "raw_data": [],
+  "raw_data": [
+    {
+      "sub_type": "기본형",
+      "n_years": 2
+    }
+  ],
   "discrepancies": [],
-  "row_count": 0
+  "row_count": 1
 }

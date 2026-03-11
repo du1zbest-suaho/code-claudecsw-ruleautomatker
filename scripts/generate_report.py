@@ -201,12 +201,16 @@ def _ex_keys_s28(coded_files: list) -> set:
 
 # ─── S00022 키 비교 (FPIN_STRT_AG_INQY_CODE × SPIN_STRT_AG_INQY_CODE) ──────
 
-def _gt_keys_s22(dtcd: int) -> set:
+def _gt_keys_s22(dtcd: int, itcds: list = None) -> set:
     df = load_gt("S00022")
     if df.empty:
         return set()
     gf = df[df["ISRN_KIND_DTCD"] == dtcd]
-    return set(zip(gf["FPIN_STRT_AG_INQY_CODE"].fillna(""), gf["SPIN_STRT_AG_INQY_CODE"].fillna("")))
+    # 현재 매핑된 ITCD만 비교 (미매핑 레거시 ITCD 제외)
+    if itcds:
+        gf = gf[gf["ISRN_KIND_ITCD"].isin(itcds)]
+    # FPIN을 문자열로 정규화 (GT는 정수 0, EX는 문자열 "0"이므로 통일)
+    return set(zip(gf["FPIN_STRT_AG_INQY_CODE"].fillna("").astype(str), gf["SPIN_STRT_AG_INQY_CODE"].fillna("")))
 
 
 def _ex_keys_s22(coded_files: list) -> set:
@@ -291,7 +295,8 @@ def build_report() -> pd.DataFrame:
                     gt_keys = _gt_keys_s28(dtcd)
                     ex_keys = _ex_keys_s28(coded_files) if coded_files else set()
                 else:  # S00022
-                    gt_keys = _gt_keys_s22(dtcd)
+                    mapped_itcds = [e["itcd"] for e in entries]
+                    gt_keys = _gt_keys_s22(dtcd, mapped_itcds)
                     ex_keys = _ex_keys_s22(coded_files) if coded_files else set()
 
                 match_cnt = len(gt_keys & ex_keys)

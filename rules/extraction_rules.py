@@ -798,6 +798,15 @@ class ExtractionRules:
         insurance_periods = self._extract_all_insurance_periods(text)
         payment_periods = self._extract_all_payment_periods(text)
 
+        # 전기납 → 연금개시나이별 X{age} 확장
+        if "전기납" in payment_periods:
+            onset_range = self._extract_annuity_onset_range(text)
+            if onset_range:
+                min_a, max_a = onset_range
+                payment_periods = [
+                    pp for pp in payment_periods if pp != "전기납"
+                ] + [f"{a}세납" for a in range(min_a, max_a + 1)]
+
         if insurance_periods and payment_periods:
             # 세부보험종목별 × 보험기간 × 납입기간 조합
             seen = set()
@@ -877,6 +886,7 @@ class ExtractionRules:
         """
         S00022 (보기개시나이) 추출. 해당사항 없으면 빈 리스트 반환.
         반환: [{"sub_type": str, "min_age": int, "max_age": int}, ...]
+              또는 N-type: [{"sub_type": str, "n_years": int}, ...]
         """
         if product_code in self.exceptions:
             exc = self.exceptions[product_code]
@@ -885,8 +895,49 @@ class ExtractionRules:
 
         results = []
 
+        # ── N-type: 年 기반 보기개시 (종신보험 스마트연금전환특약 등) ──────────
+        n_years: set = set()
+
+        # "계약일(부터|이후) N년 경과시점" – 보장형 기준사망보험금 지급 시작 시점
+        # 단, "의 장기유지보너스" 뒤에 오는 경우는 제외 (장기유지보너스 경과시점)
+        for m in re.finditer(r"계약일\s*(?:부터|이후)\s*(\d+)년\s*경과시점", text):
+            context_after = text[m.end():m.end()+30]
+            if "장기유지" in context_after or "보너스" in context_after:
+                continue
+            n_years.add(int(m.group(1)))
+
+        # "전환일(부터|이후) N년 경과시점" – 스마트전환형 계약 기준사망보험금 시작
+        for m in re.finditer(r"전환일\s*(?:부터|이후)\s*(\d+)년\s*경과시점", text):
+            n_years.add(int(m.group(1)))
+
+        # "보험계약일 이후 N년이 경과한" – 스마트연금전환특약 대상계약 조건
+        # 앞선 패턴에서 매칭 없을 때만 사용 (false positive 방지)
+        if not n_years:
+            for m in re.finditer(r"보험계약일\s*이후\s*(\d+)년이?\s*경과한", text):
+                n_years.add(int(m.group(1)))
+
+        if n_years:
+            for yr in sorted(n_years):
+                results.append({"sub_type": "기본형", "n_years": yr})
+            return results
+
+        # ── X-type: 나이(세) 기반 보기개시 ────────────────────────────────────
+
+        # 패턴 0: "N종(...)\n만 N세~M세" 형식 다중 종별 테이블 (1종/2종 구분 상품)
+        # 예: 하이드림연금보험(1745), 미래로기업복지연금보험(1809) 등
+        # 모든 "연금개시나이" 출현 위치를 순회하며 검색
+        for onset_m in re.finditer(r"(?:연금|보기)개시(?:나이|연령)", text):
+            section = text[onset_m.start():onset_m.start()+600]
+            per_type_pairs = re.findall(
+                r"(\d+종[^\n]*)\n\s*만?\s*(\d+)\s*세\s*[~～]\s*(\d+)\s*세",
+                section
+            )
+            if per_type_pairs:
+                for sub_type, min_a, max_a in per_type_pairs:
+                    results.append({"sub_type": sub_type.strip(), "min_age": int(min_a), "max_age": int(max_a)})
+                return results
+
         # 패턴 1: "연금개시나이\n- N세 ~ N세" (개행 포함, 실제 형식)
-        # 텍스트에서 "연금개시나이" 이후 가까운 줄에서 나이범위 탐색
         onset_section_pattern = r"(?:연금|보기)개시(?:나이|연령)[\s\S]{0,80}?(\d+)\s*세\s*[~～]\s*(\d+)\s*세"
         m = re.search(onset_section_pattern, text)
         if m:
@@ -901,6 +952,15 @@ class ExtractionRules:
                     "min_age": min_age,
                     "max_age": max_age
                 })
+            return results
+
+        # 패턴 1b: "연금개시나이" 이후 "N ~ M세" (첫 숫자에 세 없음) – 바로연금보험 등
+        onset_no_first_se = r"(?:연금|보기)개시(?:나이|연령)[\s\S]{0,200}?(\d+)\s*[~～]\s*(\d+)\s*세"
+        m = re.search(onset_no_first_se, text)
+        if m:
+            min_age = int(m.group(1))
+            max_age = int(m.group(2))
+            results.append({"sub_type": "기본형", "min_age": min_age, "max_age": max_age})
             return results
 
         # 패턴 2: "연금개시나이: N세~N세" (같은 줄)
@@ -1043,6 +1103,20 @@ class ExtractionRules:
                 if val not in periods:
                     periods.append(val)
         return periods
+
+    def _extract_annuity_onset_range(self, text: str):
+        """연금개시나이 범위 추출 → (min_age, max_age) 또는 None
+        전기납의 PP를 X{age}로 확장할 때 사용"""
+        # "N세 ~ M세" 또는 "N ~ M세" 형식
+        for pat in [
+            r"(?:연금|보기)개시(?:나이|연령)[\s\S]{0,200}?(\d+)\s*세\s*[~～]\s*(\d+)\s*세",
+            r"(?:연금|보기)개시(?:나이|연령)[\s\S]{0,200}?만?\s*(\d+)\s*세\s*[~～]\s*(\d+)\s*세",
+            r"(?:연금|보기)개시(?:나이|연령)[\s\S]{0,200}?(\d+)\s*[~～]\s*(\d+)\s*세",
+        ]:
+            m = re.search(pat, text)
+            if m:
+                return (int(m.group(1)), int(m.group(2)))
+        return None
 
     def _apply_exception(self, exception_config: dict, text: str) -> List[Dict]:
         """예외 룰 적용 (product_exceptions.json에 정의된 고정 데이터 반환)"""
