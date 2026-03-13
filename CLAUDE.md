@@ -224,6 +224,29 @@ python scripts/generate_report.py --output output/reports/작업현황.xlsx
 
 ---
 
+## 세션 종료 절차
+
+세션 종료 전 반드시 아래 순서로 실행하여 구조적 문제 상태를 최신화한다.
+
+```bash
+# 1. 배치 재실행 (룰 변경이 있었을 때만)
+python scripts/batch_run.py --no-skip
+
+# 2. 작업현황 리포트 생성
+python scripts/generate_report.py
+
+# 3. 구조적 문제 상태 자동 업데이트 (data/structural_issues.xlsx 갱신)
+python scripts/update_structural_issues.py
+```
+
+`update_structural_issues.py` 동작:
+- S00026 **PASS** → 상태 `해결` (연두)
+- S00026 **FAIL** + 문제유형 `GT_NaN` → 상태 `미해결` (노랑)
+- S00026 **FAIL** + 문제유형 `ITCD불일치` → 상태 `처리불가` (회색)
+- S00026 결과 없음 (`-`) → 상태 변경 없음
+
+---
+
 ## 서브에이전트 호출 규칙
 
 ### table-extractor

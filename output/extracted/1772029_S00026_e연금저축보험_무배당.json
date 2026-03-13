@@ -11,7 +11,7 @@
       "insurance_period": "",
       "payment_period": "5년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 50
     },
     {
@@ -19,7 +19,7 @@
       "insurance_period": "",
       "payment_period": "7년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 48
     },
     {
@@ -27,7 +27,7 @@
       "insurance_period": "",
       "payment_period": "10년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 45
     },
     {
@@ -35,7 +35,7 @@
       "insurance_period": "",
       "payment_period": "15년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 40
     },
     {
@@ -43,7 +43,7 @@
       "insurance_period": "",
       "payment_period": "20년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 35
     },
     {
@@ -51,7 +51,7 @@
       "insurance_period": "",
       "payment_period": "55세납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 45
     },
     {
@@ -59,7 +59,7 @@
       "insurance_period": "",
       "payment_period": "5년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 51
     },
     {
@@ -67,7 +67,7 @@
       "insurance_period": "",
       "payment_period": "7년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 49
     },
     {
@@ -75,7 +75,7 @@
       "insurance_period": "",
       "payment_period": "10년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 46
     },
     {
@@ -83,7 +83,7 @@
       "insurance_period": "",
       "payment_period": "15년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 41
     },
     {
@@ -91,7 +91,7 @@
       "insurance_period": "",
       "payment_period": "20년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 36
     },
     {
@@ -99,7 +99,7 @@
       "insurance_period": "",
       "payment_period": "56세납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 46
     },
     {
@@ -107,7 +107,7 @@
       "insurance_period": "",
       "payment_period": "5년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 52
     },
     {
@@ -115,7 +115,7 @@
       "insurance_period": "",
       "payment_period": "7년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 50
     },
     {
@@ -123,7 +123,7 @@
       "insurance_period": "",
       "payment_period": "10년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 47
     },
     {
@@ -131,7 +131,7 @@
       "insurance_period": "",
       "payment_period": "15년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 42
     },
     {
@@ -139,7 +139,7 @@
       "insurance_period": "",
       "payment_period": "20년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 37
     },
     {
@@ -147,7 +147,7 @@
       "insurance_period": "",
       "payment_period": "57세납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 47
     },
     {
@@ -155,7 +155,7 @@
       "insurance_period": "",
       "payment_period": "5년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 53
     },
     {
@@ -163,7 +163,7 @@
       "insurance_period": "",
       "payment_period": "7년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 51
     },
     {
@@ -171,7 +171,7 @@
       "insurance_period": "",
       "payment_period": "10년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 48
     },
     {
@@ -179,7 +179,7 @@
       "insurance_period": "",
       "payment_period": "15년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 43
     },
     {
@@ -187,7 +187,7 @@
       "insurance_period": "",
       "payment_period": "20년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 38
     },
     {
@@ -195,7 +195,7 @@
       "insurance_period": "",
       "payment_period": "58세납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 48
     },
     {
@@ -203,7 +203,7 @@
       "insurance_period": "",
       "payment_period": "5년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 54
     },
     {
@@ -211,7 +211,7 @@
       "insurance_period": "",
       "payment_period": "7년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 52
     },
     {
@@ -219,7 +219,7 @@
       "insurance_period": "",
       "payment_period": "10년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 49
     },
     {
@@ -227,7 +227,7 @@
       "insurance_period": "",
       "payment_period": "15년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 44
     },
     {
@@ -235,7 +235,7 @@
       "insurance_period": "",
       "payment_period": "20년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 39
     },
     {
@@ -243,7 +243,7 @@
       "insurance_period": "",
       "payment_period": "59세납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 49
     },
     {
@@ -251,7 +251,7 @@
       "insurance_period": "",
       "payment_period": "5년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 55
     },
     {
@@ -259,7 +259,7 @@
       "insurance_period": "",
       "payment_period": "7년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 53
     },
     {
@@ -267,7 +267,7 @@
       "insurance_period": "",
       "payment_period": "10년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 50
     },
     {
@@ -275,7 +275,7 @@
       "insurance_period": "",
       "payment_period": "15년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 45
     },
     {
@@ -283,7 +283,7 @@
       "insurance_period": "",
       "payment_period": "20년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 40
     },
     {
@@ -291,7 +291,7 @@
       "insurance_period": "",
       "payment_period": "60세납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 50
     },
     {
@@ -299,7 +299,7 @@
       "insurance_period": "",
       "payment_period": "5년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 56
     },
     {
@@ -307,7 +307,7 @@
       "insurance_period": "",
       "payment_period": "7년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 54
     },
     {
@@ -315,7 +315,7 @@
       "insurance_period": "",
       "payment_period": "10년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 51
     },
     {
@@ -323,7 +323,7 @@
       "insurance_period": "",
       "payment_period": "15년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 46
     },
     {
@@ -331,7 +331,7 @@
       "insurance_period": "",
       "payment_period": "20년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 41
     },
     {
@@ -339,7 +339,7 @@
       "insurance_period": "",
       "payment_period": "61세납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 51
     },
     {
@@ -347,7 +347,7 @@
       "insurance_period": "",
       "payment_period": "5년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 57
     },
     {
@@ -355,7 +355,7 @@
       "insurance_period": "",
       "payment_period": "7년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 55
     },
     {
@@ -363,7 +363,7 @@
       "insurance_period": "",
       "payment_period": "10년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 52
     },
     {
@@ -371,7 +371,7 @@
       "insurance_period": "",
       "payment_period": "15년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 47
     },
     {
@@ -379,7 +379,7 @@
       "insurance_period": "",
       "payment_period": "20년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 42
     },
     {
@@ -387,7 +387,7 @@
       "insurance_period": "",
       "payment_period": "62세납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 52
     },
     {
@@ -395,7 +395,7 @@
       "insurance_period": "",
       "payment_period": "5년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 58
     },
     {
@@ -403,7 +403,7 @@
       "insurance_period": "",
       "payment_period": "7년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 56
     },
     {
@@ -411,7 +411,7 @@
       "insurance_period": "",
       "payment_period": "10년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 53
     },
     {
@@ -419,7 +419,7 @@
       "insurance_period": "",
       "payment_period": "15년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 48
     },
     {
@@ -427,7 +427,7 @@
       "insurance_period": "",
       "payment_period": "20년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 43
     },
     {
@@ -435,7 +435,7 @@
       "insurance_period": "",
       "payment_period": "63세납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 53
     },
     {
@@ -443,7 +443,7 @@
       "insurance_period": "",
       "payment_period": "5년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 59
     },
     {
@@ -451,7 +451,7 @@
       "insurance_period": "",
       "payment_period": "7년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 57
     },
     {
@@ -459,7 +459,7 @@
       "insurance_period": "",
       "payment_period": "10년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 54
     },
     {
@@ -467,7 +467,7 @@
       "insurance_period": "",
       "payment_period": "15년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 49
     },
     {
@@ -475,7 +475,7 @@
       "insurance_period": "",
       "payment_period": "20년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 44
     },
     {
@@ -483,7 +483,7 @@
       "insurance_period": "",
       "payment_period": "64세납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 54
     },
     {
@@ -491,7 +491,7 @@
       "insurance_period": "",
       "payment_period": "5년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 60
     },
     {
@@ -499,7 +499,7 @@
       "insurance_period": "",
       "payment_period": "7년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 58
     },
     {
@@ -507,7 +507,7 @@
       "insurance_period": "",
       "payment_period": "10년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 55
     },
     {
@@ -515,7 +515,7 @@
       "insurance_period": "",
       "payment_period": "15년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 50
     },
     {
@@ -523,7 +523,7 @@
       "insurance_period": "",
       "payment_period": "20년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 45
     },
     {
@@ -531,7 +531,7 @@
       "insurance_period": "",
       "payment_period": "65세납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 55
     },
     {
@@ -539,7 +539,7 @@
       "insurance_period": "",
       "payment_period": "5년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 61
     },
     {
@@ -547,7 +547,7 @@
       "insurance_period": "",
       "payment_period": "7년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 59
     },
     {
@@ -555,7 +555,7 @@
       "insurance_period": "",
       "payment_period": "10년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 56
     },
     {
@@ -563,7 +563,7 @@
       "insurance_period": "",
       "payment_period": "15년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 51
     },
     {
@@ -571,7 +571,7 @@
       "insurance_period": "",
       "payment_period": "20년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 46
     },
     {
@@ -579,7 +579,7 @@
       "insurance_period": "",
       "payment_period": "66세납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 56
     },
     {
@@ -587,7 +587,7 @@
       "insurance_period": "",
       "payment_period": "5년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 62
     },
     {
@@ -595,7 +595,7 @@
       "insurance_period": "",
       "payment_period": "7년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 60
     },
     {
@@ -603,7 +603,7 @@
       "insurance_period": "",
       "payment_period": "10년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 57
     },
     {
@@ -611,7 +611,7 @@
       "insurance_period": "",
       "payment_period": "15년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 52
     },
     {
@@ -619,7 +619,7 @@
       "insurance_period": "",
       "payment_period": "20년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 47
     },
     {
@@ -627,7 +627,7 @@
       "insurance_period": "",
       "payment_period": "67세납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 57
     },
     {
@@ -635,7 +635,7 @@
       "insurance_period": "",
       "payment_period": "5년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 63
     },
     {
@@ -643,7 +643,7 @@
       "insurance_period": "",
       "payment_period": "7년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 61
     },
     {
@@ -651,7 +651,7 @@
       "insurance_period": "",
       "payment_period": "10년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 58
     },
     {
@@ -659,7 +659,7 @@
       "insurance_period": "",
       "payment_period": "15년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 53
     },
     {
@@ -667,7 +667,7 @@
       "insurance_period": "",
       "payment_period": "20년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 48
     },
     {
@@ -675,7 +675,7 @@
       "insurance_period": "",
       "payment_period": "68세납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 58
     },
     {
@@ -683,7 +683,7 @@
       "insurance_period": "",
       "payment_period": "5년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 64
     },
     {
@@ -691,7 +691,7 @@
       "insurance_period": "",
       "payment_period": "7년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 62
     },
     {
@@ -699,7 +699,7 @@
       "insurance_period": "",
       "payment_period": "10년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 59
     },
     {
@@ -707,7 +707,7 @@
       "insurance_period": "",
       "payment_period": "15년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 54
     },
     {
@@ -715,7 +715,7 @@
       "insurance_period": "",
       "payment_period": "20년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 49
     },
     {
@@ -723,7 +723,7 @@
       "insurance_period": "",
       "payment_period": "69세납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 59
     },
     {
@@ -731,7 +731,7 @@
       "insurance_period": "",
       "payment_period": "5년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 65
     },
     {
@@ -739,7 +739,7 @@
       "insurance_period": "",
       "payment_period": "7년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 63
     },
     {
@@ -747,7 +747,7 @@
       "insurance_period": "",
       "payment_period": "10년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 60
     },
     {
@@ -755,7 +755,7 @@
       "insurance_period": "",
       "payment_period": "15년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 55
     },
     {
@@ -763,7 +763,7 @@
       "insurance_period": "",
       "payment_period": "20년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 50
     },
     {
@@ -771,7 +771,7 @@
       "insurance_period": "",
       "payment_period": "70세납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 60
     },
     {
@@ -779,7 +779,7 @@
       "insurance_period": "",
       "payment_period": "5년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 66
     },
     {
@@ -787,7 +787,7 @@
       "insurance_period": "",
       "payment_period": "7년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 64
     },
     {
@@ -795,7 +795,7 @@
       "insurance_period": "",
       "payment_period": "10년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 61
     },
     {
@@ -803,7 +803,7 @@
       "insurance_period": "",
       "payment_period": "15년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 56
     },
     {
@@ -811,7 +811,7 @@
       "insurance_period": "",
       "payment_period": "20년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 51
     },
     {
@@ -819,7 +819,7 @@
       "insurance_period": "",
       "payment_period": "71세납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 61
     },
     {
@@ -827,7 +827,7 @@
       "insurance_period": "",
       "payment_period": "5년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 67
     },
     {
@@ -835,7 +835,7 @@
       "insurance_period": "",
       "payment_period": "7년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 65
     },
     {
@@ -843,7 +843,7 @@
       "insurance_period": "",
       "payment_period": "10년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 62
     },
     {
@@ -851,7 +851,7 @@
       "insurance_period": "",
       "payment_period": "15년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 57
     },
     {
@@ -859,7 +859,7 @@
       "insurance_period": "",
       "payment_period": "20년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 52
     },
     {
@@ -867,7 +867,7 @@
       "insurance_period": "",
       "payment_period": "72세납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 62
     },
     {
@@ -875,7 +875,7 @@
       "insurance_period": "",
       "payment_period": "5년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 68
     },
     {
@@ -883,7 +883,7 @@
       "insurance_period": "",
       "payment_period": "7년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 66
     },
     {
@@ -891,7 +891,7 @@
       "insurance_period": "",
       "payment_period": "10년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 63
     },
     {
@@ -899,7 +899,7 @@
       "insurance_period": "",
       "payment_period": "15년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 58
     },
     {
@@ -907,7 +907,7 @@
       "insurance_period": "",
       "payment_period": "20년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 53
     },
     {
@@ -915,7 +915,7 @@
       "insurance_period": "",
       "payment_period": "73세납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 63
     },
     {
@@ -923,7 +923,7 @@
       "insurance_period": "",
       "payment_period": "5년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 69
     },
     {
@@ -931,7 +931,7 @@
       "insurance_period": "",
       "payment_period": "7년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 67
     },
     {
@@ -939,7 +939,7 @@
       "insurance_period": "",
       "payment_period": "10년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 64
     },
     {
@@ -947,7 +947,7 @@
       "insurance_period": "",
       "payment_period": "15년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 59
     },
     {
@@ -955,7 +955,7 @@
       "insurance_period": "",
       "payment_period": "20년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 54
     },
     {
@@ -963,7 +963,7 @@
       "insurance_period": "",
       "payment_period": "74세납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 64
     },
     {
@@ -971,7 +971,7 @@
       "insurance_period": "",
       "payment_period": "5년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 70
     },
     {
@@ -979,7 +979,7 @@
       "insurance_period": "",
       "payment_period": "7년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 68
     },
     {
@@ -987,7 +987,7 @@
       "insurance_period": "",
       "payment_period": "10년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 65
     },
     {
@@ -995,7 +995,7 @@
       "insurance_period": "",
       "payment_period": "15년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 60
     },
     {
@@ -1003,7 +1003,7 @@
       "insurance_period": "",
       "payment_period": "20년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 55
     },
     {
@@ -1011,7 +1011,7 @@
       "insurance_period": "",
       "payment_period": "75세납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 65
     },
     {
@@ -1019,7 +1019,7 @@
       "insurance_period": "",
       "payment_period": "5년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 71
     },
     {
@@ -1027,7 +1027,7 @@
       "insurance_period": "",
       "payment_period": "7년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 69
     },
     {
@@ -1035,7 +1035,7 @@
       "insurance_period": "",
       "payment_period": "10년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 66
     },
     {
@@ -1043,7 +1043,7 @@
       "insurance_period": "",
       "payment_period": "15년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 61
     },
     {
@@ -1051,7 +1051,7 @@
       "insurance_period": "",
       "payment_period": "20년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 56
     },
     {
@@ -1059,7 +1059,7 @@
       "insurance_period": "",
       "payment_period": "76세납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 66
     },
     {
@@ -1067,7 +1067,7 @@
       "insurance_period": "",
       "payment_period": "5년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 72
     },
     {
@@ -1075,7 +1075,7 @@
       "insurance_period": "",
       "payment_period": "7년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 70
     },
     {
@@ -1083,7 +1083,7 @@
       "insurance_period": "",
       "payment_period": "10년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 67
     },
     {
@@ -1091,7 +1091,7 @@
       "insurance_period": "",
       "payment_period": "15년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 62
     },
     {
@@ -1099,7 +1099,7 @@
       "insurance_period": "",
       "payment_period": "20년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 57
     },
     {
@@ -1107,7 +1107,7 @@
       "insurance_period": "",
       "payment_period": "77세납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 67
     },
     {
@@ -1115,7 +1115,7 @@
       "insurance_period": "",
       "payment_period": "5년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 73
     },
     {
@@ -1123,7 +1123,7 @@
       "insurance_period": "",
       "payment_period": "7년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 71
     },
     {
@@ -1131,7 +1131,7 @@
       "insurance_period": "",
       "payment_period": "10년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 68
     },
     {
@@ -1139,7 +1139,7 @@
       "insurance_period": "",
       "payment_period": "15년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 63
     },
     {
@@ -1147,7 +1147,7 @@
       "insurance_period": "",
       "payment_period": "20년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 58
     },
     {
@@ -1155,7 +1155,7 @@
       "insurance_period": "",
       "payment_period": "78세납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 68
     },
     {
@@ -1163,7 +1163,7 @@
       "insurance_period": "",
       "payment_period": "5년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 74
     },
     {
@@ -1171,7 +1171,7 @@
       "insurance_period": "",
       "payment_period": "7년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 72
     },
     {
@@ -1179,7 +1179,7 @@
       "insurance_period": "",
       "payment_period": "10년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 69
     },
     {
@@ -1187,7 +1187,7 @@
       "insurance_period": "",
       "payment_period": "15년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 64
     },
     {
@@ -1195,7 +1195,7 @@
       "insurance_period": "",
       "payment_period": "20년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 59
     },
     {
@@ -1203,7 +1203,7 @@
       "insurance_period": "",
       "payment_period": "79세납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 69
     },
     {
@@ -1211,7 +1211,7 @@
       "insurance_period": "",
       "payment_period": "5년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 75
     },
     {
@@ -1219,7 +1219,7 @@
       "insurance_period": "",
       "payment_period": "7년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 73
     },
     {
@@ -1227,7 +1227,7 @@
       "insurance_period": "",
       "payment_period": "10년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 70
     },
     {
@@ -1235,7 +1235,7 @@
       "insurance_period": "",
       "payment_period": "15년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 65
     },
     {
@@ -1243,7 +1243,7 @@
       "insurance_period": "",
       "payment_period": "20년납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 60
     },
     {
@@ -1251,7 +1251,7 @@
       "insurance_period": "",
       "payment_period": "80세납",
       "gender": null,
-      "min_age": 0,
+      "min_age": 19,
       "max_age": 70
     }
   ],

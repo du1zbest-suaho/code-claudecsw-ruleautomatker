@@ -8,65 +8,5158 @@
   "raw_data": [
     {
       "sub_type": "기본형",
-      "insurance_period": "종신",
-      "payment_period": "전기납",
-      "gender": "남녀공통",
-      "min_age": 55,
-      "max_age": 80
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 50
     },
     {
       "sub_type": "기본형",
-      "insurance_period": "종신",
-      "payment_period": "전기납",
-      "gender": "남녀공통",
-      "min_age": 55,
-      "max_age": 110
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 48
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 45
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 40
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 35
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "55세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 45
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 51
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 49
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 46
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 41
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 36
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "56세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 46
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 52
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 50
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 47
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 42
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 37
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "57세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 47
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 53
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 51
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 48
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 43
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 38
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "58세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 48
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 54
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 52
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 49
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 44
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 39
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "59세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 49
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 55
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 53
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 50
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 45
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 40
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "60세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 50
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 56
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 54
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 51
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 46
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 41
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "61세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 51
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 57
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 55
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 52
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 47
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 42
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "62세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 52
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 58
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 56
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 53
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 48
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 43
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "63세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 53
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 59
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 57
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 54
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 49
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 44
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "64세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 54
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 60
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 58
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 55
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 50
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 45
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "65세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 55
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 61
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 59
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 56
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 51
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 46
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "66세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 56
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 62
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 60
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 57
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 52
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 47
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "67세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 57
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 63
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 61
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 58
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 53
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 48
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "68세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 58
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 64
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 62
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 59
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 54
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 49
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "69세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 59
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 65
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 63
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 60
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 55
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 50
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "70세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 60
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 66
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 64
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 61
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 56
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 51
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "71세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 61
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 67
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 65
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 62
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 57
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 52
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "72세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 62
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 68
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 66
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 63
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 58
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 53
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "73세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 63
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 69
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 67
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 64
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 59
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 54
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "74세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 64
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 70
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 68
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 65
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 60
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 55
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "75세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 65
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 71
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 69
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 66
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 61
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 56
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "76세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 66
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 72
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 70
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 67
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 62
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 57
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "77세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 67
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 73
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 71
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 68
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 63
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 58
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "78세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 68
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 74
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 72
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 69
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 64
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 59
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "79세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 69
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 75
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 73
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 70
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 65
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 60
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "80세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 70
     }
   ],
   "discrepancies": [],
-  "row_count": 2,
+  "row_count": 156,
   "coded_rows": [
     {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
       "MINU_GNDR_CODE": null,
-      "MIN_AG": 55,
-      "MAX_AG": 80,
+      "MIN_AG": 0,
+      "MAX_AG": 50,
       "sub_type": "기본형",
       "_raw": {
         "sub_type": "기본형",
-        "insurance_period": "종신",
-        "payment_period": "전기납",
-        "gender": "남녀공통",
-        "min_age": 55,
-        "max_age": 80
-      }
+        "insurance_period": "",
+        "payment_period": "5년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 50
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
     },
     {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
       "MINU_GNDR_CODE": null,
-      "MIN_AG": 55,
-      "MAX_AG": 110,
+      "MIN_AG": 0,
+      "MAX_AG": 48,
       "sub_type": "기본형",
       "_raw": {
         "sub_type": "기본형",
-        "insurance_period": "종신",
-        "payment_period": "전기납",
-        "gender": "남녀공통",
-        "min_age": 55,
-        "max_age": 110
-      }
+        "insurance_period": "",
+        "payment_period": "7년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 48
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 45,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "10년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 45
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 40,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "15년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 40
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 35,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "20년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 35
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 55,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X55",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 45,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "55세납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 45
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 51,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "5년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 51
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 49,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "7년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 49
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 46,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "10년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 46
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 41,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "15년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 41
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 36,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "20년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 36
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 56,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X56",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 46,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "56세납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 46
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 52,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "5년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 52
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 50,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "7년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 50
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 47,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "10년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 47
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 42,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "15년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 42
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 37,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "20년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 37
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 57,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X57",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 47,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "57세납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 47
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 53,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "5년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 53
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 51,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "7년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 51
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 48,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "10년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 48
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 43,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "15년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 43
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 38,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "20년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 38
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 58,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X58",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 48,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "58세납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 48
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 54,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "5년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 54
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 52,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "7년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 52
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 49,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "10년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 49
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 44,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "15년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 44
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 39,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "20년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 39
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 59,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X59",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 49,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "59세납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 49
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 55,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "5년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 55
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 53,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "7년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 53
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 50,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "10년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 50
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 45,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "15년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 45
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 40,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "20년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 40
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 60,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X60",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 50,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "60세납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 50
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 56,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "5년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 56
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 54,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "7년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 54
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 51,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "10년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 51
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 46,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "15년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 46
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 41,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "20년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 41
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 61,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X61",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 51,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "61세납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 51
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 57,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "5년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 57
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 55,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "7년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 55
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 52,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "10년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 52
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 47,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "15년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 47
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 42,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "20년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 42
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 62,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X62",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 52,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "62세납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 52
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 58,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "5년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 58
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 56,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "7년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 56
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 53,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "10년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 53
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 48,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "15년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 48
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 43,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "20년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 43
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 63,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X63",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 53,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "63세납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 53
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 59,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "5년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 59
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 57,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "7년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 57
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 54,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "10년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 54
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 49,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "15년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 49
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 44,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "20년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 44
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 64,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X64",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 54,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "64세납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 54
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 60,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "5년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 60
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 58,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "7년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 58
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 55,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "10년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 55
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 50,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "15년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 50
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 45,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "20년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 45
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 65,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X65",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 55,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "65세납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 55
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 61,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "5년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 61
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 59,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "7년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 59
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 56,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "10년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 56
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 51,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "15년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 51
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 46,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "20년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 46
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 66,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X66",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 56,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "66세납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 56
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 62,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "5년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 62
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 60,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "7년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 60
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 57,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "10년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 57
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 52,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "15년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 52
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 47,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "20년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 47
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 67,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X67",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 57,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "67세납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 57
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 63,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "5년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 63
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 61,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "7년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 61
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 58,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "10년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 58
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 53,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "15년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 53
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 48,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "20년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 48
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 68,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X68",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 58,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "68세납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 58
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 64,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "5년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 64
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 62,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "7년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 62
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 59,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "10년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 59
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 54,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "15년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 54
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 49,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "20년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 49
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 69,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X69",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 59,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "69세납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 59
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 65,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "5년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 65
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 63,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "7년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 63
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 60,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "10년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 60
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 55,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "15년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 55
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 50,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "20년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 50
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 70,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X70",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 60,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "70세납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 60
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 66,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "5년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 66
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 64,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "7년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 64
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 61,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "10년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 61
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 56,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "15년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 56
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 51,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "20년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 51
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 71,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X71",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 61,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "71세납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 61
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 67,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "5년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 67
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 65,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "7년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 65
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 62,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "10년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 62
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 57,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "15년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 57
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 52,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "20년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 52
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 72,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X72",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 62,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "72세납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 62
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 68,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "5년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 68
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 66,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "7년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 66
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 63,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "10년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 63
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 58,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "15년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 58
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 53,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "20년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 53
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 73,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X73",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 63,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "73세납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 63
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 69,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "5년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 69
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 67,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "7년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 67
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 64,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "10년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 64
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 59,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "15년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 59
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 54,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "20년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 54
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 74,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X74",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 64,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "74세납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 64
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 70,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "5년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 70
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 68,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "7년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 68
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 65,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "10년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 65
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 60,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "15년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 60
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 55,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "20년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 55
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 75,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X75",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 65,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "75세납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 65
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 71,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "5년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 71
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 69,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "7년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 69
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 66,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "10년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 66
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 61,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "15년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 61
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 56,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "20년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 56
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 76,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X76",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 66,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "76세납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 66
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 72,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "5년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 72
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 70,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "7년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 70
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 67,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "10년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 67
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 62,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "15년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 62
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 57,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "20년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 57
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 77,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X77",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 67,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "77세납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 67
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 73,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "5년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 73
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 71,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "7년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 71
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 68,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "10년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 68
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 63,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "15년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 63
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 58,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "20년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 58
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 78,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X78",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 68,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "78세납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 68
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 74,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "5년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 74
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 72,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "7년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 72
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 69,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "10년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 69
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 64,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "15년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 64
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 59,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "20년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 59
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 79,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X79",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 69,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "79세납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 69
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 75,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "5년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 75
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 73,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "7년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 73
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 70,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "10년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 70
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 65,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "15년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 65
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 60,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "20년납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 60
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
+    },
+    {
+      "ISRN_TERM": null,
+      "ISRN_TERM_DVSN_CODE": null,
+      "ISRN_TERM_INQY_CODE": null,
+      "_convert_error": "알 수 없는 보험기간 표현: ",
+      "PAYM_TERM": 80,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X80",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 0,
+      "MAX_AG": 70,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "",
+        "payment_period": "80세납",
+        "gender": null,
+        "min_age": 0,
+        "max_age": 70
+      },
+      "_warnings": [
+        "ISRN_TERM=None"
+      ]
     }
   ],
-  "convert_errors": [],
-  "convert_error_count": 0
+  "convert_errors": [
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: ",
+    "알 수 없는 보험기간 표현: "
+  ],
+  "convert_error_count": 156
 }

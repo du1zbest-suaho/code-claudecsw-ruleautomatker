@@ -8,21 +8,1253 @@
   "raw_data": [
     {
       "sub_type": "기본형",
-      "insurance_period": "종신",
-      "payment_period": "전기납",
-      "gender": "남녀공통",
-      "min_age": 55,
-      "max_age": 80
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 50
     },
     {
       "sub_type": "기본형",
-      "insurance_period": "종신",
-      "payment_period": "전기납",
-      "gender": "남녀공통",
-      "min_age": 55,
-      "max_age": 110
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 48
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 45
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 40
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 35
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "55세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 45
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 51
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 49
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 46
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 41
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 36
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "56세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 46
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 52
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 50
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 47
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 42
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 37
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "57세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 47
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 53
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 51
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 48
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 43
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 38
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "58세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 48
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 54
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 52
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 49
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 44
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 39
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "59세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 49
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 55
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 53
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 50
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 45
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 40
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "60세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 50
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 56
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 54
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 51
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 46
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 41
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "61세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 51
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 57
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 55
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 52
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 47
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 42
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "62세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 52
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 58
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 56
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 53
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 48
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 43
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "63세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 53
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 59
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 57
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 54
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 49
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 44
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "64세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 54
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 60
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 58
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 55
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 50
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 45
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "65세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 55
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 61
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 59
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 56
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 51
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 46
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "66세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 56
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 62
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 60
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 57
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 52
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 47
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "67세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 57
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 63
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 61
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 58
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 53
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 48
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "68세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 58
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 64
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 62
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 59
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 54
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 49
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "69세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 59
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 65
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 63
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 60
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 55
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 50
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "70세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 60
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 66
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 64
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 61
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 56
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 51
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "71세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 61
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 67
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 65
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 62
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 57
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 52
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "72세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 62
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 68
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 66
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 63
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 58
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 53
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "73세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 63
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 69
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 67
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 64
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 59
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 54
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "74세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 64
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 70
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 68
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 65
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 60
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 55
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "75세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 65
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 71
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 69
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 66
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 61
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 56
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "76세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 66
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 72
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 70
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 67
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 62
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 57
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "77세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 67
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 73
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 71
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 68
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 63
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 58
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "78세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 68
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 74
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 72
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 69
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 64
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 59
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "79세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 69
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "5년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 75
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "7년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 73
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "10년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 70
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "15년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 65
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "20년납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 60
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "80세납",
+      "gender": null,
+      "min_age": 0,
+      "max_age": 70
     }
   ],
   "discrepancies": [],
-  "row_count": 2
+  "row_count": 156
 }
