@@ -43,8 +43,17 @@ class ExtractionRules:
         # PDF 줄바꿈 아티팩트 보정: "digit\n세" → "digit세"
         # 예: "0세~35\n세" → "0세~35세" (페이지 폭 제한으로 줄바꿈 발생)
         text = re.sub(r'(\d+)\n세', r'\1세', text)
+        # 보험기간 헤더 정규화: "60세\n만기" → "60세만기", "10년\n만기" → "10년만기"
+        text = re.sub(r'(\d+)\s*세\s*\n\s*만기', r'\1세만기', text)
+        text = re.sub(r'(\d+)\s*년\s*\n\s*만기', r'\1년만기', text)
 
         results = []
+
+        # 패턴 A-1: 연금보험 가입최고나이 공식 "(연금개시나이-납입기간)세" 형식
+        # 납입기간 × 연금개시나이 조합을 자동 계산하여 생성
+        annuity_rows = self._extract_annuity_age_by_formula(text)
+        if annuity_rows:
+            return annuity_rows
 
         # 패턴 A0: 성별 구분 섹션 형식 (남자/여자가 행 헤더로 분리된 테이블)
         # 예: e정기보험, 시그니처H보장보험 등 — 남자/여자 섹션 아래 납입기간별 나이범위
@@ -1103,6 +1112,63 @@ class ExtractionRules:
                 if val not in periods:
                     periods.append(val)
         return periods
+
+    def _extract_annuity_age_by_formula(self, text: str) -> List[Dict]:
+        """
+        연금보험 가입나이 공식 형식 감지 및 자동 계산.
+        '가입최고나이 : (연금개시나이-납입기간)세' 패턴이 있을 때
+        연금개시나이 범위 × 납입기간 조합으로 가입나이 행 생성.
+        GT ip=NaN, gender=NaN 이므로 ip='', gender=None 으로 생성.
+        """
+        formula_pat = r"가입최고나이[^\n]{0,30}\(연금개시나이\s*[-－]\s*납입기간\)세"
+        if not re.search(formula_pat, text):
+            return []
+
+        onset = self._extract_annuity_onset_range(text)
+        if not onset:
+            return []
+        min_onset, max_onset = onset
+
+        payment_periods = self._extract_all_payment_periods(text)
+        if not payment_periods:
+            return []
+
+        # 전기납 최소 납입연수 파악 (예: "전기납(10년이상)" → 10)
+        min_elective_yrs = 10
+        m = re.search(r"전기납\s*\((\d+)년\s*이상\)", text)
+        if m:
+            min_elective_yrs = int(m.group(1))
+
+        rows = []
+        seen: set = set()
+        for onset_age in range(min_onset, max_onset + 1):
+            for pp in payment_periods:
+                if pp == "전기납":
+                    n = min_elective_yrs
+                    pp_key = f"{onset_age}세납"
+                else:
+                    n_m = re.match(r"(\d+)년납", pp)
+                    if not n_m:
+                        continue
+                    n = int(n_m.group(1))
+                    pp_key = pp
+
+                max_age = onset_age - n
+                if max_age < 0:
+                    continue
+                key = (pp_key, max_age)
+                if key in seen:
+                    continue
+                seen.add(key)
+                rows.append({
+                    "sub_type": "기본형",
+                    "insurance_period": "",
+                    "payment_period": pp_key,
+                    "gender": None,
+                    "min_age": 0,
+                    "max_age": max_age,
+                })
+        return rows
 
     def _extract_annuity_onset_range(self, text: str):
         """연금개시나이 범위 추출 → (min_age, max_age) 또는 None

@@ -98,6 +98,28 @@ def get_gt_row_count(dtcd: int, table_type: str) -> int:
 
 # ─── S00026 고유키 비교 ───────────────────────────────────────────────────────
 
+def _compare_s26_keys(gt_keys: set, ex_keys: set):
+    """
+    S00026 키 비교. GT ip/pp가 전부 NaN('')인 경우 완화 비교:
+    (gender, min_age, max_age)만으로 비교 — 단일 보기납기 조합 상품 대응.
+    반환: (match_cnt, miss_cnt, extra_cnt)
+    """
+    if not gt_keys:
+        return 0, 0, len(ex_keys)
+    all_nan_ippp = all(k[0] == "" and k[1] == "" for k in gt_keys)
+    if all_nan_ippp:
+        gt_slim = set((k[2], k[3], k[4]) for k in gt_keys)
+        ex_slim = set((k[2], k[3], k[4]) for k in ex_keys)
+        miss = gt_slim - ex_slim
+        extra = ex_slim - gt_slim
+        match = gt_slim & ex_slim
+        return len(match), len(miss), len(extra)
+    miss = gt_keys - ex_keys
+    extra = ex_keys - gt_keys
+    match = gt_keys & ex_keys
+    return len(match), len(miss), len(extra)
+
+
 def _gt_keys_s26(dtcd: int) -> set:
     df = load_gt("S00026")
     if df.empty:
@@ -299,9 +321,12 @@ def build_report() -> pd.DataFrame:
                     gt_keys = _gt_keys_s22(dtcd, mapped_itcds)
                     ex_keys = _ex_keys_s22(coded_files) if coded_files else set()
 
-                match_cnt = len(gt_keys & ex_keys)
-                miss_cnt = len(gt_keys - ex_keys)
-                extra_cnt = len(ex_keys - gt_keys)
+                if table_type == "S00026":
+                    match_cnt, miss_cnt, extra_cnt = _compare_s26_keys(gt_keys, ex_keys)
+                else:
+                    match_cnt = len(gt_keys & ex_keys)
+                    miss_cnt = len(gt_keys - ex_keys)
+                    extra_cnt = len(ex_keys - gt_keys)
 
                 if table_type == "S00026":
                     if gt_keys:
