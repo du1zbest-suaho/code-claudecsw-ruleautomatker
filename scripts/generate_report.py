@@ -358,18 +358,35 @@ def build_report() -> pd.DataFrame:
             struct_map = load_structural_issues()
             issues = struct_map.get(dtcd, [])
             if issues:
-                types    = ", ".join(dict.fromkeys(i["문제유형"] for i in issues))  # 중복 제거
-                any_open = any(i["상태"] != "해결됨" for i in issues)
-                status   = "미해결" if any_open else "해결됨"
-                # 미해결 문제 설명 (줄바꿈으로 연결)
+                types    = ", ".join(dict.fromkeys(i["문제유형"] for i in issues if i["문제유형"]))
+                statuses = [i["상태"] for i in issues]
+                # 우선순위: 미해결 > 처리불가 > 해결
+                if any(s == "미해결" for s in statuses):
+                    status = "미해결"
+                elif any(s == "처리불가" for s in statuses):
+                    status = "처리불가"
+                elif all(s == "해결" for s in statuses):
+                    status = "해결"
+                else:
+                    status = "미해결"
+                # 형태: "문제유형 (상태)" 요약 (중복 제거)
+                seen_type = {}
+                for i in issues:
+                    t = i["문제유형"]
+                    s = i["상태"]
+                    if t not in seen_type or s == "미해결":
+                        seen_type[t] = s
+                struct_shape = ", ".join(f"{t}({s})" for t, s in seen_type.items())
+                # 미해결/처리불가 문제 설명
                 descs = [f"[{i['문제유형']}] {i['문제설명']}"
-                         for i in issues if i["상태"] != "해결됨"]
+                         for i in issues if i["상태"] != "해결"]
                 desc_text = "\n".join(descs)
             else:
-                types, status, desc_text = "", "", ""
+                types, status, struct_shape, desc_text = "", "", "", ""
 
             row_data["구조적_문제유형"] = types
             row_data["구조적_상태"]    = status
+            row_data["구조적_형태"]    = struct_shape
             row_data["구조적_문제설명"] = desc_text
 
             # ── 진행상태: 4개 테이블 모두 완료 기준 ──────────────────────────
@@ -403,6 +420,7 @@ def save_report(df: pd.DataFrame, output_path: str):
             "보험종목명": 50,
             "구조적_문제유형": 16,
             "구조적_상태":    12,
+            "구조적_형태":    30,
             "구조적_문제설명": 55,
             "진행상태":       12,
         }
@@ -439,6 +457,7 @@ def save_report(df: pd.DataFrame, output_path: str):
         struct_cols   = {
             "구조적_문제유형": [i + 1 for i, c in enumerate(df.columns) if c == "구조적_문제유형"],
             "구조적_상태":    [i + 1 for i, c in enumerate(df.columns) if c == "구조적_상태"],
+            "구조적_형태":    [i + 1 for i, c in enumerate(df.columns) if c == "구조적_형태"],
             "구조적_문제설명": [i + 1 for i, c in enumerate(df.columns) if c == "구조적_문제설명"],
         }
         struct_type_col  = struct_cols["구조적_문제유형"][0]  if struct_cols["구조적_문제유형"]  else None
@@ -475,7 +494,12 @@ def save_report(df: pd.DataFrame, output_path: str):
                     cell.fill = PatternFill(start_color=color, end_color=color, fill_type="solid")
                     cell.font = Font(bold=True, size=10)
                 elif is_struct and struct_status:
-                    cell.fill = struct_resolved_fill if struct_status == "해결됨" else struct_unresolved_fill
+                    if struct_status == "해결":
+                        cell.fill = struct_resolved_fill
+                    elif struct_status == "처리불가":
+                        cell.fill = PatternFill(start_color="D9D9D9", end_color="D9D9D9", fill_type="solid")
+                    else:
+                        cell.fill = struct_unresolved_fill
                     if col_idx == struct_stat_col:
                         cell.font = Font(bold=True, size=10)
 
