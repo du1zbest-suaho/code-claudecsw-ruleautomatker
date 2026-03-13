@@ -1138,6 +1138,12 @@ class ExtractionRules:
         if not payment_periods:
             return []
 
+        # 가입최저나이 추출 (예: "가입최저나이 : 만 19세" → 19, 없으면 0)
+        min_entry_age = 0
+        m_min = re.search(r"가입최저나이\s*[:：]\s*만?\s*(\d+)\s*세", text)
+        if m_min:
+            min_entry_age = int(m_min.group(1))
+
         # 전기납 최소 납입연수 파악 (예: "전기납(10년이상)" → 10)
         min_elective_yrs = 10
         m = re.search(r"전기납\s*\((\d+)년\s*이상\)", text)
@@ -1172,7 +1178,7 @@ class ExtractionRules:
                     "insurance_period": "",
                     "payment_period": pp_key,
                     "gender": None,
-                    "min_age": 0,
+                    "min_age": min_entry_age,
                     "max_age": max_age,
                 })
 
@@ -1192,7 +1198,7 @@ class ExtractionRules:
                     "insurance_period": "",
                     "payment_period": "일시납",
                     "gender": None,
-                    "min_age": 0,
+                    "min_age": min_entry_age,
                     "max_age": max_age,
                 })
 
