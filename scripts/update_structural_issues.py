@@ -49,10 +49,13 @@ def read_report_status(report_path: str) -> dict:
 
 
 def determine_new_status(dtcd: int, issue_type: str, report_status: dict,
-                          current_status: str) -> tuple:
+                          current_status: str, answer: str = '') -> tuple:
     """
     새 상태 결정 및 이유 반환.
     Returns: (new_status_str, reason_str, fill_color)
+
+    처리불가 조건: 답변이 없고 ITCD불일치인 경우만.
+    답변이 있으면 해결 방법이 존재하므로 '미해결'로 처리.
     """
     rpt = report_status.get(dtcd, '-')
 
@@ -68,7 +71,12 @@ def determine_new_status(dtcd: int, issue_type: str, report_status: dict,
         if rpt == 'FAIL':
             return '미해결', 'GT NaN ip/pp — 추출 값 불일치 또는 max_age 오차', FILL_UNRESOLVED
     if issue_type == 'ITCD불일치':
-        return '처리불가', 'ITCD별 구분 추출 미구현 (복잡 아키텍처)', FILL_BLOCKED
+        if answer.strip():
+            # 답변(해결방법)이 작성된 경우 → 구현 가능, 미해결로 처리
+            return '미해결', 'ITCD별 구분 구현 필요 (답변 있음)', FILL_UNRESOLVED
+        else:
+            # 답변 없음 → 해결 방법 미정, 처리불가
+            return '처리불가', 'ITCD별 구분 추출 미구현 (복잡 아키텍처)', FILL_BLOCKED
 
     return current_status, '', None
 
@@ -102,9 +110,10 @@ def update_structural_issues(report_path: str, si_path: str = "data/structural_i
 
         issue_type = str(ws.cell(row_idx, col_issue).value or '').strip()
         cur_status = str(ws.cell(row_idx, col_status).value or '').strip()
+        answer     = str(ws.cell(row_idx, col_answer).value or '').strip()
 
         new_status, reason, fill = determine_new_status(
-            dtcd, issue_type, report_status, cur_status)
+            dtcd, issue_type, report_status, cur_status, answer)
 
         if new_status != cur_status:
             ws.cell(row_idx, col_status).value = new_status
