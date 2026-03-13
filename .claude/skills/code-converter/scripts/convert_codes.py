@@ -20,6 +20,10 @@ def convert_insurance_period(raw: str) -> dict:
     """자연어 보험기간 → 시스템코드"""
     raw = str(raw).strip()
 
+    # 빈 문자열 / NaN → None (연금보험 등 보험기간 미지정 상품)
+    if not raw or raw in ('nan', 'None', '-'):
+        return {"ISRN_TERM": None, "ISRN_TERM_DVSN_CODE": None, "ISRN_TERM_INQY_CODE": None}
+
     # 종신
     if re.search(r"종신", raw):
         return {"ISRN_TERM": 999, "ISRN_TERM_DVSN_CODE": "A", "ISRN_TERM_INQY_CODE": "A999"}

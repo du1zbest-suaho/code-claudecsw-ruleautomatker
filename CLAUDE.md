@@ -156,6 +156,13 @@ python .claude/skills/validator/scripts/check_combination_completeness.py \
   --output output/reports/{upper_obj}_S00026_{run_id}_completeness.json
 ```
 
+**비교키 기준 (5-1)**:
+- `data/models/{테이블}_모델상세.xlsx`에서 ROW번호 ~ 생성일시 사이 컬럼을 동적 로드
+  (`model_key_loader.py` → `load_model_key_cols()`)
+- **상품세목별 활성 컬럼**: GT·EX 양쪽에 non-None 값이 있는 컬럼만 비교키로 사용
+  (`get_active_key_cols()` — 상품에 따라 사용 컬럼이 다르므로 DTCD별 동적 결정)
+- NULL 정규화: NaN/None→None, 숫자→문자열 통일 (Excel int ↔ JSON str 타입 불일치 처리)
+
 **분기 조건**:
 - `MISMATCH = 0, MISSING = 0` → STEP 7로 진행
 - `MISSING > 0` → STEP 3 재실행 (누락 항목 힌트 포함, 최대 2회). 2회 실패 시 사용자에게 에스컬레이션

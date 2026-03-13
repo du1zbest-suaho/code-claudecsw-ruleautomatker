@@ -14,7 +14,22 @@
     {
       "sub_type": "1종(신계약체결용)",
       "insurance_period": "종신",
+      "payment_period": "6년납"
+    },
+    {
+      "sub_type": "1종(신계약체결용)",
+      "insurance_period": "종신",
       "payment_period": "7년납"
+    },
+    {
+      "sub_type": "1종(신계약체결용)",
+      "insurance_period": "종신",
+      "payment_period": "8년납"
+    },
+    {
+      "sub_type": "1종(신계약체결용)",
+      "insurance_period": "종신",
+      "payment_period": "9년납"
     },
     {
       "sub_type": "1종(신계약체결용)",
@@ -174,7 +189,22 @@
     {
       "sub_type": "2종(계좌이체용)",
       "insurance_period": "종신",
+      "payment_period": "6년납"
+    },
+    {
+      "sub_type": "2종(계좌이체용)",
+      "insurance_period": "종신",
       "payment_period": "7년납"
+    },
+    {
+      "sub_type": "2종(계좌이체용)",
+      "insurance_period": "종신",
+      "payment_period": "8년납"
+    },
+    {
+      "sub_type": "2종(계좌이체용)",
+      "insurance_period": "종신",
+      "payment_period": "9년납"
     },
     {
       "sub_type": "2종(계좌이체용)",
@@ -334,7 +364,22 @@
     {
       "sub_type": "2종(적립형)",
       "insurance_period": "종신",
+      "payment_period": "6년납"
+    },
+    {
+      "sub_type": "2종(적립형)",
+      "insurance_period": "종신",
       "payment_period": "7년납"
+    },
+    {
+      "sub_type": "2종(적립형)",
+      "insurance_period": "종신",
+      "payment_period": "8년납"
+    },
+    {
+      "sub_type": "2종(적립형)",
+      "insurance_period": "종신",
+      "payment_period": "9년납"
     },
     {
       "sub_type": "2종(적립형)",
@@ -488,7 +533,7 @@
     }
   ],
   "discrepancies": [],
-  "row_count": 96,
+  "row_count": 105,
   "coded_rows": [
     {
       "ISRN_TERM": 999,
@@ -508,6 +553,20 @@
       "ISRN_TERM": 999,
       "ISRN_TERM_DVSN_CODE": "A",
       "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 6,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N6",
+      "sub_type": "1종(신계약체결용)",
+      "_raw": {
+        "sub_type": "1종(신계약체결용)",
+        "insurance_period": "종신",
+        "payment_period": "6년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
       "PAYM_TERM": 7,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N7",
@@ -516,6 +575,34 @@
         "sub_type": "1종(신계약체결용)",
         "insurance_period": "종신",
         "payment_period": "7년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 8,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N8",
+      "sub_type": "1종(신계약체결용)",
+      "_raw": {
+        "sub_type": "1종(신계약체결용)",
+        "insurance_period": "종신",
+        "payment_period": "8년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 9,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N9",
+      "sub_type": "1종(신계약체결용)",
+      "_raw": {
+        "sub_type": "1종(신계약체결용)",
+        "insurance_period": "종신",
+        "payment_period": "9년납"
       }
     },
     {
@@ -956,6 +1043,20 @@
       "ISRN_TERM": 999,
       "ISRN_TERM_DVSN_CODE": "A",
       "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 6,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N6",
+      "sub_type": "2종(계좌이체용)",
+      "_raw": {
+        "sub_type": "2종(계좌이체용)",
+        "insurance_period": "종신",
+        "payment_period": "6년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
       "PAYM_TERM": 7,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N7",
@@ -964,6 +1065,34 @@
         "sub_type": "2종(계좌이체용)",
         "insurance_period": "종신",
         "payment_period": "7년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 8,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N8",
+      "sub_type": "2종(계좌이체용)",
+      "_raw": {
+        "sub_type": "2종(계좌이체용)",
+        "insurance_period": "종신",
+        "payment_period": "8년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 9,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N9",
+      "sub_type": "2종(계좌이체용)",
+      "_raw": {
+        "sub_type": "2종(계좌이체용)",
+        "insurance_period": "종신",
+        "payment_period": "9년납"
       }
     },
     {
@@ -1404,6 +1533,20 @@
       "ISRN_TERM": 999,
       "ISRN_TERM_DVSN_CODE": "A",
       "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 6,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N6",
+      "sub_type": "2종(적립형)",
+      "_raw": {
+        "sub_type": "2종(적립형)",
+        "insurance_period": "종신",
+        "payment_period": "6년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
       "PAYM_TERM": 7,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N7",
@@ -1412,6 +1555,34 @@
         "sub_type": "2종(적립형)",
         "insurance_period": "종신",
         "payment_period": "7년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 8,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N8",
+      "sub_type": "2종(적립형)",
+      "_raw": {
+        "sub_type": "2종(적립형)",
+        "insurance_period": "종신",
+        "payment_period": "8년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 9,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N9",
+      "sub_type": "2종(적립형)",
+      "_raw": {
+        "sub_type": "2종(적립형)",
+        "insurance_period": "종신",
+        "payment_period": "9년납"
       }
     },
     {

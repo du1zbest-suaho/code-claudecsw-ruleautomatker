@@ -121,6 +121,90 @@
         "min_age": 15,
         "max_age": 69
       }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 20,
+      "MAX_AG": 66,
+      "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
+      "_raw": {
+        "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
+        "insurance_period": "종신",
+        "payment_period": "10년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 66
+      },
+      "_health_body_adjusted": true
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 20,
+      "MAX_AG": 69,
+      "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
+      "_raw": {
+        "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
+        "insurance_period": "종신",
+        "payment_period": "10년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 69
+      },
+      "_health_body_adjusted": true
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 20,
+      "MAX_AG": 66,
+      "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
+      "_raw": {
+        "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
+        "insurance_period": "종신",
+        "payment_period": "20년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 66
+      },
+      "_health_body_adjusted": true
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 20,
+      "MAX_AG": 69,
+      "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
+      "_raw": {
+        "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
+        "insurance_period": "종신",
+        "payment_period": "20년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 69
+      },
+      "_health_body_adjusted": true
     }
   ],
   "convert_errors": [],

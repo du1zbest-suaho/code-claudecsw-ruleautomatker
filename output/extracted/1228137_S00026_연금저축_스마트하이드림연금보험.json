@@ -1253,8 +1253,24 @@
       "gender": null,
       "min_age": 0,
       "max_age": 70
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "",
+      "gender": null,
+      "min_age": 55,
+      "max_age": 80
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "",
+      "payment_period": "",
+      "gender": null,
+      "min_age": 55,
+      "max_age": 99
     }
   ],
   "discrepancies": [],
-  "row_count": 156
+  "row_count": 158
 }

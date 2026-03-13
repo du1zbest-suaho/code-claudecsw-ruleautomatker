@@ -135,7 +135,9 @@ def build_product_mapping(dtcd: str, entries: list) -> dict:
         mappings.append({
             "sub_type": e["sale_nm"],
             "upper_object_code": f"{e['dtcd']}{e['itcd']}",
+            "upper_object_name": e["sale_nm"],
             "lower_object_code": f"{e['prod_dtcd']}{e['prod_itcd']}",
+            "lower_object_name": e["prod_sale_nm"],
         })
     return {"product_mappings": mappings}
 
@@ -156,6 +158,55 @@ def run_cmd(args_list: list, label: str = "") -> int:
         last_line = result.stdout.strip().splitlines()[-1]
         print(f"  {last_line}")
     return result.returncode
+
+
+# ─── 건강체/표준체 분리상품 후처리 ──────────────────────────────────────────────
+
+def _apply_health_body_postprocess(coded_json_path: str, grp_entries: list) -> None:
+    """건강체 ITCD가 포함된 상품의 S00026 코드변환 결과에 min_age=20 행 추가.
+
+    규칙: 표준체/건강체 분리상품의 경우 건강체 ITCD의 가입최저나이가 20세 미만이면
+    20세로 치환 (GT DB 관례). 표준체 행과 별도로 min_age=20 행을 추가함으로써
+    건강체 ITCD의 GT 키를 커버한다.
+
+    적용 조건:
+    - grp_entries 중 sale_nm에 '건강체'가 포함된 항목이 있을 것
+    - coded_json_path 파일이 존재할 것
+    """
+    has_health = any("건강체" in e.get("sale_nm", "") for e in grp_entries)
+    if not has_health:
+        return
+    if not os.path.exists(coded_json_path):
+        return
+
+    with open(coded_json_path, encoding="utf-8") as f:
+        data = json.load(f)
+
+    existing = data.get("coded_rows", [])
+    new_rows = []
+    seen_keys = set(
+        (r.get("ISRN_TERM_INQY_CODE"), r.get("PAYM_TERM_INQY_CODE"),
+         r.get("MINU_GNDR_CODE"), r.get("MIN_AG"), r.get("MAX_AG"))
+        for r in existing
+    )
+
+    for r in existing:
+        min_a = r.get("MIN_AG")
+        if min_a is not None and min_a < 20:
+            new_min = 20
+            key = (r.get("ISRN_TERM_INQY_CODE"), r.get("PAYM_TERM_INQY_CODE"),
+                   r.get("MINU_GNDR_CODE"), new_min, r.get("MAX_AG"))
+            if key not in seen_keys:
+                seen_keys.add(key)
+                new_row = dict(r)
+                new_row["MIN_AG"] = new_min
+                new_row["_health_body_adjusted"] = True
+                new_rows.append(new_row)
+
+    if new_rows:
+        data["coded_rows"] = existing + new_rows
+        with open(coded_json_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
 
 
 # ─── 단일 PDF 처리 ────────────────────────────────────────────────────────────
@@ -289,6 +340,10 @@ def process_pdf(pdf_path: str, mapping_db: dict, run_id: str) -> dict:
             if rc != 0:
                 result["tables"][table_key] = "convert_error"
                 continue
+
+            # 건강체/표준체 분리상품 후처리 (S00026 전용)
+            if table_type == "S00026":
+                _apply_health_body_postprocess(coded_json, grp_entries)
 
             if not os.path.exists(template_file):
                 result["tables"][table_key] = "no_template"

@@ -27,6 +27,14 @@
       "insurance_period": "1년만기",
       "payment_period": "전기납",
       "gender": "남녀공통",
+      "min_age": 19,
+      "max_age": 49
+    },
+    {
+      "sub_type": "기본형",
+      "insurance_period": "1년만기",
+      "payment_period": "전기납",
+      "gender": "남녀공통",
       "min_age": 20,
       "max_age": 53
     },
@@ -40,7 +48,7 @@
     }
   ],
   "discrepancies": [],
-  "row_count": 4,
+  "row_count": 5,
   "coded_rows": [
     {
       "ISRN_TERM": 1,
@@ -80,6 +88,26 @@
         "gender": "남녀공통",
         "min_age": 5,
         "max_age": 99
+      }
+    },
+    {
+      "ISRN_TERM": 1,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N1",
+      "PAYM_TERM": 1,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N1",
+      "MINU_GNDR_CODE": null,
+      "MIN_AG": 19,
+      "MAX_AG": 49,
+      "sub_type": "기본형",
+      "_raw": {
+        "sub_type": "기본형",
+        "insurance_period": "1년만기",
+        "payment_period": "전기납",
+        "gender": "남녀공통",
+        "min_age": 19,
+        "max_age": 49
       }
     },
     {

@@ -46,13 +46,26 @@ class ExtractionRules:
         # 보험기간 헤더 정규화: "60세\n만기" → "60세만기", "10년\n만기" → "10년만기"
         text = re.sub(r'(\d+)\s*세\s*\n\s*만기', r'\1세만기', text)
         text = re.sub(r'(\d+)\s*년\s*\n\s*만기', r'\1년만기', text)
+        # 만N세 줄바꿈 아티팩트 보정: "만N세\n~M세" → "만N세~M세", "만N세~M\n세" → (already fixed above)
+        # e정기보험 등: 만19세\n~49세 형태 → 만19세~49세
+        text = re.sub(r'(만\d+세)\n~', r'\1~', text)
+        # 만N세 접두어 제거: "만19세" → "19세" (가입나이 파싱에서 만 접두어 무시)
+        text = re.sub(r'만(\d+세)', r'\1', text)
 
         results = []
+
+        # 패턴 A-0-5: 연금보험 연금개시나이×납입기간 테이블 (max_age 셀 직접 기재 형식)
+        # 예: 연금보험Enterprise — 연금개시나이별 row, 거치형/N년납/전기납 columns, 셀=max_age
+        annuity_onset_rows = self._parse_annuity_onset_table(text)
+        if annuity_onset_rows:
+            return annuity_onset_rows
 
         # 패턴 A-1: 연금보험 가입최고나이 공식 "(연금개시나이-납입기간)세" 형식
         # 납입기간 × 연금개시나이 조합을 자동 계산하여 생성
         annuity_rows = self._extract_annuity_age_by_formula(text)
         if annuity_rows:
+            # 연금전환특약 추가 rows (1745 스마트하이드림 등)
+            annuity_rows.extend(self._extract_annuity_conversion_rows(text))
             return annuity_rows
 
         # 패턴 A0: 성별 구분 섹션 형식 (남자/여자가 행 헤더로 분리된 테이블)
@@ -84,7 +97,7 @@ class ExtractionRules:
         sub: 세부상품종목명
         """
         section_results = []
-        payment_pattern = r"(\d+\s*년납|\d+\s*세납|전기납|일시납)\s+((?:만?\d+\s*세?\s*[~～\-]\s*\d+\s*세\s*)+)"
+        payment_pattern = r"(\d+\s*년납|\d+\s*세납|전기납|일시납)[\s\-]+((?:만?\d+\s*세?\s*[~～\-]\s*\d+\s*세\s*)+)"
         range_pattern = r"만?\s*(\d+)\s*세?\s*[~～\-]\s*(\d+)\s*세"
 
         insurance_periods = self._find_insurance_periods_in_header(section)
@@ -119,6 +132,24 @@ class ExtractionRules:
                             "min_age": min_a,
                             "max_age": max_a
                         })
+                elif insurance_periods and 0 < len(ranges) < len(insurance_periods):
+                    # 일부 IP 컬럼이 "-"(불가)인 희소 행: e정기보험 순수보장형처럼
+                    # 납입기간 레이블 뒤와 첫 범위 사이 텍스트에서 "-" 개수 세어 skip 결정
+                    between = part[pm.end(1):pm.start(2)]
+                    dash_count = len(re.findall(r'(?<!\d)-(?!\d)', between))
+                    n_skip = dash_count if dash_count == len(insurance_periods) - len(ranges) else (len(insurance_periods) - len(ranges))
+                    start_idx = n_skip
+                    if start_idx + len(ranges) == len(insurance_periods):
+                        for i, (min_a, max_a) in enumerate(ranges):
+                            ip = insurance_periods[start_idx + i]
+                            section_results.append({
+                                "sub_type": sub,
+                                "insurance_period": ip,
+                                "payment_period": payment,
+                                "gender": current_gender,
+                                "min_age": min_a,
+                                "max_age": max_a
+                            })
                 elif not insurance_periods and ranges:
                     min_a, max_a = ranges[0]
                     section_results.append({
@@ -275,6 +306,7 @@ class ExtractionRules:
         # 납입기간 행 + 나이범위 파싱
         # 패턴: "N년납\s+(만?\d+세~\d+세\s*)+" 또는 "전기납\s+(만?\d+세~\d+세\s*)+"
         # 확장: 만N~N세 (세 생략), N 세~N 세 (공백 포함), N세납(60세납 등) 지원
+        # 주의: 이 메서드는 sparse 처리 없이 직접 rows를 만듦 → \s+ 유지 ([\s\-]+ 사용 불가)
         payment_pattern = r"(\d+\s*년납|\d+\s*세납|전기납|일시납)\s+((?:만?\d+\s*세?\s*[~～\-]\s*\d+\s*세\s*)+)"
         for m in re.finditer(payment_pattern, section):
             payment = m.group(1).replace(" ", "")
@@ -1103,8 +1135,19 @@ class ExtractionRules:
         return periods
 
     def _extract_all_payment_periods(self, text: str) -> List[str]:
-        """텍스트에서 납입기간 목록 추출"""
+        """텍스트에서 납입기간 목록 추출.
+        'N~M년납' 또는 'N~M년,' 범위 표현도 지원 (예: 5~10년납 또는 5~10년, → 모두 포함)
+        """
         periods = []
+        # N~M년납 또는 N~M년, 범위 확장 (예: 5~10년납 또는 5~10년, → 5,6,7,8,9,10년납)
+        for m in re.finditer(r"(\d+)\s*[~～]\s*(\d+)\s*년[납,]", text):
+            n1, n2 = int(m.group(1)), int(m.group(2))
+            if 1 <= n1 < n2 <= 50:
+                for n in range(n1, n2 + 1):
+                    val = f"{n}년납"
+                    if val not in periods:
+                        periods.append(val)
+
         patterns = [r"\d+년납", r"\d+세납", r"전기납", r"종신납", r"일시납"]
         for pattern in patterns:
             for m in re.finditer(pattern, text):
@@ -1183,26 +1226,28 @@ class ExtractionRules:
                 })
 
         # 거치형 공식 행 생성: 0 ~ (연금개시나이- 1)세 → max = onset - 1
-        geochi_pat = r"거치형[^\n]{0,20}0\s*[~～]\s*\(연금개시나이\s*[-－]\s*1\)\s*세"
+        # GT에서 거치형/일시납은 pp=NaN(''로 저장) → payment_period="" 사용
+        geochi_pat = r"거치형[\s\S]{0,30}0\s*[~～]\s*\(연금개시나이\s*[-－]\s*1\)\s*세"
         if re.search(geochi_pat, text):
             for onset_age in range(min_onset, max_onset + 1):
                 max_age = onset_age - 1
                 if max_age < 0:
                     continue
-                key = ("일시납_거치형", max_age)
+                key = ("거치형_nan", max_age)
                 if key in seen:
                     continue
                 seen.add(key)
                 rows.append({
                     "sub_type": "거치형",
                     "insurance_period": "",
-                    "payment_period": "일시납",
+                    "payment_period": "",  # GT: 거치형=일시납은 pp=NaN으로 저장
                     "gender": None,
                     "min_age": min_entry_age,
                     "max_age": max_age,
                 })
 
         # 즉시형 직접 범위 추가: '즉시형 만N세 ~ M세'
+        # GT에서 즉시형은 pp=NaN('') 으로 저장되므로 payment_period="" 사용
         soksi_m = re.search(r"즉시형[^\n]{0,10}만?\s*(\d+)\s*세\s*[~～]\s*(\d+)\s*세", text)
         if soksi_m:
             si_min, si_max = int(soksi_m.group(1)), int(soksi_m.group(2))
@@ -1212,26 +1257,46 @@ class ExtractionRules:
                 rows.append({
                     "sub_type": "즉시형",
                     "insurance_period": "",
-                    "payment_period": "일시납",
+                    "payment_period": "",  # GT: 즉시형은 pp=NaN으로 저장
                     "gender": None,
                     "min_age": si_min,
                     "max_age": si_max,
                 })
 
+        # 연금전환특약 확정기간연금형: min=si_min, max=99 (GT 관례)
+        # '연금전환특약' + '확정기간' 텍스트가 있을 경우 추가
+        if soksi_m and re.search(r"연금전환특약", text) and re.search(r"확정기간", text):
+            si_min = int(soksi_m.group(1))
+            key_conv = ("연금전환_확정기간", si_min, 99)
+            if key_conv not in seen:
+                seen.add(key_conv)
+                rows.append({
+                    "sub_type": "연금전환특약_확정기간",
+                    "insurance_period": "",
+                    "payment_period": "",
+                    "gender": None,
+                    "min_age": si_min,
+                    "max_age": 99,
+                })
+
         return rows
 
     def _extract_annuity_onset_range_max(self, text: str):
-        """텍스트 내 모든 연금개시나이 범위를 찾아 최대 범위(min, max) 반환"""
+        """텍스트 내 모든 연금개시나이 범위를 찾아 최대 범위(min, max) 반환.
+        각 '연금개시나이' 출현 위치에서 200자 이내의 모든 나이 범위를 탐색.
+        """
         all_mins, all_maxes = [], []
-        for pat in [
-            r"(?:연금|보기)개시(?:나이|연령)[\s\S]{0,200}?만?\s*(\d+)\s*세\s*[~～]\s*(\d+)\s*세",
-            r"(?:연금|보기)개시(?:나이|연령)[\s\S]{0,200}?(\d+)\s*[~～]\s*(\d+)\s*세",
-        ]:
-            for m in re.finditer(pat, text):
-                v1, v2 = int(m.group(1)), int(m.group(2))
-                if 40 <= v1 <= 80 and v1 < v2 <= 130:
-                    all_mins.append(v1)
-                    all_maxes.append(v2)
+        age_range_pat = re.compile(r"만?\s*(\d+)\s*세\s*[~～]\s*(\d+)\s*세")
+        age_range_pat2 = re.compile(r"(\d+)\s*[~～]\s*(\d+)\s*세")
+
+        for anchor in re.finditer(r"(?:연금|보기)개시(?:나이|연령)", text):
+            window = text[anchor.start():anchor.start() + 300]
+            for pat in [age_range_pat, age_range_pat2]:
+                for m in pat.finditer(window):
+                    v1, v2 = int(m.group(1)), int(m.group(2))
+                    if 40 <= v1 <= 80 and v1 < v2 <= 130:
+                        all_mins.append(v1)
+                        all_maxes.append(v2)
         if all_mins:
             return (min(all_mins), max(all_maxes))
         return None
@@ -1249,6 +1314,249 @@ class ExtractionRules:
             if m:
                 return (int(m.group(1)), int(m.group(2)))
         return None
+
+    def _parse_annuity_onset_table(self, text: str) -> List[Dict]:
+        """
+        연금보험 연금개시나이×납입기간 테이블 파싱.
+        "가입최고나이 : 연금개시나이, 납입기간별로" 트리거 조건.
+        예: 연금보험Enterprise — 연금개시나이별 row, 거치형/N년납/전기납 columns, 셀=max_age 정수.
+
+        구조:
+          연금개시나이  거치형  7년납  10년납  15년납  20년납  전기납
+          45세         41     34     32     29     24     31
+          ...
+        [ 남 자 ] / [ 여 자 ] 성별 구분 두 테이블
+
+        반환: [{"sub_type":"기본형","insurance_period":"","payment_period":pp,
+                "gender":gender,"min_age":min_age,"max_age":max_age}, ...]
+        """
+        # 트리거: "가입최고나이 : 연금개시나이, 납입기간별로"
+        if not re.search(r"가입최고나이[^\n]{0,50}연금개시나이[^\n]{0,50}납입기간별", text):
+            return []
+
+        # 가입최저나이 추출
+        min_age = 0
+        m_min = re.search(r"가입최저나이[:\s]+(?:만\s*)?(\d+)세", text)
+        if m_min:
+            min_age = int(m_min.group(1))
+
+        rows = []
+        seen: set = set()
+
+        # 성별 블록 분리: [ 남 자 ] ... [ 여 자 ] ...
+        gender_block_pat = re.compile(r"\[\s*남\s*자\s*\]|\[\s*여\s*자\s*\]")
+        gender_blocks = list(gender_block_pat.finditer(text))
+
+        if not gender_blocks:
+            return []
+
+        block_data = []
+        for i, gm in enumerate(gender_blocks):
+            gender_str = re.sub(r"[\[\]\s]", "", gm.group(0))  # 남자 or 여자
+            block_end = gender_blocks[i + 1].start() if i + 1 < len(gender_blocks) else len(text)
+            block_text = text[gm.end():block_end]
+            block_data.append((gender_str, block_text))
+
+        for gender_str, block_text in block_data:
+            # 헤더 행 탐지: "거치형", "N년납", "전기납" 등이 있는 줄 (멀티라인 헤더 지원)
+            # 실제 PDF: 거치형 / 적립형(sub) / 7년납 / 10년납 / 15년납 / 20년납 / 전기납 이 각각 별도 줄
+            header_columns: Optional[List[str]] = None
+            lines = block_text.splitlines()
+            i = 0
+            while i < len(lines):
+                line = lines[i].strip()
+
+                # 헤더 탐지: 거치형 또는 전기납 또는 N년납이 있는 줄에서 시작
+                if re.search(r"거치형|\d+년납|전기납", line):
+                    # 연속된 헤더 줄들을 수집 (거치형, N년납, 전기납만 포함)
+                    header_tokens = []
+                    j = i
+                    # 데이터 행(N세) 이전까지 헤더 줄들을 수집
+                    # 비식별 sub-header(적립형 등)는 스킵하고 계속 진행
+                    consecutive_non_header = 0
+                    while j < len(lines):
+                        hline = lines[j].strip()
+                        # 스킵: 페이지 구분자, 빈 줄
+                        if re.match(r"^---", hline) or hline == "":
+                            j += 1
+                            consecutive_non_header = 0
+                            continue
+                        # 거치형 추가
+                        if re.match(r"^거치형$", hline):
+                            header_tokens.append("거치형")
+                            j += 1
+                            consecutive_non_header = 0
+                            continue
+                        # N년납 추가
+                        ny_m = re.match(r"^(\d+년납)$", hline)
+                        if ny_m:
+                            header_tokens.append(ny_m.group(1))
+                            j += 1
+                            consecutive_non_header = 0
+                            continue
+                        # 전기납 추가
+                        if re.match(r"^전기납$", hline):
+                            header_tokens.append("전기납")
+                            j += 1
+                            consecutive_non_header = 0
+                            continue
+                        # 동일 줄에 여러 납입기간이 있는 경우
+                        if re.search(r"\d+년납|전기납|거치형", hline):
+                            for m in re.finditer(r"(거치형|\d+년납|전기납)", hline):
+                                header_tokens.append(m.group(1))
+                            j += 1
+                            consecutive_non_header = 0
+                            continue
+                        # 데이터 행(N세) → 헤더 수집 종료
+                        if re.match(r"(\d+)세\s*$", hline):
+                            break
+                        # 비식별 sub-header: 페이지 번호, 한글 서브섹션명(적립형 등) → 스킵하되 카운트
+                        consecutive_non_header += 1
+                        if consecutive_non_header > 3:
+                            # 너무 많은 비식별 줄 → 헤더가 끝났다고 판단
+                            break
+                        j += 1
+                    if header_tokens:
+                        header_columns = header_tokens
+                    i = j
+                    continue
+
+                # 데이터 행 탐지: "N세" 로 시작하는 줄 → 연금개시나이 행
+                onset_m = re.match(r"(\d+)세\s*$", line)
+                if onset_m and header_columns:
+                    onset_age = int(onset_m.group(1))
+                    # 다음 len(header_columns)개 숫자 줄 수집
+                    vals = []
+                    j = i + 1
+                    while j < len(lines) and len(vals) < len(header_columns):
+                        v_line = lines[j].strip()
+                        # 페이지 구분자/빈 줄/헤더 재시작은 스킵
+                        if re.match(r"^---", v_line) or v_line == "":
+                            j += 1
+                            continue
+                        # 페이지 번호 행 스킵 (예: "１- 3")
+                        if re.match(r"^[１-９\d\s*-]+\d+\s*$", v_line) and not re.match(r"^\d+$", v_line):
+                            j += 1
+                            continue
+                        # 헤더 반복 (멀티페이지) → 헤더 재파싱으로 이동 (break로 현재 데이터 행 종료)
+                        if re.search(r"거치형|전기납|\d+년납|연금개시나이", v_line):
+                            break
+                        # 순수 정수 셀 값
+                        v_m = re.match(r"^(\d+)$", v_line)
+                        if v_m:
+                            vals.append(int(v_m.group(1)))
+                            j += 1
+                            continue
+                        # 다음 연금개시나이 행 또는 비정수 행 → 데이터 수집 종료
+                        break
+
+                    if len(vals) == len(header_columns):
+                        for col_idx, col_name in enumerate(header_columns):
+                            max_age_val = vals[col_idx]
+                            if max_age_val < 0:
+                                continue
+                            # 납입기간 코드 결정
+                            if col_name == "거치형":
+                                pp = ""  # GT에서 거치형=일시납은 pp=NaN으로 저장
+                            elif col_name == "전기납":
+                                pp = f"{onset_age}세납"
+                            else:
+                                pp = col_name  # N년납
+                            key = (pp, gender_str, max_age_val)
+                            if key not in seen:
+                                seen.add(key)
+                                rows.append({
+                                    "sub_type": "기본형",
+                                    "insurance_period": "",
+                                    "payment_period": pp,
+                                    "gender": gender_str,
+                                    "min_age": min_age,
+                                    "max_age": max_age_val,
+                                })
+                    i = j
+                    continue
+                i += 1
+
+        return rows
+
+    def _extract_annuity_conversion_rows(self, text: str) -> List[Dict]:
+        """
+        연금전환특약 가입나이 추출 (1745 스마트하이드림연금보험 등).
+        "[...연금전환특약]" 섹션을 탐지하여 가입나이 행을 별도로 반환.
+        주계약 formula 행과 합산된다.
+
+        GT 구조 (1745):
+          ITCD 287: (ip='', pp='', gender=None, min=55, max=80) ← 종신연금형 (주계약 연금개시나이 상한)
+          ITCD 288-299: (ip='', pp='', gender=None, min=55, max=99) ← 확정기간연금형
+        """
+        # 트리거: "[...연금전환특약]" 섹션이 존재
+        bracket_m = re.search(r"\[[^\]]*연금전환특약[^\]]*\]", text)
+        if not bracket_m:
+            return []
+
+        rows = []
+        seen: set = set()
+        conv_section = text[bracket_m.start():bracket_m.start() + 3000]
+
+        # 가입최소나이: 연금지급 개시시점 표에서 첫 번째 나이 값 (55세 등)
+        # 또는 "가입최저나이 : N세" 패턴
+        conv_min = None
+        min_explicit = re.search(r"가입최저나이[:\s]+(?:만\s*)?(\d+)세", conv_section)
+        if min_explicit:
+            conv_min = int(min_explicit.group(1))
+        else:
+            # 연금지급 개시시점 테이블에서 최소 나이 추출
+            # 테이블 형식: "N세" 들이 나열됨 (55세, 56세, ...) → 가장 작은 값
+            onset_ages = [int(m.group(1)) for m in re.finditer(r"\b(\d+)세\s*\n", conv_section)
+                          if 50 <= int(m.group(1)) <= 70]
+            if onset_ages:
+                conv_min = min(onset_ages)
+
+        if conv_min is None:
+            return []
+
+        # 주계약 연금개시나이 최대값 추출 (종신연금형 max_age 기준)
+        # 주계약 섹션에서 "만 N세~M세" 또는 "N세~M세" 형식
+        onset_max_from_main = None
+        main_onset_m = re.search(
+            r"연금개시나이[\s\S]{0,200}?만?\s*(\d+)\s*세\s*[~～]\s*(\d+)\s*세", text[:bracket_m.start()]
+        )
+        if main_onset_m:
+            onset_max_from_main = int(main_onset_m.group(2))
+
+        # 확정기간연금형 여부 판단: 섹션에 "확정기간" 키워드 포함
+        has_jeonggi = bool(re.search(r"확정기간", conv_section))
+
+        # 종신연금형 여부: 주계약에 포함되어 있거나 섹션에 직접 언급
+        # → max_age = 주계약 연금개시나이 max (예: 80세)
+        if onset_max_from_main:
+            key_jong = ("", "", None, conv_min, onset_max_from_main)
+            if key_jong not in seen:
+                seen.add(key_jong)
+                rows.append({
+                    "sub_type": "기본형",
+                    "insurance_period": "",
+                    "payment_period": "",
+                    "gender": None,
+                    "min_age": conv_min,
+                    "max_age": onset_max_from_main,
+                })
+
+        # 확정기간연금형: max_age = 99 (연금가입 나이 상한, 사업방법서 관행)
+        if has_jeonggi:
+            key_hwa = ("", "", None, conv_min, 99)
+            if key_hwa not in seen:
+                seen.add(key_hwa)
+                rows.append({
+                    "sub_type": "기본형",
+                    "insurance_period": "",
+                    "payment_period": "",
+                    "gender": None,
+                    "min_age": conv_min,
+                    "max_age": 99,
+                })
+
+        return rows
 
     def _apply_exception(self, exception_config: dict, text: str) -> List[Dict]:
         """예외 룰 적용 (product_exceptions.json에 정의된 고정 데이터 반환)"""

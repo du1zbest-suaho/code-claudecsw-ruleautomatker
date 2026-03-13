@@ -1,6 +1,9 @@
 """
 compare_with_db.py — 기존 판매중_* 데이터와 행 단위 비교
 
+비교키: data/models/{테이블}_모델상세.xlsx의 ROW_NO ~ CREATE_DATE 사이 전체 컬럼
+        (model_key_loader.py에서 동적 로드)
+
 Usage:
     python compare_with_db.py \
         --input output/extracted/{upper_obj}_{table_type}_{run_id}_coded.json \
@@ -12,47 +15,38 @@ Usage:
 import argparse
 import json
 import os
+import sys
+import warnings
+
+warnings.filterwarnings("ignore")
 
 try:
-    import openpyxl
+    import pandas as pd
 except ImportError:
-    print("ERROR: openpyxl이 필요합니다. pip install openpyxl")
-    exit(1)
+    print("ERROR: pandas가 필요합니다. pip install pandas openpyxl")
+    sys.exit(1)
 
-
-# 테이블별 핵심 비교 필드
-COMPARE_FIELDS = {
-    "S00026": ["ISRN_TERM_INQY_CODE", "PAYM_TERM_INQY_CODE", "MINU_GNDR_CODE", "MIN_AG", "MAX_AG"],
-    "S00027": ["ISRN_TERM_INQY_CODE", "PAYM_TERM_INQY_CODE"],
-    "S00028": ["PAYM_CYCL_INQY_CODE"],
-    "S00022": ["MIN_AG", "MAX_AG"],
-}
+# model_key_loader는 같은 디렉토리에 있음
+_HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, _HERE)
+from model_key_loader import load_model_key_cols, make_row_key, get_active_key_cols  # noqa: E402
 
 
 def load_db_data(db_path: str, product_code: str) -> list:
-    """기존 DB에서 특정 상품코드의 데이터 로드"""
-    wb = openpyxl.load_workbook(db_path, read_only=True, data_only=True)
-    ws = wb.active
-
-    headers = []
-    rows = []
-    for i, row in enumerate(ws.iter_rows(values_only=True)):
-        if i == 0:
-            headers = [str(h).strip() if h else f"col_{i}" for i, h in enumerate(row)]
-        else:
-            row_dict = {headers[j]: row[j] for j in range(min(len(headers), len(row)))}
-            # 상품코드 필터링
-            upper = str(row_dict.get("UPPER_OBJECT_CODE", "")).strip()
-            if upper == product_code:
-                rows.append(row_dict)
-
-    wb.close()
-    return rows
-
-
-def make_row_key(row: dict, fields: list) -> tuple:
-    """비교용 행 키 생성"""
-    return tuple(str(row.get(f, "")).strip() for f in fields)
+    """기존 DB에서 특정 UPPER_OBJECT_CODE 행 로드 (pandas 사용)."""
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore")
+        df = pd.read_excel(db_path)
+    # UPPER_OBJECT_CODE 컬럼이 없으면 ISRN_KIND_DTCD+ITCD 조합으로 필터
+    if "UPPER_OBJECT_CODE" in df.columns:
+        filtered = df[df["UPPER_OBJECT_CODE"].astype(str).str.strip() == str(product_code)]
+    elif "ISRN_KIND_DTCD" in df.columns:
+        # product_code = dtcd+itcd (예: "2061A01") → DTCD 4자리 앞부분으로 필터
+        dtcd_str = product_code[:4]
+        filtered = df[df["ISRN_KIND_DTCD"].astype(str) == dtcd_str]
+    else:
+        filtered = df
+    return filtered.to_dict("records")
 
 
 def main():
@@ -69,7 +63,10 @@ def main():
     table_type = coded_data.get("table_type", "")
     coded_rows = coded_data.get("coded_rows", [])
 
-    compare_fields = COMPARE_FIELDS.get(table_type, [])
+    # 모델상세에서 전체 비교키 컬럼 로드
+    all_key_cols = load_model_key_cols(table_type)
+    if not all_key_cols:
+        print(f"WARNING: {table_type} 모델상세 파일 없음 또는 키 컬럼 없음. 빈 비교로 처리.")
 
     # DB 데이터 로드
     if not os.path.exists(args.db):
@@ -78,7 +75,14 @@ def main():
     else:
         db_rows = load_db_data(args.db, args.product_code)
 
-    # 행 키 셋 생성
+    # DTCD별 활성 컬럼: GT·EX 양쪽에 non-None 값이 있는 컬럼만
+    compare_fields = get_active_key_cols(db_rows, coded_rows, all_key_cols)
+    if not compare_fields:
+        # EX가 비어있는 경우 fallback: GT non-None 컬럼
+        compare_fields = [col for col in all_key_cols
+                          if any(make_row_key(r, [col])[0] is not None for r in db_rows)]
+
+    # 행 키셋 생성
     db_key_set = {make_row_key(r, compare_fields): r for r in db_rows}
     extracted_key_set = {make_row_key(r, compare_fields): r for r in coded_rows}
 
@@ -87,19 +91,15 @@ def main():
     new_rows = []
     missing = []
 
-    # 추출 결과 분류
     for key, row in extracted_key_set.items():
         if key in db_key_set:
             match.append({"key": key, "extracted": row, "db": db_key_set[key]})
         else:
             new_rows.append({"key": key, "extracted": row})
 
-    # 누락 탐지 (DB에 있으나 추출 결과에 없는 것)
     for key, row in db_key_set.items():
         if key not in extracted_key_set:
             missing.append({"key": key, "db": row})
-
-    # MISMATCH: 동일 키이지만 값이 다른 경우 (지금은 단순 키 비교이므로 추후 필요시 확장)
 
     summary = {
         "total_extracted": len(coded_rows),
@@ -107,7 +107,8 @@ def main():
         "match": len(match),
         "mismatch": len(mismatch),
         "new": len(new_rows),
-        "missing": len(missing)
+        "missing": len(missing),
+        "compare_fields": compare_fields,
     }
 
     passed = len(mismatch) == 0 and len(missing) == 0
@@ -120,17 +121,18 @@ def main():
         "fail_reason": f"MISMATCH {len(mismatch)}건, MISSING {len(missing)}건" if not passed else None,
         "mismatches": mismatch,
         "missing": missing,
-        "new_rows": new_rows
+        "new_rows": new_rows,
     }
 
     os.makedirs(os.path.dirname(args.output) if os.path.dirname(args.output) else ".", exist_ok=True)
     with open(args.output, "w", encoding="utf-8") as f:
-        json.dump(result, f, ensure_ascii=False, indent=2)
+        json.dump(result, f, ensure_ascii=False, indent=2, default=str)
 
     status = "PASS" if passed else "FAIL"
     print(f"{status}: match={len(match)}, mismatch={len(mismatch)}, new={len(new_rows)}, missing={len(missing)}")
+    print(f"  비교키 {len(compare_fields)}개: {compare_fields[:5]}{'...' if len(compare_fields) > 5 else ''}")
     return 0 if passed else 1
 
 
 if __name__ == "__main__":
-    exit(main())
+    sys.exit(main())

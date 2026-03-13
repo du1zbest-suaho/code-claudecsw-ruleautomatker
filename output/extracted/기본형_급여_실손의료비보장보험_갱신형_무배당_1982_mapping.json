@@ -3,22 +3,30 @@
     {
       "sub_type": "한화생명 기본형 급여 실손의료비보장보험(갱신형) 무배당(상해급여형)",
       "upper_object_code": "1982001",
-      "lower_object_code": "19821"
+      "upper_object_name": "한화생명 기본형 급여 실손의료비보장보험(갱신형) 무배당(상해급여형)",
+      "lower_object_code": "19821",
+      "lower_object_name": "한화생명 기본형 급여 실손의료비보장보험(갱신형) 무배당(상해급여형)"
     },
     {
       "sub_type": "한화생명 기본형 급여 실손의료비보장보험(갱신형) 무배당(질병급여형)",
       "upper_object_code": "1982002",
-      "lower_object_code": "19822"
+      "upper_object_name": "한화생명 기본형 급여 실손의료비보장보험(갱신형) 무배당(질병급여형)",
+      "lower_object_code": "19822",
+      "lower_object_name": "한화생명 기본형 급여 실손의료비보장보험(갱신형) 무배당(질병급여형)"
     },
     {
       "sub_type": "한화생명 기본형 급여 실손의료비보장보험(갱신형) 무배당(상해급여형)(태아가입용)",
       "upper_object_code": "1982003",
-      "lower_object_code": "19823"
+      "upper_object_name": "한화생명 기본형 급여 실손의료비보장보험(갱신형) 무배당(상해급여형)(태아가입용)",
+      "lower_object_code": "19823",
+      "lower_object_name": "한화생명 기본형 급여 실손의료비보장보험(갱신형) 무배당(상해급여형)(태아가입용)"
     },
     {
       "sub_type": "한화생명 기본형 급여 실손의료비보장보험(갱신형) 무배당(질병급여형)(태아가입용)",
       "upper_object_code": "1982004",
-      "lower_object_code": "19824"
+      "upper_object_name": "한화생명 기본형 급여 실손의료비보장보험(갱신형) 무배당(질병급여형)(태아가입용)",
+      "lower_object_code": "19824",
+      "lower_object_name": "한화생명 기본형 급여 실손의료비보장보험(갱신형) 무배당(질병급여형)(태아가입용)"
     }
   ]
 }

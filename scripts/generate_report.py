@@ -25,6 +25,14 @@ if hasattr(sys.stdout, "reconfigure"):
 
 import pandas as pd
 
+# model_key_loader: 모델상세 xlsx에서 비교키 컬럼 동적 로드
+_VALIDATOR_SCRIPTS = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)),
+    "..", ".claude", "skills", "validator", "scripts",
+)
+sys.path.insert(0, _VALIDATOR_SCRIPTS)
+from model_key_loader import load_model_key_cols, make_row_key, get_active_key_cols  # noqa: E402
+
 MAPPING_PATH = "data/existing/판매중_상품구성_사업방법서_매핑.xlsx"
 EXTRACT_DIR  = "output/extracted"
 STRUCT_PATH  = "data/structural_issues.xlsx"
@@ -86,7 +94,7 @@ def load_gt(table_type: str) -> pd.DataFrame:
 
 
 def get_gt_row_count(dtcd: int, table_type: str) -> int:
-    """DTCD에 해당하는 GT 행 수 (MAX_AG=999 umbrella 제외, S00026만)"""
+    """DTCD에 해당하는 GT 행 수 (S00026: MAX_AG=999 umbrella 제외)"""
     df = load_gt(table_type)
     if df.empty or "ISRN_KIND_DTCD" not in df.columns:
         return 0
@@ -94,64 +102,6 @@ def get_gt_row_count(dtcd: int, table_type: str) -> int:
     if table_type == "S00026" and "MAX_AG" in df.columns:
         gf = gf[gf["MAX_AG"] != 999]
     return len(gf)
-
-
-# ─── S00026 고유키 비교 ───────────────────────────────────────────────────────
-
-def _compare_s26_keys(gt_keys: set, ex_keys: set):
-    """
-    S00026 키 비교. GT ip/pp가 전부 NaN('')인 경우 완화 비교:
-    (gender, min_age, max_age)만으로 비교 — 단일 보기납기 조합 상품 대응.
-    반환: (match_cnt, miss_cnt, extra_cnt)
-    """
-    if not gt_keys:
-        return 0, 0, len(ex_keys)
-    all_nan_ippp = all(k[0] == "" and k[1] == "" for k in gt_keys)
-    if all_nan_ippp:
-        gt_slim = set((k[2], k[3], k[4]) for k in gt_keys)
-        ex_slim = set((k[2], k[3], k[4]) for k in ex_keys)
-        miss = gt_slim - ex_slim
-        extra = ex_slim - gt_slim
-        match = gt_slim & ex_slim
-        return len(match), len(miss), len(extra)
-    miss = gt_keys - ex_keys
-    extra = ex_keys - gt_keys
-    match = gt_keys & ex_keys
-    return len(match), len(miss), len(extra)
-
-
-def _gt_keys_s26(dtcd: int) -> set:
-    df = load_gt("S00026")
-    if df.empty:
-        return set()
-    gf = df[(df["ISRN_KIND_DTCD"] == dtcd) & (df["MAX_AG"] != 999)]
-    keys = set()
-    for _, row in gf.iterrows():
-        ip = (str(row["ISRN_TERM_DVSN_CODE"]) + str(int(row["MIN_ISRN_TERM"]))
-              if pd.notna(row.get("ISRN_TERM_DVSN_CODE")) and pd.notna(row.get("MIN_ISRN_TERM")) else "")
-        pp = (str(row["PAYM_TERM_DVSN_CODE"]) + str(int(row["MIN_PAYM_TERM"]))
-              if pd.notna(row.get("PAYM_TERM_DVSN_CODE")) and pd.notna(row.get("MIN_PAYM_TERM")) else "")
-        g = str(int(float(row["MINU_GNDR_CODE"]))) if pd.notna(row.get("MINU_GNDR_CODE")) else ""
-        keys.add((ip, pp, g, int(row["MIN_AG"]), int(row["MAX_AG"])))
-    return keys
-
-
-def _ex_keys_s26(coded_files: list) -> set:
-    keys = set()
-    for fname in coded_files:
-        with open(fname, encoding="utf-8") as f:
-            coded = json.load(f)
-        for r in coded.get("coded_rows", []):
-            ip = r.get("ISRN_TERM_INQY_CODE") or ""
-            pp = r.get("PAYM_TERM_INQY_CODE") or ""
-            g_val = r.get("MINU_GNDR_CODE")
-            g = "" if g_val is None else str(g_val)
-            min_a = r.get("MIN_AG")
-            max_a = r.get("MAX_AG")
-            keys.add((ip, pp, g,
-                      int(min_a) if min_a is not None else 0,
-                      int(max_a) if max_a is not None else 0))
-    return keys
 
 
 # ─── 추출 파일 검색 ───────────────────────────────────────────────────────────
@@ -162,7 +112,6 @@ def find_coded_files(dtcd: int, first_itcd: str, run_id: str, table_type: str) -
     pattern = f"{EXTRACT_DIR}/{product_code}_{table_type}_{run_id}_coded.json"
     files = glob.glob(pattern)
     if not files:
-        # fallback: run_id 없이 dtcd 기반 검색
         pattern2 = f"{EXTRACT_DIR}/{dtcd}*_{table_type}_*_coded.json"
         files = glob.glob(pattern2)
     return files
@@ -177,75 +126,77 @@ def get_ex_row_count(coded_files: list) -> int:
     return total
 
 
-# ─── S00027 키 비교 (ISRN_TERM_INQY_CODE × PAYM_TERM_INQY_CODE) ─────────────
+# ─── 동적 키 비교 (모델상세 기반) ────────────────────────────────────────────
 
-def _gt_keys_s27(dtcd: int) -> set:
-    df = load_gt("S00027")
-    if df.empty:
-        return set()
-    gf = df[df["ISRN_KIND_DTCD"] == dtcd]
-    return set(zip(gf["ISRN_TERM_INQY_CODE"].fillna(""), gf["PAYM_TERM_INQY_CODE"].fillna("")))
+def _compare_keys(dtcd: int, table_type: str, coded_files: list,
+                  itcds: list = None) -> tuple:
+    """모델상세 기반 키 비교. 상품세목별 활성 컬럼 동적 결정.
 
+    반환: (gt_keys, ex_keys, active_key_cols)
+    - active_key_cols: GT·EX 양쪽에 값이 있는 컬럼만 (per-DTCD 동적 결정)
+    - S00026: MAX_AG=999 umbrella 행 제외
+    - S00022: itcds 필터 적용
+    """
+    df = load_gt(table_type)
+    key_cols = load_model_key_cols(table_type)
 
-def _ex_keys_s27(coded_files: list) -> set:
-    keys = set()
-    for fname in coded_files:
+    # GT 행 필터
+    gt_rows = []
+    if not df.empty:
+        gf = df[df["ISRN_KIND_DTCD"] == dtcd]
+        if table_type == "S00026" and "MAX_AG" in df.columns:
+            gf = gf[gf["MAX_AG"] != 999]
+        if itcds and "ISRN_KIND_ITCD" in df.columns:
+            gf = gf[gf["ISRN_KIND_ITCD"].isin(itcds)]
+        gt_rows = gf.to_dict("records")
+
+    # EX 행 로드
+    ex_rows = []
+    for fname in (coded_files or []):
         with open(fname, encoding="utf-8") as f:
             coded = json.load(f)
-        for r in coded.get("coded_rows", []):
-            keys.add((r.get("ISRN_TERM_INQY_CODE") or "", r.get("PAYM_TERM_INQY_CODE") or ""))
-    return keys
+        ex_rows.extend(coded.get("coded_rows", []))
 
+    if not key_cols:
+        return set(), set(), []
 
-# ─── S00028 키 비교 (PAYM_CYCL_VAL × PAYM_CYCL_DVSN_CODE) ──────────────────
+    # DTCD별 활성 컬럼: GT·EX 양쪽에 non-None 값이 있는 컬럼만
+    active_cols = get_active_key_cols(gt_rows, ex_rows, key_cols)
+    if not active_cols:
+        # fallback: GT에 값 있는 컬럼만 (EX가 비어 있는 경우)
+        active_cols = [col for col in key_cols
+                       if any(make_row_key(r, [col])[0] is not None for r in gt_rows)]
 
-def _safe_cycl_val(v):
-    return int(v) if v is not None else -999
-
-
-def _gt_keys_s28(dtcd: int) -> set:
-    df = load_gt("S00028")
-    if df.empty:
-        return set()
-    gf = df[df["ISRN_KIND_DTCD"] == dtcd]
-    return set(zip(gf["PAYM_CYCL_VAL"].fillna(-999).astype(int), gf["PAYM_CYCL_DVSN_CODE"].fillna("")))
-
-
-def _ex_keys_s28(coded_files: list) -> set:
-    keys = set()
-    for fname in coded_files:
-        with open(fname, encoding="utf-8") as f:
-            coded = json.load(f)
-        for r in coded.get("coded_rows", []):
-            keys.add((_safe_cycl_val(r.get("PAYM_CYCL_VAL")), r.get("PAYM_CYCL_DVSN_CODE") or ""))
-    return keys
-
-
-# ─── S00022 키 비교 (FPIN_STRT_AG_INQY_CODE × SPIN_STRT_AG_INQY_CODE) ──────
-
-def _gt_keys_s22(dtcd: int, itcds: list = None) -> set:
-    df = load_gt("S00022")
-    if df.empty:
-        return set()
-    gf = df[df["ISRN_KIND_DTCD"] == dtcd]
-    # 현재 매핑된 ITCD만 비교 (미매핑 레거시 ITCD 제외)
-    if itcds:
-        gf = gf[gf["ISRN_KIND_ITCD"].isin(itcds)]
-    # FPIN을 문자열로 정규화 (GT는 정수 0, EX는 문자열 "0"이므로 통일)
-    return set(zip(gf["FPIN_STRT_AG_INQY_CODE"].fillna("").astype(str), gf["SPIN_STRT_AG_INQY_CODE"].fillna("")))
-
-
-def _ex_keys_s22(coded_files: list) -> set:
-    keys = set()
-    for fname in coded_files:
-        with open(fname, encoding="utf-8") as f:
-            coded = json.load(f)
-        for r in coded.get("coded_rows", []):
-            keys.add((r.get("FPIN_STRT_AG_INQY_CODE") or "", r.get("SPIN_STRT_AG_INQY_CODE") or ""))
-    return keys
+    gt_keys = {make_row_key(r, active_cols) for r in gt_rows}
+    ex_keys = {make_row_key(r, active_cols) for r in ex_rows}
+    return gt_keys, ex_keys, active_cols
 
 
 # ─── 메인 리포트 생성 ─────────────────────────────────────────────────────────
+
+PDF_DIR    = "data/pdf"
+UPLOAD_DIR = "output/upload"
+
+
+def _abs_link(rel_path: str) -> str:
+    """상대 경로 → Excel HYPERLINK용 절대 URI (file:/// 형식)"""
+    abs_path = os.path.abspath(rel_path).replace("\\", "/")
+    return f"file:///{abs_path}"
+
+
+def _find_upload_file(dtcd: int, run_id: str, table_type: str) -> str:
+    """output/upload/{table_type}_{dtcd}_{run_id}.xlsx 검색 → 절대 URI 또는 ""
+    run_id가 정확히 일치하지 않는 경우 dtcd 기반 glob fallback 사용."""
+    exact = os.path.join(UPLOAD_DIR, f"{table_type}_{dtcd}_{run_id}.xlsx")
+    if os.path.exists(exact):
+        return _abs_link(exact)
+    # glob fallback
+    pattern = os.path.join(UPLOAD_DIR, f"{table_type}_{dtcd}_*.xlsx")
+    matches = glob.glob(pattern)
+    if matches:
+        return _abs_link(matches[0])
+    return ""
+
 
 def build_report() -> pd.DataFrame:
     mapping_df = pd.read_excel(MAPPING_PATH)
@@ -294,11 +245,16 @@ def build_report() -> pd.DataFrame:
             run_id = get_run_id(pdf)
             itcd_list = ", ".join(e["itcd"] for e in entries)
 
+            # PDF 파일 링크 (한화생명 접두어 포함 원본 파일명 검색)
+            pdf_path = os.path.join(PDF_DIR, pdf)
+            pdf_link = _abs_link(pdf_path) if os.path.exists(pdf_path) else ""
+
             row_data = {
                 "사업방법서 파일명": pdf,
                 "ISRN_KIND_DTCD": dtcd,
                 "ISRN_KIND_ITCD_목록": itcd_list,
                 "보험종목명": sale_nm,
+                "_LINK_pdf": pdf_link,
             }
 
             for table_type in ["S00026", "S00027", "S00028", "S00022"]:
@@ -307,26 +263,15 @@ def build_report() -> pd.DataFrame:
                 gt_cnt = get_gt_row_count(dtcd, table_type)
                 ex_cnt = get_ex_row_count(coded_files) if coded_files else 0
 
-                if table_type == "S00026":
-                    gt_keys = _gt_keys_s26(dtcd)
-                    ex_keys = _ex_keys_s26(coded_files) if coded_files else set()
-                elif table_type == "S00027":
-                    gt_keys = _gt_keys_s27(dtcd)
-                    ex_keys = _ex_keys_s27(coded_files) if coded_files else set()
-                elif table_type == "S00028":
-                    gt_keys = _gt_keys_s28(dtcd)
-                    ex_keys = _ex_keys_s28(coded_files) if coded_files else set()
-                else:  # S00022
-                    mapped_itcds = [e["itcd"] for e in entries]
-                    gt_keys = _gt_keys_s22(dtcd, mapped_itcds)
-                    ex_keys = _ex_keys_s22(coded_files) if coded_files else set()
+                mapped_itcds = [e["itcd"] for e in entries]
+                gt_keys, ex_keys, _ = _compare_keys(
+                    dtcd, table_type, coded_files,
+                    itcds=mapped_itcds if table_type == "S00022" else None,
+                )
 
-                if table_type == "S00026":
-                    match_cnt, miss_cnt, extra_cnt = _compare_s26_keys(gt_keys, ex_keys)
-                else:
-                    match_cnt = len(gt_keys & ex_keys)
-                    miss_cnt = len(gt_keys - ex_keys)
-                    extra_cnt = len(ex_keys - gt_keys)
+                match_cnt = len(gt_keys & ex_keys)
+                miss_cnt  = len(gt_keys - ex_keys)
+                extra_cnt = len(ex_keys - gt_keys)
 
                 if table_type == "S00026":
                     if gt_keys:
@@ -353,6 +298,7 @@ def build_report() -> pd.DataFrame:
                 row_data[f"{lbl}_미일치키수"] = miss_cnt
                 row_data[f"{lbl}_추가키수"] = extra_cnt
                 row_data[f"{lbl}_결과"] = pass_fail
+                row_data[f"_LINK_{table_type}_upload"] = _find_upload_file(dtcd, run_id, table_type)
 
             # ── 구조적 문제 컬럼 추가 ─────────────────────────────────────────
             struct_map = load_structural_issues()
@@ -404,8 +350,17 @@ def build_report() -> pd.DataFrame:
 def save_report(df: pd.DataFrame, output_path: str):
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
+    # 링크 컬럼 분리 (Excel에는 쓰지 않음)
+    link_cols = [c for c in df.columns if c.startswith("_LINK_")]
+    links_df = df[link_cols].copy()
+    display_df = df.drop(columns=link_cols)
+
+    # GT 파일 링크 (테이블별 공통)
+    gt_links = {table_type: _abs_link(path) if os.path.exists(path) else ""
+                for table_type, path in GT_FILES.items()}
+
     with pd.ExcelWriter(output_path, engine="openpyxl") as writer:
-        df.to_excel(writer, index=False, sheet_name="작업현황")
+        display_df.to_excel(writer, index=False, sheet_name="작업현황")
 
         ws = writer.sheets["작업현황"]
 
@@ -426,7 +381,7 @@ def save_report(df: pd.DataFrame, output_path: str):
         }
         default_w = 12
 
-        for col_idx, col_name in enumerate(df.columns, 1):
+        for col_idx, col_name in enumerate(display_df.columns, 1):
             col_letter = get_column_letter(col_idx)
             width = col_widths.get(col_name, default_w)
             ws.column_dimensions[col_letter].width = width
@@ -450,35 +405,52 @@ def save_report(df: pd.DataFrame, output_path: str):
             "신규": "BDD7EE",   # 연파랑
             "-": "F2F2F2",      # 회색
         }
-        result_cols   = [i + 1 for i, c in enumerate(df.columns) if c.endswith("_결과")]
-        status_col    = next((i + 1 for i, c in enumerate(df.columns) if c == "진행상태"), None)
+        result_cols   = [i + 1 for i, c in enumerate(display_df.columns) if c.endswith("_결과")]
+        status_col    = next((i + 1 for i, c in enumerate(display_df.columns) if c == "진행상태"), None)
         color_map["완료"]   = "C6EFCE"   # 연두
         color_map["진행중"] = "FFEB9C"   # 노랑
         struct_cols   = {
-            "구조적_문제유형": [i + 1 for i, c in enumerate(df.columns) if c == "구조적_문제유형"],
-            "구조적_상태":    [i + 1 for i, c in enumerate(df.columns) if c == "구조적_상태"],
-            "구조적_형태":    [i + 1 for i, c in enumerate(df.columns) if c == "구조적_형태"],
-            "구조적_문제설명": [i + 1 for i, c in enumerate(df.columns) if c == "구조적_문제설명"],
+            "구조적_문제유형": [i + 1 for i, c in enumerate(display_df.columns) if c == "구조적_문제유형"],
+            "구조적_상태":    [i + 1 for i, c in enumerate(display_df.columns) if c == "구조적_상태"],
+            "구조적_형태":    [i + 1 for i, c in enumerate(display_df.columns) if c == "구조적_형태"],
+            "구조적_문제설명": [i + 1 for i, c in enumerate(display_df.columns) if c == "구조적_문제설명"],
         }
         struct_type_col  = struct_cols["구조적_문제유형"][0]  if struct_cols["구조적_문제유형"]  else None
         struct_stat_col  = struct_cols["구조적_상태"][0]     if struct_cols["구조적_상태"]     else None
         struct_desc_col  = struct_cols["구조적_문제설명"][0] if struct_cols["구조적_문제설명"] else None
         struct_col_idxs  = {c for lst in struct_cols.values() for c in lst}
 
+        # 링크 대상 컬럼 인덱스 (1-based)
+        pdf_col_idx = next((i + 1 for i, c in enumerate(display_df.columns) if c == "사업방법서 파일명"), None)
+        upload_col_idx = {
+            table_type: next((i + 1 for i, c in enumerate(display_df.columns)
+                              if c == f"{TABLE_LABELS[table_type]}_추출키수"), None)
+            for table_type in TABLE_LABELS
+        }
+        gt_col_idx = {
+            table_type: next((i + 1 for i, c in enumerate(display_df.columns)
+                              if c == f"{TABLE_LABELS[table_type]}_GT키수"), None)
+            for table_type in TABLE_LABELS
+        }
+
         # 구조적 문제 색상
         struct_unresolved_fill = PatternFill(start_color="FFC7CE", end_color="FFC7CE", fill_type="solid")
         struct_resolved_fill   = PatternFill(start_color="C6EFCE", end_color="C6EFCE", fill_type="solid")
 
+        link_font   = Font(color="0563C1", underline="single", size=10)
+        normal_font = Font(size=10)
+
         thin = Side(style="thin", color="CCCCCC")
         border = Border(left=thin, right=thin, top=thin, bottom=thin)
 
-        for row_idx in range(2, len(df) + 2):
+        for row_idx in range(2, len(display_df) + 2):
+            data_row_idx = row_idx - 2   # 0-based index into links_df
             # 구조적 상태값 미리 확인
             struct_status = ""
             if struct_stat_col:
                 struct_status = str(ws.cell(row=row_idx, column=struct_stat_col).value or "")
 
-            for col_idx in range(1, len(df.columns) + 1):
+            for col_idx in range(1, len(display_df.columns) + 1):
                 cell = ws.cell(row=row_idx, column=col_idx)
                 is_struct = col_idx in struct_col_idxs
                 cell.alignment = Alignment(
@@ -503,11 +475,40 @@ def save_report(df: pd.DataFrame, output_path: str):
                     if col_idx == struct_stat_col:
                         cell.font = Font(bold=True, size=10)
 
+            # ── 하이퍼링크 적용 ────────────────────────────────────────────
+            # 사업방법서 파일명 → PDF 링크
+            if pdf_col_idx:
+                pdf_uri = links_df.iloc[data_row_idx].get("_LINK_pdf", "")
+                if pdf_uri:
+                    cell = ws.cell(row=row_idx, column=pdf_col_idx)
+                    cell.hyperlink = pdf_uri
+                    cell.font = link_font
+
+            # {테이블}_추출키수 → 업로드 xlsx 링크
+            for table_type, col_i in upload_col_idx.items():
+                if col_i is None:
+                    continue
+                upload_uri = links_df.iloc[data_row_idx].get(f"_LINK_{table_type}_upload", "")
+                if upload_uri:
+                    cell = ws.cell(row=row_idx, column=col_i)
+                    cell.hyperlink = upload_uri
+                    cell.font = link_font
+
+            # {테이블}_GT키수 → GT 파일 링크 (첫 행에만 적용해도 되지만 모든 행에 적용)
+            for table_type, col_i in gt_col_idx.items():
+                if col_i is None:
+                    continue
+                gt_uri = gt_links.get(table_type, "")
+                if gt_uri:
+                    cell = ws.cell(row=row_idx, column=col_i)
+                    cell.hyperlink = gt_uri
+                    cell.font = link_font
+
         # 행 번갈아 배경
         alt_fill = PatternFill(start_color="F5F5F5", end_color="F5F5F5", fill_type="solid")
-        for row_idx in range(2, len(df) + 2):
+        for row_idx in range(2, len(display_df) + 2):
             if row_idx % 2 == 0:
-                for col_idx in range(1, len(df.columns) + 1):
+                for col_idx in range(1, len(display_df.columns) + 1):
                     if col_idx not in result_cols:
                         cell = ws.cell(row=row_idx, column=col_idx)
                         if cell.fill.patternType is None or cell.fill.fgColor.rgb == "00000000":
@@ -558,8 +559,8 @@ def save_report(df: pd.DataFrame, output_path: str):
         ws2.row_dimensions[1].height = 30
 
         # ── 진행상태 요약 (행2) ──────────────────────────────────────────────
-        prog_counts  = df["진행상태"].value_counts() if "진행상태" in df.columns else pd.Series(dtype=int)
-        n_total_prog = len(df)
+        prog_counts  = display_df["진행상태"].value_counts() if "진행상태" in display_df.columns else pd.Series(dtype=int)
+        n_total_prog = len(display_df)
         n_done = int(prog_counts.get("완료", 0))
         n_wip  = int(prog_counts.get("진행중", 0))
 
@@ -603,7 +604,7 @@ def save_report(df: pd.DataFrame, output_path: str):
         r = 4
         for table_code, lbl, pass_st, fail_st, miss_st, other_st in table_meta:
             col_name = f"{lbl.split()[1]}_결과"  # e.g. "가입가능나이_결과"
-            counts = df[col_name].value_counts() if col_name in df.columns else pd.Series(dtype=int)
+            counts = display_df[col_name].value_counts() if col_name in display_df.columns else pd.Series(dtype=int)
 
             n_pass  = sum(int(counts.get(s, 0)) for s in pass_st)
             n_fail  = sum(int(counts.get(s, 0)) for s in fail_st)
@@ -624,7 +625,7 @@ def save_report(df: pd.DataFrame, output_path: str):
             ws2.row_dimensions[r].height = 22
             r += 1
 
-    print(f"리포트 저장 완료: {output_path} ({len(df)}행)")
+    print(f"리포트 저장 완료: {output_path} ({len(display_df)}행)")
 
 
 def main():

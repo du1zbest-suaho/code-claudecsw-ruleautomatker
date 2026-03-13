@@ -59,17 +59,24 @@ DEFAULT_SALE_CHNL_CODE = "1,2,3,4,7"
 
 
 def load_product_mapping(mapping_path: str) -> dict:
-    """sub_type → (upper, lower) 매핑 로드"""
+    """sub_type → (upper, upper_name, lower, lower_name) 매핑 로드.
+    첫 번째 항목을 '__default__' 키로도 저장 (sub_type 불일치 fallback용).
+    """
     if not os.path.exists(mapping_path):
         return {}
     with open(mapping_path, "r", encoding="utf-8") as f:
         data = json.load(f)
     result = {}
     for pm in data.get("product_mappings", []):
-        result[pm["sub_type"]] = {
+        entry = {
             "upper": pm["upper_object_code"],
-            "lower": pm["lower_object_code"]
+            "upper_name": pm.get("upper_object_name", ""),
+            "lower": pm["lower_object_code"],
+            "lower_name": pm.get("lower_object_name", ""),
         }
+        result[pm["sub_type"]] = entry
+        if "__default__" not in result:
+            result["__default__"] = entry
     return result
 
 
@@ -124,13 +131,15 @@ def main():
     for row_idx, coded_row in enumerate(all_rows):
         excel_row = DATA_START_ROW + row_idx
 
-        # sub_type으로 OBJECT_CODE 조회
+        # sub_type으로 OBJECT_CODE 조회 (불일치 시 __default__ fallback)
         sub_type = coded_row.get("sub_type", "")
-        mapping = product_mapping.get(sub_type, {})
+        mapping = product_mapping.get(sub_type) or product_mapping.get("__default__", {})
 
-        # _upper_object_code/_lower_object_code 우선 (특약은 이미 세팅됨)
-        upper = coded_row.get("_upper_object_code") or mapping.get("upper", "")
-        lower = coded_row.get("_lower_object_code") or mapping.get("lower", "")
+        # _upper/lower_object_code 우선 (특약은 이미 세팅됨)
+        upper      = coded_row.get("_upper_object_code") or mapping.get("upper", "")
+        upper_name = coded_row.get("_upper_object_name") or mapping.get("upper_name", "")
+        lower      = coded_row.get("_lower_object_code") or mapping.get("lower", "")
+        lower_name = coded_row.get("_lower_object_name") or mapping.get("lower_name", "")
 
         # 컬럼별 값 세팅
         def set_cell(col_name, value):
@@ -138,7 +147,10 @@ def main():
                 ws.cell(row=excel_row, column=col_index[col_name], value=value)
 
         set_cell("UPPER_OBJECT_CODE", upper)
+        set_cell("UPPER_OBJECT_NAME", upper_name)
         set_cell("LOWER_OBJECT_CODE", lower)
+        set_cell("LOWER_OBJECT_NAME", lower_name)
+        set_cell("SET_CODE", table_type)
         set_cell("VALID_START_DATE", valid_start)
         set_cell("VALID_END_DATE", valid_end)
         set_cell("SALE_CHNL_CODE", DEFAULT_SALE_CHNL_CODE)

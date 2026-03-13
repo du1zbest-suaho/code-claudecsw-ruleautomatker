@@ -3,22 +3,30 @@
     {
       "sub_type": "한화생명 간편가입 실손의료비보장보험(갱신형)(상해입원형) 무배당(재가입)",
       "upper_object_code": "1976001",
-      "lower_object_code": "19761"
+      "upper_object_name": "한화생명 간편가입 실손의료비보장보험(갱신형)(상해입원형) 무배당(재가입)",
+      "lower_object_code": "19761",
+      "lower_object_name": "한화생명 간편가입 실손의료비보장보험(갱신형)(상해입원형) 무배당(재가입)"
     },
     {
       "sub_type": "한화생명 간편가입 실손의료비보장보험(갱신형)(상해통원형) 무배당(재가입)",
       "upper_object_code": "1976002",
-      "lower_object_code": "19762"
+      "upper_object_name": "한화생명 간편가입 실손의료비보장보험(갱신형)(상해통원형) 무배당(재가입)",
+      "lower_object_code": "19762",
+      "lower_object_name": "한화생명 간편가입 실손의료비보장보험(갱신형)(상해통원형) 무배당(재가입)"
     },
     {
       "sub_type": "한화생명 간편가입 실손의료비보장보험(갱신형)(질병입원형) 무배당(재가입)",
       "upper_object_code": "1976003",
-      "lower_object_code": "19763"
+      "upper_object_name": "한화생명 간편가입 실손의료비보장보험(갱신형)(질병입원형) 무배당(재가입)",
+      "lower_object_code": "19763",
+      "lower_object_name": "한화생명 간편가입 실손의료비보장보험(갱신형)(질병입원형) 무배당(재가입)"
     },
     {
       "sub_type": "한화생명 간편가입 실손의료비보장보험(갱신형)(질병통원형) 무배당(재가입)",
       "upper_object_code": "1976004",
-      "lower_object_code": "19764"
+      "upper_object_name": "한화생명 간편가입 실손의료비보장보험(갱신형)(질병통원형) 무배당(재가입)",
+      "lower_object_code": "19764",
+      "lower_object_name": "한화생명 간편가입 실손의료비보장보험(갱신형)(질병통원형) 무배당(재가입)"
     }
   ]
 }

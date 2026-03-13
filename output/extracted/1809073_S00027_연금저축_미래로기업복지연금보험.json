@@ -14,7 +14,22 @@
     {
       "sub_type": "1종(신계약체결용)",
       "insurance_period": "종신",
+      "payment_period": "6년납"
+    },
+    {
+      "sub_type": "1종(신계약체결용)",
+      "insurance_period": "종신",
       "payment_period": "7년납"
+    },
+    {
+      "sub_type": "1종(신계약체결용)",
+      "insurance_period": "종신",
+      "payment_period": "8년납"
+    },
+    {
+      "sub_type": "1종(신계약체결용)",
+      "insurance_period": "종신",
+      "payment_period": "9년납"
     },
     {
       "sub_type": "1종(신계약체결용)",
@@ -174,7 +189,22 @@
     {
       "sub_type": "2종(계좌이체용)",
       "insurance_period": "종신",
+      "payment_period": "6년납"
+    },
+    {
+      "sub_type": "2종(계좌이체용)",
+      "insurance_period": "종신",
       "payment_period": "7년납"
+    },
+    {
+      "sub_type": "2종(계좌이체용)",
+      "insurance_period": "종신",
+      "payment_period": "8년납"
+    },
+    {
+      "sub_type": "2종(계좌이체용)",
+      "insurance_period": "종신",
+      "payment_period": "9년납"
     },
     {
       "sub_type": "2종(계좌이체용)",
@@ -334,7 +364,22 @@
     {
       "sub_type": "2종(적립형)",
       "insurance_period": "종신",
+      "payment_period": "6년납"
+    },
+    {
+      "sub_type": "2종(적립형)",
+      "insurance_period": "종신",
       "payment_period": "7년납"
+    },
+    {
+      "sub_type": "2종(적립형)",
+      "insurance_period": "종신",
+      "payment_period": "8년납"
+    },
+    {
+      "sub_type": "2종(적립형)",
+      "insurance_period": "종신",
+      "payment_period": "9년납"
     },
     {
       "sub_type": "2종(적립형)",
@@ -488,5 +533,5 @@
     }
   ],
   "discrepancies": [],
-  "row_count": 96
+  "row_count": 105
 }
