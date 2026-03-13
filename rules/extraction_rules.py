@@ -1116,15 +1116,20 @@ class ExtractionRules:
     def _extract_annuity_age_by_formula(self, text: str) -> List[Dict]:
         """
         연금보험 가입나이 공식 형식 감지 및 자동 계산.
-        '가입최고나이 : (연금개시나이-납입기간)세' 패턴이 있을 때
+        패턴1: '가입최고나이 : (연금개시나이-납입기간)세'
+        패턴2: '0 ~ (연금개시나이-납입기간)세'  (미래로기업복지연금, 하이드림연금 등)
         연금개시나이 범위 × 납입기간 조합으로 가입나이 행 생성.
         GT ip=NaN, gender=NaN 이므로 ip='', gender=None 으로 생성.
         """
-        formula_pat = r"가입최고나이[^\n]{0,30}\(연금개시나이\s*[-－]\s*납입기간\)세"
-        if not re.search(formula_pat, text):
+        formula_pat1 = r"가입최고나이[^\n]{0,30}\(연금개시나이\s*[-－]\s*납입기간\)세"
+        formula_pat2 = r"0\s*[~～]\s*\(연금개시나이\s*[-－]\s*납입기간\)\s*세"
+        if not (re.search(formula_pat1, text) or re.search(formula_pat2, text)):
             return []
 
-        onset = self._extract_annuity_onset_range(text)
+        # 모든 연금개시나이 범위 중 최대 범위 사용 (1종 55~80, 2종 55~110 → 55~110)
+        onset = self._extract_annuity_onset_range_max(text)
+        if not onset:
+            onset = self._extract_annuity_onset_range(text)
         if not onset:
             return []
         min_onset, max_onset = onset
@@ -1141,6 +1146,8 @@ class ExtractionRules:
 
         rows = []
         seen: set = set()
+
+        # 납입기간 공식 행 생성 (max = onset - payment_years)
         for onset_age in range(min_onset, max_onset + 1):
             for pp in payment_periods:
                 if pp == "전기납":
@@ -1168,7 +1175,60 @@ class ExtractionRules:
                     "min_age": 0,
                     "max_age": max_age,
                 })
+
+        # 거치형 공식 행 생성: 0 ~ (연금개시나이- 1)세 → max = onset - 1
+        geochi_pat = r"거치형[^\n]{0,20}0\s*[~～]\s*\(연금개시나이\s*[-－]\s*1\)\s*세"
+        if re.search(geochi_pat, text):
+            for onset_age in range(min_onset, max_onset + 1):
+                max_age = onset_age - 1
+                if max_age < 0:
+                    continue
+                key = ("일시납_거치형", max_age)
+                if key in seen:
+                    continue
+                seen.add(key)
+                rows.append({
+                    "sub_type": "거치형",
+                    "insurance_period": "",
+                    "payment_period": "일시납",
+                    "gender": None,
+                    "min_age": 0,
+                    "max_age": max_age,
+                })
+
+        # 즉시형 직접 범위 추가: '즉시형 만N세 ~ M세'
+        soksi_m = re.search(r"즉시형[^\n]{0,10}만?\s*(\d+)\s*세\s*[~～]\s*(\d+)\s*세", text)
+        if soksi_m:
+            si_min, si_max = int(soksi_m.group(1)), int(soksi_m.group(2))
+            key = ("즉시형", si_min, si_max)
+            if key not in seen:
+                seen.add(key)
+                rows.append({
+                    "sub_type": "즉시형",
+                    "insurance_period": "",
+                    "payment_period": "일시납",
+                    "gender": None,
+                    "min_age": si_min,
+                    "max_age": si_max,
+                })
+
         return rows
+
+    def _extract_annuity_onset_range_max(self, text: str):
+        """텍스트 내 모든 연금개시나이 범위를 찾아 최대 범위(min, max) 반환"""
+        all_mins, all_maxes = [], []
+        for pat in [
+            r"(?:연금|보기)개시(?:나이|연령)[\s\S]{0,200}?만?\s*(\d+)\s*세\s*[~～]\s*(\d+)\s*세",
+            r"(?:연금|보기)개시(?:나이|연령)[\s\S]{0,200}?(\d+)\s*[~～]\s*(\d+)\s*세",
+        ]:
+            for m in re.finditer(pat, text):
+                v1, v2 = int(m.group(1)), int(m.group(2))
+                if 40 <= v1 <= 80 and v1 < v2 <= 130:
+                    all_mins.append(v1)
+                    all_maxes.append(v2)
+        if all_mins:
+            return (min(all_mins), max(all_maxes))
+        return None
 
     def _extract_annuity_onset_range(self, text: str):
         """연금개시나이 범위 추출 → (min_age, max_age) 또는 None
