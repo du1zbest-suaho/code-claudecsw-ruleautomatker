@@ -54,6 +54,13 @@ class ExtractionRules:
 
         results = []
 
+        # 패턴 A-0-4: 연금보험 납입기간별 오프셋 테이블 형식
+        # 예: 스마트V연금(1758), 스마트하이브리드연금(2042), Wealth직장인연금(1833)
+        # "가입최고나이 : 연금개시나이, 납입기간별로" + 각 납입기간별 (연금개시나이-M)세 오프셋
+        annuity_offset_rows = self._extract_annuity_onset_offset_table(text)
+        if annuity_offset_rows:
+            return annuity_offset_rows
+
         # 패턴 A-0-5: 연금보험 연금개시나이×납입기간 테이블 (max_age 셀 직접 기재 형식)
         # 예: 연금보험Enterprise — 연금개시나이별 row, 거치형/N년납/전기납 columns, 셀=max_age
         annuity_onset_rows = self._parse_annuity_onset_table(text)
@@ -835,6 +842,11 @@ class ExtractionRules:
         results = []
         sub_types = self._find_sub_types_in_section(text) or ["기본형"]
 
+        # 확정기간연금형 감지 → X세만기 행 일괄 생성 (우선 처리)
+        definite_rows = self._extract_definite_period_annuity_s27_rows(text)
+        if definite_rows:
+            return definite_rows
+
         # 보험기간 및 납입기간 추출
         insurance_periods = self._extract_all_insurance_periods(text)
         payment_periods = self._extract_all_payment_periods(text)
@@ -1148,9 +1160,15 @@ class ExtractionRules:
                     if val not in periods:
                         periods.append(val)
 
+        # "N년납 이상/미만/초과" 조건문 위치 수집 → false positive 제거용
+        condition_pos = {m.start() for m in re.finditer(r"\d+년납\s*(?:이상|이하|미만|초과)", text)}
+
         patterns = [r"\d+년납", r"\d+세납", r"전기납", r"종신납", r"일시납"]
         for pattern in patterns:
             for m in re.finditer(pattern, text):
+                # 조건문("N년납 이상") 에서 나온 match → skip
+                if any(m.start() >= cp and m.start() <= cp + 20 for cp in condition_pos):
+                    continue
                 val = m.group(0)
                 if val not in periods:
                     periods.append(val)
@@ -1301,6 +1319,92 @@ class ExtractionRules:
             return (min(all_mins), max(all_maxes))
         return None
 
+    def _extract_definite_period_annuity_s27_rows(self, text: str) -> List[Dict]:
+        """
+        확정기간연금형 S00027 행 생성.
+
+        트리거: "확정기간연금" + "N년형" 패턴이 존재.
+
+        GT 구조 (1571 연금보험Enterprise 예시):
+          - 적립형 종신연금 (A999): A999 × (N년납들 + X{onset_min}~X{onset_max}납 + N0)
+          - 거치형 종신연금 (A999): A999 × N0
+          - 적립형 확정기간 N년형: X{onset+N}세만기 × (N년납들 + X{onset}납 + N0)
+          - 거치형 확정기간 N년형: X{onset+N}세만기 × N0
+
+        규칙:
+          - 전기납 = 연금개시나이세납 = X{onset}납
+          - 일시납(거치형) = N0
+          - 보험기간 X{m}세만기의 전기납 = X{m-N}납 (N=확정기간 년수)
+        """
+        # 트리거: "확정기간연금" + "N년형" 목록
+        if not re.search(r"확정기간연금", text):
+            return []
+
+        # 확정기간 년수 목록 (예: 5년형, 10년형, 15년형, 20년형 → [5,10,15,20])
+        fixed_terms = []
+        for m in re.finditer(r"(\d+)년형", text):
+            n = int(m.group(1))
+            if 1 <= n <= 50 and n not in fixed_terms:
+                fixed_terms.append(n)
+        if not fixed_terms:
+            return []
+        fixed_terms = sorted(fixed_terms)
+
+        # 연금개시나이 범위
+        onset_range = self._extract_annuity_onset_range(text)
+        if not onset_range:
+            return []
+        min_onset, max_onset = onset_range
+
+        # 적립형 N년납 목록 (전기납/일시납 제외)
+        all_pps = self._extract_all_payment_periods(text)
+        n_year_pays = [pp for pp in all_pps if re.match(r"^\d+년납$", pp)]
+
+        # 거치형(일시납=N0) 여부
+        has_ilshinap = "일시납" in all_pps
+
+        # 전기납(=연금개시나이세납) 여부 — 없으면 X세납 행 생성 안 함
+        has_jeonginap = "전기납" in all_pps
+
+        rows = []
+        seen: set = set()
+
+        def add_row(ip: str, pp: str) -> None:
+            key = (ip, pp)
+            if key not in seen:
+                seen.add(key)
+                rows.append({
+                    "sub_type": "기본형",
+                    "insurance_period": ip,
+                    "payment_period": pp,
+                })
+
+        # 1) 종신연금 (A999): 적립형 N년납 + X{onset_min..max}세납(전기납이 있을 때만)
+        for pp in n_year_pays:
+            add_row("종신", pp)
+        if has_jeonginap:
+            for onset in range(min_onset, max_onset + 1):
+                add_row("종신", f"{onset}세납")
+        # 거치형 일시납
+        if has_ilshinap:
+            add_row("종신", "일시납")
+
+        # 2) 확정기간연금: 각 N년형 × 연금개시나이별
+        for n_fixed in fixed_terms:
+            for onset in range(min_onset, max_onset + 1):
+                ip_age = onset + n_fixed
+                ip = f"{ip_age}세만기"
+                # 적립형: N년납 + X{onset}세납(전기납 있을 때만)
+                for pp in n_year_pays:
+                    add_row(ip, pp)
+                if has_jeonginap:
+                    add_row(ip, f"{onset}세납")
+                # 거치형: 일시납
+                if has_ilshinap:
+                    add_row(ip, "일시납")
+
+        return rows
+
     def _extract_annuity_onset_range(self, text: str):
         """연금개시나이 범위 추출 → (min_age, max_age) 또는 None
         전기납의 PP를 X{age}로 확장할 때 사용"""
@@ -1314,6 +1418,113 @@ class ExtractionRules:
             if m:
                 return (int(m.group(1)), int(m.group(2)))
         return None
+
+    def _extract_annuity_onset_offset_table(self, text: str) -> List[Dict]:
+        """
+        연금보험 납입기간별 오프셋 테이블 형식 파싱.
+        트리거: "가입최고나이 : 연금개시나이, 납입기간별로 아래와 같음"
+        형식: 각 납입기간(N년납/전기납)별 "(연금개시나이 - M)세" 오프셋 기재.
+        [남자]/[여자] 블록 없이 오프셋만 기재된 형식.
+        예: 스마트V연금보험(1758), 스마트하이브리드연금보험(2042), Wealth직장인연금보험(1833)
+        """
+        trigger_pat = r"가입최고나이[^\n]{0,30}연금개시나이[^\n]{0,30}납입기간별로\s*아래와\s*같음"
+        if not re.search(trigger_pat, text):
+            return []
+
+        # [남자]/[여자] 블록이 있으면 Enterprise 형식 → 기존 함수에 위임
+        if re.search(r"\[\s*남\s*자\s*\]|\[\s*여\s*자\s*\]", text):
+            return []
+
+        # 가입최저나이 추출
+        min_age = 0
+        m_min = re.search(r"가입최저나이\s*[:：]\s*(?:만\s*)?(\d+)세", text)
+        if m_min:
+            min_age = int(m_min.group(1))
+
+        # 가입최저나이 예외 파싱 (예: "단, 3종...가입최저나이는 40세로 한다")
+        exception_min_age = None
+        m_exc = re.search(r"단[,，][^\n]*가입최저나이는\s*(?:만\s*)?(\d+)세", text)
+        if m_exc:
+            exception_min_age = int(m_exc.group(1))
+
+        # 연금개시나이 범위 추출 — 모든 "연금개시나이" 앵커 근처에서 "N세~M세" 탐색 후 min/max
+        onset_ranges = []
+        for anchor in re.finditer(r"연금개시나이", text):
+            snippet = text[anchor.start():anchor.start() + 300]
+            for m in re.finditer(r"(\d+)\s*세\s*[~～]\s*(\d+)\s*세", snippet):
+                a, b = int(m.group(1)), int(m.group(2))
+                if 20 <= a <= 90 and 40 <= b <= 120:
+                    onset_ranges.append((a, b))
+        if not onset_ranges:
+            return []
+        onset_min = min(r[0] for r in onset_ranges)
+        onset_max = max(r[1] for r in onset_ranges)
+
+        # 오프셋 맵 파싱: "N 년납 ... (연금개시나이 – offset1)세 [... (연금개시나이 – offset2)세]"
+        # offset1 = 적립형, offset2 = 거치형 (같은 행 두 번째 컬럼인 경우)
+        offset_map: Dict[str, int] = {}   # "N년납" → offset (적립형)
+        geochi_offset: Optional[int] = None
+
+        for m in re.finditer(
+            r"(\d+)\s*년납[\s\n]{0,30}\(연금개시나이\s*[-–—]\s*(\d+)\)\s*세(?:[\s\n]{0,30}\(연금개시나이\s*[-–—]\s*(\d+)\)\s*세)?",
+            text
+        ):
+            n_yrs = int(m.group(1))
+            offset1 = int(m.group(2))
+            offset_map[f"{n_yrs}년납"] = offset1
+            if m.group(3) is not None and geochi_offset is None:
+                geochi_offset = int(m.group(3))
+
+        # 전기납
+        m_jeongi = re.search(r"전기납[\s\n]{0,30}\(연금개시나이\s*[-–—]\s*(\d+)\)\s*세", text)
+        jeongi_offset: Optional[int] = int(m_jeongi.group(1)) if m_jeongi else None
+
+        if not offset_map and jeongi_offset is None and geochi_offset is None:
+            return []
+
+        sub_types = self._find_sub_types_in_section(text) or ["기본형"]
+
+        rows: List[Dict] = []
+        seen: set = set()
+
+        def add_row(sub_type, pp, mn, mx):
+            key = (sub_type, pp, mn, mx)
+            if key not in seen:
+                seen.add(key)
+                rows.append({
+                    "sub_type": sub_type,
+                    "insurance_period": "",
+                    "payment_period": pp,
+                    "gender": None,
+                    "min_age": mn,
+                    "max_age": mx,
+                })
+
+        for sub_type in sub_types:
+            for onset_age in range(onset_min, onset_max + 1):
+                # 적립형 납입기간별
+                for pp_str, offset in offset_map.items():
+                    max_age = onset_age - offset
+                    add_row(sub_type, pp_str, min_age, max_age)
+                    if exception_min_age is not None and exception_min_age != min_age:
+                        add_row(sub_type, pp_str, exception_min_age, max_age)
+
+                # 전기납 → "{onset_age}세납"
+                if jeongi_offset is not None:
+                    pp_j = f"{onset_age}세납"
+                    max_age_j = onset_age - jeongi_offset
+                    add_row(sub_type, pp_j, min_age, max_age_j)
+                    if exception_min_age is not None and exception_min_age != min_age:
+                        add_row(sub_type, pp_j, exception_min_age, max_age_j)
+
+                # 거치형 (payment_period="")
+                if geochi_offset is not None:
+                    max_age_g = onset_age - geochi_offset
+                    add_row(sub_type, "", min_age, max_age_g)
+                    if exception_min_age is not None and exception_min_age != min_age:
+                        add_row(sub_type, "", exception_min_age, max_age_g)
+
+        return rows
 
     def _parse_annuity_onset_table(self, text: str) -> List[Dict]:
         """

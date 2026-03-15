@@ -80,6 +80,10 @@ def convert_payment_period(raw: str, insurance_period_code: dict = None) -> dict
     """자연어 납입기간 → 시스템코드"""
     raw = str(raw).strip()
 
+    # 빈 문자열: 거치형(일시납) — GT 관례: PAYM_TERM_DVSN_CODE="", PAYM_TERM=NaN
+    if raw == "" or raw == "None":
+        return {"PAYM_TERM": None, "PAYM_TERM_DVSN_CODE": "", "PAYM_TERM_INQY_CODE": ""}
+
     # 전기납: 보험기간과 동일
     if re.search(r"전기납", raw):
         if insurance_period_code:
