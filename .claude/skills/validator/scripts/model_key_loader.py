@@ -103,14 +103,14 @@ def make_row_key(row_dict: dict, key_cols: list) -> tuple:
 def get_active_key_cols(gt_rows: list, ex_rows: list, key_cols: list) -> list:
     """DTCD별 실제 비교키 컬럼 산출.
 
-    GT와 EX 양쪽에 non-None 값이 있는 컬럼만 반환한다.
-    - GT에만 값이 있고 EX=None인 컬럼: 추출 로직이 해당 컬럼을 생성하지 않음 →
-      현재 추출 수준에서 비교 불가이므로 제외 (별도 추출 개선 과제로 분리).
-    - EX에만 값이 있는 컬럼: 신규 추출값으로 extra로 처리되므로 여기선 무관.
-    - 상품세목에 따라 GT에서 실제 입력 컬럼이 다르므로 DTCD별 동적 결정.
+    GT와 EX 양쪽에 non-None 값이 있는 컬럼만 비교 키로 사용한다.
+    GT에만 값이 있고 EX=None인 컬럼은 현재 추출 로직이 생성하지 않으므로 제외.
+    상품세목에 따라 GT에서 실제 입력 컬럼이 다르므로 DTCD별 동적 결정.
     """
     gt_active = {col for col in key_cols
                  if any(normalize_val(r.get(col)) is not None for r in gt_rows)}
     ex_active = {col for col in key_cols
                  if any(normalize_val(r.get(col)) is not None for r in ex_rows)}
-    return [col for col in key_cols if col in gt_active and col in ex_active]
+    active = [col for col in key_cols if col in gt_active and col in ex_active]
+    # fallback: EX가 비어 있으면 GT 기준으로만 (미추출 케이스)
+    return active if active else [col for col in key_cols if col in gt_active]

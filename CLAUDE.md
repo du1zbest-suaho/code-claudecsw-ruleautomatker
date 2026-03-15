@@ -8,6 +8,27 @@
 - **Ground Truth**: 기존 DB(판매중_* 파일)가 정답. 추출 결과가 불일치하면 DB 기준으로 룰을 수정한다.
 - **무영향 원칙**: 특정 상품을 위한 룰 변경이 다른 상품의 추출 정확도에 영향을 주면 안 된다.
 - **교차검증 필수**: PDF 내 txt(텍스트)와 jpeg(이미지)를 모두 활용하여 교차검증한다.
+- **일반화 원칙**: 사업방법서별 하드코딩 금지. 모든 추출 로직은 다양한 양식에 대해 일반화된 방식으로 동작해야 한다.
+
+### 기준정보 용어 및 구조
+
+| 약칭 | 정식명 | DB 컬럼 | 설명 |
+|------|--------|---------|------|
+| 보종세 | 보험종류세코드 | `ISRN_KIND_DTCD` | 하나의 보험종류를 관리하는 코드 |
+| 보종목 | 보험종류목코드 | `ISRN_KIND_ITCD` | 보험종류 유형별 분류 코드 |
+| 상품세 | 상품코드세 | `PROD_DTCD` | 보험종류세목 하위 주계약/특약 코드 |
+| 상품목 | 상품코드목 | `PROD_ITCD` | 상품세 유형별 분류 코드 (3자리 zero-pad) |
+
+#### 기준정보 관리 테이블 계층
+
+| Level | 관리 키 | 해당 테이블 |
+|-------|---------|-----------|
+| 1 | 보종세 | — |
+| 2 | 보종세 + 보종목 | — |
+| **3** | **보종세 + 보종목 + 상품세 + 상품목** | **S00022, S00026, S00027, S00028** |
+| 4 | 상품세 + 상품목 | — |
+
+> S00022/26/27/28은 4개 키 조합으로 GT 행이 식별된다. 비교 및 GT 건수 필터링 시 반드시 4개 키를 모두 사용해야 한다.
 
 ### 입력 파일 위치
 - 사업방법서: `data/pdf/*.pdf`
@@ -58,6 +79,14 @@ python .claude/skills/pdf-preprocessor/scripts/parse_sub_types.py \
   --input output/extracted/{run_id}_pages.json --output output/extracted/{run_id}_subtypes.json
 ```
 
+> **보종목 추출 원칙**: 사업방법서 "1. 보험종목에 관한 사항"에서
+> - **가. 보험종목의 명칭** → 보종세(`ISRN_KIND_DTCD`) 매핑 근거
+> - **나. 보험종목의 구성** → 보종목(`ISRN_KIND_ITCD`) 매핑 근거
+>
+> 보종명은 `보험종목의 명칭 + " " + 보험종목의 구성 명칭`으로 생성된다.
+> 신규 사업방법서 처리 시 이 섹션에서 보종목을 **정확히** 추출해야
+> 4개 키 매핑 및 GT 비교가 올바르게 동작한다.
+
 `fallback_needed=true` 반환 시: 전체 텍스트를 LLM에게 제공하여 관련 페이지 번호 판단 요청 (자동 재시도 1회). 실패 시 사용자에게 관련 페이지 번호 질문.
 
 ### STEP 2: 상품 매핑
@@ -68,10 +97,10 @@ python .claude/skills/pdf-preprocessor/scripts/parse_sub_types.py \
 파일 구조:
 | 컬럼 | 설명 |
 |------|------|
-| `ISRN_KIND_DTCD` | 보종코드 (상품코드) |
-| `ISRN_KIND_ITCD` | 보종세부코드 |
+| `ISRN_KIND_DTCD` | **보종세** — 보험종류세코드 |
+| `ISRN_KIND_ITCD` | **보종목** — 보험종류목코드 (추출의 핵심 매핑 키) |
 | `ISRN_KIND_SALE_NM` | 보험종목 판매명 |
-| `PROD_DTCD` / `PROD_ITCD` | 상품구성 코드 |
+| `PROD_DTCD` / `PROD_ITCD` | **상품세 / 상품목** — GT 비교 4개 키의 나머지 2개, `PROD_ITCD`는 3자리 zero-pad |
 | `사업방법서 파일명` | PDF 파일명 (매핑 키) |
 
 **주의사항**:
@@ -163,6 +192,11 @@ python .claude/skills/validator/scripts/check_combination_completeness.py \
   (`get_active_key_cols()` — 상품에 따라 사용 컬럼이 다르므로 DTCD별 동적 결정)
 - NULL 정규화: NaN/None→None, 숫자→문자열 통일 (Excel int ↔ JSON str 타입 불일치 처리)
 
+**GT 행 필터링 기준 (4개 키)**:
+- 매핑 파일에서 해당 PDF-DTCD에 속한 `(ISRN_KIND_ITCD, PROD_ITCD)` 쌍 목록으로 GT 행 필터
+- S00026: 추가로 `MAX_AG ≠ 999` umbrella 행 제외 (시스템 내부 처리용 전연령 공통 행)
+- 구현: `generate_report.py`의 `get_gt_row_count(itcd_pairs=…)`, `update_gt_generation_status.py`의 `build_dtcd_cache()`
+
 **분기 조건**:
 - `MISMATCH = 0, MISSING = 0` → STEP 7로 진행
 - `MISSING > 0` → STEP 3 재실행 (누락 항목 힌트 포함, 최대 2회). 2회 실패 시 사용자에게 에스컬레이션
@@ -221,8 +255,8 @@ python scripts/generate_report.py --output output/reports/작업현황.xlsx
 ### 결과 코드
 | 코드 | 색상 | 의미 |
 |------|------|------|
-| PASS | 연두 | S00026 키셋 완전 일치 (miss=0) |
-| FAIL | 연빨강 | S00026 키셋 불일치 (miss>0) |
+| 일치 | 연두 | S00026 키셋 완전 일치 (miss=0) |
+| 불일치 | 연빨강 | S00026 키셋 불일치 (miss>0) |
 | 일치 | 연두 | S00027/28/22 행 수 일치 |
 | 불일치 | 연빨강 | S00027/28/22 행 수 불일치 |
 | 미추출 | 노랑 | GT 있으나 추출 결과 없음 |
@@ -238,6 +272,8 @@ python scripts/generate_report.py --output output/reports/작업현황.xlsx
 ```bash
 # 1. 배치 재실행 (룰 변경이 있었을 때만)
 python scripts/batch_run.py --no-skip
+# ※ 완료 시 update_gt_generation_status.py 자동 실행
+#   → data/existing/판매중_*정보.xlsx 마지막 열 "생성여부" 컬럼 갱신
 
 # 2. 작업현황 리포트 생성
 python scripts/generate_report.py
@@ -247,9 +283,9 @@ python scripts/update_structural_issues.py
 ```
 
 `update_structural_issues.py` 동작:
-- S00026 **PASS** → 상태 `해결` (연두)
-- S00026 **FAIL** + 문제유형 `GT_NaN` → 상태 `미해결` (노랑)
-- S00026 **FAIL** + 문제유형 `ITCD불일치` → 상태 `처리불가` (회색)
+- S00026 **일치** → 상태 `해결` (연두)
+- S00026 **불일치** + 문제유형 `GT_NaN` → 상태 `미해결` (노랑)
+- S00026 **불일치** + 문제유형 `ITCD불일치` → 상태 `처리불가` (회색)
 - S00026 결과 없음 (`-`) → 상태 변경 없음
 
 ---

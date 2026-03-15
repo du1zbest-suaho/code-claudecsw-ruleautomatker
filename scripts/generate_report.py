@@ -93,12 +93,23 @@ def load_gt(table_type: str) -> pd.DataFrame:
     return _gt_cache[table_type]
 
 
-def get_gt_row_count(dtcd: int, table_type: str) -> int:
-    """DTCD에 해당하는 GT 행 수 (S00026: MAX_AG=999 umbrella 제외)"""
+def get_gt_row_count(dtcd: int, table_type: str, itcd_pairs: list = None) -> int:
+    """DTCD + 매핑된 (ISRN_KIND_ITCD, PROD_ITCD) 쌍에 해당하는 GT 행 수.
+    itcd_pairs: [(isrn_itcd, prod_itcd), ...] — None이면 DTCD 전체 카운트
+    S00026: MAX_AG=999 umbrella 제외"""
     df = load_gt(table_type)
     if df.empty or "ISRN_KIND_DTCD" not in df.columns:
         return 0
     gf = df[df["ISRN_KIND_DTCD"] == dtcd]
+    if itcd_pairs and "ISRN_KIND_ITCD" in df.columns and "PROD_ITCD" in df.columns:
+        # PROD_ITCD를 3자리 zero-pad 문자열로 정규화
+        gf = gf.copy()
+        gf["_prod_itcd_str"] = gf["PROD_ITCD"].apply(
+            lambda v: str(int(v)).zfill(3) if pd.notna(v) else "")
+        gf = gf[gf.apply(
+            lambda r: (str(r["ISRN_KIND_ITCD"]), r["_prod_itcd_str"]) in itcd_pairs,
+            axis=1,
+        )]
     if table_type == "S00026" and "MAX_AG" in df.columns:
         gf = gf[gf["MAX_AG"] != 999]
     return len(gf)
@@ -106,14 +117,29 @@ def get_gt_row_count(dtcd: int, table_type: str) -> int:
 
 # ─── 추출 파일 검색 ───────────────────────────────────────────────────────────
 
-def find_coded_files(dtcd: int, first_itcd: str, run_id: str, table_type: str) -> list:
-    """dtcd + itcd 조합으로 coded json 파일 검색 (run_id 기반)"""
+def find_coded_files(dtcd: int, first_itcd: str, run_id: str, table_type: str,
+                     all_itcds: list = None) -> list:
+    """dtcd + itcd 조합으로 coded json 파일 검색.
+
+    all_itcds: 매핑에 등록된 ISRN_KIND_ITCD 목록. 지정 시 해당 ITCD 접두어로 시작하는
+    파일만 포함 (A01 중복 파일 방지). 타임스탬프 기반 파일(YYYYMMDD_HHMMSS)은
+    이름 기반 파일이 존재할 경우 제외.
+    """
+    import re as _re
+    _TS_PAT = _re.compile(r"_\d{8}_\d{6}_coded\.json$")
+
     product_code = f"{dtcd}{first_itcd}"
     pattern = f"{EXTRACT_DIR}/{product_code}_{table_type}_{run_id}_coded.json"
     files = glob.glob(pattern)
     if not files:
-        pattern2 = f"{EXTRACT_DIR}/{dtcd}*_{table_type}_*_coded.json"
-        files = glob.glob(pattern2)
+        candidates = glob.glob(f"{EXTRACT_DIR}/{dtcd}*_{table_type}_*_coded.json")
+        if all_itcds:
+            valid_pfx = tuple(f"{dtcd}{itcd}_" for itcd in set(all_itcds))
+            candidates = [f for f in candidates
+                          if os.path.basename(f).startswith(valid_pfx)]
+        # 타임스탬프 기반 파일 제외 (이름 기반 파일이 있을 때)
+        named = [f for f in candidates if not _TS_PAT.search(os.path.basename(f))]
+        files = named if named else candidates
     return files
 
 
@@ -129,13 +155,13 @@ def get_ex_row_count(coded_files: list) -> int:
 # ─── 동적 키 비교 (모델상세 기반) ────────────────────────────────────────────
 
 def _compare_keys(dtcd: int, table_type: str, coded_files: list,
-                  itcds: list = None) -> tuple:
+                  itcds: list = None, itcd_pairs: list = None) -> tuple:
     """모델상세 기반 키 비교. 상품세목별 활성 컬럼 동적 결정.
 
     반환: (gt_keys, ex_keys, active_key_cols)
     - active_key_cols: GT·EX 양쪽에 값이 있는 컬럼만 (per-DTCD 동적 결정)
     - S00026: MAX_AG=999 umbrella 행 제외
-    - S00022: itcds 필터 적용
+    - itcd_pairs: (ISRN_KIND_ITCD, PROD_ITCD) 쌍으로 GT 필터링 (itcds보다 정밀)
     """
     df = load_gt(table_type)
     key_cols = load_model_key_cols(table_type)
@@ -146,7 +172,14 @@ def _compare_keys(dtcd: int, table_type: str, coded_files: list,
         gf = df[df["ISRN_KIND_DTCD"] == dtcd]
         if table_type == "S00026" and "MAX_AG" in df.columns:
             gf = gf[gf["MAX_AG"] != 999]
-        if itcds and "ISRN_KIND_ITCD" in df.columns:
+        if itcd_pairs and "ISRN_KIND_ITCD" in df.columns and "PROD_ITCD" in df.columns:
+            gf = gf.copy()
+            gf["_prod_itcd_str"] = gf["PROD_ITCD"].apply(
+                lambda v: str(int(v)).zfill(3) if pd.notna(v) else "")
+            pair_set = set(itcd_pairs)
+            gf = gf[gf.apply(
+                lambda r: (str(r["ISRN_KIND_ITCD"]), r["_prod_itcd_str"]) in pair_set, axis=1)]
+        elif itcds and "ISRN_KIND_ITCD" in df.columns:
             gf = gf[gf["ISRN_KIND_ITCD"].isin(itcds)]
         gt_rows = gf.to_dict("records")
 
@@ -160,12 +193,8 @@ def _compare_keys(dtcd: int, table_type: str, coded_files: list,
     if not key_cols:
         return set(), set(), []
 
-    # DTCD별 활성 컬럼: GT·EX 양쪽에 non-None 값이 있는 컬럼만
+    # DTCD별 활성 컬럼: GT에 non-None 값이 있는 컬럼 (GT 기준)
     active_cols = get_active_key_cols(gt_rows, ex_rows, key_cols)
-    if not active_cols:
-        # fallback: GT에 값 있는 컬럼만 (EX가 비어 있는 경우)
-        active_cols = [col for col in key_cols
-                       if any(make_row_key(r, [col])[0] is not None for r in gt_rows)]
 
     gt_keys = {make_row_key(r, active_cols) for r in gt_rows}
     ex_keys = {make_row_key(r, active_cols) for r in ex_rows}
@@ -229,8 +258,9 @@ def build_report() -> pd.DataFrame:
             continue
         itcd = str(row.get("ISRN_KIND_ITCD", "") or "").strip()
         sale_nm = str(row.get("ISRN_KIND_SALE_NM", "") or "").strip()
+        prod_itcd = str(int(row["PROD_ITCD"])).zfill(3) if pd.notna(row.get("PROD_ITCD")) else ""
         dtcd_pdf_map.setdefault(dtcd, {}).setdefault(pdf, []).append({
-            "itcd": itcd, "sale_nm": sale_nm
+            "itcd": itcd, "sale_nm": sale_nm, "prod_itcd": prod_itcd
         })
 
     rows = []
@@ -257,47 +287,56 @@ def build_report() -> pd.DataFrame:
                 "_LINK_pdf": pdf_link,
             }
 
+            mapped_itcds = [e["itcd"] for e in entries]
+            mapped_itcd_pairs = [(e["itcd"], e["prod_itcd"]) for e in entries]
+
             for table_type in ["S00026", "S00027", "S00028", "S00022"]:
-                coded_files = find_coded_files(dtcd, first_itcd, run_id, table_type)
+                coded_files = find_coded_files(dtcd, first_itcd, run_id, table_type,
+                                               all_itcds=mapped_itcds)
 
-                gt_cnt = get_gt_row_count(dtcd, table_type)
+                gt_cnt = get_gt_row_count(dtcd, table_type, itcd_pairs=mapped_itcd_pairs)
                 ex_cnt = get_ex_row_count(coded_files) if coded_files else 0
-
-                mapped_itcds = [e["itcd"] for e in entries]
                 gt_keys, ex_keys, _ = _compare_keys(
                     dtcd, table_type, coded_files,
-                    itcds=mapped_itcds if table_type == "S00022" else None,
+                    itcd_pairs=mapped_itcd_pairs,
                 )
 
                 match_cnt = len(gt_keys & ex_keys)
                 miss_cnt  = len(gt_keys - ex_keys)
                 extra_cnt = len(ex_keys - gt_keys)
 
-                if table_type == "S00026":
-                    if gt_keys:
-                        pass_fail = "PASS" if miss_cnt == 0 else "FAIL"
-                    else:
-                        pass_fail = "-" if not ex_keys else "신규"
+                # 키셋 기반 결과 판정 (GT는 ITCD별 중복 행 포함하므로 고유키 비교)
+                if gt_cnt == 0 and ex_cnt == 0:
+                    pass_fail = "-"
+                elif gt_cnt == 0:
+                    pass_fail = "신규"
+                elif ex_cnt == 0:
+                    pass_fail = "미추출"
+                elif miss_cnt == 0:
+                    pass_fail = "일치"
                 else:
-                    # S00027/S00028/S00022: 키 기반
-                    if not gt_keys and not ex_keys:
-                        pass_fail = "-"
-                    elif not gt_keys:
-                        pass_fail = "신규"
-                    elif not ex_keys:
-                        pass_fail = "미추출"
-                    elif miss_cnt == 0:
-                        pass_fail = "일치"
+                    pass_fail = "불일치"
+
+                if pass_fail == "불일치":
+                    if extra_cnt > 0:
+                        reason = f"GT키{miss_cnt}건 미추출 (초과{extra_cnt}키)"
                     else:
-                        pass_fail = "불일치"
+                        reason = f"GT키{miss_cnt}건 미추출"
+                elif pass_fail == "미추출":
+                    reason = f"GT{gt_cnt}건 미추출"
+                elif pass_fail == "신규":
+                    reason = "GT없음"
+                else:
+                    reason = ""
 
                 lbl = TABLE_LABELS[table_type]
-                row_data[f"{lbl}_추출키수"] = len(ex_keys)
-                row_data[f"{lbl}_GT키수"] = len(gt_keys)
+                row_data[f"{lbl}_실제건수"] = ex_cnt
+                row_data[f"{lbl}_GT건수"] = gt_cnt
                 row_data[f"{lbl}_일치키수"] = match_cnt
                 row_data[f"{lbl}_미일치키수"] = miss_cnt
                 row_data[f"{lbl}_추가키수"] = extra_cnt
                 row_data[f"{lbl}_결과"] = pass_fail
+                row_data[f"{lbl}_불일치사유"] = reason
                 row_data[f"_LINK_{table_type}_upload"] = _find_upload_file(dtcd, run_id, table_type)
 
             # ── 구조적 문제 컬럼 추가 ─────────────────────────────────────────
@@ -336,7 +375,7 @@ def build_report() -> pd.DataFrame:
             row_data["구조적_문제설명"] = desc_text
 
             # ── 진행상태: 4개 테이블 모두 완료 기준 ──────────────────────────
-            ok_s26 = row_data.get("가입가능나이_결과") == "PASS"
+            ok_s26 = row_data.get("가입가능나이_결과") == "일치"
             ok_s27 = row_data.get("보기납기_결과")     in ("일치", "-")
             ok_s28 = row_data.get("납입주기_결과")     in ("일치", "-")
             ok_s22 = row_data.get("보기개시나이_결과") in ("일치", "-")
@@ -373,6 +412,10 @@ def save_report(df: pd.DataFrame, output_path: str):
             "ISRN_KIND_DTCD": 14,
             "ISRN_KIND_ITCD_목록": 20,
             "보험종목명": 50,
+            "가입가능나이_불일치사유": 28,
+            "보기납기_불일치사유":     28,
+            "납입주기_불일치사유":     28,
+            "보기개시나이_불일치사유": 28,
             "구조적_문제유형": 16,
             "구조적_상태":    12,
             "구조적_형태":    30,
@@ -424,12 +467,12 @@ def save_report(df: pd.DataFrame, output_path: str):
         pdf_col_idx = next((i + 1 for i, c in enumerate(display_df.columns) if c == "사업방법서 파일명"), None)
         upload_col_idx = {
             table_type: next((i + 1 for i, c in enumerate(display_df.columns)
-                              if c == f"{TABLE_LABELS[table_type]}_추출키수"), None)
+                              if c == f"{TABLE_LABELS[table_type]}_실제건수"), None)
             for table_type in TABLE_LABELS
         }
         gt_col_idx = {
             table_type: next((i + 1 for i, c in enumerate(display_df.columns)
-                              if c == f"{TABLE_LABELS[table_type]}_GT키수"), None)
+                              if c == f"{TABLE_LABELS[table_type]}_GT건수"), None)
             for table_type in TABLE_LABELS
         }
 
@@ -589,7 +632,7 @@ def save_report(df: pd.DataFrame, output_path: str):
         # 테이블별 데이터 (행4~7)
         # (table_code, display_label, pass/일치 statuses, fail/불일치 statuses, 미추출 statuses, 기타 statuses)
         table_meta = [
-            ("S00026", "S00026 가입가능나이", ["PASS"],        ["FAIL"],    [],         []),
+            ("S00026", "S00026 가입가능나이", ["일치"],        ["불일치"], ["미추출"], ["신규", "-"]),
             ("S00027", "S00027 보기납기",     ["일치"],        ["불일치"], ["미추출"], ["신규", "-"]),
             ("S00028", "S00028 납입주기",     ["일치"],        ["불일치"], ["미추출"], ["신규", "-"]),
             ("S00022", "S00022 보기개시나이", ["일치", "-"],   ["불일치"], ["미추출"], ["신규"]),

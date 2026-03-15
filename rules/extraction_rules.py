@@ -618,9 +618,13 @@ class ExtractionRules:
 
         # 패턴 2: "N년납\n남자\nN세\n여자\nN세" (종신보험 성별 구분 형식)
         # 예: 간편가입_H종신보험, 제로백H종신보험 등
+        # 페이지 구분자로 테이블이 분할된 경우 처리 (cross-page table continuation)
         if not results:
+            section_clean = re.sub(r'--- 페이지 \d+ ---[ \t]*\n', '', section)
+            section_clean = re.sub(r'\n\d+ - \d+ - \d+[ \t]*\n', '\n', section_clean)
+            section_clean = re.sub(r'\n구분[ \t]*\n최고가입나이[ \t]*\n', '\n', section_clean)
             gender_pattern = r"(\d+\s*년납|전기납|일시납)\s+남자\s+(\d+)\s*세\s+여자\s+(\d+)\s*세"
-            for m in re.finditer(gender_pattern, section):
+            for m in re.finditer(gender_pattern, section_clean):
                 payment = m.group(1).replace(" ", "")
                 male_max = int(m.group(2))
                 female_max = int(m.group(3))
@@ -1092,6 +1096,9 @@ class ExtractionRules:
             r"비흡연체형",
             r"\d+종\([^)]+\)",
             r"[가나다]종(?:\([^)]+\))?",
+            # 개인/부부형 연금 상품 세부 종목
+            r"개인형",
+            r"신부부형",
         ]
         for pattern in patterns:
             for m in re.finditer(pattern, text):
@@ -1441,11 +1448,13 @@ class ExtractionRules:
         if m_min:
             min_age = int(m_min.group(1))
 
-        # 가입최저나이 예외 파싱 (예: "단, 3종...가입최저나이는 40세로 한다")
+        # 가입최저나이 예외 파싱 (예: "단, 3종(연금강화형)의 경우 가입최저나이는 40세로 한다")
         exception_min_age = None
-        m_exc = re.search(r"단[,，][^\n]*가입최저나이는\s*(?:만\s*)?(\d+)세", text)
+        exception_sub_type_hint = None  # 예외가 적용될 특정 종/형 힌트
+        m_exc = re.search(r"단[,，]\s*([^\n]*?)가입최저나이는\s*(?:만\s*)?(\d+)세", text)
         if m_exc:
-            exception_min_age = int(m_exc.group(1))
+            exception_sub_type_hint = m_exc.group(1).strip()
+            exception_min_age = int(m_exc.group(2))
 
         # 연금개시나이 범위 추출 — 모든 "연금개시나이" 앵커 근처에서 "N세~M세" 탐색 후 min/max
         onset_ranges = []
@@ -1484,6 +1493,33 @@ class ExtractionRules:
 
         sub_types = self._find_sub_types_in_section(text) or ["기본형"]
 
+        # 납입기간 섹션에서 종별 납입 방식 파싱
+        # 패턴: "(N) 종이름1[, 종이름2] \n - 적립형 : Xn납, ... \n - 거치형 : ..."
+        # 결과: sub_type → {"adori_payms": [...], "has_geochi": bool}
+        sub_paym_info: Dict[str, Dict] = {}
+        for blk in re.finditer(
+            r"\(\d+\)\s*([^\n]+)\n((?:\s*[-·‐]\s*[^\n]+\n){1,6})",
+            text
+        ):
+            sub_names_str = blk.group(1)
+            body = blk.group(2)
+            # 이 블록에 언급된 "N종(이름)" 목록
+            block_subs = re.findall(r"\d+종\([^)]+\)", sub_names_str)
+            if not block_subs:
+                continue
+            adori_m = re.search(r"적립형\s*:\s*([^-\n]+)", body)
+            has_geochi_blk = bool(re.search(r"거치형", body))
+            adori_payms: List[str] = re.findall(r"\d+년납", adori_m.group(1)) if adori_m else []
+            has_adori_blk = bool(adori_m)
+            for bs in block_subs:
+                for actual in sub_types:
+                    if bs in actual or actual in bs:
+                        sub_paym_info[actual] = {
+                            "adori_payms": adori_payms,
+                            "has_adori": has_adori_blk,
+                            "has_geochi": has_geochi_blk,
+                        }
+
         rows: List[Dict] = []
         seen: set = set()
 
@@ -1501,28 +1537,49 @@ class ExtractionRules:
                 })
 
         for sub_type in sub_types:
+            # 이 sub_type에 exception_min_age가 적용되는지 판단
+            if exception_min_age is not None and exception_sub_type_hint:
+                hint_tokens = re.findall(r'\d+종|\w+형', exception_sub_type_hint)
+                exc_applies = any(token in sub_type for token in hint_tokens) if hint_tokens else True
+            else:
+                exc_applies = False  # 힌트 없고 예외 없으면 기본 최저나이 사용
+
+            # 실제 사용할 최저나이: 예외 적용 종이면 exception_min_age, 아니면 min_age
+            effective_min = exception_min_age if (exc_applies and exception_min_age is not None) else min_age
+
+            # 납입기간 섹션 정보에서 이 종의 납입 방식 결정
+            paym_info = sub_paym_info.get(sub_type, {})
+            adori_payms: List[str] = paym_info.get("adori_payms", [])  # 비어있으면 전체 offset_map 사용
+            has_adori = paym_info.get("has_adori", True)  # 기본값: 적립형 행 생성
+            # 거치형 행 생성 여부: 납입기간 섹션에 거치형이 있거나, 미파싱 시 "거치형" sub_type이면 생성
+            if paym_info:
+                is_geochi_sub = paym_info.get("has_geochi", False)
+            else:
+                is_geochi_sub = "거치형" in sub_type
+
+            # 사용할 적립형 오프셋 맵 결정
+            if adori_payms:
+                effective_offset_map = {k: v for k, v in offset_map.items() if k in adori_payms}
+            else:
+                effective_offset_map = offset_map
+
             for onset_age in range(onset_min, onset_max + 1):
-                # 적립형 납입기간별
-                for pp_str, offset in offset_map.items():
-                    max_age = onset_age - offset
-                    add_row(sub_type, pp_str, min_age, max_age)
-                    if exception_min_age is not None and exception_min_age != min_age:
-                        add_row(sub_type, pp_str, exception_min_age, max_age)
+                # 적립형 납입기간별 (적립형이 있는 종에만)
+                if has_adori:
+                    for pp_str, offset in effective_offset_map.items():
+                        max_age = onset_age - offset
+                        add_row(sub_type, pp_str, effective_min, max_age)
 
-                # 전기납 → "{onset_age}세납"
-                if jeongi_offset is not None:
-                    pp_j = f"{onset_age}세납"
-                    max_age_j = onset_age - jeongi_offset
-                    add_row(sub_type, pp_j, min_age, max_age_j)
-                    if exception_min_age is not None and exception_min_age != min_age:
-                        add_row(sub_type, pp_j, exception_min_age, max_age_j)
+                    # 전기납 → "{onset_age}세납"
+                    if jeongi_offset is not None:
+                        pp_j = f"{onset_age}세납"
+                        max_age_j = onset_age - jeongi_offset
+                        add_row(sub_type, pp_j, effective_min, max_age_j)
 
-                # 거치형 (payment_period="")
-                if geochi_offset is not None:
+                # 거치형 (payment_period="") — 거치형 납입 방식이 있는 종에만 생성
+                if geochi_offset is not None and is_geochi_sub:
                     max_age_g = onset_age - geochi_offset
-                    add_row(sub_type, "", min_age, max_age_g)
-                    if exception_min_age is not None and exception_min_age != min_age:
-                        add_row(sub_type, "", exception_min_age, max_age_g)
+                    add_row(sub_type, "", effective_min, max_age_g)
 
         return rows
 

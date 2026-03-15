@@ -5,16 +5,20 @@ Usage:
     python scripts/update_structural_issues.py [--report output/reports/s26_latest.xlsx]
 
 기능:
-  1. 최신 generate_report.py 출력에서 S00026 PASS/FAIL 읽기
+  1. 최신 generate_report.py 출력에서 S00026 일치/불일치 읽기
   2. data/structural_issues.xlsx의 상태(해결/미해결) 자동 갱신
   3. 갱신 내역 콘솔 출력
 """
 import argparse
 import os
+import sys
 import glob
 import pandas as pd
 import openpyxl
 from openpyxl.styles import PatternFill
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 
 # 색상 (해결=연두, 미해결=연노랑, 처리불가=회색)
@@ -24,27 +28,43 @@ FILL_BLOCKED    = PatternFill("solid", fgColor="D9D9D9")
 
 
 def get_latest_report() -> str:
-    """output/reports/ 에서 가장 최근 xlsx 리포트 반환"""
-    files = sorted(glob.glob("output/reports/s26_*.xlsx") +
-                   glob.glob("output/reports/*latest*.xlsx"), reverse=True)
+    """output/reports/ 에서 가장 최근 작업현황 xlsx 리포트 반환"""
+    files = sorted(
+        glob.glob("output/reports/작업현황_*.xlsx") +
+        glob.glob("output/reports/s26_*.xlsx") +
+        glob.glob("output/reports/*latest*.xlsx"),
+        reverse=True,
+    )
     if not files:
         raise FileNotFoundError("output/reports/ 에 리포트가 없음. generate_report.py 먼저 실행하세요.")
     return files[0]
 
 
 def read_report_status(report_path: str) -> dict:
-    """리포트에서 DTCD별 S00026 결과 읽기 → {dtcd: 'PASS'/'FAIL'/'-'}"""
+    """리포트에서 DTCD별 S00026 결과 읽기 → {dtcd: '일치'/'불일치'/'-'}"""
     df = pd.read_excel(report_path, sheet_name=0, header=0)
-    # 열 9 = 가입가능나이_결과
-    result_col = 9
-    status = {}
-    for _, row in df.iterrows():
-        dtcd = row.iloc[1]  # ISRN_KIND_DTCD
-        result = row.iloc[result_col]
-        if pd.notna(dtcd) and pd.notna(result):
-            dtcd = int(dtcd)
-            if dtcd not in status or result == 'PASS':
-                status[dtcd] = str(result)
+    # 컬럼명 우선, fallback으로 인덱스 9
+    if "가입가능나이_결과" in df.columns:
+        result_col_name = "가입가능나이_결과"
+        dtcd_col_name   = "ISRN_KIND_DTCD"
+        status = {}
+        for _, row in df.iterrows():
+            dtcd = row.get(dtcd_col_name)
+            result = row.get(result_col_name)
+            if pd.notna(dtcd) and pd.notna(result):
+                dtcd = int(dtcd)
+                if dtcd not in status or result == '일치':
+                    status[dtcd] = str(result)
+    else:
+        # fallback: 열 인덱스 1=DTCD, 9=결과
+        status = {}
+        for _, row in df.iterrows():
+            dtcd = row.iloc[1]
+            result = row.iloc[9]
+            if pd.notna(dtcd) and pd.notna(result):
+                dtcd = int(dtcd)
+                if dtcd not in status or result == '일치':
+                    status[dtcd] = str(result)
     return status
 
 
@@ -59,16 +79,16 @@ def determine_new_status(dtcd: int, issue_type: str, report_status: dict,
     """
     rpt = report_status.get(dtcd, '-')
 
-    if rpt == 'PASS':
-        return '해결', 'S00026 PASS 확인', FILL_RESOLVED
+    if rpt == '일치':
+        return '해결', 'S00026 일치 확인', FILL_RESOLVED
 
     if rpt == '-':
         # 해당 DTCD가 현재 배치 대상이 아님 (PDF 없음 등)
         return current_status, 'PDF 미처리 (배치 대상 없음)', None
 
-    # FAIL 케이스 — 이유 세분화
+    # 불일치 케이스 — 이유 세분화
     if issue_type == 'GT_NaN':
-        if rpt == 'FAIL':
+        if rpt == '불일치':
             return '미해결', 'GT NaN ip/pp — 추출 값 불일치 또는 max_age 오차', FILL_UNRESOLVED
     if issue_type == 'ITCD불일치':
         if answer.strip():
@@ -84,8 +104,8 @@ def determine_new_status(dtcd: int, issue_type: str, report_status: dict,
 def update_structural_issues(report_path: str, si_path: str = "data/structural_issues.xlsx"):
     report_status = read_report_status(report_path)
     print(f"리포트: {report_path}")
-    print(f"PASS: {sorted(k for k,v in report_status.items() if v=='PASS')}")
-    print(f"FAIL: {sorted(k for k,v in report_status.items() if v=='FAIL')}")
+    print(f"일치: {sorted(k for k,v in report_status.items() if v=='일치')}")
+    print(f"불일치: {sorted(k for k,v in report_status.items() if v=='불일치')}")
     print()
 
     wb = openpyxl.load_workbook(si_path)
