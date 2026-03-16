@@ -7,623 +7,1238 @@
   "image_used": false,
   "raw_data": [
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "7년납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "10년납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "15년납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "20년납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "5년납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "45세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "46세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "47세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "48세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "49세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "50세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "51세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "52세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "53세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "54세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "55세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "56세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "57세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "58세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "59세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "60세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "61세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "62세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "63세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "64세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "65세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "66세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "67세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "68세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "69세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "70세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "71세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "72세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "73세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "74세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "75세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "76세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "77세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "78세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "79세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "5년만기",
       "payment_period": "80세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "7년납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "10년납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "15년납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "20년납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "5년납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "45세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "46세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "47세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "48세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "49세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "50세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "51세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "52세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "53세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "54세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "55세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "56세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "57세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "58세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "59세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "60세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "61세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "62세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "63세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "64세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "65세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "66세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "67세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "68세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "69세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "70세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "71세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "72세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "73세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "74세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "75세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "76세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "77세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "78세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "79세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "3년만기",
       "payment_period": "80세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "7년납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "10년납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "15년납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "20년납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "5년납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "45세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "46세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "47세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "48세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "49세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "50세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "51세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "52세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "53세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "54세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "55세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "56세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "57세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "58세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "59세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "60세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "61세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "62세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "63세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "64세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "65세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "66세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "67세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "68세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "69세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "70세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "71세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "72세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "73세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "74세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "75세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "76세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "77세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "78세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "insurance_period": "종신",
       "payment_period": "79세납"
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
+      "insurance_period": "종신",
+      "payment_period": "80세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "7년납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "15년납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "5년납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "45세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "46세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "47세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "48세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "49세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "50세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "51세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "52세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "53세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "54세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "55세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "56세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "57세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "58세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "59세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "60세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "61세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "62세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "63세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "64세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "65세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "66세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "67세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "68세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "69세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "70세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "71세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "72세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "73세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "74세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "75세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "76세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "77세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "78세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "79세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "5년만기",
+      "payment_period": "80세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "7년납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "15년납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "5년납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "45세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "46세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "47세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "48세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "49세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "50세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "51세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "52세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "53세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "54세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "55세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "56세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "57세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "58세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "59세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "60세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "61세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "62세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "63세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "64세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "65세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "66세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "67세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "68세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "69세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "70세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "71세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "72세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "73세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "74세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "75세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "76세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "77세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "78세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "79세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "3년만기",
+      "payment_period": "80세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "7년납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "15년납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "20년납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "5년납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "45세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "46세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "47세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "48세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "49세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "50세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "51세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "52세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "53세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "54세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "55세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "56세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "57세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "58세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "59세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "60세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "61세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "62세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "63세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "64세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "65세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "66세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "67세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "68세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "69세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "70세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "71세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "72세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "73세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "74세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "75세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "76세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "77세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "78세납"
+    },
+    {
+      "sub_type": "신부부형",
+      "insurance_period": "종신",
+      "payment_period": "79세납"
+    },
+    {
+      "sub_type": "신부부형",
       "insurance_period": "종신",
       "payment_period": "80세납"
     }
   ],
   "discrepancies": [],
-  "row_count": 123,
+  "row_count": 246,
   "coded_rows": [
     {
       "ISRN_TERM": 5,
@@ -632,9 +1247,9 @@
       "PAYM_TERM": 7,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N7",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "7년납"
       }
@@ -646,9 +1261,9 @@
       "PAYM_TERM": 10,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "10년납"
       }
@@ -660,9 +1275,9 @@
       "PAYM_TERM": 15,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N15",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "15년납"
       }
@@ -674,9 +1289,9 @@
       "PAYM_TERM": 20,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N20",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "20년납"
       }
@@ -688,9 +1303,9 @@
       "PAYM_TERM": 5,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N5",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "5년납"
       }
@@ -702,9 +1317,9 @@
       "PAYM_TERM": 45,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X45",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "45세납"
       }
@@ -716,9 +1331,9 @@
       "PAYM_TERM": 46,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X46",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "46세납"
       }
@@ -730,9 +1345,9 @@
       "PAYM_TERM": 47,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X47",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "47세납"
       }
@@ -744,9 +1359,9 @@
       "PAYM_TERM": 48,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X48",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "48세납"
       }
@@ -758,9 +1373,9 @@
       "PAYM_TERM": 49,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X49",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "49세납"
       }
@@ -772,9 +1387,9 @@
       "PAYM_TERM": 50,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X50",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "50세납"
       }
@@ -786,9 +1401,9 @@
       "PAYM_TERM": 51,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X51",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "51세납"
       }
@@ -800,9 +1415,9 @@
       "PAYM_TERM": 52,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X52",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "52세납"
       }
@@ -814,9 +1429,9 @@
       "PAYM_TERM": 53,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X53",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "53세납"
       }
@@ -828,9 +1443,9 @@
       "PAYM_TERM": 54,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X54",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "54세납"
       }
@@ -842,9 +1457,9 @@
       "PAYM_TERM": 55,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X55",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "55세납"
       }
@@ -856,9 +1471,9 @@
       "PAYM_TERM": 56,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X56",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "56세납"
       }
@@ -870,9 +1485,9 @@
       "PAYM_TERM": 57,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X57",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "57세납"
       }
@@ -884,9 +1499,9 @@
       "PAYM_TERM": 58,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X58",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "58세납"
       }
@@ -898,9 +1513,9 @@
       "PAYM_TERM": 59,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X59",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "59세납"
       }
@@ -912,9 +1527,9 @@
       "PAYM_TERM": 60,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X60",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "60세납"
       }
@@ -926,9 +1541,9 @@
       "PAYM_TERM": 61,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X61",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "61세납"
       }
@@ -940,9 +1555,9 @@
       "PAYM_TERM": 62,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X62",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "62세납"
       }
@@ -954,9 +1569,9 @@
       "PAYM_TERM": 63,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X63",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "63세납"
       }
@@ -968,9 +1583,9 @@
       "PAYM_TERM": 64,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X64",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "64세납"
       }
@@ -982,9 +1597,9 @@
       "PAYM_TERM": 65,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X65",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "65세납"
       }
@@ -996,9 +1611,9 @@
       "PAYM_TERM": 66,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X66",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "66세납"
       }
@@ -1010,9 +1625,9 @@
       "PAYM_TERM": 67,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X67",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "67세납"
       }
@@ -1024,9 +1639,9 @@
       "PAYM_TERM": 68,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X68",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "68세납"
       }
@@ -1038,9 +1653,9 @@
       "PAYM_TERM": 69,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X69",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "69세납"
       }
@@ -1052,9 +1667,9 @@
       "PAYM_TERM": 70,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X70",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "70세납"
       }
@@ -1066,9 +1681,9 @@
       "PAYM_TERM": 71,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X71",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "71세납"
       }
@@ -1080,9 +1695,9 @@
       "PAYM_TERM": 72,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X72",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "72세납"
       }
@@ -1094,9 +1709,9 @@
       "PAYM_TERM": 73,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X73",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "73세납"
       }
@@ -1108,9 +1723,9 @@
       "PAYM_TERM": 74,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X74",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "74세납"
       }
@@ -1122,9 +1737,9 @@
       "PAYM_TERM": 75,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X75",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "75세납"
       }
@@ -1136,9 +1751,9 @@
       "PAYM_TERM": 76,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X76",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "76세납"
       }
@@ -1150,9 +1765,9 @@
       "PAYM_TERM": 77,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X77",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "77세납"
       }
@@ -1164,9 +1779,9 @@
       "PAYM_TERM": 78,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X78",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "78세납"
       }
@@ -1178,9 +1793,9 @@
       "PAYM_TERM": 79,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X79",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "79세납"
       }
@@ -1192,9 +1807,9 @@
       "PAYM_TERM": 80,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X80",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "5년만기",
         "payment_period": "80세납"
       }
@@ -1206,9 +1821,9 @@
       "PAYM_TERM": 7,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N7",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "7년납"
       }
@@ -1220,9 +1835,9 @@
       "PAYM_TERM": 10,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "10년납"
       }
@@ -1234,9 +1849,9 @@
       "PAYM_TERM": 15,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N15",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "15년납"
       }
@@ -1248,9 +1863,9 @@
       "PAYM_TERM": 20,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N20",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "20년납"
       }
@@ -1262,9 +1877,9 @@
       "PAYM_TERM": 5,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N5",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "5년납"
       }
@@ -1276,9 +1891,9 @@
       "PAYM_TERM": 45,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X45",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "45세납"
       }
@@ -1290,9 +1905,9 @@
       "PAYM_TERM": 46,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X46",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "46세납"
       }
@@ -1304,9 +1919,9 @@
       "PAYM_TERM": 47,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X47",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "47세납"
       }
@@ -1318,9 +1933,9 @@
       "PAYM_TERM": 48,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X48",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "48세납"
       }
@@ -1332,9 +1947,9 @@
       "PAYM_TERM": 49,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X49",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "49세납"
       }
@@ -1346,9 +1961,9 @@
       "PAYM_TERM": 50,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X50",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "50세납"
       }
@@ -1360,9 +1975,9 @@
       "PAYM_TERM": 51,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X51",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "51세납"
       }
@@ -1374,9 +1989,9 @@
       "PAYM_TERM": 52,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X52",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "52세납"
       }
@@ -1388,9 +2003,9 @@
       "PAYM_TERM": 53,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X53",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "53세납"
       }
@@ -1402,9 +2017,9 @@
       "PAYM_TERM": 54,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X54",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "54세납"
       }
@@ -1416,9 +2031,9 @@
       "PAYM_TERM": 55,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X55",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "55세납"
       }
@@ -1430,9 +2045,9 @@
       "PAYM_TERM": 56,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X56",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "56세납"
       }
@@ -1444,9 +2059,9 @@
       "PAYM_TERM": 57,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X57",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "57세납"
       }
@@ -1458,9 +2073,9 @@
       "PAYM_TERM": 58,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X58",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "58세납"
       }
@@ -1472,9 +2087,9 @@
       "PAYM_TERM": 59,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X59",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "59세납"
       }
@@ -1486,9 +2101,9 @@
       "PAYM_TERM": 60,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X60",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "60세납"
       }
@@ -1500,9 +2115,9 @@
       "PAYM_TERM": 61,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X61",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "61세납"
       }
@@ -1514,9 +2129,9 @@
       "PAYM_TERM": 62,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X62",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "62세납"
       }
@@ -1528,9 +2143,9 @@
       "PAYM_TERM": 63,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X63",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "63세납"
       }
@@ -1542,9 +2157,9 @@
       "PAYM_TERM": 64,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X64",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "64세납"
       }
@@ -1556,9 +2171,9 @@
       "PAYM_TERM": 65,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X65",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "65세납"
       }
@@ -1570,9 +2185,9 @@
       "PAYM_TERM": 66,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X66",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "66세납"
       }
@@ -1584,9 +2199,9 @@
       "PAYM_TERM": 67,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X67",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "67세납"
       }
@@ -1598,9 +2213,9 @@
       "PAYM_TERM": 68,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X68",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "68세납"
       }
@@ -1612,9 +2227,9 @@
       "PAYM_TERM": 69,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X69",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "69세납"
       }
@@ -1626,9 +2241,9 @@
       "PAYM_TERM": 70,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X70",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "70세납"
       }
@@ -1640,9 +2255,9 @@
       "PAYM_TERM": 71,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X71",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "71세납"
       }
@@ -1654,9 +2269,9 @@
       "PAYM_TERM": 72,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X72",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "72세납"
       }
@@ -1668,9 +2283,9 @@
       "PAYM_TERM": 73,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X73",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "73세납"
       }
@@ -1682,9 +2297,9 @@
       "PAYM_TERM": 74,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X74",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "74세납"
       }
@@ -1696,9 +2311,9 @@
       "PAYM_TERM": 75,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X75",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "75세납"
       }
@@ -1710,9 +2325,9 @@
       "PAYM_TERM": 76,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X76",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "76세납"
       }
@@ -1724,9 +2339,9 @@
       "PAYM_TERM": 77,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X77",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "77세납"
       }
@@ -1738,9 +2353,9 @@
       "PAYM_TERM": 78,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X78",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "78세납"
       }
@@ -1752,9 +2367,9 @@
       "PAYM_TERM": 79,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X79",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "79세납"
       }
@@ -1766,9 +2381,9 @@
       "PAYM_TERM": 80,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X80",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "3년만기",
         "payment_period": "80세납"
       }
@@ -1780,9 +2395,9 @@
       "PAYM_TERM": 7,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N7",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "7년납"
       }
@@ -1794,9 +2409,9 @@
       "PAYM_TERM": 10,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "10년납"
       }
@@ -1808,9 +2423,9 @@
       "PAYM_TERM": 15,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N15",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "15년납"
       }
@@ -1822,9 +2437,9 @@
       "PAYM_TERM": 20,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N20",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "20년납"
       }
@@ -1836,9 +2451,9 @@
       "PAYM_TERM": 5,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N5",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "5년납"
       }
@@ -1850,9 +2465,9 @@
       "PAYM_TERM": 45,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X45",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "45세납"
       }
@@ -1864,9 +2479,9 @@
       "PAYM_TERM": 46,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X46",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "46세납"
       }
@@ -1878,9 +2493,9 @@
       "PAYM_TERM": 47,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X47",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "47세납"
       }
@@ -1892,9 +2507,9 @@
       "PAYM_TERM": 48,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X48",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "48세납"
       }
@@ -1906,9 +2521,9 @@
       "PAYM_TERM": 49,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X49",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "49세납"
       }
@@ -1920,9 +2535,9 @@
       "PAYM_TERM": 50,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X50",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "50세납"
       }
@@ -1934,9 +2549,9 @@
       "PAYM_TERM": 51,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X51",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "51세납"
       }
@@ -1948,9 +2563,9 @@
       "PAYM_TERM": 52,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X52",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "52세납"
       }
@@ -1962,9 +2577,9 @@
       "PAYM_TERM": 53,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X53",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "53세납"
       }
@@ -1976,9 +2591,9 @@
       "PAYM_TERM": 54,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X54",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "54세납"
       }
@@ -1990,9 +2605,9 @@
       "PAYM_TERM": 55,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X55",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "55세납"
       }
@@ -2004,9 +2619,9 @@
       "PAYM_TERM": 56,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X56",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "56세납"
       }
@@ -2018,9 +2633,9 @@
       "PAYM_TERM": 57,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X57",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "57세납"
       }
@@ -2032,9 +2647,9 @@
       "PAYM_TERM": 58,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X58",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "58세납"
       }
@@ -2046,9 +2661,9 @@
       "PAYM_TERM": 59,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X59",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "59세납"
       }
@@ -2060,9 +2675,9 @@
       "PAYM_TERM": 60,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X60",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "60세납"
       }
@@ -2074,9 +2689,9 @@
       "PAYM_TERM": 61,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X61",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "61세납"
       }
@@ -2088,9 +2703,9 @@
       "PAYM_TERM": 62,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X62",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "62세납"
       }
@@ -2102,9 +2717,9 @@
       "PAYM_TERM": 63,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X63",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "63세납"
       }
@@ -2116,9 +2731,9 @@
       "PAYM_TERM": 64,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X64",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "64세납"
       }
@@ -2130,9 +2745,9 @@
       "PAYM_TERM": 65,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X65",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "65세납"
       }
@@ -2144,9 +2759,9 @@
       "PAYM_TERM": 66,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X66",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "66세납"
       }
@@ -2158,9 +2773,9 @@
       "PAYM_TERM": 67,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X67",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "67세납"
       }
@@ -2172,9 +2787,9 @@
       "PAYM_TERM": 68,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X68",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "68세납"
       }
@@ -2186,9 +2801,9 @@
       "PAYM_TERM": 69,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X69",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "69세납"
       }
@@ -2200,9 +2815,9 @@
       "PAYM_TERM": 70,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X70",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "70세납"
       }
@@ -2214,9 +2829,9 @@
       "PAYM_TERM": 71,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X71",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "71세납"
       }
@@ -2228,9 +2843,9 @@
       "PAYM_TERM": 72,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X72",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "72세납"
       }
@@ -2242,9 +2857,9 @@
       "PAYM_TERM": 73,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X73",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "73세납"
       }
@@ -2256,9 +2871,9 @@
       "PAYM_TERM": 74,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X74",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "74세납"
       }
@@ -2270,9 +2885,9 @@
       "PAYM_TERM": 75,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X75",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "75세납"
       }
@@ -2284,9 +2899,9 @@
       "PAYM_TERM": 76,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X76",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "76세납"
       }
@@ -2298,9 +2913,9 @@
       "PAYM_TERM": 77,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X77",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "77세납"
       }
@@ -2312,9 +2927,9 @@
       "PAYM_TERM": 78,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X78",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "78세납"
       }
@@ -2326,9 +2941,9 @@
       "PAYM_TERM": 79,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X79",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "insurance_period": "종신",
         "payment_period": "79세납"
       }
@@ -2340,9 +2955,1731 @@
       "PAYM_TERM": 80,
       "PAYM_TERM_DVSN_CODE": "X",
       "PAYM_TERM_INQY_CODE": "X80",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
+        "insurance_period": "종신",
+        "payment_period": "80세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "7년납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "10년납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "15년납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "20년납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "5년납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 45,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X45",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "45세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 46,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X46",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "46세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 47,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X47",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "47세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 48,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X48",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "48세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 49,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X49",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "49세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 50,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X50",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "50세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 51,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X51",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "51세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 52,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X52",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "52세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 53,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X53",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "53세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 54,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X54",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "54세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 55,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X55",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "55세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 56,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X56",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "56세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 57,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X57",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "57세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 58,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X58",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "58세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 59,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X59",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "59세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 60,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X60",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "60세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 61,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X61",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "61세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 62,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X62",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "62세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 63,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X63",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "63세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 64,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X64",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "64세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 65,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X65",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "65세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 66,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X66",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "66세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 67,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X67",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "67세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 68,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X68",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "68세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 69,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X69",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "69세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 70,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X70",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "70세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 71,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X71",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "71세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 72,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X72",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "72세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 73,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X73",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "73세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 74,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X74",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "74세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 75,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X75",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "75세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 76,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X76",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "76세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 77,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X77",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "77세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 78,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X78",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "78세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 79,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X79",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "79세납"
+      }
+    },
+    {
+      "ISRN_TERM": 5,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N5",
+      "PAYM_TERM": 80,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X80",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "5년만기",
+        "payment_period": "80세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "7년납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "10년납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "15년납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "20년납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "5년납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 45,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X45",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "45세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 46,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X46",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "46세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 47,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X47",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "47세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 48,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X48",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "48세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 49,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X49",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "49세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 50,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X50",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "50세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 51,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X51",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "51세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 52,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X52",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "52세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 53,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X53",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "53세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 54,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X54",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "54세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 55,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X55",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "55세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 56,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X56",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "56세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 57,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X57",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "57세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 58,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X58",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "58세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 59,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X59",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "59세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 60,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X60",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "60세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 61,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X61",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "61세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 62,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X62",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "62세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 63,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X63",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "63세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 64,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X64",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "64세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 65,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X65",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "65세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 66,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X66",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "66세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 67,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X67",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "67세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 68,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X68",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "68세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 69,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X69",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "69세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 70,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X70",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "70세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 71,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X71",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "71세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 72,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X72",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "72세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 73,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X73",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "73세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 74,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X74",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "74세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 75,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X75",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "75세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 76,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X76",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "76세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 77,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X77",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "77세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 78,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X78",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "78세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 79,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X79",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "79세납"
+      }
+    },
+    {
+      "ISRN_TERM": 3,
+      "ISRN_TERM_DVSN_CODE": "N",
+      "ISRN_TERM_INQY_CODE": "N3",
+      "PAYM_TERM": 80,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X80",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "3년만기",
+        "payment_period": "80세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 7,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N7",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "7년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "10년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "15년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "20년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 5,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N5",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "5년납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 45,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X45",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "45세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 46,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X46",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "46세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 47,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X47",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "47세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 48,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X48",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "48세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 49,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X49",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "49세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 50,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X50",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "50세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 51,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X51",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "51세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 52,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X52",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "52세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 53,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X53",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "53세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 54,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X54",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "54세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 55,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X55",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "55세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 56,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X56",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "56세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 57,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X57",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "57세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 58,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X58",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "58세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 59,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X59",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "59세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 60,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X60",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "60세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 61,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X61",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "61세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 62,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X62",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "62세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 63,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X63",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "63세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 64,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X64",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "64세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 65,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X65",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "65세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 66,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X66",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "66세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 67,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X67",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "67세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 68,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X68",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "68세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 69,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X69",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "69세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 70,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X70",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "70세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 71,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X71",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "71세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 72,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X72",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "72세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 73,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X73",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "73세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 74,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X74",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "74세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 75,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X75",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "75세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 76,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X76",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "76세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 77,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X77",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "77세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 78,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X78",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "78세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 79,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X79",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
+        "insurance_period": "종신",
+        "payment_period": "79세납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 80,
+      "PAYM_TERM_DVSN_CODE": "X",
+      "PAYM_TERM_INQY_CODE": "X80",
+      "sub_type": "신부부형",
+      "_raw": {
+        "sub_type": "신부부형",
         "insurance_period": "종신",
         "payment_period": "80세납"
       }

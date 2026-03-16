@@ -4867,9 +4867,8 @@
       "ISRN_TERM_DVSN_CODE": null,
       "ISRN_TERM_INQY_CODE": null,
       "PAYM_TERM": null,
-      "PAYM_TERM_DVSN_CODE": null,
-      "PAYM_TERM_INQY_CODE": null,
-      "_convert_error": "알 수 없는 납입기간 표현: ",
+      "PAYM_TERM_DVSN_CODE": "",
+      "PAYM_TERM_INQY_CODE": "",
       "MINU_GNDR_CODE": null,
       "MIN_AG": 55,
       "MAX_AG": 80,
@@ -4892,9 +4891,8 @@
       "ISRN_TERM_DVSN_CODE": null,
       "ISRN_TERM_INQY_CODE": null,
       "PAYM_TERM": null,
-      "PAYM_TERM_DVSN_CODE": null,
-      "PAYM_TERM_INQY_CODE": null,
-      "_convert_error": "알 수 없는 납입기간 표현: ",
+      "PAYM_TERM_DVSN_CODE": "",
+      "PAYM_TERM_INQY_CODE": "",
       "MINU_GNDR_CODE": null,
       "MIN_AG": 55,
       "MAX_AG": 99,
@@ -4913,9 +4911,6 @@
       ]
     }
   ],
-  "convert_errors": [
-    "알 수 없는 납입기간 표현: ",
-    "알 수 없는 납입기간 표현: "
-  ],
-  "convert_error_count": 2
+  "convert_errors": [],
+  "convert_error_count": 0
 }

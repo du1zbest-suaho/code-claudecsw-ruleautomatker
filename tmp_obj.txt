@@ -1,0 +1,15 @@
+scripts/batch_run.py:138:            "upper_object_code": f"{e['dtcd']}{e['itcd']}",
+scripts/batch_run.py:139:            "upper_object_name": e["sale_nm"],
+scripts/batch_run.py:140:            "lower_object_code": f"{e['prod_dtcd']}{e['prod_itcd']}",
+scripts/batch_run.py:141:            "lower_object_name": e["prod_sale_nm"],
+.claude/skills/xlsx-generator/scripts/generate_upload.py:72:            "upper": pm["upper_object_code"],
+.claude/skills/xlsx-generator/scripts/generate_upload.py:73:            "upper_name": pm.get("upper_object_name", ""),
+.claude/skills/xlsx-generator/scripts/generate_upload.py:74:            "lower": pm["lower_object_code"],
+.claude/skills/xlsx-generator/scripts/generate_upload.py:75:            "lower_name": pm.get("lower_object_name", ""),
+.claude/skills/xlsx-generator/scripts/generate_upload.py:138:        # _upper/lower_object_code 우선 (특약은 이미 세팅됨)
+.claude/skills/xlsx-generator/scripts/generate_upload.py:139:        upper      = coded_row.get("_upper_object_code") or mapping.get("upper", "")
+.claude/skills/xlsx-generator/scripts/generate_upload.py:140:        upper_name = coded_row.get("_upper_object_name") or mapping.get("upper_name", "")
+.claude/skills/xlsx-generator/scripts/generate_upload.py:141:        lower      = coded_row.get("_lower_object_code") or mapping.get("lower", "")
+.claude/skills/xlsx-generator/scripts/generate_upload.py:142:        lower_name = coded_row.get("_lower_object_name") or mapping.get("lower_name", "")
+.claude/skills/xlsx-generator/scripts/generate_upload.py:149:        set_cell("UPPER_OBJECT_CODE", upper)
+.claude/skills/xlsx-generator/scripts/generate_upload.py:151:        set_cell("LOWER_OBJECT_CODE", lower)

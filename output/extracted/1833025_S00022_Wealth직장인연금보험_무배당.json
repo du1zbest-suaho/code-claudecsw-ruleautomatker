@@ -7,11 +7,16 @@
   "image_used": false,
   "raw_data": [
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
+      "min_age": 45,
+      "max_age": 80
+    },
+    {
+      "sub_type": "신부부형",
       "min_age": 45,
       "max_age": 80
     }
   ],
   "discrepancies": [],
-  "row_count": 1
+  "row_count": 2
 }

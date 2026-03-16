@@ -7,7 +7,7 @@
   "image_used": false,
   "raw_data": [
     {
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "payment_cycle": "일시납"
     }
   ],
@@ -18,9 +18,9 @@
       "PAYM_CYCL_VAL": 0,
       "PAYM_CYCL_DVSN_CODE": "M",
       "PAYM_CYCL_INQY_CODE": "M0",
-      "sub_type": "기본형",
+      "sub_type": "개인형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "개인형",
         "payment_cycle": "일시납"
       }
     }

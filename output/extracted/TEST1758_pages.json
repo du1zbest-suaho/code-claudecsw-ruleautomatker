@@ -1,0 +1,87 @@
+{
+  "run_id": "TEST1758",
+  "pdf_name": "한화생명 스마트V연금보험 무배당_사업방법서_20260101~.pdf",
+  "total_pages": 20,
+  "pages": {
+    "1": {
+      "text_path": "output/extracted/TEST1758_page_1.txt",
+      "image_path": "output/extracted/TEST1758_page_1.jpeg"
+    },
+    "2": {
+      "text_path": "output/extracted/TEST1758_page_2.txt",
+      "image_path": "output/extracted/TEST1758_page_2.jpeg"
+    },
+    "3": {
+      "text_path": "output/extracted/TEST1758_page_3.txt",
+      "image_path": "output/extracted/TEST1758_page_3.jpeg"
+    },
+    "4": {
+      "text_path": "output/extracted/TEST1758_page_4.txt",
+      "image_path": "output/extracted/TEST1758_page_4.jpeg"
+    },
+    "5": {
+      "text_path": "output/extracted/TEST1758_page_5.txt",
+      "image_path": "output/extracted/TEST1758_page_5.jpeg"
+    },
+    "6": {
+      "text_path": "output/extracted/TEST1758_page_6.txt",
+      "image_path": "output/extracted/TEST1758_page_6.jpeg"
+    },
+    "7": {
+      "text_path": "output/extracted/TEST1758_page_7.txt",
+      "image_path": "output/extracted/TEST1758_page_7.jpeg"
+    },
+    "8": {
+      "text_path": "output/extracted/TEST1758_page_8.txt",
+      "image_path": "output/extracted/TEST1758_page_8.jpeg"
+    },
+    "9": {
+      "text_path": "output/extracted/TEST1758_page_9.txt",
+      "image_path": "output/extracted/TEST1758_page_9.jpeg"
+    },
+    "10": {
+      "text_path": "output/extracted/TEST1758_page_10.txt",
+      "image_path": "output/extracted/TEST1758_page_10.jpeg"
+    },
+    "11": {
+      "text_path": "output/extracted/TEST1758_page_11.txt",
+      "image_path": "output/extracted/TEST1758_page_11.jpeg"
+    },
+    "12": {
+      "text_path": "output/extracted/TEST1758_page_12.txt",
+      "image_path": "output/extracted/TEST1758_page_12.jpeg"
+    },
+    "13": {
+      "text_path": "output/extracted/TEST1758_page_13.txt",
+      "image_path": "output/extracted/TEST1758_page_13.jpeg"
+    },
+    "14": {
+      "text_path": "output/extracted/TEST1758_page_14.txt",
+      "image_path": "output/extracted/TEST1758_page_14.jpeg"
+    },
+    "15": {
+      "text_path": "output/extracted/TEST1758_page_15.txt",
+      "image_path": "output/extracted/TEST1758_page_15.jpeg"
+    },
+    "16": {
+      "text_path": "output/extracted/TEST1758_page_16.txt",
+      "image_path": "output/extracted/TEST1758_page_16.jpeg"
+    },
+    "17": {
+      "text_path": "output/extracted/TEST1758_page_17.txt",
+      "image_path": "output/extracted/TEST1758_page_17.jpeg"
+    },
+    "18": {
+      "text_path": "output/extracted/TEST1758_page_18.txt",
+      "image_path": "output/extracted/TEST1758_page_18.jpeg"
+    },
+    "19": {
+      "text_path": "output/extracted/TEST1758_page_19.txt",
+      "image_path": "output/extracted/TEST1758_page_19.jpeg"
+    },
+    "20": {
+      "text_path": "output/extracted/TEST1758_page_20.txt",
+      "image_path": "output/extracted/TEST1758_page_20.jpeg"
+    }
+  }
+}

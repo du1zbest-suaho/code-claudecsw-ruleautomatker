@@ -1,0 +1,12 @@
+납입기간: ['7년납', '10년납', '15년납', '20년납', '5년납', '전기납', '일시납']
+
+연금개시나이 범위: (45, 80)
+
+보험기간: ['종신']
+
+추출 행수: 42
+  {'sub_type': '기본형', 'insurance_period': '종신', 'payment_period': '7년납'}
+  {'sub_type': '기본형', 'insurance_period': '종신', 'payment_period': '10년납'}
+  {'sub_type': '기본형', 'insurance_period': '종신', 'payment_period': '15년납'}
+  {'sub_type': '기본형', 'insurance_period': '종신', 'payment_period': '20년납'}
+  {'sub_type': '기본형', 'insurance_period': '종신', 'payment_period': '5년납'}

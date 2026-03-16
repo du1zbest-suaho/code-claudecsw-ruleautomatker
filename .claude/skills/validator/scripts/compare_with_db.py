@@ -75,12 +75,8 @@ def main():
     else:
         db_rows = load_db_data(args.db, args.product_code)
 
-    # DTCD별 활성 컬럼: GT·EX 양쪽에 non-None 값이 있는 컬럼만
+    # DTCD별 활성 컬럼: GT에 non-None 값이 있는 컬럼 (GT 기준)
     compare_fields = get_active_key_cols(db_rows, coded_rows, all_key_cols)
-    if not compare_fields:
-        # EX가 비어있는 경우 fallback: GT non-None 컬럼
-        compare_fields = [col for col in all_key_cols
-                          if any(make_row_key(r, [col])[0] is not None for r in db_rows)]
 
     # 행 키셋 생성
     db_key_set = {make_row_key(r, compare_fields): r for r in db_rows}

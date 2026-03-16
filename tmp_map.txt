@@ -1,0 +1,13 @@
+컬럼: ['ISRN_KIND_DTCD', 'ISRN_KIND_ITCD', 'ISRN_KIND_SALE_NM', 'PROD_DTCD', 'PROD_ITCD', 'PROD_SALE_NM', 'MIN(A.SALE_STAR_DATE)', 'MAX(A.SALE_END_DATE)', '사업방법서 파일명', 'Unnamed: 9', 'Unnamed: 10', 'Unnamed: 11', 'Unnamed: 12', 'Unnamed: 13']
+
+   ISRN_KIND_DTCD ISRN_KIND_ITCD  PROD_DTCD  PROD_ITCD
+0            2061            001       2061          1
+1            2061            002       2061          2
+2            1772            029       1772         29
+3            1772            030       1772         30
+4            1772            031       1772         31
+5            1772            032       1772         32
+6            1726            039       1726         39
+7            1726            040       1726         40
+8            1726            041       1726         41
+9            1726            042       1726         42

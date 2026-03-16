@@ -1,0 +1,9 @@
+S00026_1224_기업복지라이프플랜보험_무배당.xlsx
+  UPPER_OBJECT_CODE: '1224069' (7자리)
+  LOWER_OBJECT_CODE: '1224071' (7자리)
+S00026_1228_연금저축_하이드림연금보험.xlsx
+  UPPER_OBJECT_CODE: None (0자리)
+  LOWER_OBJECT_CODE: None (0자리)
+S00026_1230_장애인전용_곰두리보장보험_무배당.xlsx
+  UPPER_OBJECT_CODE: '1230040' (7자리)
+  LOWER_OBJECT_CODE: '1230040' (7자리)

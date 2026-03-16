@@ -1,0 +1,12 @@
+raw 행수: 42
+  ip=종신, pp=7년납
+  ip=종신, pp=10년납
+  ip=종신, pp=15년납
+  ip=종신, pp=20년납
+  ip=종신, pp=5년납
+_coded 행수: 42
+  ip=A999, pp=N7
+  ip=A999, pp=N10
+  ip=A999, pp=N15
+  ip=A999, pp=N20
+  ip=A999, pp=N5

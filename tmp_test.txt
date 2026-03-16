@@ -1,0 +1,13 @@
+추출 행수: 440
+  {'sub_type': '기본형', 'insurance_period': '종신', 'payment_period': '7년납'}
+  {'sub_type': '기본형', 'insurance_period': '종신', 'payment_period': '10년납'}
+  {'sub_type': '기본형', 'insurance_period': '종신', 'payment_period': '15년납'}
+  {'sub_type': '기본형', 'insurance_period': '종신', 'payment_period': '20년납'}
+  {'sub_type': '기본형', 'insurance_period': '종신', 'payment_period': '45세납'}
+...
+  {'sub_type': '기본형', 'insurance_period': '100세만기', 'payment_period': '20년납'}
+  {'sub_type': '기본형', 'insurance_period': '100세만기', 'payment_period': '80세납'}
+  {'sub_type': '기본형', 'insurance_period': '100세만기', 'payment_period': '일시납'}
+
+보험기간 종류: 52 ['100세만기', '50세만기', '51세만기', '52세만기', '53세만기', '54세만기', '55세만기', '56세만기', '57세만기', '58세만기'] ...
+납입기간 종류: 41 ['10년납', '15년납', '20년납', '45세납', '46세납', '47세납', '48세납', '49세납', '50세납', '51세납']

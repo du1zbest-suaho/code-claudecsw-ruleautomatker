@@ -1,0 +1,11 @@
+파일: ['output/extracted\\1571601_S00027_연금보험Enterprise_무배당_coded.json', 'output/extracted\\1571A01_S00027_연금보험Enterprise_무배당_coded.json']
+추출 행수: 42
+  {'ISRN_TERM': 999, 'ISRN_TERM_DVSN_CODE': 'A', 'ISRN_TERM_INQY_CODE': 'A999', 'PAYM_TERM': 7, 'PAYM_TERM_DVSN_CODE': 'N', 'PAYM_TERM_INQY_CODE': 'N7', 'sub_type': '기본형', '_raw': {'sub_type': '기본형', 'insurance_period': '종신', 'payment_period': '7년납'}}
+  {'ISRN_TERM': 999, 'ISRN_TERM_DVSN_CODE': 'A', 'ISRN_TERM_INQY_CODE': 'A999', 'PAYM_TERM': 10, 'PAYM_TERM_DVSN_CODE': 'N', 'PAYM_TERM_INQY_CODE': 'N10', 'sub_type': '기본형', '_raw': {'sub_type': '기본형', 'insurance_period': '종신', 'payment_period': '10년납'}}
+  {'ISRN_TERM': 999, 'ISRN_TERM_DVSN_CODE': 'A', 'ISRN_TERM_INQY_CODE': 'A999', 'PAYM_TERM': 15, 'PAYM_TERM_DVSN_CODE': 'N', 'PAYM_TERM_INQY_CODE': 'N15', 'sub_type': '기본형', '_raw': {'sub_type': '기본형', 'insurance_period': '종신', 'payment_period': '15년납'}}
+  {'ISRN_TERM': 999, 'ISRN_TERM_DVSN_CODE': 'A', 'ISRN_TERM_INQY_CODE': 'A999', 'PAYM_TERM': 20, 'PAYM_TERM_DVSN_CODE': 'N', 'PAYM_TERM_INQY_CODE': 'N20', 'sub_type': '기본형', '_raw': {'sub_type': '기본형', 'insurance_period': '종신', 'payment_period': '20년납'}}
+  {'ISRN_TERM': 999, 'ISRN_TERM_DVSN_CODE': 'A', 'ISRN_TERM_INQY_CODE': 'A999', 'PAYM_TERM': 5, 'PAYM_TERM_DVSN_CODE': 'N', 'PAYM_TERM_INQY_CODE': 'N5', 'sub_type': '기본형', '_raw': {'sub_type': '기본형', 'insurance_period': '종신', 'payment_period': '5년납'}}
+...
+  {'ISRN_TERM': 999, 'ISRN_TERM_DVSN_CODE': 'A', 'ISRN_TERM_INQY_CODE': 'A999', 'PAYM_TERM': 78, 'PAYM_TERM_DVSN_CODE': 'X', 'PAYM_TERM_INQY_CODE': 'X78', 'sub_type': '기본형', '_raw': {'sub_type': '기본형', 'insurance_period': '종신', 'payment_period': '78세납'}}
+  {'ISRN_TERM': 999, 'ISRN_TERM_DVSN_CODE': 'A', 'ISRN_TERM_INQY_CODE': 'A999', 'PAYM_TERM': 79, 'PAYM_TERM_DVSN_CODE': 'X', 'PAYM_TERM_INQY_CODE': 'X79', 'sub_type': '기본형', '_raw': {'sub_type': '기본형', 'insurance_period': '종신', 'payment_period': '79세납'}}
+  {'ISRN_TERM': 999, 'ISRN_TERM_DVSN_CODE': 'A', 'ISRN_TERM_INQY_CODE': 'A999', 'PAYM_TERM': 80, 'PAYM_TERM_DVSN_CODE': 'X', 'PAYM_TERM_INQY_CODE': 'X80', 'sub_type': '기본형', '_raw': {'sub_type': '기본형', 'insurance_period': '종신', 'payment_period': '80세납'}}

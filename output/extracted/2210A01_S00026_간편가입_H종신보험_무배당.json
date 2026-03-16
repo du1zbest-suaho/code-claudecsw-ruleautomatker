@@ -53,8 +53,24 @@
       "gender": "여자",
       "min_age": 15,
       "max_age": 64
+    },
+    {
+      "sub_type": "1종(기본납입면제형)",
+      "insurance_period": "종신",
+      "payment_period": "7년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 54
+    },
+    {
+      "sub_type": "1종(기본납입면제형)",
+      "insurance_period": "종신",
+      "payment_period": "7년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 61
     }
   ],
   "discrepancies": [],
-  "row_count": 6
+  "row_count": 8
 }

@@ -41,6 +41,7 @@ UPLOAD_DIR = "output/upload"
 LOG_DIR = "output/logs"
 MAPPING_PATH = "data/existing/판매중_상품구성_사업방법서_매핑.xlsx"
 MODELS_DIR = "data/models"
+TEMPLATES_DIR = "data/templates"
 
 TEMPLATES = {
     "S00026": "[S00026]가입가능나이_단일속성_업로드양식.xlsx",
@@ -69,7 +70,7 @@ def load_mapping_db() -> dict:
             "itcd": str(row.get("ISRN_KIND_ITCD", "") or "").strip(),
             "sale_nm": str(row.get("ISRN_KIND_SALE_NM", "") or "").strip(),
             "prod_dtcd": str(int(row["PROD_DTCD"])) if not _is_na(row.get("PROD_DTCD")) else "",
-            "prod_itcd": str(int(row["PROD_ITCD"])) if not _is_na(row.get("PROD_ITCD")) else "",
+            "prod_itcd": str(int(row["PROD_ITCD"])).zfill(3) if not _is_na(row.get("PROD_ITCD")) else "",
             "prod_sale_nm": str(row.get("PROD_SALE_NM", "") or "").strip(),
         }
         result.setdefault(pdf, []).append(entry)
@@ -302,7 +303,7 @@ def process_pdf(pdf_path: str, mapping_db: dict, run_id: str) -> dict:
         for table_type in TABLE_TYPES:
             raw_json = f"{EXTRACT_DIR}/{product_code}_{table_type}_{run_id}.json"
             coded_json = f"{EXTRACT_DIR}/{product_code}_{table_type}_{run_id}_coded.json"
-            template_file = os.path.join(MODELS_DIR, TEMPLATES[table_type])
+            template_file = os.path.join(TEMPLATES_DIR, TEMPLATES[table_type])
             xlsx_out = f"{UPLOAD_DIR}/{table_type}_{dtcd}_{run_id}.xlsx"
 
             table_key = f"{dtcd}/{table_type}"
@@ -479,6 +480,11 @@ def main():
             indent=2,
         )
     print(f"로그: {log_path}")
+
+    # GT Excel 생성여부 컬럼 갱신
+    import subprocess as _sp
+    _sp.run([sys.executable, "scripts/update_gt_generation_status.py"], check=False)
+
     return 0
 
 

@@ -1,0 +1,8 @@
+추출 행수: 7
+  ip=A999, pp=N7
+  ip=A999, pp=N10
+  ip=A999, pp=N15
+  ip=A999, pp=N20
+  ip=A999, pp=N5
+  ip=A999, pp=A999
+  ip=A999, pp=N0
