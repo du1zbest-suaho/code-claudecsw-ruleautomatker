@@ -9,14 +9,10 @@
     {
       "sub_type": "기본형",
       "n_years": 2
-    },
-    {
-      "sub_type": "기본형",
-      "n_years": 6
     }
   ],
   "discrepancies": [],
-  "row_count": 2,
+  "row_count": 1,
   "coded_rows": [
     {
       "FPIN_STRT_AG_INQY_CODE": "0",
@@ -29,19 +25,6 @@
       "_raw": {
         "sub_type": "기본형",
         "n_years": 2
-      }
-    },
-    {
-      "FPIN_STRT_AG_INQY_CODE": "0",
-      "FPIN_STRT_DVSN_CODE": "0",
-      "FPIN_STRT_DVSN_VAL": 0,
-      "SPIN_STRT_AG_INQY_CODE": "N6",
-      "SPIN_STRT_DVSN_CODE": "N",
-      "SPIN_STRT_DVSN_VAL": 6,
-      "sub_type": "기본형",
-      "_raw": {
-        "sub_type": "기본형",
-        "n_years": 6
       }
     }
   ],

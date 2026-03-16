@@ -23,16 +23,6 @@
     },
     {
       "sub_type": "간편가입형(0년)",
-      "insurance_period": "90세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "90세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "간편가입형(0년)",
       "insurance_period": "100세만기",
       "payment_period": "10년납"
     },
@@ -45,16 +35,6 @@
       "sub_type": "간편가입형(0년)",
       "insurance_period": "100세만기",
       "payment_period": "20년납"
-    },
-    {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "100세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "100세만기",
-      "payment_period": "일시납"
     },
     {
       "sub_type": "간편가입형(0년)",
@@ -72,41 +52,6 @@
       "payment_period": "20년납"
     },
     {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "110세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "110세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "종신",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "종신",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "종신",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "종신",
-      "payment_period": "일시납"
-    },
-    {
       "sub_type": "간편가입형(1년)",
       "insurance_period": "90세만기",
       "payment_period": "10년납"
@@ -120,16 +65,6 @@
       "sub_type": "간편가입형(1년)",
       "insurance_period": "90세만기",
       "payment_period": "20년납"
-    },
-    {
-      "sub_type": "간편가입형(1년)",
-      "insurance_period": "90세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(1년)",
-      "insurance_period": "90세만기",
-      "payment_period": "일시납"
     },
     {
       "sub_type": "간편가입형(1년)",
@@ -148,16 +83,6 @@
     },
     {
       "sub_type": "간편가입형(1년)",
-      "insurance_period": "100세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(1년)",
-      "insurance_period": "100세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "간편가입형(1년)",
       "insurance_period": "110세만기",
       "payment_period": "10년납"
     },
@@ -172,41 +97,6 @@
       "payment_period": "20년납"
     },
     {
-      "sub_type": "간편가입형(1년)",
-      "insurance_period": "110세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(1년)",
-      "insurance_period": "110세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "간편가입형(1년)",
-      "insurance_period": "종신",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "간편가입형(1년)",
-      "insurance_period": "종신",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "간편가입형(1년)",
-      "insurance_period": "종신",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "간편가입형(1년)",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(1년)",
-      "insurance_period": "종신",
-      "payment_period": "일시납"
-    },
-    {
       "sub_type": "간편가입형(2년)",
       "insurance_period": "90세만기",
       "payment_period": "10년납"
@@ -220,16 +110,6 @@
       "sub_type": "간편가입형(2년)",
       "insurance_period": "90세만기",
       "payment_period": "20년납"
-    },
-    {
-      "sub_type": "간편가입형(2년)",
-      "insurance_period": "90세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(2년)",
-      "insurance_period": "90세만기",
-      "payment_period": "일시납"
     },
     {
       "sub_type": "간편가입형(2년)",
@@ -248,16 +128,6 @@
     },
     {
       "sub_type": "간편가입형(2년)",
-      "insurance_period": "100세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(2년)",
-      "insurance_period": "100세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "간편가입형(2년)",
       "insurance_period": "110세만기",
       "payment_period": "10년납"
     },
@@ -272,41 +142,6 @@
       "payment_period": "20년납"
     },
     {
-      "sub_type": "간편가입형(2년)",
-      "insurance_period": "110세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(2년)",
-      "insurance_period": "110세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "간편가입형(2년)",
-      "insurance_period": "종신",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "간편가입형(2년)",
-      "insurance_period": "종신",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "간편가입형(2년)",
-      "insurance_period": "종신",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "간편가입형(2년)",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(2년)",
-      "insurance_period": "종신",
-      "payment_period": "일시납"
-    },
-    {
       "sub_type": "간편가입형(3년)",
       "insurance_period": "90세만기",
       "payment_period": "10년납"
@@ -320,16 +155,6 @@
       "sub_type": "간편가입형(3년)",
       "insurance_period": "90세만기",
       "payment_period": "20년납"
-    },
-    {
-      "sub_type": "간편가입형(3년)",
-      "insurance_period": "90세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(3년)",
-      "insurance_period": "90세만기",
-      "payment_period": "일시납"
     },
     {
       "sub_type": "간편가입형(3년)",
@@ -348,16 +173,6 @@
     },
     {
       "sub_type": "간편가입형(3년)",
-      "insurance_period": "100세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(3년)",
-      "insurance_period": "100세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "간편가입형(3년)",
       "insurance_period": "110세만기",
       "payment_period": "10년납"
     },
@@ -372,41 +187,6 @@
       "payment_period": "20년납"
     },
     {
-      "sub_type": "간편가입형(3년)",
-      "insurance_period": "110세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(3년)",
-      "insurance_period": "110세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "간편가입형(3년)",
-      "insurance_period": "종신",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "간편가입형(3년)",
-      "insurance_period": "종신",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "간편가입형(3년)",
-      "insurance_period": "종신",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "간편가입형(3년)",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(3년)",
-      "insurance_period": "종신",
-      "payment_period": "일시납"
-    },
-    {
       "sub_type": "간편가입형(4년)",
       "insurance_period": "90세만기",
       "payment_period": "10년납"
@@ -420,16 +200,6 @@
       "sub_type": "간편가입형(4년)",
       "insurance_period": "90세만기",
       "payment_period": "20년납"
-    },
-    {
-      "sub_type": "간편가입형(4년)",
-      "insurance_period": "90세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(4년)",
-      "insurance_period": "90세만기",
-      "payment_period": "일시납"
     },
     {
       "sub_type": "간편가입형(4년)",
@@ -448,16 +218,6 @@
     },
     {
       "sub_type": "간편가입형(4년)",
-      "insurance_period": "100세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(4년)",
-      "insurance_period": "100세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "간편가입형(4년)",
       "insurance_period": "110세만기",
       "payment_period": "10년납"
     },
@@ -472,41 +232,6 @@
       "payment_period": "20년납"
     },
     {
-      "sub_type": "간편가입형(4년)",
-      "insurance_period": "110세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(4년)",
-      "insurance_period": "110세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "간편가입형(4년)",
-      "insurance_period": "종신",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "간편가입형(4년)",
-      "insurance_period": "종신",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "간편가입형(4년)",
-      "insurance_period": "종신",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "간편가입형(4년)",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(4년)",
-      "insurance_period": "종신",
-      "payment_period": "일시납"
-    },
-    {
       "sub_type": "간편가입형(5년)",
       "insurance_period": "90세만기",
       "payment_period": "10년납"
@@ -520,16 +245,6 @@
       "sub_type": "간편가입형(5년)",
       "insurance_period": "90세만기",
       "payment_period": "20년납"
-    },
-    {
-      "sub_type": "간편가입형(5년)",
-      "insurance_period": "90세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(5년)",
-      "insurance_period": "90세만기",
-      "payment_period": "일시납"
     },
     {
       "sub_type": "간편가입형(5년)",
@@ -548,16 +263,6 @@
     },
     {
       "sub_type": "간편가입형(5년)",
-      "insurance_period": "100세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(5년)",
-      "insurance_period": "100세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "간편가입형(5년)",
       "insurance_period": "110세만기",
       "payment_period": "10년납"
     },
@@ -572,41 +277,6 @@
       "payment_period": "20년납"
     },
     {
-      "sub_type": "간편가입형(5년)",
-      "insurance_period": "110세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(5년)",
-      "insurance_period": "110세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "간편가입형(5년)",
-      "insurance_period": "종신",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "간편가입형(5년)",
-      "insurance_period": "종신",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "간편가입형(5년)",
-      "insurance_period": "종신",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "간편가입형(5년)",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(5년)",
-      "insurance_period": "종신",
-      "payment_period": "일시납"
-    },
-    {
       "sub_type": "간편가입형(10년)",
       "insurance_period": "90세만기",
       "payment_period": "10년납"
@@ -620,16 +290,6 @@
       "sub_type": "간편가입형(10년)",
       "insurance_period": "90세만기",
       "payment_period": "20년납"
-    },
-    {
-      "sub_type": "간편가입형(10년)",
-      "insurance_period": "90세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(10년)",
-      "insurance_period": "90세만기",
-      "payment_period": "일시납"
     },
     {
       "sub_type": "간편가입형(10년)",
@@ -648,16 +308,6 @@
     },
     {
       "sub_type": "간편가입형(10년)",
-      "insurance_period": "100세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(10년)",
-      "insurance_period": "100세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "간편가입형(10년)",
       "insurance_period": "110세만기",
       "payment_period": "10년납"
     },
@@ -672,41 +322,6 @@
       "payment_period": "20년납"
     },
     {
-      "sub_type": "간편가입형(10년)",
-      "insurance_period": "110세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(10년)",
-      "insurance_period": "110세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "간편가입형(10년)",
-      "insurance_period": "종신",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "간편가입형(10년)",
-      "insurance_period": "종신",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "간편가입형(10년)",
-      "insurance_period": "종신",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "간편가입형(10년)",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(10년)",
-      "insurance_period": "종신",
-      "payment_period": "일시납"
-    },
-    {
       "sub_type": "간편가입형",
       "insurance_period": "90세만기",
       "payment_period": "10년납"
@@ -720,16 +335,6 @@
       "sub_type": "간편가입형",
       "insurance_period": "90세만기",
       "payment_period": "20년납"
-    },
-    {
-      "sub_type": "간편가입형",
-      "insurance_period": "90세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형",
-      "insurance_period": "90세만기",
-      "payment_period": "일시납"
     },
     {
       "sub_type": "간편가입형",
@@ -748,16 +353,6 @@
     },
     {
       "sub_type": "간편가입형",
-      "insurance_period": "100세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형",
-      "insurance_period": "100세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "간편가입형",
       "insurance_period": "110세만기",
       "payment_period": "10년납"
     },
@@ -772,41 +367,6 @@
       "payment_period": "20년납"
     },
     {
-      "sub_type": "간편가입형",
-      "insurance_period": "110세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형",
-      "insurance_period": "110세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "간편가입형",
-      "insurance_period": "종신",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "간편가입형",
-      "insurance_period": "종신",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "간편가입형",
-      "insurance_period": "종신",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "간편가입형",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형",
-      "insurance_period": "종신",
-      "payment_period": "일시납"
-    },
-    {
       "sub_type": "일반가입형Ⅰ",
       "insurance_period": "90세만기",
       "payment_period": "10년납"
@@ -820,16 +380,6 @@
       "sub_type": "일반가입형Ⅰ",
       "insurance_period": "90세만기",
       "payment_period": "20년납"
-    },
-    {
-      "sub_type": "일반가입형Ⅰ",
-      "insurance_period": "90세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "일반가입형Ⅰ",
-      "insurance_period": "90세만기",
-      "payment_period": "일시납"
     },
     {
       "sub_type": "일반가입형Ⅰ",
@@ -848,16 +398,6 @@
     },
     {
       "sub_type": "일반가입형Ⅰ",
-      "insurance_period": "100세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "일반가입형Ⅰ",
-      "insurance_period": "100세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "일반가입형Ⅰ",
       "insurance_period": "110세만기",
       "payment_period": "10년납"
     },
@@ -872,41 +412,6 @@
       "payment_period": "20년납"
     },
     {
-      "sub_type": "일반가입형Ⅰ",
-      "insurance_period": "110세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "일반가입형Ⅰ",
-      "insurance_period": "110세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "일반가입형Ⅰ",
-      "insurance_period": "종신",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "일반가입형Ⅰ",
-      "insurance_period": "종신",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "일반가입형Ⅰ",
-      "insurance_period": "종신",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "일반가입형Ⅰ",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "일반가입형Ⅰ",
-      "insurance_period": "종신",
-      "payment_period": "일시납"
-    },
-    {
       "sub_type": "일반가입형Ⅱ",
       "insurance_period": "90세만기",
       "payment_period": "10년납"
@@ -920,16 +425,6 @@
       "sub_type": "일반가입형Ⅱ",
       "insurance_period": "90세만기",
       "payment_period": "20년납"
-    },
-    {
-      "sub_type": "일반가입형Ⅱ",
-      "insurance_period": "90세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "일반가입형Ⅱ",
-      "insurance_period": "90세만기",
-      "payment_period": "일시납"
     },
     {
       "sub_type": "일반가입형Ⅱ",
@@ -948,16 +443,6 @@
     },
     {
       "sub_type": "일반가입형Ⅱ",
-      "insurance_period": "100세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "일반가입형Ⅱ",
-      "insurance_period": "100세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "일반가입형Ⅱ",
       "insurance_period": "110세만기",
       "payment_period": "10년납"
     },
@@ -970,41 +455,6 @@
       "sub_type": "일반가입형Ⅱ",
       "insurance_period": "110세만기",
       "payment_period": "20년납"
-    },
-    {
-      "sub_type": "일반가입형Ⅱ",
-      "insurance_period": "110세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "일반가입형Ⅱ",
-      "insurance_period": "110세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "일반가입형Ⅱ",
-      "insurance_period": "종신",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "일반가입형Ⅱ",
-      "insurance_period": "종신",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "일반가입형Ⅱ",
-      "insurance_period": "종신",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "일반가입형Ⅱ",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "일반가입형Ⅱ",
-      "insurance_period": "종신",
-      "payment_period": "일시납"
     },
     {
       "sub_type": "일반가입형",
@@ -1023,16 +473,6 @@
     },
     {
       "sub_type": "일반가입형",
-      "insurance_period": "90세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "일반가입형",
-      "insurance_period": "90세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "일반가입형",
       "insurance_period": "100세만기",
       "payment_period": "10년납"
     },
@@ -1048,16 +488,6 @@
     },
     {
       "sub_type": "일반가입형",
-      "insurance_period": "100세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "일반가입형",
-      "insurance_period": "100세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "일반가입형",
       "insurance_period": "110세만기",
       "payment_period": "10년납"
     },
@@ -1070,41 +500,6 @@
       "sub_type": "일반가입형",
       "insurance_period": "110세만기",
       "payment_period": "20년납"
-    },
-    {
-      "sub_type": "일반가입형",
-      "insurance_period": "110세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "일반가입형",
-      "insurance_period": "110세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "일반가입형",
-      "insurance_period": "종신",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "일반가입형",
-      "insurance_period": "종신",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "일반가입형",
-      "insurance_period": "종신",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "일반가입형",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "일반가입형",
-      "insurance_period": "종신",
-      "payment_period": "일시납"
     },
     {
       "sub_type": "1종(일반가입형 전환형)",
@@ -1123,16 +518,6 @@
     },
     {
       "sub_type": "1종(일반가입형 전환형)",
-      "insurance_period": "90세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "1종(일반가입형 전환형)",
-      "insurance_period": "90세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "1종(일반가입형 전환형)",
       "insurance_period": "100세만기",
       "payment_period": "10년납"
     },
@@ -1148,16 +533,6 @@
     },
     {
       "sub_type": "1종(일반가입형 전환형)",
-      "insurance_period": "100세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "1종(일반가입형 전환형)",
-      "insurance_period": "100세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "1종(일반가입형 전환형)",
       "insurance_period": "110세만기",
       "payment_period": "10년납"
     },
@@ -1170,45 +545,10 @@
       "sub_type": "1종(일반가입형 전환형)",
       "insurance_period": "110세만기",
       "payment_period": "20년납"
-    },
-    {
-      "sub_type": "1종(일반가입형 전환형)",
-      "insurance_period": "110세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "1종(일반가입형 전환형)",
-      "insurance_period": "110세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "1종(일반가입형 전환형)",
-      "insurance_period": "종신",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "1종(일반가입형 전환형)",
-      "insurance_period": "종신",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "1종(일반가입형 전환형)",
-      "insurance_period": "종신",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "1종(일반가입형 전환형)",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "1종(일반가입형 전환형)",
-      "insurance_period": "종신",
-      "payment_period": "일시납"
     }
   ],
   "discrepancies": [],
-  "row_count": 240,
+  "row_count": 108,
   "coded_rows": [
     {
       "ISRN_TERM": 90,
@@ -1253,34 +593,6 @@
       }
     },
     {
-      "ISRN_TERM": 90,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X90",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "간편가입형(0년)",
-      "_raw": {
-        "sub_type": "간편가입형(0년)",
-        "insurance_period": "90세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 90,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X90",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "간편가입형(0년)",
-      "_raw": {
-        "sub_type": "간편가입형(0년)",
-        "insurance_period": "90세만기",
-        "payment_period": "일시납"
-      }
-    },
-    {
       "ISRN_TERM": 100,
       "ISRN_TERM_DVSN_CODE": "X",
       "ISRN_TERM_INQY_CODE": "X100",
@@ -1320,34 +632,6 @@
         "sub_type": "간편가입형(0년)",
         "insurance_period": "100세만기",
         "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "간편가입형(0년)",
-      "_raw": {
-        "sub_type": "간편가입형(0년)",
-        "insurance_period": "100세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "간편가입형(0년)",
-      "_raw": {
-        "sub_type": "간편가입형(0년)",
-        "insurance_period": "100세만기",
-        "payment_period": "일시납"
       }
     },
     {
@@ -1393,104 +677,6 @@
       }
     },
     {
-      "ISRN_TERM": 110,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X110",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "간편가입형(0년)",
-      "_raw": {
-        "sub_type": "간편가입형(0년)",
-        "insurance_period": "110세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 110,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X110",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "간편가입형(0년)",
-      "_raw": {
-        "sub_type": "간편가입형(0년)",
-        "insurance_period": "110세만기",
-        "payment_period": "일시납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "간편가입형(0년)",
-      "_raw": {
-        "sub_type": "간편가입형(0년)",
-        "insurance_period": "종신",
-        "payment_period": "10년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 15,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N15",
-      "sub_type": "간편가입형(0년)",
-      "_raw": {
-        "sub_type": "간편가입형(0년)",
-        "insurance_period": "종신",
-        "payment_period": "15년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 20,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N20",
-      "sub_type": "간편가입형(0년)",
-      "_raw": {
-        "sub_type": "간편가입형(0년)",
-        "insurance_period": "종신",
-        "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "간편가입형(0년)",
-      "_raw": {
-        "sub_type": "간편가입형(0년)",
-        "insurance_period": "종신",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "간편가입형(0년)",
-      "_raw": {
-        "sub_type": "간편가입형(0년)",
-        "insurance_period": "종신",
-        "payment_period": "일시납"
-      }
-    },
-    {
       "ISRN_TERM": 90,
       "ISRN_TERM_DVSN_CODE": "X",
       "ISRN_TERM_INQY_CODE": "X90",
@@ -1530,34 +716,6 @@
         "sub_type": "간편가입형(1년)",
         "insurance_period": "90세만기",
         "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 90,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X90",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "간편가입형(1년)",
-      "_raw": {
-        "sub_type": "간편가입형(1년)",
-        "insurance_period": "90세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 90,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X90",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "간편가입형(1년)",
-      "_raw": {
-        "sub_type": "간편가입형(1년)",
-        "insurance_period": "90세만기",
-        "payment_period": "일시납"
       }
     },
     {
@@ -1603,34 +761,6 @@
       }
     },
     {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "간편가입형(1년)",
-      "_raw": {
-        "sub_type": "간편가입형(1년)",
-        "insurance_period": "100세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "간편가입형(1년)",
-      "_raw": {
-        "sub_type": "간편가입형(1년)",
-        "insurance_period": "100세만기",
-        "payment_period": "일시납"
-      }
-    },
-    {
       "ISRN_TERM": 110,
       "ISRN_TERM_DVSN_CODE": "X",
       "ISRN_TERM_INQY_CODE": "X110",
@@ -1673,104 +803,6 @@
       }
     },
     {
-      "ISRN_TERM": 110,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X110",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "간편가입형(1년)",
-      "_raw": {
-        "sub_type": "간편가입형(1년)",
-        "insurance_period": "110세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 110,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X110",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "간편가입형(1년)",
-      "_raw": {
-        "sub_type": "간편가입형(1년)",
-        "insurance_period": "110세만기",
-        "payment_period": "일시납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "간편가입형(1년)",
-      "_raw": {
-        "sub_type": "간편가입형(1년)",
-        "insurance_period": "종신",
-        "payment_period": "10년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 15,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N15",
-      "sub_type": "간편가입형(1년)",
-      "_raw": {
-        "sub_type": "간편가입형(1년)",
-        "insurance_period": "종신",
-        "payment_period": "15년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 20,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N20",
-      "sub_type": "간편가입형(1년)",
-      "_raw": {
-        "sub_type": "간편가입형(1년)",
-        "insurance_period": "종신",
-        "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "간편가입형(1년)",
-      "_raw": {
-        "sub_type": "간편가입형(1년)",
-        "insurance_period": "종신",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "간편가입형(1년)",
-      "_raw": {
-        "sub_type": "간편가입형(1년)",
-        "insurance_period": "종신",
-        "payment_period": "일시납"
-      }
-    },
-    {
       "ISRN_TERM": 90,
       "ISRN_TERM_DVSN_CODE": "X",
       "ISRN_TERM_INQY_CODE": "X90",
@@ -1810,34 +842,6 @@
         "sub_type": "간편가입형(2년)",
         "insurance_period": "90세만기",
         "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 90,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X90",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "간편가입형(2년)",
-      "_raw": {
-        "sub_type": "간편가입형(2년)",
-        "insurance_period": "90세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 90,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X90",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "간편가입형(2년)",
-      "_raw": {
-        "sub_type": "간편가입형(2년)",
-        "insurance_period": "90세만기",
-        "payment_period": "일시납"
       }
     },
     {
@@ -1883,34 +887,6 @@
       }
     },
     {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "간편가입형(2년)",
-      "_raw": {
-        "sub_type": "간편가입형(2년)",
-        "insurance_period": "100세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "간편가입형(2년)",
-      "_raw": {
-        "sub_type": "간편가입형(2년)",
-        "insurance_period": "100세만기",
-        "payment_period": "일시납"
-      }
-    },
-    {
       "ISRN_TERM": 110,
       "ISRN_TERM_DVSN_CODE": "X",
       "ISRN_TERM_INQY_CODE": "X110",
@@ -1953,104 +929,6 @@
       }
     },
     {
-      "ISRN_TERM": 110,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X110",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "간편가입형(2년)",
-      "_raw": {
-        "sub_type": "간편가입형(2년)",
-        "insurance_period": "110세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 110,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X110",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "간편가입형(2년)",
-      "_raw": {
-        "sub_type": "간편가입형(2년)",
-        "insurance_period": "110세만기",
-        "payment_period": "일시납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "간편가입형(2년)",
-      "_raw": {
-        "sub_type": "간편가입형(2년)",
-        "insurance_period": "종신",
-        "payment_period": "10년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 15,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N15",
-      "sub_type": "간편가입형(2년)",
-      "_raw": {
-        "sub_type": "간편가입형(2년)",
-        "insurance_period": "종신",
-        "payment_period": "15년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 20,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N20",
-      "sub_type": "간편가입형(2년)",
-      "_raw": {
-        "sub_type": "간편가입형(2년)",
-        "insurance_period": "종신",
-        "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "간편가입형(2년)",
-      "_raw": {
-        "sub_type": "간편가입형(2년)",
-        "insurance_period": "종신",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "간편가입형(2년)",
-      "_raw": {
-        "sub_type": "간편가입형(2년)",
-        "insurance_period": "종신",
-        "payment_period": "일시납"
-      }
-    },
-    {
       "ISRN_TERM": 90,
       "ISRN_TERM_DVSN_CODE": "X",
       "ISRN_TERM_INQY_CODE": "X90",
@@ -2090,34 +968,6 @@
         "sub_type": "간편가입형(3년)",
         "insurance_period": "90세만기",
         "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 90,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X90",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "간편가입형(3년)",
-      "_raw": {
-        "sub_type": "간편가입형(3년)",
-        "insurance_period": "90세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 90,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X90",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "간편가입형(3년)",
-      "_raw": {
-        "sub_type": "간편가입형(3년)",
-        "insurance_period": "90세만기",
-        "payment_period": "일시납"
       }
     },
     {
@@ -2163,34 +1013,6 @@
       }
     },
     {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "간편가입형(3년)",
-      "_raw": {
-        "sub_type": "간편가입형(3년)",
-        "insurance_period": "100세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "간편가입형(3년)",
-      "_raw": {
-        "sub_type": "간편가입형(3년)",
-        "insurance_period": "100세만기",
-        "payment_period": "일시납"
-      }
-    },
-    {
       "ISRN_TERM": 110,
       "ISRN_TERM_DVSN_CODE": "X",
       "ISRN_TERM_INQY_CODE": "X110",
@@ -2233,104 +1055,6 @@
       }
     },
     {
-      "ISRN_TERM": 110,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X110",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "간편가입형(3년)",
-      "_raw": {
-        "sub_type": "간편가입형(3년)",
-        "insurance_period": "110세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 110,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X110",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "간편가입형(3년)",
-      "_raw": {
-        "sub_type": "간편가입형(3년)",
-        "insurance_period": "110세만기",
-        "payment_period": "일시납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "간편가입형(3년)",
-      "_raw": {
-        "sub_type": "간편가입형(3년)",
-        "insurance_period": "종신",
-        "payment_period": "10년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 15,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N15",
-      "sub_type": "간편가입형(3년)",
-      "_raw": {
-        "sub_type": "간편가입형(3년)",
-        "insurance_period": "종신",
-        "payment_period": "15년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 20,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N20",
-      "sub_type": "간편가입형(3년)",
-      "_raw": {
-        "sub_type": "간편가입형(3년)",
-        "insurance_period": "종신",
-        "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "간편가입형(3년)",
-      "_raw": {
-        "sub_type": "간편가입형(3년)",
-        "insurance_period": "종신",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "간편가입형(3년)",
-      "_raw": {
-        "sub_type": "간편가입형(3년)",
-        "insurance_period": "종신",
-        "payment_period": "일시납"
-      }
-    },
-    {
       "ISRN_TERM": 90,
       "ISRN_TERM_DVSN_CODE": "X",
       "ISRN_TERM_INQY_CODE": "X90",
@@ -2370,34 +1094,6 @@
         "sub_type": "간편가입형(4년)",
         "insurance_period": "90세만기",
         "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 90,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X90",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "간편가입형(4년)",
-      "_raw": {
-        "sub_type": "간편가입형(4년)",
-        "insurance_period": "90세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 90,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X90",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "간편가입형(4년)",
-      "_raw": {
-        "sub_type": "간편가입형(4년)",
-        "insurance_period": "90세만기",
-        "payment_period": "일시납"
       }
     },
     {
@@ -2443,34 +1139,6 @@
       }
     },
     {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "간편가입형(4년)",
-      "_raw": {
-        "sub_type": "간편가입형(4년)",
-        "insurance_period": "100세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "간편가입형(4년)",
-      "_raw": {
-        "sub_type": "간편가입형(4년)",
-        "insurance_period": "100세만기",
-        "payment_period": "일시납"
-      }
-    },
-    {
       "ISRN_TERM": 110,
       "ISRN_TERM_DVSN_CODE": "X",
       "ISRN_TERM_INQY_CODE": "X110",
@@ -2513,104 +1181,6 @@
       }
     },
     {
-      "ISRN_TERM": 110,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X110",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "간편가입형(4년)",
-      "_raw": {
-        "sub_type": "간편가입형(4년)",
-        "insurance_period": "110세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 110,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X110",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "간편가입형(4년)",
-      "_raw": {
-        "sub_type": "간편가입형(4년)",
-        "insurance_period": "110세만기",
-        "payment_period": "일시납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "간편가입형(4년)",
-      "_raw": {
-        "sub_type": "간편가입형(4년)",
-        "insurance_period": "종신",
-        "payment_period": "10년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 15,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N15",
-      "sub_type": "간편가입형(4년)",
-      "_raw": {
-        "sub_type": "간편가입형(4년)",
-        "insurance_period": "종신",
-        "payment_period": "15년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 20,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N20",
-      "sub_type": "간편가입형(4년)",
-      "_raw": {
-        "sub_type": "간편가입형(4년)",
-        "insurance_period": "종신",
-        "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "간편가입형(4년)",
-      "_raw": {
-        "sub_type": "간편가입형(4년)",
-        "insurance_period": "종신",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "간편가입형(4년)",
-      "_raw": {
-        "sub_type": "간편가입형(4년)",
-        "insurance_period": "종신",
-        "payment_period": "일시납"
-      }
-    },
-    {
       "ISRN_TERM": 90,
       "ISRN_TERM_DVSN_CODE": "X",
       "ISRN_TERM_INQY_CODE": "X90",
@@ -2650,34 +1220,6 @@
         "sub_type": "간편가입형(5년)",
         "insurance_period": "90세만기",
         "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 90,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X90",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "간편가입형(5년)",
-      "_raw": {
-        "sub_type": "간편가입형(5년)",
-        "insurance_period": "90세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 90,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X90",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "간편가입형(5년)",
-      "_raw": {
-        "sub_type": "간편가입형(5년)",
-        "insurance_period": "90세만기",
-        "payment_period": "일시납"
       }
     },
     {
@@ -2723,34 +1265,6 @@
       }
     },
     {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "간편가입형(5년)",
-      "_raw": {
-        "sub_type": "간편가입형(5년)",
-        "insurance_period": "100세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "간편가입형(5년)",
-      "_raw": {
-        "sub_type": "간편가입형(5년)",
-        "insurance_period": "100세만기",
-        "payment_period": "일시납"
-      }
-    },
-    {
       "ISRN_TERM": 110,
       "ISRN_TERM_DVSN_CODE": "X",
       "ISRN_TERM_INQY_CODE": "X110",
@@ -2793,104 +1307,6 @@
       }
     },
     {
-      "ISRN_TERM": 110,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X110",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "간편가입형(5년)",
-      "_raw": {
-        "sub_type": "간편가입형(5년)",
-        "insurance_period": "110세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 110,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X110",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "간편가입형(5년)",
-      "_raw": {
-        "sub_type": "간편가입형(5년)",
-        "insurance_period": "110세만기",
-        "payment_period": "일시납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "간편가입형(5년)",
-      "_raw": {
-        "sub_type": "간편가입형(5년)",
-        "insurance_period": "종신",
-        "payment_period": "10년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 15,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N15",
-      "sub_type": "간편가입형(5년)",
-      "_raw": {
-        "sub_type": "간편가입형(5년)",
-        "insurance_period": "종신",
-        "payment_period": "15년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 20,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N20",
-      "sub_type": "간편가입형(5년)",
-      "_raw": {
-        "sub_type": "간편가입형(5년)",
-        "insurance_period": "종신",
-        "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "간편가입형(5년)",
-      "_raw": {
-        "sub_type": "간편가입형(5년)",
-        "insurance_period": "종신",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "간편가입형(5년)",
-      "_raw": {
-        "sub_type": "간편가입형(5년)",
-        "insurance_period": "종신",
-        "payment_period": "일시납"
-      }
-    },
-    {
       "ISRN_TERM": 90,
       "ISRN_TERM_DVSN_CODE": "X",
       "ISRN_TERM_INQY_CODE": "X90",
@@ -2930,34 +1346,6 @@
         "sub_type": "간편가입형(10년)",
         "insurance_period": "90세만기",
         "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 90,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X90",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "간편가입형(10년)",
-      "_raw": {
-        "sub_type": "간편가입형(10년)",
-        "insurance_period": "90세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 90,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X90",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "간편가입형(10년)",
-      "_raw": {
-        "sub_type": "간편가입형(10년)",
-        "insurance_period": "90세만기",
-        "payment_period": "일시납"
       }
     },
     {
@@ -3003,34 +1391,6 @@
       }
     },
     {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "간편가입형(10년)",
-      "_raw": {
-        "sub_type": "간편가입형(10년)",
-        "insurance_period": "100세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "간편가입형(10년)",
-      "_raw": {
-        "sub_type": "간편가입형(10년)",
-        "insurance_period": "100세만기",
-        "payment_period": "일시납"
-      }
-    },
-    {
       "ISRN_TERM": 110,
       "ISRN_TERM_DVSN_CODE": "X",
       "ISRN_TERM_INQY_CODE": "X110",
@@ -3073,104 +1433,6 @@
       }
     },
     {
-      "ISRN_TERM": 110,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X110",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "간편가입형(10년)",
-      "_raw": {
-        "sub_type": "간편가입형(10년)",
-        "insurance_period": "110세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 110,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X110",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "간편가입형(10년)",
-      "_raw": {
-        "sub_type": "간편가입형(10년)",
-        "insurance_period": "110세만기",
-        "payment_period": "일시납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "간편가입형(10년)",
-      "_raw": {
-        "sub_type": "간편가입형(10년)",
-        "insurance_period": "종신",
-        "payment_period": "10년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 15,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N15",
-      "sub_type": "간편가입형(10년)",
-      "_raw": {
-        "sub_type": "간편가입형(10년)",
-        "insurance_period": "종신",
-        "payment_period": "15년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 20,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N20",
-      "sub_type": "간편가입형(10년)",
-      "_raw": {
-        "sub_type": "간편가입형(10년)",
-        "insurance_period": "종신",
-        "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "간편가입형(10년)",
-      "_raw": {
-        "sub_type": "간편가입형(10년)",
-        "insurance_period": "종신",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "간편가입형(10년)",
-      "_raw": {
-        "sub_type": "간편가입형(10년)",
-        "insurance_period": "종신",
-        "payment_period": "일시납"
-      }
-    },
-    {
       "ISRN_TERM": 90,
       "ISRN_TERM_DVSN_CODE": "X",
       "ISRN_TERM_INQY_CODE": "X90",
@@ -3210,34 +1472,6 @@
         "sub_type": "간편가입형",
         "insurance_period": "90세만기",
         "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 90,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X90",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "간편가입형",
-      "_raw": {
-        "sub_type": "간편가입형",
-        "insurance_period": "90세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 90,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X90",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "간편가입형",
-      "_raw": {
-        "sub_type": "간편가입형",
-        "insurance_period": "90세만기",
-        "payment_period": "일시납"
       }
     },
     {
@@ -3283,34 +1517,6 @@
       }
     },
     {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "간편가입형",
-      "_raw": {
-        "sub_type": "간편가입형",
-        "insurance_period": "100세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "간편가입형",
-      "_raw": {
-        "sub_type": "간편가입형",
-        "insurance_period": "100세만기",
-        "payment_period": "일시납"
-      }
-    },
-    {
       "ISRN_TERM": 110,
       "ISRN_TERM_DVSN_CODE": "X",
       "ISRN_TERM_INQY_CODE": "X110",
@@ -3353,104 +1559,6 @@
       }
     },
     {
-      "ISRN_TERM": 110,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X110",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "간편가입형",
-      "_raw": {
-        "sub_type": "간편가입형",
-        "insurance_period": "110세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 110,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X110",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "간편가입형",
-      "_raw": {
-        "sub_type": "간편가입형",
-        "insurance_period": "110세만기",
-        "payment_period": "일시납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "간편가입형",
-      "_raw": {
-        "sub_type": "간편가입형",
-        "insurance_period": "종신",
-        "payment_period": "10년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 15,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N15",
-      "sub_type": "간편가입형",
-      "_raw": {
-        "sub_type": "간편가입형",
-        "insurance_period": "종신",
-        "payment_period": "15년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 20,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N20",
-      "sub_type": "간편가입형",
-      "_raw": {
-        "sub_type": "간편가입형",
-        "insurance_period": "종신",
-        "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "간편가입형",
-      "_raw": {
-        "sub_type": "간편가입형",
-        "insurance_period": "종신",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "간편가입형",
-      "_raw": {
-        "sub_type": "간편가입형",
-        "insurance_period": "종신",
-        "payment_period": "일시납"
-      }
-    },
-    {
       "ISRN_TERM": 90,
       "ISRN_TERM_DVSN_CODE": "X",
       "ISRN_TERM_INQY_CODE": "X90",
@@ -3490,34 +1598,6 @@
         "sub_type": "일반가입형Ⅰ",
         "insurance_period": "90세만기",
         "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 90,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X90",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "일반가입형Ⅰ",
-      "_raw": {
-        "sub_type": "일반가입형Ⅰ",
-        "insurance_period": "90세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 90,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X90",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "일반가입형Ⅰ",
-      "_raw": {
-        "sub_type": "일반가입형Ⅰ",
-        "insurance_period": "90세만기",
-        "payment_period": "일시납"
       }
     },
     {
@@ -3563,34 +1643,6 @@
       }
     },
     {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "일반가입형Ⅰ",
-      "_raw": {
-        "sub_type": "일반가입형Ⅰ",
-        "insurance_period": "100세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "일반가입형Ⅰ",
-      "_raw": {
-        "sub_type": "일반가입형Ⅰ",
-        "insurance_period": "100세만기",
-        "payment_period": "일시납"
-      }
-    },
-    {
       "ISRN_TERM": 110,
       "ISRN_TERM_DVSN_CODE": "X",
       "ISRN_TERM_INQY_CODE": "X110",
@@ -3633,104 +1685,6 @@
       }
     },
     {
-      "ISRN_TERM": 110,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X110",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "일반가입형Ⅰ",
-      "_raw": {
-        "sub_type": "일반가입형Ⅰ",
-        "insurance_period": "110세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 110,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X110",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "일반가입형Ⅰ",
-      "_raw": {
-        "sub_type": "일반가입형Ⅰ",
-        "insurance_period": "110세만기",
-        "payment_period": "일시납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "일반가입형Ⅰ",
-      "_raw": {
-        "sub_type": "일반가입형Ⅰ",
-        "insurance_period": "종신",
-        "payment_period": "10년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 15,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N15",
-      "sub_type": "일반가입형Ⅰ",
-      "_raw": {
-        "sub_type": "일반가입형Ⅰ",
-        "insurance_period": "종신",
-        "payment_period": "15년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 20,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N20",
-      "sub_type": "일반가입형Ⅰ",
-      "_raw": {
-        "sub_type": "일반가입형Ⅰ",
-        "insurance_period": "종신",
-        "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "일반가입형Ⅰ",
-      "_raw": {
-        "sub_type": "일반가입형Ⅰ",
-        "insurance_period": "종신",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "일반가입형Ⅰ",
-      "_raw": {
-        "sub_type": "일반가입형Ⅰ",
-        "insurance_period": "종신",
-        "payment_period": "일시납"
-      }
-    },
-    {
       "ISRN_TERM": 90,
       "ISRN_TERM_DVSN_CODE": "X",
       "ISRN_TERM_INQY_CODE": "X90",
@@ -3770,34 +1724,6 @@
         "sub_type": "일반가입형Ⅱ",
         "insurance_period": "90세만기",
         "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 90,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X90",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "일반가입형Ⅱ",
-      "_raw": {
-        "sub_type": "일반가입형Ⅱ",
-        "insurance_period": "90세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 90,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X90",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "일반가입형Ⅱ",
-      "_raw": {
-        "sub_type": "일반가입형Ⅱ",
-        "insurance_period": "90세만기",
-        "payment_period": "일시납"
       }
     },
     {
@@ -3843,34 +1769,6 @@
       }
     },
     {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "일반가입형Ⅱ",
-      "_raw": {
-        "sub_type": "일반가입형Ⅱ",
-        "insurance_period": "100세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "일반가입형Ⅱ",
-      "_raw": {
-        "sub_type": "일반가입형Ⅱ",
-        "insurance_period": "100세만기",
-        "payment_period": "일시납"
-      }
-    },
-    {
       "ISRN_TERM": 110,
       "ISRN_TERM_DVSN_CODE": "X",
       "ISRN_TERM_INQY_CODE": "X110",
@@ -3910,104 +1808,6 @@
         "sub_type": "일반가입형Ⅱ",
         "insurance_period": "110세만기",
         "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 110,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X110",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "일반가입형Ⅱ",
-      "_raw": {
-        "sub_type": "일반가입형Ⅱ",
-        "insurance_period": "110세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 110,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X110",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "일반가입형Ⅱ",
-      "_raw": {
-        "sub_type": "일반가입형Ⅱ",
-        "insurance_period": "110세만기",
-        "payment_period": "일시납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "일반가입형Ⅱ",
-      "_raw": {
-        "sub_type": "일반가입형Ⅱ",
-        "insurance_period": "종신",
-        "payment_period": "10년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 15,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N15",
-      "sub_type": "일반가입형Ⅱ",
-      "_raw": {
-        "sub_type": "일반가입형Ⅱ",
-        "insurance_period": "종신",
-        "payment_period": "15년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 20,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N20",
-      "sub_type": "일반가입형Ⅱ",
-      "_raw": {
-        "sub_type": "일반가입형Ⅱ",
-        "insurance_period": "종신",
-        "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "일반가입형Ⅱ",
-      "_raw": {
-        "sub_type": "일반가입형Ⅱ",
-        "insurance_period": "종신",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "일반가입형Ⅱ",
-      "_raw": {
-        "sub_type": "일반가입형Ⅱ",
-        "insurance_period": "종신",
-        "payment_period": "일시납"
       }
     },
     {
@@ -4053,34 +1853,6 @@
       }
     },
     {
-      "ISRN_TERM": 90,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X90",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "일반가입형",
-      "_raw": {
-        "sub_type": "일반가입형",
-        "insurance_period": "90세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 90,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X90",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "일반가입형",
-      "_raw": {
-        "sub_type": "일반가입형",
-        "insurance_period": "90세만기",
-        "payment_period": "일시납"
-      }
-    },
-    {
       "ISRN_TERM": 100,
       "ISRN_TERM_DVSN_CODE": "X",
       "ISRN_TERM_INQY_CODE": "X100",
@@ -4120,34 +1892,6 @@
         "sub_type": "일반가입형",
         "insurance_period": "100세만기",
         "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "일반가입형",
-      "_raw": {
-        "sub_type": "일반가입형",
-        "insurance_period": "100세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "일반가입형",
-      "_raw": {
-        "sub_type": "일반가입형",
-        "insurance_period": "100세만기",
-        "payment_period": "일시납"
       }
     },
     {
@@ -4193,104 +1937,6 @@
       }
     },
     {
-      "ISRN_TERM": 110,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X110",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "일반가입형",
-      "_raw": {
-        "sub_type": "일반가입형",
-        "insurance_period": "110세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 110,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X110",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "일반가입형",
-      "_raw": {
-        "sub_type": "일반가입형",
-        "insurance_period": "110세만기",
-        "payment_period": "일시납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "일반가입형",
-      "_raw": {
-        "sub_type": "일반가입형",
-        "insurance_period": "종신",
-        "payment_period": "10년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 15,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N15",
-      "sub_type": "일반가입형",
-      "_raw": {
-        "sub_type": "일반가입형",
-        "insurance_period": "종신",
-        "payment_period": "15년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 20,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N20",
-      "sub_type": "일반가입형",
-      "_raw": {
-        "sub_type": "일반가입형",
-        "insurance_period": "종신",
-        "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "일반가입형",
-      "_raw": {
-        "sub_type": "일반가입형",
-        "insurance_period": "종신",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "일반가입형",
-      "_raw": {
-        "sub_type": "일반가입형",
-        "insurance_period": "종신",
-        "payment_period": "일시납"
-      }
-    },
-    {
       "ISRN_TERM": 90,
       "ISRN_TERM_DVSN_CODE": "X",
       "ISRN_TERM_INQY_CODE": "X90",
@@ -4330,34 +1976,6 @@
         "sub_type": "1종(일반가입형 전환형)",
         "insurance_period": "90세만기",
         "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 90,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X90",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "1종(일반가입형 전환형)",
-      "_raw": {
-        "sub_type": "1종(일반가입형 전환형)",
-        "insurance_period": "90세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 90,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X90",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "1종(일반가입형 전환형)",
-      "_raw": {
-        "sub_type": "1종(일반가입형 전환형)",
-        "insurance_period": "90세만기",
-        "payment_period": "일시납"
       }
     },
     {
@@ -4403,34 +2021,6 @@
       }
     },
     {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "1종(일반가입형 전환형)",
-      "_raw": {
-        "sub_type": "1종(일반가입형 전환형)",
-        "insurance_period": "100세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "1종(일반가입형 전환형)",
-      "_raw": {
-        "sub_type": "1종(일반가입형 전환형)",
-        "insurance_period": "100세만기",
-        "payment_period": "일시납"
-      }
-    },
-    {
       "ISRN_TERM": 110,
       "ISRN_TERM_DVSN_CODE": "X",
       "ISRN_TERM_INQY_CODE": "X110",
@@ -4470,104 +2060,6 @@
         "sub_type": "1종(일반가입형 전환형)",
         "insurance_period": "110세만기",
         "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 110,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X110",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "1종(일반가입형 전환형)",
-      "_raw": {
-        "sub_type": "1종(일반가입형 전환형)",
-        "insurance_period": "110세만기",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 110,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X110",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "1종(일반가입형 전환형)",
-      "_raw": {
-        "sub_type": "1종(일반가입형 전환형)",
-        "insurance_period": "110세만기",
-        "payment_period": "일시납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "1종(일반가입형 전환형)",
-      "_raw": {
-        "sub_type": "1종(일반가입형 전환형)",
-        "insurance_period": "종신",
-        "payment_period": "10년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 15,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N15",
-      "sub_type": "1종(일반가입형 전환형)",
-      "_raw": {
-        "sub_type": "1종(일반가입형 전환형)",
-        "insurance_period": "종신",
-        "payment_period": "15년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 20,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N20",
-      "sub_type": "1종(일반가입형 전환형)",
-      "_raw": {
-        "sub_type": "1종(일반가입형 전환형)",
-        "insurance_period": "종신",
-        "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "1종(일반가입형 전환형)",
-      "_raw": {
-        "sub_type": "1종(일반가입형 전환형)",
-        "insurance_period": "종신",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "1종(일반가입형 전환형)",
-      "_raw": {
-        "sub_type": "1종(일반가입형 전환형)",
-        "insurance_period": "종신",
-        "payment_period": "일시납"
       }
     }
   ],

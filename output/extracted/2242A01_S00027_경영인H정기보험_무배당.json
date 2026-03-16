@@ -14,11 +14,6 @@
     {
       "sub_type": "1종(5%체증형)",
       "insurance_period": "90세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "1종(5%체증형)",
-      "insurance_period": "90세만기",
       "payment_period": "일시납"
     },
     {
@@ -29,22 +24,12 @@
     {
       "sub_type": "1종(5%체증형)",
       "insurance_period": "종신",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "1종(5%체증형)",
-      "insurance_period": "종신",
       "payment_period": "일시납"
     },
     {
       "sub_type": "2종(10%체증형)",
       "insurance_period": "90세만기",
       "payment_period": "전기납"
-    },
-    {
-      "sub_type": "2종(10%체증형)",
-      "insurance_period": "90세만기",
-      "payment_period": "종신납"
     },
     {
       "sub_type": "2종(10%체증형)",
@@ -59,11 +44,6 @@
     {
       "sub_type": "2종(10%체증형)",
       "insurance_period": "종신",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "2종(10%체증형)",
-      "insurance_period": "종신",
       "payment_period": "일시납"
     },
     {
@@ -74,22 +54,12 @@
     {
       "sub_type": "3종(기본형, 표준형)",
       "insurance_period": "90세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "3종(기본형, 표준형)",
-      "insurance_period": "90세만기",
       "payment_period": "일시납"
     },
     {
       "sub_type": "3종(기본형, 표준형)",
       "insurance_period": "종신",
       "payment_period": "전기납"
-    },
-    {
-      "sub_type": "3종(기본형, 표준형)",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
     },
     {
       "sub_type": "3종(기본형, 표준형)",
@@ -104,22 +74,12 @@
     {
       "sub_type": "1종(5%체증형, 해약환급금 \n일부지급형)",
       "insurance_period": "90세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "1종(5%체증형, 해약환급금 \n일부지급형)",
-      "insurance_period": "90세만기",
       "payment_period": "일시납"
     },
     {
       "sub_type": "1종(5%체증형, 해약환급금 \n일부지급형)",
       "insurance_period": "종신",
       "payment_period": "전기납"
-    },
-    {
-      "sub_type": "1종(5%체증형, 해약환급금 \n일부지급형)",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
     },
     {
       "sub_type": "1종(5%체증형, 해약환급금 \n일부지급형)",
@@ -134,22 +94,12 @@
     {
       "sub_type": "2종(10%체증형, 해약환급금 일부지급형)",
       "insurance_period": "90세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "2종(10%체증형, 해약환급금 일부지급형)",
-      "insurance_period": "90세만기",
       "payment_period": "일시납"
     },
     {
       "sub_type": "2종(10%체증형, 해약환급금 일부지급형)",
       "insurance_period": "종신",
       "payment_period": "전기납"
-    },
-    {
-      "sub_type": "2종(10%체증형, 해약환급금 일부지급형)",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
     },
     {
       "sub_type": "2종(10%체증형, 해약환급금 일부지급형)",
@@ -164,22 +114,12 @@
     {
       "sub_type": "1종(5%체증형, 표준형)",
       "insurance_period": "90세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "1종(5%체증형, 표준형)",
-      "insurance_period": "90세만기",
       "payment_period": "일시납"
     },
     {
       "sub_type": "1종(5%체증형, 표준형)",
       "insurance_period": "종신",
       "payment_period": "전기납"
-    },
-    {
-      "sub_type": "1종(5%체증형, 표준형)",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
     },
     {
       "sub_type": "1종(5%체증형, 표준형)",
@@ -194,22 +134,12 @@
     {
       "sub_type": "2종(10%체증형, 표준형)",
       "insurance_period": "90세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "2종(10%체증형, 표준형)",
-      "insurance_period": "90세만기",
       "payment_period": "일시납"
     },
     {
       "sub_type": "2종(10%체증형, 표준형)",
       "insurance_period": "종신",
       "payment_period": "전기납"
-    },
-    {
-      "sub_type": "2종(10%체증형, 표준형)",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
     },
     {
       "sub_type": "2종(10%체증형, 표준형)",
@@ -224,22 +154,12 @@
     {
       "sub_type": "1종(5%체증형, 해약환급금 일부지급형)",
       "insurance_period": "90세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "1종(5%체증형, 해약환급금 일부지급형)",
-      "insurance_period": "90세만기",
       "payment_period": "일시납"
     },
     {
       "sub_type": "1종(5%체증형, 해약환급금 일부지급형)",
       "insurance_period": "종신",
       "payment_period": "전기납"
-    },
-    {
-      "sub_type": "1종(5%체증형, 해약환급금 일부지급형)",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
     },
     {
       "sub_type": "1종(5%체증형, 해약환급금 일부지급형)",
@@ -254,22 +174,12 @@
     {
       "sub_type": "2종(10%체증형, 해약환급금 \n일부지급형)",
       "insurance_period": "90세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "2종(10%체증형, 해약환급금 \n일부지급형)",
-      "insurance_period": "90세만기",
       "payment_period": "일시납"
     },
     {
       "sub_type": "2종(10%체증형, 해약환급금 \n일부지급형)",
       "insurance_period": "종신",
       "payment_period": "전기납"
-    },
-    {
-      "sub_type": "2종(10%체증형, 해약환급금 \n일부지급형)",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
     },
     {
       "sub_type": "2종(10%체증형, 해약환급금 \n일부지급형)",
@@ -284,22 +194,12 @@
     {
       "sub_type": "2종(10%체증형, 해약환급금 일부지급\n형)",
       "insurance_period": "90세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "2종(10%체증형, 해약환급금 일부지급\n형)",
-      "insurance_period": "90세만기",
       "payment_period": "일시납"
     },
     {
       "sub_type": "2종(10%체증형, 해약환급금 일부지급\n형)",
       "insurance_period": "종신",
       "payment_period": "전기납"
-    },
-    {
-      "sub_type": "2종(10%체증형, 해약환급금 일부지급\n형)",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
     },
     {
       "sub_type": "2종(10%체증형, 해약환급금 일부지급\n형)",
@@ -308,5 +208,5 @@
     }
   ],
   "discrepancies": [],
-  "row_count": 60
+  "row_count": 40
 }

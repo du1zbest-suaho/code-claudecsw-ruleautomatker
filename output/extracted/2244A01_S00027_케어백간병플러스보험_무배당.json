@@ -23,16 +23,6 @@
     },
     {
       "sub_type": "간편가입형(0년)",
-      "insurance_period": "110세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "110세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "간편가입형(0년)",
       "insurance_period": "100세만기",
       "payment_period": "10년납"
     },
@@ -47,41 +37,6 @@
       "payment_period": "20년납"
     },
     {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "100세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "100세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "종신",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "종신",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "종신",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "종신",
-      "payment_period": "일시납"
-    },
-    {
       "sub_type": "간편가입형(2년)",
       "insurance_period": "110세만기",
       "payment_period": "10년납"
@@ -98,16 +53,6 @@
     },
     {
       "sub_type": "간편가입형(2년)",
-      "insurance_period": "110세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(2년)",
-      "insurance_period": "110세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "간편가입형(2년)",
       "insurance_period": "100세만기",
       "payment_period": "10년납"
     },
@@ -120,41 +65,6 @@
       "sub_type": "간편가입형(2년)",
       "insurance_period": "100세만기",
       "payment_period": "20년납"
-    },
-    {
-      "sub_type": "간편가입형(2년)",
-      "insurance_period": "100세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(2년)",
-      "insurance_period": "100세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "간편가입형(2년)",
-      "insurance_period": "종신",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "간편가입형(2년)",
-      "insurance_period": "종신",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "간편가입형(2년)",
-      "insurance_period": "종신",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "간편가입형(2년)",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(2년)",
-      "insurance_period": "종신",
-      "payment_period": "일시납"
     },
     {
       "sub_type": "간편가입형(5년)",
@@ -173,16 +83,6 @@
     },
     {
       "sub_type": "간편가입형(5년)",
-      "insurance_period": "110세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(5년)",
-      "insurance_period": "110세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "간편가입형(5년)",
       "insurance_period": "100세만기",
       "payment_period": "10년납"
     },
@@ -195,41 +95,6 @@
       "sub_type": "간편가입형(5년)",
       "insurance_period": "100세만기",
       "payment_period": "20년납"
-    },
-    {
-      "sub_type": "간편가입형(5년)",
-      "insurance_period": "100세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(5년)",
-      "insurance_period": "100세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "간편가입형(5년)",
-      "insurance_period": "종신",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "간편가입형(5년)",
-      "insurance_period": "종신",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "간편가입형(5년)",
-      "insurance_period": "종신",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "간편가입형(5년)",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(5년)",
-      "insurance_period": "종신",
-      "payment_period": "일시납"
     },
     {
       "sub_type": "간편가입형(10년)",
@@ -248,16 +113,6 @@
     },
     {
       "sub_type": "간편가입형(10년)",
-      "insurance_period": "110세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(10년)",
-      "insurance_period": "110세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "간편가입형(10년)",
       "insurance_period": "100세만기",
       "payment_period": "10년납"
     },
@@ -270,41 +125,6 @@
       "sub_type": "간편가입형(10년)",
       "insurance_period": "100세만기",
       "payment_period": "20년납"
-    },
-    {
-      "sub_type": "간편가입형(10년)",
-      "insurance_period": "100세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(10년)",
-      "insurance_period": "100세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "간편가입형(10년)",
-      "insurance_period": "종신",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "간편가입형(10년)",
-      "insurance_period": "종신",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "간편가입형(10년)",
-      "insurance_period": "종신",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "간편가입형(10년)",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형(10년)",
-      "insurance_period": "종신",
-      "payment_period": "일시납"
     },
     {
       "sub_type": "일반가입형",
@@ -323,16 +143,6 @@
     },
     {
       "sub_type": "일반가입형",
-      "insurance_period": "110세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "일반가입형",
-      "insurance_period": "110세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "일반가입형",
       "insurance_period": "100세만기",
       "payment_period": "10년납"
     },
@@ -345,43 +155,8 @@
       "sub_type": "일반가입형",
       "insurance_period": "100세만기",
       "payment_period": "20년납"
-    },
-    {
-      "sub_type": "일반가입형",
-      "insurance_period": "100세만기",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "일반가입형",
-      "insurance_period": "100세만기",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "일반가입형",
-      "insurance_period": "종신",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "일반가입형",
-      "insurance_period": "종신",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "일반가입형",
-      "insurance_period": "종신",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "일반가입형",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "일반가입형",
-      "insurance_period": "종신",
-      "payment_period": "일시납"
     }
   ],
   "discrepancies": [],
-  "row_count": 75
+  "row_count": 30
 }

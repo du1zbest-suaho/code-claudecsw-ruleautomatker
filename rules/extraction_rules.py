@@ -237,6 +237,44 @@ class ExtractionRules:
                         if candidate_results:
                             section_results = candidate_results
                             break
+                elif not true_ips:
+                    # IP가 남자/여자 컬럼 헤더 이후에 위치하는 형식
+                    # 예: 경영인H정기보험 — 보험기간\n납입기간\n남자\n여자\n90세만기\n전기납\n남자범위\n여자범위
+                    first_female_m = re.search(r"여\s*자", section)
+                    if first_female_m:
+                        post_headers = section[first_female_m.end():first_female_m.end() + 500]
+                        col_ips = self._find_insurance_periods_in_header(post_headers)
+                        if col_ips:
+                            candidate_results = []
+                            seen_pay_ranges: set = set()
+                            for pm in re.finditer(payment_pattern, section):
+                                payment = pm.group(1).replace(" ", "")
+                                ranges_text = pm.group(2)
+                                ranges = [(int(a), int(b)) for a, b in re.findall(range_pattern, ranges_text)]
+                                if len(ranges) == len(col_ips) * 2:
+                                    key_pr = (payment, tuple(ranges))
+                                    if key_pr in seen_pay_ranges:
+                                        continue
+                                    seen_pay_ranges.add(key_pr)
+                                    for idx, ip in enumerate(col_ips):
+                                        candidate_results.append({
+                                            "sub_type": sub,
+                                            "insurance_period": ip,
+                                            "payment_period": payment,
+                                            "gender": "남자",
+                                            "min_age": ranges[idx * 2][0],
+                                            "max_age": ranges[idx * 2][1],
+                                        })
+                                        candidate_results.append({
+                                            "sub_type": sub,
+                                            "insurance_period": ip,
+                                            "payment_period": payment,
+                                            "gender": "여자",
+                                            "min_age": ranges[idx * 2 + 1][0],
+                                            "max_age": ranges[idx * 2 + 1][1],
+                                        })
+                            if candidate_results:
+                                section_results = candidate_results
         return section_results
 
     def _parse_age_table_gender_sections(self, text: str, product_code: str) -> List[Dict]:
@@ -562,6 +600,27 @@ class ExtractionRules:
                         "min_age": min_age,
                         "max_age": maxes[idx]
                     })
+            elif insurance_periods and len(sub_types) >= 2 and len(insurance_periods) == 1 and len(maxes) == len(sub_types) * 2:
+                # 세부보험종목별 × 성별 최고나이 (단일 보험기간)
+                # 예: 1종남, 1종여, 2종남, 2종여 (종신보험 기납입플러스형/기본형 등)
+                ip = insurance_periods[0]
+                for sub_idx, sub_type in enumerate(sub_types):
+                    results.append({
+                        "sub_type": sub_type,
+                        "insurance_period": ip,
+                        "payment_period": payment,
+                        "gender": "남자",
+                        "min_age": min_age,
+                        "max_age": maxes[sub_idx * 2]
+                    })
+                    results.append({
+                        "sub_type": sub_type,
+                        "insurance_period": ip,
+                        "payment_period": payment,
+                        "gender": "여자",
+                        "min_age": min_age,
+                        "max_age": maxes[sub_idx * 2 + 1]
+                    })
             elif maxes:
                 results.append({
                     "sub_type": sub,
@@ -851,6 +910,10 @@ class ExtractionRules:
         if definite_rows:
             return definite_rows
 
+        # 증액계약 섹션 제거: 사망/보장보험금 증액계약 전용 납입기간(일시납) 오탐 방지
+        text = re.split(r'\n\s*\(\d+\)\s*사망보험금\s*증액계약', text)[0]
+        text = re.split(r'\n\s*\(\d+\)\s*보장보험금\s*증액계약', text)[0]
+
         # 보험기간 및 납입기간 추출
         insurance_periods = self._extract_all_insurance_periods(text)
         payment_periods = self._extract_all_payment_periods(text)
@@ -953,27 +1016,37 @@ class ExtractionRules:
         results = []
 
         # ── N-type: 年 기반 보기개시 (종신보험 스마트연금전환특약 등) ──────────
-        n_years: set = set()
+        # n_year_info: {n → True} 이면 해당 n의 모든 출현이 종신/고령 경계 컨텍스트
+        n_year_info: dict = {}
 
         # "계약일(부터|이후) N년 경과시점" – 보장형 기준사망보험금 지급 시작 시점
         # 단, "의 장기유지보너스" 뒤에 오는 경우는 제외 (장기유지보너스 경과시점)
         for m in re.finditer(r"계약일\s*(?:부터|이후)\s*(\d+)년\s*경과시점", text):
-            context_after = text[m.end():m.end()+30]
+            context_after = text[m.end():m.end()+40]
             if "장기유지" in context_after or "보너스" in context_after:
                 continue
-            n_years.add(int(m.group(1)))
+            n = int(m.group(1))
+            # 종신/고령 경계 컨텍스트 감지 (예: "계약일부터 10년 경과시점부터 종신")
+            is_jongsin = bool(re.search(r'부터\s*(?:종신|\d+세\s*계약해당)', context_after))
+            if n not in n_year_info:
+                n_year_info[n] = is_jongsin
+            else:
+                n_year_info[n] = n_year_info[n] and is_jongsin
 
-        # "전환일(부터|이후) N년 경과시점" – 스마트전환형 계약 기준사망보험금 시작
-        for m in re.finditer(r"전환일\s*(?:부터|이후)\s*(\d+)년\s*경과시점", text):
-            n_years.add(int(m.group(1)))
+        # 전환일 패턴 제거 (스마트전환형 계약 전용 → 주계약 오탐 방지)
 
         # "보험계약일 이후 N년이 경과한" – 스마트연금전환특약 대상계약 조건
         # 앞선 패턴에서 매칭 없을 때만 사용 (false positive 방지)
-        if not n_years:
+        if not n_year_info:
             for m in re.finditer(r"보험계약일\s*이후\s*(\d+)년이?\s*경과한", text):
-                n_years.add(int(m.group(1)))
+                n = int(m.group(1))
+                n_year_info[n] = False
 
-        if n_years:
+        if n_year_info:
+            min_n = min(n_year_info)
+            # 종신/고령 경계 컨텍스트에서만 출현한 N은 제외 (단, 최솟값은 항상 포함)
+            n_years = {n for n, all_jongsin in n_year_info.items()
+                       if not all_jongsin or n == min_n}
             for yr in sorted(n_years):
                 results.append({"sub_type": "기본형", "n_years": yr})
             return results
@@ -1069,6 +1142,11 @@ class ExtractionRules:
         seen: set = set()
         for m in combined.finditer(text):
             val = self._normalize_period(m.group(0))
+            # 전환시점 근처의 종신은 전환형 계약 전용 → 보험기간 아님
+            if val == "종신":
+                ctx_before = text[max(0, m.start() - 200):m.start()]
+                if re.search(r"전환시점", ctx_before):
+                    continue
             if val not in seen:
                 seen.add(val)
                 periods.append(val)
@@ -1128,16 +1206,23 @@ class ExtractionRules:
         # 순서: 구체적 패턴 우선
         for pattern in [r"\d+세\s*만기", r"\d+년\s*만기"]:
             for m in re.finditer(pattern, text):
+                # 국고채/회사채/증권 등 금융 참조 문구 근처 → 보험기간 아님 (1758 오탐 방지)
+                ctx_around = text[max(0, m.start()-30):m.end()+30]
+                if re.search(r"국고채|회사채|증권|이율|수익률", ctx_around):
+                    continue
                 val = self._normalize_period(m.group(0))
                 if val not in periods:
                     periods.append(val)
 
-        # 종신: 갱신형 종료나이/종료일 컨텍스트에서 나온 건 제외
+        # 종신: 갱신형 종료나이/종료일 또는 전환시점 컨텍스트에서 나온 건 제외
         for m in re.finditer(r"종신(?!갱신)", text):
             pos = m.start()
             context_before = text[max(0, pos - 200):pos]
             # "재가입 종료 나이" 또는 "종료일은" 근처의 종신은 보험기간이 아님
             if re.search(r"재가입\s*종료\s*나이|종료일은", context_before):
+                continue
+            # "전환시점" 근처의 종신은 스마트전환형 계약 내용 → 보험기간 아님 (1758 오탐 방지)
+            if re.search(r"전환시점", context_before):
                 continue
             if "종신" not in periods:
                 periods.append("종신")
@@ -1177,6 +1262,11 @@ class ExtractionRules:
                 if any(m.start() >= cp and m.start() <= cp + 20 for cp in condition_pos):
                     continue
                 val = m.group(0)
+                # 종신납: 전환시점 근처 컨텍스트 → 스마트전환형 계약 전용 → 오탐 방지
+                if val == "종신납":
+                    ctx_before = text[max(0, m.start() - 300):m.start()]
+                    if re.search(r"전환시점", ctx_before):
+                        continue
                 if val not in periods:
                     periods.append(val)
         return periods

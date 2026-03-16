@@ -10,15 +10,71 @@
       "sub_type": "1종(기납입플러스형)",
       "insurance_period": "종신",
       "payment_period": "10년납",
-      "gender": "남녀공통",
+      "gender": "남자",
       "min_age": 15,
       "max_age": 80
     },
     {
       "sub_type": "1종(기납입플러스형)",
       "insurance_period": "종신",
+      "payment_period": "10년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "2종(기본형)",
+      "insurance_period": "종신",
+      "payment_period": "10년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 74
+    },
+    {
+      "sub_type": "2종(기본형)",
+      "insurance_period": "종신",
+      "payment_period": "10년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 78
+    },
+    {
+      "sub_type": "1종(기납입플러스형)",
+      "insurance_period": "종신",
       "payment_period": "15년납",
-      "gender": "남녀공통",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 68
+    },
+    {
+      "sub_type": "1종(기납입플러스형)",
+      "insurance_period": "종신",
+      "payment_period": "15년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 72
+    },
+    {
+      "sub_type": "2종(기본형)",
+      "insurance_period": "종신",
+      "payment_period": "15년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 68
+    },
+    {
+      "sub_type": "2종(기본형)",
+      "insurance_period": "종신",
+      "payment_period": "15년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 72
+    },
+    {
+      "sub_type": "1종(기납입플러스형)",
+      "insurance_period": "종신",
+      "payment_period": "20년납",
+      "gender": "남자",
       "min_age": 15,
       "max_age": 68
     },
@@ -26,13 +82,29 @@
       "sub_type": "1종(기납입플러스형)",
       "insurance_period": "종신",
       "payment_period": "20년납",
-      "gender": "남녀공통",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 72
+    },
+    {
+      "sub_type": "2종(기본형)",
+      "insurance_period": "종신",
+      "payment_period": "20년납",
+      "gender": "남자",
       "min_age": 15,
       "max_age": 68
+    },
+    {
+      "sub_type": "2종(기본형)",
+      "insurance_period": "종신",
+      "payment_period": "20년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 72
     }
   ],
   "discrepancies": [],
-  "row_count": 3,
+  "row_count": 12,
   "coded_rows": [
     {
       "ISRN_TERM": 999,
@@ -41,7 +113,7 @@
       "PAYM_TERM": 10,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N10",
-      "MINU_GNDR_CODE": null,
+      "MINU_GNDR_CODE": "1",
       "MIN_AG": 15,
       "MAX_AG": 80,
       "sub_type": "1종(기납입플러스형)",
@@ -49,49 +121,9 @@
         "sub_type": "1종(기납입플러스형)",
         "insurance_period": "종신",
         "payment_period": "10년납",
-        "gender": "남녀공통",
+        "gender": "남자",
         "min_age": 15,
         "max_age": 80
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 15,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N15",
-      "MINU_GNDR_CODE": null,
-      "MIN_AG": 15,
-      "MAX_AG": 68,
-      "sub_type": "1종(기납입플러스형)",
-      "_raw": {
-        "sub_type": "1종(기납입플러스형)",
-        "insurance_period": "종신",
-        "payment_period": "15년납",
-        "gender": "남녀공통",
-        "min_age": 15,
-        "max_age": 68
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 20,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N20",
-      "MINU_GNDR_CODE": null,
-      "MIN_AG": 15,
-      "MAX_AG": 68,
-      "sub_type": "1종(기납입플러스형)",
-      "_raw": {
-        "sub_type": "1종(기납입플러스형)",
-        "insurance_period": "종신",
-        "payment_period": "20년납",
-        "gender": "남녀공통",
-        "min_age": 15,
-        "max_age": 68
       }
     },
     {
@@ -101,7 +133,227 @@
       "PAYM_TERM": 10,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N10",
-      "MINU_GNDR_CODE": null,
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "1종(기납입플러스형)",
+      "_raw": {
+        "sub_type": "1종(기납입플러스형)",
+        "insurance_period": "종신",
+        "payment_period": "10년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 74,
+      "sub_type": "2종(기본형)",
+      "_raw": {
+        "sub_type": "2종(기본형)",
+        "insurance_period": "종신",
+        "payment_period": "10년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 74
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 78,
+      "sub_type": "2종(기본형)",
+      "_raw": {
+        "sub_type": "2종(기본형)",
+        "insurance_period": "종신",
+        "payment_period": "10년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 78
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 68,
+      "sub_type": "1종(기납입플러스형)",
+      "_raw": {
+        "sub_type": "1종(기납입플러스형)",
+        "insurance_period": "종신",
+        "payment_period": "15년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 68
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 72,
+      "sub_type": "1종(기납입플러스형)",
+      "_raw": {
+        "sub_type": "1종(기납입플러스형)",
+        "insurance_period": "종신",
+        "payment_period": "15년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 72
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 68,
+      "sub_type": "2종(기본형)",
+      "_raw": {
+        "sub_type": "2종(기본형)",
+        "insurance_period": "종신",
+        "payment_period": "15년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 68
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 72,
+      "sub_type": "2종(기본형)",
+      "_raw": {
+        "sub_type": "2종(기본형)",
+        "insurance_period": "종신",
+        "payment_period": "15년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 72
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 68,
+      "sub_type": "1종(기납입플러스형)",
+      "_raw": {
+        "sub_type": "1종(기납입플러스형)",
+        "insurance_period": "종신",
+        "payment_period": "20년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 68
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 72,
+      "sub_type": "1종(기납입플러스형)",
+      "_raw": {
+        "sub_type": "1종(기납입플러스형)",
+        "insurance_period": "종신",
+        "payment_period": "20년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 72
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 68,
+      "sub_type": "2종(기본형)",
+      "_raw": {
+        "sub_type": "2종(기본형)",
+        "insurance_period": "종신",
+        "payment_period": "20년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 68
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 72,
+      "sub_type": "2종(기본형)",
+      "_raw": {
+        "sub_type": "2종(기본형)",
+        "insurance_period": "종신",
+        "payment_period": "20년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 72
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "1",
       "MIN_AG": 20,
       "MAX_AG": 80,
       "sub_type": "1종(기납입플러스형)",
@@ -109,9 +361,72 @@
         "sub_type": "1종(기납입플러스형)",
         "insurance_period": "종신",
         "payment_period": "10년납",
-        "gender": "남녀공통",
+        "gender": "남자",
         "min_age": 15,
         "max_age": 80
+      },
+      "_health_body_adjusted": true
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 20,
+      "MAX_AG": 80,
+      "sub_type": "1종(기납입플러스형)",
+      "_raw": {
+        "sub_type": "1종(기납입플러스형)",
+        "insurance_period": "종신",
+        "payment_period": "10년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      },
+      "_health_body_adjusted": true
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 20,
+      "MAX_AG": 74,
+      "sub_type": "2종(기본형)",
+      "_raw": {
+        "sub_type": "2종(기본형)",
+        "insurance_period": "종신",
+        "payment_period": "10년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 74
+      },
+      "_health_body_adjusted": true
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 20,
+      "MAX_AG": 78,
+      "sub_type": "2종(기본형)",
+      "_raw": {
+        "sub_type": "2종(기본형)",
+        "insurance_period": "종신",
+        "payment_period": "10년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 78
       },
       "_health_body_adjusted": true
     },
@@ -122,7 +437,7 @@
       "PAYM_TERM": 15,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N15",
-      "MINU_GNDR_CODE": null,
+      "MINU_GNDR_CODE": "1",
       "MIN_AG": 20,
       "MAX_AG": 68,
       "sub_type": "1종(기납입플러스형)",
@@ -130,7 +445,49 @@
         "sub_type": "1종(기납입플러스형)",
         "insurance_period": "종신",
         "payment_period": "15년납",
-        "gender": "남녀공통",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 68
+      },
+      "_health_body_adjusted": true
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 20,
+      "MAX_AG": 72,
+      "sub_type": "1종(기납입플러스형)",
+      "_raw": {
+        "sub_type": "1종(기납입플러스형)",
+        "insurance_period": "종신",
+        "payment_period": "15년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 72
+      },
+      "_health_body_adjusted": true
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 20,
+      "MAX_AG": 68,
+      "sub_type": "1종(기납입플러스형)",
+      "_raw": {
+        "sub_type": "1종(기납입플러스형)",
+        "insurance_period": "종신",
+        "payment_period": "20년납",
+        "gender": "남자",
         "min_age": 15,
         "max_age": 68
       },
@@ -143,17 +500,17 @@
       "PAYM_TERM": 20,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N20",
-      "MINU_GNDR_CODE": null,
+      "MINU_GNDR_CODE": "2",
       "MIN_AG": 20,
-      "MAX_AG": 68,
+      "MAX_AG": 72,
       "sub_type": "1종(기납입플러스형)",
       "_raw": {
         "sub_type": "1종(기납입플러스형)",
         "insurance_period": "종신",
         "payment_period": "20년납",
-        "gender": "남녀공통",
+        "gender": "여자",
         "min_age": 15,
-        "max_age": 68
+        "max_age": 72
       },
       "_health_body_adjusted": true
     }
