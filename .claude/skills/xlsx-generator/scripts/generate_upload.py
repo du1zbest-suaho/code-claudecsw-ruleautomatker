@@ -58,26 +58,13 @@ COLUMN_MAPPINGS = {
 DEFAULT_SALE_CHNL_CODE = "1,2,3,4,7"
 
 
-def load_product_mapping(mapping_path: str) -> dict:
-    """sub_type → (upper, upper_name, lower, lower_name) 매핑 로드.
-    첫 번째 항목을 '__default__' 키로도 저장 (sub_type 불일치 fallback용).
-    """
+def load_product_mappings(mapping_path: str) -> list:
+    """product_mappings 리스트 반환. 매핑 파일 없으면 빈 리스트."""
     if not os.path.exists(mapping_path):
-        return {}
+        return []
     with open(mapping_path, "r", encoding="utf-8") as f:
         data = json.load(f)
-    result = {}
-    for pm in data.get("product_mappings", []):
-        entry = {
-            "upper": pm["upper_object_code"],
-            "upper_name": pm.get("upper_object_name", ""),
-            "lower": pm["lower_object_code"],
-            "lower_name": pm.get("lower_object_name", ""),
-        }
-        result[pm["sub_type"]] = entry
-        if "__default__" not in result:
-            result["__default__"] = entry
-    return result
+    return data.get("product_mappings", [])
 
 
 def main():
@@ -95,15 +82,70 @@ def main():
     with open(args.valid_date, "r", encoding="utf-8") as f:
         date_data = json.load(f)
 
-    product_mapping = load_product_mapping(args.product_mapping)
+    product_mappings = load_product_mappings(args.product_mapping)
 
     table_type = coded_data.get("table_type", "")
     coded_rows = coded_data.get("coded_rows", [])
     special_rows = coded_data.get("special_contract_rows", [])
-    all_rows = coded_rows + special_rows
 
     valid_start = date_data.get("valid_start_date", "")
     valid_end = date_data.get("valid_end_date", "9999-12-31")
+
+    # 일반 행 (pre-set codes 없음) vs 특약 행 (codes 이미 세팅)
+    regular_rows = [r for r in coded_rows if not r.get("_upper_object_code")]
+    special_rows_with_codes = [r for r in coded_rows + special_rows if r.get("_upper_object_code")]
+
+    # mapping entry별로 매칭 행 확장: sub_type이 mapping entry의 전체 판매명에 포함되면 매칭
+    # 매핑이 없거나 빈 경우 regular_rows를 1회 출력 (fallback)
+    output_rows = []  # list of (coded_row, pm_entry_or_None)
+
+    if not product_mappings:
+        # 매핑 없음: 모든 일반 행 1회 출력
+        for row in regular_rows:
+            output_rows.append((row, None))
+    else:
+        for pm in product_mappings:
+            sub_type_key = pm.get("sub_type", "")
+            matched = [r for r in regular_rows
+                       if not r.get("sub_type") or r.get("sub_type") in sub_type_key]
+            if not matched:
+                # fallback: sub_type 구분 없이 전체 사용
+                matched = regular_rows
+            for row in matched:
+                output_rows.append((row, pm))
+
+    # 특약 행은 as-is (codes 이미 세팅됨, 1회만)
+    for row in special_rows_with_codes:
+        output_rows.append((row, None))
+
+    # 중복 제거: (UPPER, LOWER, data_tuple) 기준
+    seen_output: set = set()
+    deduped_output = []
+    col_map = COLUMN_MAPPINGS.get(table_type, {})
+    for row, pm in output_rows:
+        upper = row.get("_upper_object_code") or (pm or {}).get("upper_object_code", "")
+        lower = row.get("_lower_object_code") or (pm or {}).get("lower_object_code", "")
+        data_vals = tuple(row.get(data_key) for data_key in col_map.values())
+        key = (upper, lower, data_vals)
+        if key not in seen_output:
+            seen_output.add(key)
+            deduped_output.append((row, pm))
+    output_rows = deduped_output
+
+    # 완전성 검증
+    if product_mappings:
+        expected_pairs = {(e["upper_object_code"], e["lower_object_code"]) for e in product_mappings}
+        generated_pairs = set()
+        for row, pm in output_rows:
+            upper = row.get("_upper_object_code") or (pm or {}).get("upper_object_code", "")
+            lower = row.get("_lower_object_code") or (pm or {}).get("lower_object_code", "")
+            if upper and lower:
+                generated_pairs.add((upper, lower))
+        missing = expected_pairs - generated_pairs
+        if missing:
+            print(f"  WARNING: 미생성 코드 {len(missing)}쌍: {missing}")
+        else:
+            print(f"  코드 완전성 OK: {len(expected_pairs)}쌍 모두 포함")
 
     # 템플릿 복사
     if not os.path.exists(args.template):
@@ -128,23 +170,18 @@ def main():
         for cell in row:
             cell.value = None
 
-    for row_idx, coded_row in enumerate(all_rows):
+    for row_idx, (coded_row, pm) in enumerate(output_rows):
         excel_row = DATA_START_ROW + row_idx
 
-        # sub_type으로 OBJECT_CODE 조회 (불일치 시 __default__ fallback)
-        sub_type = coded_row.get("sub_type", "")
-        mapping = product_mapping.get(sub_type) or product_mapping.get("__default__", {})
-
-        # _upper/lower_object_code 우선 (특약은 이미 세팅됨)
-        upper      = coded_row.get("_upper_object_code") or mapping.get("upper", "")
-        upper_name = coded_row.get("_upper_object_name") or mapping.get("upper_name", "")
-        lower      = coded_row.get("_lower_object_code") or mapping.get("lower", "")
-        lower_name = coded_row.get("_lower_object_name") or mapping.get("lower_name", "")
+        upper      = coded_row.get("_upper_object_code") or (pm or {}).get("upper_object_code", "")
+        upper_name = coded_row.get("_upper_object_name") or (pm or {}).get("upper_object_name", "")
+        lower      = coded_row.get("_lower_object_code") or (pm or {}).get("lower_object_code", "")
+        lower_name = coded_row.get("_lower_object_name") or (pm or {}).get("lower_object_name", "")
 
         # 컬럼별 값 세팅
-        def set_cell(col_name, value):
+        def set_cell(col_name, value, _row=excel_row):
             if col_name in col_index:
-                ws.cell(row=excel_row, column=col_index[col_name], value=value)
+                ws.cell(row=_row, column=col_index[col_name], value=value)
 
         set_cell("UPPER_OBJECT_CODE", upper)
         set_cell("UPPER_OBJECT_NAME", upper_name)
@@ -156,7 +193,6 @@ def main():
         set_cell("SALE_CHNL_CODE", DEFAULT_SALE_CHNL_CODE)
 
         # 테이블 타입별 컬럼 매핑 적용
-        col_map = COLUMN_MAPPINGS.get(table_type, {})
         for xlsx_col, data_key in col_map.items():
             val = coded_row.get(data_key)
             if val is not None:
@@ -165,7 +201,7 @@ def main():
     os.makedirs(os.path.dirname(args.output) if os.path.dirname(args.output) else ".", exist_ok=True)
     wb.save(args.output)
 
-    print(f"업로드 양식 생성 완료: {len(all_rows)}행 → {args.output}")
+    print(f"업로드 양식 생성 완료: {len(output_rows)}행 → {args.output}")
     return 0
 
 

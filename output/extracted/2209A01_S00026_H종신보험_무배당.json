@@ -7,7 +7,7 @@
   "image_used": false,
   "raw_data": [
     {
-      "sub_type": "1종(기본납입\n면제형)",
+      "sub_type": "1종(기본납입면제형)",
       "insurance_period": "종신",
       "payment_period": "5년납",
       "gender": "남자",
@@ -15,7 +15,7 @@
       "max_age": 64
     },
     {
-      "sub_type": "1종(기본납입\n면제형)",
+      "sub_type": "1종(기본납입면제형)",
       "insurance_period": "종신",
       "payment_period": "5년납",
       "gender": "여자",
@@ -23,7 +23,7 @@
       "max_age": 64
     },
     {
-      "sub_type": "1종(기본납입\n면제형)",
+      "sub_type": "1종(기본납입면제형)",
       "insurance_period": "종신",
       "payment_period": "7년납",
       "gender": "남자",
@@ -31,7 +31,7 @@
       "max_age": 66
     },
     {
-      "sub_type": "1종(기본납입\n면제형)",
+      "sub_type": "1종(기본납입면제형)",
       "insurance_period": "종신",
       "payment_period": "7년납",
       "gender": "여자",
@@ -39,23 +39,7 @@
       "max_age": 69
     },
     {
-      "sub_type": "1종(기본납입\n면제형)",
-      "insurance_period": "종신",
-      "payment_period": "5년납",
-      "gender": "남자",
-      "min_age": 15,
-      "max_age": 64
-    },
-    {
-      "sub_type": "1종(기본납입\n면제형)",
-      "insurance_period": "종신",
-      "payment_period": "5년납",
-      "gender": "여자",
-      "min_age": 15,
-      "max_age": 64
-    },
-    {
-      "sub_type": "1종(기본납입\n면제형)",
+      "sub_type": "1종(기본납입면제형)",
       "insurance_period": "종신",
       "payment_period": "7년납",
       "gender": "남자",
@@ -63,7 +47,7 @@
       "max_age": 60
     },
     {
-      "sub_type": "1종(기본납입\n면제형)",
+      "sub_type": "1종(기본납입면제형)",
       "insurance_period": "종신",
       "payment_period": "7년납",
       "gender": "여자",
@@ -72,5 +56,5 @@
     }
   ],
   "discrepancies": [],
-  "row_count": 8
+  "row_count": 6
 }

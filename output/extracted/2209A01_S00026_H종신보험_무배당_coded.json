@@ -7,7 +7,7 @@
   "image_used": false,
   "raw_data": [
     {
-      "sub_type": "1종(기본납입\n면제형)",
+      "sub_type": "1종(기본납입면제형)",
       "insurance_period": "종신",
       "payment_period": "5년납",
       "gender": "남자",
@@ -15,7 +15,7 @@
       "max_age": 64
     },
     {
-      "sub_type": "1종(기본납입\n면제형)",
+      "sub_type": "1종(기본납입면제형)",
       "insurance_period": "종신",
       "payment_period": "5년납",
       "gender": "여자",
@@ -23,7 +23,7 @@
       "max_age": 64
     },
     {
-      "sub_type": "1종(기본납입\n면제형)",
+      "sub_type": "1종(기본납입면제형)",
       "insurance_period": "종신",
       "payment_period": "7년납",
       "gender": "남자",
@@ -31,7 +31,7 @@
       "max_age": 66
     },
     {
-      "sub_type": "1종(기본납입\n면제형)",
+      "sub_type": "1종(기본납입면제형)",
       "insurance_period": "종신",
       "payment_period": "7년납",
       "gender": "여자",
@@ -39,23 +39,7 @@
       "max_age": 69
     },
     {
-      "sub_type": "1종(기본납입\n면제형)",
-      "insurance_period": "종신",
-      "payment_period": "5년납",
-      "gender": "남자",
-      "min_age": 15,
-      "max_age": 64
-    },
-    {
-      "sub_type": "1종(기본납입\n면제형)",
-      "insurance_period": "종신",
-      "payment_period": "5년납",
-      "gender": "여자",
-      "min_age": 15,
-      "max_age": 64
-    },
-    {
-      "sub_type": "1종(기본납입\n면제형)",
+      "sub_type": "1종(기본납입면제형)",
       "insurance_period": "종신",
       "payment_period": "7년납",
       "gender": "남자",
@@ -63,7 +47,7 @@
       "max_age": 60
     },
     {
-      "sub_type": "1종(기본납입\n면제형)",
+      "sub_type": "1종(기본납입면제형)",
       "insurance_period": "종신",
       "payment_period": "7년납",
       "gender": "여자",
@@ -72,7 +56,7 @@
     }
   ],
   "discrepancies": [],
-  "row_count": 8,
+  "row_count": 6,
   "coded_rows": [
     {
       "ISRN_TERM": 999,
@@ -84,9 +68,9 @@
       "MINU_GNDR_CODE": "1",
       "MIN_AG": 15,
       "MAX_AG": 64,
-      "sub_type": "1종(기본납입\n면제형)",
+      "sub_type": "1종(기본납입면제형)",
       "_raw": {
-        "sub_type": "1종(기본납입\n면제형)",
+        "sub_type": "1종(기본납입면제형)",
         "insurance_period": "종신",
         "payment_period": "5년납",
         "gender": "남자",
@@ -104,9 +88,9 @@
       "MINU_GNDR_CODE": "2",
       "MIN_AG": 15,
       "MAX_AG": 64,
-      "sub_type": "1종(기본납입\n면제형)",
+      "sub_type": "1종(기본납입면제형)",
       "_raw": {
-        "sub_type": "1종(기본납입\n면제형)",
+        "sub_type": "1종(기본납입면제형)",
         "insurance_period": "종신",
         "payment_period": "5년납",
         "gender": "여자",
@@ -124,9 +108,9 @@
       "MINU_GNDR_CODE": "1",
       "MIN_AG": 15,
       "MAX_AG": 66,
-      "sub_type": "1종(기본납입\n면제형)",
+      "sub_type": "1종(기본납입면제형)",
       "_raw": {
-        "sub_type": "1종(기본납입\n면제형)",
+        "sub_type": "1종(기본납입면제형)",
         "insurance_period": "종신",
         "payment_period": "7년납",
         "gender": "남자",
@@ -144,54 +128,14 @@
       "MINU_GNDR_CODE": "2",
       "MIN_AG": 15,
       "MAX_AG": 69,
-      "sub_type": "1종(기본납입\n면제형)",
+      "sub_type": "1종(기본납입면제형)",
       "_raw": {
-        "sub_type": "1종(기본납입\n면제형)",
+        "sub_type": "1종(기본납입면제형)",
         "insurance_period": "종신",
         "payment_period": "7년납",
         "gender": "여자",
         "min_age": 15,
         "max_age": 69
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 5,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N5",
-      "MINU_GNDR_CODE": "1",
-      "MIN_AG": 15,
-      "MAX_AG": 64,
-      "sub_type": "1종(기본납입\n면제형)",
-      "_raw": {
-        "sub_type": "1종(기본납입\n면제형)",
-        "insurance_period": "종신",
-        "payment_period": "5년납",
-        "gender": "남자",
-        "min_age": 15,
-        "max_age": 64
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 5,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N5",
-      "MINU_GNDR_CODE": "2",
-      "MIN_AG": 15,
-      "MAX_AG": 64,
-      "sub_type": "1종(기본납입\n면제형)",
-      "_raw": {
-        "sub_type": "1종(기본납입\n면제형)",
-        "insurance_period": "종신",
-        "payment_period": "5년납",
-        "gender": "여자",
-        "min_age": 15,
-        "max_age": 64
       }
     },
     {
@@ -204,9 +148,9 @@
       "MINU_GNDR_CODE": "1",
       "MIN_AG": 15,
       "MAX_AG": 60,
-      "sub_type": "1종(기본납입\n면제형)",
+      "sub_type": "1종(기본납입면제형)",
       "_raw": {
-        "sub_type": "1종(기본납입\n면제형)",
+        "sub_type": "1종(기본납입면제형)",
         "insurance_period": "종신",
         "payment_period": "7년납",
         "gender": "남자",
@@ -224,9 +168,9 @@
       "MINU_GNDR_CODE": "2",
       "MIN_AG": 15,
       "MAX_AG": 66,
-      "sub_type": "1종(기본납입\n면제형)",
+      "sub_type": "1종(기본납입면제형)",
       "_raw": {
-        "sub_type": "1종(기본납입\n면제형)",
+        "sub_type": "1종(기본납입면제형)",
         "insurance_period": "종신",
         "payment_period": "7년납",
         "gender": "여자",
@@ -244,9 +188,9 @@
       "MINU_GNDR_CODE": "1",
       "MIN_AG": 20,
       "MAX_AG": 64,
-      "sub_type": "1종(기본납입\n면제형)",
+      "sub_type": "1종(기본납입면제형)",
       "_raw": {
-        "sub_type": "1종(기본납입\n면제형)",
+        "sub_type": "1종(기본납입면제형)",
         "insurance_period": "종신",
         "payment_period": "5년납",
         "gender": "남자",
@@ -265,9 +209,9 @@
       "MINU_GNDR_CODE": "2",
       "MIN_AG": 20,
       "MAX_AG": 64,
-      "sub_type": "1종(기본납입\n면제형)",
+      "sub_type": "1종(기본납입면제형)",
       "_raw": {
-        "sub_type": "1종(기본납입\n면제형)",
+        "sub_type": "1종(기본납입면제형)",
         "insurance_period": "종신",
         "payment_period": "5년납",
         "gender": "여자",
@@ -286,9 +230,9 @@
       "MINU_GNDR_CODE": "1",
       "MIN_AG": 20,
       "MAX_AG": 66,
-      "sub_type": "1종(기본납입\n면제형)",
+      "sub_type": "1종(기본납입면제형)",
       "_raw": {
-        "sub_type": "1종(기본납입\n면제형)",
+        "sub_type": "1종(기본납입면제형)",
         "insurance_period": "종신",
         "payment_period": "7년납",
         "gender": "남자",
@@ -307,9 +251,9 @@
       "MINU_GNDR_CODE": "2",
       "MIN_AG": 20,
       "MAX_AG": 69,
-      "sub_type": "1종(기본납입\n면제형)",
+      "sub_type": "1종(기본납입면제형)",
       "_raw": {
-        "sub_type": "1종(기본납입\n면제형)",
+        "sub_type": "1종(기본납입면제형)",
         "insurance_period": "종신",
         "payment_period": "7년납",
         "gender": "여자",
@@ -328,9 +272,9 @@
       "MINU_GNDR_CODE": "1",
       "MIN_AG": 20,
       "MAX_AG": 60,
-      "sub_type": "1종(기본납입\n면제형)",
+      "sub_type": "1종(기본납입면제형)",
       "_raw": {
-        "sub_type": "1종(기본납입\n면제형)",
+        "sub_type": "1종(기본납입면제형)",
         "insurance_period": "종신",
         "payment_period": "7년납",
         "gender": "남자",
@@ -349,9 +293,9 @@
       "MINU_GNDR_CODE": "2",
       "MIN_AG": 20,
       "MAX_AG": 66,
-      "sub_type": "1종(기본납입\n면제형)",
+      "sub_type": "1종(기본납입면제형)",
       "_raw": {
-        "sub_type": "1종(기본납입\n면제형)",
+        "sub_type": "1종(기본납입면제형)",
         "insurance_period": "종신",
         "payment_period": "7년납",
         "gender": "여자",

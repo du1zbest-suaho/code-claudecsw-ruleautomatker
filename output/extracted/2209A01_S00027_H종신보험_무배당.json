@@ -87,66 +87,26 @@
       "payment_period": "일시납"
     },
     {
-      "sub_type": "1종(기본납입\n면제형)",
+      "sub_type": "2종(3대질병납해약환급금 일부지급형Ⅰ --- 페이지 4 --- 1 – 1 - 2 입면제형)",
       "insurance_period": "종신",
       "payment_period": "5년납"
     },
     {
-      "sub_type": "1종(기본납입\n면제형)",
+      "sub_type": "2종(3대질병납해약환급금 일부지급형Ⅰ --- 페이지 4 --- 1 – 1 - 2 입면제형)",
       "insurance_period": "종신",
       "payment_period": "7년납"
     },
     {
-      "sub_type": "1종(기본납입\n면제형)",
+      "sub_type": "2종(3대질병납해약환급금 일부지급형Ⅰ --- 페이지 4 --- 1 – 1 - 2 입면제형)",
       "insurance_period": "종신",
       "payment_period": "종신납"
     },
     {
-      "sub_type": "1종(기본납입\n면제형)",
-      "insurance_period": "종신",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "2종(3대질병납\n해약환급금 일부지급형Ⅰ \n\n--- 페이지 4 ---\n \n1 – 1 - 2 \n입면제형)",
-      "insurance_period": "종신",
-      "payment_period": "5년납"
-    },
-    {
-      "sub_type": "2종(3대질병납\n해약환급금 일부지급형Ⅰ \n\n--- 페이지 4 ---\n \n1 – 1 - 2 \n입면제형)",
-      "insurance_period": "종신",
-      "payment_period": "7년납"
-    },
-    {
-      "sub_type": "2종(3대질병납\n해약환급금 일부지급형Ⅰ \n\n--- 페이지 4 ---\n \n1 – 1 - 2 \n입면제형)",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "2종(3대질병납\n해약환급금 일부지급형Ⅰ \n\n--- 페이지 4 ---\n \n1 – 1 - 2 \n입면제형)",
-      "insurance_period": "종신",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "2종(3대질병납\n입면제형)",
-      "insurance_period": "종신",
-      "payment_period": "5년납"
-    },
-    {
-      "sub_type": "2종(3대질병납\n입면제형)",
-      "insurance_period": "종신",
-      "payment_period": "7년납"
-    },
-    {
-      "sub_type": "2종(3대질병납\n입면제형)",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "2종(3대질병납\n입면제형)",
+      "sub_type": "2종(3대질병납해약환급금 일부지급형Ⅰ --- 페이지 4 --- 1 – 1 - 2 입면제형)",
       "insurance_period": "종신",
       "payment_period": "일시납"
     }
   ],
   "discrepancies": [],
-  "row_count": 28
+  "row_count": 20
 }

@@ -705,7 +705,16 @@ class ExtractionRules:
                     "max_age": female_max
                 })
 
-        return results
+        # 동일 sub_type PDF 내 복수 반복 테이블 처리 시 중복 제거
+        # (예: 간편가입형(0년)~(10년) 표가 같은 섹션 창에 포함된 경우)
+        seen_keys: set = set()
+        deduped = []
+        for r in results:
+            key = (r["insurance_period"], r["payment_period"], r.get("gender"), r["min_age"], r["max_age"])
+            if key not in seen_keys:
+                seen_keys.add(key)
+                deduped.append(r)
+        return deduped
 
     def _parse_age_table_period_age_list(self, text: str, product_code: str) -> List[Dict]:
         """
@@ -1179,8 +1188,9 @@ class ExtractionRules:
             r"신부부형",
         ]
         for pattern in patterns:
-            for m in re.finditer(pattern, text):
-                val = m.group(0)
+            for m in re.finditer(pattern, text, re.DOTALL):
+                # PDF 줄바꿈 아티팩트 제거: "2종(우량체\n형)" → "2종(우량체형)"
+                val = re.sub(r'\n', '', m.group(0)).strip()
                 if val not in sub_types:
                     sub_types.append(val)
         return sub_types
