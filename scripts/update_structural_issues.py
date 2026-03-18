@@ -49,22 +49,31 @@ def read_report_status(report_path: str) -> dict:
         dtcd_col_name   = "ISRN_KIND_DTCD"
         status = {}
         for _, row in df.iterrows():
-            dtcd = row.get(dtcd_col_name)
+            dtcd_raw = row.get(dtcd_col_name)
             result = row.get(result_col_name)
-            if pd.notna(dtcd) and pd.notna(result):
-                dtcd = int(dtcd)
-                if dtcd not in status or result == '일치':
-                    status[dtcd] = str(result)
+            if pd.isna(dtcd_raw) or pd.isna(result):
+                continue
+            # DTCD가 "1808, 1946" 형태일 수 있으므로 split 처리
+            for part in str(dtcd_raw).split(","):
+                part = part.strip()
+                if part.isdigit():
+                    dtcd = int(part)
+                    if dtcd not in status or result == '일치':
+                        status[dtcd] = str(result)
     else:
         # fallback: 열 인덱스 1=DTCD, 9=결과
         status = {}
         for _, row in df.iterrows():
-            dtcd = row.iloc[1]
+            dtcd_raw = row.iloc[1]
             result = row.iloc[9]
-            if pd.notna(dtcd) and pd.notna(result):
-                dtcd = int(dtcd)
-                if dtcd not in status or result == '일치':
-                    status[dtcd] = str(result)
+            if pd.isna(dtcd_raw) or pd.isna(result):
+                continue
+            for part in str(dtcd_raw).split(","):
+                part = part.strip()
+                if part.isdigit():
+                    dtcd = int(part)
+                    if dtcd not in status or result == '일치':
+                        status[dtcd] = str(result)
     return status
 
 

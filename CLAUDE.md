@@ -257,8 +257,8 @@ python scripts/generate_report.py --output output/reports/작업현황.xlsx
 
 ### 출력 형식
 - 파일: `output/reports/작업현황_{YYYYMMDD_HHMMSS}.xlsx`
-- 행: 사업방법서 파일명 × ISRN_KIND_DTCD (1행 = 1 PDF-DTCD 조합)
-- 컬럼 (테이블별 6개씩): `{테이블명}_추출건수`, `_GT건수`, `_일치건수`, `_미일치건수`, `_추가건수`, `_결과`
+- 행: 사업방법서 파일명 (1행 = 1 PDF, 복수 DTCD는 ISRN_KIND_DTCD에 콤마 구분으로 표시)
+- 컬럼 (테이블별 7개씩): `{테이블명}_추출건수`, `_GT건수`, `_일치건수`, `_미일치건수`, `_추가건수`, `_결과`, `_불일치사유`
 
 ### 결과 코드
 | 코드 | 색상 | 조건 | 의미 |

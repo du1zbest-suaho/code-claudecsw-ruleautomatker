@@ -249,8 +249,8 @@ def build_report() -> pd.DataFrame:
         safe = re.sub(r"_+", "_", safe).strip("_")
         return safe[:50]
 
-    # DTCD별 집계 (unique, 하나의 DTCD가 여러 PDF에 걸쳐있을 수 있음)
-    dtcd_pdf_map: dict = {}  # dtcd → {pdf: [entries]}
+    # PDF 기준 집계 (1행 = 1 PDF, 복수 DTCD는 합산)
+    pdf_dtcd_map: dict = {}  # pdf → {dtcd: [entries]}
     for _, row in mapping_df.iterrows():
         pdf = str(row.get("사업방법서 파일명", "") or "").strip()
         dtcd = int(row["ISRN_KIND_DTCD"]) if pd.notna(row.get("ISRN_KIND_DTCD")) else None
@@ -259,129 +259,146 @@ def build_report() -> pd.DataFrame:
         itcd = str(row.get("ISRN_KIND_ITCD", "") or "").strip()
         sale_nm = str(row.get("ISRN_KIND_SALE_NM", "") or "").strip()
         prod_itcd = str(int(row["PROD_ITCD"])).zfill(3) if pd.notna(row.get("PROD_ITCD")) else ""
-        dtcd_pdf_map.setdefault(dtcd, {}).setdefault(pdf, []).append({
+        pdf_dtcd_map.setdefault(pdf, {}).setdefault(dtcd, []).append({
             "itcd": itcd, "sale_nm": sale_nm, "prod_itcd": prod_itcd
         })
 
     rows = []
-    for dtcd in sorted(dtcd_pdf_map.keys()):
-        pdf_map = dtcd_pdf_map[dtcd]
-        pdfs = sorted(pdf_map.keys())
+    for pdf in sorted(pdf_dtcd_map.keys()):
+        dtcd_map = pdf_dtcd_map[pdf]   # {dtcd: [entries]}
+        all_dtcds = sorted(dtcd_map.keys())
 
-        for pdf in pdfs:
-            entries = pdf_map[pdf]
-            first_itcd = entries[0]["itcd"]
-            sale_nm = entries[0]["sale_nm"]
-            run_id = get_run_id(pdf)
-            itcd_list = ", ".join(e["itcd"] for e in entries)
+        # DTCD/ITCD 표시값 (복수 DTCD는 콤마 구분)
+        dtcd_display = ", ".join(str(d) for d in all_dtcds)
+        all_itcds_ordered: list = []
+        sale_nm = ""
+        for dtcd in all_dtcds:
+            entries = dtcd_map[dtcd]
+            if not sale_nm:
+                sale_nm = entries[0]["sale_nm"]
+            for e in entries:
+                if e["itcd"] not in all_itcds_ordered:
+                    all_itcds_ordered.append(e["itcd"])
+        itcd_display = ", ".join(all_itcds_ordered)
 
-            # PDF 파일 링크 (한화생명 접두어 포함 원본 파일명 검색)
-            pdf_path = os.path.join(PDF_DIR, pdf)
-            pdf_link = _abs_link(pdf_path) if os.path.exists(pdf_path) else ""
+        run_id = get_run_id(pdf)
+        pdf_path = os.path.join(PDF_DIR, pdf)
+        pdf_link = _abs_link(pdf_path) if os.path.exists(pdf_path) else ""
 
-            row_data = {
-                "사업방법서 파일명": pdf,
-                "ISRN_KIND_DTCD": dtcd,
-                "ISRN_KIND_ITCD_목록": itcd_list,
-                "보험종목명": sale_nm,
-                "_LINK_pdf": pdf_link,
-            }
+        row_data = {
+            "사업방법서 파일명": pdf,
+            "ISRN_KIND_DTCD": dtcd_display,
+            "ISRN_KIND_ITCD": itcd_display,
+            "보험종목명": sale_nm,
+            "_LINK_pdf": pdf_link,
+        }
 
-            mapped_itcds = [e["itcd"] for e in entries]
-            mapped_itcd_pairs = [(e["itcd"], e["prod_itcd"]) for e in entries]
+        for table_type in ["S00026", "S00027", "S00028", "S00022"]:
+            total_gt_cnt = 0
+            total_ex_cnt = 0
+            agg_gt_keys: set = set()
+            agg_ex_keys: set = set()
+            upload_link = ""
 
-            for table_type in ["S00026", "S00027", "S00028", "S00022"]:
+            for dtcd in all_dtcds:
+                entries = dtcd_map[dtcd]
+                mapped_itcds = [e["itcd"] for e in entries]
+                mapped_itcd_pairs = [(e["itcd"], e["prod_itcd"]) for e in entries]
+                first_itcd = entries[0]["itcd"]
                 coded_files = find_coded_files(dtcd, first_itcd, run_id, table_type,
                                                all_itcds=mapped_itcds)
+                total_gt_cnt += get_gt_row_count(dtcd, table_type, itcd_pairs=mapped_itcd_pairs)
+                total_ex_cnt += get_ex_row_count(coded_files) if coded_files else 0
+                gt_keys, ex_keys, _ = _compare_keys(dtcd, table_type, coded_files,
+                                                     itcd_pairs=mapped_itcd_pairs)
+                agg_gt_keys |= gt_keys
+                agg_ex_keys |= ex_keys
+                if not upload_link:
+                    upload_link = _find_upload_file(dtcd, run_id, table_type)
 
-                gt_cnt = get_gt_row_count(dtcd, table_type, itcd_pairs=mapped_itcd_pairs)
-                ex_cnt = get_ex_row_count(coded_files) if coded_files else 0
-                gt_keys, ex_keys, _ = _compare_keys(
-                    dtcd, table_type, coded_files,
-                    itcd_pairs=mapped_itcd_pairs,
-                )
+            match_cnt = len(agg_gt_keys & agg_ex_keys)
+            miss_cnt  = len(agg_gt_keys - agg_ex_keys)
+            extra_cnt = len(agg_ex_keys - agg_gt_keys)
 
-                match_cnt = len(gt_keys & ex_keys)
-                miss_cnt  = len(gt_keys - ex_keys)
-                extra_cnt = len(ex_keys - gt_keys)
-
-                # 키셋 기반 결과 판정 (GT는 ITCD별 중복 행 포함하므로 고유키 비교)
-                if gt_cnt == 0 and ex_cnt == 0:
-                    pass_fail = "-"
-                elif gt_cnt == 0:
-                    pass_fail = "신규"
-                elif ex_cnt == 0:
-                    pass_fail = "미추출"
-                elif miss_cnt == 0:
-                    pass_fail = "일치"
-                else:
-                    pass_fail = "불일치"
-
-                if pass_fail == "불일치":
-                    if extra_cnt > 0:
-                        reason = f"GT키{miss_cnt}건 미추출 (초과{extra_cnt}키)"
-                    else:
-                        reason = f"GT키{miss_cnt}건 미추출"
-                elif pass_fail == "미추출":
-                    reason = f"GT{gt_cnt}건 미추출"
-                elif pass_fail == "신규":
-                    reason = "GT없음"
-                else:
-                    reason = ""
-
-                lbl = TABLE_LABELS[table_type]
-                row_data[f"{lbl}_실제건수"] = ex_cnt
-                row_data[f"{lbl}_GT건수"] = gt_cnt
-                row_data[f"{lbl}_일치키수"] = match_cnt
-                row_data[f"{lbl}_미일치키수"] = miss_cnt
-                row_data[f"{lbl}_추가키수"] = extra_cnt
-                row_data[f"{lbl}_결과"] = pass_fail
-                row_data[f"{lbl}_불일치사유"] = reason
-                row_data[f"_LINK_{table_type}_upload"] = _find_upload_file(dtcd, run_id, table_type)
-
-            # ── 구조적 문제 컬럼 추가 ─────────────────────────────────────────
-            struct_map = load_structural_issues()
-            issues = struct_map.get(dtcd, [])
-            if issues:
-                types    = ", ".join(dict.fromkeys(i["문제유형"] for i in issues if i["문제유형"]))
-                statuses = [i["상태"] for i in issues]
-                # 우선순위: 미해결 > 처리불가 > 해결
-                if any(s == "미해결" for s in statuses):
-                    status = "미해결"
-                elif any(s == "처리불가" for s in statuses):
-                    status = "처리불가"
-                elif all(s == "해결" for s in statuses):
-                    status = "해결"
-                else:
-                    status = "미해결"
-                # 형태: "문제유형 (상태)" 요약 (중복 제거)
-                seen_type = {}
-                for i in issues:
-                    t = i["문제유형"]
-                    s = i["상태"]
-                    if t not in seen_type or s == "미해결":
-                        seen_type[t] = s
-                struct_shape = ", ".join(f"{t}({s})" for t, s in seen_type.items())
-                # 미해결/처리불가 문제 설명
-                descs = [f"[{i['문제유형']}] {i['문제설명']}"
-                         for i in issues if i["상태"] != "해결"]
-                desc_text = "\n".join(descs)
+            # 키셋 기반 결과 판정 (GT는 ITCD별 중복 행 포함하므로 고유키 비교)
+            if total_gt_cnt == 0 and total_ex_cnt == 0:
+                pass_fail = "-"
+            elif total_gt_cnt == 0:
+                pass_fail = "신규"
+            elif total_ex_cnt == 0:
+                pass_fail = "미추출"
+            elif miss_cnt == 0:
+                pass_fail = "일치"
             else:
-                types, status, struct_shape, desc_text = "", "", "", ""
+                pass_fail = "불일치"
 
-            row_data["구조적_문제유형"] = types
-            row_data["구조적_상태"]    = status
-            row_data["구조적_형태"]    = struct_shape
-            row_data["구조적_문제설명"] = desc_text
+            if pass_fail == "불일치":
+                if extra_cnt > 0:
+                    reason = f"GT키{miss_cnt}건 미추출 (초과{extra_cnt}키)"
+                else:
+                    reason = f"GT키{miss_cnt}건 미추출"
+            elif pass_fail == "미추출":
+                reason = f"GT{total_gt_cnt}건 미추출"
+            elif pass_fail == "신규":
+                reason = "GT없음"
+            else:
+                reason = ""
 
-            # ── 진행상태: 4개 테이블 모두 완료 기준 ──────────────────────────
-            ok_s26 = row_data.get("가입가능나이_결과") == "일치"
-            ok_s27 = row_data.get("보기납기_결과")     in ("일치", "-")
-            ok_s28 = row_data.get("납입주기_결과")     in ("일치", "-")
-            ok_s22 = row_data.get("보기개시나이_결과") in ("일치", "-")
-            row_data["진행상태"] = "완료" if (ok_s26 and ok_s27 and ok_s28 and ok_s22) else "진행중"
+            lbl = TABLE_LABELS[table_type]
+            row_data[f"{lbl}_실제건수"] = total_ex_cnt
+            row_data[f"{lbl}_GT건수"] = total_gt_cnt
+            row_data[f"{lbl}_일치키수"] = match_cnt
+            row_data[f"{lbl}_미일치키수"] = miss_cnt
+            row_data[f"{lbl}_추가키수"] = extra_cnt
+            row_data[f"{lbl}_결과"] = pass_fail
+            row_data[f"{lbl}_불일치사유"] = reason
+            row_data[f"_LINK_{table_type}_upload"] = upload_link
 
-            rows.append(row_data)
+        # ── 구조적 문제 컬럼 추가 (복수 DTCD 합산) ───────────────────────────
+        struct_map = load_structural_issues()
+        all_issues = []
+        for dtcd in all_dtcds:
+            all_issues.extend(struct_map.get(dtcd, []))
+        if all_issues:
+            types    = ", ".join(dict.fromkeys(i["문제유형"] for i in all_issues if i["문제유형"]))
+            statuses = [i["상태"] for i in all_issues]
+            # 우선순위: 미해결 > 처리불가 > 해결
+            if any(s == "미해결" for s in statuses):
+                status = "미해결"
+            elif any(s == "처리불가" for s in statuses):
+                status = "처리불가"
+            elif all(s == "해결" for s in statuses):
+                status = "해결"
+            else:
+                status = "미해결"
+            # 형태: "문제유형 (상태)" 요약 (중복 제거)
+            seen_type = {}
+            for i in all_issues:
+                t = i["문제유형"]
+                s = i["상태"]
+                if t not in seen_type or s == "미해결":
+                    seen_type[t] = s
+            struct_shape = ", ".join(f"{t}({s})" for t, s in seen_type.items())
+            # 미해결/처리불가 문제 설명
+            descs = [f"[{i['문제유형']}] {i['문제설명']}"
+                     for i in all_issues if i["상태"] != "해결"]
+            desc_text = "\n".join(descs)
+        else:
+            types, status, struct_shape, desc_text = "", "", "", ""
+
+        row_data["구조적_문제유형"] = types
+        row_data["구조적_상태"]    = status
+        row_data["구조적_형태"]    = struct_shape
+        row_data["구조적_문제설명"] = desc_text
+
+        # ── 진행상태: 4개 테이블 모두 완료 기준 ──────────────────────────
+        ok_s26 = row_data.get("가입가능나이_결과") == "일치"
+        ok_s27 = row_data.get("보기납기_결과")     in ("일치", "-")
+        ok_s28 = row_data.get("납입주기_결과")     in ("일치", "-")
+        ok_s22 = row_data.get("보기개시나이_결과") in ("일치", "-")
+        row_data["진행상태"] = "완료" if (ok_s26 and ok_s27 and ok_s28 and ok_s22) else "진행중"
+
+        rows.append(row_data)
 
     return pd.DataFrame(rows)
 
@@ -410,7 +427,7 @@ def save_report(df: pd.DataFrame, output_path: str):
         col_widths = {
             "사업방법서 파일명": 45,
             "ISRN_KIND_DTCD": 14,
-            "ISRN_KIND_ITCD_목록": 20,
+            "ISRN_KIND_ITCD": 20,
             "보험종목명": 50,
             "가입가능나이_불일치사유": 28,
             "보기납기_불일치사유":     28,
