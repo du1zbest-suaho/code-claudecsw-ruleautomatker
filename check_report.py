@@ -3,9 +3,9 @@ sys.stdout.reconfigure(encoding='utf-8')
 
 df = pd.read_excel('output/reports/작업현황_20260310_230414.xlsx')
 
-gt26 = pd.read_excel('data/existing/판매중_가입나이정보.xlsx')
-gt27 = pd.read_excel('data/existing/판매중_보기납기정보.xlsx')
-gt22 = pd.read_excel('data/existing/판매중_보기개시나이정보.xlsx')
+gt26 = pd.read_excel('data/existing/판매중_가입나이정보_0312.xlsx')
+gt27 = pd.read_excel('data/existing/판매중_보기납기정보_0312.xlsx')
+gt22 = pd.read_excel('data/existing/판매중_보기개시나이정보_0312.xlsx')
 
 def s26_keys_gt(dtcd):
     gf = gt26[(gt26['ISRN_KIND_DTCD'] == dtcd) & (gt26['MAX_AG'] != 999)]

@@ -23,7 +23,7 @@ from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.utils import get_column_letter
 
 MAPPING_PATH = "data/existing/판매중_상품구성_사업방법서_매핑.xlsx"
-GT_S26_PATH  = "data/existing/판매중_가입나이정보.xlsx"
+GT_S26_PATH  = "data/existing/판매중_가입나이정보_0312.xlsx"
 OUTPUT_PATH  = "data/structural_issues.xlsx"
 PDF_DIR      = "data/pdf"
 

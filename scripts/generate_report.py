@@ -38,10 +38,10 @@ EXTRACT_DIR  = "output/extracted"
 STRUCT_PATH  = "data/structural_issues.xlsx"
 
 GT_FILES = {
-    "S00026": "data/existing/판매중_가입나이정보.xlsx",
-    "S00027": "data/existing/판매중_보기납기정보.xlsx",
-    "S00028": "data/existing/판매중_납입주기정보.xlsx",
-    "S00022": "data/existing/판매중_보기개시나이정보.xlsx",
+    "S00026": "data/existing/판매중_가입나이정보_0312.xlsx",
+    "S00027": "data/existing/판매중_보기납기정보_0312.xlsx",
+    "S00028": "data/existing/판매중_납입주기정보_0312.xlsx",
+    "S00022": "data/existing/판매중_보기개시나이정보_0312.xlsx",
 }
 
 TABLE_LABELS = {

@@ -33,7 +33,7 @@
 ### 입력 파일 위치
 - 사업방법서: `data/pdf/*.pdf`
 - **PDF→상품 매핑**: `data/existing/판매중_상품구성_사업방법서_매핑.xlsx` ← 핵심 참조 파일
-- 검증 Ground Truth: `data/existing/판매중_가입나이정보.xlsx` 등
+- 검증 Ground Truth: `data/existing/판매중_가입나이정보_0312.xlsx` 등
 - 업로드 양식 템플릿: `data/templates/*.xlsx`
 - 모델상세: `data/models/*.xlsx`
 
@@ -252,7 +252,7 @@ python scripts/generate_report.py --output output/reports/작업현황.xlsx
 
 ### 참조 파일
 - 매핑 기준: `data/existing/판매중_상품구성_사업방법서_매핑.xlsx`
-- GT 데이터: `data/existing/판매중_가입나이정보.xlsx` (S00026), `판매중_보기납기정보.xlsx` (S00027), `판매중_납입주기정보.xlsx` (S00028), `판매중_보기개시나이정보.xlsx` (S00022)
+- GT 데이터: `data/existing/판매중_가입나이정보_0312.xlsx` (S00026), `판매중_보기납기정보_0312.xlsx` (S00027), `판매중_납입주기정보_0312.xlsx` (S00028), `판매중_보기개시나이정보_0312.xlsx` (S00022)
 - 추출 결과: `output/extracted/*_coded.json`
 
 ### 출력 형식

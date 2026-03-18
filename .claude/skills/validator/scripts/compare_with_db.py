@@ -7,7 +7,7 @@ compare_with_db.py — 기존 판매중_* 데이터와 행 단위 비교
 Usage:
     python compare_with_db.py \
         --input output/extracted/{upper_obj}_{table_type}_{run_id}_coded.json \
-        --db data/existing/판매중_{table_name}정보.xlsx \
+        --db data/existing/판매중_{table_name}정보_0312.xlsx \
         --product-code 2258A01 \
         --output output/reports/{upper_obj}_{table_type}_{run_id}_report.json
 """
