@@ -42,7 +42,10 @@ _VALIDATOR_SCRIPTS = os.path.join(
     "..", ".claude", "skills", "validator", "scripts",
 )
 sys.path.insert(0, _VALIDATOR_SCRIPTS)
-from model_key_loader import load_model_key_cols, make_row_key, get_active_key_cols, normalize_val  # noqa
+from model_key_loader import (  # noqa
+    load_model_key_cols, load_identity_cols,
+    make_row_key, get_active_key_cols, normalize_val,
+)
 
 # ─── 상수 ──────────────────────────────────────────────────────────────────────
 
@@ -64,6 +67,17 @@ TABLE_LABELS = {
 }
 
 ALL_TABLES = ["S00026", "S00027", "S00028", "S00022"]
+
+# 하드코딩 대신 모델 파일에서 동적 로드 (SET_CODE+1 ~ OBJECT_ID-1)
+# 모든 테이블 공통: ISRN_KIND_DTCD, ISRN_KIND_ITCD, PROD_DTCD, PROD_ITCD
+_identity_cols_cache: dict = {}
+
+def get_identity_cols(table_type: str) -> list:
+    """모델상세 파일 기준: SET_CODE 다음 ~ OBJECT_ID 이전 컬럼 (식별 4개)."""
+    if table_type not in _identity_cols_cache:
+        cols = load_identity_cols(table_type)
+        _identity_cols_cache[table_type] = cols if cols else ["ISRN_KIND_DTCD", "ISRN_KIND_ITCD", "PROD_DTCD", "PROD_ITCD"]
+    return _identity_cols_cache[table_type]
 
 # 행 배경색
 FILL_MATCH   = PatternFill("solid", fgColor="CCFFCC")   # 연두: 일치
@@ -333,13 +347,13 @@ def compare_table(table_type: str, gt_rows: list, ex_rows: list) -> tuple:
         stats[status] += 1
         output_rows.append({"소스": status, **row_data})
 
-    return output_rows, active_cols, stats
+    return output_rows, key_cols, active_cols, stats
 
 
 # ─── Excel 출력 ────────────────────────────────────────────────────────────────
 
 def write_excel(results: dict, output_path: str):
-    """results: {table_type: (output_rows, active_cols, stats)}"""
+    """results: {table_type: (output_rows, all_key_cols, active_cols, stats)}"""
     os.makedirs(os.path.dirname(output_path) if os.path.dirname(output_path) else ".", exist_ok=True)
 
     wb = openpyxl.Workbook()
@@ -349,7 +363,8 @@ def write_excel(results: dict, output_path: str):
         if table_type not in results:
             continue
 
-        output_rows, active_cols, stats = results[table_type]
+        output_rows, all_key_cols, active_cols, stats = results[table_type]
+        identity_cols = get_identity_cols(table_type)  # 모델 파일 기준 식별 컬럼
         label = TABLE_LABELS.get(table_type, table_type)
         ws = wb.create_sheet(title=f"{table_type}_{label}")
 
@@ -357,8 +372,13 @@ def write_excel(results: dict, output_path: str):
             ws.append([f"[{table_type}] 데이터 없음"])
             continue
 
-        # 컬럼 구성: 소스 + 식별 컬럼 + active_key_cols
-        display_cols = ["소스"] + IDENTITY_COLS + active_cols
+        # 컬럼 구성:
+        #   소스 | [SET_CODE+1 ~ OBJECT_ID-1] | [ROW_NO+1 ~ CREATE_DATE-1]
+        # = 소스 | 식별 컬럼 (모델 기준) | 전체 데이터 컬럼 (모델 기준)
+        display_cols = ["소스"] + identity_cols + all_key_cols
+
+        # active_cols 집합: 비교에 실제 사용된 컬럼 (헤더 강조용)
+        active_col_set = set(active_cols)
 
         # --- 요약 행 (1행) ---
         total_gt = stats["일치"] + stats["GT만"]
@@ -366,7 +386,8 @@ def write_excel(results: dict, output_path: str):
             f"[{table_type}] 일치: {stats['일치']}건 / "
             f"GT만(누락): {stats['GT만']}건 / "
             f"추출만(추가): {stats['추출만']}건 / "
-            f"GT합계: {total_gt}건"
+            f"GT합계: {total_gt}건  "
+            f"[비교키: {', '.join(active_cols)}]"
         )
         ws.append([summary])
         for cell in ws[1]:
@@ -376,9 +397,10 @@ def write_excel(results: dict, output_path: str):
 
         # --- 헤더 행 (2행) ---
         ws.append(display_cols)
-        for cell in ws[2]:
+        for col_idx, col_name in enumerate(display_cols, 1):
+            cell = ws.cell(2, col_idx)
             cell.fill = FILL_HEADER
-            cell.font = Font(bold=True)
+            cell.font = Font(bold=True, underline="single" if col_name in active_col_set else None)
             cell.alignment = Alignment(horizontal="center")
 
         # --- 데이터 행 ---
@@ -408,10 +430,10 @@ def write_excel(results: dict, output_path: str):
             col_letter = get_column_letter(col_idx)
             if col_name == "소스":
                 ws.column_dimensions[col_letter].width = 10
-            elif col_name in IDENTITY_COLS:
+            elif col_name in identity_cols:
                 ws.column_dimensions[col_letter].width = 16
             else:
-                ws.column_dimensions[col_letter].width = 20
+                ws.column_dimensions[col_letter].width = 18
 
         # --- 헤더 고정 (2행까지) ---
         ws.freeze_panes = ws["A3"]
@@ -451,8 +473,8 @@ def main():
         ex_rows = load_ex_rows(table_type, dtcd_filter)
         print(f"  [{table_type}] GT={len(gt_rows)}행, 추출={len(ex_rows)}행")
 
-        output_rows, active_cols, stats = compare_table(table_type, gt_rows, ex_rows)
-        results[table_type] = (output_rows, active_cols, stats)
+        output_rows, all_key_cols, active_cols, stats = compare_table(table_type, gt_rows, ex_rows)
+        results[table_type] = (output_rows, all_key_cols, active_cols, stats)
 
         total_gt = stats["일치"] + stats["GT만"]
         print(f"  [{table_type}] 일치={stats['일치']} / GT만={stats['GT만']} / "

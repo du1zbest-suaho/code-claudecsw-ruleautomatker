@@ -68,6 +68,52 @@ def load_model_key_cols(table_type: str, models_dir: str = MODELS_DIR) -> list:
     return cols
 
 
+def load_identity_cols(table_type: str, models_dir: str = MODELS_DIR) -> list:
+    """SET_CODE 다음 ~ OBJECT_ID 이전 컬럼명 목록 반환 (캐시됨).
+
+    모델상세 파일에서 SET_CODE 바로 아래부터 OBJECT_ID 바로 위까지의 컬럼.
+    모든 테이블 공통: [ISRN_KIND_DTCD, ISRN_KIND_ITCD, PROD_DTCD, PROD_ITCD]
+    """
+    cache_key = ("identity", table_type, models_dir)
+    if cache_key in _cache:
+        return _cache[cache_key]
+
+    pattern = _MODEL_FILE_PATTERNS.get(table_type)
+    if not pattern:
+        return []
+
+    files = glob.glob(os.path.join(models_dir, pattern))
+    if not files:
+        return []
+
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore")
+        df = pd.read_excel(files[0], header=None)
+
+    phys = df[1].tolist()
+
+    try:
+        set_code_idx = phys.index("SET_CODE")
+        # OBJECT_ID 또는 SET_ATTR_VAL_ID 중 먼저 나오는 것 기준
+        object_id_idx = None
+        for marker in ("OBJECT_ID", "SET_ATTR_VAL_ID"):
+            try:
+                idx = phys.index(marker)
+                if object_id_idx is None or idx < object_id_idx:
+                    object_id_idx = idx
+            except ValueError:
+                pass
+        if object_id_idx is None:
+            raise ValueError("OBJECT_ID/SET_ATTR_VAL_ID not found")
+    except ValueError:
+        _cache[cache_key] = []
+        return []
+
+    cols = [str(phys[i]) for i in range(set_code_idx + 1, object_id_idx)]
+    _cache[cache_key] = cols
+    return cols
+
+
 def normalize_val(v):
     """GT/EX 값 정규화: NaN→None, 모든 유효값→문자열.
 
