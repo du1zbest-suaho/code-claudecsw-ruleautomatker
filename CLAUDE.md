@@ -257,17 +257,20 @@ python scripts/generate_report.py --output output/reports/작업현황.xlsx
 
 ### 출력 형식
 - 파일: `output/reports/작업현황_{YYYYMMDD_HHMMSS}.xlsx`
-- 행: 사업방법서 파일명 (1행 = 1 PDF, 복수 DTCD는 ISRN_KIND_DTCD에 콤마 구분으로 표시)
-- 컬럼 (테이블별 7개씩): `{테이블명}_추출건수`, `_GT건수`, `_일치건수`, `_미일치건수`, `_추가건수`, `_결과`, `_불일치사유`
+- 행: **1행 = 1 PDF × DTCD × ITCD** (261행)
+- 컬럼 (테이블별 7개씩): `{테이블명}_실제건수`, `_GT건수`, `_일치키수`, `_미일치키수`, `_추가키수`, `_결과`, `_불일치사유`
+
+> **실제건수** = `len(ex_keys)` — ITCD 비교에 사용된 EX 고유 키수
+> (coded_rows 원본 행수가 아님. DTCD 단위로 생성된 파일을 ITCD별 필터 후 고유키 집합 크기)
 
 ### 결과 코드
 | 코드 | 색상 | 조건 | 의미 |
 |------|------|------|------|
-| 일치 | 연두 | ex_cnt == gt_cnt AND miss_cnt == 0 | 건수·내용 모두 완전 일치 |
-| 불일치 | 연빨강 | ex_cnt ≠ gt_cnt OR miss_cnt > 0 | 건수 상이 또는 내용 불일치 (불일치사유 컬럼 참조) |
-| 미추출 | 노랑 | ex_cnt == 0, gt_cnt > 0 | GT 있으나 추출 결과 없음 |
-| 신규 | 연파랑 | ex_cnt > 0, gt_cnt == 0 | GT 없고 추출 결과 있음 (신규 상품) |
-| - | 회색 | ex_cnt == 0, gt_cnt == 0 | GT·추출 모두 없음 |
+| 일치 | 연두 | miss_cnt == 0 (ex_keys≥0) | GT 키가 EX에 모두 포함됨 |
+| 불일치 | 연빨강 | miss_cnt > 0 | GT 키 중 EX에 없는 것 존재 |
+| 미추출 | 노랑 | ex_cnt == 0, gt_keys > 0 | GT 있으나 추출 결과 없음 |
+| 신규 | 연파랑 | ex_cnt > 0, gt_keys == 0 | GT 없고 추출 결과 있음 (신규 상품) |
+| - | 회색 | gt_keys == 0, ex_cnt == 0 | GT·추출 모두 없음 |
 
 ### 불일치사유 패턴 (4가지)
 

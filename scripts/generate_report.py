@@ -144,6 +144,7 @@ def find_coded_files(dtcd: int, first_itcd: str, run_id: str, table_type: str,
 
 
 def get_ex_row_count(coded_files: list) -> int:
+    """coded_rows 원본 행 수 (현재 미사용 — 실제건수는 ex_keys 기반)."""
     total = 0
     for fname in coded_files:
         with open(fname, encoding="utf-8") as f:
@@ -293,18 +294,19 @@ def build_report() -> pd.DataFrame:
                         all_itcds=all_itcds_for_dtcd,
                     )
                     gt_cnt  = get_gt_row_count(dtcd, table_type, itcd_pairs=itcd_pairs)
-                    ex_cnt  = get_ex_row_count(coded_files) if coded_files else 0
                     gt_keys, ex_keys, _ = _compare_keys(
                         dtcd, table_type, coded_files, itcd_pairs=itcd_pairs,
                     )
 
+                    # 실제건수 = ITCD 비교에 사용된 EX 고유 키수 (coded_rows 원본 행수 아님)
+                    ex_cnt    = len(ex_keys)
                     match_cnt = len(gt_keys & ex_keys)
                     miss_cnt  = len(gt_keys - ex_keys)
                     extra_cnt = len(ex_keys - gt_keys)
 
-                    if gt_cnt == 0 and ex_cnt == 0:
+                    if len(gt_keys) == 0 and ex_cnt == 0:
                         pass_fail = "-"
-                    elif gt_cnt == 0:
+                    elif len(gt_keys) == 0:
                         pass_fail = "신규"
                     elif ex_cnt == 0:
                         pass_fail = "미추출"
