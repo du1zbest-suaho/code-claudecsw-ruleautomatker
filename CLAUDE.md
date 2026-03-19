@@ -61,7 +61,11 @@ python .claude/skills/run-manager/scripts/manage_registry.py --action register \
 
 ---
 
-## 워크플로우 (7단계)
+## 워크플로우 (9단계)
+
+> STEP 3(추출) → STEP 4(코드변환) → **STEP 4.5(중간파일 생성)** → **STEP 5(중간파일 검증)**
+> → STEP 6(룰고도화) → STEP 7(업로드양식) → 완료
+
 
 ### STEP 1: 문서 전처리
 
@@ -166,50 +170,49 @@ python .claude/skills/code-converter/scripts/validate_codes.py \
 
 변환 불가 항목: 로그 + 사용자에게 코드 매핑 확인 요청 (자동 재시도 없음).
 
-### STEP 5: 검증
+### STEP 4.5: 중간 파일 생성 (GT 형식)
 
 ```bash
-# 5-1. 기존 DB 대조
-python .claude/skills/validator/scripts/compare_with_db.py \
+# coded JSON → GT 형식 중간 Excel 생성 (시스템 컬럼 제외)
+python scripts/generate_intermediate.py \
   --input output/extracted/{upper_obj}_{table_type}_{run_id}_coded.json \
-  --db data/existing/판매중_{table_name}정보.xlsx \
-  --output output/reports/{upper_obj}_{table_type}_{run_id}_report.json
-
-# 5-2. 정합성 검증
-python .claude/skills/validator/scripts/check_integrity.py \
-  --input output/extracted/{upper_obj}_{table_type}_{run_id}_coded.json
-
-# 5-3. 조합 완전성 검증 (S00026 전용)
-python .claude/skills/validator/scripts/check_combination_completeness.py \
-  --input output/extracted/{upper_obj}_S00026_{run_id}_coded.json \
-  --output output/reports/{upper_obj}_S00026_{run_id}_completeness.json
+  --mapping output/extracted/{run_id}_{dtcd}_mapping.json \
+  --output output/extracted/{dtcd}_{table_type}_intermediate.xlsx
 ```
 
-**비교키 기준 (5-1)**:
-- `data/models/{테이블}_모델상세.xlsx`에서 ROW번호 ~ 생성일시 사이 컬럼을 동적 로드
-  (`model_key_loader.py` → `load_model_key_cols()`)
-- **상품세목별 활성 컬럼**: GT·EX 양쪽에 non-None 값이 있는 컬럼만 비교키로 사용
-  (`get_active_key_cols()` — 상품에 따라 사용 컬럼이 다르므로 DTCD별 동적 결정)
-- NULL 정규화: NaN/None→None, 숫자→문자열 통일 (Excel int ↔ JSON str 타입 불일치 처리)
+**중간 파일 컬럼 구조**:
+- **포함**: `ISRN_KIND_DTCD`, `ISRN_KIND_ITCD`, `PROD_DTCD`, `PROD_ITCD` (식별 4개) + 모델상세 데이터컬럼 전체
+- **제외**: `SET_CODE`, `OBJECT_ID`, `SET_ATTR_VAL_ID`, `VALD_STAR_DATE`, `VALD_END_DATE`, `ROW_NO`, `CREATE_DATE`, `CREATOR_ID`, `MODIFIER_ID`, `UPDATE_DATE`, `생성여부`
+- S00026: `ISRN_TERM` → `MIN_ISRN_TERM`/`MAX_ISRN_TERM`, `PAYM_TERM` → `MIN_PAYM_TERM`/`MAX_PAYM_TERM` (동일값 복제)
+- sub_type 부분매칭으로 행 × ITCD 확장, dedup 처리
 
-**GT 행 필터링 기준 (4개 키)**:
-- 매핑 파일에서 해당 PDF-DTCD에 속한 `(ISRN_KIND_ITCD, PROD_ITCD)` 쌍 목록으로 GT 행 필터
-- S00026: 추가로 `MAX_AG ≠ 999` umbrella 행 제외 (시스템 내부 처리용 전연령 공통 행)
-- 구현: `generate_report.py`의 `get_gt_row_count(itcd_pairs=…)`, `update_gt_generation_status.py`의 `build_dtcd_cache()`
+### STEP 5: 중간 파일 검증
 
-**일치 판정 기준** (고유키 기준, raw 행수 아님):
-- `len(gt_keys) == len(ex_keys)` (고유키 건수 동일) **AND** `miss_cnt == 0` (GT 키 전부 추출) → **일치**
-  > GT는 ITCD별 중복 raw 행 포함 가능. 비교는 active_key_cols로 생성한 고유 키셋 기준.
-- 위 두 조건 중 하나라도 불충족 → **불일치**
-  - `len(ex_keys) ≠ len(gt_keys)`: 건수 상이 → 세부보험종목 목록 추출 오류 가능
-  - `miss_cnt > 0` (건수 같으나 내용 다름): 테이블 정보 추출 오류 가능
-  - 두 조건 모두 불충족: 복합 사유
+```bash
+# 중간 Excel vs GT 전체 컬럼 비교 (건수 + 내용 완전 일치 요구)
+python scripts/validate_intermediate.py \
+  --intermediate output/extracted/{dtcd}_{table_type}_intermediate.xlsx \
+  --dtcd {dtcd} --table {table_type}
+# 출력: output/reports/{dtcd}_{table_type}_intermediate_report.json
+```
+
+**비교 기준 (엄밀 비교)**:
+- 대상 컬럼: 모델상세 `ROW_NO+1 ~ CREATE_DATE-1` 전체 데이터컬럼 (NULL 포함)
+- 현재 `compare_with_db.py`의 `active_key_cols`(non-None 컬럼만)보다 엄밀
+- `PROD_ITCD` 정규화: int/float → 3자리 zero-pad string
+- 판정: `len(gt_keys) == len(ex_keys)` **AND** `miss_cnt == 0` → 일치
 
 **분기 조건**:
-- 전 테이블 `len(gt_keys) == len(ex_keys) AND miss_cnt == 0` → STEP 7로 진행
-- `len(ex_keys) ≠ len(gt_keys)` (건수 상이) → STEP 3 재실행 (세부보험종목 목록 힌트 포함, 최대 2회). 2회 실패 시 사용자에게 에스컬레이션
-- `miss_cnt > 0` (내용 불일치) → STEP 6 (rule-optimizer 서브에이전트) 호출
-- `NEW > 0` → 정상 (신규 상품), 로그만 기록
+- 전 테이블 일치 → STEP 7로 진행
+- 건수 상이(`len(ex_keys) ≠ len(gt_keys)`) → STEP 3 재실행 (최대 2회)
+- 내용 불일치(`miss_cnt > 0`) → STEP 6 (rule-optimizer 서브에이전트) 호출
+- `NEW > 0` (gt_cnt==0, ex_cnt>0) → 정상(신규 상품), 로그만 기록
+
+```bash
+# 중간 작업현황 리포트 생성 (261행 per-ITCD, 작업현황 동일 형식)
+python scripts/generate_intermediate_report.py
+# 출력: output/reports/중간작업현황_{timestamp}.xlsx
+```
 
 ### STEP 6: 룰 고도화
 

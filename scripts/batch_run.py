@@ -351,6 +351,23 @@ def process_pdf(pdf_path: str, mapping_db: dict, run_id: str) -> dict:
                 print(f"  [{table_key}] 템플릿 없음: {template_file}")
                 continue
 
+            # STEP 4.5: 중간 파일 생성 (GT 형식)
+            intermediate_xlsx = f"{EXTRACT_DIR}/{dtcd}_{table_type}_intermediate.xlsx"
+            run_cmd([
+                PYTHON, "scripts/generate_intermediate.py",
+                "--input", coded_json,
+                "--mapping", mapping_json,
+                "--output", intermediate_xlsx,
+            ], f"{table_key} intermediate")
+
+            # STEP 5: 중간 파일 검증 (GT vs 중간파일)
+            run_cmd([
+                PYTHON, "scripts/validate_intermediate.py",
+                "--intermediate", intermediate_xlsx,
+                "--dtcd", str(dtcd),
+                "--table", table_type,
+            ], f"{table_key} validate-intermediate")
+
             # xlsx 생성
             rc = run_cmd([
                 PYTHON,
