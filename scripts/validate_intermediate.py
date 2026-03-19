@@ -274,14 +274,25 @@ def compare_itcd(table_type: str, dtcd: str, isrn_itcd: str,
     reason = ""
     if not is_pass:
         gt_n, ex_n = len(gt_keys), len(ex_keys)
+        miss_rows_d = [dict(zip(active_cols, k)) for k in miss_keys]
+        extra_rows_d = [dict(zip(active_cols, k)) for k in extra_keys]
+
+        # ─ 기본 유형 분류 ─
         if miss_cnt > 0 and extra_cnt == 0:
-            reason = f"추출누락(GT:{gt_n}건/중간:{ex_n}건, 누락{miss_cnt}건)"
+            base = f"추출누락(GT:{gt_n}건/중간:{ex_n}건, 누락{miss_cnt}건)"
         elif miss_cnt == 0 and extra_cnt > 0:
-            reason = f"추출과잉(GT:{gt_n}건/중간:{ex_n}건, 초과{extra_cnt}건)"
+            base = f"추출과잉(GT:{gt_n}건/중간:{ex_n}건, 초과{extra_cnt}건)"
         elif miss_cnt > 0 and extra_cnt > 0 and gt_n == ex_n:
-            reason = f"내용불일치(건수동일{gt_n}건, 누락{miss_cnt}/초과{extra_cnt}건)"
+            base = f"내용불일치(건수동일{gt_n}건, 누락{miss_cnt}/초과{extra_cnt}건)"
         else:
-            reason = f"추출오류(GT:{gt_n}건/중간:{ex_n}건, 누락{miss_cnt}/초과{extra_cnt}건)"
+            base = f"추출오류(GT:{gt_n}건/중간:{ex_n}건, 누락{miss_cnt}/초과{extra_cnt}건)"
+
+        # ─ 패턴 감지 ─
+        hints = _detect_mismatch_patterns(
+            miss_rows_d, extra_rows_d, active_cols, table_type,
+            gt_n, ex_n, miss_cnt, extra_cnt,
+        )
+        reason = f"{base} | {hints}" if hints else base
 
     return {
         "isrn_kind_itcd": isrn_itcd,
@@ -301,6 +312,172 @@ def compare_itcd(table_type: str, dtcd: str, isrn_itcd: str,
 
 def _sort_key(t: tuple):
     return tuple(str(v) if v is not None else "" for v in t)
+
+
+# ─── 불일치 패턴 감지 ─────────────────────────────────────────────────────────
+
+def _detect_mismatch_patterns(
+    miss_rows: list[dict], extra_rows: list[dict],
+    active_cols: list, table_type: str,
+    gt_n: int, ex_n: int, miss_cnt: int, extra_cnt: int,
+) -> str:
+    """불일치 원인을 패턴별로 감지하여 상세 사유 문자열 반환."""
+    hints: list[str] = []
+
+    # ① null 행 포함 (모든 active_col 값이 None인 행)
+    null_extra = [r for r in extra_rows if all(v is None for v in r.values())]
+    if null_extra:
+        hints.append(
+            f"null행{len(null_extra)}건포함"
+            f"(데이터없음행 — 잘못된 테이블 형식의 coded파일에서 생성 의심)"
+        )
+
+    # ② 보험기간 코드 불일치: 종신(A) vs 세만기/년만기(X/N)
+    if "ISRN_TERM_DVSN_CODE" in active_cols:
+        miss_dvsn  = {r.get("ISRN_TERM_DVSN_CODE") for r in miss_rows  if r.get("ISRN_TERM_DVSN_CODE")}
+        extra_dvsn = {r.get("ISRN_TERM_DVSN_CODE") for r in extra_rows if r.get("ISRN_TERM_DVSN_CODE")}
+        if "A" in extra_dvsn and miss_dvsn - {"A"}:
+            gt_terms = sorted(
+                {r.get("ISRN_TERM") for r in miss_rows if r.get("ISRN_TERM") is not None}
+            )[:5]
+            hints.append(
+                f"보험기간코드불일치"
+                f"(GT:{'/'.join(str(t) for t in gt_terms)}{'...' if len(gt_terms)==5 else ''}세/년만기"
+                f" ← 추출:종신(A999) — 종신↔세만기 분류 오류 확인 필요)"
+            )
+        elif "A" in extra_dvsn and not miss_dvsn:
+            hints.append(
+                "종신코드(A999) 과잉"
+                "(GT미등록 종신기간 행 포함 — 보험기간 분류 확인 필요)"
+            )
+
+    # ③ 납입기간 코드 불일치: miss에 있는 납기가 extra에 없거나 반대
+    if "PAYM_TERM_DVSN_CODE" in active_cols and (miss_cnt > 0 or extra_cnt > 0):
+        def _term_codes(rows):
+            codes = set()
+            for r in rows:
+                dvsn = r.get("PAYM_TERM_DVSN_CODE") or ""
+                # PAYM_TERM 우선, 없으면 MIN_PAYM_TERM 사용 (S00026 등)
+                term = r.get("PAYM_TERM")
+                if term is None:
+                    term = r.get("MIN_PAYM_TERM")
+                if dvsn or term is not None:
+                    codes.add(f"{dvsn}{term if term is not None else ''}")
+            return sorted(codes)
+        miss_terms  = _term_codes(miss_rows)
+        extra_terms = _term_codes(extra_rows)
+        miss_only   = [t for t in miss_terms  if t not in extra_terms]
+        extra_only  = [t for t in extra_terms if t not in miss_terms]
+        if miss_only:
+            hints.append(
+                f"납기누락(GT에만:{'/'.join(miss_only[:6])}{'...' if len(miss_only)>6 else ''})"
+            )
+        if extra_only:
+            hints.append(
+                f"납기과잉(추출에만:{'/'.join(extra_only[:6])}{'...' if len(extra_only)>6 else ''})"
+            )
+
+    # ④ 납입주기 초과 (S00028 전용)
+    if table_type == "S00028" and "PAYM_CYCL_VAL" in active_cols:
+        gt_cyc    = sorted({str(r.get("PAYM_CYCL_VAL")) for r in miss_rows  if r.get("PAYM_CYCL_VAL") is not None})
+        extra_cyc = sorted({str(r.get("PAYM_CYCL_VAL")) for r in extra_rows if r.get("PAYM_CYCL_VAL") is not None})
+        extra_only_cyc = [c for c in extra_cyc if c not in gt_cyc]
+        if extra_only_cyc:
+            hints.append(
+                f"비대상 납입주기 포함"
+                f"(GT주기:{'/'.join(gt_cyc) if gt_cyc else '없음'}"
+                f", 초과주기:{'/'.join(extra_only_cyc)}"
+                f" — 상품별 유효 납입주기 확인 필요)"
+            )
+        elif extra_cyc and not gt_cyc:
+            hints.append(
+                f"납입주기 과잉(추출주기:{'/'.join(extra_cyc)}"
+                f" — GT미포함 납입주기 존재)"
+            )
+
+    # ⑤ 성별 코드 과잉 (MINU_GNDR_CODE)
+    if "MINU_GNDR_CODE" in active_cols:
+        extra_gnd = sorted({
+            str(r.get("MINU_GNDR_CODE"))
+            for r in extra_rows
+            if r.get("MINU_GNDR_CODE") is not None
+        })
+        miss_gnd = sorted({
+            str(r.get("MINU_GNDR_CODE"))
+            for r in miss_rows
+            if r.get("MINU_GNDR_CODE") is not None
+        })
+        if extra_gnd and not miss_gnd:
+            label = {"1": "남자", "2": "여자"}
+            gnd_labels = [label.get(g, g) for g in extra_gnd]
+            hints.append(
+                f"GT미등록 성별행 포함"
+                f"(MINU_GNDR_CODE={'/'.join(extra_gnd)}({'/'.join(gnd_labels)})"
+                f" — GT에 없는 성별 구분 행 추출됨)"
+            )
+        elif extra_gnd and miss_gnd and set(extra_gnd) != set(miss_gnd):
+            hints.append(
+                f"성별코드불일치(GT:{'/'.join(miss_gnd)} ← 추출:{'/'.join(extra_gnd)})"
+            )
+
+    # ⑥ 보기개시나이 범위 초과 (S00022 전용)
+    if table_type == "S00022" and "SPIN_STRT_DVSN_VAL" in active_cols:
+        def _int_vals(rows, col):
+            return [int(v) for r in rows for v in [r.get(col)] if v is not None
+                    and str(v).lstrip("-").isdigit()]
+        gt_spins    = _int_vals(miss_rows,  "SPIN_STRT_DVSN_VAL")
+        extra_spins = _int_vals(extra_rows, "SPIN_STRT_DVSN_VAL")
+        # null rows도 extra이므로, 실제 값 있는 extra만 분석
+        real_extra_spins = [v for v in extra_spins]
+        if gt_spins and real_extra_spins:
+            hints.append(
+                f"개시나이범위불일치"
+                f"(GT범위:{min(gt_spins)}~{max(gt_spins)}세"
+                f", 추출초과범위:{min(real_extra_spins)}~{max(real_extra_spins)}세)"
+            )
+        elif not gt_spins and real_extra_spins:
+            hints.append(
+                f"GT미포함 개시나이 포함"
+                f"(추출범위:{min(real_extra_spins)}~{max(real_extra_spins)}세"
+                f" — GT범위 초과 확인 필요)"
+            )
+
+    # ⑦ 나이 범위 과잉 (MAX_AG 기준)
+    if "MAX_AG" in active_cols and extra_cnt > 0 and not any("보험기간코드" in h for h in hints):
+        def _max_ag(rows):
+            vals = []
+            for r in rows:
+                v = r.get("MAX_AG")
+                if v is not None:
+                    try:
+                        vals.append(int(v))
+                    except (ValueError, TypeError):
+                        pass
+            return vals
+        gt_max_ags    = _max_ag(miss_rows)
+        extra_max_ags = _max_ag(extra_rows)
+        if gt_max_ags and extra_max_ags:
+            gt_hi    = max(gt_max_ags)
+            extra_hi = max(extra_max_ags)
+            if extra_hi > gt_hi + 5:
+                hints.append(
+                    f"나이상한초과(GT최대:{gt_hi}세, 추출최대:{extra_hi}세"
+                    f" — 유효 최대나이 초과 추출 가능)"
+                )
+
+    # ⑧ 대규모 조합 과잉 (추출건수가 GT의 2배 이상이고 위에서 설명 안 된 경우)
+    if extra_cnt > 0 and ex_n >= gt_n * 2 and not hints:
+        ratio = round(ex_n / gt_n, 1) if gt_n else "∞"
+        hints.append(
+            f"나이×기간 조합 과잉"
+            f"(GT대비 {ratio}배 초과 — 유효하지 않은 조합 포함 가능, 추출룰 검토 필요)"
+        )
+    elif extra_cnt > 0 and ex_n >= gt_n * 2:
+        # 위 hints에 이미 있어도 비율 정보 추가
+        ratio = round(ex_n / gt_n, 1) if gt_n else "∞"
+        hints.append(f"전체 GT대비 {ratio}배 초과")
+
+    return " | ".join(hints)
 
 
 # ─── 중간파일 파일 탐색 ───────────────────────────────────────────────────────
