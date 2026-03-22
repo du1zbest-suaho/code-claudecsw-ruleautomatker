@@ -1,0 +1,10 @@
+H coded sub_types: ['2급2형보장강화형', '2급1형기본형']
+  norm("2급2형보장강화형") = "2급2형보장강화형"
+  in H PM norm: False
+  in V PM norm: False
+  norm("2급1형기본형") = "2급1형기본형"
+  in H PM norm: False
+  in V PM norm: False
+
+H PM norm: "한화생명스마트H상해보험무배당2종1형기본형"
+V PM norm: "한화생명스마트V상해보험무배당1종1형기본형"

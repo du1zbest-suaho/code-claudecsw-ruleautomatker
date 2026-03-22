@@ -1,0 +1,486 @@
+{
+  "dtcd": "1745",
+  "table_type": "S00028",
+  "intermediate_path": "output/extracted/1745_S00028_intermediate.xlsx",
+  "generated_at": "2026-03-23T00:10:13.704873",
+  "all_pass": true,
+  "total_miss_cnt": 0,
+  "total_extra_cnt": 0,
+  "itcd_results": [
+    {
+      "isrn_kind_itcd": "275",
+      "prod_itcd": "275",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "275",
+      "prod_itcd": "279",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "276",
+      "prod_itcd": "276",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "276",
+      "prod_itcd": "280",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "277",
+      "prod_itcd": "277",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "277",
+      "prod_itcd": "281",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "278",
+      "prod_itcd": "278",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "278",
+      "prod_itcd": "282",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "283",
+      "prod_itcd": "283",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "284",
+      "prod_itcd": "284",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "285",
+      "prod_itcd": "285",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "286",
+      "prod_itcd": "286",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "287",
+      "prod_itcd": "287",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "288",
+      "prod_itcd": "288",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "289",
+      "prod_itcd": "289",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "290",
+      "prod_itcd": "290",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "291",
+      "prod_itcd": "291",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "292",
+      "prod_itcd": "292",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "293",
+      "prod_itcd": "293",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "294",
+      "prod_itcd": "294",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "295",
+      "prod_itcd": "295",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "296",
+      "prod_itcd": "296",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "297",
+      "prod_itcd": "297",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "298",
+      "prod_itcd": "298",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "299",
+      "prod_itcd": "299",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    }
+  ]
+}

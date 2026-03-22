@@ -7,106 +7,26 @@
   "image_used": false,
   "raw_data": [
     {
-      "sub_type": "간편가입형",
+      "sub_type": "1종(기본납입면제형) 해약환급금 일부지급형Ⅰ",
       "insurance_period": "종신",
       "payment_period": "5년납"
     },
     {
-      "sub_type": "간편가입형",
+      "sub_type": "1종(기본납입면제형) 해약환급금 일부지급형Ⅱ",
       "insurance_period": "종신",
       "payment_period": "7년납"
     },
     {
-      "sub_type": "간편가입형",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "간편가입형",
-      "insurance_period": "종신",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "1종(기본납입면제형)",
+      "sub_type": "2종(3대질병납입면제형) 해약환급금 일부지급형Ⅰ",
       "insurance_period": "종신",
       "payment_period": "5년납"
     },
     {
-      "sub_type": "1종(기본납입면제형)",
+      "sub_type": "2종(3대질병납입면제형) 해약환급금 일부지급형Ⅱ",
       "insurance_period": "종신",
       "payment_period": "7년납"
-    },
-    {
-      "sub_type": "1종(기본납입면제형)",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "1종(기본납입면제형)",
-      "insurance_period": "종신",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "2종(3대질병납입면제형)",
-      "insurance_period": "종신",
-      "payment_period": "5년납"
-    },
-    {
-      "sub_type": "2종(3대질병납입면제형)",
-      "insurance_period": "종신",
-      "payment_period": "7년납"
-    },
-    {
-      "sub_type": "2종(3대질병납입면제형)",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "2종(3대질병납입면제형)",
-      "insurance_period": "종신",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "1종(체증형)",
-      "insurance_period": "종신",
-      "payment_period": "5년납"
-    },
-    {
-      "sub_type": "1종(체증형)",
-      "insurance_period": "종신",
-      "payment_period": "7년납"
-    },
-    {
-      "sub_type": "1종(체증형)",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "1종(체증형)",
-      "insurance_period": "종신",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "2종(기본형)",
-      "insurance_period": "종신",
-      "payment_period": "5년납"
-    },
-    {
-      "sub_type": "2종(기본형)",
-      "insurance_period": "종신",
-      "payment_period": "7년납"
-    },
-    {
-      "sub_type": "2종(기본형)",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "2종(기본형)",
-      "insurance_period": "종신",
-      "payment_period": "일시납"
     }
   ],
   "discrepancies": [],
-  "row_count": 20
+  "row_count": 4
 }

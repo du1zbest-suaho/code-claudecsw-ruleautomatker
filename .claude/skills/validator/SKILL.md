@@ -12,8 +12,9 @@
 ## 스크립트
 
 ### compare_with_db.py
-- **용도**: 기존 판매중_* 데이터와 행 단위 비교
-- **STEP 5 시작 시 호출**
+- **용도**: 기존 판매중_* 데이터와 행 단위 비교 (수동 분석용)
+- **MISMATCH 감지**: identity 컬럼 동일 + value 컬럼 다른 경우 `mismatch` 필드에 기록 (diff 포함)
+- ※ 메인 파이프라인은 `scripts/validate_intermediate.py` 사용 (비교 권장)
 
 ```bash
 python .claude/skills/validator/scripts/compare_with_db.py \
@@ -31,12 +32,22 @@ python .claude/skills/validator/scripts/check_integrity.py \
 ```
 
 ### check_combination_completeness.py
-- **용도**: S00026 전용 - 보험기간×납입기간×성별 카테시안 곱 vs 추출 행 수
+- **용도**: S00026 전용 - 보험기간×납입기간×성별 조합 완전성 검사
+- **모드**: `--mode gt` (기본, GT 기준 비교) / `--mode self` (내부 일관성만)
 
 ```bash
+# GT 기준 비교 (권장) — GT에서 기대 조합 로드
 python .claude/skills/validator/scripts/check_combination_completeness.py \
   --input output/extracted/{upper_obj}_S00026_{run_id}_coded.json \
+  --db data/existing/판매중_가입나이정보_0312.xlsx \
+  --product-code {upper_obj} \
   --output output/reports/{upper_obj}_S00026_{run_id}_completeness.json
+
+# 내부 일관성만 (GT 없을 때)
+python .claude/skills/validator/scripts/check_combination_completeness.py \
+  --input output/extracted/{upper_obj}_S00026_{run_id}_coded.json \
+  --output output/reports/{upper_obj}_S00026_{run_id}_completeness.json \
+  --mode self
 ```
 
 ### regression_test.py

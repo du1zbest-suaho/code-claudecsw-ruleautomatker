@@ -7,14 +7,10 @@
   "image_used": false,
   "raw_data": [
     {
-      "sub_type": "1종(5%체증형)",
+      "sub_type": "보장형 계약",
       "payment_cycle": "월납"
-    },
-    {
-      "sub_type": "1종(5%체증형)",
-      "payment_cycle": "일시납"
     }
   ],
   "discrepancies": [],
-  "row_count": 2
+  "row_count": 1
 }

@@ -270,13 +270,16 @@ def convert_s00022(raw_rows: list) -> list:
     """S00022 (보기개시나이) 코드 변환
     X-type: min_age~max_age 범위를 연도별 개별 행으로 확장 (SPIN_STRT_DVSN_CODE='X')
     N-type: n_years 필드 존재 시 단일 행 생성 (SPIN_STRT_DVSN_CODE='N')
+    sub_type별 독립 dedup: 동일 sub_type 내에서만 중복 제거 (다른 sub_type 간 범위 중첩 허용)
     """
     coded = []
-    seen_spin = set()
+    # sub_type별 seen_spin: 동일 sub_type 내 중복만 제거
+    seen_spin_by_subtype: dict = {}
     for row in raw_rows:
         sub_type = row.get("sub_type")
         n_years = row.get("n_years")
 
+        seen_spin = seen_spin_by_subtype.setdefault(sub_type, set())
         if n_years is not None:
             # N-type: 년 기반 보기개시 (스마트연금전환특약 등)
             try:

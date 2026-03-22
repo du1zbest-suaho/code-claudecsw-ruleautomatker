@@ -15,14 +15,78 @@
       "max_age": 70
     },
     {
-      "sub_type": "1종(순수형)",
-      "insurance_period": "3년만기",
+      "sub_type": "2종(50%환급형)",
+      "insurance_period": "10년만기",
       "payment_period": "전기납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 70
+    },
+    {
+      "sub_type": "2종(50%환급형)",
+      "insurance_period": "15년만기",
+      "payment_period": "10년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 70
+    },
+    {
+      "sub_type": "2종(50%환급형)",
+      "insurance_period": "15년만기",
+      "payment_period": "15년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 70
+    },
+    {
+      "sub_type": "3종(70%환급형)",
+      "insurance_period": "10년만기",
+      "payment_period": "전기납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 70
+    },
+    {
+      "sub_type": "3종(70%환급형)",
+      "insurance_period": "15년만기",
+      "payment_period": "10년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 70
+    },
+    {
+      "sub_type": "3종(70%환급형)",
+      "insurance_period": "15년만기",
+      "payment_period": "15년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 70
+    },
+    {
+      "sub_type": "4종(100%환급형)",
+      "insurance_period": "10년만기",
+      "payment_period": "전기납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 70
+    },
+    {
+      "sub_type": "4종(100%환급형)",
+      "insurance_period": "15년만기",
+      "payment_period": "10년납",
+      "gender": "남녀공통",
+      "min_age": 15,
+      "max_age": 70
+    },
+    {
+      "sub_type": "4종(100%환급형)",
+      "insurance_period": "15년만기",
+      "payment_period": "15년납",
       "gender": "남녀공통",
       "min_age": 15,
       "max_age": 70
     }
   ],
   "discrepancies": [],
-  "row_count": 2
+  "row_count": 10
 }

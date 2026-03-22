@@ -9,47 +9,7 @@
     {
       "sub_type": "1종(순수형)",
       "insurance_period": "3년만기",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "1종(순수형)",
-      "insurance_period": "3년만기",
       "payment_period": "전기납"
-    },
-    {
-      "sub_type": "1종(순수형)",
-      "insurance_period": "10년만기",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "1종(순수형)",
-      "insurance_period": "10년만기",
-      "payment_period": "전기납"
-    },
-    {
-      "sub_type": "1종(순수형)",
-      "insurance_period": "15년만기",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "1종(순수형)",
-      "insurance_period": "15년만기",
-      "payment_period": "전기납"
-    },
-    {
-      "sub_type": "2종(50%환급형)",
-      "insurance_period": "3년만기",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "2종(50%환급형)",
-      "insurance_period": "3년만기",
-      "payment_period": "전기납"
-    },
-    {
-      "sub_type": "2종(50%환급형)",
-      "insurance_period": "10년만기",
-      "payment_period": "10년납"
     },
     {
       "sub_type": "2종(50%환급형)",
@@ -64,22 +24,7 @@
     {
       "sub_type": "2종(50%환급형)",
       "insurance_period": "15년만기",
-      "payment_period": "전기납"
-    },
-    {
-      "sub_type": "3종(70%환급형)",
-      "insurance_period": "3년만기",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "3종(70%환급형)",
-      "insurance_period": "3년만기",
-      "payment_period": "전기납"
-    },
-    {
-      "sub_type": "3종(70%환급형)",
-      "insurance_period": "10년만기",
-      "payment_period": "10년납"
+      "payment_period": "15년납"
     },
     {
       "sub_type": "3종(70%환급형)",
@@ -94,22 +39,7 @@
     {
       "sub_type": "3종(70%환급형)",
       "insurance_period": "15년만기",
-      "payment_period": "전기납"
-    },
-    {
-      "sub_type": "4종(100%환급형)",
-      "insurance_period": "3년만기",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "4종(100%환급형)",
-      "insurance_period": "3년만기",
-      "payment_period": "전기납"
-    },
-    {
-      "sub_type": "4종(100%환급형)",
-      "insurance_period": "10년만기",
-      "payment_period": "10년납"
+      "payment_period": "15년납"
     },
     {
       "sub_type": "4종(100%환급형)",
@@ -124,30 +54,16 @@
     {
       "sub_type": "4종(100%환급형)",
       "insurance_period": "15년만기",
-      "payment_period": "전기납"
+      "payment_period": "15년납"
     }
   ],
   "discrepancies": [],
-  "row_count": 24,
+  "row_count": 10,
   "coded_rows": [
     {
       "ISRN_TERM": 3,
       "ISRN_TERM_DVSN_CODE": "N",
       "ISRN_TERM_INQY_CODE": "N3",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "1종(순수형)",
-      "_raw": {
-        "sub_type": "1종(순수형)",
-        "insurance_period": "3년만기",
-        "payment_period": "10년납"
-      }
-    },
-    {
-      "ISRN_TERM": 3,
-      "ISRN_TERM_DVSN_CODE": "N",
-      "ISRN_TERM_INQY_CODE": "N3",
       "PAYM_TERM": 3,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N3",
@@ -156,104 +72,6 @@
         "sub_type": "1종(순수형)",
         "insurance_period": "3년만기",
         "payment_period": "전기납"
-      }
-    },
-    {
-      "ISRN_TERM": 10,
-      "ISRN_TERM_DVSN_CODE": "N",
-      "ISRN_TERM_INQY_CODE": "N10",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "1종(순수형)",
-      "_raw": {
-        "sub_type": "1종(순수형)",
-        "insurance_period": "10년만기",
-        "payment_period": "10년납"
-      }
-    },
-    {
-      "ISRN_TERM": 10,
-      "ISRN_TERM_DVSN_CODE": "N",
-      "ISRN_TERM_INQY_CODE": "N10",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "1종(순수형)",
-      "_raw": {
-        "sub_type": "1종(순수형)",
-        "insurance_period": "10년만기",
-        "payment_period": "전기납"
-      }
-    },
-    {
-      "ISRN_TERM": 15,
-      "ISRN_TERM_DVSN_CODE": "N",
-      "ISRN_TERM_INQY_CODE": "N15",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "1종(순수형)",
-      "_raw": {
-        "sub_type": "1종(순수형)",
-        "insurance_period": "15년만기",
-        "payment_period": "10년납"
-      }
-    },
-    {
-      "ISRN_TERM": 15,
-      "ISRN_TERM_DVSN_CODE": "N",
-      "ISRN_TERM_INQY_CODE": "N15",
-      "PAYM_TERM": 15,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N15",
-      "sub_type": "1종(순수형)",
-      "_raw": {
-        "sub_type": "1종(순수형)",
-        "insurance_period": "15년만기",
-        "payment_period": "전기납"
-      }
-    },
-    {
-      "ISRN_TERM": 3,
-      "ISRN_TERM_DVSN_CODE": "N",
-      "ISRN_TERM_INQY_CODE": "N3",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "2종(50%환급형)",
-      "_raw": {
-        "sub_type": "2종(50%환급형)",
-        "insurance_period": "3년만기",
-        "payment_period": "10년납"
-      }
-    },
-    {
-      "ISRN_TERM": 3,
-      "ISRN_TERM_DVSN_CODE": "N",
-      "ISRN_TERM_INQY_CODE": "N3",
-      "PAYM_TERM": 3,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N3",
-      "sub_type": "2종(50%환급형)",
-      "_raw": {
-        "sub_type": "2종(50%환급형)",
-        "insurance_period": "3년만기",
-        "payment_period": "전기납"
-      }
-    },
-    {
-      "ISRN_TERM": 10,
-      "ISRN_TERM_DVSN_CODE": "N",
-      "ISRN_TERM_INQY_CODE": "N10",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "2종(50%환급형)",
-      "_raw": {
-        "sub_type": "2종(50%환급형)",
-        "insurance_period": "10년만기",
-        "payment_period": "10년납"
       }
     },
     {
@@ -295,49 +113,7 @@
       "_raw": {
         "sub_type": "2종(50%환급형)",
         "insurance_period": "15년만기",
-        "payment_period": "전기납"
-      }
-    },
-    {
-      "ISRN_TERM": 3,
-      "ISRN_TERM_DVSN_CODE": "N",
-      "ISRN_TERM_INQY_CODE": "N3",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "3종(70%환급형)",
-      "_raw": {
-        "sub_type": "3종(70%환급형)",
-        "insurance_period": "3년만기",
-        "payment_period": "10년납"
-      }
-    },
-    {
-      "ISRN_TERM": 3,
-      "ISRN_TERM_DVSN_CODE": "N",
-      "ISRN_TERM_INQY_CODE": "N3",
-      "PAYM_TERM": 3,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N3",
-      "sub_type": "3종(70%환급형)",
-      "_raw": {
-        "sub_type": "3종(70%환급형)",
-        "insurance_period": "3년만기",
-        "payment_period": "전기납"
-      }
-    },
-    {
-      "ISRN_TERM": 10,
-      "ISRN_TERM_DVSN_CODE": "N",
-      "ISRN_TERM_INQY_CODE": "N10",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "3종(70%환급형)",
-      "_raw": {
-        "sub_type": "3종(70%환급형)",
-        "insurance_period": "10년만기",
-        "payment_period": "10년납"
+        "payment_period": "15년납"
       }
     },
     {
@@ -379,49 +155,7 @@
       "_raw": {
         "sub_type": "3종(70%환급형)",
         "insurance_period": "15년만기",
-        "payment_period": "전기납"
-      }
-    },
-    {
-      "ISRN_TERM": 3,
-      "ISRN_TERM_DVSN_CODE": "N",
-      "ISRN_TERM_INQY_CODE": "N3",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "4종(100%환급형)",
-      "_raw": {
-        "sub_type": "4종(100%환급형)",
-        "insurance_period": "3년만기",
-        "payment_period": "10년납"
-      }
-    },
-    {
-      "ISRN_TERM": 3,
-      "ISRN_TERM_DVSN_CODE": "N",
-      "ISRN_TERM_INQY_CODE": "N3",
-      "PAYM_TERM": 3,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N3",
-      "sub_type": "4종(100%환급형)",
-      "_raw": {
-        "sub_type": "4종(100%환급형)",
-        "insurance_period": "3년만기",
-        "payment_period": "전기납"
-      }
-    },
-    {
-      "ISRN_TERM": 10,
-      "ISRN_TERM_DVSN_CODE": "N",
-      "ISRN_TERM_INQY_CODE": "N10",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "4종(100%환급형)",
-      "_raw": {
-        "sub_type": "4종(100%환급형)",
-        "insurance_period": "10년만기",
-        "payment_period": "10년납"
+        "payment_period": "15년납"
       }
     },
     {
@@ -463,7 +197,7 @@
       "_raw": {
         "sub_type": "4종(100%환급형)",
         "insurance_period": "15년만기",
-        "payment_period": "전기납"
+        "payment_period": "15년납"
       }
     }
   ],

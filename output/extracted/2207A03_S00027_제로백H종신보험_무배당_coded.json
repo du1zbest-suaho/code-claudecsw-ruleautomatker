@@ -12,43 +12,13 @@
       "payment_period": "10년납"
     },
     {
-      "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
-      "insurance_period": "종신",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
-      "insurance_period": "종신",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "2종(해약환급금 일부지급형Ⅱ)",
-      "insurance_period": "종신",
-      "payment_period": "10년납"
-    },
-    {
       "sub_type": "2종(해약환급금 일부지급형Ⅱ)",
       "insurance_period": "종신",
       "payment_period": "20년납"
-    },
-    {
-      "sub_type": "2종(해약환급금 일부지급형Ⅱ)",
-      "insurance_period": "종신",
-      "payment_period": "종신납"
-    },
-    {
-      "sub_type": "2종(해약환급금 일부지급형Ⅱ)",
-      "insurance_period": "종신",
-      "payment_period": "일시납"
     }
   ],
   "discrepancies": [],
-  "row_count": 8,
+  "row_count": 2,
   "coded_rows": [
     {
       "ISRN_TERM": 999,
@@ -71,95 +41,11 @@
       "PAYM_TERM": 20,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N20",
-      "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
-      "_raw": {
-        "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
-        "insurance_period": "종신",
-        "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
-      "_raw": {
-        "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
-        "insurance_period": "종신",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
-      "_raw": {
-        "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
-        "insurance_period": "종신",
-        "payment_period": "일시납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "2종(해약환급금 일부지급형Ⅱ)",
-      "_raw": {
-        "sub_type": "2종(해약환급금 일부지급형Ⅱ)",
-        "insurance_period": "종신",
-        "payment_period": "10년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 20,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N20",
       "sub_type": "2종(해약환급금 일부지급형Ⅱ)",
       "_raw": {
         "sub_type": "2종(해약환급금 일부지급형Ⅱ)",
         "insurance_period": "종신",
         "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 999,
-      "PAYM_TERM_DVSN_CODE": "A",
-      "PAYM_TERM_INQY_CODE": "A999",
-      "sub_type": "2종(해약환급금 일부지급형Ⅱ)",
-      "_raw": {
-        "sub_type": "2종(해약환급금 일부지급형Ⅱ)",
-        "insurance_period": "종신",
-        "payment_period": "종신납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "2종(해약환급금 일부지급형Ⅱ)",
-      "_raw": {
-        "sub_type": "2종(해약환급금 일부지급형Ⅱ)",
-        "insurance_period": "종신",
-        "payment_period": "일시납"
       }
     }
   ],

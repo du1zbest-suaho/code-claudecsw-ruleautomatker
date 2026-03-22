@@ -7,54 +7,38 @@
   "image_used": false,
   "raw_data": [
     {
-      "sub_type": "1종(5%체증형)",
+      "sub_type": "1종(5%체증형) 해약환급금 일부지급형",
       "insurance_period": "90세만기",
       "payment_period": "전기납",
-      "gender": "남자",
+      "gender": "남",
       "min_age": 27,
       "max_age": 75
     },
     {
-      "sub_type": "1종(5%체증형)",
+      "sub_type": "1종(5%체증형) 해약환급금 일부지급형",
       "insurance_period": "90세만기",
       "payment_period": "전기납",
-      "gender": "여자",
+      "gender": "여",
       "min_age": 45,
       "max_age": 75
     },
     {
-      "sub_type": "1종(5%체증형)",
+      "sub_type": "2종(10%체증형) 해약환급금 일부지급형",
       "insurance_period": "90세만기",
       "payment_period": "전기납",
-      "gender": "남자",
+      "gender": "남",
       "min_age": 24,
       "max_age": 75
     },
     {
-      "sub_type": "1종(5%체증형)",
+      "sub_type": "2종(10%체증형) 해약환급금 일부지급형",
       "insurance_period": "90세만기",
       "payment_period": "전기납",
-      "gender": "여자",
-      "min_age": 36,
-      "max_age": 75
-    },
-    {
-      "sub_type": "1종(5%체증형)",
-      "insurance_period": "90세만기",
-      "payment_period": "일시납",
-      "gender": "남자",
-      "min_age": 24,
-      "max_age": 75
-    },
-    {
-      "sub_type": "1종(5%체증형)",
-      "insurance_period": "90세만기",
-      "payment_period": "일시납",
-      "gender": "여자",
+      "gender": "여",
       "min_age": 36,
       "max_age": 75
     }
   ],
   "discrepancies": [],
-  "row_count": 6
+  "row_count": 4
 }

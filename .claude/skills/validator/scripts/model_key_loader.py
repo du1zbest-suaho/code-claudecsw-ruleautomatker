@@ -137,13 +137,49 @@ def normalize_val(v):
         return str(v)
     if isinstance(v, str):
         stripped = v.strip()
-        return stripped if stripped else None
+        if not stripped:
+            return None
+        # 순수 숫자 문자열은 선행 0 제거 (int/float와 동일하게 처리)
+        # "00" → "0", "07" → "7", "55" → "55" (GT/EX 타입 차이 무관하게 일치)
+        if stripped.isdigit():
+            return str(int(stripped))
+        return stripped
     return str(v)
 
 
 def make_row_key(row_dict: dict, key_cols: list) -> tuple:
     """컬럼 목록으로 정규화된 키 tuple 생성 (None 포함)."""
     return tuple(normalize_val(row_dict.get(col)) for col in key_cols)
+
+
+def get_identity_cols(data_cols: list) -> list:
+    """MISMATCH 감지용 식별 컬럼 목록 반환 (명명규칙 기반, 하드코딩 없음).
+
+    '어떤 조합인지'를 나타내는 코드·기간·플래그 컬럼:
+      - *_CODE  : DVSN_CODE, GNDR_CODE, JOIN_INUR_CODE, INQY_CODE 등 코드값
+      - *_YN    : MNTH_PAYM_YN, BNDL_CNTC_YN, RNWL_YN 등 플래그
+      - *_TERM  : MIN_ISRN_TERM, MAX_ISRN_TERM, MIN_PAYM_TERM, GURT_TERM 등 기간수치
+      - *_CYCL_VAL : MIN_PAYM_CYCL_VAL, MAX_PAYM_CYCL_VAL 등 주기값
+    """
+    identity = []
+    for col in data_cols:
+        if (col.endswith("_CODE") or col.endswith("_YN")
+                or col.endswith("_TERM") or col.endswith("_CYCL_VAL")):
+            identity.append(col)
+    return identity
+
+
+def get_value_cols(data_cols: list) -> list:
+    """MISMATCH 감지용 결과값 컬럼 목록 반환 (식별컬럼 이외 전체).
+
+    '결과가 올바른지'를 나타내는 범위/수치 컬럼:
+      MIN_AG, MAX_AG, MINU_MIN_AG, MINU_MAX_AG, MIN_FPIN, MAX_FPIN,
+      SPIN_STRT_DVSN_VAL, FPIN_STRT_DVSN_VAL, TPIN_STRT_DVSN_VAL,
+      MIN_SPIN_STRT_AG, MAX_SPIN_STRT_AG, MIN_MTPM_PREM, MAX_MTPM_PREM,
+      STAR_CTDT, END_CTDT, MIN_DETH_INDX, MAX_DETH_INDX 등
+    """
+    identity_set = set(get_identity_cols(data_cols))
+    return [col for col in data_cols if col not in identity_set]
 
 
 def get_active_key_cols(gt_rows: list, ex_rows: list, key_cols: list) -> list:

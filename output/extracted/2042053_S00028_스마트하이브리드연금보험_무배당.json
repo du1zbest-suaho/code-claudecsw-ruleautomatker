@@ -7,18 +7,14 @@
   "image_used": false,
   "raw_data": [
     {
-      "sub_type": "1종(연금강화형)",
+      "sub_type": "적립형",
       "payment_cycle": "월납"
     },
     {
-      "sub_type": "1종(연금강화형)",
-      "payment_cycle": "년납"
-    },
-    {
-      "sub_type": "1종(연금강화형)",
+      "sub_type": "거치형",
       "payment_cycle": "일시납"
     }
   ],
   "discrepancies": [],
-  "row_count": 3
+  "row_count": 2
 }

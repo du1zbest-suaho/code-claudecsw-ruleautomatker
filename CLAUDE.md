@@ -184,6 +184,8 @@ python scripts/generate_intermediate.py \
 - **포함**: `ISRN_KIND_DTCD`, `ISRN_KIND_ITCD`, `PROD_DTCD`, `PROD_ITCD` (식별 4개) + 모델상세 데이터컬럼 전체
 - **제외**: `SET_CODE`, `OBJECT_ID`, `SET_ATTR_VAL_ID`, `VALD_STAR_DATE`, `VALD_END_DATE`, `ROW_NO`, `CREATE_DATE`, `CREATOR_ID`, `MODIFIER_ID`, `UPDATE_DATE`, `생성여부`
 - S00026: `ISRN_TERM` → `MIN_ISRN_TERM`/`MAX_ISRN_TERM`, `PAYM_TERM` → `MIN_PAYM_TERM`/`MAX_PAYM_TERM` (동일값 복제)
+- S00026: `JOIN_INUR_CODE="X"` 고정 삽입 (GT 항상 "X", 추출 로직 미생성)
+- S00022: `TPIN_STRT_AG_INQY_CODE="00"`, `TPIN_STRT_DVSN_CODE="0"`, `TPIN_STRT_DVSN_VAL="0"` 기본값 삽입 (99.3% GT 기본값)
 - sub_type 부분매칭으로 행 × ITCD 확장, dedup 처리
 
 ### STEP 5: 중간 파일 검증
@@ -197,16 +199,24 @@ python scripts/validate_intermediate.py \
 ```
 
 **비교 기준 (엄밀 비교)**:
-- 대상 컬럼: 모델상세 `ROW_NO+1 ~ CREATE_DATE-1` 전체 데이터컬럼 (NULL 포함)
-- 현재 `compare_with_db.py`의 `active_key_cols`(non-None 컬럼만)보다 엄밀
+- 대상 컬럼: **GT-active cols** — GT에서 해당 DTCD/ITCD 행 중 한 번이라도 non-None인 컬럼만 포함
+  - GT가 없는 신규 상품 fallback: 모델상세 data_cols 전체
+  - 이전 `active_key_cols`(GT AND EX 양쪽 non-None)와 다름 — EX가 안 채워도 GT 기준으로 비교
 - `PROD_ITCD` 정규화: int/float → 3자리 zero-pad string
+- 순수 숫자 문자열: 선행 0 제거 후 비교 ("00" == int(0) == "0")
 - 판정: `len(gt_keys) == len(ex_keys)` **AND** `miss_cnt == 0` → 일치
+- MISMATCH 감지: identity 컬럼(`_CODE`, `_YN`, `_TERM`, `_CYCL_VAL` suffix) 동일 + value 컬럼 다르면 별도 기록
+- **종료코드**: `miss_cnt > 0` → 1 (게이트 차단), `extra_cnt > 0`만 → 0 (경고만)
 
 **분기 조건**:
 - 전 테이블 일치 → STEP 7로 진행
-- 건수 상이(`len(ex_keys) ≠ len(gt_keys)`) → STEP 3 재실행 (최대 2회)
-- 내용 불일치(`miss_cnt > 0`) → STEP 6 (rule-optimizer 서브에이전트) 호출
+- `miss_cnt > 0` (validate 종료코드=1) → STEP 6 (rule-optimizer) 호출 후 STEP 3~5 재실행 (최대 2회)
+- `miss_cnt == 0, extra_cnt > 0` → 과잉추출 경고 후 STEP 7 진행 (xlsx 생성 허용)
 - `NEW > 0` (gt_cnt==0, ex_cnt>0) → 정상(신규 상품), 로그만 기록
+
+**고정 삽입 컬럼** (generate_intermediate.py):
+- S00026: `JOIN_INUR_CODE="X"` (GT 항상 "X", 추출 로직 미생성)
+- S00022: `TPIN_STRT_AG_INQY_CODE="00"`, `TPIN_STRT_DVSN_CODE="0"`, `TPIN_STRT_DVSN_VAL="0"` (99.3% GT 기본값, setdefault)
 
 ```bash
 # 중간 작업현황 리포트 생성 (261행 per-ITCD, 작업현황 동일 형식)
@@ -265,24 +275,30 @@ python scripts/generate_report.py --output output/reports/작업현황.xlsx
 
 > **실제건수** = `len(ex_keys)` — ITCD 비교에 사용된 EX 고유 키수
 > (coded_rows 원본 행수가 아님. DTCD 단위로 생성된 파일을 ITCD별 필터 후 고유키 집합 크기)
+>
+> **GT건수 필터 기준**: ISRN_KIND_DTCD + ISRN_KIND_ITCD + PROD_DTCD + PROD_ITCD (4-key 완전 필터)
+>
+> **EX 비교 소스**: 중간파일 Excel(`output/extracted/{dtcd}_{table}_intermediate.xlsx`) 우선, 없으면 coded JSON fallback
+>
+> **비교 키 컬럼**: 중간파일 사용 시 모델상세 key_cols 전체 (STAR_CTDT/END_CTDT 제외). GT 컬럼에 값이 있고 EX가 채우지 않으면 miss로 감지.
 
 ### 결과 코드
 | 코드 | 색상 | 조건 | 의미 |
 |------|------|------|------|
-| 일치 | 연두 | miss_cnt == 0 (ex_keys≥0) | GT 키가 EX에 모두 포함됨 |
+| 일치 | 연두 | miss_cnt == 0 AND extra_cnt == 0 | GT 키와 EX 키가 완전 일치 |
+| 과잉추출 | 노랑 | miss_cnt == 0 AND extra_cnt > 0 | GT 키는 모두 있으나 EX에 불필요한 키 존재 |
 | 불일치 | 연빨강 | miss_cnt > 0 | GT 키 중 EX에 없는 것 존재 |
 | 미추출 | 노랑 | ex_cnt == 0, gt_keys > 0 | GT 있으나 추출 결과 없음 |
 | 신규 | 연파랑 | ex_cnt > 0, gt_keys == 0 | GT 없고 추출 결과 있음 (신규 상품) |
 | - | 회색 | gt_keys == 0, ex_cnt == 0 | GT·추출 모두 없음 |
 
-### 불일치사유 패턴 (4가지)
+### 불일치사유 패턴 (5가지)
 
-| 패턴 | 조건 | 불일치사유 | 원인 분석 |
-|------|------|-----------|---------|
-| 과잉추출 | extra>0, miss==0 | `추출과잉(GT:N건/추출:M건, 초과K건) — 추출 룰이 비대상 구간 포함 또는 세부보험종목 범위 오류 가능` | 룰이 비대상 체형/특약 구간을 포함하거나 sub-type 범위가 너무 넓음 |
-| 순수 누락 | miss>0, extra==0 | `추출누락(GT:N건/추출:M건, 누락K건) — 추출 룰이 일부 조합 패턴 미처리 가능` | 룰이 특정 나이/기간 중간값 조합을 처리 못함 |
-| 내용 불일치 | ex==gt, miss>0 | `내용불일치(건수동일N건, 누락K/초과K건) — 추출 룰이 잘못된 값 산출 가능` | 건수는 같으나 나이/기간 값이 잘못 파싱됨 |
-| 복합 오류 | miss>0, extra>0, ex≠gt | `추출오류(GT:N건/추출:M건, 누락K/초과K건) — 추출 룰 전반 확인 필요` | 룰 구조 파악 실패 등 전반적 오류 |
+| 결과 | 패턴 | 조건 | 불일치사유 | 원인 분석 |
+|------|------|------|-----------|---------|
+| **과잉추출** | 과잉추출 | extra>0, miss==0 | `추출과잉(GT:N건/추출:M건, 초과K건)` | 룰이 비대상 구간 포함 또는 sub-type 범위 오류 |
+| **불일치** | 순수 누락 | miss>0, extra==0 | `GT키N건 미추출` | 룰이 일부 조합 패턴 미처리 |
+| **불일치** | 누락+초과 | miss>0, extra>0 | `GT키N건 미추출 (초과M키)` | 룰이 잘못된 값 산출 또는 구조 파악 실패 |
 
 ---
 
@@ -303,11 +319,13 @@ python scripts/generate_report.py
 python scripts/update_structural_issues.py
 ```
 
-`update_structural_issues.py` 동작:
-- S00026 **일치** → 상태 `해결` (연두)
-- S00026 **불일치** + 문제유형 `GT_NaN` → 상태 `미해결` (노랑)
-- S00026 **불일치** + 문제유형 `ITCD불일치` → 상태 `처리불가` (회색)
-- S00026 결과 없음 (`-`) → 상태 변경 없음
+`update_structural_issues.py` 동작 (세션30 이후):
+- 중간파일 검증 JSON(`output/reports/{dtcd}_{table}_intermediate_report.json`) 스캔
+- 검증 **PASS** → 상태 `해결` (연두)
+- 검증 **FAIL** + 문제유형 `ITCD불일치`/`onset_range` 계열 + 답변 없음 → 상태 `처리불가` (회색)
+- 검증 **FAIL** + 기타 문제유형 또는 답변 있음 → 상태 `미해결` (노랑)
+- 검증 결과 없음 (배치 미처리) → 현재 상태 유지
+- S00027/S00022 신규 FAIL 건 자동 행 추가 (`NEW_ROW_DEFS` 정의 필요)
 
 ---
 

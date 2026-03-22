@@ -1,0 +1,49 @@
+{
+  "dtcd": "2208",
+  "table_type": "S00028",
+  "intermediate_path": "output/extracted/2208_S00028_intermediate.xlsx",
+  "generated_at": "2026-03-23T00:02:58.725132",
+  "all_pass": true,
+  "total_miss_cnt": 0,
+  "total_extra_cnt": 0,
+  "itcd_results": [
+    {
+      "isrn_kind_itcd": "A02",
+      "prod_itcd": "002",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "A06",
+      "prod_itcd": "006",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    }
+  ]
+}

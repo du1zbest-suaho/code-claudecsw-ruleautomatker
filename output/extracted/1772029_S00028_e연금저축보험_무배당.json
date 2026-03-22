@@ -7,14 +7,10 @@
   "image_used": false,
   "raw_data": [
     {
-      "sub_type": "기본형",
+      "sub_type": "기본보험료",
       "payment_cycle": "월납"
-    },
-    {
-      "sub_type": "기본형",
-      "payment_cycle": "년납"
     }
   ],
   "discrepancies": [],
-  "row_count": 2
+  "row_count": 1
 }

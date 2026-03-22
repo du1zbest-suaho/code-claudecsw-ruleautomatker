@@ -7,12 +7,12 @@
   "image_used": false,
   "raw_data": [
     {
-      "sub_type": "1종(신계약체결용)",
+      "sub_type": "종신연금형",
       "min_age": 55,
       "max_age": 80
     },
     {
-      "sub_type": "2종(계좌이체용)",
+      "sub_type": "확정기간연금형",
       "min_age": 55,
       "max_age": 110
     }

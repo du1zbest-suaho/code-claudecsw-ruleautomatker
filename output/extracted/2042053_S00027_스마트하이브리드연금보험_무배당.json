@@ -7,111 +7,81 @@
   "image_used": false,
   "raw_data": [
     {
-      "sub_type": "1종(연금강화형)",
-      "insurance_period": "종신",
-      "payment_period": "3년납"
-    },
-    {
-      "sub_type": "1종(연금강화형)",
-      "insurance_period": "종신",
-      "payment_period": "5년납"
-    },
-    {
-      "sub_type": "1종(연금강화형)",
-      "insurance_period": "종신",
-      "payment_period": "7년납"
-    },
-    {
-      "sub_type": "1종(연금강화형)",
-      "insurance_period": "종신",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "1종(연금강화형)",
-      "insurance_period": "종신",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "1종(연금강화형)",
-      "insurance_period": "종신",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "1종(연금강화형)",
+      "sub_type": "거치형 1종(연금강화형)",
       "insurance_period": "종신",
       "payment_period": "일시납"
     },
     {
-      "sub_type": "2종(기본형)",
-      "insurance_period": "종신",
-      "payment_period": "3년납"
-    },
-    {
-      "sub_type": "2종(기본형)",
-      "insurance_period": "종신",
-      "payment_period": "5년납"
-    },
-    {
-      "sub_type": "2종(기본형)",
-      "insurance_period": "종신",
-      "payment_period": "7년납"
-    },
-    {
-      "sub_type": "2종(기본형)",
-      "insurance_period": "종신",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "2종(기본형)",
-      "insurance_period": "종신",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "2종(기본형)",
-      "insurance_period": "종신",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "2종(기본형)",
+      "sub_type": "거치형 2종(기본형)",
       "insurance_period": "종신",
       "payment_period": "일시납"
     },
     {
-      "sub_type": "3종(가족사랑형)",
+      "sub_type": "거치형 3종(가족사랑형)",
+      "insurance_period": "종신",
+      "payment_period": "일시납"
+    },
+    {
+      "sub_type": "적립형 2종(기본형)",
       "insurance_period": "종신",
       "payment_period": "3년납"
     },
     {
-      "sub_type": "3종(가족사랑형)",
+      "sub_type": "적립형 2종(기본형)",
       "insurance_period": "종신",
       "payment_period": "5년납"
     },
     {
-      "sub_type": "3종(가족사랑형)",
+      "sub_type": "적립형 2종(기본형)",
       "insurance_period": "종신",
       "payment_period": "7년납"
     },
     {
-      "sub_type": "3종(가족사랑형)",
+      "sub_type": "적립형 2종(기본형)",
       "insurance_period": "종신",
       "payment_period": "10년납"
     },
     {
-      "sub_type": "3종(가족사랑형)",
+      "sub_type": "적립형 2종(기본형)",
       "insurance_period": "종신",
       "payment_period": "15년납"
     },
     {
-      "sub_type": "3종(가족사랑형)",
+      "sub_type": "적립형 2종(기본형)",
       "insurance_period": "종신",
       "payment_period": "20년납"
     },
     {
-      "sub_type": "3종(가족사랑형)",
+      "sub_type": "적립형 3종(가족사랑형)",
       "insurance_period": "종신",
-      "payment_period": "일시납"
+      "payment_period": "3년납"
+    },
+    {
+      "sub_type": "적립형 3종(가족사랑형)",
+      "insurance_period": "종신",
+      "payment_period": "5년납"
+    },
+    {
+      "sub_type": "적립형 3종(가족사랑형)",
+      "insurance_period": "종신",
+      "payment_period": "7년납"
+    },
+    {
+      "sub_type": "적립형 3종(가족사랑형)",
+      "insurance_period": "종신",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "적립형 3종(가족사랑형)",
+      "insurance_period": "종신",
+      "payment_period": "15년납"
+    },
+    {
+      "sub_type": "적립형 3종(가족사랑형)",
+      "insurance_period": "종신",
+      "payment_period": "20년납"
     }
   ],
   "discrepancies": [],
-  "row_count": 21
+  "row_count": 15
 }

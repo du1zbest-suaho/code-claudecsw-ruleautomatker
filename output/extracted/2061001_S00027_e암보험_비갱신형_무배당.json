@@ -7,356 +7,122 @@
   "image_used": false,
   "raw_data": [
     {
-      "sub_type": "표준체형",
-      "insurance_period": "60세만기",
-      "payment_period": "5년납"
-    },
-    {
-      "sub_type": "표준체형",
-      "insurance_period": "60세만기",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "표준체형",
-      "insurance_period": "60세만기",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "표준체형",
-      "insurance_period": "60세만기",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "표준체형",
-      "insurance_period": "60세만기",
-      "payment_period": "30년납"
-    },
-    {
-      "sub_type": "표준체형",
-      "insurance_period": "60세만기",
-      "payment_period": "60세납"
-    },
-    {
-      "sub_type": "표준체형",
-      "insurance_period": "60세만기",
-      "payment_period": "전기납"
-    },
-    {
-      "sub_type": "표준체형",
       "insurance_period": "70세만기",
       "payment_period": "5년납"
     },
     {
-      "sub_type": "표준체형",
       "insurance_period": "70세만기",
       "payment_period": "10년납"
     },
     {
-      "sub_type": "표준체형",
-      "insurance_period": "70세만기",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "표준체형",
-      "insurance_period": "70세만기",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "표준체형",
-      "insurance_period": "70세만기",
-      "payment_period": "30년납"
-    },
-    {
-      "sub_type": "표준체형",
       "insurance_period": "70세만기",
       "payment_period": "60세납"
     },
     {
-      "sub_type": "표준체형",
-      "insurance_period": "70세만기",
-      "payment_period": "전기납"
+      "insurance_period": "100세만기",
+      "payment_period": "15년납"
     },
     {
-      "sub_type": "표준체형",
+      "insurance_period": "80세만기",
+      "payment_period": "10년납"
+    },
+    {
       "insurance_period": "80세만기",
       "payment_period": "5년납"
     },
     {
-      "sub_type": "표준체형",
-      "insurance_period": "80세만기",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "표준체형",
-      "insurance_period": "80세만기",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "표준체형",
-      "insurance_period": "80세만기",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "표준체형",
-      "insurance_period": "80세만기",
-      "payment_period": "30년납"
-    },
-    {
-      "sub_type": "표준체형",
-      "insurance_period": "80세만기",
-      "payment_period": "60세납"
-    },
-    {
-      "sub_type": "표준체형",
-      "insurance_period": "80세만기",
-      "payment_period": "전기납"
-    },
-    {
-      "sub_type": "표준체형",
-      "insurance_period": "100세만기",
-      "payment_period": "5년납"
-    },
-    {
-      "sub_type": "표준체형",
-      "insurance_period": "100세만기",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "표준체형",
-      "insurance_period": "100세만기",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "표준체형",
-      "insurance_period": "100세만기",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "표준체형",
-      "insurance_period": "100세만기",
-      "payment_period": "30년납"
-    },
-    {
-      "sub_type": "표준체형",
-      "insurance_period": "100세만기",
-      "payment_period": "60세납"
-    },
-    {
-      "sub_type": "표준체형",
-      "insurance_period": "100세만기",
-      "payment_period": "전기납"
-    },
-    {
-      "sub_type": "표준체형",
       "insurance_period": "20년만기",
       "payment_period": "5년납"
     },
     {
-      "sub_type": "표준체형",
-      "insurance_period": "20년만기",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "표준체형",
-      "insurance_period": "20년만기",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "표준체형",
-      "insurance_period": "20년만기",
+      "insurance_period": "70세만기",
       "payment_period": "20년납"
     },
     {
-      "sub_type": "표준체형",
-      "insurance_period": "20년만기",
-      "payment_period": "30년납"
+      "insurance_period": "70세만기",
+      "payment_period": "70세납"
     },
     {
-      "sub_type": "표준체형",
-      "insurance_period": "20년만기",
-      "payment_period": "60세납"
-    },
-    {
-      "sub_type": "표준체형",
-      "insurance_period": "20년만기",
-      "payment_period": "전기납"
-    },
-    {
-      "sub_type": "비흡연체형",
       "insurance_period": "60세만기",
       "payment_period": "5년납"
     },
     {
-      "sub_type": "비흡연체형",
-      "insurance_period": "60세만기",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "비흡연체형",
-      "insurance_period": "60세만기",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "비흡연체형",
-      "insurance_period": "60세만기",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "비흡연체형",
-      "insurance_period": "60세만기",
-      "payment_period": "30년납"
-    },
-    {
-      "sub_type": "비흡연체형",
       "insurance_period": "60세만기",
       "payment_period": "60세납"
     },
     {
-      "sub_type": "비흡연체형",
       "insurance_period": "60세만기",
-      "payment_period": "전기납"
-    },
-    {
-      "sub_type": "비흡연체형",
-      "insurance_period": "70세만기",
-      "payment_period": "5년납"
-    },
-    {
-      "sub_type": "비흡연체형",
-      "insurance_period": "70세만기",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "비흡연체형",
-      "insurance_period": "70세만기",
       "payment_period": "15년납"
     },
     {
-      "sub_type": "비흡연체형",
-      "insurance_period": "70세만기",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "비흡연체형",
-      "insurance_period": "70세만기",
-      "payment_period": "30년납"
-    },
-    {
-      "sub_type": "비흡연체형",
-      "insurance_period": "70세만기",
-      "payment_period": "60세납"
-    },
-    {
-      "sub_type": "비흡연체형",
-      "insurance_period": "70세만기",
-      "payment_period": "전기납"
-    },
-    {
-      "sub_type": "비흡연체형",
-      "insurance_period": "80세만기",
-      "payment_period": "5년납"
-    },
-    {
-      "sub_type": "비흡연체형",
-      "insurance_period": "80세만기",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "비흡연체형",
       "insurance_period": "80세만기",
       "payment_period": "15년납"
     },
     {
-      "sub_type": "비흡연체형",
-      "insurance_period": "80세만기",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "비흡연체형",
       "insurance_period": "80세만기",
       "payment_period": "30년납"
     },
     {
-      "sub_type": "비흡연체형",
+      "insurance_period": "70세만기",
+      "payment_period": "30년납"
+    },
+    {
       "insurance_period": "80세만기",
       "payment_period": "60세납"
     },
     {
-      "sub_type": "비흡연체형",
       "insurance_period": "80세만기",
-      "payment_period": "전기납"
+      "payment_period": "20년납"
     },
     {
-      "sub_type": "비흡연체형",
+      "insurance_period": "20년만기",
+      "payment_period": "15년납"
+    },
+    {
+      "insurance_period": "60세만기",
+      "payment_period": "20년납"
+    },
+    {
+      "insurance_period": "60세만기",
+      "payment_period": "10년납"
+    },
+    {
+      "insurance_period": "100세만기",
+      "payment_period": "10년납"
+    },
+    {
+      "insurance_period": "100세만기",
+      "payment_period": "100세납"
+    },
+    {
       "insurance_period": "100세만기",
       "payment_period": "5년납"
     },
     {
-      "sub_type": "비흡연체형",
-      "insurance_period": "100세만기",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "비흡연체형",
-      "insurance_period": "100세만기",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "비흡연체형",
-      "insurance_period": "100세만기",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "비흡연체형",
-      "insurance_period": "100세만기",
-      "payment_period": "30년납"
-    },
-    {
-      "sub_type": "비흡연체형",
       "insurance_period": "100세만기",
       "payment_period": "60세납"
     },
     {
-      "sub_type": "비흡연체형",
-      "insurance_period": "100세만기",
-      "payment_period": "전기납"
-    },
-    {
-      "sub_type": "비흡연체형",
-      "insurance_period": "20년만기",
-      "payment_period": "5년납"
-    },
-    {
-      "sub_type": "비흡연체형",
-      "insurance_period": "20년만기",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "비흡연체형",
-      "insurance_period": "20년만기",
+      "insurance_period": "70세만기",
       "payment_period": "15년납"
     },
     {
-      "sub_type": "비흡연체형",
-      "insurance_period": "20년만기",
+      "insurance_period": "80세만기",
+      "payment_period": "80세납"
+    },
+    {
+      "insurance_period": "100세만기",
       "payment_period": "20년납"
     },
     {
-      "sub_type": "비흡연체형",
-      "insurance_period": "20년만기",
+      "insurance_period": "100세만기",
       "payment_period": "30년납"
     },
     {
-      "sub_type": "비흡연체형",
       "insurance_period": "20년만기",
-      "payment_period": "60세납"
-    },
-    {
-      "sub_type": "비흡연체형",
-      "insurance_period": "20년만기",
-      "payment_period": "전기납"
+      "payment_period": "10년납"
     }
   ],
   "discrepancies": [],
-  "row_count": 70
+  "row_count": 29
 }

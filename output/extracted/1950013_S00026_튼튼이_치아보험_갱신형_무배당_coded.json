@@ -7,7 +7,7 @@
   "image_used": false,
   "raw_data": [
     {
-      "sub_type": "기본형",
+      "sub_type": "5년만기",
       "insurance_period": "5년만기",
       "payment_period": "전기납",
       "gender": "남녀공통",
@@ -15,32 +15,16 @@
       "max_age": 70
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "10년만기",
       "insurance_period": "10년만기",
       "payment_period": "전기납",
       "gender": "남녀공통",
       "min_age": 0,
       "max_age": 70
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "5년만기",
-      "payment_period": "전기납",
-      "gender": "남녀공통",
-      "min_age": 20,
-      "max_age": 70
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "5년만기",
-      "payment_period": "전기납",
-      "gender": "남녀공통",
-      "min_age": 15,
-      "max_age": 70
     }
   ],
   "discrepancies": [],
-  "row_count": 4,
+  "row_count": 2,
   "coded_rows": [
     {
       "ISRN_TERM": 5,
@@ -52,9 +36,9 @@
       "MINU_GNDR_CODE": null,
       "MIN_AG": 6,
       "MAX_AG": 70,
-      "sub_type": "기본형",
+      "sub_type": "5년만기",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "5년만기",
         "insurance_period": "5년만기",
         "payment_period": "전기납",
         "gender": "남녀공통",
@@ -72,53 +56,13 @@
       "MINU_GNDR_CODE": null,
       "MIN_AG": 0,
       "MAX_AG": 70,
-      "sub_type": "기본형",
+      "sub_type": "10년만기",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "10년만기",
         "insurance_period": "10년만기",
         "payment_period": "전기납",
         "gender": "남녀공통",
         "min_age": 0,
-        "max_age": 70
-      }
-    },
-    {
-      "ISRN_TERM": 5,
-      "ISRN_TERM_DVSN_CODE": "N",
-      "ISRN_TERM_INQY_CODE": "N5",
-      "PAYM_TERM": 5,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N5",
-      "MINU_GNDR_CODE": null,
-      "MIN_AG": 20,
-      "MAX_AG": 70,
-      "sub_type": "기본형",
-      "_raw": {
-        "sub_type": "기본형",
-        "insurance_period": "5년만기",
-        "payment_period": "전기납",
-        "gender": "남녀공통",
-        "min_age": 20,
-        "max_age": 70
-      }
-    },
-    {
-      "ISRN_TERM": 5,
-      "ISRN_TERM_DVSN_CODE": "N",
-      "ISRN_TERM_INQY_CODE": "N5",
-      "PAYM_TERM": 5,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N5",
-      "MINU_GNDR_CODE": null,
-      "MIN_AG": 15,
-      "MAX_AG": 70,
-      "sub_type": "기본형",
-      "_raw": {
-        "sub_type": "기본형",
-        "insurance_period": "5년만기",
-        "payment_period": "전기납",
-        "gender": "남녀공통",
-        "min_age": 15,
         "max_age": 70
       }
     }

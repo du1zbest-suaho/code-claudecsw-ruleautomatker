@@ -1,0 +1,5 @@
+output/extracted\2236002_S00026_스마트H상해보험_무배당_coded.json: 20 rows, sub_types=['2종1형기본형', '2종2형보장강화형']
+output/extracted\2236002_S00026_스마트V상해보험_무배당_coded.json: 25 rows, sub_types=['기본형']
+output/extracted\2236006_S00026_스마트V상해보험_무배당_coded.json: 20 rows, sub_types=['1종1형기본형', '1종2형보장강화형']
+output/extracted\2236A01_S00026_스마트H상해보험_무배당_coded.json: 50 rows, sub_types=['기본형']
+output/extracted\2236A01_S00026_스마트V상해보험_무배당_coded.json: 50 rows, sub_types=['기본형']

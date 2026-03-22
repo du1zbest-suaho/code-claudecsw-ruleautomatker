@@ -7,6 +7,10 @@
   "image_used": false,
   "raw_data": [
     {
+      "sub_type": "태아가입용",
+      "payment_cycle": "월납"
+    },
+    {
       "sub_type": "기본형",
       "payment_cycle": "월납"
     },
@@ -24,5 +28,5 @@
     }
   ],
   "discrepancies": [],
-  "row_count": 4
+  "row_count": 5
 }

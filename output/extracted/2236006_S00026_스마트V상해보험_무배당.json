@@ -7,182 +7,166 @@
   "image_used": false,
   "raw_data": [
     {
-      "sub_type": "기본형",
-      "insurance_period": "110세만기",
-      "payment_period": "5년납",
-      "gender": "남자",
-      "min_age": 15,
-      "max_age": 80
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "110세만기",
-      "payment_period": "5년납",
-      "gender": "여자",
-      "min_age": 15,
-      "max_age": 80
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "110세만기",
-      "payment_period": "7년납",
-      "gender": "남자",
-      "min_age": 15,
-      "max_age": 80
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "110세만기",
-      "payment_period": "7년납",
-      "gender": "여자",
-      "min_age": 15,
-      "max_age": 80
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "110세만기",
-      "payment_period": "10년납",
-      "gender": "남자",
-      "min_age": 15,
-      "max_age": 80
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "110세만기",
-      "payment_period": "10년납",
-      "gender": "여자",
-      "min_age": 15,
-      "max_age": 80
-    },
-    {
-      "sub_type": "기본형",
+      "sub_type": "1종1형기본형",
       "insurance_period": "110세만기",
       "payment_period": "15년납",
-      "gender": "남자",
-      "min_age": 15,
-      "max_age": 79
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "110세만기",
-      "payment_period": "15년납",
-      "gender": "여자",
+      "gender": "여",
       "min_age": 15,
       "max_age": 80
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "1종1형기본형",
       "insurance_period": "110세만기",
       "payment_period": "20년납",
-      "gender": "남자",
+      "gender": "남",
       "min_age": 15,
       "max_age": 76
     },
     {
-      "sub_type": "기본형",
-      "insurance_period": "110세만기",
-      "payment_period": "20년납",
-      "gender": "여자",
-      "min_age": 15,
-      "max_age": 80
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "110세만기",
-      "payment_period": "15년납",
-      "gender": "남자",
-      "min_age": 15,
-      "max_age": 80
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "110세만기",
-      "payment_period": "20년납",
-      "gender": "남자",
-      "min_age": 15,
-      "max_age": 80
-    },
-    {
-      "sub_type": "기본형",
+      "sub_type": "1종1형기본형",
       "insurance_period": "110세만기",
       "payment_period": "5년납",
-      "gender": "남자",
+      "gender": "남",
       "min_age": 15,
-      "max_age": 65
+      "max_age": 80
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "1종1형기본형",
+      "insurance_period": "110세만기",
+      "payment_period": "10년납",
+      "gender": "남",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "1종1형기본형",
+      "insurance_period": "110세만기",
+      "payment_period": "15년납",
+      "gender": "남",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "1종1형기본형",
+      "insurance_period": "110세만기",
+      "payment_period": "20년납",
+      "gender": "여",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "1종1형기본형",
+      "insurance_period": "110세만기",
+      "payment_period": "7년납",
+      "gender": "여",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "1종1형기본형",
       "insurance_period": "110세만기",
       "payment_period": "5년납",
-      "gender": "여자",
+      "gender": "여",
       "min_age": 15,
-      "max_age": 65
+      "max_age": 80
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "1종1형기본형",
       "insurance_period": "110세만기",
       "payment_period": "7년납",
-      "gender": "남자",
+      "gender": "남",
       "min_age": 15,
-      "max_age": 65
+      "max_age": 80
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "1종1형기본형",
+      "insurance_period": "110세만기",
+      "payment_period": "10년납",
+      "gender": "여",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "1종2형보장강화형",
+      "insurance_period": "110세만기",
+      "payment_period": "10년납",
+      "gender": "여",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "1종2형보장강화형",
+      "insurance_period": "110세만기",
+      "payment_period": "20년납",
+      "gender": "여",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "1종2형보장강화형",
+      "insurance_period": "110세만기",
+      "payment_period": "10년납",
+      "gender": "남",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "1종2형보장강화형",
+      "insurance_period": "110세만기",
+      "payment_period": "5년납",
+      "gender": "남",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "1종2형보장강화형",
+      "insurance_period": "110세만기",
+      "payment_period": "5년납",
+      "gender": "여",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "1종2형보장강화형",
+      "insurance_period": "110세만기",
+      "payment_period": "15년납",
+      "gender": "남",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "1종2형보장강화형",
+      "insurance_period": "110세만기",
+      "payment_period": "20년납",
+      "gender": "남",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "1종2형보장강화형",
       "insurance_period": "110세만기",
       "payment_period": "7년납",
-      "gender": "여자",
+      "gender": "여",
       "min_age": 15,
-      "max_age": 65
+      "max_age": 80
     },
     {
-      "sub_type": "기본형",
-      "insurance_period": "110세만기",
-      "payment_period": "10년납",
-      "gender": "남자",
-      "min_age": 15,
-      "max_age": 65
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "110세만기",
-      "payment_period": "10년납",
-      "gender": "여자",
-      "min_age": 15,
-      "max_age": 65
-    },
-    {
-      "sub_type": "기본형",
+      "sub_type": "1종2형보장강화형",
       "insurance_period": "110세만기",
       "payment_period": "15년납",
-      "gender": "남자",
+      "gender": "여",
       "min_age": 15,
-      "max_age": 65
+      "max_age": 80
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "1종2형보장강화형",
       "insurance_period": "110세만기",
-      "payment_period": "15년납",
-      "gender": "여자",
+      "payment_period": "7년납",
+      "gender": "남",
       "min_age": 15,
-      "max_age": 65
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "110세만기",
-      "payment_period": "20년납",
-      "gender": "남자",
-      "min_age": 15,
-      "max_age": 65
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "110세만기",
-      "payment_period": "20년납",
-      "gender": "여자",
-      "min_age": 15,
-      "max_age": 65
+      "max_age": 80
     }
   ],
   "discrepancies": [],
-  "row_count": 22
+  "row_count": 20
 }

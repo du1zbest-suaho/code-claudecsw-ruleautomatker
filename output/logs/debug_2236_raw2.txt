@@ -1,0 +1,3 @@
+type: <class 'dict'>, keys: ['table_type', 'product_code', 'run_id', 'source', 'confidence', 'image_used', 'raw_data', 'discrepancies', 'row_count']
+raw_data type: <class 'list'>, len: 20
+first: {'sub_type': '2급1형기본형', 'insurance_period': '110세만기', 'payment_period': '7년납', 'gender': '남', 'min_age': 15, 'max_age': 80}

@@ -10,8 +10,13 @@
       "sub_type": "기본형",
       "min_age": 45,
       "max_age": 85
+    },
+    {
+      "sub_type": "상속연금형 종신플랜",
+      "min_age": 45,
+      "max_age": 80
     }
   ],
   "discrepancies": [],
-  "row_count": 1
+  "row_count": 2
 }

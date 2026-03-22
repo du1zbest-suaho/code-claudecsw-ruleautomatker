@@ -123,24 +123,48 @@ def main():
                 new_raw = method(combined_text, product_code)
                 prev_raw = prev_data.get("raw_data", [])
 
-                # 단순 개수 비교 (내용 비교는 추후 확장)
-                count_match = len(new_raw) == len(prev_raw)
-                status = "pass" if count_match else "fail"
+                # 내용 비교: 행을 정규화된 (key, value) 튜플 세트로 변환
+                def _row_sig(row: dict) -> frozenset:
+                    return frozenset(
+                        (k, str(v) if v is not None else None)
+                        for k, v in row.items()
+                        if not k.startswith("_")
+                    )
+
+                new_set  = {_row_sig(r) for r in new_raw}
+                prev_set = {_row_sig(r) for r in prev_raw}
+
+                count_match   = len(new_raw) == len(prev_raw)
+                content_match = new_set == prev_set
+                status = "pass" if content_match else "fail"
 
                 if status == "pass":
                     total_pass += 1
                 else:
                     total_fail += 1
 
-                regression_results.append({
+                result_entry: dict = {
                     "run_id": run_id,
                     "product_code": product_code,
                     "table_type": table_type,
                     "status": status,
                     "prev_row_count": len(prev_raw),
                     "new_row_count": len(new_raw),
-                    "count_match": count_match
-                })
+                    "count_match": count_match,
+                    "content_match": content_match,
+                }
+                if not content_match:
+                    miss_rows = [
+                        dict(s) for s in (prev_set - new_set)
+                    ]
+                    extra_rows = [
+                        dict(s) for s in (new_set - prev_set)
+                    ]
+                    result_entry["miss_cnt"]   = len(miss_rows)
+                    result_entry["extra_cnt"]  = len(extra_rows)
+                    result_entry["miss_rows"]  = miss_rows[:10]   # 상위 10개만
+                    result_entry["extra_rows"] = extra_rows[:10]
+                regression_results.append(result_entry)
 
             except Exception as e:
                 total_fail += 1

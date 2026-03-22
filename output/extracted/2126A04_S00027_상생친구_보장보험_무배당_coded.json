@@ -164,11 +164,6 @@
     {
       "sub_type": "기본형",
       "insurance_period": "20년만기",
-      "payment_period": "30년납"
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "20년만기",
       "payment_period": "20세납"
     },
     {
@@ -233,7 +228,7 @@
     }
   ],
   "discrepancies": [],
-  "row_count": 45,
+  "row_count": 44,
   "coded_rows": [
     {
       "ISRN_TERM": 90,
@@ -667,20 +662,6 @@
         "sub_type": "기본형",
         "insurance_period": "20년만기",
         "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 20,
-      "ISRN_TERM_DVSN_CODE": "N",
-      "ISRN_TERM_INQY_CODE": "N20",
-      "PAYM_TERM": 30,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N30",
-      "sub_type": "기본형",
-      "_raw": {
-        "sub_type": "기본형",
-        "insurance_period": "20년만기",
-        "payment_period": "30년납"
       }
     },
     {

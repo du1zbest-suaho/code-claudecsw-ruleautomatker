@@ -69,57 +69,12 @@
     {
       "sub_type": "기본형",
       "insurance_period": "3년만기",
-      "payment_period": "5년납"
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "3년만기",
-      "payment_period": "7년납"
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "3년만기",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "3년만기",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "3년만기",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "3년만기",
       "payment_period": "전기납"
     },
     {
       "sub_type": "기본형",
       "insurance_period": "5년만기",
       "payment_period": "5년납"
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "5년만기",
-      "payment_period": "7년납"
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "5년만기",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "5년만기",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "5년만기",
-      "payment_period": "20년납"
     },
     {
       "sub_type": "기본형",
@@ -140,16 +95,6 @@
       "sub_type": "기본형",
       "insurance_period": "10년만기",
       "payment_period": "10년납"
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "10년만기",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "10년만기",
-      "payment_period": "20년납"
     },
     {
       "sub_type": "기본형",
@@ -188,7 +133,7 @@
     }
   ],
   "discrepancies": [],
-  "row_count": 36,
+  "row_count": 25,
   "coded_rows": [
     {
       "ISRN_TERM": 60,
@@ -362,76 +307,6 @@
       "ISRN_TERM": 3,
       "ISRN_TERM_DVSN_CODE": "N",
       "ISRN_TERM_INQY_CODE": "N3",
-      "PAYM_TERM": 5,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N5",
-      "sub_type": "기본형",
-      "_raw": {
-        "sub_type": "기본형",
-        "insurance_period": "3년만기",
-        "payment_period": "5년납"
-      }
-    },
-    {
-      "ISRN_TERM": 3,
-      "ISRN_TERM_DVSN_CODE": "N",
-      "ISRN_TERM_INQY_CODE": "N3",
-      "PAYM_TERM": 7,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N7",
-      "sub_type": "기본형",
-      "_raw": {
-        "sub_type": "기본형",
-        "insurance_period": "3년만기",
-        "payment_period": "7년납"
-      }
-    },
-    {
-      "ISRN_TERM": 3,
-      "ISRN_TERM_DVSN_CODE": "N",
-      "ISRN_TERM_INQY_CODE": "N3",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "기본형",
-      "_raw": {
-        "sub_type": "기본형",
-        "insurance_period": "3년만기",
-        "payment_period": "10년납"
-      }
-    },
-    {
-      "ISRN_TERM": 3,
-      "ISRN_TERM_DVSN_CODE": "N",
-      "ISRN_TERM_INQY_CODE": "N3",
-      "PAYM_TERM": 15,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N15",
-      "sub_type": "기본형",
-      "_raw": {
-        "sub_type": "기본형",
-        "insurance_period": "3년만기",
-        "payment_period": "15년납"
-      }
-    },
-    {
-      "ISRN_TERM": 3,
-      "ISRN_TERM_DVSN_CODE": "N",
-      "ISRN_TERM_INQY_CODE": "N3",
-      "PAYM_TERM": 20,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N20",
-      "sub_type": "기본형",
-      "_raw": {
-        "sub_type": "기본형",
-        "insurance_period": "3년만기",
-        "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 3,
-      "ISRN_TERM_DVSN_CODE": "N",
-      "ISRN_TERM_INQY_CODE": "N3",
       "PAYM_TERM": 3,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N3",
@@ -460,62 +335,6 @@
       "ISRN_TERM": 5,
       "ISRN_TERM_DVSN_CODE": "N",
       "ISRN_TERM_INQY_CODE": "N5",
-      "PAYM_TERM": 7,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N7",
-      "sub_type": "기본형",
-      "_raw": {
-        "sub_type": "기본형",
-        "insurance_period": "5년만기",
-        "payment_period": "7년납"
-      }
-    },
-    {
-      "ISRN_TERM": 5,
-      "ISRN_TERM_DVSN_CODE": "N",
-      "ISRN_TERM_INQY_CODE": "N5",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "기본형",
-      "_raw": {
-        "sub_type": "기본형",
-        "insurance_period": "5년만기",
-        "payment_period": "10년납"
-      }
-    },
-    {
-      "ISRN_TERM": 5,
-      "ISRN_TERM_DVSN_CODE": "N",
-      "ISRN_TERM_INQY_CODE": "N5",
-      "PAYM_TERM": 15,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N15",
-      "sub_type": "기본형",
-      "_raw": {
-        "sub_type": "기본형",
-        "insurance_period": "5년만기",
-        "payment_period": "15년납"
-      }
-    },
-    {
-      "ISRN_TERM": 5,
-      "ISRN_TERM_DVSN_CODE": "N",
-      "ISRN_TERM_INQY_CODE": "N5",
-      "PAYM_TERM": 20,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N20",
-      "sub_type": "기본형",
-      "_raw": {
-        "sub_type": "기본형",
-        "insurance_period": "5년만기",
-        "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 5,
-      "ISRN_TERM_DVSN_CODE": "N",
-      "ISRN_TERM_INQY_CODE": "N5",
       "PAYM_TERM": 5,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N5",
@@ -566,34 +385,6 @@
         "sub_type": "기본형",
         "insurance_period": "10년만기",
         "payment_period": "10년납"
-      }
-    },
-    {
-      "ISRN_TERM": 10,
-      "ISRN_TERM_DVSN_CODE": "N",
-      "ISRN_TERM_INQY_CODE": "N10",
-      "PAYM_TERM": 15,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N15",
-      "sub_type": "기본형",
-      "_raw": {
-        "sub_type": "기본형",
-        "insurance_period": "10년만기",
-        "payment_period": "15년납"
-      }
-    },
-    {
-      "ISRN_TERM": 10,
-      "ISRN_TERM_DVSN_CODE": "N",
-      "ISRN_TERM_INQY_CODE": "N10",
-      "PAYM_TERM": 20,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N20",
-      "sub_type": "기본형",
-      "_raw": {
-        "sub_type": "기본형",
-        "insurance_period": "10년만기",
-        "payment_period": "20년납"
       }
     },
     {

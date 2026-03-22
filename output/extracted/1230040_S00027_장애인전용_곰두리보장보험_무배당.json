@@ -69,16 +69,6 @@
     {
       "sub_type": "기본형",
       "insurance_period": "10년만기",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "10년만기",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "10년만기",
       "payment_period": "전기납"
     },
     {
@@ -108,5 +98,5 @@
     }
   ],
   "discrepancies": [],
-  "row_count": 20
+  "row_count": 18
 }

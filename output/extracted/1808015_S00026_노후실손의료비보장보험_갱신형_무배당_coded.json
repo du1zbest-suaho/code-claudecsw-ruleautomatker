@@ -7,7 +7,7 @@
   "image_used": false,
   "raw_data": [
     {
-      "sub_type": "기본형",
+      "sub_type": "상해형",
       "insurance_period": "1년만기",
       "payment_period": "전기납",
       "gender": "남녀공통",
@@ -15,24 +15,16 @@
       "max_age": 90
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "질병형",
       "insurance_period": "1년만기",
       "payment_period": "전기납",
       "gender": "남녀공통",
-      "min_age": 51,
-      "max_age": 92
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "1년만기",
-      "payment_period": "전기납",
-      "gender": "남녀공통",
-      "min_age": 53,
-      "max_age": 109
+      "min_age": 50,
+      "max_age": 90
     }
   ],
   "discrepancies": [],
-  "row_count": 3,
+  "row_count": 2,
   "coded_rows": [
     {
       "ISRN_TERM": 1,
@@ -44,9 +36,9 @@
       "MINU_GNDR_CODE": null,
       "MIN_AG": 50,
       "MAX_AG": 90,
-      "sub_type": "기본형",
+      "sub_type": "상해형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "상해형",
         "insurance_period": "1년만기",
         "payment_period": "전기납",
         "gender": "남녀공통",
@@ -62,36 +54,16 @@
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N1",
       "MINU_GNDR_CODE": null,
-      "MIN_AG": 51,
-      "MAX_AG": 92,
-      "sub_type": "기본형",
+      "MIN_AG": 50,
+      "MAX_AG": 90,
+      "sub_type": "질병형",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "질병형",
         "insurance_period": "1년만기",
         "payment_period": "전기납",
         "gender": "남녀공통",
-        "min_age": 51,
-        "max_age": 92
-      }
-    },
-    {
-      "ISRN_TERM": 1,
-      "ISRN_TERM_DVSN_CODE": "N",
-      "ISRN_TERM_INQY_CODE": "N1",
-      "PAYM_TERM": 1,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N1",
-      "MINU_GNDR_CODE": null,
-      "MIN_AG": 53,
-      "MAX_AG": 109,
-      "sub_type": "기본형",
-      "_raw": {
-        "sub_type": "기본형",
-        "insurance_period": "1년만기",
-        "payment_period": "전기납",
-        "gender": "남녀공통",
-        "min_age": 53,
-        "max_age": 109
+        "min_age": 50,
+        "max_age": 90
       }
     }
   ],

@@ -29,7 +29,8 @@ except ImportError:
 # model_key_loader는 같은 디렉토리에 있음
 _HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, _HERE)
-from model_key_loader import load_model_key_cols, make_row_key, get_active_key_cols  # noqa: E402
+from model_key_loader import (load_model_key_cols, make_row_key, get_active_key_cols,  # noqa: E402
+                               get_identity_cols, get_value_cols)
 
 
 def load_db_data(db_path: str, product_code: str) -> list:
@@ -82,6 +83,17 @@ def main():
     db_key_set = {make_row_key(r, compare_fields): r for r in db_rows}
     extracted_key_set = {make_row_key(r, compare_fields): r for r in coded_rows}
 
+    # MISMATCH 감지용 identity 키 (식별 컬럼만으로 구성)
+    identity_fields = get_identity_cols(compare_fields)
+    db_identity_map: dict = {}   # identity_key → db_row
+    for r in db_rows:
+        ikey = make_row_key(r, identity_fields)
+        db_identity_map.setdefault(ikey, []).append(r)
+    ex_identity_map: dict = {}
+    for r in coded_rows:
+        ikey = make_row_key(r, identity_fields)
+        ex_identity_map.setdefault(ikey, []).append(r)
+
     match = []
     mismatch = []
     new_rows = []
@@ -91,10 +103,25 @@ def main():
         if key in db_key_set:
             match.append({"key": key, "extracted": row, "db": db_key_set[key]})
         else:
-            new_rows.append({"key": key, "extracted": row})
+            ikey = make_row_key(row, identity_fields)
+            if ikey in db_identity_map and len(db_identity_map[ikey]) == 1:
+                # identity 동일, 값 컬럼 차이 → MISMATCH
+                db_row = db_identity_map[ikey][0]
+                diff = {f: {"gt": db_row.get(f), "ex": row.get(f)}
+                        for f in get_value_cols(compare_fields)
+                        if str(db_row.get(f)) != str(row.get(f))}
+                mismatch.append({"key": key, "extracted": row, "db": db_row, "diff": diff})
+            else:
+                new_rows.append({"key": key, "extracted": row})
 
     for key, row in db_key_set.items():
         if key not in extracted_key_set:
+            ikey = make_row_key(row, identity_fields)
+            # MISMATCH로 이미 짝지어진 건 missing에서 제외
+            if ikey in ex_identity_map and len(ex_identity_map[ikey]) == 1:
+                ex_full_key = make_row_key(ex_identity_map[ikey][0], compare_fields)
+                if ex_full_key not in db_key_set:
+                    continue  # 이미 mismatch로 분류됨
             missing.append({"key": key, "db": row})
 
     summary = {

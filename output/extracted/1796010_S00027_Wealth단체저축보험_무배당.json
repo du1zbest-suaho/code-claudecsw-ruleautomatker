@@ -69,57 +69,12 @@
     {
       "sub_type": "기본형",
       "insurance_period": "3년만기",
-      "payment_period": "5년납"
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "3년만기",
-      "payment_period": "7년납"
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "3년만기",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "3년만기",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "3년만기",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "3년만기",
       "payment_period": "전기납"
     },
     {
       "sub_type": "기본형",
       "insurance_period": "5년만기",
       "payment_period": "5년납"
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "5년만기",
-      "payment_period": "7년납"
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "5년만기",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "5년만기",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "5년만기",
-      "payment_period": "20년납"
     },
     {
       "sub_type": "기본형",
@@ -140,16 +95,6 @@
       "sub_type": "기본형",
       "insurance_period": "10년만기",
       "payment_period": "10년납"
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "10년만기",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "10년만기",
-      "payment_period": "20년납"
     },
     {
       "sub_type": "기본형",
@@ -188,5 +133,5 @@
     }
   ],
   "discrepancies": [],
-  "row_count": 36
+  "row_count": 25
 }

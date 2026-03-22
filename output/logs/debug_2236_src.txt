@@ -1,0 +1,4 @@
+source: extraction_rules
+confidence: high
+row_count: 20
+sub_types: ['2급1형기본형', '2급2형보장강화형']

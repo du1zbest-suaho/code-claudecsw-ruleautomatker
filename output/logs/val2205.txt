@@ -1,0 +1,4 @@
+  [2205 S00026] FAIL(누락2/초과2) → output/reports/2205_S00026_intermediate_report.json
+  [2205 S00027] PASS → output/reports/2205_S00027_intermediate_report.json
+  [2205 S00028] PASS → output/reports/2205_S00028_intermediate_report.json
+  [SKIP] 2205 S00022: 중간파일 없음

@@ -7,62 +7,70 @@
   "image_used": false,
   "raw_data": [
     {
-      "sub_type": "1종(기본납입면제형)",
+      "sub_type": "1종(기본납입면제형) 해약환급금 일부지급형Ⅰ",
       "insurance_period": "종신",
       "payment_period": "5년납",
-      "gender": "남자",
+      "gender": "남",
       "min_age": 15,
       "max_age": 64
     },
     {
-      "sub_type": "1종(기본납입면제형)",
+      "sub_type": "1종(기본납입면제형) 해약환급금 일부지급형Ⅰ",
       "insurance_period": "종신",
       "payment_period": "5년납",
-      "gender": "여자",
+      "gender": "여",
       "min_age": 15,
       "max_age": 64
     },
     {
-      "sub_type": "1종(기본납입면제형)",
+      "sub_type": "1종(기본납입면제형) 해약환급금 일부지급형Ⅱ",
       "insurance_period": "종신",
       "payment_period": "7년납",
-      "gender": "남자",
+      "gender": "남",
       "min_age": 15,
       "max_age": 62
     },
     {
-      "sub_type": "1종(기본납입면제형)",
+      "sub_type": "1종(기본납입면제형) 해약환급금 일부지급형Ⅱ",
       "insurance_period": "종신",
       "payment_period": "7년납",
-      "gender": "여자",
+      "gender": "여",
       "min_age": 15,
       "max_age": 67
     },
     {
-      "sub_type": "1종(기본납입면제형)",
+      "sub_type": "2종(3대질병납입면제형) 해약환급금 일부지급형Ⅰ",
       "insurance_period": "종신",
       "payment_period": "5년납",
-      "gender": "남자",
+      "gender": "남",
       "min_age": 15,
       "max_age": 59
     },
     {
-      "sub_type": "1종(기본납입면제형)",
+      "sub_type": "2종(3대질병납입면제형) 해약환급금 일부지급형Ⅰ",
+      "insurance_period": "종신",
+      "payment_period": "5년납",
+      "gender": "여",
+      "min_age": 15,
+      "max_age": 64
+    },
+    {
+      "sub_type": "2종(3대질병납입면제형) 해약환급금 일부지급형Ⅱ",
       "insurance_period": "종신",
       "payment_period": "7년납",
-      "gender": "남자",
+      "gender": "남",
       "min_age": 15,
       "max_age": 54
     },
     {
-      "sub_type": "1종(기본납입면제형)",
+      "sub_type": "2종(3대질병납입면제형) 해약환급금 일부지급형Ⅱ",
       "insurance_period": "종신",
       "payment_period": "7년납",
-      "gender": "여자",
+      "gender": "여",
       "min_age": 15,
       "max_age": 61
     }
   ],
   "discrepancies": [],
-  "row_count": 7
+  "row_count": 8
 }

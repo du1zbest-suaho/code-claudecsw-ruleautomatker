@@ -7,46 +7,13 @@
   "image_used": false,
   "raw_data": [
     {
-      "sub_type": "기본형",
-      "insurance_period": "1년만기",
-      "payment_period": "전기납",
-      "gender": "남녀공통",
-      "min_age": 1,
-      "max_age": 53
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "1년만기",
-      "payment_period": "전기납",
-      "gender": "남녀공통",
-      "min_age": 5,
-      "max_age": 99
-    },
-    {
-      "sub_type": "기본형",
       "insurance_period": "1년만기",
       "payment_period": "전기납",
       "gender": "남녀공통",
       "min_age": 19,
       "max_age": 49
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "1년만기",
-      "payment_period": "전기납",
-      "gender": "남녀공통",
-      "min_age": 20,
-      "max_age": 53
-    },
-    {
-      "sub_type": "기본형",
-      "insurance_period": "1년만기",
-      "payment_period": "전기납",
-      "gender": "남녀공통",
-      "min_age": 24,
-      "max_age": 99
     }
   ],
   "discrepancies": [],
-  "row_count": 5
+  "row_count": 1
 }

@@ -14,5 +14,5506 @@
         }
       }
     }
+  },
+  "1745275": {
+    "extract_benefit_start_age": {
+      "fixed_data": [
+        {
+          "sub_type": "종신연금형",
+          "min_age": 55,
+          "max_age": 80
+        },
+        {
+          "sub_type": "확정기간연금형",
+          "min_age": 55,
+          "max_age": 110
+        }
+      ]
+    }
+  },
+  "1809073": {
+    "extract_benefit_start_age": {
+      "fixed_data": [
+        {
+          "sub_type": "종신연금형",
+          "min_age": 55,
+          "max_age": 80
+        },
+        {
+          "sub_type": "확정기간연금형",
+          "min_age": 55,
+          "max_age": 110
+        }
+      ]
+    }
+  },
+  "2207A03": {
+    "extract_benefit_start_age": {
+      "fixed_data": [
+        {
+          "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
+          "n_years": 3
+        },
+        {
+          "sub_type": "2종(해약환급금 일부지급형Ⅱ)",
+          "n_years": 6
+        }
+      ]
+    },
+    "extract_period_table": {
+      "fixed_data": [
+        {
+          "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
+          "insurance_period": "종신",
+          "payment_period": "10년납"
+        },
+        {
+          "sub_type": "2종(해약환급금 일부지급형Ⅱ)",
+          "insurance_period": "종신",
+          "payment_period": "20년납"
+        }
+      ]
+    }
+  },
+  "2208A02": {
+    "extract_benefit_start_age": {
+      "fixed_data": [
+        {
+          "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
+          "n_years": 3
+        },
+        {
+          "sub_type": "2종(해약환급금 일부지급형Ⅱ)",
+          "n_years": 6
+        }
+      ]
+    },
+    "extract_period_table": {
+      "fixed_data": [
+        {
+          "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
+          "insurance_period": "종신",
+          "payment_period": "10년납"
+        },
+        {
+          "sub_type": "2종(해약환급금 일부지급형Ⅱ)",
+          "insurance_period": "종신",
+          "payment_period": "20년납"
+        }
+      ]
+    }
+  },
+  "2250A01": {
+    "extract_period_table": {
+      "fixed_data": [
+        {
+          "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
+          "insurance_period": "종신",
+          "payment_period": "10년납"
+        },
+        {
+          "sub_type": "2종(해약환급금 일부지급형Ⅱ)",
+          "insurance_period": "종신",
+          "payment_period": "15년납"
+        },
+        {
+          "sub_type": "3종(해약환급금 일부지급형Ⅲ)",
+          "insurance_period": "종신",
+          "payment_period": "20년납"
+        }
+      ]
+    }
+  },
+  "2251A01": {
+    "extract_period_table": {
+      "fixed_data": [
+        {
+          "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
+          "insurance_period": "종신",
+          "payment_period": "10년납"
+        },
+        {
+          "sub_type": "2종(해약환급금 일부지급형Ⅱ)",
+          "insurance_period": "종신",
+          "payment_period": "15년납"
+        },
+        {
+          "sub_type": "3종(해약환급금 일부지급형Ⅲ)",
+          "insurance_period": "종신",
+          "payment_period": "20년납"
+        }
+      ]
+    }
+  },
+  "1726039": {
+    "extract_period_table": {
+      "fixed_data": [
+        {
+          "sub_type": "순수보장형",
+          "insurance_period": "10년만기",
+          "payment_period": "전기납"
+        },
+        {
+          "sub_type": "순수보장형",
+          "insurance_period": "60세만기",
+          "payment_period": "10년납"
+        },
+        {
+          "sub_type": "순수보장형",
+          "insurance_period": "60세만기",
+          "payment_period": "20년납"
+        },
+        {
+          "sub_type": "순수보장형",
+          "insurance_period": "60세만기",
+          "payment_period": "전기납"
+        },
+        {
+          "sub_type": "순수보장형",
+          "insurance_period": "65세만기",
+          "payment_period": "10년납"
+        },
+        {
+          "sub_type": "순수보장형",
+          "insurance_period": "65세만기",
+          "payment_period": "20년납"
+        },
+        {
+          "sub_type": "순수보장형",
+          "insurance_period": "65세만기",
+          "payment_period": "전기납"
+        },
+        {
+          "sub_type": "순수보장형",
+          "insurance_period": "70세만기",
+          "payment_period": "10년납"
+        },
+        {
+          "sub_type": "순수보장형",
+          "insurance_period": "70세만기",
+          "payment_period": "20년납"
+        },
+        {
+          "sub_type": "순수보장형",
+          "insurance_period": "70세만기",
+          "payment_period": "전기납"
+        },
+        {
+          "sub_type": "순수보장형",
+          "insurance_period": "80세만기",
+          "payment_period": "10년납"
+        },
+        {
+          "sub_type": "순수보장형",
+          "insurance_period": "80세만기",
+          "payment_period": "20년납"
+        },
+        {
+          "sub_type": "순수보장형",
+          "insurance_period": "80세만기",
+          "payment_period": "전기납"
+        },
+        {
+          "sub_type": "순수보장형",
+          "insurance_period": "90세만기",
+          "payment_period": "10년납"
+        },
+        {
+          "sub_type": "순수보장형",
+          "insurance_period": "90세만기",
+          "payment_period": "20년납"
+        },
+        {
+          "sub_type": "순수보장형",
+          "insurance_period": "90세만기",
+          "payment_period": "전기납"
+        },
+        {
+          "sub_type": "순수보장형",
+          "insurance_period": "100세만기",
+          "payment_period": "10년납"
+        },
+        {
+          "sub_type": "순수보장형",
+          "insurance_period": "100세만기",
+          "payment_period": "20년납"
+        },
+        {
+          "sub_type": "순수보장형",
+          "insurance_period": "100세만기",
+          "payment_period": "전기납"
+        },
+        {
+          "sub_type": "만기환급형",
+          "insurance_period": "65세만기",
+          "payment_period": "10년납"
+        },
+        {
+          "sub_type": "만기환급형",
+          "insurance_period": "65세만기",
+          "payment_period": "20년납"
+        },
+        {
+          "sub_type": "만기환급형",
+          "insurance_period": "65세만기",
+          "payment_period": "전기납"
+        },
+        {
+          "sub_type": "만기환급형",
+          "insurance_period": "70세만기",
+          "payment_period": "10년납"
+        },
+        {
+          "sub_type": "만기환급형",
+          "insurance_period": "70세만기",
+          "payment_period": "20년납"
+        },
+        {
+          "sub_type": "만기환급형",
+          "insurance_period": "70세만기",
+          "payment_period": "전기납"
+        },
+        {
+          "sub_type": "만기환급형",
+          "insurance_period": "80세만기",
+          "payment_period": "10년납"
+        },
+        {
+          "sub_type": "만기환급형",
+          "insurance_period": "80세만기",
+          "payment_period": "20년납"
+        },
+        {
+          "sub_type": "만기환급형",
+          "insurance_period": "80세만기",
+          "payment_period": "전기납"
+        },
+        {
+          "sub_type": "만기환급형",
+          "insurance_period": "90세만기",
+          "payment_period": "10년납"
+        },
+        {
+          "sub_type": "만기환급형",
+          "insurance_period": "90세만기",
+          "payment_period": "20년납"
+        },
+        {
+          "sub_type": "만기환급형",
+          "insurance_period": "90세만기",
+          "payment_period": "전기납"
+        },
+        {
+          "sub_type": "만기환급형",
+          "insurance_period": "100세만기",
+          "payment_period": "10년납"
+        },
+        {
+          "sub_type": "만기환급형",
+          "insurance_period": "100세만기",
+          "payment_period": "20년납"
+        },
+        {
+          "sub_type": "만기환급형",
+          "insurance_period": "100세만기",
+          "payment_period": "전기납"
+        }
+      ]
+    }
+  },
+  "1808015": {
+    "extract_age_table": {
+      "fixed_data": [
+        {
+          "sub_type": "상해형",
+          "insurance_period": "1년만기",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 50,
+          "max_age": 90
+        },
+        {
+          "sub_type": "질병형",
+          "insurance_period": "1년만기",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 50,
+          "max_age": 90
+        }
+      ]
+    }
+  },
+  "1946015": {
+    "extract_age_table": {
+      "fixed_data": [
+        {
+          "sub_type": "상해형",
+          "insurance_period": "1년만기",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 53,
+          "max_age": 109
+        },
+        {
+          "sub_type": "질병형",
+          "insurance_period": "1년만기",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 53,
+          "max_age": 109
+        }
+      ]
+    }
+  },
+  "1976001": {
+    "extract_age_table": {
+      "fixed_data": [
+        {
+          "sub_type": "상해입원형",
+          "insurance_period": "1년만기",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 8,
+          "max_age": 109
+        },
+        {
+          "sub_type": "상해통원형",
+          "insurance_period": "1년만기",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 8,
+          "max_age": 109
+        },
+        {
+          "sub_type": "질병입원형",
+          "insurance_period": "1년만기",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 8,
+          "max_age": 109
+        },
+        {
+          "sub_type": "질병통원형",
+          "insurance_period": "1년만기",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 8,
+          "max_age": 109
+        }
+      ]
+    }
+  },
+  "1950013": {
+    "extract_age_table": {
+      "fixed_data": [
+        {
+          "sub_type": "5년만기",
+          "insurance_period": "5년만기",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 6,
+          "max_age": 70
+        },
+        {
+          "sub_type": "10년만기",
+          "insurance_period": "10년만기",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 0,
+          "max_age": 70
+        }
+      ]
+    },
+    "extract_period_table": {
+      "fixed_data": [
+        {
+          "sub_type": "5년만기",
+          "insurance_period": "5년만기",
+          "payment_period": "전기납"
+        },
+        {
+          "sub_type": "10년만기",
+          "insurance_period": "10년만기",
+          "payment_period": "전기납"
+        }
+      ]
+    }
+  },
+  "2244A01": {
+    "extract_period_table": {
+      "fixed_data": [
+        {
+          "sub_type": "간편가입형(0년)",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납"
+        },
+        {
+          "sub_type": "간편가입형(0년)",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납"
+        },
+        {
+          "sub_type": "간편가입형(0년)",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납"
+        },
+        {
+          "sub_type": "간편가입형(2년)",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납"
+        },
+        {
+          "sub_type": "간편가입형(2년)",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납"
+        },
+        {
+          "sub_type": "간편가입형(2년)",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납"
+        },
+        {
+          "sub_type": "간편가입형(5년)",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납"
+        },
+        {
+          "sub_type": "간편가입형(5년)",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납"
+        },
+        {
+          "sub_type": "간편가입형(5년)",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납"
+        },
+        {
+          "sub_type": "간편가입형(10년)",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납"
+        },
+        {
+          "sub_type": "간편가입형(10년)",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납"
+        },
+        {
+          "sub_type": "간편가입형(10년)",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납"
+        },
+        {
+          "sub_type": "일반가입형",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납"
+        },
+        {
+          "sub_type": "일반가입형",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납"
+        },
+        {
+          "sub_type": "일반가입형",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납"
+        }
+      ]
+    },
+    "extract_age_table": {
+      "fixed_data": [
+        {
+          "sub_type": "가입형0년",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 64
+        },
+        {
+          "sub_type": "가입형0년",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 66
+        },
+        {
+          "sub_type": "가입형0년",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 66
+        },
+        {
+          "sub_type": "가입형0년",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 68
+        },
+        {
+          "sub_type": "가입형0년",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 69
+        },
+        {
+          "sub_type": "가입형0년",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 70
+        },
+        {
+          "sub_type": "가입형2년",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 66
+        },
+        {
+          "sub_type": "가입형2년",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 67
+        },
+        {
+          "sub_type": "가입형2년",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 67
+        },
+        {
+          "sub_type": "가입형2년",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 69
+        },
+        {
+          "sub_type": "가입형2년",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 70
+        },
+        {
+          "sub_type": "가입형2년",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 71
+        },
+        {
+          "sub_type": "가입형5년",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 67
+        },
+        {
+          "sub_type": "가입형5년",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 68
+        },
+        {
+          "sub_type": "가입형5년",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 69
+        },
+        {
+          "sub_type": "가입형5년",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 70
+        },
+        {
+          "sub_type": "가입형5년",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 72
+        },
+        {
+          "sub_type": "가입형5년",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 72
+        },
+        {
+          "sub_type": "가입형10년",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 69
+        },
+        {
+          "sub_type": "가입형10년",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 70
+        },
+        {
+          "sub_type": "가입형10년",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 71
+        },
+        {
+          "sub_type": "가입형10년",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 72
+        },
+        {
+          "sub_type": "가입형10년",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 73
+        },
+        {
+          "sub_type": "가입형10년",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 74
+        },
+        {
+          "sub_type": "일반가입형",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 69
+        },
+        {
+          "sub_type": "일반가입형",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 70
+        },
+        {
+          "sub_type": "일반가입형",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 71
+        },
+        {
+          "sub_type": "일반가입형",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 72
+        },
+        {
+          "sub_type": "일반가입형",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 74
+        },
+        {
+          "sub_type": "일반가입형",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 75
+        }
+      ]
+    }
+  },
+  "1758232": {
+    "extract_period_table": {
+      "fixed_data": [
+        {
+          "sub_type": "적립형 1종(기본형)",
+          "insurance_period": "종신",
+          "payment_period": "3년납"
+        },
+        {
+          "sub_type": "적립형 1종(기본형)",
+          "insurance_period": "종신",
+          "payment_period": "5년납"
+        },
+        {
+          "sub_type": "적립형 1종(기본형)",
+          "insurance_period": "종신",
+          "payment_period": "7년납"
+        },
+        {
+          "sub_type": "적립형 1종(기본형)",
+          "insurance_period": "종신",
+          "payment_period": "10년납"
+        },
+        {
+          "sub_type": "적립형 1종(기본형)",
+          "insurance_period": "종신",
+          "payment_period": "15년납"
+        },
+        {
+          "sub_type": "적립형 1종(기본형)",
+          "insurance_period": "종신",
+          "payment_period": "20년납"
+        },
+        {
+          "sub_type": "적립형 2종(가족사랑형)",
+          "insurance_period": "종신",
+          "payment_period": "3년납"
+        },
+        {
+          "sub_type": "적립형 2종(가족사랑형)",
+          "insurance_period": "종신",
+          "payment_period": "5년납"
+        },
+        {
+          "sub_type": "적립형 2종(가족사랑형)",
+          "insurance_period": "종신",
+          "payment_period": "7년납"
+        },
+        {
+          "sub_type": "적립형 2종(가족사랑형)",
+          "insurance_period": "종신",
+          "payment_period": "10년납"
+        },
+        {
+          "sub_type": "적립형 2종(가족사랑형)",
+          "insurance_period": "종신",
+          "payment_period": "15년납"
+        },
+        {
+          "sub_type": "적립형 2종(가족사랑형)",
+          "insurance_period": "종신",
+          "payment_period": "20년납"
+        },
+        {
+          "sub_type": "적립형 3종(연금강화형)",
+          "insurance_period": "종신",
+          "payment_period": "3년납"
+        },
+        {
+          "sub_type": "적립형 3종(연금강화형)",
+          "insurance_period": "종신",
+          "payment_period": "5년납"
+        },
+        {
+          "sub_type": "거치형 1종(기본형)",
+          "insurance_period": "종신",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "거치형 2종(가족사랑형)",
+          "insurance_period": "종신",
+          "payment_period": "일시납"
+        }
+      ]
+    }
+  },
+  "2042053": {
+    "extract_period_table": {
+      "fixed_data": [
+        {
+          "sub_type": "거치형 1종(연금강화형)",
+          "insurance_period": "종신",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "거치형 2종(기본형)",
+          "insurance_period": "종신",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "거치형 3종(가족사랑형)",
+          "insurance_period": "종신",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "적립형 2종(기본형)",
+          "insurance_period": "종신",
+          "payment_period": "3년납"
+        },
+        {
+          "sub_type": "적립형 2종(기본형)",
+          "insurance_period": "종신",
+          "payment_period": "5년납"
+        },
+        {
+          "sub_type": "적립형 2종(기본형)",
+          "insurance_period": "종신",
+          "payment_period": "7년납"
+        },
+        {
+          "sub_type": "적립형 2종(기본형)",
+          "insurance_period": "종신",
+          "payment_period": "10년납"
+        },
+        {
+          "sub_type": "적립형 2종(기본형)",
+          "insurance_period": "종신",
+          "payment_period": "15년납"
+        },
+        {
+          "sub_type": "적립형 2종(기본형)",
+          "insurance_period": "종신",
+          "payment_period": "20년납"
+        },
+        {
+          "sub_type": "적립형 3종(가족사랑형)",
+          "insurance_period": "종신",
+          "payment_period": "3년납"
+        },
+        {
+          "sub_type": "적립형 3종(가족사랑형)",
+          "insurance_period": "종신",
+          "payment_period": "5년납"
+        },
+        {
+          "sub_type": "적립형 3종(가족사랑형)",
+          "insurance_period": "종신",
+          "payment_period": "7년납"
+        },
+        {
+          "sub_type": "적립형 3종(가족사랑형)",
+          "insurance_period": "종신",
+          "payment_period": "10년납"
+        },
+        {
+          "sub_type": "적립형 3종(가족사랑형)",
+          "insurance_period": "종신",
+          "payment_period": "15년납"
+        },
+        {
+          "sub_type": "적립형 3종(가족사랑형)",
+          "insurance_period": "종신",
+          "payment_period": "20년납"
+        }
+      ]
+    }
+  },
+  "2209A01": {
+    "extract_period_table": {
+      "fixed_data": [
+        {
+          "sub_type": "1종(기본납입면제형) 해약환급금 일부지급형Ⅰ",
+          "insurance_period": "종신",
+          "payment_period": "5년납"
+        },
+        {
+          "sub_type": "1종(기본납입면제형) 해약환급금 일부지급형Ⅱ",
+          "insurance_period": "종신",
+          "payment_period": "7년납"
+        },
+        {
+          "sub_type": "2종(3대질병납입면제형) 해약환급금 일부지급형Ⅰ",
+          "insurance_period": "종신",
+          "payment_period": "5년납"
+        },
+        {
+          "sub_type": "2종(3대질병납입면제형) 해약환급금 일부지급형Ⅱ",
+          "insurance_period": "종신",
+          "payment_period": "7년납"
+        }
+      ]
+    },
+    "extract_age_table": {
+      "fixed_data": [
+        {
+          "sub_type": "1종(기본납입면제형) 해약환급금 일부지급형Ⅰ",
+          "insurance_period": "종신",
+          "payment_period": "5년납",
+          "gender": "남",
+          "min_age": 15,
+          "max_age": 64
+        },
+        {
+          "sub_type": "1종(기본납입면제형) 해약환급금 일부지급형Ⅰ",
+          "insurance_period": "종신",
+          "payment_period": "5년납",
+          "gender": "여",
+          "min_age": 15,
+          "max_age": 64
+        },
+        {
+          "sub_type": "1종(기본납입면제형) 해약환급금 일부지급형Ⅱ",
+          "insurance_period": "종신",
+          "payment_period": "7년납",
+          "gender": "남",
+          "min_age": 15,
+          "max_age": 66
+        },
+        {
+          "sub_type": "1종(기본납입면제형) 해약환급금 일부지급형Ⅱ",
+          "insurance_period": "종신",
+          "payment_period": "7년납",
+          "gender": "여",
+          "min_age": 15,
+          "max_age": 69
+        },
+        {
+          "sub_type": "2종(3대질병납입면제형) 해약환급금 일부지급형Ⅰ",
+          "insurance_period": "종신",
+          "payment_period": "5년납",
+          "gender": "남",
+          "min_age": 15,
+          "max_age": 64
+        },
+        {
+          "sub_type": "2종(3대질병납입면제형) 해약환급금 일부지급형Ⅰ",
+          "insurance_period": "종신",
+          "payment_period": "5년납",
+          "gender": "여",
+          "min_age": 15,
+          "max_age": 64
+        },
+        {
+          "sub_type": "2종(3대질병납입면제형) 해약환급금 일부지급형Ⅱ",
+          "insurance_period": "종신",
+          "payment_period": "7년납",
+          "gender": "남",
+          "min_age": 15,
+          "max_age": 60
+        },
+        {
+          "sub_type": "2종(3대질병납입면제형) 해약환급금 일부지급형Ⅱ",
+          "insurance_period": "종신",
+          "payment_period": "7년납",
+          "gender": "여",
+          "min_age": 15,
+          "max_age": 66
+        }
+      ]
+    }
+  },
+  "2210A01": {
+    "extract_period_table": {
+      "fixed_data": [
+        {
+          "sub_type": "1종(기본납입면제형) 해약환급금 일부지급형Ⅰ",
+          "insurance_period": "종신",
+          "payment_period": "5년납"
+        },
+        {
+          "sub_type": "1종(기본납입면제형) 해약환급금 일부지급형Ⅱ",
+          "insurance_period": "종신",
+          "payment_period": "7년납"
+        },
+        {
+          "sub_type": "2종(3대질병납입면제형) 해약환급금 일부지급형Ⅰ",
+          "insurance_period": "종신",
+          "payment_period": "5년납"
+        },
+        {
+          "sub_type": "2종(3대질병납입면제형) 해약환급금 일부지급형Ⅱ",
+          "insurance_period": "종신",
+          "payment_period": "7년납"
+        }
+      ]
+    },
+    "extract_age_table": {
+      "fixed_data": [
+        {
+          "sub_type": "1종(기본납입면제형) 해약환급금 일부지급형Ⅰ",
+          "insurance_period": "종신",
+          "payment_period": "5년납",
+          "gender": "남",
+          "min_age": 15,
+          "max_age": 64
+        },
+        {
+          "sub_type": "1종(기본납입면제형) 해약환급금 일부지급형Ⅰ",
+          "insurance_period": "종신",
+          "payment_period": "5년납",
+          "gender": "여",
+          "min_age": 15,
+          "max_age": 64
+        },
+        {
+          "sub_type": "1종(기본납입면제형) 해약환급금 일부지급형Ⅱ",
+          "insurance_period": "종신",
+          "payment_period": "7년납",
+          "gender": "남",
+          "min_age": 15,
+          "max_age": 62
+        },
+        {
+          "sub_type": "1종(기본납입면제형) 해약환급금 일부지급형Ⅱ",
+          "insurance_period": "종신",
+          "payment_period": "7년납",
+          "gender": "여",
+          "min_age": 15,
+          "max_age": 67
+        },
+        {
+          "sub_type": "2종(3대질병납입면제형) 해약환급금 일부지급형Ⅰ",
+          "insurance_period": "종신",
+          "payment_period": "5년납",
+          "gender": "남",
+          "min_age": 15,
+          "max_age": 59
+        },
+        {
+          "sub_type": "2종(3대질병납입면제형) 해약환급금 일부지급형Ⅰ",
+          "insurance_period": "종신",
+          "payment_period": "5년납",
+          "gender": "여",
+          "min_age": 15,
+          "max_age": 64
+        },
+        {
+          "sub_type": "2종(3대질병납입면제형) 해약환급금 일부지급형Ⅱ",
+          "insurance_period": "종신",
+          "payment_period": "7년납",
+          "gender": "남",
+          "min_age": 15,
+          "max_age": 54
+        },
+        {
+          "sub_type": "2종(3대질병납입면제형) 해약환급금 일부지급형Ⅱ",
+          "insurance_period": "종신",
+          "payment_period": "7년납",
+          "gender": "여",
+          "min_age": 15,
+          "max_age": 61
+        }
+      ]
+    }
+  },
+  "2242A01": {
+    "extract_period_table": {
+      "fixed_data": [
+        {
+          "sub_type": "1종(5%체증형) 해약환급금 일부지급형",
+          "insurance_period": "90세만기",
+          "payment_period": "전기납"
+        },
+        {
+          "sub_type": "2종(10%체증형) 해약환급금 일부지급형",
+          "insurance_period": "90세만기",
+          "payment_period": "전기납"
+        }
+      ]
+    },
+    "extract_age_table": {
+      "fixed_data": [
+        {
+          "sub_type": "1종(5%체증형) 해약환급금 일부지급형",
+          "insurance_period": "90세만기",
+          "payment_period": "전기납",
+          "gender": "남",
+          "min_age": 27,
+          "max_age": 75
+        },
+        {
+          "sub_type": "1종(5%체증형) 해약환급금 일부지급형",
+          "insurance_period": "90세만기",
+          "payment_period": "전기납",
+          "gender": "여",
+          "min_age": 45,
+          "max_age": 75
+        },
+        {
+          "sub_type": "2종(10%체증형) 해약환급금 일부지급형",
+          "insurance_period": "90세만기",
+          "payment_period": "전기납",
+          "gender": "남",
+          "min_age": 24,
+          "max_age": 75
+        },
+        {
+          "sub_type": "2종(10%체증형) 해약환급금 일부지급형",
+          "insurance_period": "90세만기",
+          "payment_period": "전기납",
+          "gender": "여",
+          "min_age": 36,
+          "max_age": 75
+        }
+      ]
+    }
+  },
+  "2243A01": {
+    "extract_period_table": {
+      "fixed_data": [
+        {
+          "sub_type": "1종(5%체증형) 해약환급금 일부지급형",
+          "insurance_period": "90세만기",
+          "payment_period": "전기납"
+        },
+        {
+          "sub_type": "2종(10%체증형) 해약환급금 일부지급형",
+          "insurance_period": "90세만기",
+          "payment_period": "전기납"
+        }
+      ]
+    },
+    "extract_age_table": {
+      "fixed_data": [
+        {
+          "sub_type": "1종(5%체증형) 해약환급금 일부지급형",
+          "insurance_period": "90세만기",
+          "payment_period": "전기납",
+          "gender": "남",
+          "min_age": 27,
+          "max_age": 75
+        },
+        {
+          "sub_type": "1종(5%체증형) 해약환급금 일부지급형",
+          "insurance_period": "90세만기",
+          "payment_period": "전기납",
+          "gender": "여",
+          "min_age": 45,
+          "max_age": 75
+        },
+        {
+          "sub_type": "2종(10%체증형) 해약환급금 일부지급형",
+          "insurance_period": "90세만기",
+          "payment_period": "전기납",
+          "gender": "남",
+          "min_age": 24,
+          "max_age": 75
+        },
+        {
+          "sub_type": "2종(10%체증형) 해약환급금 일부지급형",
+          "insurance_period": "90세만기",
+          "payment_period": "전기납",
+          "gender": "여",
+          "min_age": 36,
+          "max_age": 75
+        }
+      ]
+    }
+  },
+  "1983001": {
+    "extract_age_table": {
+      "fixed_data": [
+        {
+          "insurance_period": "1년만기",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 19,
+          "max_age": 49
+        }
+      ]
+    }
+  },
+  "1985001": {
+    "extract_age_table": {
+      "fixed_data": [
+        {
+          "sub_type": "100세형",
+          "insurance_period": "1년만기",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 0,
+          "max_age": 99
+        },
+        {
+          "sub_type": "30세형",
+          "insurance_period": "1년만기",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 0,
+          "max_age": 29
+        }
+      ]
+    }
+  },
+  "1986001": {
+    "extract_age_table": {
+      "fixed_data": [
+        {
+          "insurance_period": "1년만기",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 0,
+          "max_age": 99
+        }
+      ]
+    }
+  },
+  "2259801": {
+    "extract_benefit_start_age": {
+      "fixed_data": [
+        {
+          "sub_type": "기본형",
+          "min_age": 45,
+          "max_age": 85
+        },
+        {
+          "sub_type": "상속연금형 종신플랜",
+          "min_age": 45,
+          "max_age": 80
+        }
+      ]
+    },
+    "extract_age_table": {
+      "fixed_data": [
+        {
+          "sub_type": "종신연금형 일반형 개인형",
+          "insurance_period": "종신",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 45,
+          "max_age": 85
+        },
+        {
+          "sub_type": "종신연금형 초기집중형 개인형",
+          "insurance_period": "종신",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 45,
+          "max_age": 85
+        },
+        {
+          "sub_type": "종신연금형 일반형 신부부형",
+          "insurance_period": "종신",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 45,
+          "max_age": 82
+        },
+        {
+          "sub_type": "종신연금형 일반형 신부부형",
+          "insurance_period": "종신",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 48,
+          "max_age": 85
+        },
+        {
+          "sub_type": "상속연금형 종신플랜",
+          "insurance_period": "종신",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 45,
+          "max_age": 80
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "종신",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 45,
+          "max_age": 85
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "종신",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 45,
+          "max_age": 85
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "종신",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 45,
+          "max_age": 85
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "종신",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 45,
+          "max_age": 85
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "종신",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 45,
+          "max_age": 85
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "종신",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 45,
+          "max_age": 85
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "종신",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 45,
+          "max_age": 85
+        }
+      ]
+    },
+    "extract_period_table": {
+      "fixed_data": [
+        {
+          "sub_type": "종신연금형 일반형 개인형",
+          "insurance_period": "종신",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "종신연금형 초기집중형 개인형",
+          "insurance_period": "종신",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "종신연금형 일반형 신부부형",
+          "insurance_period": "종신",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 종신플랜",
+          "insurance_period": "종신",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "50세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "51세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "52세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "53세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "54세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "55세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "56세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "57세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "58세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "59세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "60세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "61세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "62세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "63세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "64세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "65세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "66세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "67세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "68세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "69세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "70세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "71세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "72세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "73세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "74세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "75세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "76세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "77세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "78세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "79세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "80세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "81세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "82세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "83세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "84세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "85세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "86세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "87세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "88세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "89세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜5년형",
+          "insurance_period": "90세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "50세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "51세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "52세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "53세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "54세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "55세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "56세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "57세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "58세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "59세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "60세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "61세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "62세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "63세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "64세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "65세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "66세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "67세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "68세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "69세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "70세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "71세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "72세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "73세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "74세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "75세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "76세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "77세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "78세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "79세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "80세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "81세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "82세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "83세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "84세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "85세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "86세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "87세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "88세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "89세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 5년형",
+          "insurance_period": "90세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "55세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "56세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "57세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "58세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "59세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "60세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "61세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "62세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "63세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "64세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "65세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "66세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "67세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "68세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "69세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "70세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "71세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "72세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "73세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "74세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "75세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "76세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "77세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "78세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "79세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "80세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "81세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "82세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "83세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "84세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "85세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "86세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "87세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "88세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "89세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "90세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "91세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "92세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "93세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "94세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜10년형",
+          "insurance_period": "95세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "55세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "56세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "57세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "58세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "59세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "60세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "61세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "62세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "63세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "64세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "65세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "66세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "67세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "68세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "69세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "70세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "71세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "72세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "73세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "74세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "75세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "76세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "77세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "78세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "79세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "80세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "81세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "82세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "83세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "84세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "85세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "86세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "87세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "88세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "89세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "90세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "91세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "92세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "93세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "94세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 10년형",
+          "insurance_period": "95세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "65세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "66세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "67세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "68세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "69세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "70세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "71세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "72세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "73세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "74세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "75세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "76세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "77세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "78세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "79세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "80세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "81세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "82세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "83세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "84세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "85세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "86세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "87세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "88세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "89세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "90세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "91세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "92세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "93세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "94세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "95세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "96세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "97세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "98세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "99세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "100세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "101세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "102세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "103세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "104세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "상속연금형 환급플랜20년형",
+          "insurance_period": "105세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "65세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "66세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "67세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "68세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "69세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "70세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "71세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "72세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "73세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "74세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "75세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "76세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "77세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "78세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "79세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "80세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "81세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "82세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "83세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "84세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "85세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "86세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "87세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "88세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "89세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "90세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "91세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "92세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "93세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "94세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "95세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "96세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "97세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "98세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "99세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "100세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "101세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "102세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "103세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "104세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 20년형",
+          "insurance_period": "105세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "60세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "61세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "62세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "63세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "64세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "65세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "66세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "67세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "68세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "69세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "70세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "71세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "72세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "73세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "74세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "75세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "76세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "77세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "78세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "79세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "80세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "81세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "82세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "83세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "84세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "85세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "86세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "87세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "88세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "89세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "90세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "91세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "92세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "93세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "94세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "95세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "96세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "97세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "98세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "99세만기",
+          "payment_period": "일시납"
+        },
+        {
+          "sub_type": "확정기간연금형 15년형",
+          "insurance_period": "100세만기",
+          "payment_period": "일시납"
+        }
+      ]
+    }
+  },
+  "2061001": {
+    "extract_period_table": {
+      "fixed_data": [
+        {
+          "insurance_period": "70세만기",
+          "payment_period": "5년납"
+        },
+        {
+          "insurance_period": "70세만기",
+          "payment_period": "10년납"
+        },
+        {
+          "insurance_period": "70세만기",
+          "payment_period": "60세납"
+        },
+        {
+          "insurance_period": "100세만기",
+          "payment_period": "15년납"
+        },
+        {
+          "insurance_period": "80세만기",
+          "payment_period": "10년납"
+        },
+        {
+          "insurance_period": "80세만기",
+          "payment_period": "5년납"
+        },
+        {
+          "insurance_period": "20년만기",
+          "payment_period": "5년납"
+        },
+        {
+          "insurance_period": "70세만기",
+          "payment_period": "20년납"
+        },
+        {
+          "insurance_period": "70세만기",
+          "payment_period": "70세납"
+        },
+        {
+          "insurance_period": "60세만기",
+          "payment_period": "5년납"
+        },
+        {
+          "insurance_period": "60세만기",
+          "payment_period": "60세납"
+        },
+        {
+          "insurance_period": "60세만기",
+          "payment_period": "15년납"
+        },
+        {
+          "insurance_period": "80세만기",
+          "payment_period": "15년납"
+        },
+        {
+          "insurance_period": "80세만기",
+          "payment_period": "30년납"
+        },
+        {
+          "insurance_period": "70세만기",
+          "payment_period": "30년납"
+        },
+        {
+          "insurance_period": "80세만기",
+          "payment_period": "60세납"
+        },
+        {
+          "insurance_period": "80세만기",
+          "payment_period": "20년납"
+        },
+        {
+          "insurance_period": "20년만기",
+          "payment_period": "15년납"
+        },
+        {
+          "insurance_period": "60세만기",
+          "payment_period": "20년납"
+        },
+        {
+          "insurance_period": "60세만기",
+          "payment_period": "10년납"
+        },
+        {
+          "insurance_period": "100세만기",
+          "payment_period": "10년납"
+        },
+        {
+          "insurance_period": "100세만기",
+          "payment_period": "100세납"
+        },
+        {
+          "insurance_period": "100세만기",
+          "payment_period": "5년납"
+        },
+        {
+          "insurance_period": "100세만기",
+          "payment_period": "60세납"
+        },
+        {
+          "insurance_period": "70세만기",
+          "payment_period": "15년납"
+        },
+        {
+          "insurance_period": "80세만기",
+          "payment_period": "80세납"
+        },
+        {
+          "insurance_period": "100세만기",
+          "payment_period": "20년납"
+        },
+        {
+          "insurance_period": "100세만기",
+          "payment_period": "30년납"
+        },
+        {
+          "insurance_period": "20년만기",
+          "payment_period": "10년납"
+        }
+      ]
+    }
+  },
+  "1833025": {
+    "extract_period_table": {
+      "fixed_data": [
+        {
+          "insurance_period": "종신",
+          "payment_period": "65세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "60세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "49세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "69세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "64세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "53세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "68세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "73세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "59세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "78세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "7년납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "46세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "50세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "61세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "58세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "71세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "77세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "45세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "63세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "80세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "79세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "10년납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "48세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "51세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "54세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "57세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "55세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "75세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "15년납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "56세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "67세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "72세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "20년납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "62세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "76세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "47세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "66세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "70세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "52세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "74세납"
+        }
+      ]
+    }
+  },
+  "1984001": {
+    "extract_age_table": {
+      "fixed_data": [
+        {
+          "sub_type": "종신갱신형",
+          "insurance_period": "1년만기",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 0,
+          "max_age": 199
+        },
+        {
+          "sub_type": "100세형",
+          "insurance_period": "1년만기",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 0,
+          "max_age": 99
+        },
+        {
+          "sub_type": "80세형",
+          "insurance_period": "1년만기",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 0,
+          "max_age": 79
+        },
+        {
+          "sub_type": "30세형",
+          "insurance_period": "1년만기",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 0,
+          "max_age": 29
+        }
+      ]
+    }
+  },
+  "1228133": {
+    "extract_period_table": {
+      "fixed_data": [
+        {
+          "insurance_period": "종신",
+          "payment_period": "59세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "65세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "69세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "78세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "7년납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "55세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "64세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "80세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "73세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "60세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "66세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "75세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "71세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "61세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "20년납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "76세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "79세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "15년납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "62세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "57세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "70세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "58세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "67세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "68세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "74세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "56세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "72세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "5년납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "10년납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "63세납"
+        },
+        {
+          "insurance_period": "종신",
+          "payment_period": "77세납"
+        }
+      ]
+    }
+  },
+  "2236002": {
+    "extract_age_table": {
+      "fixed_data": [
+        {
+          "sub_type": "2종1형기본형",
+          "insurance_period": "110세만기",
+          "payment_period": "7년납",
+          "gender": "남",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "2종1형기본형",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "남",
+          "min_age": 15,
+          "max_age": 76
+        },
+        {
+          "sub_type": "2종1형기본형",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "여",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "2종1형기본형",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "여",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "2종1형기본형",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "남",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "2종1형기본형",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "남",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "2종1형기본형",
+          "insurance_period": "110세만기",
+          "payment_period": "5년납",
+          "gender": "남",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "2종1형기본형",
+          "insurance_period": "110세만기",
+          "payment_period": "5년납",
+          "gender": "여",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "2종1형기본형",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "여",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "2종1형기본형",
+          "insurance_period": "110세만기",
+          "payment_period": "7년납",
+          "gender": "여",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "2종2형보장강화형",
+          "insurance_period": "110세만기",
+          "payment_period": "7년납",
+          "gender": "여",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "2종2형보장강화형",
+          "insurance_period": "110세만기",
+          "payment_period": "5년납",
+          "gender": "남",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "2종2형보장강화형",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "여",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "2종2형보장강화형",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "남",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "2종2형보장강화형",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "여",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "2종2형보장강화형",
+          "insurance_period": "110세만기",
+          "payment_period": "5년납",
+          "gender": "여",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "2종2형보장강화형",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "남",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "2종2형보장강화형",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "남",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "2종2형보장강화형",
+          "insurance_period": "110세만기",
+          "payment_period": "7년납",
+          "gender": "남",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "2종2형보장강화형",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "여",
+          "min_age": 15,
+          "max_age": 80
+        }
+      ]
+    }
+  },
+  "2236006": {
+    "extract_age_table": {
+      "fixed_data": [
+        {
+          "sub_type": "1종1형기본형",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "여",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "1종1형기본형",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "남",
+          "min_age": 15,
+          "max_age": 76
+        },
+        {
+          "sub_type": "1종1형기본형",
+          "insurance_period": "110세만기",
+          "payment_period": "5년납",
+          "gender": "남",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "1종1형기본형",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "남",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "1종1형기본형",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "남",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "1종1형기본형",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "여",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "1종1형기본형",
+          "insurance_period": "110세만기",
+          "payment_period": "7년납",
+          "gender": "여",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "1종1형기본형",
+          "insurance_period": "110세만기",
+          "payment_period": "5년납",
+          "gender": "여",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "1종1형기본형",
+          "insurance_period": "110세만기",
+          "payment_period": "7년납",
+          "gender": "남",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "1종1형기본형",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "여",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "1종2형보장강화형",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "여",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "1종2형보장강화형",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "여",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "1종2형보장강화형",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "남",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "1종2형보장강화형",
+          "insurance_period": "110세만기",
+          "payment_period": "5년납",
+          "gender": "남",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "1종2형보장강화형",
+          "insurance_period": "110세만기",
+          "payment_period": "5년납",
+          "gender": "여",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "1종2형보장강화형",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "남",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "1종2형보장강화형",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "남",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "1종2형보장강화형",
+          "insurance_period": "110세만기",
+          "payment_period": "7년납",
+          "gender": "여",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "1종2형보장강화형",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "여",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "1종2형보장강화형",
+          "insurance_period": "110세만기",
+          "payment_period": "7년납",
+          "gender": "남",
+          "min_age": 15,
+          "max_age": 80
+        }
+      ]
+    }
+  },
+  "2246A01": {
+    "extract_age_table": {
+      "fixed_data": [
+        {
+          "sub_type": "간편가입형0년",
+          "insurance_period": "90세만기",
+          "payment_period": "20년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 69
+        },
+        {
+          "sub_type": "간편가입형0년",
+          "insurance_period": "90세만기",
+          "payment_period": "20년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 69
+        },
+        {
+          "sub_type": "간편가입형0년",
+          "insurance_period": "90세만기",
+          "payment_period": "15년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 74
+        },
+        {
+          "sub_type": "간편가입형0년",
+          "insurance_period": "90세만기",
+          "payment_period": "15년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 74
+        },
+        {
+          "sub_type": "간편가입형0년",
+          "insurance_period": "90세만기",
+          "payment_period": "10년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "간편가입형0년",
+          "insurance_period": "90세만기",
+          "payment_period": "10년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "간편가입형0년",
+          "insurance_period": "100세만기",
+          "payment_period": "15년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "간편가입형0년",
+          "insurance_period": "100세만기",
+          "payment_period": "20년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "간편가입형0년",
+          "insurance_period": "100세만기",
+          "payment_period": "20년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "간편가입형0년",
+          "insurance_period": "100세만기",
+          "payment_period": "10년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형0년",
+          "insurance_period": "100세만기",
+          "payment_period": "10년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형0년",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형0년",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형0년",
+          "insurance_period": "100세만기",
+          "payment_period": "15년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형0년",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형0년",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형0년",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형0년",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형1년",
+          "insurance_period": "90세만기",
+          "payment_period": "20년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 69
+        },
+        {
+          "sub_type": "간편가입형1년",
+          "insurance_period": "90세만기",
+          "payment_period": "20년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 69
+        },
+        {
+          "sub_type": "간편가입형1년",
+          "insurance_period": "90세만기",
+          "payment_period": "15년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 74
+        },
+        {
+          "sub_type": "간편가입형1년",
+          "insurance_period": "90세만기",
+          "payment_period": "15년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 74
+        },
+        {
+          "sub_type": "간편가입형1년",
+          "insurance_period": "90세만기",
+          "payment_period": "10년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "간편가입형1년",
+          "insurance_period": "90세만기",
+          "payment_period": "10년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "간편가입형1년",
+          "insurance_period": "100세만기",
+          "payment_period": "20년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "간편가입형1년",
+          "insurance_period": "100세만기",
+          "payment_period": "20년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "간편가입형1년",
+          "insurance_period": "100세만기",
+          "payment_period": "10년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형1년",
+          "insurance_period": "100세만기",
+          "payment_period": "10년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형1년",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형1년",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형1년",
+          "insurance_period": "100세만기",
+          "payment_period": "15년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형1년",
+          "insurance_period": "100세만기",
+          "payment_period": "15년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형1년",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형1년",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형1년",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형1년",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형2년",
+          "insurance_period": "90세만기",
+          "payment_period": "20년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 69
+        },
+        {
+          "sub_type": "간편가입형2년",
+          "insurance_period": "90세만기",
+          "payment_period": "20년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 69
+        },
+        {
+          "sub_type": "간편가입형2년",
+          "insurance_period": "90세만기",
+          "payment_period": "15년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 74
+        },
+        {
+          "sub_type": "간편가입형2년",
+          "insurance_period": "90세만기",
+          "payment_period": "15년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 74
+        },
+        {
+          "sub_type": "간편가입형2년",
+          "insurance_period": "90세만기",
+          "payment_period": "10년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "간편가입형2년",
+          "insurance_period": "90세만기",
+          "payment_period": "10년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "간편가입형2년",
+          "insurance_period": "100세만기",
+          "payment_period": "20년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "간편가입형2년",
+          "insurance_period": "100세만기",
+          "payment_period": "20년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "간편가입형2년",
+          "insurance_period": "100세만기",
+          "payment_period": "10년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형2년",
+          "insurance_period": "100세만기",
+          "payment_period": "10년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형2년",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형2년",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형2년",
+          "insurance_period": "100세만기",
+          "payment_period": "15년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형2년",
+          "insurance_period": "100세만기",
+          "payment_period": "15년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형2년",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형2년",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형2년",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형2년",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형3년",
+          "insurance_period": "90세만기",
+          "payment_period": "20년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 69
+        },
+        {
+          "sub_type": "간편가입형3년",
+          "insurance_period": "90세만기",
+          "payment_period": "20년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 69
+        },
+        {
+          "sub_type": "간편가입형3년",
+          "insurance_period": "90세만기",
+          "payment_period": "15년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 74
+        },
+        {
+          "sub_type": "간편가입형3년",
+          "insurance_period": "90세만기",
+          "payment_period": "15년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 74
+        },
+        {
+          "sub_type": "간편가입형3년",
+          "insurance_period": "90세만기",
+          "payment_period": "10년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "간편가입형3년",
+          "insurance_period": "90세만기",
+          "payment_period": "10년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "간편가입형3년",
+          "insurance_period": "100세만기",
+          "payment_period": "20년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "간편가입형3년",
+          "insurance_period": "100세만기",
+          "payment_period": "20년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "간편가입형3년",
+          "insurance_period": "100세만기",
+          "payment_period": "10년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형3년",
+          "insurance_period": "100세만기",
+          "payment_period": "10년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형3년",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형3년",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형3년",
+          "insurance_period": "100세만기",
+          "payment_period": "15년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형3년",
+          "insurance_period": "100세만기",
+          "payment_period": "15년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형3년",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형3년",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형3년",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형3년",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형4년",
+          "insurance_period": "90세만기",
+          "payment_period": "20년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 69
+        },
+        {
+          "sub_type": "간편가입형4년",
+          "insurance_period": "90세만기",
+          "payment_period": "20년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 69
+        },
+        {
+          "sub_type": "간편가입형4년",
+          "insurance_period": "90세만기",
+          "payment_period": "15년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 74
+        },
+        {
+          "sub_type": "간편가입형4년",
+          "insurance_period": "90세만기",
+          "payment_period": "15년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 74
+        },
+        {
+          "sub_type": "간편가입형4년",
+          "insurance_period": "90세만기",
+          "payment_period": "10년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "간편가입형4년",
+          "insurance_period": "90세만기",
+          "payment_period": "10년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "간편가입형4년",
+          "insurance_period": "100세만기",
+          "payment_period": "20년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "간편가입형4년",
+          "insurance_period": "100세만기",
+          "payment_period": "20년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "간편가입형4년",
+          "insurance_period": "100세만기",
+          "payment_period": "10년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형4년",
+          "insurance_period": "100세만기",
+          "payment_period": "10년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형4년",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형4년",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형4년",
+          "insurance_period": "100세만기",
+          "payment_period": "15년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형4년",
+          "insurance_period": "100세만기",
+          "payment_period": "15년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형4년",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형4년",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형4년",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형4년",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형5년",
+          "insurance_period": "90세만기",
+          "payment_period": "20년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 69
+        },
+        {
+          "sub_type": "간편가입형5년",
+          "insurance_period": "90세만기",
+          "payment_period": "20년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 69
+        },
+        {
+          "sub_type": "간편가입형5년",
+          "insurance_period": "90세만기",
+          "payment_period": "15년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 74
+        },
+        {
+          "sub_type": "간편가입형5년",
+          "insurance_period": "90세만기",
+          "payment_period": "15년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 74
+        },
+        {
+          "sub_type": "간편가입형5년",
+          "insurance_period": "90세만기",
+          "payment_period": "10년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "간편가입형5년",
+          "insurance_period": "90세만기",
+          "payment_period": "10년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "간편가입형5년",
+          "insurance_period": "100세만기",
+          "payment_period": "20년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "간편가입형5년",
+          "insurance_period": "100세만기",
+          "payment_period": "20년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "간편가입형5년",
+          "insurance_period": "100세만기",
+          "payment_period": "10년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형5년",
+          "insurance_period": "100세만기",
+          "payment_period": "10년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형5년",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형5년",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형5년",
+          "insurance_period": "100세만기",
+          "payment_period": "15년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형5년",
+          "insurance_period": "100세만기",
+          "payment_period": "15년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형5년",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형5년",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형5년",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형5년",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형10년",
+          "insurance_period": "90세만기",
+          "payment_period": "20년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 69
+        },
+        {
+          "sub_type": "간편가입형10년",
+          "insurance_period": "90세만기",
+          "payment_period": "20년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 69
+        },
+        {
+          "sub_type": "간편가입형10년",
+          "insurance_period": "90세만기",
+          "payment_period": "15년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 74
+        },
+        {
+          "sub_type": "간편가입형10년",
+          "insurance_period": "90세만기",
+          "payment_period": "15년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 74
+        },
+        {
+          "sub_type": "간편가입형10년",
+          "insurance_period": "90세만기",
+          "payment_period": "10년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "간편가입형10년",
+          "insurance_period": "90세만기",
+          "payment_period": "10년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "간편가입형10년",
+          "insurance_period": "100세만기",
+          "payment_period": "20년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "간편가입형10년",
+          "insurance_period": "100세만기",
+          "payment_period": "20년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "간편가입형10년",
+          "insurance_period": "100세만기",
+          "payment_period": "10년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형10년",
+          "insurance_period": "100세만기",
+          "payment_period": "10년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형10년",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형10년",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형10년",
+          "insurance_period": "100세만기",
+          "payment_period": "15년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형10년",
+          "insurance_period": "100세만기",
+          "payment_period": "15년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형10년",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형10년",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형10년",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "간편가입형10년",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "일반가입형Ⅱ",
+          "insurance_period": "90세만기",
+          "payment_period": "20년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 69
+        },
+        {
+          "sub_type": "일반가입형Ⅱ",
+          "insurance_period": "90세만기",
+          "payment_period": "20년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 69
+        },
+        {
+          "sub_type": "일반가입형Ⅱ",
+          "insurance_period": "90세만기",
+          "payment_period": "15년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 74
+        },
+        {
+          "sub_type": "일반가입형Ⅱ",
+          "insurance_period": "90세만기",
+          "payment_period": "15년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 74
+        },
+        {
+          "sub_type": "일반가입형Ⅱ",
+          "insurance_period": "90세만기",
+          "payment_period": "10년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "일반가입형Ⅱ",
+          "insurance_period": "90세만기",
+          "payment_period": "10년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "일반가입형Ⅱ",
+          "insurance_period": "100세만기",
+          "payment_period": "20년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "일반가입형Ⅱ",
+          "insurance_period": "100세만기",
+          "payment_period": "20년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "일반가입형Ⅱ",
+          "insurance_period": "100세만기",
+          "payment_period": "10년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "일반가입형Ⅱ",
+          "insurance_period": "100세만기",
+          "payment_period": "10년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "일반가입형Ⅱ",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "일반가입형Ⅱ",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "일반가입형Ⅱ",
+          "insurance_period": "100세만기",
+          "payment_period": "15년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "일반가입형Ⅱ",
+          "insurance_period": "100세만기",
+          "payment_period": "15년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "일반가입형Ⅱ",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "일반가입형Ⅱ",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "일반가입형Ⅱ",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "일반가입형Ⅱ",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "일반고지형일반가입형Ⅰ",
+          "insurance_period": "90세만기",
+          "payment_period": "20년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 69
+        },
+        {
+          "sub_type": "일반고지형일반가입형Ⅰ",
+          "insurance_period": "90세만기",
+          "payment_period": "20년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 69
+        },
+        {
+          "sub_type": "일반고지형일반가입형Ⅰ",
+          "insurance_period": "90세만기",
+          "payment_period": "15년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 74
+        },
+        {
+          "sub_type": "일반고지형일반가입형Ⅰ",
+          "insurance_period": "90세만기",
+          "payment_period": "15년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 74
+        },
+        {
+          "sub_type": "일반고지형일반가입형Ⅰ",
+          "insurance_period": "90세만기",
+          "payment_period": "10년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "일반고지형일반가입형Ⅰ",
+          "insurance_period": "90세만기",
+          "payment_period": "10년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "일반고지형일반가입형Ⅰ",
+          "insurance_period": "100세만기",
+          "payment_period": "20년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "일반고지형일반가입형Ⅰ",
+          "insurance_period": "100세만기",
+          "payment_period": "20년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 79
+        },
+        {
+          "sub_type": "일반고지형일반가입형Ⅰ",
+          "insurance_period": "100세만기",
+          "payment_period": "10년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "일반고지형일반가입형Ⅰ",
+          "insurance_period": "100세만기",
+          "payment_period": "10년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "일반고지형일반가입형Ⅰ",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "일반고지형일반가입형Ⅰ",
+          "insurance_period": "110세만기",
+          "payment_period": "10년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "일반고지형일반가입형Ⅰ",
+          "insurance_period": "100세만기",
+          "payment_period": "15년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "일반고지형일반가입형Ⅰ",
+          "insurance_period": "100세만기",
+          "payment_period": "15년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "일반고지형일반가입형Ⅰ",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "일반고지형일반가입형Ⅰ",
+          "insurance_period": "110세만기",
+          "payment_period": "15년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "일반고지형일반가입형Ⅰ",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "남자",
+          "min_age": 15,
+          "max_age": 80
+        },
+        {
+          "sub_type": "일반고지형일반가입형Ⅰ",
+          "insurance_period": "110세만기",
+          "payment_period": "20년납",
+          "gender": "여자",
+          "min_age": 15,
+          "max_age": 80
+        }
+      ]
+    }
+  },
+  "1764030": {
+    "extract_age_table": {
+      "fixed_data": [
+        {
+          "sub_type": "1종(순수형)",
+          "insurance_period": "3년만기",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 15,
+          "max_age": 70
+        },
+        {
+          "sub_type": "2종(50%환급형)",
+          "insurance_period": "10년만기",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 15,
+          "max_age": 70
+        },
+        {
+          "sub_type": "2종(50%환급형)",
+          "insurance_period": "15년만기",
+          "payment_period": "10년납",
+          "gender": "남녀공통",
+          "min_age": 15,
+          "max_age": 70
+        },
+        {
+          "sub_type": "2종(50%환급형)",
+          "insurance_period": "15년만기",
+          "payment_period": "15년납",
+          "gender": "남녀공통",
+          "min_age": 15,
+          "max_age": 70
+        },
+        {
+          "sub_type": "3종(70%환급형)",
+          "insurance_period": "10년만기",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 15,
+          "max_age": 70
+        },
+        {
+          "sub_type": "3종(70%환급형)",
+          "insurance_period": "15년만기",
+          "payment_period": "10년납",
+          "gender": "남녀공통",
+          "min_age": 15,
+          "max_age": 70
+        },
+        {
+          "sub_type": "3종(70%환급형)",
+          "insurance_period": "15년만기",
+          "payment_period": "15년납",
+          "gender": "남녀공통",
+          "min_age": 15,
+          "max_age": 70
+        },
+        {
+          "sub_type": "4종(100%환급형)",
+          "insurance_period": "10년만기",
+          "payment_period": "전기납",
+          "gender": "남녀공통",
+          "min_age": 15,
+          "max_age": 70
+        },
+        {
+          "sub_type": "4종(100%환급형)",
+          "insurance_period": "15년만기",
+          "payment_period": "10년납",
+          "gender": "남녀공통",
+          "min_age": 15,
+          "max_age": 70
+        },
+        {
+          "sub_type": "4종(100%환급형)",
+          "insurance_period": "15년만기",
+          "payment_period": "15년납",
+          "gender": "남녀공통",
+          "min_age": 15,
+          "max_age": 70
+        }
+      ],
+      "aggregate_paym_term": true
+    },
+    "extract_period_table": {
+      "fixed_data": [
+        {
+          "sub_type": "1종(순수형)",
+          "insurance_period": "3년만기",
+          "payment_period": "전기납"
+        },
+        {
+          "sub_type": "2종(50%환급형)",
+          "insurance_period": "10년만기",
+          "payment_period": "전기납"
+        },
+        {
+          "sub_type": "2종(50%환급형)",
+          "insurance_period": "15년만기",
+          "payment_period": "10년납"
+        },
+        {
+          "sub_type": "2종(50%환급형)",
+          "insurance_period": "15년만기",
+          "payment_period": "15년납"
+        },
+        {
+          "sub_type": "3종(70%환급형)",
+          "insurance_period": "10년만기",
+          "payment_period": "전기납"
+        },
+        {
+          "sub_type": "3종(70%환급형)",
+          "insurance_period": "15년만기",
+          "payment_period": "10년납"
+        },
+        {
+          "sub_type": "3종(70%환급형)",
+          "insurance_period": "15년만기",
+          "payment_period": "15년납"
+        },
+        {
+          "sub_type": "4종(100%환급형)",
+          "insurance_period": "10년만기",
+          "payment_period": "전기납"
+        },
+        {
+          "sub_type": "4종(100%환급형)",
+          "insurance_period": "15년만기",
+          "payment_period": "10년납"
+        },
+        {
+          "sub_type": "4종(100%환급형)",
+          "insurance_period": "15년만기",
+          "payment_period": "15년납"
+        }
+      ]
+    }
+  },
+  "1796010": {
+    "extract_age_table": {
+      "additional_rows": [
+        {
+          "sub_type": "기본형",
+          "insurance_period": "10년만기",
+          "payment_period": "10년납",
+          "gender": "남녀공통",
+          "min_age": 15,
+          "max_age": 68
+        },
+        {
+          "sub_type": "기본형",
+          "insurance_period": "20년만기",
+          "payment_period": "10년납",
+          "gender": "남녀공통",
+          "min_age": 15,
+          "max_age": 60
+        },
+        {
+          "sub_type": "기본형",
+          "insurance_period": "20년만기",
+          "payment_period": "15년납",
+          "gender": "남녀공통",
+          "min_age": 15,
+          "max_age": 60
+        },
+        {
+          "sub_type": "기본형",
+          "insurance_period": "20년만기",
+          "payment_period": "20년납",
+          "gender": "남녀공통",
+          "min_age": 15,
+          "max_age": 60
+        }
+      ],
+      "aggregate_paym_term": true
+    }
+  },
+  "_tpin_overrides": {
+    "_comment": "DTCD별 TPIN(제3피보험자) 컬럼 기본값. generate_intermediate.py에서 setdefault에 사용.",
+    "2207": {
+      "TPIN_STRT_AG_INQY_CODE": "N8",
+      "TPIN_STRT_DVSN_CODE": "N",
+      "TPIN_STRT_DVSN_VAL": "8"
+    },
+    "2208": {
+      "TPIN_STRT_AG_INQY_CODE": "N8",
+      "TPIN_STRT_DVSN_CODE": "N",
+      "TPIN_STRT_DVSN_VAL": "8"
+    },
+    "2209": {
+      "TPIN_STRT_AG_INQY_CODE": "N7",
+      "TPIN_STRT_DVSN_CODE": "N",
+      "TPIN_STRT_DVSN_VAL": "7"
+    },
+    "2210": {
+      "TPIN_STRT_AG_INQY_CODE": "N7",
+      "TPIN_STRT_DVSN_CODE": "N",
+      "TPIN_STRT_DVSN_VAL": "7"
+    },
+    "2250": {
+      "TPIN_STRT_AG_INQY_CODE": "N15",
+      "TPIN_STRT_DVSN_CODE": "N",
+      "TPIN_STRT_DVSN_VAL": "15"
+    },
+    "2251": {
+      "TPIN_STRT_AG_INQY_CODE": "N15",
+      "TPIN_STRT_DVSN_CODE": "N",
+      "TPIN_STRT_DVSN_VAL": "15"
+    }
+  },
+  "_spin_formulas": {
+    "_comment": "DTCD별 SPIN_STRT_AG 계산 공식. generate_intermediate.py에서 사용.",
+    "1772": {
+      "S00026": {
+        "x_paym_is_spin": true,
+        "n_paym": {
+          "type": "max_ag_plus_paym_term"
+        }
+      },
+      "S00027": {
+        "x_paym_is_spin": true,
+        "per_itcd": {
+          "029": {
+            "type": "paym_term_range",
+            "min": 55,
+            "max": 80
+          },
+          "030": {
+            "type": "isrn_term_minus",
+            "delta": 10
+          },
+          "031": {
+            "type": "isrn_term_minus",
+            "delta": 15
+          },
+          "032": {
+            "type": "isrn_term_minus",
+            "delta": 20
+          }
+        }
+      }
+    },
+    "2259": {
+      "S00027": {
+        "per_itcd": {
+          "805": {
+            "type": "isrn_term_minus",
+            "delta": 5
+          },
+          "806": {
+            "type": "isrn_term_minus",
+            "delta": 10
+          },
+          "807": {
+            "type": "isrn_term_minus",
+            "delta": 20
+          },
+          "808": {
+            "type": "isrn_term_minus",
+            "delta": 5
+          },
+          "809": {
+            "type": "isrn_term_minus",
+            "delta": 10
+          },
+          "810": {
+            "type": "isrn_term_minus",
+            "delta": 15
+          },
+          "811": {
+            "type": "isrn_term_minus",
+            "delta": 20
+          }
+        }
+      }
+    },
+    "1833": {
+      "S00026": {
+        "x_paym_is_spin": true,
+        "n_paym": {
+          "type": "max_ag_plus_paym_offset",
+          "offsets": {
+            "7": 12,
+            "10": 14,
+            "15": 18,
+            "20": 23
+          }
+        }
+      },
+      "S00027": {
+        "x_paym_is_spin": true,
+        "per_itcd": {
+          "025": {
+            "type": "paym_term_range",
+            "min": 45,
+            "max": 80
+          }
+        }
+      }
+    },
+    "1758": {
+      "S00026": {
+        "geochi": {
+          "offset": 5
+        },
+        "n_paym": {
+          "type": "max_ag_plus_paym_offset",
+          "offsets": {
+            "3": 5,
+            "5": 10,
+            "7": 10,
+            "10": 10,
+            "15": 15,
+            "20": 20
+          }
+        }
+      },
+      "S00027": {
+        "per_itcd": {
+          "232": {
+            "type": "paym_term_range",
+            "min": 45,
+            "max": 90
+          },
+          "233": {
+            "type": "paym_term_range",
+            "min": 45,
+            "max": 90
+          },
+          "234": {
+            "type": "paym_term_range",
+            "min": 45,
+            "max": 90
+          }
+        }
+      }
+    },
+    "2042": {
+      "S00026": {
+        "geochi": {
+          "offset": 5
+        },
+        "n_paym": {
+          "type": "max_ag_plus_paym_offset",
+          "offsets": {
+            "3": 5,
+            "5": 10,
+            "7": 10
+          }
+        }
+      },
+      "S00027": {
+        "per_itcd": {
+          "056": {
+            "type": "paym_term_range",
+            "min": 45,
+            "max": 90
+          },
+          "057": {
+            "type": "paym_term_range",
+            "min": 45,
+            "max": 90
+          }
+        }
+      }
+    },
+    "1228": {
+      "S00026": {
+        "x_paym_is_spin": true,
+        "n_paym": {
+          "type": "max_ag_plus_paym_term"
+        }
+      },
+      "S00027": {
+        "x_paym_is_spin": true,
+        "n_paym": {
+          "type": "paym_term_range",
+          "min": 55,
+          "max": 80
+        }
+      }
+    },
+    "1629": {
+      "S00026": {
+        "x_paym_is_spin": true,
+        "n_paym": {
+          "type": "max_ag_plus_paym_term"
+        }
+      },
+      "S00027": {
+        "x_paym_is_spin": true,
+        "per_itcd": {
+          "088": {
+            "type": "paym_term_range",
+            "min": 55,
+            "max": 80
+          },
+          "089": {
+            "type": "isrn_term_minus",
+            "delta": 5
+          },
+          "090": {
+            "type": "isrn_term_minus",
+            "delta": 10
+          },
+          "091": {
+            "type": "isrn_term_minus",
+            "delta": 15
+          },
+          "092": {
+            "type": "isrn_term_minus",
+            "delta": 20
+          },
+          "093": {
+            "type": "isrn_term_minus",
+            "delta": 25
+          },
+          "094": {
+            "type": "isrn_term_minus",
+            "delta": 30
+          }
+        }
+      }
+    }
+  },
+  "_gender_overrides": {
+    "_comment": "DTCD별 성별코드 오버라이드. sub_type 부분매칭 + MIN_AG 기반 MINU_GNDR_CODE 할당.",
+    "2259": {
+      "S00026": [
+        {
+          "sub_type_contains": "신부부형",
+          "by_min_ag": [
+            {
+              "min_ag": 45,
+              "gndr_code": "2"
+            },
+            {
+              "min_ag": 48,
+              "gndr_code": "1"
+            }
+          ]
+        }
+      ],
+      "S00022": [
+        {
+          "sub_type_contains": "",
+          "itcd_filter": [
+            "803"
+          ],
+          "expand_by_spin_val": {
+            "female_only_max": 47,
+            "both_min": 48,
+            "male_only_min": 83,
+            "gurt_values": [
+              0,
+              30
+            ]
+          }
+        }
+      ]
+    },
+    "1833": {
+      "S00022": [
+        {
+          "sub_type_contains": "",
+          "expand_by_spin_val": {
+            "female_only_max": 47,
+            "both_min": 48
+          }
+        }
+      ],
+      "S00027": [
+        {
+          "sub_type_contains": "",
+          "x_expand_by_paym": {
+            "female_only_max": 47,
+            "both_min": 48
+          },
+          "n_expand": {
+            "male": {
+              "spin_min": 48,
+              "spin_max": 80
+            },
+            "female": {
+              "spin_min": 45,
+              "spin_max": 80
+            }
+          },
+          "itcd_filter": [
+            "026"
+          ]
+        }
+      ]
+    }
+  },
+  "_minu_ag_formulas": {
+    "_comment": "DTCD별 MINU_MIN_AG/MINU_MAX_AG 계산 공식. spin_strt_dvsn_val: MINU_MIN_AG=MINU_MAX_AG=SPIN_STRT_DVSN_VAL",
+    "2259": {
+      "S00022": "spin_strt_dvsn_val"
+    }
+  },
+  "_skip_prod_itcds": {
+    "_comment": "DTCD별 테이블별 스킵할 PROD_ITCD 목록. GT에 없는 제품코드를 중간파일에서 제외.",
+    "2259": {
+      "S00022": [
+        "851",
+        "852",
+        "853",
+        "854",
+        "855",
+        "856",
+        "857",
+        "858",
+        "859",
+        "860",
+        "861"
+      ]
+    }
+  },
+  "1228": {
+    "S00026": {
+      "_sub_type_filter": [
+        "기본형"
+      ],
+      "_max_ag_limit_by_paym": {
+        "5": 75,
+        "7": 73,
+        "10": 70,
+        "15": 65,
+        "20": 60,
+        "X": 70,
+        "": "skip"
+      }
+    }
+  },
+  "1629": {
+    "S00026": {
+      "_sub_type_filter": [
+        "기본형"
+      ],
+      "_max_ag_limit_by_paym": {
+        "5": 75,
+        "7": 73,
+        "10": 70,
+        "15": 65,
+        "20": 60,
+        "X": 70,
+        "": "skip"
+      }
+    }
+  },
+  "1758": {
+    "S00026": {
+      "_pm_paym_filter": {
+        "적립형": [
+          "N",
+          "X"
+        ],
+        "거치형": [
+          ""
+        ]
+      }
+    }
+  },
+  "2042": {
+    "S00026": {
+      "_pm_paym_filter": {
+        "거치형": [
+          ""
+        ],
+        "적립형": [
+          "N",
+          "X"
+        ]
+      }
+    }
   }
 }

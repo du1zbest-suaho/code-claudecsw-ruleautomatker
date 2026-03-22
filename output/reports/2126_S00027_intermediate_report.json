@@ -1,0 +1,1071 @@
+{
+  "dtcd": "2126",
+  "table_type": "S00027",
+  "intermediate_path": "output/extracted/2126_S00027_intermediate.xlsx",
+  "generated_at": "2026-03-23T00:10:56.396129",
+  "all_pass": false,
+  "total_miss_cnt": 5,
+  "total_extra_cnt": 84,
+  "itcd_results": [
+    {
+      "isrn_kind_itcd": "A01",
+      "prod_itcd": "001",
+      "gt_cnt": 14,
+      "ex_cnt": 42,
+      "match_cnt": 14,
+      "miss_cnt": 0,
+      "extra_cnt": 28,
+      "mismatch_cnt": 0,
+      "pass": false,
+      "reason": "추출과잉(GT:14건/중간:42건, 초과28건) | 종신코드(A999) 과잉(GT미등록 종신기간 행 포함 — 보험기간 분류 확인 필요) | 납기과잉(추출에만:A999/N10/N20/N30/N5/N7...) | 전체 GT대비 3.0배 초과",
+      "active_cols": [
+        "ISRN_TERM_INQY_CODE",
+        "PAYM_TERM_INQY_CODE",
+        "ISRN_TERM_DVSN_CODE",
+        "ISRN_TERM",
+        "PAYM_TERM_DVSN_CODE",
+        "PAYM_TERM",
+        "MINU_MIN_AG",
+        "MINU_MAX_AG",
+        "MIN_FPIN",
+        "MAX_FPIN",
+        "FPIN_DVSN_CODE",
+        "MINU_GNDR_CODE",
+        "STAR_CTDT",
+        "END_CTDT",
+        "MIN_SPIN_STRT_AG",
+        "MAX_SPIN_STRT_AG",
+        "SPIN_STRT_AG_DVSN_CODE",
+        "AINU_MIN_AG",
+        "AINU_MAX_AG",
+        "MIN_MTPM_PREM",
+        "MAX_MTPM_PREM",
+        "CHLR_ODN1_MIN_AG",
+        "CHLR_ODN1_MAX_AG",
+        "MNTH_PAYM_YN",
+        "AINU_GNDR_CODE",
+        "MIN_PAYM_CYCL_VAL",
+        "MAX_PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE",
+        "CHLR_ODN1_GNDR_CODE",
+        "MIN_POLR_AG",
+        "MAX_POLR_AG",
+        "CRTN_GURT_OTPY_TERM",
+        "CHLR_ODN2_MIN_AG",
+        "CHLR_ODN2_MAX_AG",
+        "MIN_DPND_AG",
+        "MAX_DPND_AG",
+        "PURT_RSTY_YN",
+        "BEFO_CNTC_MIN_ISRN_TERM",
+        "BEFO_CNTC_MAX_ISRN_TERM",
+        "BEFO_CNTC_ISRN_TERM_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [
+        {
+          "ISRN_TERM_INQY_CODE": "A999",
+          "PAYM_TERM_INQY_CODE": "A999",
+          "ISRN_TERM_DVSN_CODE": "A",
+          "ISRN_TERM": "999",
+          "PAYM_TERM_DVSN_CODE": "A",
+          "PAYM_TERM": "999"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "A999",
+          "PAYM_TERM_INQY_CODE": "N10",
+          "ISRN_TERM_DVSN_CODE": "A",
+          "ISRN_TERM": "999",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "10"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "A999",
+          "PAYM_TERM_INQY_CODE": "N20",
+          "ISRN_TERM_DVSN_CODE": "A",
+          "ISRN_TERM": "999",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "20"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "A999",
+          "PAYM_TERM_INQY_CODE": "N30",
+          "ISRN_TERM_DVSN_CODE": "A",
+          "ISRN_TERM": "999",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "30"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "A999",
+          "PAYM_TERM_INQY_CODE": "N5",
+          "ISRN_TERM_DVSN_CODE": "A",
+          "ISRN_TERM": "999",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "5"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "A999",
+          "PAYM_TERM_INQY_CODE": "N7",
+          "ISRN_TERM_DVSN_CODE": "A",
+          "ISRN_TERM": "999",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "7"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "A999",
+          "PAYM_TERM_INQY_CODE": "X20",
+          "ISRN_TERM_DVSN_CODE": "A",
+          "ISRN_TERM": "999",
+          "PAYM_TERM_DVSN_CODE": "X",
+          "PAYM_TERM": "20"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "A999",
+          "PAYM_TERM_INQY_CODE": "X30",
+          "ISRN_TERM_DVSN_CODE": "A",
+          "ISRN_TERM": "999",
+          "PAYM_TERM_DVSN_CODE": "X",
+          "PAYM_TERM": "30"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "N20",
+          "PAYM_TERM_INQY_CODE": "A999",
+          "ISRN_TERM_DVSN_CODE": "N",
+          "ISRN_TERM": "20",
+          "PAYM_TERM_DVSN_CODE": "A",
+          "PAYM_TERM": "999"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "N20",
+          "PAYM_TERM_INQY_CODE": "N10",
+          "ISRN_TERM_DVSN_CODE": "N",
+          "ISRN_TERM": "20",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "10"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "N20",
+          "PAYM_TERM_INQY_CODE": "N20",
+          "ISRN_TERM_DVSN_CODE": "N",
+          "ISRN_TERM": "20",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "20"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "N20",
+          "PAYM_TERM_INQY_CODE": "N5",
+          "ISRN_TERM_DVSN_CODE": "N",
+          "ISRN_TERM": "20",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "5"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "N20",
+          "PAYM_TERM_INQY_CODE": "N7",
+          "ISRN_TERM_DVSN_CODE": "N",
+          "ISRN_TERM": "20",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "7"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "N20",
+          "PAYM_TERM_INQY_CODE": "X20",
+          "ISRN_TERM_DVSN_CODE": "N",
+          "ISRN_TERM": "20",
+          "PAYM_TERM_DVSN_CODE": "X",
+          "PAYM_TERM": "20"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "N20",
+          "PAYM_TERM_INQY_CODE": "X30",
+          "ISRN_TERM_DVSN_CODE": "N",
+          "ISRN_TERM": "20",
+          "PAYM_TERM_DVSN_CODE": "X",
+          "PAYM_TERM": "30"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X1",
+          "PAYM_TERM_INQY_CODE": "A999",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "1",
+          "PAYM_TERM_DVSN_CODE": "A",
+          "PAYM_TERM": "999"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X1",
+          "PAYM_TERM_INQY_CODE": "N10",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "1",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "10"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X1",
+          "PAYM_TERM_INQY_CODE": "N20",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "1",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "20"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X1",
+          "PAYM_TERM_INQY_CODE": "N30",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "1",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "30"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X1",
+          "PAYM_TERM_INQY_CODE": "N5",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "1",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "5"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X1",
+          "PAYM_TERM_INQY_CODE": "N7",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "1",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "7"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X1",
+          "PAYM_TERM_INQY_CODE": "X1",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "1",
+          "PAYM_TERM_DVSN_CODE": "X",
+          "PAYM_TERM": "1"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X1",
+          "PAYM_TERM_INQY_CODE": "X20",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "1",
+          "PAYM_TERM_DVSN_CODE": "X",
+          "PAYM_TERM": "20"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X1",
+          "PAYM_TERM_INQY_CODE": "X30",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "1",
+          "PAYM_TERM_DVSN_CODE": "X",
+          "PAYM_TERM": "30"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X100",
+          "PAYM_TERM_INQY_CODE": "A999",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "100",
+          "PAYM_TERM_DVSN_CODE": "A",
+          "PAYM_TERM": "999"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X100",
+          "PAYM_TERM_INQY_CODE": "X100",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "100",
+          "PAYM_TERM_DVSN_CODE": "X",
+          "PAYM_TERM": "100"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X90",
+          "PAYM_TERM_INQY_CODE": "A999",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "90",
+          "PAYM_TERM_DVSN_CODE": "A",
+          "PAYM_TERM": "999"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X90",
+          "PAYM_TERM_INQY_CODE": "X90",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "90",
+          "PAYM_TERM_DVSN_CODE": "X",
+          "PAYM_TERM": "90"
+        }
+      ],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "A02",
+      "prod_itcd": "002",
+      "gt_cnt": 14,
+      "ex_cnt": 42,
+      "match_cnt": 14,
+      "miss_cnt": 0,
+      "extra_cnt": 28,
+      "mismatch_cnt": 0,
+      "pass": false,
+      "reason": "추출과잉(GT:14건/중간:42건, 초과28건) | 종신코드(A999) 과잉(GT미등록 종신기간 행 포함 — 보험기간 분류 확인 필요) | 납기과잉(추출에만:A999/N10/N20/N30/N5/N7...) | 전체 GT대비 3.0배 초과",
+      "active_cols": [
+        "ISRN_TERM_INQY_CODE",
+        "PAYM_TERM_INQY_CODE",
+        "ISRN_TERM_DVSN_CODE",
+        "ISRN_TERM",
+        "PAYM_TERM_DVSN_CODE",
+        "PAYM_TERM",
+        "MINU_MIN_AG",
+        "MINU_MAX_AG",
+        "MIN_FPIN",
+        "MAX_FPIN",
+        "FPIN_DVSN_CODE",
+        "MINU_GNDR_CODE",
+        "STAR_CTDT",
+        "END_CTDT",
+        "MIN_SPIN_STRT_AG",
+        "MAX_SPIN_STRT_AG",
+        "SPIN_STRT_AG_DVSN_CODE",
+        "AINU_MIN_AG",
+        "AINU_MAX_AG",
+        "MIN_MTPM_PREM",
+        "MAX_MTPM_PREM",
+        "CHLR_ODN1_MIN_AG",
+        "CHLR_ODN1_MAX_AG",
+        "MNTH_PAYM_YN",
+        "AINU_GNDR_CODE",
+        "MIN_PAYM_CYCL_VAL",
+        "MAX_PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE",
+        "CHLR_ODN1_GNDR_CODE",
+        "MIN_POLR_AG",
+        "MAX_POLR_AG",
+        "CRTN_GURT_OTPY_TERM",
+        "CHLR_ODN2_MIN_AG",
+        "CHLR_ODN2_MAX_AG",
+        "MIN_DPND_AG",
+        "MAX_DPND_AG",
+        "PURT_RSTY_YN",
+        "BEFO_CNTC_MIN_ISRN_TERM",
+        "BEFO_CNTC_MAX_ISRN_TERM",
+        "BEFO_CNTC_ISRN_TERM_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [
+        {
+          "ISRN_TERM_INQY_CODE": "A999",
+          "PAYM_TERM_INQY_CODE": "A999",
+          "ISRN_TERM_DVSN_CODE": "A",
+          "ISRN_TERM": "999",
+          "PAYM_TERM_DVSN_CODE": "A",
+          "PAYM_TERM": "999"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "A999",
+          "PAYM_TERM_INQY_CODE": "N10",
+          "ISRN_TERM_DVSN_CODE": "A",
+          "ISRN_TERM": "999",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "10"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "A999",
+          "PAYM_TERM_INQY_CODE": "N20",
+          "ISRN_TERM_DVSN_CODE": "A",
+          "ISRN_TERM": "999",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "20"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "A999",
+          "PAYM_TERM_INQY_CODE": "N30",
+          "ISRN_TERM_DVSN_CODE": "A",
+          "ISRN_TERM": "999",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "30"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "A999",
+          "PAYM_TERM_INQY_CODE": "N5",
+          "ISRN_TERM_DVSN_CODE": "A",
+          "ISRN_TERM": "999",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "5"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "A999",
+          "PAYM_TERM_INQY_CODE": "N7",
+          "ISRN_TERM_DVSN_CODE": "A",
+          "ISRN_TERM": "999",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "7"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "A999",
+          "PAYM_TERM_INQY_CODE": "X20",
+          "ISRN_TERM_DVSN_CODE": "A",
+          "ISRN_TERM": "999",
+          "PAYM_TERM_DVSN_CODE": "X",
+          "PAYM_TERM": "20"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "A999",
+          "PAYM_TERM_INQY_CODE": "X30",
+          "ISRN_TERM_DVSN_CODE": "A",
+          "ISRN_TERM": "999",
+          "PAYM_TERM_DVSN_CODE": "X",
+          "PAYM_TERM": "30"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "N20",
+          "PAYM_TERM_INQY_CODE": "A999",
+          "ISRN_TERM_DVSN_CODE": "N",
+          "ISRN_TERM": "20",
+          "PAYM_TERM_DVSN_CODE": "A",
+          "PAYM_TERM": "999"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "N20",
+          "PAYM_TERM_INQY_CODE": "N10",
+          "ISRN_TERM_DVSN_CODE": "N",
+          "ISRN_TERM": "20",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "10"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "N20",
+          "PAYM_TERM_INQY_CODE": "N20",
+          "ISRN_TERM_DVSN_CODE": "N",
+          "ISRN_TERM": "20",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "20"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "N20",
+          "PAYM_TERM_INQY_CODE": "N5",
+          "ISRN_TERM_DVSN_CODE": "N",
+          "ISRN_TERM": "20",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "5"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "N20",
+          "PAYM_TERM_INQY_CODE": "N7",
+          "ISRN_TERM_DVSN_CODE": "N",
+          "ISRN_TERM": "20",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "7"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "N20",
+          "PAYM_TERM_INQY_CODE": "X20",
+          "ISRN_TERM_DVSN_CODE": "N",
+          "ISRN_TERM": "20",
+          "PAYM_TERM_DVSN_CODE": "X",
+          "PAYM_TERM": "20"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "N20",
+          "PAYM_TERM_INQY_CODE": "X30",
+          "ISRN_TERM_DVSN_CODE": "N",
+          "ISRN_TERM": "20",
+          "PAYM_TERM_DVSN_CODE": "X",
+          "PAYM_TERM": "30"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X1",
+          "PAYM_TERM_INQY_CODE": "A999",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "1",
+          "PAYM_TERM_DVSN_CODE": "A",
+          "PAYM_TERM": "999"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X1",
+          "PAYM_TERM_INQY_CODE": "N10",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "1",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "10"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X1",
+          "PAYM_TERM_INQY_CODE": "N20",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "1",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "20"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X1",
+          "PAYM_TERM_INQY_CODE": "N30",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "1",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "30"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X1",
+          "PAYM_TERM_INQY_CODE": "N5",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "1",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "5"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X1",
+          "PAYM_TERM_INQY_CODE": "N7",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "1",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "7"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X1",
+          "PAYM_TERM_INQY_CODE": "X1",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "1",
+          "PAYM_TERM_DVSN_CODE": "X",
+          "PAYM_TERM": "1"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X1",
+          "PAYM_TERM_INQY_CODE": "X20",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "1",
+          "PAYM_TERM_DVSN_CODE": "X",
+          "PAYM_TERM": "20"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X1",
+          "PAYM_TERM_INQY_CODE": "X30",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "1",
+          "PAYM_TERM_DVSN_CODE": "X",
+          "PAYM_TERM": "30"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X100",
+          "PAYM_TERM_INQY_CODE": "A999",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "100",
+          "PAYM_TERM_DVSN_CODE": "A",
+          "PAYM_TERM": "999"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X100",
+          "PAYM_TERM_INQY_CODE": "X100",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "100",
+          "PAYM_TERM_DVSN_CODE": "X",
+          "PAYM_TERM": "100"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X90",
+          "PAYM_TERM_INQY_CODE": "A999",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "90",
+          "PAYM_TERM_DVSN_CODE": "A",
+          "PAYM_TERM": "999"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X90",
+          "PAYM_TERM_INQY_CODE": "X90",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "90",
+          "PAYM_TERM_DVSN_CODE": "X",
+          "PAYM_TERM": "90"
+        }
+      ],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "A03",
+      "prod_itcd": "003",
+      "gt_cnt": 14,
+      "ex_cnt": 42,
+      "match_cnt": 14,
+      "miss_cnt": 0,
+      "extra_cnt": 28,
+      "mismatch_cnt": 0,
+      "pass": false,
+      "reason": "추출과잉(GT:14건/중간:42건, 초과28건) | 종신코드(A999) 과잉(GT미등록 종신기간 행 포함 — 보험기간 분류 확인 필요) | 납기과잉(추출에만:A999/N10/N20/N30/N5/N7...) | 전체 GT대비 3.0배 초과",
+      "active_cols": [
+        "ISRN_TERM_INQY_CODE",
+        "PAYM_TERM_INQY_CODE",
+        "ISRN_TERM_DVSN_CODE",
+        "ISRN_TERM",
+        "PAYM_TERM_DVSN_CODE",
+        "PAYM_TERM",
+        "MINU_MIN_AG",
+        "MINU_MAX_AG",
+        "MIN_FPIN",
+        "MAX_FPIN",
+        "FPIN_DVSN_CODE",
+        "MINU_GNDR_CODE",
+        "STAR_CTDT",
+        "END_CTDT",
+        "MIN_SPIN_STRT_AG",
+        "MAX_SPIN_STRT_AG",
+        "SPIN_STRT_AG_DVSN_CODE",
+        "AINU_MIN_AG",
+        "AINU_MAX_AG",
+        "MIN_MTPM_PREM",
+        "MAX_MTPM_PREM",
+        "CHLR_ODN1_MIN_AG",
+        "CHLR_ODN1_MAX_AG",
+        "MNTH_PAYM_YN",
+        "AINU_GNDR_CODE",
+        "MIN_PAYM_CYCL_VAL",
+        "MAX_PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE",
+        "CHLR_ODN1_GNDR_CODE",
+        "MIN_POLR_AG",
+        "MAX_POLR_AG",
+        "CRTN_GURT_OTPY_TERM",
+        "CHLR_ODN2_MIN_AG",
+        "CHLR_ODN2_MAX_AG",
+        "MIN_DPND_AG",
+        "MAX_DPND_AG",
+        "PURT_RSTY_YN",
+        "BEFO_CNTC_MIN_ISRN_TERM",
+        "BEFO_CNTC_MAX_ISRN_TERM",
+        "BEFO_CNTC_ISRN_TERM_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [
+        {
+          "ISRN_TERM_INQY_CODE": "A999",
+          "PAYM_TERM_INQY_CODE": "A999",
+          "ISRN_TERM_DVSN_CODE": "A",
+          "ISRN_TERM": "999",
+          "PAYM_TERM_DVSN_CODE": "A",
+          "PAYM_TERM": "999"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "A999",
+          "PAYM_TERM_INQY_CODE": "N10",
+          "ISRN_TERM_DVSN_CODE": "A",
+          "ISRN_TERM": "999",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "10"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "A999",
+          "PAYM_TERM_INQY_CODE": "N20",
+          "ISRN_TERM_DVSN_CODE": "A",
+          "ISRN_TERM": "999",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "20"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "A999",
+          "PAYM_TERM_INQY_CODE": "N30",
+          "ISRN_TERM_DVSN_CODE": "A",
+          "ISRN_TERM": "999",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "30"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "A999",
+          "PAYM_TERM_INQY_CODE": "N5",
+          "ISRN_TERM_DVSN_CODE": "A",
+          "ISRN_TERM": "999",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "5"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "A999",
+          "PAYM_TERM_INQY_CODE": "N7",
+          "ISRN_TERM_DVSN_CODE": "A",
+          "ISRN_TERM": "999",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "7"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "A999",
+          "PAYM_TERM_INQY_CODE": "X20",
+          "ISRN_TERM_DVSN_CODE": "A",
+          "ISRN_TERM": "999",
+          "PAYM_TERM_DVSN_CODE": "X",
+          "PAYM_TERM": "20"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "A999",
+          "PAYM_TERM_INQY_CODE": "X30",
+          "ISRN_TERM_DVSN_CODE": "A",
+          "ISRN_TERM": "999",
+          "PAYM_TERM_DVSN_CODE": "X",
+          "PAYM_TERM": "30"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "N20",
+          "PAYM_TERM_INQY_CODE": "A999",
+          "ISRN_TERM_DVSN_CODE": "N",
+          "ISRN_TERM": "20",
+          "PAYM_TERM_DVSN_CODE": "A",
+          "PAYM_TERM": "999"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "N20",
+          "PAYM_TERM_INQY_CODE": "N10",
+          "ISRN_TERM_DVSN_CODE": "N",
+          "ISRN_TERM": "20",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "10"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "N20",
+          "PAYM_TERM_INQY_CODE": "N20",
+          "ISRN_TERM_DVSN_CODE": "N",
+          "ISRN_TERM": "20",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "20"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "N20",
+          "PAYM_TERM_INQY_CODE": "N5",
+          "ISRN_TERM_DVSN_CODE": "N",
+          "ISRN_TERM": "20",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "5"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "N20",
+          "PAYM_TERM_INQY_CODE": "N7",
+          "ISRN_TERM_DVSN_CODE": "N",
+          "ISRN_TERM": "20",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "7"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "N20",
+          "PAYM_TERM_INQY_CODE": "X20",
+          "ISRN_TERM_DVSN_CODE": "N",
+          "ISRN_TERM": "20",
+          "PAYM_TERM_DVSN_CODE": "X",
+          "PAYM_TERM": "20"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "N20",
+          "PAYM_TERM_INQY_CODE": "X30",
+          "ISRN_TERM_DVSN_CODE": "N",
+          "ISRN_TERM": "20",
+          "PAYM_TERM_DVSN_CODE": "X",
+          "PAYM_TERM": "30"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X1",
+          "PAYM_TERM_INQY_CODE": "A999",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "1",
+          "PAYM_TERM_DVSN_CODE": "A",
+          "PAYM_TERM": "999"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X1",
+          "PAYM_TERM_INQY_CODE": "N10",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "1",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "10"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X1",
+          "PAYM_TERM_INQY_CODE": "N20",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "1",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "20"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X1",
+          "PAYM_TERM_INQY_CODE": "N30",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "1",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "30"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X1",
+          "PAYM_TERM_INQY_CODE": "N5",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "1",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "5"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X1",
+          "PAYM_TERM_INQY_CODE": "N7",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "1",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "7"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X1",
+          "PAYM_TERM_INQY_CODE": "X1",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "1",
+          "PAYM_TERM_DVSN_CODE": "X",
+          "PAYM_TERM": "1"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X1",
+          "PAYM_TERM_INQY_CODE": "X20",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "1",
+          "PAYM_TERM_DVSN_CODE": "X",
+          "PAYM_TERM": "20"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X1",
+          "PAYM_TERM_INQY_CODE": "X30",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "1",
+          "PAYM_TERM_DVSN_CODE": "X",
+          "PAYM_TERM": "30"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X100",
+          "PAYM_TERM_INQY_CODE": "A999",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "100",
+          "PAYM_TERM_DVSN_CODE": "A",
+          "PAYM_TERM": "999"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X100",
+          "PAYM_TERM_INQY_CODE": "X100",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "100",
+          "PAYM_TERM_DVSN_CODE": "X",
+          "PAYM_TERM": "100"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X90",
+          "PAYM_TERM_INQY_CODE": "A999",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "90",
+          "PAYM_TERM_DVSN_CODE": "A",
+          "PAYM_TERM": "999"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X90",
+          "PAYM_TERM_INQY_CODE": "X90",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "90",
+          "PAYM_TERM_DVSN_CODE": "X",
+          "PAYM_TERM": "90"
+        }
+      ],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "A04",
+      "prod_itcd": "004",
+      "gt_cnt": 1,
+      "ex_cnt": 0,
+      "match_cnt": 0,
+      "miss_cnt": 1,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": false,
+      "reason": "추출누락(GT:1건/중간:0건, 누락1건) | 납기누락(GT에만:N20)",
+      "active_cols": [
+        "ISRN_TERM_INQY_CODE",
+        "PAYM_TERM_INQY_CODE",
+        "ISRN_TERM_DVSN_CODE",
+        "ISRN_TERM",
+        "PAYM_TERM_DVSN_CODE",
+        "PAYM_TERM",
+        "MINU_MIN_AG",
+        "MINU_MAX_AG",
+        "MIN_FPIN",
+        "MAX_FPIN",
+        "FPIN_DVSN_CODE",
+        "MINU_GNDR_CODE",
+        "STAR_CTDT",
+        "END_CTDT",
+        "MIN_SPIN_STRT_AG",
+        "MAX_SPIN_STRT_AG",
+        "SPIN_STRT_AG_DVSN_CODE",
+        "AINU_MIN_AG",
+        "AINU_MAX_AG",
+        "MIN_MTPM_PREM",
+        "MAX_MTPM_PREM",
+        "CHLR_ODN1_MIN_AG",
+        "CHLR_ODN1_MAX_AG",
+        "MNTH_PAYM_YN",
+        "AINU_GNDR_CODE",
+        "MIN_PAYM_CYCL_VAL",
+        "MAX_PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE",
+        "CHLR_ODN1_GNDR_CODE",
+        "MIN_POLR_AG",
+        "MAX_POLR_AG",
+        "CRTN_GURT_OTPY_TERM",
+        "CHLR_ODN2_MIN_AG",
+        "CHLR_ODN2_MAX_AG",
+        "MIN_DPND_AG",
+        "MAX_DPND_AG",
+        "PURT_RSTY_YN",
+        "BEFO_CNTC_MIN_ISRN_TERM",
+        "BEFO_CNTC_MAX_ISRN_TERM",
+        "BEFO_CNTC_ISRN_TERM_DVSN_CODE"
+      ],
+      "miss_rows": [
+        {
+          "ISRN_TERM_INQY_CODE": "N20",
+          "PAYM_TERM_INQY_CODE": "N20",
+          "ISRN_TERM_DVSN_CODE": "N",
+          "ISRN_TERM": "20",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "20"
+        }
+      ],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "A05",
+      "prod_itcd": "005",
+      "gt_cnt": 1,
+      "ex_cnt": 0,
+      "match_cnt": 0,
+      "miss_cnt": 1,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": false,
+      "reason": "추출누락(GT:1건/중간:0건, 누락1건) | 납기누락(GT에만:N20)",
+      "active_cols": [
+        "ISRN_TERM_INQY_CODE",
+        "PAYM_TERM_INQY_CODE",
+        "ISRN_TERM_DVSN_CODE",
+        "ISRN_TERM",
+        "PAYM_TERM_DVSN_CODE",
+        "PAYM_TERM",
+        "MINU_MIN_AG",
+        "MINU_MAX_AG",
+        "MIN_FPIN",
+        "MAX_FPIN",
+        "FPIN_DVSN_CODE",
+        "MINU_GNDR_CODE",
+        "STAR_CTDT",
+        "END_CTDT",
+        "MIN_SPIN_STRT_AG",
+        "MAX_SPIN_STRT_AG",
+        "SPIN_STRT_AG_DVSN_CODE",
+        "AINU_MIN_AG",
+        "AINU_MAX_AG",
+        "MIN_MTPM_PREM",
+        "MAX_MTPM_PREM",
+        "CHLR_ODN1_MIN_AG",
+        "CHLR_ODN1_MAX_AG",
+        "MNTH_PAYM_YN",
+        "AINU_GNDR_CODE",
+        "MIN_PAYM_CYCL_VAL",
+        "MAX_PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE",
+        "CHLR_ODN1_GNDR_CODE",
+        "MIN_POLR_AG",
+        "MAX_POLR_AG",
+        "CRTN_GURT_OTPY_TERM",
+        "CHLR_ODN2_MIN_AG",
+        "CHLR_ODN2_MAX_AG",
+        "MIN_DPND_AG",
+        "MAX_DPND_AG",
+        "PURT_RSTY_YN",
+        "BEFO_CNTC_MIN_ISRN_TERM",
+        "BEFO_CNTC_MAX_ISRN_TERM",
+        "BEFO_CNTC_ISRN_TERM_DVSN_CODE"
+      ],
+      "miss_rows": [
+        {
+          "ISRN_TERM_INQY_CODE": "N20",
+          "PAYM_TERM_INQY_CODE": "N20",
+          "ISRN_TERM_DVSN_CODE": "N",
+          "ISRN_TERM": "20",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "20"
+        }
+      ],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "A06",
+      "prod_itcd": "006",
+      "gt_cnt": 3,
+      "ex_cnt": 0,
+      "match_cnt": 0,
+      "miss_cnt": 3,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": false,
+      "reason": "추출누락(GT:3건/중간:0건, 누락3건) | 납기누락(GT에만:N0/N20/X1)",
+      "active_cols": [
+        "ISRN_TERM_INQY_CODE",
+        "PAYM_TERM_INQY_CODE",
+        "ISRN_TERM_DVSN_CODE",
+        "ISRN_TERM",
+        "PAYM_TERM_DVSN_CODE",
+        "PAYM_TERM",
+        "MINU_MIN_AG",
+        "MINU_MAX_AG",
+        "MIN_FPIN",
+        "MAX_FPIN",
+        "FPIN_DVSN_CODE",
+        "MINU_GNDR_CODE",
+        "STAR_CTDT",
+        "END_CTDT",
+        "MIN_SPIN_STRT_AG",
+        "MAX_SPIN_STRT_AG",
+        "SPIN_STRT_AG_DVSN_CODE",
+        "AINU_MIN_AG",
+        "AINU_MAX_AG",
+        "MIN_MTPM_PREM",
+        "MAX_MTPM_PREM",
+        "CHLR_ODN1_MIN_AG",
+        "CHLR_ODN1_MAX_AG",
+        "MNTH_PAYM_YN",
+        "AINU_GNDR_CODE",
+        "MIN_PAYM_CYCL_VAL",
+        "MAX_PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE",
+        "CHLR_ODN1_GNDR_CODE",
+        "MIN_POLR_AG",
+        "MAX_POLR_AG",
+        "CRTN_GURT_OTPY_TERM",
+        "CHLR_ODN2_MIN_AG",
+        "CHLR_ODN2_MAX_AG",
+        "MIN_DPND_AG",
+        "MAX_DPND_AG",
+        "PURT_RSTY_YN",
+        "BEFO_CNTC_MIN_ISRN_TERM",
+        "BEFO_CNTC_MAX_ISRN_TERM",
+        "BEFO_CNTC_ISRN_TERM_DVSN_CODE"
+      ],
+      "miss_rows": [
+        {
+          "ISRN_TERM_INQY_CODE": "N20",
+          "PAYM_TERM_INQY_CODE": "N20",
+          "ISRN_TERM_DVSN_CODE": "N",
+          "ISRN_TERM": "20",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "20"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X1",
+          "PAYM_TERM_INQY_CODE": "N0",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "1",
+          "PAYM_TERM_DVSN_CODE": "N",
+          "PAYM_TERM": "0"
+        },
+        {
+          "ISRN_TERM_INQY_CODE": "X1",
+          "PAYM_TERM_INQY_CODE": "X1",
+          "ISRN_TERM_DVSN_CODE": "X",
+          "ISRN_TERM": "1",
+          "PAYM_TERM_DVSN_CODE": "X",
+          "PAYM_TERM": "1"
+        }
+      ],
+      "extra_rows": [],
+      "mismatch_rows": []
+    }
+  ]
+}

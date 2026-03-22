@@ -1,0 +1,106 @@
+{
+  "dtcd": "2042",
+  "table_type": "S00028",
+  "intermediate_path": "output/extracted/2042_S00028_intermediate.xlsx",
+  "generated_at": "2026-03-23T00:06:52.187207",
+  "all_pass": true,
+  "total_miss_cnt": 0,
+  "total_extra_cnt": 0,
+  "itcd_results": [
+    {
+      "isrn_kind_itcd": "053",
+      "prod_itcd": "053",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "054",
+      "prod_itcd": "054",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "055",
+      "prod_itcd": "055",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "056",
+      "prod_itcd": "056",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "057",
+      "prod_itcd": "057",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    }
+  ]
+}

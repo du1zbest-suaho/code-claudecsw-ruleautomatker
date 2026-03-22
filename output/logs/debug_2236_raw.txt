@@ -1,0 +1,2 @@
+keys: ['table_type', 'product_code', 'run_id', 'source', 'confidence', 'image_used', 'raw_data', 'discrepancies', 'row_count']
+row_count: 0

@@ -7,7 +7,7 @@
   "image_used": false,
   "raw_data": [
     {
-      "sub_type": "기본형",
+      "sub_type": "상해입원형",
       "insurance_period": "1년만기",
       "payment_period": "전기납",
       "gender": "남녀공통",
@@ -15,14 +15,30 @@
       "max_age": 109
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "상해통원형",
       "insurance_period": "1년만기",
       "payment_period": "전기납",
       "gender": "남녀공통",
-      "min_age": 9,
+      "min_age": 8,
+      "max_age": 109
+    },
+    {
+      "sub_type": "질병입원형",
+      "insurance_period": "1년만기",
+      "payment_period": "전기납",
+      "gender": "남녀공통",
+      "min_age": 8,
+      "max_age": 109
+    },
+    {
+      "sub_type": "질병통원형",
+      "insurance_period": "1년만기",
+      "payment_period": "전기납",
+      "gender": "남녀공통",
+      "min_age": 8,
       "max_age": 109
     }
   ],
   "discrepancies": [],
-  "row_count": 2
+  "row_count": 4
 }

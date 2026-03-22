@@ -7,11 +7,11 @@
   "image_used": false,
   "raw_data": [
     {
-      "sub_type": "기본형",
+      "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
       "n_years": 3
     },
     {
-      "sub_type": "기본형",
+      "sub_type": "2종(해약환급금 일부지급형Ⅱ)",
       "n_years": 6
     }
   ],
@@ -25,9 +25,9 @@
       "SPIN_STRT_AG_INQY_CODE": "N3",
       "SPIN_STRT_DVSN_CODE": "N",
       "SPIN_STRT_DVSN_VAL": 3,
-      "sub_type": "기본형",
+      "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "1종(해약환급금 일부지급형Ⅰ)",
         "n_years": 3
       }
     },
@@ -38,9 +38,9 @@
       "SPIN_STRT_AG_INQY_CODE": "N6",
       "SPIN_STRT_DVSN_CODE": "N",
       "SPIN_STRT_DVSN_VAL": 6,
-      "sub_type": "기본형",
+      "sub_type": "2종(해약환급금 일부지급형Ⅱ)",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "2종(해약환급금 일부지급형Ⅱ)",
         "n_years": 6
       }
     }

@@ -7,103 +7,7 @@
   "image_used": false,
   "raw_data": [
     {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "90세만기",
-      "payment_period": "10년납",
-      "gender": "남자",
-      "min_age": 15,
-      "max_age": 79
-    },
-    {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "90세만기",
-      "payment_period": "10년납",
-      "gender": "여자",
-      "min_age": 15,
-      "max_age": 79
-    },
-    {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "100세만기",
-      "payment_period": "10년납",
-      "gender": "남자",
-      "min_age": 15,
-      "max_age": 80
-    },
-    {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "100세만기",
-      "payment_period": "10년납",
-      "gender": "여자",
-      "min_age": 15,
-      "max_age": 80
-    },
-    {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "110세만기",
-      "payment_period": "10년납",
-      "gender": "남자",
-      "min_age": 15,
-      "max_age": 80
-    },
-    {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "110세만기",
-      "payment_period": "10년납",
-      "gender": "여자",
-      "min_age": 15,
-      "max_age": 80
-    },
-    {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "90세만기",
-      "payment_period": "15년납",
-      "gender": "남자",
-      "min_age": 15,
-      "max_age": 74
-    },
-    {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "90세만기",
-      "payment_period": "15년납",
-      "gender": "여자",
-      "min_age": 15,
-      "max_age": 74
-    },
-    {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "100세만기",
-      "payment_period": "15년납",
-      "gender": "남자",
-      "min_age": 15,
-      "max_age": 80
-    },
-    {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "100세만기",
-      "payment_period": "15년납",
-      "gender": "여자",
-      "min_age": 15,
-      "max_age": 80
-    },
-    {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "110세만기",
-      "payment_period": "15년납",
-      "gender": "남자",
-      "min_age": 15,
-      "max_age": 80
-    },
-    {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "110세만기",
-      "payment_period": "15년납",
-      "gender": "여자",
-      "min_age": 15,
-      "max_age": 80
-    },
-    {
-      "sub_type": "간편가입형(0년)",
+      "sub_type": "간편가입형0년",
       "insurance_period": "90세만기",
       "payment_period": "20년납",
       "gender": "남자",
@@ -111,7 +15,7 @@
       "max_age": 69
     },
     {
-      "sub_type": "간편가입형(0년)",
+      "sub_type": "간편가입형0년",
       "insurance_period": "90세만기",
       "payment_period": "20년납",
       "gender": "여자",
@@ -119,302 +23,1302 @@
       "max_age": 69
     },
     {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "100세만기",
-      "payment_period": "20년납",
+      "sub_type": "간편가입형0년",
+      "insurance_period": "90세만기",
+      "payment_period": "15년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 74
+    },
+    {
+      "sub_type": "간편가입형0년",
+      "insurance_period": "90세만기",
+      "payment_period": "15년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 74
+    },
+    {
+      "sub_type": "간편가입형0년",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납",
       "gender": "남자",
       "min_age": 15,
       "max_age": 79
     },
     {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "100세만기",
-      "payment_period": "20년납",
+      "sub_type": "간편가입형0년",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납",
       "gender": "여자",
       "min_age": 15,
       "max_age": 79
     },
     {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "110세만기",
-      "payment_period": "20년납",
-      "gender": "남자",
-      "min_age": 15,
-      "max_age": 80
-    },
-    {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "110세만기",
-      "payment_period": "20년납",
-      "gender": "여자",
-      "min_age": 15,
-      "max_age": 80
-    },
-    {
-      "sub_type": "간편가입형(0년)",
+      "sub_type": "간편가입형0년",
       "insurance_period": "100세만기",
       "payment_period": "15년납",
       "gender": "남자",
       "min_age": 15,
       "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형0년",
+      "insurance_period": "100세만기",
+      "payment_period": "20년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형0년",
+      "insurance_period": "100세만기",
+      "payment_period": "20년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형0년",
+      "insurance_period": "100세만기",
+      "payment_period": "10년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형0년",
+      "insurance_period": "100세만기",
+      "payment_period": "10년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형0년",
+      "insurance_period": "110세만기",
+      "payment_period": "10년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형0년",
+      "insurance_period": "110세만기",
+      "payment_period": "10년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형0년",
+      "insurance_period": "100세만기",
+      "payment_period": "15년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형0년",
+      "insurance_period": "110세만기",
+      "payment_period": "15년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형0년",
+      "insurance_period": "110세만기",
+      "payment_period": "15년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형0년",
+      "insurance_period": "110세만기",
+      "payment_period": "20년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형0년",
+      "insurance_period": "110세만기",
+      "payment_period": "20년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형1년",
+      "insurance_period": "90세만기",
+      "payment_period": "20년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 69
+    },
+    {
+      "sub_type": "간편가입형1년",
+      "insurance_period": "90세만기",
+      "payment_period": "20년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 69
+    },
+    {
+      "sub_type": "간편가입형1년",
+      "insurance_period": "90세만기",
+      "payment_period": "15년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 74
+    },
+    {
+      "sub_type": "간편가입형1년",
+      "insurance_period": "90세만기",
+      "payment_period": "15년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 74
+    },
+    {
+      "sub_type": "간편가입형1년",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형1년",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형1년",
+      "insurance_period": "100세만기",
+      "payment_period": "20년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형1년",
+      "insurance_period": "100세만기",
+      "payment_period": "20년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형1년",
+      "insurance_period": "100세만기",
+      "payment_period": "10년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형1년",
+      "insurance_period": "100세만기",
+      "payment_period": "10년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형1년",
+      "insurance_period": "110세만기",
+      "payment_period": "10년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형1년",
+      "insurance_period": "110세만기",
+      "payment_period": "10년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형1년",
+      "insurance_period": "100세만기",
+      "payment_period": "15년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형1년",
+      "insurance_period": "100세만기",
+      "payment_period": "15년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형1년",
+      "insurance_period": "110세만기",
+      "payment_period": "15년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형1년",
+      "insurance_period": "110세만기",
+      "payment_period": "15년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형1년",
+      "insurance_period": "110세만기",
+      "payment_period": "20년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형1년",
+      "insurance_period": "110세만기",
+      "payment_period": "20년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형2년",
+      "insurance_period": "90세만기",
+      "payment_period": "20년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 69
+    },
+    {
+      "sub_type": "간편가입형2년",
+      "insurance_period": "90세만기",
+      "payment_period": "20년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 69
+    },
+    {
+      "sub_type": "간편가입형2년",
+      "insurance_period": "90세만기",
+      "payment_period": "15년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 74
+    },
+    {
+      "sub_type": "간편가입형2년",
+      "insurance_period": "90세만기",
+      "payment_period": "15년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 74
+    },
+    {
+      "sub_type": "간편가입형2년",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형2년",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형2년",
+      "insurance_period": "100세만기",
+      "payment_period": "20년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형2년",
+      "insurance_period": "100세만기",
+      "payment_period": "20년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형2년",
+      "insurance_period": "100세만기",
+      "payment_period": "10년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형2년",
+      "insurance_period": "100세만기",
+      "payment_period": "10년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형2년",
+      "insurance_period": "110세만기",
+      "payment_period": "10년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형2년",
+      "insurance_period": "110세만기",
+      "payment_period": "10년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형2년",
+      "insurance_period": "100세만기",
+      "payment_period": "15년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형2년",
+      "insurance_period": "100세만기",
+      "payment_period": "15년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형2년",
+      "insurance_period": "110세만기",
+      "payment_period": "15년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형2년",
+      "insurance_period": "110세만기",
+      "payment_period": "15년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형2년",
+      "insurance_period": "110세만기",
+      "payment_period": "20년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형2년",
+      "insurance_period": "110세만기",
+      "payment_period": "20년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형3년",
+      "insurance_period": "90세만기",
+      "payment_period": "20년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 69
+    },
+    {
+      "sub_type": "간편가입형3년",
+      "insurance_period": "90세만기",
+      "payment_period": "20년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 69
+    },
+    {
+      "sub_type": "간편가입형3년",
+      "insurance_period": "90세만기",
+      "payment_period": "15년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 74
+    },
+    {
+      "sub_type": "간편가입형3년",
+      "insurance_period": "90세만기",
+      "payment_period": "15년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 74
+    },
+    {
+      "sub_type": "간편가입형3년",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형3년",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형3년",
+      "insurance_period": "100세만기",
+      "payment_period": "20년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형3년",
+      "insurance_period": "100세만기",
+      "payment_period": "20년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형3년",
+      "insurance_period": "100세만기",
+      "payment_period": "10년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형3년",
+      "insurance_period": "100세만기",
+      "payment_period": "10년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형3년",
+      "insurance_period": "110세만기",
+      "payment_period": "10년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형3년",
+      "insurance_period": "110세만기",
+      "payment_period": "10년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형3년",
+      "insurance_period": "100세만기",
+      "payment_period": "15년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형3년",
+      "insurance_period": "100세만기",
+      "payment_period": "15년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형3년",
+      "insurance_period": "110세만기",
+      "payment_period": "15년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형3년",
+      "insurance_period": "110세만기",
+      "payment_period": "15년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형3년",
+      "insurance_period": "110세만기",
+      "payment_period": "20년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형3년",
+      "insurance_period": "110세만기",
+      "payment_period": "20년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형4년",
+      "insurance_period": "90세만기",
+      "payment_period": "20년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 69
+    },
+    {
+      "sub_type": "간편가입형4년",
+      "insurance_period": "90세만기",
+      "payment_period": "20년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 69
+    },
+    {
+      "sub_type": "간편가입형4년",
+      "insurance_period": "90세만기",
+      "payment_period": "15년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 74
+    },
+    {
+      "sub_type": "간편가입형4년",
+      "insurance_period": "90세만기",
+      "payment_period": "15년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 74
+    },
+    {
+      "sub_type": "간편가입형4년",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형4년",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형4년",
+      "insurance_period": "100세만기",
+      "payment_period": "20년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형4년",
+      "insurance_period": "100세만기",
+      "payment_period": "20년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형4년",
+      "insurance_period": "100세만기",
+      "payment_period": "10년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형4년",
+      "insurance_period": "100세만기",
+      "payment_period": "10년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형4년",
+      "insurance_period": "110세만기",
+      "payment_period": "10년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형4년",
+      "insurance_period": "110세만기",
+      "payment_period": "10년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형4년",
+      "insurance_period": "100세만기",
+      "payment_period": "15년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형4년",
+      "insurance_period": "100세만기",
+      "payment_period": "15년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형4년",
+      "insurance_period": "110세만기",
+      "payment_period": "15년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형4년",
+      "insurance_period": "110세만기",
+      "payment_period": "15년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형4년",
+      "insurance_period": "110세만기",
+      "payment_period": "20년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형4년",
+      "insurance_period": "110세만기",
+      "payment_period": "20년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형5년",
+      "insurance_period": "90세만기",
+      "payment_period": "20년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 69
+    },
+    {
+      "sub_type": "간편가입형5년",
+      "insurance_period": "90세만기",
+      "payment_period": "20년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 69
+    },
+    {
+      "sub_type": "간편가입형5년",
+      "insurance_period": "90세만기",
+      "payment_period": "15년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 74
+    },
+    {
+      "sub_type": "간편가입형5년",
+      "insurance_period": "90세만기",
+      "payment_period": "15년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 74
+    },
+    {
+      "sub_type": "간편가입형5년",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형5년",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형5년",
+      "insurance_period": "100세만기",
+      "payment_period": "20년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형5년",
+      "insurance_period": "100세만기",
+      "payment_period": "20년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형5년",
+      "insurance_period": "100세만기",
+      "payment_period": "10년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형5년",
+      "insurance_period": "100세만기",
+      "payment_period": "10년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형5년",
+      "insurance_period": "110세만기",
+      "payment_period": "10년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형5년",
+      "insurance_period": "110세만기",
+      "payment_period": "10년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형5년",
+      "insurance_period": "100세만기",
+      "payment_period": "15년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형5년",
+      "insurance_period": "100세만기",
+      "payment_period": "15년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형5년",
+      "insurance_period": "110세만기",
+      "payment_period": "15년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형5년",
+      "insurance_period": "110세만기",
+      "payment_period": "15년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형5년",
+      "insurance_period": "110세만기",
+      "payment_period": "20년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형5년",
+      "insurance_period": "110세만기",
+      "payment_period": "20년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형10년",
+      "insurance_period": "90세만기",
+      "payment_period": "20년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 69
+    },
+    {
+      "sub_type": "간편가입형10년",
+      "insurance_period": "90세만기",
+      "payment_period": "20년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 69
+    },
+    {
+      "sub_type": "간편가입형10년",
+      "insurance_period": "90세만기",
+      "payment_period": "15년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 74
+    },
+    {
+      "sub_type": "간편가입형10년",
+      "insurance_period": "90세만기",
+      "payment_period": "15년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 74
+    },
+    {
+      "sub_type": "간편가입형10년",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형10년",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형10년",
+      "insurance_period": "100세만기",
+      "payment_period": "20년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형10년",
+      "insurance_period": "100세만기",
+      "payment_period": "20년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "간편가입형10년",
+      "insurance_period": "100세만기",
+      "payment_period": "10년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형10년",
+      "insurance_period": "100세만기",
+      "payment_period": "10년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형10년",
+      "insurance_period": "110세만기",
+      "payment_period": "10년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형10년",
+      "insurance_period": "110세만기",
+      "payment_period": "10년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형10년",
+      "insurance_period": "100세만기",
+      "payment_period": "15년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형10년",
+      "insurance_period": "100세만기",
+      "payment_period": "15년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형10년",
+      "insurance_period": "110세만기",
+      "payment_period": "15년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형10년",
+      "insurance_period": "110세만기",
+      "payment_period": "15년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형10년",
+      "insurance_period": "110세만기",
+      "payment_period": "20년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "간편가입형10년",
+      "insurance_period": "110세만기",
+      "payment_period": "20년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "일반가입형Ⅱ",
+      "insurance_period": "90세만기",
+      "payment_period": "20년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 69
+    },
+    {
+      "sub_type": "일반가입형Ⅱ",
+      "insurance_period": "90세만기",
+      "payment_period": "20년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 69
+    },
+    {
+      "sub_type": "일반가입형Ⅱ",
+      "insurance_period": "90세만기",
+      "payment_period": "15년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 74
+    },
+    {
+      "sub_type": "일반가입형Ⅱ",
+      "insurance_period": "90세만기",
+      "payment_period": "15년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 74
+    },
+    {
+      "sub_type": "일반가입형Ⅱ",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "일반가입형Ⅱ",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "일반가입형Ⅱ",
+      "insurance_period": "100세만기",
+      "payment_period": "20년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "일반가입형Ⅱ",
+      "insurance_period": "100세만기",
+      "payment_period": "20년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "일반가입형Ⅱ",
+      "insurance_period": "100세만기",
+      "payment_period": "10년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "일반가입형Ⅱ",
+      "insurance_period": "100세만기",
+      "payment_period": "10년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "일반가입형Ⅱ",
+      "insurance_period": "110세만기",
+      "payment_period": "10년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "일반가입형Ⅱ",
+      "insurance_period": "110세만기",
+      "payment_period": "10년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "일반가입형Ⅱ",
+      "insurance_period": "100세만기",
+      "payment_period": "15년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "일반가입형Ⅱ",
+      "insurance_period": "100세만기",
+      "payment_period": "15년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "일반가입형Ⅱ",
+      "insurance_period": "110세만기",
+      "payment_period": "15년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "일반가입형Ⅱ",
+      "insurance_period": "110세만기",
+      "payment_period": "15년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "일반가입형Ⅱ",
+      "insurance_period": "110세만기",
+      "payment_period": "20년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "일반가입형Ⅱ",
+      "insurance_period": "110세만기",
+      "payment_period": "20년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "insurance_period": "90세만기",
+      "payment_period": "20년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 69
+    },
+    {
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "insurance_period": "90세만기",
+      "payment_period": "20년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 69
+    },
+    {
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "insurance_period": "90세만기",
+      "payment_period": "15년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 74
+    },
+    {
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "insurance_period": "90세만기",
+      "payment_period": "15년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 74
+    },
+    {
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "insurance_period": "90세만기",
+      "payment_period": "10년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "insurance_period": "100세만기",
+      "payment_period": "20년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "insurance_period": "100세만기",
+      "payment_period": "20년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 79
+    },
+    {
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "insurance_period": "100세만기",
+      "payment_period": "10년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "insurance_period": "100세만기",
+      "payment_period": "10년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "insurance_period": "110세만기",
+      "payment_period": "10년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "insurance_period": "110세만기",
+      "payment_period": "10년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "insurance_period": "100세만기",
+      "payment_period": "15년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "insurance_period": "100세만기",
+      "payment_period": "15년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "insurance_period": "110세만기",
+      "payment_period": "15년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "insurance_period": "110세만기",
+      "payment_period": "15년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "insurance_period": "110세만기",
+      "payment_period": "20년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 80
+    },
+    {
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "insurance_period": "110세만기",
+      "payment_period": "20년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 80
     }
   ],
   "discrepancies": [],
-  "row_count": 19,
+  "row_count": 162,
   "coded_rows": [
     {
       "ISRN_TERM": 90,
       "ISRN_TERM_DVSN_CODE": "X",
       "ISRN_TERM_INQY_CODE": "X90",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "MINU_GNDR_CODE": "1",
-      "MIN_AG": 15,
-      "MAX_AG": 79,
-      "sub_type": "간편가입형(0년)",
-      "_raw": {
-        "sub_type": "간편가입형(0년)",
-        "insurance_period": "90세만기",
-        "payment_period": "10년납",
-        "gender": "남자",
-        "min_age": 15,
-        "max_age": 79
-      }
-    },
-    {
-      "ISRN_TERM": 90,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X90",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "MINU_GNDR_CODE": "2",
-      "MIN_AG": 15,
-      "MAX_AG": 79,
-      "sub_type": "간편가입형(0년)",
-      "_raw": {
-        "sub_type": "간편가입형(0년)",
-        "insurance_period": "90세만기",
-        "payment_period": "10년납",
-        "gender": "여자",
-        "min_age": 15,
-        "max_age": 79
-      }
-    },
-    {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "MINU_GNDR_CODE": "1",
-      "MIN_AG": 15,
-      "MAX_AG": 80,
-      "sub_type": "간편가입형(0년)",
-      "_raw": {
-        "sub_type": "간편가입형(0년)",
-        "insurance_period": "100세만기",
-        "payment_period": "10년납",
-        "gender": "남자",
-        "min_age": 15,
-        "max_age": 80
-      }
-    },
-    {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "MINU_GNDR_CODE": "2",
-      "MIN_AG": 15,
-      "MAX_AG": 80,
-      "sub_type": "간편가입형(0년)",
-      "_raw": {
-        "sub_type": "간편가입형(0년)",
-        "insurance_period": "100세만기",
-        "payment_period": "10년납",
-        "gender": "여자",
-        "min_age": 15,
-        "max_age": 80
-      }
-    },
-    {
-      "ISRN_TERM": 110,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X110",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "MINU_GNDR_CODE": "1",
-      "MIN_AG": 15,
-      "MAX_AG": 80,
-      "sub_type": "간편가입형(0년)",
-      "_raw": {
-        "sub_type": "간편가입형(0년)",
-        "insurance_period": "110세만기",
-        "payment_period": "10년납",
-        "gender": "남자",
-        "min_age": 15,
-        "max_age": 80
-      }
-    },
-    {
-      "ISRN_TERM": 110,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X110",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "MINU_GNDR_CODE": "2",
-      "MIN_AG": 15,
-      "MAX_AG": 80,
-      "sub_type": "간편가입형(0년)",
-      "_raw": {
-        "sub_type": "간편가입형(0년)",
-        "insurance_period": "110세만기",
-        "payment_period": "10년납",
-        "gender": "여자",
-        "min_age": 15,
-        "max_age": 80
-      }
-    },
-    {
-      "ISRN_TERM": 90,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X90",
-      "PAYM_TERM": 15,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N15",
-      "MINU_GNDR_CODE": "1",
-      "MIN_AG": 15,
-      "MAX_AG": 74,
-      "sub_type": "간편가입형(0년)",
-      "_raw": {
-        "sub_type": "간편가입형(0년)",
-        "insurance_period": "90세만기",
-        "payment_period": "15년납",
-        "gender": "남자",
-        "min_age": 15,
-        "max_age": 74
-      }
-    },
-    {
-      "ISRN_TERM": 90,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X90",
-      "PAYM_TERM": 15,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N15",
-      "MINU_GNDR_CODE": "2",
-      "MIN_AG": 15,
-      "MAX_AG": 74,
-      "sub_type": "간편가입형(0년)",
-      "_raw": {
-        "sub_type": "간편가입형(0년)",
-        "insurance_period": "90세만기",
-        "payment_period": "15년납",
-        "gender": "여자",
-        "min_age": 15,
-        "max_age": 74
-      }
-    },
-    {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 15,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N15",
-      "MINU_GNDR_CODE": "1",
-      "MIN_AG": 15,
-      "MAX_AG": 80,
-      "sub_type": "간편가입형(0년)",
-      "_raw": {
-        "sub_type": "간편가입형(0년)",
-        "insurance_period": "100세만기",
-        "payment_period": "15년납",
-        "gender": "남자",
-        "min_age": 15,
-        "max_age": 80
-      }
-    },
-    {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 15,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N15",
-      "MINU_GNDR_CODE": "2",
-      "MIN_AG": 15,
-      "MAX_AG": 80,
-      "sub_type": "간편가입형(0년)",
-      "_raw": {
-        "sub_type": "간편가입형(0년)",
-        "insurance_period": "100세만기",
-        "payment_period": "15년납",
-        "gender": "여자",
-        "min_age": 15,
-        "max_age": 80
-      }
-    },
-    {
-      "ISRN_TERM": 110,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X110",
-      "PAYM_TERM": 15,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N15",
-      "MINU_GNDR_CODE": "1",
-      "MIN_AG": 15,
-      "MAX_AG": 80,
-      "sub_type": "간편가입형(0년)",
-      "_raw": {
-        "sub_type": "간편가입형(0년)",
-        "insurance_period": "110세만기",
-        "payment_period": "15년납",
-        "gender": "남자",
-        "min_age": 15,
-        "max_age": 80
-      }
-    },
-    {
-      "ISRN_TERM": 110,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X110",
-      "PAYM_TERM": 15,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N15",
-      "MINU_GNDR_CODE": "2",
-      "MIN_AG": 15,
-      "MAX_AG": 80,
-      "sub_type": "간편가입형(0년)",
-      "_raw": {
-        "sub_type": "간편가입형(0년)",
-        "insurance_period": "110세만기",
-        "payment_period": "15년납",
-        "gender": "여자",
-        "min_age": 15,
-        "max_age": 80
-      }
-    },
-    {
-      "ISRN_TERM": 90,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X90",
       "PAYM_TERM": 20,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N20",
       "MINU_GNDR_CODE": "1",
       "MIN_AG": 15,
       "MAX_AG": 69,
-      "sub_type": "간편가입형(0년)",
+      "sub_type": "간편가입형0년",
       "_raw": {
-        "sub_type": "간편가입형(0년)",
+        "sub_type": "간편가입형0년",
         "insurance_period": "90세만기",
         "payment_period": "20년납",
         "gender": "남자",
@@ -432,14 +1336,114 @@
       "MINU_GNDR_CODE": "2",
       "MIN_AG": 15,
       "MAX_AG": 69,
-      "sub_type": "간편가입형(0년)",
+      "sub_type": "간편가입형0년",
       "_raw": {
-        "sub_type": "간편가입형(0년)",
+        "sub_type": "간편가입형0년",
         "insurance_period": "90세만기",
         "payment_period": "20년납",
         "gender": "여자",
         "min_age": 15,
         "max_age": 69
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 74,
+      "sub_type": "간편가입형0년",
+      "_raw": {
+        "sub_type": "간편가입형0년",
+        "insurance_period": "90세만기",
+        "payment_period": "15년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 74
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 74,
+      "sub_type": "간편가입형0년",
+      "_raw": {
+        "sub_type": "간편가입형0년",
+        "insurance_period": "90세만기",
+        "payment_period": "15년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 74
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "간편가입형0년",
+      "_raw": {
+        "sub_type": "간편가입형0년",
+        "insurance_period": "90세만기",
+        "payment_period": "10년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "간편가입형0년",
+      "_raw": {
+        "sub_type": "간편가입형0년",
+        "insurance_period": "90세만기",
+        "payment_period": "10년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "간편가입형0년",
+      "_raw": {
+        "sub_type": "간편가입형0년",
+        "insurance_period": "100세만기",
+        "payment_period": "15년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 79
       }
     },
     {
@@ -452,9 +1456,9 @@
       "MINU_GNDR_CODE": "1",
       "MIN_AG": 15,
       "MAX_AG": 79,
-      "sub_type": "간편가입형(0년)",
+      "sub_type": "간편가입형0년",
       "_raw": {
-        "sub_type": "간편가입형(0년)",
+        "sub_type": "간편가입형0년",
         "insurance_period": "100세만기",
         "payment_period": "20년납",
         "gender": "남자",
@@ -472,14 +1476,154 @@
       "MINU_GNDR_CODE": "2",
       "MIN_AG": 15,
       "MAX_AG": 79,
-      "sub_type": "간편가입형(0년)",
+      "sub_type": "간편가입형0년",
       "_raw": {
-        "sub_type": "간편가입형(0년)",
+        "sub_type": "간편가입형0년",
         "insurance_period": "100세만기",
         "payment_period": "20년납",
         "gender": "여자",
         "min_age": 15,
         "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형0년",
+      "_raw": {
+        "sub_type": "간편가입형0년",
+        "insurance_period": "100세만기",
+        "payment_period": "10년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형0년",
+      "_raw": {
+        "sub_type": "간편가입형0년",
+        "insurance_period": "100세만기",
+        "payment_period": "10년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형0년",
+      "_raw": {
+        "sub_type": "간편가입형0년",
+        "insurance_period": "110세만기",
+        "payment_period": "10년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형0년",
+      "_raw": {
+        "sub_type": "간편가입형0년",
+        "insurance_period": "110세만기",
+        "payment_period": "10년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형0년",
+      "_raw": {
+        "sub_type": "간편가입형0년",
+        "insurance_period": "100세만기",
+        "payment_period": "15년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형0년",
+      "_raw": {
+        "sub_type": "간편가입형0년",
+        "insurance_period": "110세만기",
+        "payment_period": "15년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형0년",
+      "_raw": {
+        "sub_type": "간편가입형0년",
+        "insurance_period": "110세만기",
+        "payment_period": "15년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
       }
     },
     {
@@ -492,9 +1636,9 @@
       "MINU_GNDR_CODE": "1",
       "MIN_AG": 15,
       "MAX_AG": 80,
-      "sub_type": "간편가입형(0년)",
+      "sub_type": "간편가입형0년",
       "_raw": {
-        "sub_type": "간편가입형(0년)",
+        "sub_type": "간편가입형0년",
         "insurance_period": "110세만기",
         "payment_period": "20년납",
         "gender": "남자",
@@ -512,11 +1656,251 @@
       "MINU_GNDR_CODE": "2",
       "MIN_AG": 15,
       "MAX_AG": 80,
-      "sub_type": "간편가입형(0년)",
+      "sub_type": "간편가입형0년",
       "_raw": {
-        "sub_type": "간편가입형(0년)",
+        "sub_type": "간편가입형0년",
         "insurance_period": "110세만기",
         "payment_period": "20년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 69,
+      "sub_type": "간편가입형1년",
+      "_raw": {
+        "sub_type": "간편가입형1년",
+        "insurance_period": "90세만기",
+        "payment_period": "20년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 69
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 69,
+      "sub_type": "간편가입형1년",
+      "_raw": {
+        "sub_type": "간편가입형1년",
+        "insurance_period": "90세만기",
+        "payment_period": "20년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 69
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 74,
+      "sub_type": "간편가입형1년",
+      "_raw": {
+        "sub_type": "간편가입형1년",
+        "insurance_period": "90세만기",
+        "payment_period": "15년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 74
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 74,
+      "sub_type": "간편가입형1년",
+      "_raw": {
+        "sub_type": "간편가입형1년",
+        "insurance_period": "90세만기",
+        "payment_period": "15년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 74
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "간편가입형1년",
+      "_raw": {
+        "sub_type": "간편가입형1년",
+        "insurance_period": "90세만기",
+        "payment_period": "10년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "간편가입형1년",
+      "_raw": {
+        "sub_type": "간편가입형1년",
+        "insurance_period": "90세만기",
+        "payment_period": "10년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "간편가입형1년",
+      "_raw": {
+        "sub_type": "간편가입형1년",
+        "insurance_period": "100세만기",
+        "payment_period": "20년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "간편가입형1년",
+      "_raw": {
+        "sub_type": "간편가입형1년",
+        "insurance_period": "100세만기",
+        "payment_period": "20년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형1년",
+      "_raw": {
+        "sub_type": "간편가입형1년",
+        "insurance_period": "100세만기",
+        "payment_period": "10년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형1년",
+      "_raw": {
+        "sub_type": "간편가입형1년",
+        "insurance_period": "100세만기",
+        "payment_period": "10년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형1년",
+      "_raw": {
+        "sub_type": "간편가입형1년",
+        "insurance_period": "110세만기",
+        "payment_period": "10년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형1년",
+      "_raw": {
+        "sub_type": "간편가입형1년",
+        "insurance_period": "110세만기",
+        "payment_period": "10년납",
         "gender": "여자",
         "min_age": 15,
         "max_age": 80
@@ -531,15 +1915,2635 @@
       "PAYM_TERM_INQY_CODE": "N15",
       "MINU_GNDR_CODE": "1",
       "MIN_AG": 15,
-      "MAX_AG": 79,
-      "sub_type": "간편가입형(0년)",
+      "MAX_AG": 80,
+      "sub_type": "간편가입형1년",
       "_raw": {
-        "sub_type": "간편가입형(0년)",
+        "sub_type": "간편가입형1년",
         "insurance_period": "100세만기",
         "payment_period": "15년납",
         "gender": "남자",
         "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형1년",
+      "_raw": {
+        "sub_type": "간편가입형1년",
+        "insurance_period": "100세만기",
+        "payment_period": "15년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형1년",
+      "_raw": {
+        "sub_type": "간편가입형1년",
+        "insurance_period": "110세만기",
+        "payment_period": "15년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형1년",
+      "_raw": {
+        "sub_type": "간편가입형1년",
+        "insurance_period": "110세만기",
+        "payment_period": "15년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형1년",
+      "_raw": {
+        "sub_type": "간편가입형1년",
+        "insurance_period": "110세만기",
+        "payment_period": "20년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형1년",
+      "_raw": {
+        "sub_type": "간편가입형1년",
+        "insurance_period": "110세만기",
+        "payment_period": "20년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 69,
+      "sub_type": "간편가입형2년",
+      "_raw": {
+        "sub_type": "간편가입형2년",
+        "insurance_period": "90세만기",
+        "payment_period": "20년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 69
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 69,
+      "sub_type": "간편가입형2년",
+      "_raw": {
+        "sub_type": "간편가입형2년",
+        "insurance_period": "90세만기",
+        "payment_period": "20년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 69
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 74,
+      "sub_type": "간편가입형2년",
+      "_raw": {
+        "sub_type": "간편가입형2년",
+        "insurance_period": "90세만기",
+        "payment_period": "15년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 74
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 74,
+      "sub_type": "간편가입형2년",
+      "_raw": {
+        "sub_type": "간편가입형2년",
+        "insurance_period": "90세만기",
+        "payment_period": "15년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 74
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "간편가입형2년",
+      "_raw": {
+        "sub_type": "간편가입형2년",
+        "insurance_period": "90세만기",
+        "payment_period": "10년납",
+        "gender": "남자",
+        "min_age": 15,
         "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "간편가입형2년",
+      "_raw": {
+        "sub_type": "간편가입형2년",
+        "insurance_period": "90세만기",
+        "payment_period": "10년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "간편가입형2년",
+      "_raw": {
+        "sub_type": "간편가입형2년",
+        "insurance_period": "100세만기",
+        "payment_period": "20년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "간편가입형2년",
+      "_raw": {
+        "sub_type": "간편가입형2년",
+        "insurance_period": "100세만기",
+        "payment_period": "20년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형2년",
+      "_raw": {
+        "sub_type": "간편가입형2년",
+        "insurance_period": "100세만기",
+        "payment_period": "10년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형2년",
+      "_raw": {
+        "sub_type": "간편가입형2년",
+        "insurance_period": "100세만기",
+        "payment_period": "10년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형2년",
+      "_raw": {
+        "sub_type": "간편가입형2년",
+        "insurance_period": "110세만기",
+        "payment_period": "10년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형2년",
+      "_raw": {
+        "sub_type": "간편가입형2년",
+        "insurance_period": "110세만기",
+        "payment_period": "10년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형2년",
+      "_raw": {
+        "sub_type": "간편가입형2년",
+        "insurance_period": "100세만기",
+        "payment_period": "15년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형2년",
+      "_raw": {
+        "sub_type": "간편가입형2년",
+        "insurance_period": "100세만기",
+        "payment_period": "15년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형2년",
+      "_raw": {
+        "sub_type": "간편가입형2년",
+        "insurance_period": "110세만기",
+        "payment_period": "15년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형2년",
+      "_raw": {
+        "sub_type": "간편가입형2년",
+        "insurance_period": "110세만기",
+        "payment_period": "15년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형2년",
+      "_raw": {
+        "sub_type": "간편가입형2년",
+        "insurance_period": "110세만기",
+        "payment_period": "20년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형2년",
+      "_raw": {
+        "sub_type": "간편가입형2년",
+        "insurance_period": "110세만기",
+        "payment_period": "20년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 69,
+      "sub_type": "간편가입형3년",
+      "_raw": {
+        "sub_type": "간편가입형3년",
+        "insurance_period": "90세만기",
+        "payment_period": "20년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 69
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 69,
+      "sub_type": "간편가입형3년",
+      "_raw": {
+        "sub_type": "간편가입형3년",
+        "insurance_period": "90세만기",
+        "payment_period": "20년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 69
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 74,
+      "sub_type": "간편가입형3년",
+      "_raw": {
+        "sub_type": "간편가입형3년",
+        "insurance_period": "90세만기",
+        "payment_period": "15년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 74
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 74,
+      "sub_type": "간편가입형3년",
+      "_raw": {
+        "sub_type": "간편가입형3년",
+        "insurance_period": "90세만기",
+        "payment_period": "15년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 74
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "간편가입형3년",
+      "_raw": {
+        "sub_type": "간편가입형3년",
+        "insurance_period": "90세만기",
+        "payment_period": "10년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "간편가입형3년",
+      "_raw": {
+        "sub_type": "간편가입형3년",
+        "insurance_period": "90세만기",
+        "payment_period": "10년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "간편가입형3년",
+      "_raw": {
+        "sub_type": "간편가입형3년",
+        "insurance_period": "100세만기",
+        "payment_period": "20년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "간편가입형3년",
+      "_raw": {
+        "sub_type": "간편가입형3년",
+        "insurance_period": "100세만기",
+        "payment_period": "20년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형3년",
+      "_raw": {
+        "sub_type": "간편가입형3년",
+        "insurance_period": "100세만기",
+        "payment_period": "10년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형3년",
+      "_raw": {
+        "sub_type": "간편가입형3년",
+        "insurance_period": "100세만기",
+        "payment_period": "10년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형3년",
+      "_raw": {
+        "sub_type": "간편가입형3년",
+        "insurance_period": "110세만기",
+        "payment_period": "10년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형3년",
+      "_raw": {
+        "sub_type": "간편가입형3년",
+        "insurance_period": "110세만기",
+        "payment_period": "10년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형3년",
+      "_raw": {
+        "sub_type": "간편가입형3년",
+        "insurance_period": "100세만기",
+        "payment_period": "15년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형3년",
+      "_raw": {
+        "sub_type": "간편가입형3년",
+        "insurance_period": "100세만기",
+        "payment_period": "15년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형3년",
+      "_raw": {
+        "sub_type": "간편가입형3년",
+        "insurance_period": "110세만기",
+        "payment_period": "15년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형3년",
+      "_raw": {
+        "sub_type": "간편가입형3년",
+        "insurance_period": "110세만기",
+        "payment_period": "15년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형3년",
+      "_raw": {
+        "sub_type": "간편가입형3년",
+        "insurance_period": "110세만기",
+        "payment_period": "20년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형3년",
+      "_raw": {
+        "sub_type": "간편가입형3년",
+        "insurance_period": "110세만기",
+        "payment_period": "20년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 69,
+      "sub_type": "간편가입형4년",
+      "_raw": {
+        "sub_type": "간편가입형4년",
+        "insurance_period": "90세만기",
+        "payment_period": "20년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 69
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 69,
+      "sub_type": "간편가입형4년",
+      "_raw": {
+        "sub_type": "간편가입형4년",
+        "insurance_period": "90세만기",
+        "payment_period": "20년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 69
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 74,
+      "sub_type": "간편가입형4년",
+      "_raw": {
+        "sub_type": "간편가입형4년",
+        "insurance_period": "90세만기",
+        "payment_period": "15년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 74
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 74,
+      "sub_type": "간편가입형4년",
+      "_raw": {
+        "sub_type": "간편가입형4년",
+        "insurance_period": "90세만기",
+        "payment_period": "15년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 74
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "간편가입형4년",
+      "_raw": {
+        "sub_type": "간편가입형4년",
+        "insurance_period": "90세만기",
+        "payment_period": "10년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "간편가입형4년",
+      "_raw": {
+        "sub_type": "간편가입형4년",
+        "insurance_period": "90세만기",
+        "payment_period": "10년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "간편가입형4년",
+      "_raw": {
+        "sub_type": "간편가입형4년",
+        "insurance_period": "100세만기",
+        "payment_period": "20년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "간편가입형4년",
+      "_raw": {
+        "sub_type": "간편가입형4년",
+        "insurance_period": "100세만기",
+        "payment_period": "20년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형4년",
+      "_raw": {
+        "sub_type": "간편가입형4년",
+        "insurance_period": "100세만기",
+        "payment_period": "10년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형4년",
+      "_raw": {
+        "sub_type": "간편가입형4년",
+        "insurance_period": "100세만기",
+        "payment_period": "10년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형4년",
+      "_raw": {
+        "sub_type": "간편가입형4년",
+        "insurance_period": "110세만기",
+        "payment_period": "10년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형4년",
+      "_raw": {
+        "sub_type": "간편가입형4년",
+        "insurance_period": "110세만기",
+        "payment_period": "10년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형4년",
+      "_raw": {
+        "sub_type": "간편가입형4년",
+        "insurance_period": "100세만기",
+        "payment_period": "15년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형4년",
+      "_raw": {
+        "sub_type": "간편가입형4년",
+        "insurance_period": "100세만기",
+        "payment_period": "15년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형4년",
+      "_raw": {
+        "sub_type": "간편가입형4년",
+        "insurance_period": "110세만기",
+        "payment_period": "15년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형4년",
+      "_raw": {
+        "sub_type": "간편가입형4년",
+        "insurance_period": "110세만기",
+        "payment_period": "15년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형4년",
+      "_raw": {
+        "sub_type": "간편가입형4년",
+        "insurance_period": "110세만기",
+        "payment_period": "20년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형4년",
+      "_raw": {
+        "sub_type": "간편가입형4년",
+        "insurance_period": "110세만기",
+        "payment_period": "20년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 69,
+      "sub_type": "간편가입형5년",
+      "_raw": {
+        "sub_type": "간편가입형5년",
+        "insurance_period": "90세만기",
+        "payment_period": "20년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 69
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 69,
+      "sub_type": "간편가입형5년",
+      "_raw": {
+        "sub_type": "간편가입형5년",
+        "insurance_period": "90세만기",
+        "payment_period": "20년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 69
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 74,
+      "sub_type": "간편가입형5년",
+      "_raw": {
+        "sub_type": "간편가입형5년",
+        "insurance_period": "90세만기",
+        "payment_period": "15년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 74
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 74,
+      "sub_type": "간편가입형5년",
+      "_raw": {
+        "sub_type": "간편가입형5년",
+        "insurance_period": "90세만기",
+        "payment_period": "15년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 74
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "간편가입형5년",
+      "_raw": {
+        "sub_type": "간편가입형5년",
+        "insurance_period": "90세만기",
+        "payment_period": "10년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "간편가입형5년",
+      "_raw": {
+        "sub_type": "간편가입형5년",
+        "insurance_period": "90세만기",
+        "payment_period": "10년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "간편가입형5년",
+      "_raw": {
+        "sub_type": "간편가입형5년",
+        "insurance_period": "100세만기",
+        "payment_period": "20년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "간편가입형5년",
+      "_raw": {
+        "sub_type": "간편가입형5년",
+        "insurance_period": "100세만기",
+        "payment_period": "20년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형5년",
+      "_raw": {
+        "sub_type": "간편가입형5년",
+        "insurance_period": "100세만기",
+        "payment_period": "10년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형5년",
+      "_raw": {
+        "sub_type": "간편가입형5년",
+        "insurance_period": "100세만기",
+        "payment_period": "10년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형5년",
+      "_raw": {
+        "sub_type": "간편가입형5년",
+        "insurance_period": "110세만기",
+        "payment_period": "10년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형5년",
+      "_raw": {
+        "sub_type": "간편가입형5년",
+        "insurance_period": "110세만기",
+        "payment_period": "10년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형5년",
+      "_raw": {
+        "sub_type": "간편가입형5년",
+        "insurance_period": "100세만기",
+        "payment_period": "15년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형5년",
+      "_raw": {
+        "sub_type": "간편가입형5년",
+        "insurance_period": "100세만기",
+        "payment_period": "15년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형5년",
+      "_raw": {
+        "sub_type": "간편가입형5년",
+        "insurance_period": "110세만기",
+        "payment_period": "15년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형5년",
+      "_raw": {
+        "sub_type": "간편가입형5년",
+        "insurance_period": "110세만기",
+        "payment_period": "15년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형5년",
+      "_raw": {
+        "sub_type": "간편가입형5년",
+        "insurance_period": "110세만기",
+        "payment_period": "20년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형5년",
+      "_raw": {
+        "sub_type": "간편가입형5년",
+        "insurance_period": "110세만기",
+        "payment_period": "20년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 69,
+      "sub_type": "간편가입형10년",
+      "_raw": {
+        "sub_type": "간편가입형10년",
+        "insurance_period": "90세만기",
+        "payment_period": "20년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 69
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 69,
+      "sub_type": "간편가입형10년",
+      "_raw": {
+        "sub_type": "간편가입형10년",
+        "insurance_period": "90세만기",
+        "payment_period": "20년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 69
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 74,
+      "sub_type": "간편가입형10년",
+      "_raw": {
+        "sub_type": "간편가입형10년",
+        "insurance_period": "90세만기",
+        "payment_period": "15년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 74
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 74,
+      "sub_type": "간편가입형10년",
+      "_raw": {
+        "sub_type": "간편가입형10년",
+        "insurance_period": "90세만기",
+        "payment_period": "15년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 74
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "간편가입형10년",
+      "_raw": {
+        "sub_type": "간편가입형10년",
+        "insurance_period": "90세만기",
+        "payment_period": "10년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "간편가입형10년",
+      "_raw": {
+        "sub_type": "간편가입형10년",
+        "insurance_period": "90세만기",
+        "payment_period": "10년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "간편가입형10년",
+      "_raw": {
+        "sub_type": "간편가입형10년",
+        "insurance_period": "100세만기",
+        "payment_period": "20년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "간편가입형10년",
+      "_raw": {
+        "sub_type": "간편가입형10년",
+        "insurance_period": "100세만기",
+        "payment_period": "20년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형10년",
+      "_raw": {
+        "sub_type": "간편가입형10년",
+        "insurance_period": "100세만기",
+        "payment_period": "10년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형10년",
+      "_raw": {
+        "sub_type": "간편가입형10년",
+        "insurance_period": "100세만기",
+        "payment_period": "10년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형10년",
+      "_raw": {
+        "sub_type": "간편가입형10년",
+        "insurance_period": "110세만기",
+        "payment_period": "10년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형10년",
+      "_raw": {
+        "sub_type": "간편가입형10년",
+        "insurance_period": "110세만기",
+        "payment_period": "10년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형10년",
+      "_raw": {
+        "sub_type": "간편가입형10년",
+        "insurance_period": "100세만기",
+        "payment_period": "15년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형10년",
+      "_raw": {
+        "sub_type": "간편가입형10년",
+        "insurance_period": "100세만기",
+        "payment_period": "15년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형10년",
+      "_raw": {
+        "sub_type": "간편가입형10년",
+        "insurance_period": "110세만기",
+        "payment_period": "15년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형10년",
+      "_raw": {
+        "sub_type": "간편가입형10년",
+        "insurance_period": "110세만기",
+        "payment_period": "15년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형10년",
+      "_raw": {
+        "sub_type": "간편가입형10년",
+        "insurance_period": "110세만기",
+        "payment_period": "20년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "간편가입형10년",
+      "_raw": {
+        "sub_type": "간편가입형10년",
+        "insurance_period": "110세만기",
+        "payment_period": "20년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 69,
+      "sub_type": "일반가입형Ⅱ",
+      "_raw": {
+        "sub_type": "일반가입형Ⅱ",
+        "insurance_period": "90세만기",
+        "payment_period": "20년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 69
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 69,
+      "sub_type": "일반가입형Ⅱ",
+      "_raw": {
+        "sub_type": "일반가입형Ⅱ",
+        "insurance_period": "90세만기",
+        "payment_period": "20년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 69
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 74,
+      "sub_type": "일반가입형Ⅱ",
+      "_raw": {
+        "sub_type": "일반가입형Ⅱ",
+        "insurance_period": "90세만기",
+        "payment_period": "15년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 74
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 74,
+      "sub_type": "일반가입형Ⅱ",
+      "_raw": {
+        "sub_type": "일반가입형Ⅱ",
+        "insurance_period": "90세만기",
+        "payment_period": "15년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 74
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "일반가입형Ⅱ",
+      "_raw": {
+        "sub_type": "일반가입형Ⅱ",
+        "insurance_period": "90세만기",
+        "payment_period": "10년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "일반가입형Ⅱ",
+      "_raw": {
+        "sub_type": "일반가입형Ⅱ",
+        "insurance_period": "90세만기",
+        "payment_period": "10년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "일반가입형Ⅱ",
+      "_raw": {
+        "sub_type": "일반가입형Ⅱ",
+        "insurance_period": "100세만기",
+        "payment_period": "20년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "일반가입형Ⅱ",
+      "_raw": {
+        "sub_type": "일반가입형Ⅱ",
+        "insurance_period": "100세만기",
+        "payment_period": "20년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "일반가입형Ⅱ",
+      "_raw": {
+        "sub_type": "일반가입형Ⅱ",
+        "insurance_period": "100세만기",
+        "payment_period": "10년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "일반가입형Ⅱ",
+      "_raw": {
+        "sub_type": "일반가입형Ⅱ",
+        "insurance_period": "100세만기",
+        "payment_period": "10년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "일반가입형Ⅱ",
+      "_raw": {
+        "sub_type": "일반가입형Ⅱ",
+        "insurance_period": "110세만기",
+        "payment_period": "10년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "일반가입형Ⅱ",
+      "_raw": {
+        "sub_type": "일반가입형Ⅱ",
+        "insurance_period": "110세만기",
+        "payment_period": "10년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "일반가입형Ⅱ",
+      "_raw": {
+        "sub_type": "일반가입형Ⅱ",
+        "insurance_period": "100세만기",
+        "payment_period": "15년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "일반가입형Ⅱ",
+      "_raw": {
+        "sub_type": "일반가입형Ⅱ",
+        "insurance_period": "100세만기",
+        "payment_period": "15년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "일반가입형Ⅱ",
+      "_raw": {
+        "sub_type": "일반가입형Ⅱ",
+        "insurance_period": "110세만기",
+        "payment_period": "15년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "일반가입형Ⅱ",
+      "_raw": {
+        "sub_type": "일반가입형Ⅱ",
+        "insurance_period": "110세만기",
+        "payment_period": "15년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "일반가입형Ⅱ",
+      "_raw": {
+        "sub_type": "일반가입형Ⅱ",
+        "insurance_period": "110세만기",
+        "payment_period": "20년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "일반가입형Ⅱ",
+      "_raw": {
+        "sub_type": "일반가입형Ⅱ",
+        "insurance_period": "110세만기",
+        "payment_period": "20년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 69,
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "_raw": {
+        "sub_type": "일반고지형일반가입형Ⅰ",
+        "insurance_period": "90세만기",
+        "payment_period": "20년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 69
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 69,
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "_raw": {
+        "sub_type": "일반고지형일반가입형Ⅰ",
+        "insurance_period": "90세만기",
+        "payment_period": "20년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 69
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 74,
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "_raw": {
+        "sub_type": "일반고지형일반가입형Ⅰ",
+        "insurance_period": "90세만기",
+        "payment_period": "15년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 74
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 74,
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "_raw": {
+        "sub_type": "일반고지형일반가입형Ⅰ",
+        "insurance_period": "90세만기",
+        "payment_period": "15년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 74
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "_raw": {
+        "sub_type": "일반고지형일반가입형Ⅰ",
+        "insurance_period": "90세만기",
+        "payment_period": "10년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 90,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X90",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "_raw": {
+        "sub_type": "일반고지형일반가입형Ⅰ",
+        "insurance_period": "90세만기",
+        "payment_period": "10년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "_raw": {
+        "sub_type": "일반고지형일반가입형Ⅰ",
+        "insurance_period": "100세만기",
+        "payment_period": "20년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 79,
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "_raw": {
+        "sub_type": "일반고지형일반가입형Ⅰ",
+        "insurance_period": "100세만기",
+        "payment_period": "20년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 79
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "_raw": {
+        "sub_type": "일반고지형일반가입형Ⅰ",
+        "insurance_period": "100세만기",
+        "payment_period": "10년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "_raw": {
+        "sub_type": "일반고지형일반가입형Ⅰ",
+        "insurance_period": "100세만기",
+        "payment_period": "10년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "_raw": {
+        "sub_type": "일반고지형일반가입형Ⅰ",
+        "insurance_period": "110세만기",
+        "payment_period": "10년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 10,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N10",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "_raw": {
+        "sub_type": "일반고지형일반가입형Ⅰ",
+        "insurance_period": "110세만기",
+        "payment_period": "10년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "_raw": {
+        "sub_type": "일반고지형일반가입형Ⅰ",
+        "insurance_period": "100세만기",
+        "payment_period": "15년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 100,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X100",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "_raw": {
+        "sub_type": "일반고지형일반가입형Ⅰ",
+        "insurance_period": "100세만기",
+        "payment_period": "15년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "_raw": {
+        "sub_type": "일반고지형일반가입형Ⅰ",
+        "insurance_period": "110세만기",
+        "payment_period": "15년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 15,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N15",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "_raw": {
+        "sub_type": "일반고지형일반가입형Ⅰ",
+        "insurance_period": "110세만기",
+        "payment_period": "15년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "1",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "_raw": {
+        "sub_type": "일반고지형일반가입형Ⅰ",
+        "insurance_period": "110세만기",
+        "payment_period": "20년납",
+        "gender": "남자",
+        "min_age": 15,
+        "max_age": 80
+      }
+    },
+    {
+      "ISRN_TERM": 110,
+      "ISRN_TERM_DVSN_CODE": "X",
+      "ISRN_TERM_INQY_CODE": "X110",
+      "PAYM_TERM": 20,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N20",
+      "MINU_GNDR_CODE": "2",
+      "MIN_AG": 15,
+      "MAX_AG": 80,
+      "sub_type": "일반고지형일반가입형Ⅰ",
+      "_raw": {
+        "sub_type": "일반고지형일반가입형Ⅰ",
+        "insurance_period": "110세만기",
+        "payment_period": "20년납",
+        "gender": "여자",
+        "min_age": 15,
+        "max_age": 80
       }
     }
   ],

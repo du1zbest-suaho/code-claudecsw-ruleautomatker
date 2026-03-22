@@ -1,0 +1,2 @@
+  중간파일 생성: 20행 → output/extracted/2236_S00026_intermediate.xlsx
+  [2236 S00026] FAIL(누락20/초과0) → output/reports/2236_S00026_intermediate_report.json

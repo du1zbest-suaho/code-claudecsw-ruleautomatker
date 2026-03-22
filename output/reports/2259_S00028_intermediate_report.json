@@ -1,0 +1,484 @@
+{
+  "dtcd": "2259",
+  "table_type": "S00028",
+  "intermediate_path": "output/extracted/2259_S00028_intermediate.xlsx",
+  "generated_at": "2026-03-23T00:05:32.199966",
+  "all_pass": true,
+  "total_miss_cnt": 0,
+  "total_extra_cnt": 11,
+  "itcd_results": [
+    {
+      "isrn_kind_itcd": "801",
+      "prod_itcd": "801",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "801",
+      "prod_itcd": "851",
+      "gt_cnt": 0,
+      "ex_cnt": 1,
+      "match_cnt": 0,
+      "miss_cnt": 0,
+      "extra_cnt": 1,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "신규(GT없음/중간:1건)",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [
+        {
+          "PAYM_CYCL_VAL": "0",
+          "PAYM_CYCL_DVSN_CODE": "M"
+        }
+      ],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "802",
+      "prod_itcd": "802",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "802",
+      "prod_itcd": "852",
+      "gt_cnt": 0,
+      "ex_cnt": 1,
+      "match_cnt": 0,
+      "miss_cnt": 0,
+      "extra_cnt": 1,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "신규(GT없음/중간:1건)",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [
+        {
+          "PAYM_CYCL_VAL": "0",
+          "PAYM_CYCL_DVSN_CODE": "M"
+        }
+      ],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "803",
+      "prod_itcd": "803",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "803",
+      "prod_itcd": "853",
+      "gt_cnt": 0,
+      "ex_cnt": 1,
+      "match_cnt": 0,
+      "miss_cnt": 0,
+      "extra_cnt": 1,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "신규(GT없음/중간:1건)",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [
+        {
+          "PAYM_CYCL_VAL": "0",
+          "PAYM_CYCL_DVSN_CODE": "M"
+        }
+      ],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "804",
+      "prod_itcd": "804",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "804",
+      "prod_itcd": "854",
+      "gt_cnt": 0,
+      "ex_cnt": 1,
+      "match_cnt": 0,
+      "miss_cnt": 0,
+      "extra_cnt": 1,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "신규(GT없음/중간:1건)",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [
+        {
+          "PAYM_CYCL_VAL": "0",
+          "PAYM_CYCL_DVSN_CODE": "M"
+        }
+      ],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "805",
+      "prod_itcd": "805",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "805",
+      "prod_itcd": "855",
+      "gt_cnt": 0,
+      "ex_cnt": 1,
+      "match_cnt": 0,
+      "miss_cnt": 0,
+      "extra_cnt": 1,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "신규(GT없음/중간:1건)",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [
+        {
+          "PAYM_CYCL_VAL": "0",
+          "PAYM_CYCL_DVSN_CODE": "M"
+        }
+      ],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "806",
+      "prod_itcd": "806",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "806",
+      "prod_itcd": "856",
+      "gt_cnt": 0,
+      "ex_cnt": 1,
+      "match_cnt": 0,
+      "miss_cnt": 0,
+      "extra_cnt": 1,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "신규(GT없음/중간:1건)",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [
+        {
+          "PAYM_CYCL_VAL": "0",
+          "PAYM_CYCL_DVSN_CODE": "M"
+        }
+      ],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "807",
+      "prod_itcd": "807",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "807",
+      "prod_itcd": "857",
+      "gt_cnt": 0,
+      "ex_cnt": 1,
+      "match_cnt": 0,
+      "miss_cnt": 0,
+      "extra_cnt": 1,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "신규(GT없음/중간:1건)",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [
+        {
+          "PAYM_CYCL_VAL": "0",
+          "PAYM_CYCL_DVSN_CODE": "M"
+        }
+      ],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "808",
+      "prod_itcd": "808",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "808",
+      "prod_itcd": "858",
+      "gt_cnt": 0,
+      "ex_cnt": 1,
+      "match_cnt": 0,
+      "miss_cnt": 0,
+      "extra_cnt": 1,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "신규(GT없음/중간:1건)",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [
+        {
+          "PAYM_CYCL_VAL": "0",
+          "PAYM_CYCL_DVSN_CODE": "M"
+        }
+      ],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "809",
+      "prod_itcd": "809",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "809",
+      "prod_itcd": "859",
+      "gt_cnt": 0,
+      "ex_cnt": 1,
+      "match_cnt": 0,
+      "miss_cnt": 0,
+      "extra_cnt": 1,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "신규(GT없음/중간:1건)",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [
+        {
+          "PAYM_CYCL_VAL": "0",
+          "PAYM_CYCL_DVSN_CODE": "M"
+        }
+      ],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "810",
+      "prod_itcd": "810",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "810",
+      "prod_itcd": "860",
+      "gt_cnt": 0,
+      "ex_cnt": 1,
+      "match_cnt": 0,
+      "miss_cnt": 0,
+      "extra_cnt": 1,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "신규(GT없음/중간:1건)",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [
+        {
+          "PAYM_CYCL_VAL": "0",
+          "PAYM_CYCL_DVSN_CODE": "M"
+        }
+      ],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "811",
+      "prod_itcd": "811",
+      "gt_cnt": 1,
+      "ex_cnt": 1,
+      "match_cnt": 1,
+      "miss_cnt": 0,
+      "extra_cnt": 0,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [],
+      "mismatch_rows": []
+    },
+    {
+      "isrn_kind_itcd": "811",
+      "prod_itcd": "861",
+      "gt_cnt": 0,
+      "ex_cnt": 1,
+      "match_cnt": 0,
+      "miss_cnt": 0,
+      "extra_cnt": 1,
+      "mismatch_cnt": 0,
+      "pass": true,
+      "reason": "신규(GT없음/중간:1건)",
+      "active_cols": [
+        "PAYM_CYCL_VAL",
+        "PAYM_CYCL_DVSN_CODE"
+      ],
+      "miss_rows": [],
+      "extra_rows": [
+        {
+          "PAYM_CYCL_VAL": "0",
+          "PAYM_CYCL_DVSN_CODE": "M"
+        }
+      ],
+      "mismatch_rows": []
+    }
+  ]
+}

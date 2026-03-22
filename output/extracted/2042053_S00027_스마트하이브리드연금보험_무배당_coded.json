@@ -7,196 +7,96 @@
   "image_used": false,
   "raw_data": [
     {
-      "sub_type": "1종(연금강화형)",
-      "insurance_period": "종신",
-      "payment_period": "3년납"
-    },
-    {
-      "sub_type": "1종(연금강화형)",
-      "insurance_period": "종신",
-      "payment_period": "5년납"
-    },
-    {
-      "sub_type": "1종(연금강화형)",
-      "insurance_period": "종신",
-      "payment_period": "7년납"
-    },
-    {
-      "sub_type": "1종(연금강화형)",
-      "insurance_period": "종신",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "1종(연금강화형)",
-      "insurance_period": "종신",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "1종(연금강화형)",
-      "insurance_period": "종신",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "1종(연금강화형)",
+      "sub_type": "거치형 1종(연금강화형)",
       "insurance_period": "종신",
       "payment_period": "일시납"
     },
     {
-      "sub_type": "2종(기본형)",
-      "insurance_period": "종신",
-      "payment_period": "3년납"
-    },
-    {
-      "sub_type": "2종(기본형)",
-      "insurance_period": "종신",
-      "payment_period": "5년납"
-    },
-    {
-      "sub_type": "2종(기본형)",
-      "insurance_period": "종신",
-      "payment_period": "7년납"
-    },
-    {
-      "sub_type": "2종(기본형)",
-      "insurance_period": "종신",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "2종(기본형)",
-      "insurance_period": "종신",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "2종(기본형)",
-      "insurance_period": "종신",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "2종(기본형)",
+      "sub_type": "거치형 2종(기본형)",
       "insurance_period": "종신",
       "payment_period": "일시납"
     },
     {
-      "sub_type": "3종(가족사랑형)",
+      "sub_type": "거치형 3종(가족사랑형)",
+      "insurance_period": "종신",
+      "payment_period": "일시납"
+    },
+    {
+      "sub_type": "적립형 2종(기본형)",
       "insurance_period": "종신",
       "payment_period": "3년납"
     },
     {
-      "sub_type": "3종(가족사랑형)",
+      "sub_type": "적립형 2종(기본형)",
       "insurance_period": "종신",
       "payment_period": "5년납"
     },
     {
-      "sub_type": "3종(가족사랑형)",
+      "sub_type": "적립형 2종(기본형)",
       "insurance_period": "종신",
       "payment_period": "7년납"
     },
     {
-      "sub_type": "3종(가족사랑형)",
+      "sub_type": "적립형 2종(기본형)",
       "insurance_period": "종신",
       "payment_period": "10년납"
     },
     {
-      "sub_type": "3종(가족사랑형)",
+      "sub_type": "적립형 2종(기본형)",
       "insurance_period": "종신",
       "payment_period": "15년납"
     },
     {
-      "sub_type": "3종(가족사랑형)",
+      "sub_type": "적립형 2종(기본형)",
       "insurance_period": "종신",
       "payment_period": "20년납"
     },
     {
-      "sub_type": "3종(가족사랑형)",
+      "sub_type": "적립형 3종(가족사랑형)",
       "insurance_period": "종신",
-      "payment_period": "일시납"
+      "payment_period": "3년납"
+    },
+    {
+      "sub_type": "적립형 3종(가족사랑형)",
+      "insurance_period": "종신",
+      "payment_period": "5년납"
+    },
+    {
+      "sub_type": "적립형 3종(가족사랑형)",
+      "insurance_period": "종신",
+      "payment_period": "7년납"
+    },
+    {
+      "sub_type": "적립형 3종(가족사랑형)",
+      "insurance_period": "종신",
+      "payment_period": "10년납"
+    },
+    {
+      "sub_type": "적립형 3종(가족사랑형)",
+      "insurance_period": "종신",
+      "payment_period": "15년납"
+    },
+    {
+      "sub_type": "적립형 3종(가족사랑형)",
+      "insurance_period": "종신",
+      "payment_period": "20년납"
     }
   ],
   "discrepancies": [],
-  "row_count": 21,
+  "row_count": 15,
   "coded_rows": [
     {
       "ISRN_TERM": 999,
       "ISRN_TERM_DVSN_CODE": "A",
       "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 3,
+      "PAYM_TERM": 0,
       "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N3",
-      "sub_type": "1종(연금강화형)",
+      "PAYM_TERM_INQY_CODE": "N0",
+      "sub_type": "거치형 1종(연금강화형)",
       "_raw": {
-        "sub_type": "1종(연금강화형)",
+        "sub_type": "거치형 1종(연금강화형)",
         "insurance_period": "종신",
-        "payment_period": "3년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 5,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N5",
-      "sub_type": "1종(연금강화형)",
-      "_raw": {
-        "sub_type": "1종(연금강화형)",
-        "insurance_period": "종신",
-        "payment_period": "5년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 7,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N7",
-      "sub_type": "1종(연금강화형)",
-      "_raw": {
-        "sub_type": "1종(연금강화형)",
-        "insurance_period": "종신",
-        "payment_period": "7년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "1종(연금강화형)",
-      "_raw": {
-        "sub_type": "1종(연금강화형)",
-        "insurance_period": "종신",
-        "payment_period": "10년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 15,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N15",
-      "sub_type": "1종(연금강화형)",
-      "_raw": {
-        "sub_type": "1종(연금강화형)",
-        "insurance_period": "종신",
-        "payment_period": "15년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 20,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N20",
-      "sub_type": "1종(연금강화형)",
-      "_raw": {
-        "sub_type": "1종(연금강화형)",
-        "insurance_period": "종신",
-        "payment_period": "20년납"
+        "payment_period": "일시납"
       }
     },
     {
@@ -206,9 +106,23 @@
       "PAYM_TERM": 0,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "1종(연금강화형)",
+      "sub_type": "거치형 2종(기본형)",
       "_raw": {
-        "sub_type": "1종(연금강화형)",
+        "sub_type": "거치형 2종(기본형)",
+        "insurance_period": "종신",
+        "payment_period": "일시납"
+      }
+    },
+    {
+      "ISRN_TERM": 999,
+      "ISRN_TERM_DVSN_CODE": "A",
+      "ISRN_TERM_INQY_CODE": "A999",
+      "PAYM_TERM": 0,
+      "PAYM_TERM_DVSN_CODE": "N",
+      "PAYM_TERM_INQY_CODE": "N0",
+      "sub_type": "거치형 3종(가족사랑형)",
+      "_raw": {
+        "sub_type": "거치형 3종(가족사랑형)",
         "insurance_period": "종신",
         "payment_period": "일시납"
       }
@@ -220,9 +134,9 @@
       "PAYM_TERM": 3,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N3",
-      "sub_type": "2종(기본형)",
+      "sub_type": "적립형 2종(기본형)",
       "_raw": {
-        "sub_type": "2종(기본형)",
+        "sub_type": "적립형 2종(기본형)",
         "insurance_period": "종신",
         "payment_period": "3년납"
       }
@@ -234,9 +148,9 @@
       "PAYM_TERM": 5,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N5",
-      "sub_type": "2종(기본형)",
+      "sub_type": "적립형 2종(기본형)",
       "_raw": {
-        "sub_type": "2종(기본형)",
+        "sub_type": "적립형 2종(기본형)",
         "insurance_period": "종신",
         "payment_period": "5년납"
       }
@@ -248,9 +162,9 @@
       "PAYM_TERM": 7,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N7",
-      "sub_type": "2종(기본형)",
+      "sub_type": "적립형 2종(기본형)",
       "_raw": {
-        "sub_type": "2종(기본형)",
+        "sub_type": "적립형 2종(기본형)",
         "insurance_period": "종신",
         "payment_period": "7년납"
       }
@@ -262,9 +176,9 @@
       "PAYM_TERM": 10,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "2종(기본형)",
+      "sub_type": "적립형 2종(기본형)",
       "_raw": {
-        "sub_type": "2종(기본형)",
+        "sub_type": "적립형 2종(기본형)",
         "insurance_period": "종신",
         "payment_period": "10년납"
       }
@@ -276,9 +190,9 @@
       "PAYM_TERM": 15,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N15",
-      "sub_type": "2종(기본형)",
+      "sub_type": "적립형 2종(기본형)",
       "_raw": {
-        "sub_type": "2종(기본형)",
+        "sub_type": "적립형 2종(기본형)",
         "insurance_period": "종신",
         "payment_period": "15년납"
       }
@@ -290,25 +204,11 @@
       "PAYM_TERM": 20,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N20",
-      "sub_type": "2종(기본형)",
+      "sub_type": "적립형 2종(기본형)",
       "_raw": {
-        "sub_type": "2종(기본형)",
+        "sub_type": "적립형 2종(기본형)",
         "insurance_period": "종신",
         "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "2종(기본형)",
-      "_raw": {
-        "sub_type": "2종(기본형)",
-        "insurance_period": "종신",
-        "payment_period": "일시납"
       }
     },
     {
@@ -318,9 +218,9 @@
       "PAYM_TERM": 3,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N3",
-      "sub_type": "3종(가족사랑형)",
+      "sub_type": "적립형 3종(가족사랑형)",
       "_raw": {
-        "sub_type": "3종(가족사랑형)",
+        "sub_type": "적립형 3종(가족사랑형)",
         "insurance_period": "종신",
         "payment_period": "3년납"
       }
@@ -332,9 +232,9 @@
       "PAYM_TERM": 5,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N5",
-      "sub_type": "3종(가족사랑형)",
+      "sub_type": "적립형 3종(가족사랑형)",
       "_raw": {
-        "sub_type": "3종(가족사랑형)",
+        "sub_type": "적립형 3종(가족사랑형)",
         "insurance_period": "종신",
         "payment_period": "5년납"
       }
@@ -346,9 +246,9 @@
       "PAYM_TERM": 7,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N7",
-      "sub_type": "3종(가족사랑형)",
+      "sub_type": "적립형 3종(가족사랑형)",
       "_raw": {
-        "sub_type": "3종(가족사랑형)",
+        "sub_type": "적립형 3종(가족사랑형)",
         "insurance_period": "종신",
         "payment_period": "7년납"
       }
@@ -360,9 +260,9 @@
       "PAYM_TERM": 10,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "3종(가족사랑형)",
+      "sub_type": "적립형 3종(가족사랑형)",
       "_raw": {
-        "sub_type": "3종(가족사랑형)",
+        "sub_type": "적립형 3종(가족사랑형)",
         "insurance_period": "종신",
         "payment_period": "10년납"
       }
@@ -374,9 +274,9 @@
       "PAYM_TERM": 15,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N15",
-      "sub_type": "3종(가족사랑형)",
+      "sub_type": "적립형 3종(가족사랑형)",
       "_raw": {
-        "sub_type": "3종(가족사랑형)",
+        "sub_type": "적립형 3종(가족사랑형)",
         "insurance_period": "종신",
         "payment_period": "15년납"
       }
@@ -388,25 +288,11 @@
       "PAYM_TERM": 20,
       "PAYM_TERM_DVSN_CODE": "N",
       "PAYM_TERM_INQY_CODE": "N20",
-      "sub_type": "3종(가족사랑형)",
+      "sub_type": "적립형 3종(가족사랑형)",
       "_raw": {
-        "sub_type": "3종(가족사랑형)",
+        "sub_type": "적립형 3종(가족사랑형)",
         "insurance_period": "종신",
         "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 999,
-      "ISRN_TERM_DVSN_CODE": "A",
-      "ISRN_TERM_INQY_CODE": "A999",
-      "PAYM_TERM": 0,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N0",
-      "sub_type": "3종(가족사랑형)",
-      "_raw": {
-        "sub_type": "3종(가족사랑형)",
-        "insurance_period": "종신",
-        "payment_period": "일시납"
       }
     }
   ],

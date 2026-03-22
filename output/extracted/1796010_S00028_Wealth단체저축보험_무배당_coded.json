@@ -7,20 +7,34 @@
   "image_used": false,
   "raw_data": [
     {
-      "sub_type": "기본형",
+      "sub_type": "기본보험료",
+      "payment_cycle": "월납"
+    },
+    {
+      "sub_type": "증액보험료",
       "payment_cycle": "월납"
     }
   ],
   "discrepancies": [],
-  "row_count": 1,
+  "row_count": 2,
   "coded_rows": [
     {
       "PAYM_CYCL_VAL": 1,
       "PAYM_CYCL_DVSN_CODE": "M",
       "PAYM_CYCL_INQY_CODE": "M1",
-      "sub_type": "기본형",
+      "sub_type": "기본보험료",
       "_raw": {
-        "sub_type": "기본형",
+        "sub_type": "기본보험료",
+        "payment_cycle": "월납"
+      }
+    },
+    {
+      "PAYM_CYCL_VAL": 1,
+      "PAYM_CYCL_DVSN_CODE": "M",
+      "PAYM_CYCL_INQY_CODE": "M1",
+      "sub_type": "증액보험료",
+      "_raw": {
+        "sub_type": "증액보험료",
         "payment_cycle": "월납"
       }
     }

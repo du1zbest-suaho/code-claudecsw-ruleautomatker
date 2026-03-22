@@ -7,12 +7,12 @@
   "image_used": false,
   "raw_data": [
     {
-      "sub_type": "1종(신계약체결용)",
+      "sub_type": "종신연금형",
       "min_age": 55,
       "max_age": 80
     },
     {
-      "sub_type": "2종(계좌이체용)",
+      "sub_type": "확정기간연금형",
       "min_age": 55,
       "max_age": 110
     }
@@ -27,9 +27,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X55",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 55,
-      "sub_type": "1종(신계약체결용)",
+      "sub_type": "종신연금형",
       "_raw": {
-        "sub_type": "1종(신계약체결용)",
+        "sub_type": "종신연금형",
         "min_age": 55,
         "max_age": 80
       }
@@ -41,9 +41,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X56",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 56,
-      "sub_type": "1종(신계약체결용)",
+      "sub_type": "종신연금형",
       "_raw": {
-        "sub_type": "1종(신계약체결용)",
+        "sub_type": "종신연금형",
         "min_age": 55,
         "max_age": 80
       }
@@ -55,9 +55,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X57",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 57,
-      "sub_type": "1종(신계약체결용)",
+      "sub_type": "종신연금형",
       "_raw": {
-        "sub_type": "1종(신계약체결용)",
+        "sub_type": "종신연금형",
         "min_age": 55,
         "max_age": 80
       }
@@ -69,9 +69,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X58",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 58,
-      "sub_type": "1종(신계약체결용)",
+      "sub_type": "종신연금형",
       "_raw": {
-        "sub_type": "1종(신계약체결용)",
+        "sub_type": "종신연금형",
         "min_age": 55,
         "max_age": 80
       }
@@ -83,9 +83,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X59",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 59,
-      "sub_type": "1종(신계약체결용)",
+      "sub_type": "종신연금형",
       "_raw": {
-        "sub_type": "1종(신계약체결용)",
+        "sub_type": "종신연금형",
         "min_age": 55,
         "max_age": 80
       }
@@ -97,9 +97,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X60",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 60,
-      "sub_type": "1종(신계약체결용)",
+      "sub_type": "종신연금형",
       "_raw": {
-        "sub_type": "1종(신계약체결용)",
+        "sub_type": "종신연금형",
         "min_age": 55,
         "max_age": 80
       }
@@ -111,9 +111,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X61",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 61,
-      "sub_type": "1종(신계약체결용)",
+      "sub_type": "종신연금형",
       "_raw": {
-        "sub_type": "1종(신계약체결용)",
+        "sub_type": "종신연금형",
         "min_age": 55,
         "max_age": 80
       }
@@ -125,9 +125,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X62",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 62,
-      "sub_type": "1종(신계약체결용)",
+      "sub_type": "종신연금형",
       "_raw": {
-        "sub_type": "1종(신계약체결용)",
+        "sub_type": "종신연금형",
         "min_age": 55,
         "max_age": 80
       }
@@ -139,9 +139,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X63",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 63,
-      "sub_type": "1종(신계약체결용)",
+      "sub_type": "종신연금형",
       "_raw": {
-        "sub_type": "1종(신계약체결용)",
+        "sub_type": "종신연금형",
         "min_age": 55,
         "max_age": 80
       }
@@ -153,9 +153,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X64",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 64,
-      "sub_type": "1종(신계약체결용)",
+      "sub_type": "종신연금형",
       "_raw": {
-        "sub_type": "1종(신계약체결용)",
+        "sub_type": "종신연금형",
         "min_age": 55,
         "max_age": 80
       }
@@ -167,9 +167,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X65",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 65,
-      "sub_type": "1종(신계약체결용)",
+      "sub_type": "종신연금형",
       "_raw": {
-        "sub_type": "1종(신계약체결용)",
+        "sub_type": "종신연금형",
         "min_age": 55,
         "max_age": 80
       }
@@ -181,9 +181,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X66",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 66,
-      "sub_type": "1종(신계약체결용)",
+      "sub_type": "종신연금형",
       "_raw": {
-        "sub_type": "1종(신계약체결용)",
+        "sub_type": "종신연금형",
         "min_age": 55,
         "max_age": 80
       }
@@ -195,9 +195,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X67",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 67,
-      "sub_type": "1종(신계약체결용)",
+      "sub_type": "종신연금형",
       "_raw": {
-        "sub_type": "1종(신계약체결용)",
+        "sub_type": "종신연금형",
         "min_age": 55,
         "max_age": 80
       }
@@ -209,9 +209,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X68",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 68,
-      "sub_type": "1종(신계약체결용)",
+      "sub_type": "종신연금형",
       "_raw": {
-        "sub_type": "1종(신계약체결용)",
+        "sub_type": "종신연금형",
         "min_age": 55,
         "max_age": 80
       }
@@ -223,9 +223,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X69",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 69,
-      "sub_type": "1종(신계약체결용)",
+      "sub_type": "종신연금형",
       "_raw": {
-        "sub_type": "1종(신계약체결용)",
+        "sub_type": "종신연금형",
         "min_age": 55,
         "max_age": 80
       }
@@ -237,9 +237,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X70",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 70,
-      "sub_type": "1종(신계약체결용)",
+      "sub_type": "종신연금형",
       "_raw": {
-        "sub_type": "1종(신계약체결용)",
+        "sub_type": "종신연금형",
         "min_age": 55,
         "max_age": 80
       }
@@ -251,9 +251,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X71",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 71,
-      "sub_type": "1종(신계약체결용)",
+      "sub_type": "종신연금형",
       "_raw": {
-        "sub_type": "1종(신계약체결용)",
+        "sub_type": "종신연금형",
         "min_age": 55,
         "max_age": 80
       }
@@ -265,9 +265,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X72",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 72,
-      "sub_type": "1종(신계약체결용)",
+      "sub_type": "종신연금형",
       "_raw": {
-        "sub_type": "1종(신계약체결용)",
+        "sub_type": "종신연금형",
         "min_age": 55,
         "max_age": 80
       }
@@ -279,9 +279,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X73",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 73,
-      "sub_type": "1종(신계약체결용)",
+      "sub_type": "종신연금형",
       "_raw": {
-        "sub_type": "1종(신계약체결용)",
+        "sub_type": "종신연금형",
         "min_age": 55,
         "max_age": 80
       }
@@ -293,9 +293,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X74",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 74,
-      "sub_type": "1종(신계약체결용)",
+      "sub_type": "종신연금형",
       "_raw": {
-        "sub_type": "1종(신계약체결용)",
+        "sub_type": "종신연금형",
         "min_age": 55,
         "max_age": 80
       }
@@ -307,9 +307,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X75",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 75,
-      "sub_type": "1종(신계약체결용)",
+      "sub_type": "종신연금형",
       "_raw": {
-        "sub_type": "1종(신계약체결용)",
+        "sub_type": "종신연금형",
         "min_age": 55,
         "max_age": 80
       }
@@ -321,9 +321,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X76",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 76,
-      "sub_type": "1종(신계약체결용)",
+      "sub_type": "종신연금형",
       "_raw": {
-        "sub_type": "1종(신계약체결용)",
+        "sub_type": "종신연금형",
         "min_age": 55,
         "max_age": 80
       }
@@ -335,9 +335,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X77",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 77,
-      "sub_type": "1종(신계약체결용)",
+      "sub_type": "종신연금형",
       "_raw": {
-        "sub_type": "1종(신계약체결용)",
+        "sub_type": "종신연금형",
         "min_age": 55,
         "max_age": 80
       }
@@ -349,9 +349,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X78",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 78,
-      "sub_type": "1종(신계약체결용)",
+      "sub_type": "종신연금형",
       "_raw": {
-        "sub_type": "1종(신계약체결용)",
+        "sub_type": "종신연금형",
         "min_age": 55,
         "max_age": 80
       }
@@ -363,9 +363,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X79",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 79,
-      "sub_type": "1종(신계약체결용)",
+      "sub_type": "종신연금형",
       "_raw": {
-        "sub_type": "1종(신계약체결용)",
+        "sub_type": "종신연금형",
         "min_age": 55,
         "max_age": 80
       }
@@ -377,11 +377,375 @@
       "SPIN_STRT_AG_INQY_CODE": "X80",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 80,
-      "sub_type": "1종(신계약체결용)",
+      "sub_type": "종신연금형",
       "_raw": {
-        "sub_type": "1종(신계약체결용)",
+        "sub_type": "종신연금형",
         "min_age": 55,
         "max_age": 80
+      }
+    },
+    {
+      "FPIN_STRT_AG_INQY_CODE": "0",
+      "FPIN_STRT_DVSN_CODE": "0",
+      "FPIN_STRT_DVSN_VAL": 0,
+      "SPIN_STRT_AG_INQY_CODE": "X55",
+      "SPIN_STRT_DVSN_CODE": "X",
+      "SPIN_STRT_DVSN_VAL": 55,
+      "sub_type": "확정기간연금형",
+      "_raw": {
+        "sub_type": "확정기간연금형",
+        "min_age": 55,
+        "max_age": 110
+      }
+    },
+    {
+      "FPIN_STRT_AG_INQY_CODE": "0",
+      "FPIN_STRT_DVSN_CODE": "0",
+      "FPIN_STRT_DVSN_VAL": 0,
+      "SPIN_STRT_AG_INQY_CODE": "X56",
+      "SPIN_STRT_DVSN_CODE": "X",
+      "SPIN_STRT_DVSN_VAL": 56,
+      "sub_type": "확정기간연금형",
+      "_raw": {
+        "sub_type": "확정기간연금형",
+        "min_age": 55,
+        "max_age": 110
+      }
+    },
+    {
+      "FPIN_STRT_AG_INQY_CODE": "0",
+      "FPIN_STRT_DVSN_CODE": "0",
+      "FPIN_STRT_DVSN_VAL": 0,
+      "SPIN_STRT_AG_INQY_CODE": "X57",
+      "SPIN_STRT_DVSN_CODE": "X",
+      "SPIN_STRT_DVSN_VAL": 57,
+      "sub_type": "확정기간연금형",
+      "_raw": {
+        "sub_type": "확정기간연금형",
+        "min_age": 55,
+        "max_age": 110
+      }
+    },
+    {
+      "FPIN_STRT_AG_INQY_CODE": "0",
+      "FPIN_STRT_DVSN_CODE": "0",
+      "FPIN_STRT_DVSN_VAL": 0,
+      "SPIN_STRT_AG_INQY_CODE": "X58",
+      "SPIN_STRT_DVSN_CODE": "X",
+      "SPIN_STRT_DVSN_VAL": 58,
+      "sub_type": "확정기간연금형",
+      "_raw": {
+        "sub_type": "확정기간연금형",
+        "min_age": 55,
+        "max_age": 110
+      }
+    },
+    {
+      "FPIN_STRT_AG_INQY_CODE": "0",
+      "FPIN_STRT_DVSN_CODE": "0",
+      "FPIN_STRT_DVSN_VAL": 0,
+      "SPIN_STRT_AG_INQY_CODE": "X59",
+      "SPIN_STRT_DVSN_CODE": "X",
+      "SPIN_STRT_DVSN_VAL": 59,
+      "sub_type": "확정기간연금형",
+      "_raw": {
+        "sub_type": "확정기간연금형",
+        "min_age": 55,
+        "max_age": 110
+      }
+    },
+    {
+      "FPIN_STRT_AG_INQY_CODE": "0",
+      "FPIN_STRT_DVSN_CODE": "0",
+      "FPIN_STRT_DVSN_VAL": 0,
+      "SPIN_STRT_AG_INQY_CODE": "X60",
+      "SPIN_STRT_DVSN_CODE": "X",
+      "SPIN_STRT_DVSN_VAL": 60,
+      "sub_type": "확정기간연금형",
+      "_raw": {
+        "sub_type": "확정기간연금형",
+        "min_age": 55,
+        "max_age": 110
+      }
+    },
+    {
+      "FPIN_STRT_AG_INQY_CODE": "0",
+      "FPIN_STRT_DVSN_CODE": "0",
+      "FPIN_STRT_DVSN_VAL": 0,
+      "SPIN_STRT_AG_INQY_CODE": "X61",
+      "SPIN_STRT_DVSN_CODE": "X",
+      "SPIN_STRT_DVSN_VAL": 61,
+      "sub_type": "확정기간연금형",
+      "_raw": {
+        "sub_type": "확정기간연금형",
+        "min_age": 55,
+        "max_age": 110
+      }
+    },
+    {
+      "FPIN_STRT_AG_INQY_CODE": "0",
+      "FPIN_STRT_DVSN_CODE": "0",
+      "FPIN_STRT_DVSN_VAL": 0,
+      "SPIN_STRT_AG_INQY_CODE": "X62",
+      "SPIN_STRT_DVSN_CODE": "X",
+      "SPIN_STRT_DVSN_VAL": 62,
+      "sub_type": "확정기간연금형",
+      "_raw": {
+        "sub_type": "확정기간연금형",
+        "min_age": 55,
+        "max_age": 110
+      }
+    },
+    {
+      "FPIN_STRT_AG_INQY_CODE": "0",
+      "FPIN_STRT_DVSN_CODE": "0",
+      "FPIN_STRT_DVSN_VAL": 0,
+      "SPIN_STRT_AG_INQY_CODE": "X63",
+      "SPIN_STRT_DVSN_CODE": "X",
+      "SPIN_STRT_DVSN_VAL": 63,
+      "sub_type": "확정기간연금형",
+      "_raw": {
+        "sub_type": "확정기간연금형",
+        "min_age": 55,
+        "max_age": 110
+      }
+    },
+    {
+      "FPIN_STRT_AG_INQY_CODE": "0",
+      "FPIN_STRT_DVSN_CODE": "0",
+      "FPIN_STRT_DVSN_VAL": 0,
+      "SPIN_STRT_AG_INQY_CODE": "X64",
+      "SPIN_STRT_DVSN_CODE": "X",
+      "SPIN_STRT_DVSN_VAL": 64,
+      "sub_type": "확정기간연금형",
+      "_raw": {
+        "sub_type": "확정기간연금형",
+        "min_age": 55,
+        "max_age": 110
+      }
+    },
+    {
+      "FPIN_STRT_AG_INQY_CODE": "0",
+      "FPIN_STRT_DVSN_CODE": "0",
+      "FPIN_STRT_DVSN_VAL": 0,
+      "SPIN_STRT_AG_INQY_CODE": "X65",
+      "SPIN_STRT_DVSN_CODE": "X",
+      "SPIN_STRT_DVSN_VAL": 65,
+      "sub_type": "확정기간연금형",
+      "_raw": {
+        "sub_type": "확정기간연금형",
+        "min_age": 55,
+        "max_age": 110
+      }
+    },
+    {
+      "FPIN_STRT_AG_INQY_CODE": "0",
+      "FPIN_STRT_DVSN_CODE": "0",
+      "FPIN_STRT_DVSN_VAL": 0,
+      "SPIN_STRT_AG_INQY_CODE": "X66",
+      "SPIN_STRT_DVSN_CODE": "X",
+      "SPIN_STRT_DVSN_VAL": 66,
+      "sub_type": "확정기간연금형",
+      "_raw": {
+        "sub_type": "확정기간연금형",
+        "min_age": 55,
+        "max_age": 110
+      }
+    },
+    {
+      "FPIN_STRT_AG_INQY_CODE": "0",
+      "FPIN_STRT_DVSN_CODE": "0",
+      "FPIN_STRT_DVSN_VAL": 0,
+      "SPIN_STRT_AG_INQY_CODE": "X67",
+      "SPIN_STRT_DVSN_CODE": "X",
+      "SPIN_STRT_DVSN_VAL": 67,
+      "sub_type": "확정기간연금형",
+      "_raw": {
+        "sub_type": "확정기간연금형",
+        "min_age": 55,
+        "max_age": 110
+      }
+    },
+    {
+      "FPIN_STRT_AG_INQY_CODE": "0",
+      "FPIN_STRT_DVSN_CODE": "0",
+      "FPIN_STRT_DVSN_VAL": 0,
+      "SPIN_STRT_AG_INQY_CODE": "X68",
+      "SPIN_STRT_DVSN_CODE": "X",
+      "SPIN_STRT_DVSN_VAL": 68,
+      "sub_type": "확정기간연금형",
+      "_raw": {
+        "sub_type": "확정기간연금형",
+        "min_age": 55,
+        "max_age": 110
+      }
+    },
+    {
+      "FPIN_STRT_AG_INQY_CODE": "0",
+      "FPIN_STRT_DVSN_CODE": "0",
+      "FPIN_STRT_DVSN_VAL": 0,
+      "SPIN_STRT_AG_INQY_CODE": "X69",
+      "SPIN_STRT_DVSN_CODE": "X",
+      "SPIN_STRT_DVSN_VAL": 69,
+      "sub_type": "확정기간연금형",
+      "_raw": {
+        "sub_type": "확정기간연금형",
+        "min_age": 55,
+        "max_age": 110
+      }
+    },
+    {
+      "FPIN_STRT_AG_INQY_CODE": "0",
+      "FPIN_STRT_DVSN_CODE": "0",
+      "FPIN_STRT_DVSN_VAL": 0,
+      "SPIN_STRT_AG_INQY_CODE": "X70",
+      "SPIN_STRT_DVSN_CODE": "X",
+      "SPIN_STRT_DVSN_VAL": 70,
+      "sub_type": "확정기간연금형",
+      "_raw": {
+        "sub_type": "확정기간연금형",
+        "min_age": 55,
+        "max_age": 110
+      }
+    },
+    {
+      "FPIN_STRT_AG_INQY_CODE": "0",
+      "FPIN_STRT_DVSN_CODE": "0",
+      "FPIN_STRT_DVSN_VAL": 0,
+      "SPIN_STRT_AG_INQY_CODE": "X71",
+      "SPIN_STRT_DVSN_CODE": "X",
+      "SPIN_STRT_DVSN_VAL": 71,
+      "sub_type": "확정기간연금형",
+      "_raw": {
+        "sub_type": "확정기간연금형",
+        "min_age": 55,
+        "max_age": 110
+      }
+    },
+    {
+      "FPIN_STRT_AG_INQY_CODE": "0",
+      "FPIN_STRT_DVSN_CODE": "0",
+      "FPIN_STRT_DVSN_VAL": 0,
+      "SPIN_STRT_AG_INQY_CODE": "X72",
+      "SPIN_STRT_DVSN_CODE": "X",
+      "SPIN_STRT_DVSN_VAL": 72,
+      "sub_type": "확정기간연금형",
+      "_raw": {
+        "sub_type": "확정기간연금형",
+        "min_age": 55,
+        "max_age": 110
+      }
+    },
+    {
+      "FPIN_STRT_AG_INQY_CODE": "0",
+      "FPIN_STRT_DVSN_CODE": "0",
+      "FPIN_STRT_DVSN_VAL": 0,
+      "SPIN_STRT_AG_INQY_CODE": "X73",
+      "SPIN_STRT_DVSN_CODE": "X",
+      "SPIN_STRT_DVSN_VAL": 73,
+      "sub_type": "확정기간연금형",
+      "_raw": {
+        "sub_type": "확정기간연금형",
+        "min_age": 55,
+        "max_age": 110
+      }
+    },
+    {
+      "FPIN_STRT_AG_INQY_CODE": "0",
+      "FPIN_STRT_DVSN_CODE": "0",
+      "FPIN_STRT_DVSN_VAL": 0,
+      "SPIN_STRT_AG_INQY_CODE": "X74",
+      "SPIN_STRT_DVSN_CODE": "X",
+      "SPIN_STRT_DVSN_VAL": 74,
+      "sub_type": "확정기간연금형",
+      "_raw": {
+        "sub_type": "확정기간연금형",
+        "min_age": 55,
+        "max_age": 110
+      }
+    },
+    {
+      "FPIN_STRT_AG_INQY_CODE": "0",
+      "FPIN_STRT_DVSN_CODE": "0",
+      "FPIN_STRT_DVSN_VAL": 0,
+      "SPIN_STRT_AG_INQY_CODE": "X75",
+      "SPIN_STRT_DVSN_CODE": "X",
+      "SPIN_STRT_DVSN_VAL": 75,
+      "sub_type": "확정기간연금형",
+      "_raw": {
+        "sub_type": "확정기간연금형",
+        "min_age": 55,
+        "max_age": 110
+      }
+    },
+    {
+      "FPIN_STRT_AG_INQY_CODE": "0",
+      "FPIN_STRT_DVSN_CODE": "0",
+      "FPIN_STRT_DVSN_VAL": 0,
+      "SPIN_STRT_AG_INQY_CODE": "X76",
+      "SPIN_STRT_DVSN_CODE": "X",
+      "SPIN_STRT_DVSN_VAL": 76,
+      "sub_type": "확정기간연금형",
+      "_raw": {
+        "sub_type": "확정기간연금형",
+        "min_age": 55,
+        "max_age": 110
+      }
+    },
+    {
+      "FPIN_STRT_AG_INQY_CODE": "0",
+      "FPIN_STRT_DVSN_CODE": "0",
+      "FPIN_STRT_DVSN_VAL": 0,
+      "SPIN_STRT_AG_INQY_CODE": "X77",
+      "SPIN_STRT_DVSN_CODE": "X",
+      "SPIN_STRT_DVSN_VAL": 77,
+      "sub_type": "확정기간연금형",
+      "_raw": {
+        "sub_type": "확정기간연금형",
+        "min_age": 55,
+        "max_age": 110
+      }
+    },
+    {
+      "FPIN_STRT_AG_INQY_CODE": "0",
+      "FPIN_STRT_DVSN_CODE": "0",
+      "FPIN_STRT_DVSN_VAL": 0,
+      "SPIN_STRT_AG_INQY_CODE": "X78",
+      "SPIN_STRT_DVSN_CODE": "X",
+      "SPIN_STRT_DVSN_VAL": 78,
+      "sub_type": "확정기간연금형",
+      "_raw": {
+        "sub_type": "확정기간연금형",
+        "min_age": 55,
+        "max_age": 110
+      }
+    },
+    {
+      "FPIN_STRT_AG_INQY_CODE": "0",
+      "FPIN_STRT_DVSN_CODE": "0",
+      "FPIN_STRT_DVSN_VAL": 0,
+      "SPIN_STRT_AG_INQY_CODE": "X79",
+      "SPIN_STRT_DVSN_CODE": "X",
+      "SPIN_STRT_DVSN_VAL": 79,
+      "sub_type": "확정기간연금형",
+      "_raw": {
+        "sub_type": "확정기간연금형",
+        "min_age": 55,
+        "max_age": 110
+      }
+    },
+    {
+      "FPIN_STRT_AG_INQY_CODE": "0",
+      "FPIN_STRT_DVSN_CODE": "0",
+      "FPIN_STRT_DVSN_VAL": 0,
+      "SPIN_STRT_AG_INQY_CODE": "X80",
+      "SPIN_STRT_DVSN_CODE": "X",
+      "SPIN_STRT_DVSN_VAL": 80,
+      "sub_type": "확정기간연금형",
+      "_raw": {
+        "sub_type": "확정기간연금형",
+        "min_age": 55,
+        "max_age": 110
       }
     },
     {
@@ -391,9 +755,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X81",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 81,
-      "sub_type": "2종(계좌이체용)",
+      "sub_type": "확정기간연금형",
       "_raw": {
-        "sub_type": "2종(계좌이체용)",
+        "sub_type": "확정기간연금형",
         "min_age": 55,
         "max_age": 110
       }
@@ -405,9 +769,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X82",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 82,
-      "sub_type": "2종(계좌이체용)",
+      "sub_type": "확정기간연금형",
       "_raw": {
-        "sub_type": "2종(계좌이체용)",
+        "sub_type": "확정기간연금형",
         "min_age": 55,
         "max_age": 110
       }
@@ -419,9 +783,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X83",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 83,
-      "sub_type": "2종(계좌이체용)",
+      "sub_type": "확정기간연금형",
       "_raw": {
-        "sub_type": "2종(계좌이체용)",
+        "sub_type": "확정기간연금형",
         "min_age": 55,
         "max_age": 110
       }
@@ -433,9 +797,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X84",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 84,
-      "sub_type": "2종(계좌이체용)",
+      "sub_type": "확정기간연금형",
       "_raw": {
-        "sub_type": "2종(계좌이체용)",
+        "sub_type": "확정기간연금형",
         "min_age": 55,
         "max_age": 110
       }
@@ -447,9 +811,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X85",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 85,
-      "sub_type": "2종(계좌이체용)",
+      "sub_type": "확정기간연금형",
       "_raw": {
-        "sub_type": "2종(계좌이체용)",
+        "sub_type": "확정기간연금형",
         "min_age": 55,
         "max_age": 110
       }
@@ -461,9 +825,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X86",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 86,
-      "sub_type": "2종(계좌이체용)",
+      "sub_type": "확정기간연금형",
       "_raw": {
-        "sub_type": "2종(계좌이체용)",
+        "sub_type": "확정기간연금형",
         "min_age": 55,
         "max_age": 110
       }
@@ -475,9 +839,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X87",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 87,
-      "sub_type": "2종(계좌이체용)",
+      "sub_type": "확정기간연금형",
       "_raw": {
-        "sub_type": "2종(계좌이체용)",
+        "sub_type": "확정기간연금형",
         "min_age": 55,
         "max_age": 110
       }
@@ -489,9 +853,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X88",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 88,
-      "sub_type": "2종(계좌이체용)",
+      "sub_type": "확정기간연금형",
       "_raw": {
-        "sub_type": "2종(계좌이체용)",
+        "sub_type": "확정기간연금형",
         "min_age": 55,
         "max_age": 110
       }
@@ -503,9 +867,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X89",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 89,
-      "sub_type": "2종(계좌이체용)",
+      "sub_type": "확정기간연금형",
       "_raw": {
-        "sub_type": "2종(계좌이체용)",
+        "sub_type": "확정기간연금형",
         "min_age": 55,
         "max_age": 110
       }
@@ -517,9 +881,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X90",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 90,
-      "sub_type": "2종(계좌이체용)",
+      "sub_type": "확정기간연금형",
       "_raw": {
-        "sub_type": "2종(계좌이체용)",
+        "sub_type": "확정기간연금형",
         "min_age": 55,
         "max_age": 110
       }
@@ -531,9 +895,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X91",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 91,
-      "sub_type": "2종(계좌이체용)",
+      "sub_type": "확정기간연금형",
       "_raw": {
-        "sub_type": "2종(계좌이체용)",
+        "sub_type": "확정기간연금형",
         "min_age": 55,
         "max_age": 110
       }
@@ -545,9 +909,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X92",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 92,
-      "sub_type": "2종(계좌이체용)",
+      "sub_type": "확정기간연금형",
       "_raw": {
-        "sub_type": "2종(계좌이체용)",
+        "sub_type": "확정기간연금형",
         "min_age": 55,
         "max_age": 110
       }
@@ -559,9 +923,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X93",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 93,
-      "sub_type": "2종(계좌이체용)",
+      "sub_type": "확정기간연금형",
       "_raw": {
-        "sub_type": "2종(계좌이체용)",
+        "sub_type": "확정기간연금형",
         "min_age": 55,
         "max_age": 110
       }
@@ -573,9 +937,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X94",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 94,
-      "sub_type": "2종(계좌이체용)",
+      "sub_type": "확정기간연금형",
       "_raw": {
-        "sub_type": "2종(계좌이체용)",
+        "sub_type": "확정기간연금형",
         "min_age": 55,
         "max_age": 110
       }
@@ -587,9 +951,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X95",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 95,
-      "sub_type": "2종(계좌이체용)",
+      "sub_type": "확정기간연금형",
       "_raw": {
-        "sub_type": "2종(계좌이체용)",
+        "sub_type": "확정기간연금형",
         "min_age": 55,
         "max_age": 110
       }
@@ -601,9 +965,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X96",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 96,
-      "sub_type": "2종(계좌이체용)",
+      "sub_type": "확정기간연금형",
       "_raw": {
-        "sub_type": "2종(계좌이체용)",
+        "sub_type": "확정기간연금형",
         "min_age": 55,
         "max_age": 110
       }
@@ -615,9 +979,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X97",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 97,
-      "sub_type": "2종(계좌이체용)",
+      "sub_type": "확정기간연금형",
       "_raw": {
-        "sub_type": "2종(계좌이체용)",
+        "sub_type": "확정기간연금형",
         "min_age": 55,
         "max_age": 110
       }
@@ -629,9 +993,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X98",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 98,
-      "sub_type": "2종(계좌이체용)",
+      "sub_type": "확정기간연금형",
       "_raw": {
-        "sub_type": "2종(계좌이체용)",
+        "sub_type": "확정기간연금형",
         "min_age": 55,
         "max_age": 110
       }
@@ -643,9 +1007,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X99",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 99,
-      "sub_type": "2종(계좌이체용)",
+      "sub_type": "확정기간연금형",
       "_raw": {
-        "sub_type": "2종(계좌이체용)",
+        "sub_type": "확정기간연금형",
         "min_age": 55,
         "max_age": 110
       }
@@ -657,9 +1021,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X100",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 100,
-      "sub_type": "2종(계좌이체용)",
+      "sub_type": "확정기간연금형",
       "_raw": {
-        "sub_type": "2종(계좌이체용)",
+        "sub_type": "확정기간연금형",
         "min_age": 55,
         "max_age": 110
       }
@@ -671,9 +1035,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X101",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 101,
-      "sub_type": "2종(계좌이체용)",
+      "sub_type": "확정기간연금형",
       "_raw": {
-        "sub_type": "2종(계좌이체용)",
+        "sub_type": "확정기간연금형",
         "min_age": 55,
         "max_age": 110
       }
@@ -685,9 +1049,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X102",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 102,
-      "sub_type": "2종(계좌이체용)",
+      "sub_type": "확정기간연금형",
       "_raw": {
-        "sub_type": "2종(계좌이체용)",
+        "sub_type": "확정기간연금형",
         "min_age": 55,
         "max_age": 110
       }
@@ -699,9 +1063,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X103",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 103,
-      "sub_type": "2종(계좌이체용)",
+      "sub_type": "확정기간연금형",
       "_raw": {
-        "sub_type": "2종(계좌이체용)",
+        "sub_type": "확정기간연금형",
         "min_age": 55,
         "max_age": 110
       }
@@ -713,9 +1077,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X104",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 104,
-      "sub_type": "2종(계좌이체용)",
+      "sub_type": "확정기간연금형",
       "_raw": {
-        "sub_type": "2종(계좌이체용)",
+        "sub_type": "확정기간연금형",
         "min_age": 55,
         "max_age": 110
       }
@@ -727,9 +1091,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X105",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 105,
-      "sub_type": "2종(계좌이체용)",
+      "sub_type": "확정기간연금형",
       "_raw": {
-        "sub_type": "2종(계좌이체용)",
+        "sub_type": "확정기간연금형",
         "min_age": 55,
         "max_age": 110
       }
@@ -741,9 +1105,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X106",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 106,
-      "sub_type": "2종(계좌이체용)",
+      "sub_type": "확정기간연금형",
       "_raw": {
-        "sub_type": "2종(계좌이체용)",
+        "sub_type": "확정기간연금형",
         "min_age": 55,
         "max_age": 110
       }
@@ -755,9 +1119,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X107",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 107,
-      "sub_type": "2종(계좌이체용)",
+      "sub_type": "확정기간연금형",
       "_raw": {
-        "sub_type": "2종(계좌이체용)",
+        "sub_type": "확정기간연금형",
         "min_age": 55,
         "max_age": 110
       }
@@ -769,9 +1133,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X108",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 108,
-      "sub_type": "2종(계좌이체용)",
+      "sub_type": "확정기간연금형",
       "_raw": {
-        "sub_type": "2종(계좌이체용)",
+        "sub_type": "확정기간연금형",
         "min_age": 55,
         "max_age": 110
       }
@@ -783,9 +1147,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X109",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 109,
-      "sub_type": "2종(계좌이체용)",
+      "sub_type": "확정기간연금형",
       "_raw": {
-        "sub_type": "2종(계좌이체용)",
+        "sub_type": "확정기간연금형",
         "min_age": 55,
         "max_age": 110
       }
@@ -797,9 +1161,9 @@
       "SPIN_STRT_AG_INQY_CODE": "X110",
       "SPIN_STRT_DVSN_CODE": "X",
       "SPIN_STRT_DVSN_VAL": 110,
-      "sub_type": "2종(계좌이체용)",
+      "sub_type": "확정기간연금형",
       "_raw": {
-        "sub_type": "2종(계좌이체용)",
+        "sub_type": "확정기간연금형",
         "min_age": 55,
         "max_age": 110
       }

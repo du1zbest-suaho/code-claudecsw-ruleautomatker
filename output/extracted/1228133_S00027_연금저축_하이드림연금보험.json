@@ -7,881 +7,130 @@
   "image_used": false,
   "raw_data": [
     {
-      "sub_type": "1종(신계약체결용)",
-      "insurance_period": "종신",
-      "payment_period": "5년납"
-    },
-    {
-      "sub_type": "1종(신계약체결용)",
-      "insurance_period": "종신",
-      "payment_period": "6년납"
-    },
-    {
-      "sub_type": "1종(신계약체결용)",
-      "insurance_period": "종신",
-      "payment_period": "7년납"
-    },
-    {
-      "sub_type": "1종(신계약체결용)",
-      "insurance_period": "종신",
-      "payment_period": "8년납"
-    },
-    {
-      "sub_type": "1종(신계약체결용)",
-      "insurance_period": "종신",
-      "payment_period": "9년납"
-    },
-    {
-      "sub_type": "1종(신계약체결용)",
-      "insurance_period": "종신",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "1종(신계약체결용)",
-      "insurance_period": "종신",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "1종(신계약체결용)",
-      "insurance_period": "종신",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "1종(신계약체결용)",
-      "insurance_period": "종신",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "1종(신계약체결용)",
-      "insurance_period": "종신",
-      "payment_period": "55세납"
-    },
-    {
-      "sub_type": "1종(신계약체결용)",
-      "insurance_period": "종신",
-      "payment_period": "56세납"
-    },
-    {
-      "sub_type": "1종(신계약체결용)",
-      "insurance_period": "종신",
-      "payment_period": "57세납"
-    },
-    {
-      "sub_type": "1종(신계약체결용)",
-      "insurance_period": "종신",
-      "payment_period": "58세납"
-    },
-    {
-      "sub_type": "1종(신계약체결용)",
       "insurance_period": "종신",
       "payment_period": "59세납"
     },
     {
-      "sub_type": "1종(신계약체결용)",
-      "insurance_period": "종신",
-      "payment_period": "60세납"
-    },
-    {
-      "sub_type": "1종(신계약체결용)",
-      "insurance_period": "종신",
-      "payment_period": "61세납"
-    },
-    {
-      "sub_type": "1종(신계약체결용)",
-      "insurance_period": "종신",
-      "payment_period": "62세납"
-    },
-    {
-      "sub_type": "1종(신계약체결용)",
-      "insurance_period": "종신",
-      "payment_period": "63세납"
-    },
-    {
-      "sub_type": "1종(신계약체결용)",
-      "insurance_period": "종신",
-      "payment_period": "64세납"
-    },
-    {
-      "sub_type": "1종(신계약체결용)",
       "insurance_period": "종신",
       "payment_period": "65세납"
     },
     {
-      "sub_type": "1종(신계약체결용)",
-      "insurance_period": "종신",
-      "payment_period": "66세납"
-    },
-    {
-      "sub_type": "1종(신계약체결용)",
-      "insurance_period": "종신",
-      "payment_period": "67세납"
-    },
-    {
-      "sub_type": "1종(신계약체결용)",
-      "insurance_period": "종신",
-      "payment_period": "68세납"
-    },
-    {
-      "sub_type": "1종(신계약체결용)",
       "insurance_period": "종신",
       "payment_period": "69세납"
     },
     {
-      "sub_type": "1종(신계약체결용)",
-      "insurance_period": "종신",
-      "payment_period": "70세납"
-    },
-    {
-      "sub_type": "1종(신계약체결용)",
-      "insurance_period": "종신",
-      "payment_period": "71세납"
-    },
-    {
-      "sub_type": "1종(신계약체결용)",
-      "insurance_period": "종신",
-      "payment_period": "72세납"
-    },
-    {
-      "sub_type": "1종(신계약체결용)",
-      "insurance_period": "종신",
-      "payment_period": "73세납"
-    },
-    {
-      "sub_type": "1종(신계약체결용)",
-      "insurance_period": "종신",
-      "payment_period": "74세납"
-    },
-    {
-      "sub_type": "1종(신계약체결용)",
-      "insurance_period": "종신",
-      "payment_period": "75세납"
-    },
-    {
-      "sub_type": "1종(신계약체결용)",
-      "insurance_period": "종신",
-      "payment_period": "76세납"
-    },
-    {
-      "sub_type": "1종(신계약체결용)",
-      "insurance_period": "종신",
-      "payment_period": "77세납"
-    },
-    {
-      "sub_type": "1종(신계약체결용)",
       "insurance_period": "종신",
       "payment_period": "78세납"
     },
     {
-      "sub_type": "1종(신계약체결용)",
-      "insurance_period": "종신",
-      "payment_period": "79세납"
-    },
-    {
-      "sub_type": "1종(신계약체결용)",
-      "insurance_period": "종신",
-      "payment_period": "80세납"
-    },
-    {
-      "sub_type": "2종(계좌이체용)",
-      "insurance_period": "종신",
-      "payment_period": "5년납"
-    },
-    {
-      "sub_type": "2종(계좌이체용)",
-      "insurance_period": "종신",
-      "payment_period": "6년납"
-    },
-    {
-      "sub_type": "2종(계좌이체용)",
       "insurance_period": "종신",
       "payment_period": "7년납"
     },
     {
-      "sub_type": "2종(계좌이체용)",
-      "insurance_period": "종신",
-      "payment_period": "8년납"
-    },
-    {
-      "sub_type": "2종(계좌이체용)",
-      "insurance_period": "종신",
-      "payment_period": "9년납"
-    },
-    {
-      "sub_type": "2종(계좌이체용)",
-      "insurance_period": "종신",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "2종(계좌이체용)",
-      "insurance_period": "종신",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "2종(계좌이체용)",
-      "insurance_period": "종신",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "2종(계좌이체용)",
-      "insurance_period": "종신",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "2종(계좌이체용)",
       "insurance_period": "종신",
       "payment_period": "55세납"
     },
     {
-      "sub_type": "2종(계좌이체용)",
-      "insurance_period": "종신",
-      "payment_period": "56세납"
-    },
-    {
-      "sub_type": "2종(계좌이체용)",
-      "insurance_period": "종신",
-      "payment_period": "57세납"
-    },
-    {
-      "sub_type": "2종(계좌이체용)",
-      "insurance_period": "종신",
-      "payment_period": "58세납"
-    },
-    {
-      "sub_type": "2종(계좌이체용)",
-      "insurance_period": "종신",
-      "payment_period": "59세납"
-    },
-    {
-      "sub_type": "2종(계좌이체용)",
-      "insurance_period": "종신",
-      "payment_period": "60세납"
-    },
-    {
-      "sub_type": "2종(계좌이체용)",
-      "insurance_period": "종신",
-      "payment_period": "61세납"
-    },
-    {
-      "sub_type": "2종(계좌이체용)",
-      "insurance_period": "종신",
-      "payment_period": "62세납"
-    },
-    {
-      "sub_type": "2종(계좌이체용)",
-      "insurance_period": "종신",
-      "payment_period": "63세납"
-    },
-    {
-      "sub_type": "2종(계좌이체용)",
       "insurance_period": "종신",
       "payment_period": "64세납"
     },
     {
-      "sub_type": "2종(계좌이체용)",
-      "insurance_period": "종신",
-      "payment_period": "65세납"
-    },
-    {
-      "sub_type": "2종(계좌이체용)",
-      "insurance_period": "종신",
-      "payment_period": "66세납"
-    },
-    {
-      "sub_type": "2종(계좌이체용)",
-      "insurance_period": "종신",
-      "payment_period": "67세납"
-    },
-    {
-      "sub_type": "2종(계좌이체용)",
-      "insurance_period": "종신",
-      "payment_period": "68세납"
-    },
-    {
-      "sub_type": "2종(계좌이체용)",
-      "insurance_period": "종신",
-      "payment_period": "69세납"
-    },
-    {
-      "sub_type": "2종(계좌이체용)",
-      "insurance_period": "종신",
-      "payment_period": "70세납"
-    },
-    {
-      "sub_type": "2종(계좌이체용)",
-      "insurance_period": "종신",
-      "payment_period": "71세납"
-    },
-    {
-      "sub_type": "2종(계좌이체용)",
-      "insurance_period": "종신",
-      "payment_period": "72세납"
-    },
-    {
-      "sub_type": "2종(계좌이체용)",
-      "insurance_period": "종신",
-      "payment_period": "73세납"
-    },
-    {
-      "sub_type": "2종(계좌이체용)",
-      "insurance_period": "종신",
-      "payment_period": "74세납"
-    },
-    {
-      "sub_type": "2종(계좌이체용)",
-      "insurance_period": "종신",
-      "payment_period": "75세납"
-    },
-    {
-      "sub_type": "2종(계좌이체용)",
-      "insurance_period": "종신",
-      "payment_period": "76세납"
-    },
-    {
-      "sub_type": "2종(계좌이체용)",
-      "insurance_period": "종신",
-      "payment_period": "77세납"
-    },
-    {
-      "sub_type": "2종(계좌이체용)",
-      "insurance_period": "종신",
-      "payment_period": "78세납"
-    },
-    {
-      "sub_type": "2종(계좌이체용)",
-      "insurance_period": "종신",
-      "payment_period": "79세납"
-    },
-    {
-      "sub_type": "2종(계좌이체용)",
       "insurance_period": "종신",
       "payment_period": "80세납"
     },
     {
-      "sub_type": "2종(적립형)",
+      "insurance_period": "종신",
+      "payment_period": "73세납"
+    },
+    {
+      "insurance_period": "종신",
+      "payment_period": "60세납"
+    },
+    {
+      "insurance_period": "종신",
+      "payment_period": "66세납"
+    },
+    {
+      "insurance_period": "종신",
+      "payment_period": "75세납"
+    },
+    {
+      "insurance_period": "종신",
+      "payment_period": "71세납"
+    },
+    {
+      "insurance_period": "종신",
+      "payment_period": "61세납"
+    },
+    {
+      "insurance_period": "종신",
+      "payment_period": "20년납"
+    },
+    {
+      "insurance_period": "종신",
+      "payment_period": "76세납"
+    },
+    {
+      "insurance_period": "종신",
+      "payment_period": "79세납"
+    },
+    {
+      "insurance_period": "종신",
+      "payment_period": "15년납"
+    },
+    {
+      "insurance_period": "종신",
+      "payment_period": "62세납"
+    },
+    {
+      "insurance_period": "종신",
+      "payment_period": "57세납"
+    },
+    {
+      "insurance_period": "종신",
+      "payment_period": "70세납"
+    },
+    {
+      "insurance_period": "종신",
+      "payment_period": "58세납"
+    },
+    {
+      "insurance_period": "종신",
+      "payment_period": "67세납"
+    },
+    {
+      "insurance_period": "종신",
+      "payment_period": "68세납"
+    },
+    {
+      "insurance_period": "종신",
+      "payment_period": "74세납"
+    },
+    {
+      "insurance_period": "종신",
+      "payment_period": "56세납"
+    },
+    {
+      "insurance_period": "종신",
+      "payment_period": "72세납"
+    },
+    {
       "insurance_period": "종신",
       "payment_period": "5년납"
     },
     {
-      "sub_type": "2종(적립형)",
-      "insurance_period": "종신",
-      "payment_period": "6년납"
-    },
-    {
-      "sub_type": "2종(적립형)",
-      "insurance_period": "종신",
-      "payment_period": "7년납"
-    },
-    {
-      "sub_type": "2종(적립형)",
-      "insurance_period": "종신",
-      "payment_period": "8년납"
-    },
-    {
-      "sub_type": "2종(적립형)",
-      "insurance_period": "종신",
-      "payment_period": "9년납"
-    },
-    {
-      "sub_type": "2종(적립형)",
       "insurance_period": "종신",
       "payment_period": "10년납"
     },
     {
-      "sub_type": "2종(적립형)",
-      "insurance_period": "종신",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "2종(적립형)",
-      "insurance_period": "종신",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "2종(적립형)",
-      "insurance_period": "종신",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "2종(적립형)",
-      "insurance_period": "종신",
-      "payment_period": "55세납"
-    },
-    {
-      "sub_type": "2종(적립형)",
-      "insurance_period": "종신",
-      "payment_period": "56세납"
-    },
-    {
-      "sub_type": "2종(적립형)",
-      "insurance_period": "종신",
-      "payment_period": "57세납"
-    },
-    {
-      "sub_type": "2종(적립형)",
-      "insurance_period": "종신",
-      "payment_period": "58세납"
-    },
-    {
-      "sub_type": "2종(적립형)",
-      "insurance_period": "종신",
-      "payment_period": "59세납"
-    },
-    {
-      "sub_type": "2종(적립형)",
-      "insurance_period": "종신",
-      "payment_period": "60세납"
-    },
-    {
-      "sub_type": "2종(적립형)",
-      "insurance_period": "종신",
-      "payment_period": "61세납"
-    },
-    {
-      "sub_type": "2종(적립형)",
-      "insurance_period": "종신",
-      "payment_period": "62세납"
-    },
-    {
-      "sub_type": "2종(적립형)",
       "insurance_period": "종신",
       "payment_period": "63세납"
     },
     {
-      "sub_type": "2종(적립형)",
-      "insurance_period": "종신",
-      "payment_period": "64세납"
-    },
-    {
-      "sub_type": "2종(적립형)",
-      "insurance_period": "종신",
-      "payment_period": "65세납"
-    },
-    {
-      "sub_type": "2종(적립형)",
-      "insurance_period": "종신",
-      "payment_period": "66세납"
-    },
-    {
-      "sub_type": "2종(적립형)",
-      "insurance_period": "종신",
-      "payment_period": "67세납"
-    },
-    {
-      "sub_type": "2종(적립형)",
-      "insurance_period": "종신",
-      "payment_period": "68세납"
-    },
-    {
-      "sub_type": "2종(적립형)",
-      "insurance_period": "종신",
-      "payment_period": "69세납"
-    },
-    {
-      "sub_type": "2종(적립형)",
-      "insurance_period": "종신",
-      "payment_period": "70세납"
-    },
-    {
-      "sub_type": "2종(적립형)",
-      "insurance_period": "종신",
-      "payment_period": "71세납"
-    },
-    {
-      "sub_type": "2종(적립형)",
-      "insurance_period": "종신",
-      "payment_period": "72세납"
-    },
-    {
-      "sub_type": "2종(적립형)",
-      "insurance_period": "종신",
-      "payment_period": "73세납"
-    },
-    {
-      "sub_type": "2종(적립형)",
-      "insurance_period": "종신",
-      "payment_period": "74세납"
-    },
-    {
-      "sub_type": "2종(적립형)",
-      "insurance_period": "종신",
-      "payment_period": "75세납"
-    },
-    {
-      "sub_type": "2종(적립형)",
-      "insurance_period": "종신",
-      "payment_period": "76세납"
-    },
-    {
-      "sub_type": "2종(적립형)",
       "insurance_period": "종신",
       "payment_period": "77세납"
-    },
-    {
-      "sub_type": "2종(적립형)",
-      "insurance_period": "종신",
-      "payment_period": "78세납"
-    },
-    {
-      "sub_type": "2종(적립형)",
-      "insurance_period": "종신",
-      "payment_period": "79세납"
-    },
-    {
-      "sub_type": "2종(적립형)",
-      "insurance_period": "종신",
-      "payment_period": "80세납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "5년납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "6년납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "7년납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "8년납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "9년납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "55세납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "56세납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "57세납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "58세납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "59세납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "60세납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "61세납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "62세납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "63세납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "64세납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "65세납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "66세납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "67세납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "68세납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "69세납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "70세납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "71세납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "72세납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "73세납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "74세납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "75세납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "76세납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "77세납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "78세납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "79세납"
-    },
-    {
-      "sub_type": "2종(거치형)",
-      "insurance_period": "종신",
-      "payment_period": "80세납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "5년납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "6년납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "7년납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "8년납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "9년납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "일시납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "55세납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "56세납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "57세납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "58세납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "59세납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "60세납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "61세납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "62세납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "63세납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "64세납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "65세납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "66세납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "67세납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "68세납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "69세납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "70세납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "71세납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "72세납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "73세납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "74세납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "75세납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "76세납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "77세납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "78세납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "79세납"
-    },
-    {
-      "sub_type": "개인형",
-      "insurance_period": "종신",
-      "payment_period": "80세납"
     }
   ],
   "discrepancies": [],
-  "row_count": 175
+  "row_count": 31
 }

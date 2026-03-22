@@ -22,21 +22,6 @@
       "payment_period": "20년납"
     },
     {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "100세만기",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "100세만기",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "간편가입형(0년)",
-      "insurance_period": "100세만기",
-      "payment_period": "20년납"
-    },
-    {
       "sub_type": "간편가입형(2년)",
       "insurance_period": "110세만기",
       "payment_period": "10년납"
@@ -49,21 +34,6 @@
     {
       "sub_type": "간편가입형(2년)",
       "insurance_period": "110세만기",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "간편가입형(2년)",
-      "insurance_period": "100세만기",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "간편가입형(2년)",
-      "insurance_period": "100세만기",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "간편가입형(2년)",
-      "insurance_period": "100세만기",
       "payment_period": "20년납"
     },
     {
@@ -82,21 +52,6 @@
       "payment_period": "20년납"
     },
     {
-      "sub_type": "간편가입형(5년)",
-      "insurance_period": "100세만기",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "간편가입형(5년)",
-      "insurance_period": "100세만기",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "간편가입형(5년)",
-      "insurance_period": "100세만기",
-      "payment_period": "20년납"
-    },
-    {
       "sub_type": "간편가입형(10년)",
       "insurance_period": "110세만기",
       "payment_period": "10년납"
@@ -112,21 +67,6 @@
       "payment_period": "20년납"
     },
     {
-      "sub_type": "간편가입형(10년)",
-      "insurance_period": "100세만기",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "간편가입형(10년)",
-      "insurance_period": "100세만기",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "간편가입형(10년)",
-      "insurance_period": "100세만기",
-      "payment_period": "20년납"
-    },
-    {
       "sub_type": "일반가입형",
       "insurance_period": "110세만기",
       "payment_period": "10년납"
@@ -139,26 +79,11 @@
     {
       "sub_type": "일반가입형",
       "insurance_period": "110세만기",
-      "payment_period": "20년납"
-    },
-    {
-      "sub_type": "일반가입형",
-      "insurance_period": "100세만기",
-      "payment_period": "10년납"
-    },
-    {
-      "sub_type": "일반가입형",
-      "insurance_period": "100세만기",
-      "payment_period": "15년납"
-    },
-    {
-      "sub_type": "일반가입형",
-      "insurance_period": "100세만기",
       "payment_period": "20년납"
     }
   ],
   "discrepancies": [],
-  "row_count": 30,
+  "row_count": 15,
   "coded_rows": [
     {
       "ISRN_TERM": 110,
@@ -203,48 +128,6 @@
       }
     },
     {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "간편가입형(0년)",
-      "_raw": {
-        "sub_type": "간편가입형(0년)",
-        "insurance_period": "100세만기",
-        "payment_period": "10년납"
-      }
-    },
-    {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 15,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N15",
-      "sub_type": "간편가입형(0년)",
-      "_raw": {
-        "sub_type": "간편가입형(0년)",
-        "insurance_period": "100세만기",
-        "payment_period": "15년납"
-      }
-    },
-    {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 20,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N20",
-      "sub_type": "간편가입형(0년)",
-      "_raw": {
-        "sub_type": "간편가입형(0년)",
-        "insurance_period": "100세만기",
-        "payment_period": "20년납"
-      }
-    },
-    {
       "ISRN_TERM": 110,
       "ISRN_TERM_DVSN_CODE": "X",
       "ISRN_TERM_INQY_CODE": "X110",
@@ -283,48 +166,6 @@
       "_raw": {
         "sub_type": "간편가입형(2년)",
         "insurance_period": "110세만기",
-        "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "간편가입형(2년)",
-      "_raw": {
-        "sub_type": "간편가입형(2년)",
-        "insurance_period": "100세만기",
-        "payment_period": "10년납"
-      }
-    },
-    {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 15,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N15",
-      "sub_type": "간편가입형(2년)",
-      "_raw": {
-        "sub_type": "간편가입형(2년)",
-        "insurance_period": "100세만기",
-        "payment_period": "15년납"
-      }
-    },
-    {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 20,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N20",
-      "sub_type": "간편가입형(2년)",
-      "_raw": {
-        "sub_type": "간편가입형(2년)",
-        "insurance_period": "100세만기",
         "payment_period": "20년납"
       }
     },
@@ -371,48 +212,6 @@
       }
     },
     {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "간편가입형(5년)",
-      "_raw": {
-        "sub_type": "간편가입형(5년)",
-        "insurance_period": "100세만기",
-        "payment_period": "10년납"
-      }
-    },
-    {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 15,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N15",
-      "sub_type": "간편가입형(5년)",
-      "_raw": {
-        "sub_type": "간편가입형(5년)",
-        "insurance_period": "100세만기",
-        "payment_period": "15년납"
-      }
-    },
-    {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 20,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N20",
-      "sub_type": "간편가입형(5년)",
-      "_raw": {
-        "sub_type": "간편가입형(5년)",
-        "insurance_period": "100세만기",
-        "payment_period": "20년납"
-      }
-    },
-    {
       "ISRN_TERM": 110,
       "ISRN_TERM_DVSN_CODE": "X",
       "ISRN_TERM_INQY_CODE": "X110",
@@ -455,48 +254,6 @@
       }
     },
     {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "간편가입형(10년)",
-      "_raw": {
-        "sub_type": "간편가입형(10년)",
-        "insurance_period": "100세만기",
-        "payment_period": "10년납"
-      }
-    },
-    {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 15,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N15",
-      "sub_type": "간편가입형(10년)",
-      "_raw": {
-        "sub_type": "간편가입형(10년)",
-        "insurance_period": "100세만기",
-        "payment_period": "15년납"
-      }
-    },
-    {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 20,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N20",
-      "sub_type": "간편가입형(10년)",
-      "_raw": {
-        "sub_type": "간편가입형(10년)",
-        "insurance_period": "100세만기",
-        "payment_period": "20년납"
-      }
-    },
-    {
       "ISRN_TERM": 110,
       "ISRN_TERM_DVSN_CODE": "X",
       "ISRN_TERM_INQY_CODE": "X110",
@@ -535,48 +292,6 @@
       "_raw": {
         "sub_type": "일반가입형",
         "insurance_period": "110세만기",
-        "payment_period": "20년납"
-      }
-    },
-    {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 10,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N10",
-      "sub_type": "일반가입형",
-      "_raw": {
-        "sub_type": "일반가입형",
-        "insurance_period": "100세만기",
-        "payment_period": "10년납"
-      }
-    },
-    {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 15,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N15",
-      "sub_type": "일반가입형",
-      "_raw": {
-        "sub_type": "일반가입형",
-        "insurance_period": "100세만기",
-        "payment_period": "15년납"
-      }
-    },
-    {
-      "ISRN_TERM": 100,
-      "ISRN_TERM_DVSN_CODE": "X",
-      "ISRN_TERM_INQY_CODE": "X100",
-      "PAYM_TERM": 20,
-      "PAYM_TERM_DVSN_CODE": "N",
-      "PAYM_TERM_INQY_CODE": "N20",
-      "sub_type": "일반가입형",
-      "_raw": {
-        "sub_type": "일반가입형",
-        "insurance_period": "100세만기",
         "payment_period": "20년납"
       }
     }

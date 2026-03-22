@@ -55,6 +55,22 @@
       "max_age": 72
     },
     {
+      "sub_type": "2종(기본형)",
+      "insurance_period": "종신",
+      "payment_period": "15년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 68
+    },
+    {
+      "sub_type": "2종(기본형)",
+      "insurance_period": "종신",
+      "payment_period": "15년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 72
+    },
+    {
       "sub_type": "1종(기납입플러스형)",
       "insurance_period": "종신",
       "payment_period": "20년납",
@@ -69,8 +85,24 @@
       "gender": "여자",
       "min_age": 15,
       "max_age": 72
+    },
+    {
+      "sub_type": "2종(기본형)",
+      "insurance_period": "종신",
+      "payment_period": "20년납",
+      "gender": "남자",
+      "min_age": 15,
+      "max_age": 68
+    },
+    {
+      "sub_type": "2종(기본형)",
+      "insurance_period": "종신",
+      "payment_period": "20년납",
+      "gender": "여자",
+      "min_age": 15,
+      "max_age": 72
     }
   ],
   "discrepancies": [],
-  "row_count": 8
+  "row_count": 12
 }
